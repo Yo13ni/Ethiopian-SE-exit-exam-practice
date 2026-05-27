@@ -1,0 +1,992 @@
+[
+  {
+    "n": 1,
+    "text": "",
+    "options": {
+      "A": "(option unclear in OCR)",
+      "B": "Big-Oh notation",
+      "C": "Big-Omega notation",
+      "D": "All How many different types of constructors there A"
+    }
+  },
+  {
+    "n": 2,
+    "text": "What is the algorithm complexity of Binary search algorithm",
+    "options": {
+      "A": "(option unclear in OCR)",
+      "B": "ocn)",
+      "C": "(option unclear in OCR)",
+      "D": "O(Logn)"
+    }
+  },
+  {
+    "n": 3,
+    "text": "Assume you have an algorithm which has time function 2n+3n2 + logn+nlogn+nl , then complexity order of your algorithm is",
+    "options": {
+      "A": "(option unclear in OCR)",
+      "B": "O(n2)",
+      "C": "O(logn) o",
+      "D": "O(nlogn) PR EVIOUS PAGE"
+    }
+  },
+  {
+    "n": 4,
+    "text": "What would be the Algorithm complexity to add a node at the end of singly linked list, if the pointer is initially pointing to the head of the list",
+    "options": {
+      "A": "(option unclear in OCR)",
+      "B": "(option unclear in OCR)",
+      "C": "(option unclear in OCR)",
+      "D": "(option unclear in OCR)"
+    }
+  },
+  {
+    "n": 5,
+    "text": "A linear list in which the last node points to the first node is",
+    "options": {
+      "A": "Tree",
+      "B": "Doubly linked list",
+      "C": "Circular linked list",
+      "D": "Singly linked list"
+    }
+  },
+  {
+    "n": 6,
+    "text": "Which C++ operator allocate memory dynamically",
+    "options": {
+      "A": "new",
+      "B": "struct",
+      "C": "create",
+      "D": "delete"
+    }
+  },
+  {
+    "n": 7,
+    "text": "Which data structure is more appropriate to implement recursive algorithms",
+    "options": {
+      "A": "Stack",
+      "B": "Tree",
+      "C": "Queue",
+      "D": "Linked list"
+    }
+  },
+  {
+    "n": 8,
+    "text": "Which data structure is suitable to represent hierarchical relationship between elements",
+    "options": {
+      "A": "Tree",
+      "B": "Priority",
+      "C": "Graph",
+      "D": "Dequeue"
+    }
+  },
+  {
+    "n": 9,
+    "text": "Which one is valid identifier",
+    "options": {
+      "A": "int",
+      "B": "(option unclear in OCR)",
+      "C": "(option unclear in OCR)",
+      "D": "(option unclear in OCR)"
+    }
+  },
+  {
+    "n": 10,
+    "text": "What is the output of the program? for fint continue; cout< D. 1.2",
+    "options": {
+      "A": "(option unclear in OCR)",
+      "B": "(option unclear in OCR)",
+      "C": "(option unclear in OCR)",
+      "D": "(option unclear in OCR)"
+    }
+  },
+  {
+    "n": 11,
+    "text": "What will be the output of the following code? void flint &amp;i) i-i*5; int main0 int i=5; cout<<i<<endl;",
+    "options": {
+      "A": "(option unclear in OCR)",
+      "B": "25",
+      "C": "(option unclear in OCR)",
+      "D": "20 https:.// / & &page= 10 p wm"
+    }
+  },
+  {
+    "n": 12,
+    "text": "Which one is the correct function calling for the function name sum and two input numl and num2",
+    "options": {
+      "A": "int sum(numl, num2): o o https:.// / & &page= 11",
+      "B": "sum(numl, num2); int sum(int num Ir int num2);",
+      "C": "(option unclear in OCR)",
+      "D": "sum(int num 1, int num2);"
+    }
+  },
+  {
+    "n": 13,
+    "text": "Which one of the following is true about array",
+    "options": {
+      "A": "We cannot assign one array to other array",
+      "B": "the index of the last element of array is equal to array Size",
+      "C": "It is illegal to refer an element of array outside of the array bounds",
+      "D": "All of the above"
+    }
+  },
+  {
+    "n": 14,
+    "text": "Which one is true for accessing and processing of array elements",
+    "options": {
+      "A": "DataTypename arrayname [array size]:",
+      "B": "DataTypename arrayname [index];",
+      "C": "All . Arrayname[index];",
+      "D": "(option unclear in OCR)"
+    }
+  },
+  {
+    "n": 15,
+    "text": "From the following which can be fully describe about Run time polymorphism",
+    "options": {
+      "A": "It can achieved by virtual functions and pointers o",
+      "B": "It proVides fest execution because the method that needs to be executed is at the compile time",
+      "C": "It can have more than one methods share the same name with different parameters or signature and different return type",
+      "D": "It is less flexible as all things execute at"
+    }
+  },
+  {
+    "n": 16,
+    "text": "Which can be the incorrect characteristics or features of constructor in Java",
+    "options": {
+      "A": "The constructor should have any return type even void also because if there is a no return type then JVM would consider as a method, not a constructor o",
+      "B": "It is always called and executed only once per object, This means that when an abject of a class is created. constructor iS called, when we create second object the constructor is again called during the second time",
+      "C": "Java constructor may or may not contain parameters, Parameters are locel variables to receive value (data) from outside into a constructor",
+      "D": "Constructor name must be exactly the same as the class name in which it is defined. It must end with a pair of simple braces https:.// / & &page= 15 p wm"
+    }
+  },
+  {
+    "n": 17,
+    "text": "Which is among the consequences of inheritance",
+    "options": {
+      "A": "The relationship between objects is clear and well-defined",
+      "B": "Changes to the superclass can have far- reaching effects on the subclasses C)",
+      "C": "Changes to one object do not affect other objects in the aggregate o",
+      "D": "Easy to add or remove objects from the supper class"
+    }
+  },
+  {
+    "n": 18,
+    "text": "Of the following one cannot be describe about the difference between Abstract class and Interface in java",
+    "options": {
+      "A": "(option unclear in OCR)",
+      "B": "Interfaces help define the identity of a classe whereas an abstract class defines a class's peripheral abilities (D",
+      "C": "In Interface does not have access modifiers. Everything defined inside the Interface is assumed to have a public modifier. whereas Abstract Class can have an access modifier",
+      "D": "In Interface, a class can implement multiple interfaces, whereas the class can inherit only one Abstract Class https:.// / & &page= 17 p wm"
+    }
+  },
+  {
+    "n": 19,
+    "text": "Which is unique from the following given options",
+    "options": {
+      "A": "Overloading",
+      "B": "Late binding",
+      "C": "Early binding",
+      "D": "Static binding"
+    }
+  },
+  {
+    "n": 20,
+    "text": "eeeeæ 11 eæee https:.// / & &page= 19 Proxy MTProto S ervvar: I SO, be -name-yegane- hasti, stare Port: 443 Secret: . , AM p File Explorer .7",
+    "options": {
+      "A": "ea herf o",
+      "B": "(option unclear in OCR)",
+      "C": "(option unclear in OCR)",
+      "D": "(option unclear in OCR)"
+    }
+  },
+  {
+    "n": 21,
+    "text": "Which is the correct CSS syntax",
+    "options": {
+      "A": "body {color: black}",
+      "B": "(option unclear in OCR)",
+      "C": "body.calor=black",
+      "D": "(option unclear in OCR)"
+    }
+  },
+  {
+    "n": 22,
+    "text": "eeeeæ eæee 25 Hide all YeneTube YeneTube",
+    "options": {
+      "A": "PHP is ane of the client-side scripting language, like JavaScript",
+      "B": "PHP files are returned to the browser as plain HTML text",
+      "C": "PHP is one of an open-source software that supports only MYSQL databases",
+      "D": "can have a file extension of \".pph\", \".pph3\". or \",phmtl\""
+    }
+  },
+  {
+    "n": 23,
+    "text": "Text that, when clicked, sends you to another piece af text or location is called",
+    "options": {
+      "A": "URL",
+      "B": "WWW",
+      "C": "Web sewer",
+      "D": "Hypertext"
+    }
+  },
+  {
+    "n": 24,
+    "text": "which one is a computer program that is responsible for accepting HTTP requests from clients, and serving them HTTP responses",
+    "options": {
+      "A": "Communication network",
+      "B": "Web browsers",
+      "C": "Web Server",
+      "D": "DNS Server"
+    }
+  },
+  {
+    "n": 25,
+    "text": "Which of the following HTML tag displays the enclosed text in bold",
+    "options": {
+      "A": "(option unclear in OCR)",
+      "B": "(option unclear in OCR)",
+      "C": "<strong> o",
+      "D": "<pre> ...r.„ </strong> </pre>"
+    }
+  },
+  {
+    "n": 26,
+    "text": "Which of the following is a type of an input HTML form element, if clicked, clears a form's contents",
+    "options": {
+      "A": "HIDDEN",
+      "B": "CLEAR",
+      "C": "SUBMIT",
+      "D": "RESET PR EVIOUS PAGE"
+    }
+  },
+  {
+    "n": 27,
+    "text": "Which of the following is a JavaScript comment used to enclose multi-line",
+    "options": {
+      "A": "(option unclear in OCR)",
+      "B": "(option unclear in OCR)",
+      "C": "(option unclear in OCR)",
+      "D": "All"
+    }
+  },
+  {
+    "n": 28,
+    "text": "What is the life cycle of services in android",
+    "options": {
+      "A": "onCreate0?>anStartCommand0? >anDestoryO",
+      "B": "finalO C' Service life cycle is same as activity life cycle",
+      "C": "(option unclear in OCR)",
+      "D": "onRecieve0 PR EVIOUS PAGE"
+    }
+  },
+  {
+    "n": 29,
+    "text": "In which direct01Y XML layout files are stored",
+    "options": {
+      "A": "'assets",
+      "B": "/res/layout",
+      "C": "/res/values",
+      "D": "/src"
+    }
+  },
+  {
+    "n": 30,
+    "text": "All layout classes are the subclasses of",
+    "options": {
+      "A": "android-widget",
+      "B": "None",
+      "C": "android,view.view",
+      "D": "android.viewSfiewGroup"
+    }
+  },
+  {
+    "n": 31,
+    "text": "What is Manifest.xml in android",
+    "options": {
+      "A": "It has all the information about an application",
+      "B": "It has information about layout in an application C' It has the information about activities in an application . None",
+      "C": "(option unclear in OCR)",
+      "D": "(option unclear in OCR)"
+    }
+  },
+  {
+    "n": 32,
+    "text": "Which of the following method is used to handle what happens after clicking a button",
+    "options": {
+      "A": "onCreate",
+      "B": "All",
+      "C": "onClick",
+      "D": "onSelect"
+    }
+  },
+  {
+    "n": 33,
+    "text": "Android is based on which Kernal",
+    "options": {
+      "A": "Redhat . Windows",
+      "B": "(option unclear in OCR)",
+      "C": "MAC . Linux",
+      "D": "(option unclear in OCR)"
+    }
+  },
+  {
+    "n": 34,
+    "text": "Which of the following schedule is nat recoverable schedule",
+    "options": {
+      "A": "schedule C:rl 1 „•a2 o",
+      "B": "schedule D:rl",
+      "C": "schedule B: rl 1;c2",
+      "D": "schedule A:"
+    }
+  },
+  {
+    "n": 35,
+    "text": "Which one of the following factors does not affectjoin performance",
+    "options": {
+      "A": "None of the above",
+      "B": "Available buffer space",
+      "C": "Choice of inner VS outer relation",
+      "D": "Join selection factor"
+    }
+  },
+  {
+    "n": 36,
+    "text": "Which of the following statement is false",
+    "options": {
+      "A": "If the file is ordered implementing a select operation using linear search algorithm is more efficient than Binary search",
+      "B": "All",
+      "C": "Disjunctive selection conditions are much harder to process and optimize than conjunctive selection conditions",
+      "D": "Join operation is one of the most time consuming operations in query processing"
+    }
+  },
+  {
+    "n": 37,
+    "text": "If a transaction may release locks but may not obtain locks then it is in which phase",
+    "options": {
+      "A": "Deadlock phase o",
+      "B": "Growing phase",
+      "C": "Shrinking phase o",
+      "D": "Starved phase"
+    }
+  },
+  {
+    "n": 38,
+    "text": "Concurrency problem that occurs when ane transaction is allowed to see the intermediate results of another transaction before it has committed, which will be failed for some reason is called",
+    "options": {
+      "A": "(option unclear in OCR)",
+      "B": "Lost update problem",
+      "C": "Oilty Read Problem",
+      "D": "Incorrect summery Problem"
+    }
+  },
+  {
+    "n": 39,
+    "text": "If a transaction does not modify the database until it has committed, it is said to use which technique",
+    "options": {
+      "A": "Undo",
+      "B": "Deferred modification",
+      "C": "Late modification",
+      "D": "Immediate modification PR EVIOUS PAGE"
+    }
+  },
+  {
+    "n": 40,
+    "text": "What is the prefix length notation for the subnet mask 255.25±255.248",
+    "options": {
+      "A": "(option unclear in OCR)",
+      "B": "a/28 C.a/30",
+      "C": "(option unclear in OCR)",
+      "D": "3/29"
+    }
+  },
+  {
+    "n": 41,
+    "text": "",
+    "options": {
+      "A": "(option unclear in OCR)",
+      "B": "(option unclear in OCR)",
+      "C": "1,243,",
+      "D": "6, 142.3, 5"
+    }
+  },
+  {
+    "n": 42,
+    "text": "A threat is",
+    "options": {
+      "A": "All",
+      "B": "The potential danger to information or systems",
+      "C": "Try to gain illegal access to electronic data stored on a computer or a network",
+      "D": "Flaws in a computer system that weaken the overall security of the device or system"
+    }
+  },
+  {
+    "n": 43,
+    "text": "o o a. Heuristic processing b. Pattern matching c, Cognitive science d Relative symbolism PR EVIOUS PAGE",
+    "options": {
+      "A": "Heuristic processing",
+      "B": "Pattern matching",
+      "C": "Cognitive science d Relative symbolism PR EVIOUS PAGE",
+      "D": "(option unclear in OCR)"
+    }
+  },
+  {
+    "n": 44,
+    "text": "el ements",
+    "options": {
+      "A": "Reference Architecture",
+      "B": "Software architecture",
+      "C": "Architectural pattern",
+      "D": "Reference model"
+    }
+  },
+  {
+    "n": 45,
+    "text": "",
+    "options": {
+      "A": "All",
+      "B": "a set of computer programs that produce output that would be considered to reflect intelligence if it were generated by humans o",
+      "C": "The embodiment of human intellectual capabilities within a computer'",
+      "D": "The study of mental faculties with mental models implemented on a computerv"
+    }
+  },
+  {
+    "n": 46,
+    "text": "PR EVIOUS PAGE",
+    "options": {
+      "A": "Planning",
+      "B": "Execution",
+      "C": "Initiation",
+      "D": "Closure PR EVIOUS PAGE"
+    }
+  },
+  {
+    "n": 47,
+    "text": "Boundary value analysis belong to",
+    "options": {
+      "A": "(option unclear in OCR)",
+      "B": "White dox Testing",
+      "C": "Black Box Testing",
+      "D": "Nane of the mentioned"
+    }
+  },
+  {
+    "n": 48,
+    "text": "Consider a system where its database withstands growing numbers of queries\" What kind of NFR the system is providing",
+    "options": {
+      "A": "Maintainability",
+      "B": "Portability",
+      "C": "Reliability",
+      "D": "Scalability PR EVIOUS PAGE"
+    }
+  },
+  {
+    "n": 49,
+    "text": "Decryption and encryption of data are the responsibility of which Layer",
+    "options": {
+      "A": "Presentation",
+      "B": "Data Link",
+      "C": "Network",
+      "D": "Transport"
+    }
+  },
+  {
+    "n": 50,
+    "text": "Denial of Service attacks affects which af the following factors",
+    "options": {
+      "A": "All of the above",
+      "B": "Integrity",
+      "C": "Confidentiality",
+      "D": "Availability"
+    }
+  },
+  {
+    "n": 51,
+    "text": "During project execution, a team member comes to the project manager, as he is not sure of what work he needs ta accomplish an the project, Which af the fallowing documents contain detailed descriptions of work packages? o a. Project scope statement b. Activity list c, was d. Scope management plan",
+    "options": {
+      "A": "(option unclear in OCR)",
+      "B": "(option unclear in OCR)",
+      "C": "(option unclear in OCR)",
+      "D": "(option unclear in OCR)"
+    }
+  },
+  {
+    "n": 52,
+    "text": "Generally, which testing is used when shrink- wrapped software products are being established and part of an integration testing",
+    "options": {
+      "A": "Integration Testing",
+      "B": "Regression Testing",
+      "C": "Smoke testing d Validation testing PR EVIOUS PAGE",
+      "D": "(option unclear in OCR)"
+    }
+  },
+  {
+    "n": 53,
+    "text": "How do you prevent SQL injection",
+    "options": {
+      "A": "Merge tables",
+      "B": "Escape queries",
+      "C": "Interrupt requests",
+      "D": "All"
+    }
+  },
+  {
+    "n": 54,
+    "text": "How many bits are used for IPv6 address",
+    "options": {
+      "A": "48 bits",
+      "B": "128 bits",
+      "C": "16 bits",
+      "D": "32 bits"
+    }
+  },
+  {
+    "n": 55,
+    "text": "magne a you re crea Inga e or app, In addition to simple text editing, your editor can format text, insert inline imagese etc. At some point, you decided to let users undo any operations carried out on the text. This feature has become so common over the years that nowadays people expect every app to have it. For the implementation, you chose to take the direct approach. Before performing any operation, the app records the state of all objects and saves it in some storage. Later, when a user decides to revert an action, the app fetches the latest snapshot from the history and uses it to restore the state of all objects. Choose the best design pattern that best suits for the problem mentioned",
+    "options": {
+      "A": "Mediator . Memento",
+      "B": "(option unclear in OCR)",
+      "C": "Observer d Iterator eeeæ eeeee eeeeg sofeng-2015: Modem 7",
+      "D": "(option unclear in OCR)"
+    }
+  },
+  {
+    "n": 56,
+    "text": "In Big Data environments, Velocity refers",
+    "options": {
+      "A": "Enormous datasets can accumulate within very short periods of time",
+      "B": "Velocity of data translates into the amount of time it takes for the data to be processed o",
+      "C": "Data can arrive at fast speed",
+      "D": "All of the mentioned above"
+    }
+  },
+  {
+    "n": 57,
+    "text": "In the model-view-controller architectural style, the jab of a model component is to",
+    "options": {
+      "A": "Change the way a view responds to user input",
+      "B": "Store information about the state of the program o",
+      "C": "Present information to the user",
+      "D": "Make requests of the server"
+    }
+  },
+  {
+    "n": 58,
+    "text": "One common strategy to prevent XSS vulnerabilities is to",
+    "options": {
+      "A": "Avoid using JavaScript in your site",
+      "B": "Escape user's input is valid as soon as possible",
+      "C": "use an interpreted programming language such as Java",
+      "D": "Educate your users to recognize safe vs. unsafe web pages PR EVIOUS PAGE"
+    }
+  },
+  {
+    "n": 59,
+    "text": "Palm scan, fingerprint scan, and iris scan are forms of",
+    "options": {
+      "A": "Two-factor authenticatibn",
+      "B": "Strong authentication",
+      "C": "Biometric authentication",
+      "D": "Single sign-on"
+    }
+  },
+  {
+    "n": 60,
+    "text": "Predicts future trends & behaviors, allowing business managers to make proactive,knowledge-driven decisions",
+    "options": {
+      "A": "Metadata",
+      "B": "Data warehouse",
+      "C": "Data mining d Datamarts PR EVIOUS PAGE",
+      "D": "(option unclear in OCR)"
+    }
+  },
+  {
+    "n": 61,
+    "text": "Search strategy that paves a way to order the choices so that the most promising are explored first",
+    "options": {
+      "A": "Breadth First search",
+      "B": "Uninformed search",
+      "C": "Informed search",
+      "D": "Blind search PR EVIOUS PAGE"
+    }
+  },
+  {
+    "n": 62,
+    "text": "Software requirement specification document should avoid discussing which one of the following",
+    "options": {
+      "A": "Definition of other systems which the system must integrate with",
+      "B": "Information about the application domain of the system",
+      "C": "Algorithm far software implementation",
+      "D": "Constraints on the processes used to develop the system"
+    }
+  },
+  {
+    "n": 63,
+    "text": "The absence or weakness af a safeguard that could be exploited is called",
+    "options": {
+      "A": "Threat",
+      "B": "Vulnerability",
+      "C": "Possibility",
+      "D": "Attack"
+    }
+  },
+  {
+    "n": 64,
+    "text": "The PERT in project management means program evaluation and which technique",
+    "options": {
+      "A": "Review",
+      "B": "Reconsideration",
+      "C": "Reconciliation",
+      "D": "Resource"
+    }
+  },
+  {
+    "n": 65,
+    "text": "The process of transmitting two or more different signals simultaneously on the same medium is called",
+    "options": {
+      "A": "Switching",
+      "B": "Multiplexing cv Segmentation d Layering PR EVIOUS PAGE",
+      "C": "(option unclear in OCR)",
+      "D": "(option unclear in OCR)"
+    }
+  },
+  {
+    "n": 66,
+    "text": "Time Division Multiple access is:",
+    "options": {
+      "A": "Taking tums",
+      "B": "Channel partitioning protocol",
+      "C": "Random access protocol",
+      "D": "Paint-to-point protocol"
+    }
+  },
+  {
+    "n": 67,
+    "text": "What does RAD stand for",
+    "options": {
+      "A": "None of the above",
+      "B": "Rapid Application Development",
+      "C": "Relative Application Development",
+      "D": "Rapid Application Document"
+    }
+  },
+  {
+    "n": 68,
+    "text": "What formula do you use to find the percentage of decision coverage af the code",
+    "options": {
+      "A": "Decision coverage=Number of all the loops outcomes/total number of outcomes *100",
+      "B": "Decision coverage-Number of nodes and edges/total number of outcome* 100",
+      "C": "DeciSion coverage=Number of decision outcomes/total number of outcomes *100 PR EVIOUS PAGE",
+      "D": "(option unclear in OCR)"
+    }
+  },
+  {
+    "n": 69,
+    "text": "What is the aim of nasql",
+    "options": {
+      "A": "NoSQL is not suitable for storing structured data",
+      "B": "NoSQL databases allow staring non- structured data o",
+      "C": "NoSQL is a new data format to stare large datasets",
+      "D": "NoSQL provides an alternative to SQL databases to store textual data"
+    }
+  },
+  {
+    "n": 70,
+    "text": "What is the main task of test planning",
+    "options": {
+      "A": "Determining the test approach",
+      "B": "Measuring and analyzing results",
+      "C": "Preparing the test specification",
+      "D": "Evaluating exit criteria and reporting"
+    }
+  },
+  {
+    "n": 71,
+    "text": "What is the research-oriented software development",
+    "options": {
+      "A": "Process-related problems",
+      "B": "Product-related problems",
+      "C": "People-related problems",
+      "D": "Technology-related problems"
+    }
+  },
+  {
+    "n": 72,
+    "text": "What refers to the value associated with a specific attribute of an object and to any actions or side",
+    "options": {
+      "A": "Object",
+      "B": "None cv State d Interface PR EVIOUS PAGE",
+      "C": "(option unclear in OCR)",
+      "D": "(option unclear in OCR)"
+    }
+  },
+  {
+    "n": 73,
+    "text": "What type of core-relationship is represented by the symbol in the figure below",
+    "options": {
+      "A": "Dependency",
+      "B": "Composition cv Association",
+      "C": "(option unclear in OCR)",
+      "D": "Aggregation"
+    }
+  },
+  {
+    "n": 74,
+    "text": "Which design model depicts how the software communicates with the system that interoperate with it and with the end users",
+    "options": {
+      "A": "Data design",
+      "B": "Component design Architectural design",
+      "C": "(option unclear in OCR)",
+      "D": "Interface design PR EVIOUS PAGE"
+    }
+  },
+  {
+    "n": 75,
+    "text": "Which group of the following environment is more complex than the other for the agent to act appropriately",
+    "options": {
+      "A": "Fully Observable, Deterministic, Episodic, Static, Discrete",
+      "B": "Partially Observable, Episodic, non- deterministic, dynamic, continuous o",
+      "C": "Partially observable, Deterministic, Sequential, Dynamic. Continuous o d Partially Observable, sequentialr non- deterministic, dynamic continuous sofeng-2015: Modem 7",
+      "D": "(option unclear in OCR)"
+    }
+  },
+  {
+    "n": 76,
+    "text": "Which of the below statement is true about the Equivalence Partitioning technique",
+    "options": {
+      "A": "A black box testing technique that can only be used during system testing.",
+      "B": "A black box testing technique appropriate to all levels of testing.",
+      "C": "The black box testing technique is used only by developers.",
+      "D": "A white box testing technique appropriate far component testingr"
+    }
+  },
+  {
+    "n": 77,
+    "text": "Which of the following activity is undertaken immediately after feasibility study and before the requirement analysis and specification phase",
+    "options": {
+      "A": "Project Control",
+      "B": "Project Monitoring o",
+      "C": "Project Scheduling",
+      "D": "Project Planning"
+    }
+  },
+  {
+    "n": 78,
+    "text": "Which of the following are Benefits of Big Data Processing",
+    "options": {
+      "A": "Time Reductions",
+      "B": "Cost Reduction",
+      "C": "All of the mentioned above",
+      "D": "Smarter Business Decisions"
+    }
+  },
+  {
+    "n": 79,
+    "text": "Which of the following does not relate to Evolutionary Process Model",
+    "options": {
+      "A": "All of the above",
+      "B": "Incremental Model",
+      "C": "WINWIN spiral Model",
+      "D": "Concurrent Development Model"
+    }
+  },
+  {
+    "n": 80,
+    "text": "Which of the following is not a NoSQL database",
+    "options": {
+      "A": "SQL Server",
+      "B": "Cassandra",
+      "C": "MongoDB",
+      "D": "None of the above"
+    }
+  },
+  {
+    "n": 81,
+    "text": "Which of the following is not a structural diagrams",
+    "options": {
+      "A": "Profile diagram",
+      "B": "Object diagram",
+      "C": "Class diagram",
+      "D": "Llse case diagram"
+    }
+  },
+  {
+    "n": 82,
+    "text": "Which of the following is not among the guidelines to keep in mind as we document better software requirements",
+    "options": {
+      "A": "Use diagrams appropriately",
+      "B": "Specifry requirements qualitatively",
+      "C": "Keep sentences and paragraphs short",
+      "D": "Avoid stating requirements redundantly PR EVIOUS PAGE"
+    }
+  },
+  {
+    "n": 83,
+    "text": "Which of the following is not test coverage metrics",
+    "options": {
+      "A": "The number of test cases by requirement",
+      "B": "Nane",
+      "C": "Requirements coverage",
+      "D": "The percentage of test execution coverage."
+    }
+  },
+  {
+    "n": 84,
+    "text": "Which of the following is related to the overall functionality of the delivered software",
+    "options": {
+      "A": "None of the mentioned",
+      "B": "Size-related metrics",
+      "C": "Product-related metrics",
+      "D": "Function-related metrics"
+    }
+  },
+  {
+    "n": 85,
+    "text": "Which of the following statement is incorrect about agile manifesto",
+    "options": {
+      "A": "It's recommended to respond to changes in requirements over following the plan",
+      "B": "Contract negotiation over customer collaboration",
+      "C": "Working software is the primary measure of progress",
+      "D": "Working software over comprehensive documentation"
+    }
+  },
+  {
+    "n": 86,
+    "text": "Which of the following term describes testing",
+    "options": {
+      "A": "A stage of all projects b None of the mentioned",
+      "B": "(option unclear in OCR)",
+      "C": "Finding broken code",
+      "D": "Evaluating deliverable to find errors"
+    }
+  },
+  {
+    "n": 87,
+    "text": "Which one of the following is a service provided by the transport layer",
+    "options": {
+      "A": "Process addressing",
+      "B": "Physical addressing",
+      "C": "Host addressing",
+      "D": "Network addressing"
+    }
+  },
+  {
+    "n": 88,
+    "text": "Which one of the following is a subject- oriented, integrated, time-variant, nonvolatile collection of data in support of management decisions",
+    "options": {
+      "A": "Web Mining",
+      "B": "Data Warehousing o",
+      "C": "Text Mining",
+      "D": "Data Mining"
+    }
+  },
+  {
+    "n": 89,
+    "text": "Which one of the following structures is odd",
+    "options": {
+      "A": "Shared data",
+      "B": "Work assignment",
+      "C": "Client server",
+      "D": "Concurrency"
+    }
+  },
+  {
+    "n": 90,
+    "text": "Which search algorithm aims at achieving to minimize the total path cost",
+    "options": {
+      "A": "Greedy search",
+      "B": "Depth-first search",
+      "C": "search",
+      "D": "Breadth-first search"
+    }
+  },
+  {
+    "n": 91,
+    "text": "Which statement is the best characterization of knowledge representation",
+    "options": {
+      "A": "It describes methods and procedures for drawing conclusions on the basis af existing knowledge",
+      "B": "It is concerned With methods and techniques for the storage of knowledge and information in a format that is suitable for treatment by computers",
+      "C": "It relies on the storage of relations between individual items according to a fixed scheme applied to a large collection of elementary items",
+      "D": "It requires a set of formal inference methods and clearly specified syntax and semantics sofeng-2015: Modem"
+    }
+  },
+  {
+    "n": 92,
+    "text": "Which testing technique is used to design the cases af the white box",
+    "options": {
+      "A": "Data flow testing technique",
+      "B": "Statement coverage testing technique",
+      "C": "Branch coverage testing technique",
+      "D": "(option unclear in OCR)"
+    }
+  },
+  {
+    "n": 93,
+    "text": "Which types of traceability information links design and implementation components backs to requirements",
+    "options": {
+      "A": "Forward from traceability",
+      "B": "Backward from traceability",
+      "C": "Backward to traceability d Forward to traceability PR EVIOUS PAGE",
+      "D": "(option unclear in OCR)"
+    }
+  },
+  {
+    "n": 94,
+    "text": "Which is the correct signature to exit thread? #include<pthread.h>",
+    "options": {
+      "A": "void",
+      "B": "int pthread_exit_();",
+      "C": "int pthread_exit(0);",
+      "D": "void pthread_exit(void*rval_ptr);"
+    }
+  },
+  {
+    "n": 95,
+    "text": "Which are not correct primitive system data types",
+    "options": {
+      "A": "cclock t",
+      "B": "size t",
+      "C": "mode t",
+      "D": "ssize t"
+    }
+  },
+  {
+    "n": 96,
+    "text": "How to use [seek function",
+    "options": {
+      "A": "off_t Iseek(int fdr offset int",
+      "B": "<apue.h> offset int offset int o offset, int whence); offset:t 'seek(int fd, whence); int Iseek(int fdr int whence); offset_t Iseek(int fd, whence); off t off t off t",
+      "C": "(option unclear in OCR)",
+      "D": "(option unclear in OCR)"
+    }
+  },
+  {
+    "n": 97,
+    "text": "Which is not true about closing the opened file? *include <fcntl.h> int close(int fd);",
+    "options": {
+      "A": "I : on error",
+      "B": "NULL : on error",
+      "C": "fdt file descriptor",
+      "D": "0 success"
+    }
+  },
+  {
+    "n": 98,
+    "text": "Which is not true about the times 0 system call which retrieves the process time af the running process and its children, in clock ticks? Struct tms{ l; clock-t times (struct tms*bu0;",
+    "options": {
+      "A": "clock_t tms=cutime: //system time consumed by children",
+      "B": "clock_t tms_xtrtime; //user time consumed by children",
+      "C": "clack t consumed o",
+      "D": "clock t consumed tms_stime; // system time tms_utime; // user time PR EVIOUS PAGE"
+    }
+  },
+  {
+    "n": 99,
+    "text": "If the start-up routine were coded in C the call to main could look like",
+    "options": {
+      "A": "exit(argc, argv): o",
+      "B": "main(exit(argc, argv));",
+      "C": "exit(main) o",
+      "D": "argv»;"
+    }
+  }
+]

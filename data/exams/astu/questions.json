@@ -1,0 +1,1550 @@
+{
+  "title": "ASTU Software Engineering MCQs",
+  "source": "ASTU Software Eng.pdf — Software Engineering MCQ bank",
+  "total": 60,
+  "focusGuide": {
+    "Software Engineering": "SDLC phases, process models (Waterfall, Spiral, RAD, Agile), and 4GT.",
+    "Project Management": "COCOMO, estimation, metrics, risk management, and configuration management.",
+    "Software Testing": "Black-box testing, maintenance testing, and quality models.",
+    "Software Architecture": "RUP, behavioral/context models, and reengineering.",
+    "General": "Structured analysis, DFD notation, and software standards."
+  },
+  "questions": [
+    {
+      "examNumber": 1,
+      "id": 1,
+      "topic": "Software Engineering",
+      "text": "What is the first step in the software development lifecycle?",
+      "options": [
+        {
+          "key": "A",
+          "text": "System Design"
+        },
+        {
+          "key": "B",
+          "text": "Coding"
+        },
+        {
+          "key": "C",
+          "text": "System Testing"
+        },
+        {
+          "key": "D",
+          "text": "Preliminary Investigation and Analysis"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Software Engineering): Preliminary Investigation and Analysis"
+    },
+    {
+      "examNumber": 2,
+      "id": 2,
+      "topic": "General",
+      "text": "What does the study of an existing system refer to?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Details of DFD"
+        },
+        {
+          "key": "B",
+          "text": "Feasibility Study"
+        },
+        {
+          "key": "C",
+          "text": "System Analysis"
+        },
+        {
+          "key": "D",
+          "text": "System Planning"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (General): System Analysis"
+    },
+    {
+      "examNumber": 3,
+      "id": 3,
+      "topic": "Software Engineering",
+      "text": "Which of the following is involved in the system planning and designing phase of the Software Development Life Cycle (SDLC)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sizing"
+        },
+        {
+          "key": "B",
+          "text": "Parallel run"
+        },
+        {
+          "key": "C",
+          "text": "Specification freeze"
+        },
+        {
+          "key": "D",
+          "text": "All of the above"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Software Engineering): All of the above"
+    },
+    {
+      "examNumber": 4,
+      "id": 4,
+      "topic": "Software Engineering",
+      "text": "What does RAD stand for?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Rapid Application Document"
+        },
+        {
+          "key": "B",
+          "text": "Rapid Application Development"
+        },
+        {
+          "key": "C",
+          "text": "Relative Application Development"
+        },
+        {
+          "key": "D",
+          "text": "None of the above"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Engineering): Rapid Application Development"
+    },
+    {
+      "examNumber": 5,
+      "id": 5,
+      "topic": "Software Engineering",
+      "text": "Which of the following prototypes does not associated with Prototyping Model?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Domain Prototype"
+        },
+        {
+          "key": "B",
+          "text": "Vertical Prototype"
+        },
+        {
+          "key": "C",
+          "text": "Horizontal Prototype"
+        },
+        {
+          "key": "D",
+          "text": "Diagonal Prototype"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Software Engineering): Diagonal Prototype"
+    },
+    {
+      "examNumber": 6,
+      "id": 6,
+      "topic": "Software Engineering",
+      "text": "The major drawback of RAD model is __________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "It requires highly skilled developers/designers."
+        },
+        {
+          "key": "B",
+          "text": "It necessitates customer feedbacks."
+        },
+        {
+          "key": "C",
+          "text": "It increases the component reusability."
+        },
+        {
+          "key": "D",
+          "text": "Both (a) & (c)"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Software Engineering): Both (a) & (c)"
+    },
+    {
+      "examNumber": 7,
+      "id": 7,
+      "topic": "Software Architecture",
+      "text": "Which of the following does not relate to Evolutionary Process Model?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Incremental Model"
+        },
+        {
+          "key": "B",
+          "text": "Concurrent Development Model"
+        },
+        {
+          "key": "C",
+          "text": "WINWIN Spiral Model"
+        },
+        {
+          "key": "D",
+          "text": "All of the above"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Software Architecture): All of the above"
+    },
+    {
+      "examNumber": 8,
+      "id": 8,
+      "topic": "Software Architecture",
+      "text": "What is the major drawback of the Spiral Model?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Higher amount of risk analysis"
+        },
+        {
+          "key": "B",
+          "text": "Doesn't work well for smaller projects"
+        },
+        {
+          "key": "C",
+          "text": "Additional functionalities are added later on"
+        },
+        {
+          "key": "D",
+          "text": "Strong approval and documentation control"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Architecture): Doesn't work well for smaller projects"
+    },
+    {
+      "examNumber": 9,
+      "id": 9,
+      "topic": "Software Engineering",
+      "text": "Model selection is based on __________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Requirements"
+        },
+        {
+          "key": "B",
+          "text": "Development team & users"
+        },
+        {
+          "key": "C",
+          "text": "Project type & associated risk"
+        },
+        {
+          "key": "D",
+          "text": "All of the above"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Software Engineering): All of the above"
+    },
+    {
+      "examNumber": 10,
+      "id": 10,
+      "topic": "Software Engineering",
+      "text": "Which of the following option is correct?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The prototyping model facilitates the reusability of components."
+        },
+        {
+          "key": "B",
+          "text": "RAD Model facilitates reusability of components"
+        },
+        {
+          "key": "C",
+          "text": "Both RAD & Prototyping Model facilitates reusability of components"
+        },
+        {
+          "key": "D",
+          "text": "None"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Software Engineering): Both RAD & Prototyping Model facilitates reusability of components"
+    },
+    {
+      "examNumber": 11,
+      "id": 11,
+      "topic": "Software Engineering",
+      "text": "Which of the following models doesn't necessitate defining requirements at the earliest in the lifecycle?",
+      "options": [
+        {
+          "key": "A",
+          "text": "RAD & Waterfall"
+        },
+        {
+          "key": "B",
+          "text": "Prototyping & Waterfall"
+        },
+        {
+          "key": "C",
+          "text": "Spiral & Prototyping"
+        },
+        {
+          "key": "D",
+          "text": "Spiral & RAD"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Software Engineering): Spiral & Prototyping"
+    },
+    {
+      "examNumber": 12,
+      "id": 12,
+      "topic": "Software Engineering",
+      "text": "When the user participation isn't involved, which of the following models will not result in the desired output?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Prototyping & Waterfall"
+        },
+        {
+          "key": "B",
+          "text": "Prototyping & RAD"
+        },
+        {
+          "key": "C",
+          "text": "Prototyping & Spiral"
+        },
+        {
+          "key": "D",
+          "text": "RAD & Spiral"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Engineering): Prototyping & RAD"
+    },
+    {
+      "examNumber": 13,
+      "id": 13,
+      "topic": "Software Engineering",
+      "text": "Which of the following model will be preferred by a company that is planning to deploy an advanced version of the existing software in the market?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Spiral"
+        },
+        {
+          "key": "B",
+          "text": "Iterative Enhancement"
+        },
+        {
+          "key": "C",
+          "text": "RAD"
+        },
+        {
+          "key": "D",
+          "text": "Both (b) and (c)"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Software Engineering): Both (b) and (c)"
+    },
+    {
+      "examNumber": 14,
+      "id": 14,
+      "topic": "Software Engineering",
+      "text": "Arrange the following activities for making a software product by utilizing 4GT. I. Design strategy II. Transformation into product III. Implementation IV. Requirement gathering",
+      "options": [
+        {
+          "key": "A",
+          "text": "4, 1, 3, 2"
+        },
+        {
+          "key": "B",
+          "text": "4, 3, 2, 1"
+        },
+        {
+          "key": "C",
+          "text": "1, 2, 3, 4"
+        },
+        {
+          "key": "D",
+          "text": "1, 4, 2, 3"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Software Engineering): 4, 1, 3, 2"
+    },
+    {
+      "examNumber": 15,
+      "id": 15,
+      "topic": "Software Testing",
+      "text": "Which of the following is an example of Black Box and Functional Processing?",
+      "options": [
+        {
+          "key": "A",
+          "text": "First Generation Language"
+        },
+        {
+          "key": "B",
+          "text": "Second Generation Language"
+        },
+        {
+          "key": "C",
+          "text": "Third Generation Language"
+        },
+        {
+          "key": "D",
+          "text": "Fourth Generation Language"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Software Testing): Fourth Generation Language"
+    },
+    {
+      "examNumber": 16,
+      "id": 16,
+      "topic": "Software Engineering",
+      "text": "__________ is identified as fourth generation language.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Unix shell"
+        },
+        {
+          "key": "B",
+          "text": "C++"
+        },
+        {
+          "key": "C",
+          "text": "COBOL"
+        },
+        {
+          "key": "D",
+          "text": "FORTRAN"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Software Engineering): Unix shell"
+    },
+    {
+      "examNumber": 17,
+      "id": 17,
+      "topic": "Software Engineering",
+      "text": "The productivity of a software engineer can be reduced by using a 4GT.",
+      "options": [
+        {
+          "key": "A",
+          "text": "True"
+        },
+        {
+          "key": "B",
+          "text": "False"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Engineering): False"
+    },
+    {
+      "examNumber": 18,
+      "id": 18,
+      "topic": "Software Engineering",
+      "text": "Which of the following is the main advantage of deploying a 4GT model for producing small-scale products, programs, and applications?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The productivity of software engineers is improved."
+        },
+        {
+          "key": "B",
+          "text": "The time required for developing software is reduced."
+        },
+        {
+          "key": "C",
+          "text": "CASE tools and code generators help the 4GT model by providing a credible solution to their problems."
+        },
+        {
+          "key": "D",
+          "text": "None of the above."
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Engineering): The time required for developing software is reduced."
+    },
+    {
+      "examNumber": 19,
+      "id": 19,
+      "topic": "Software Architecture",
+      "text": "Which of the following model has a major downfall to a software development life cycle in terms of the coding phase?",
+      "options": [
+        {
+          "key": "A",
+          "text": "4GT Model"
+        },
+        {
+          "key": "B",
+          "text": "Waterfall Model"
+        },
+        {
+          "key": "C",
+          "text": "RAD Model"
+        },
+        {
+          "key": "D",
+          "text": "Spiral Model"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Software Architecture): 4GT Model"
+    },
+    {
+      "examNumber": 20,
+      "id": 20,
+      "topic": "Software Engineering",
+      "text": "Which of the following falls under the category of software products?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Firmware, CAD"
+        },
+        {
+          "key": "B",
+          "text": "Embedded, CAM"
+        },
+        {
+          "key": "C",
+          "text": "Customized, Generic"
+        },
+        {
+          "key": "D",
+          "text": "CAD, Embedded"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Software Engineering): Customized, Generic"
+    },
+    {
+      "examNumber": 21,
+      "id": 21,
+      "topic": "Software Engineering",
+      "text": "Software maintenance costs are expensive in contrast to software development.",
+      "options": [
+        {
+          "key": "A",
+          "text": "True"
+        },
+        {
+          "key": "B",
+          "text": "False"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Software Engineering): True"
+    },
+    {
+      "examNumber": 22,
+      "id": 22,
+      "topic": "Software Engineering",
+      "text": "Which of the following activities of the generic process framework delivers a feedback report?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Deployment"
+        },
+        {
+          "key": "B",
+          "text": "Planning"
+        },
+        {
+          "key": "C",
+          "text": "Modeling"
+        },
+        {
+          "key": "D",
+          "text": "Construction"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Software Engineering): Deployment"
+    },
+    {
+      "examNumber": 23,
+      "id": 23,
+      "topic": "Software Engineering",
+      "text": "Which of the following refers to internal software equality?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Scalability"
+        },
+        {
+          "key": "B",
+          "text": "Reusability"
+        },
+        {
+          "key": "C",
+          "text": "Reliability"
+        },
+        {
+          "key": "D",
+          "text": "Usability"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Engineering): Reusability"
+    },
+    {
+      "examNumber": 24,
+      "id": 24,
+      "topic": "Software Architecture",
+      "text": "RUP is abbreviated as __________, invented by a division of __________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Rational Unified Process, IBM"
+        },
+        {
+          "key": "B",
+          "text": "Rational Unified Program, IBM"
+        },
+        {
+          "key": "C",
+          "text": "Rational Unified Process, Infosys"
+        },
+        {
+          "key": "D",
+          "text": "Rational Unified Program, Infosys"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Software Architecture): Rational Unified Process, IBM"
+    },
+    {
+      "examNumber": 25,
+      "id": 25,
+      "topic": "Software Architecture",
+      "text": "The RUP can be defined based on three main perspectives, i.e., static, dynamic & practice. What is the purpose of static perspective?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It recommends some good practices that be included while carrying out the process."
+        },
+        {
+          "key": "B",
+          "text": "It displays all the enacted process activities."
+        },
+        {
+          "key": "C",
+          "text": "It portrays the phases that the model has entered over a specific time."
+        },
+        {
+          "key": "D",
+          "text": "All of the above."
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Architecture): It displays all the enacted process activities."
+    },
+    {
+      "examNumber": 26,
+      "id": 26,
+      "topic": "General",
+      "text": "Which one of the following activities is not recommended for software processes in software engineering?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Software Evolution"
+        },
+        {
+          "key": "B",
+          "text": "Software Verification"
+        },
+        {
+          "key": "C",
+          "text": "Software Testing & Validation"
+        },
+        {
+          "key": "D",
+          "text": "Software designing"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (General): Software Verification"
+    },
+    {
+      "examNumber": 27,
+      "id": 27,
+      "topic": "Software Engineering",
+      "text": "Arrange the following activities to form a general software engineering process model. I. Manufacture II. Maintain III. Test IV. Install V. Design VI. Specification",
+      "options": [
+        {
+          "key": "A",
+          "text": "6, 5, 1, 3, 4, 2"
+        },
+        {
+          "key": "B",
+          "text": "1, 2, 4, 3, 6, 5"
+        },
+        {
+          "key": "C",
+          "text": "6, 1, 4, 2, 3, 5"
+        },
+        {
+          "key": "D",
+          "text": "1, 6, 5, 2, 3, 4"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Software Engineering): 6, 5, 1, 3, 4, 2"
+    },
+    {
+      "examNumber": 28,
+      "id": 28,
+      "topic": "Software Engineering",
+      "text": "The agile software development model is built based on __________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Linear Development"
+        },
+        {
+          "key": "B",
+          "text": "Incremental Development"
+        },
+        {
+          "key": "C",
+          "text": "Iterative Development"
+        },
+        {
+          "key": "D",
+          "text": "Both Incremental and Iterative Development"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Software Engineering): Both Incremental and Iterative Development"
+    },
+    {
+      "examNumber": 29,
+      "id": 29,
+      "topic": "Software Engineering",
+      "text": "On what basis is plan-driven development different from that of the software development process?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Based on the iterations that occurred within the activities."
+        },
+        {
+          "key": "B",
+          "text": "Based on the output, which is derived after negotiating in the software development process."
+        },
+        {
+          "key": "C",
+          "text": "Based on the interleaved specification, design, testing, and implementation activities."
+        },
+        {
+          "key": "D",
+          "text": "All of the above"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Software Engineering): Based on the iterations that occurred within the activities."
+    },
+    {
+      "examNumber": 30,
+      "id": 30,
+      "topic": "Software Engineering",
+      "text": "Which of the following activities is not applicable to agile software development?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Producing only the essential work products."
+        },
+        {
+          "key": "B",
+          "text": "Utilizing the strategy of incremental product delivery."
+        },
+        {
+          "key": "C",
+          "text": "Abolishing the project planning and testing."
+        },
+        {
+          "key": "D",
+          "text": "All of the above"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Software Engineering): Abolishing the project planning and testing."
+    },
+    {
+      "examNumber": 31,
+      "id": 31,
+      "topic": "Software Engineering",
+      "text": "Which of the following framework activities are carried out in Adaptive Software Development (ASD)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Assumption, Association, Learning"
+        },
+        {
+          "key": "B",
+          "text": "The investigation, Strategy, Coding"
+        },
+        {
+          "key": "C",
+          "text": "Requirements gathering, Adaptive cycle planning, Iterative development"
+        },
+        {
+          "key": "D",
+          "text": "All of the above"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Software Engineering): Assumption, Association, Learning"
+    },
+    {
+      "examNumber": 32,
+      "id": 32,
+      "topic": "Software Architecture",
+      "text": "The __________ model helps in representing the system's dynamic behavior.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Object Model"
+        },
+        {
+          "key": "B",
+          "text": "Context Model"
+        },
+        {
+          "key": "C",
+          "text": "Behavioral Model"
+        },
+        {
+          "key": "D",
+          "text": "Data Model"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Software Architecture): Behavioral Model"
+    },
+    {
+      "examNumber": 33,
+      "id": 33,
+      "topic": "Software Architecture",
+      "text": "Model-driven engineering is nothing but a theoretical concept. It can never be transmuted into a working/executable code.",
+      "options": [
+        {
+          "key": "A",
+          "text": "True"
+        },
+        {
+          "key": "B",
+          "text": "False"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Architecture): False"
+    },
+    {
+      "examNumber": 34,
+      "id": 34,
+      "topic": "Software Architecture",
+      "text": "The __________ and __________ are the two major dimensions encompassed in the Spiral model.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Diagonal, Perpendicular"
+        },
+        {
+          "key": "B",
+          "text": "Perpendicular, Radial"
+        },
+        {
+          "key": "C",
+          "text": "Angular, diagonal"
+        },
+        {
+          "key": "D",
+          "text": "Radial, Angular"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Software Architecture): Radial, Angular"
+    },
+    {
+      "examNumber": 35,
+      "id": 35,
+      "topic": "Software Architecture",
+      "text": "Which of the following technique is involved in certifying the sustained development of legacy systems?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Reengineering"
+        },
+        {
+          "key": "B",
+          "text": "Forward engineering"
+        },
+        {
+          "key": "C",
+          "text": "Reverse engineering"
+        },
+        {
+          "key": "D",
+          "text": "Reverse engineering and Reengineering"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Software Architecture): Reverse engineering and Reengineering"
+    },
+    {
+      "examNumber": 36,
+      "id": 36,
+      "topic": "Software Engineering",
+      "text": "An erroneous system state that results in an unexpected system behavior is acknowledged as?",
+      "options": [
+        {
+          "key": "A",
+          "text": "System failure"
+        },
+        {
+          "key": "B",
+          "text": "Human error or mistake"
+        },
+        {
+          "key": "C",
+          "text": "System error"
+        },
+        {
+          "key": "D",
+          "text": "System fault"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Software Engineering): System error"
+    },
+    {
+      "examNumber": 37,
+      "id": 37,
+      "topic": "General",
+      "text": "What is the name of the approach that follows step-by-step instructions for solving a problem?",
+      "options": [
+        {
+          "key": "A",
+          "text": "An Algorithm"
+        },
+        {
+          "key": "B",
+          "text": "A Plan"
+        },
+        {
+          "key": "C",
+          "text": "A List"
+        },
+        {
+          "key": "D",
+          "text": "Sequential Structure"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (General): An Algorithm"
+    },
+    {
+      "examNumber": 38,
+      "id": 38,
+      "topic": "General",
+      "text": "Which of the following word correctly summarized the importance of software design?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Quality"
+        },
+        {
+          "key": "B",
+          "text": "Complexity"
+        },
+        {
+          "key": "C",
+          "text": "Efficiency"
+        },
+        {
+          "key": "D",
+          "text": "Accuracy"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (General): Quality"
+    },
+    {
+      "examNumber": 39,
+      "id": 39,
+      "topic": "Software Engineering",
+      "text": "Which of the following methodology results in SA/SD features?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Gane and Sarson methodology"
+        },
+        {
+          "key": "B",
+          "text": "DeMarco and Yourdon methodology"
+        },
+        {
+          "key": "C",
+          "text": "Constantine and Yourdon methodology"
+        },
+        {
+          "key": "D",
+          "text": "All of the above"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Software Engineering): All of the above"
+    },
+    {
+      "examNumber": 40,
+      "id": 40,
+      "topic": "Project Management",
+      "text": "__________ is not considered as an activity of Structured Analysis (SA).",
+      "options": [
+        {
+          "key": "A",
+          "text": "Transformation of a textual problem description into a graphic model"
+        },
+        {
+          "key": "B",
+          "text": "Functional decomposition"
+        },
+        {
+          "key": "C",
+          "text": "All the functions represented in the DFD are mapped to a module structure"
+        },
+        {
+          "key": "D",
+          "text": "All of the mentioned"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Project Management): All the functions represented in the DFD are mapped to a module structure"
+    },
+    {
+      "examNumber": 41,
+      "id": 41,
+      "topic": "General",
+      "text": "What does a directed arc or line signify?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Data Flow"
+        },
+        {
+          "key": "B",
+          "text": "Data Process"
+        },
+        {
+          "key": "C",
+          "text": "Data Stores"
+        },
+        {
+          "key": "D",
+          "text": "None of the above"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (General): Data Flow"
+    },
+    {
+      "examNumber": 42,
+      "id": 42,
+      "topic": "General",
+      "text": "What does a data store symbol in the Data Flow Diagram signify?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Logical File"
+        },
+        {
+          "key": "B",
+          "text": "Physical File"
+        },
+        {
+          "key": "C",
+          "text": "Data Structure"
+        },
+        {
+          "key": "D",
+          "text": "All of the above"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (General): All of the above"
+    },
+    {
+      "examNumber": 43,
+      "id": 43,
+      "topic": "Project Management",
+      "text": "__________ is not a direct measure of SE process.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Effort"
+        },
+        {
+          "key": "B",
+          "text": "Cost"
+        },
+        {
+          "key": "C",
+          "text": "Efficiency"
+        },
+        {
+          "key": "D",
+          "text": "All of the above"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Project Management): Efficiency"
+    },
+    {
+      "examNumber": 44,
+      "id": 44,
+      "topic": "Project Management",
+      "text": "What is the main task of project indicators?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To evaluate the ongoing project's status and track possible risks."
+        },
+        {
+          "key": "B",
+          "text": "To evaluate the ongoing project's status."
+        },
+        {
+          "key": "C",
+          "text": "To track potential risks."
+        },
+        {
+          "key": "D",
+          "text": "None of the above"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Project Management): To evaluate the ongoing project's status and track possible risks."
+    },
+    {
+      "examNumber": 45,
+      "id": 45,
+      "topic": "Project Management",
+      "text": "What is the main intent of project metrics?",
+      "options": [
+        {
+          "key": "A",
+          "text": "For strategic purposes"
+        },
+        {
+          "key": "B",
+          "text": "To minimize the development schedule."
+        },
+        {
+          "key": "C",
+          "text": "To evaluate the ongoing project's quality on a daily basis"
+        },
+        {
+          "key": "D",
+          "text": "To minimize the development schedule and evaluate the ongoing project's quality on a daily basis"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Project Management): To minimize the development schedule and evaluate the ongoing project's quality on a daily basis"
+    },
+    {
+      "examNumber": 46,
+      "id": 46,
+      "topic": "Software Testing",
+      "text": "Name the graphical practice that depicts the meaningful changes that occurred in metrics data.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Function point analysis"
+        },
+        {
+          "key": "B",
+          "text": "Control Chart"
+        },
+        {
+          "key": "C",
+          "text": "DRE (Defect Removal Efficiency)"
+        },
+        {
+          "key": "D",
+          "text": "None of the above"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Software Testing): DRE (Defect Removal Efficiency)"
+    },
+    {
+      "examNumber": 47,
+      "id": 47,
+      "topic": "Project Management",
+      "text": "Which parameters are essentially used while computing the software development cost?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hardware and Software Costs"
+        },
+        {
+          "key": "B",
+          "text": "Effort Costs"
+        },
+        {
+          "key": "C",
+          "text": "Travel and Training Costs"
+        },
+        {
+          "key": "D",
+          "text": "All of the above"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Project Management): All of the above"
+    },
+    {
+      "examNumber": 48,
+      "id": 48,
+      "topic": "Software Engineering",
+      "text": "Which of the following is an incorrect activity for the configuration management of a software system?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Change management"
+        },
+        {
+          "key": "B",
+          "text": "System management"
+        },
+        {
+          "key": "C",
+          "text": "Internship management"
+        },
+        {
+          "key": "D",
+          "text": "Version management"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Software Engineering): Internship management"
+    },
+    {
+      "examNumber": 49,
+      "id": 49,
+      "topic": "Project Management",
+      "text": "The project planner examines the statement of scope and extracts all-important software functions, which is known as",
+      "options": [
+        {
+          "key": "A",
+          "text": "Planning process"
+        },
+        {
+          "key": "B",
+          "text": "Decomposition"
+        },
+        {
+          "key": "C",
+          "text": "Association"
+        },
+        {
+          "key": "D",
+          "text": "All of the mentioned"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Project Management): Decomposition"
+    },
+    {
+      "examNumber": 50,
+      "id": 50,
+      "topic": "Project Management",
+      "text": "Which of the following Is not considered as an option for achieving reliable cost and effort estimation?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The ability to translate the size estimate into human effort, calendar time, and dollars"
+        },
+        {
+          "key": "B",
+          "text": "Use relatively simple decomposition techniques to generate project cost and effort estimates."
+        },
+        {
+          "key": "C",
+          "text": "Base estimates on similar projects that have already been completed"
+        },
+        {
+          "key": "D",
+          "text": "Use one or more empirical models for software cost and effort estimation"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Project Management): The ability to translate the size estimate into human effort, calendar time, and dollars"
+    },
+    {
+      "examNumber": 51,
+      "id": 51,
+      "topic": "Project Management",
+      "text": "Which of the following does not complement the decomposition techniques but offers a potential estimation approach for their impersonal growth?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Empirical estimation models"
+        },
+        {
+          "key": "B",
+          "text": "Decomposition techniques"
+        },
+        {
+          "key": "C",
+          "text": "Automated estimation tools"
+        },
+        {
+          "key": "D",
+          "text": "Both empirical estimation models and automated estimation tools"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Project Management): Empirical estimation models"
+    },
+    {
+      "examNumber": 52,
+      "id": 52,
+      "topic": "Project Management",
+      "text": "Which of the following is not included in the total effort cost?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Costs of lunch time food"
+        },
+        {
+          "key": "B",
+          "text": "Costs of support staff"
+        },
+        {
+          "key": "C",
+          "text": "Costs of networking and communications"
+        },
+        {
+          "key": "D",
+          "text": "Costs of air conditioning and lighting in the office space"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Project Management): Costs of lunch time food"
+    },
+    {
+      "examNumber": 53,
+      "id": 53,
+      "topic": "Project Management",
+      "text": "What is developed by utilizing the historical cost function?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Parkinson's Law"
+        },
+        {
+          "key": "B",
+          "text": "Expert judgment"
+        },
+        {
+          "key": "C",
+          "text": "Algorithmic cost modeling"
+        },
+        {
+          "key": "D",
+          "text": "Estimation by analogy"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Project Management): Algorithmic cost modeling"
+    },
+    {
+      "examNumber": 54,
+      "id": 54,
+      "topic": "Software Engineering",
+      "text": "Which of the following model has a misconception that systems are built by utilizing reusable components, scripts, and database programs?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The reuse model"
+        },
+        {
+          "key": "B",
+          "text": "An early designed model"
+        },
+        {
+          "key": "C",
+          "text": "An application-composition model"
+        },
+        {
+          "key": "D",
+          "text": "A post architecture model"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Software Engineering): An application-composition model"
+    },
+    {
+      "examNumber": 55,
+      "id": 55,
+      "topic": "Project Management",
+      "text": "Which of the following is used to predict the effort as a function of LOC or FP?",
+      "options": [
+        {
+          "key": "A",
+          "text": "COCOMO"
+        },
+        {
+          "key": "B",
+          "text": "FP-based estimation"
+        },
+        {
+          "key": "C",
+          "text": "Both COCOMO and FP-based estimation"
+        },
+        {
+          "key": "D",
+          "text": "Process-based estimation"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Project Management): Both COCOMO and FP-based estimation"
+    },
+    {
+      "examNumber": 56,
+      "id": 56,
+      "topic": "Project Management",
+      "text": "Once the requirements are stabilized, the basic architecture of the software can be established. Which of the following version of the COCOMO model conforms to the given statement?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Application composition model"
+        },
+        {
+          "key": "B",
+          "text": "Post-architecture-stage model"
+        },
+        {
+          "key": "C",
+          "text": "Early design stage model"
+        },
+        {
+          "key": "D",
+          "text": "All of the above"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Project Management): Application composition model"
+    },
+    {
+      "examNumber": 57,
+      "id": 57,
+      "topic": "Project Management",
+      "text": "Which of the following threatens the quality and timeliness of the produced software?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Business risks"
+        },
+        {
+          "key": "B",
+          "text": "Potential risks"
+        },
+        {
+          "key": "C",
+          "text": "Technical risks"
+        },
+        {
+          "key": "D",
+          "text": "Known risks"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Project Management): Technical risks"
+    },
+    {
+      "examNumber": 58,
+      "id": 58,
+      "topic": "Project Management",
+      "text": "Which of the following refers to the systematic attempt, which is implemented to ascertain the threats to any project plan?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Performance risk"
+        },
+        {
+          "key": "B",
+          "text": "Risk identification"
+        },
+        {
+          "key": "C",
+          "text": "Risk projection"
+        },
+        {
+          "key": "D",
+          "text": "Support risk"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Project Management): Risk projection"
+    },
+    {
+      "examNumber": 59,
+      "id": 59,
+      "topic": "Software Engineering",
+      "text": "Which of the following standards is used by the aviation industry?",
+      "options": [
+        {
+          "key": "A",
+          "text": "CTRADO-172B"
+        },
+        {
+          "key": "B",
+          "text": "RTCADO-178B"
+        },
+        {
+          "key": "C",
+          "text": "RTRADO-178B"
+        },
+        {
+          "key": "D",
+          "text": "CTCADO-178B"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Engineering): RTCADO-178B"
+    },
+    {
+      "examNumber": 60,
+      "id": 60,
+      "topic": "General",
+      "text": "Third-Party Certification for software standards is based on __________.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ul 1996, Second Edition"
+        },
+        {
+          "key": "B",
+          "text": "Ul 1998, Second Edition"
+        },
+        {
+          "key": "C",
+          "text": "Ul 1992, Second Edition"
+        },
+        {
+          "key": "D",
+          "text": "UT 1998, Second Edition"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (General): Ul 1998, Second Edition"
+    }
+  ]
+}

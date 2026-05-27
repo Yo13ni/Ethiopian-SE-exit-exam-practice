@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <title>Exit Exam Practice</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="app">
+    <section id="screen-home" class="screen active">
+      <div class="card hero">
+        <button class="icon-btn" id="btn-settings" title="Settings">⚙</button>
+        <p class="eyebrow">Exit Exam Simulator</p>
+        <h1>Practice & Exam Mode</h1>
+        <p class="lead">Each exam has a <strong>3-hour timer</strong>. Exam mode hides answers until you submit — just like the real test. Review mode gives detailed explanations.</p>
+        <div id="exam-list" class="exam-list"></div>
+        <ul class="stats">
+          <li id="ai-status">Checking…</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="screen-exam" class="screen">
+      <header class="topbar">
+        <div class="timer-wrap">
+          <span class="timer-label">Time left</span>
+          <span id="timer" class="timer">3:00:00</span>
+        </div>
+        <span id="counter">1 / 100</span>
+        <button class="icon-btn small" id="btn-flag" title="Flag for review">🚩</button>
+      </header>
+      <div class="progress-track full"><div id="bar"></div></div>
+
+      <main class="content">
+        <span id="topic-badge" class="badge"></span>
+        <p id="q-text" class="q-text"></p>
+        <div id="choices" class="choices"></div>
+      </main>
+
+      <footer class="exam-footer">
+        <button class="btn ghost" id="btn-prev">Previous</button>
+        <button class="btn ghost" id="btn-submit-exam">Submit Exam</button>
+        <button class="btn primary" id="btn-next-exam">Next</button>
+      </footer>
+    </section>
+
+    <section id="screen-review" class="screen">
+      <header class="topbar">
+        <div class="progress-track"><div id="review-bar"></div></div>
+        <span id="review-counter">1 / 100</span>
+        <button class="icon-btn small" id="btn-settings-review" title="Settings">⚙</button>
+      </header>
+
+      <main class="content">
+        <span id="review-topic-badge" class="badge"></span>
+        <p id="review-q-text" class="q-text"></p>
+        <div id="review-choices" class="choices"></div>
+
+        <div id="feedback" class="feedback hidden">
+          <div id="result-banner" class="result-banner"></div>
+          <div id="explain-loading" class="loading hidden">
+            <div class="spinner"></div>
+            <span>Loading detailed explanation…</span>
+          </div>
+          <div id="explain-body" class="hidden">
+            <div id="concept" class="concept"></div>
+            <p id="explain-source" class="explain-source"></p>
+            <h3>Detailed breakdown — every choice</h3>
+            <div id="explanations" class="explanations"></div>
+            <p id="study-tip" class="study-tip"></p>
+          </div>
+          <button class="btn primary" id="btn-next-review" disabled>Next Question</button>
+        </div>
+      </main>
+
+      <footer class="exam-footer">
+        <button class="btn ghost" id="btn-prev-review">Previous</button>
+        <button class="btn primary" id="btn-next-review-footer">Next</button>
+      </footer>
+    </section>
+
+    <section id="screen-summary" class="screen">
+      <div class="card">
+        <p class="eyebrow">Exam Complete</p>
+        <div class="big-score" id="final-score">0%</div>
+        <p id="final-text"></p>
+        <p id="summary-date" class="summary-date"></p>
+        <p id="summary-save-warn" class="summary-warn hidden"></p>
+      </div>
+      <div class="card">
+        <h2>Score by Topic</h2>
+        <div id="topic-breakdown"></div>
+      </div>
+      <div class="card">
+        <h2>Focus Here Next</h2>
+        <p class="card-hint">Weakest topics first — study the guides below before retaking.</p>
+        <div id="focus-areas"></div>
+      </div>
+      <div class="card">
+        <h2>Questions You Missed</h2>
+        <div id="review-list"></div>
+      </div>
+      <button class="btn primary" id="btn-review-answers">Review All Answers with Explanations</button>
+      <button class="btn ghost" id="btn-review-missed-only">Review Missed Only</button>
+      <button class="btn ghost" id="btn-back-home">Back to Home</button>
+    </section>
+  </div>
+
+  <dialog id="settings-dialog">
+    <form method="dialog" id="settings-form">
+      <h2>AI Tutor Settings</h2>
+      <p class="dialog-lead">Used in Review mode for detailed explanations. Key stays in your browser only.</p>
+      <label class="field">
+        <span>OpenAI-compatible API Key</span>
+        <input type="password" id="api-key" placeholder="sk-..." autocomplete="off" />
+      </label>
+      <label class="field">
+        <span>API Base URL</span>
+        <input type="text" id="api-base" placeholder="https://api.openai.com/v1" />
+      </label>
+      <label class="field">
+        <span>Model</span>
+        <input type="text" id="api-model" placeholder="gpt-4o-mini" />
+      </label>
+      <label class="checkbox-field">
+        <input type="checkbox" id="use-ai" checked />
+        <span>Use live AI in Review mode</span>
+      </label>
+      <div class="dialog-actions">
+        <button type="button" class="btn ghost" id="btn-clear-key">Clear Key</button>
+        <button type="submit" class="btn primary">Save</button>
+      </div>
+    </form>
+  </dialog>
+
+  <script src="app.js?v=11"></script>
+</body>
+</html>

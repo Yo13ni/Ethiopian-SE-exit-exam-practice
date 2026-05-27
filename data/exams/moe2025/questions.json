@@ -1,0 +1,2624 @@
+{
+  "title": "2025 MoEE Software Engineering Exit Exam",
+  "source": "2025 Ethiopian University Exit Exam for Software Engineering (MoEE blueprint)",
+  "total": 100,
+  "focusGuide": {
+    "Fundamentals of Programming": "Loops, variables, operators, complexity, modular design, Python/Java/C basics.",
+    "Data Structures": "Linked lists, stacks, queues, trees, sorting, graph algorithms, Big-O.",
+    "Java / OOP": "Inheritance, encapsulation, polymorphism, this/super, method overriding.",
+    "Web Development": "HTML, CSS, JavaScript, AJAX, HTTP methods, Django/frameworks.",
+    "Android": "Activities, Intents, Manifest, Java/Kotlin, mobile security.",
+    "Database": "Keys, SQL, normalization, relationships, ACID.",
+    "Operating Systems": "Scheduling, deadlock, paging, mutex, security.",
+    "Software Engineering": "SDLC models, Agile, UML, feasibility, NFRs.",
+    "Software Architecture": "Architecture role, design patterns, quality attributes, UML structure.",
+    "Project Management": "WBS, Gantt, risk, Scrum roles, scheduling.",
+    "Software Testing": "Unit/white-box testing, test cases, QA goals, defects.",
+    "Software Maintenance": "Maintenance types, refactoring, complexity cost, reliability.",
+    "Networking": "OSI model, routing, HTTPS, subnet mask, gateways.",
+    "Security": "Encryption, SQL injection, firewall, MFA, patching.",
+    "AI / ML": "Agents, search, expert systems, supervised/unsupervised, overfitting."
+  },
+  "questions": [
+    {
+      "examNumber": 1,
+      "id": 1,
+      "topic": "Fundamentals of Programming",
+      "text": "What is the primary purpose of a loop in programming?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To declare variables"
+        },
+        {
+          "key": "B",
+          "text": "To execute a block of code repeatedly"
+        },
+        {
+          "key": "C",
+          "text": "To define a function"
+        },
+        {
+          "key": "D",
+          "text": "To handle exceptions"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Fundamentals of Programming): To execute a block of code repeatedly"
+    },
+    {
+      "examNumber": 2,
+      "id": 2,
+      "topic": "Fundamentals of Programming",
+      "text": "In C, what is the output of the code: printf(\"%d\", 5 / 2);?",
+      "options": [
+        {
+          "key": "A",
+          "text": "2.5"
+        },
+        {
+          "key": "B",
+          "text": "2"
+        },
+        {
+          "key": "C",
+          "text": "3"
+        },
+        {
+          "key": "D",
+          "text": "0"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Fundamentals of Programming): 2"
+    },
+    {
+      "examNumber": 3,
+      "id": 3,
+      "topic": "Fundamentals of Programming",
+      "text": "Which of the following is a valid variable name in Python?",
+      "options": [
+        {
+          "key": "A",
+          "text": "1variable"
+        },
+        {
+          "key": "B",
+          "text": "variable_1"
+        },
+        {
+          "key": "C",
+          "text": "variable-1"
+        },
+        {
+          "key": "D",
+          "text": "variable#1"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Fundamentals of Programming): variable_1"
+    },
+    {
+      "examNumber": 4,
+      "id": 4,
+      "topic": "Fundamentals of Programming",
+      "text": "What does the break statement do in a loop?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Skips the current iteration"
+        },
+        {
+          "key": "B",
+          "text": "Exits the loop entirely"
+        },
+        {
+          "key": "C",
+          "text": "Restarts the loop"
+        },
+        {
+          "key": "D",
+          "text": "Continues to the next iteration"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Fundamentals of Programming): Exits the loop entirely"
+    },
+    {
+      "examNumber": 5,
+      "id": 5,
+      "topic": "Fundamentals of Programming",
+      "text": "In Java, which keyword is used to define a constant?",
+      "options": [
+        {
+          "key": "A",
+          "text": "static"
+        },
+        {
+          "key": "B",
+          "text": "final"
+        },
+        {
+          "key": "C",
+          "text": "const"
+        },
+        {
+          "key": "D",
+          "text": "immutable"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Fundamentals of Programming): final"
+    },
+    {
+      "examNumber": 6,
+      "id": 6,
+      "topic": "Fundamentals of Programming",
+      "text": "What is the time complexity of a linear search algorithm?",
+      "options": [
+        {
+          "key": "A",
+          "text": "O(1)"
+        },
+        {
+          "key": "B",
+          "text": "O(n)"
+        },
+        {
+          "key": "C",
+          "text": "O(log n)"
+        },
+        {
+          "key": "D",
+          "text": "O(n²)"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Fundamentals of Programming): O(n)"
+    },
+    {
+      "examNumber": 7,
+      "id": 7,
+      "topic": "Fundamentals of Programming",
+      "text": "Which programming construct allows conditional execution of code?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Loop"
+        },
+        {
+          "key": "B",
+          "text": "Function"
+        },
+        {
+          "key": "C",
+          "text": "If-else statement"
+        },
+        {
+          "key": "D",
+          "text": "Array"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Fundamentals of Programming): If-else statement"
+    },
+    {
+      "examNumber": 8,
+      "id": 8,
+      "topic": "Fundamentals of Programming",
+      "text": "What will be the output of the following Python code: x = 10; print(x > 5 and x < 15)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "True"
+        },
+        {
+          "key": "B",
+          "text": "False"
+        },
+        {
+          "key": "C",
+          "text": "10"
+        },
+        {
+          "key": "D",
+          "text": "Error"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Fundamentals of Programming): True"
+    },
+    {
+      "examNumber": 9,
+      "id": 9,
+      "topic": "Fundamentals of Programming",
+      "text": "Which of the following is NOT a primitive data type in C?",
+      "options": [
+        {
+          "key": "A",
+          "text": "int"
+        },
+        {
+          "key": "B",
+          "text": "float"
+        },
+        {
+          "key": "C",
+          "text": "string"
+        },
+        {
+          "key": "D",
+          "text": "char"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Fundamentals of Programming): string"
+    },
+    {
+      "examNumber": 10,
+      "id": 10,
+      "topic": "Fundamentals of Programming",
+      "text": "What is the purpose of modular programming?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To increase code complexity"
+        },
+        {
+          "key": "B",
+          "text": "To break a program into smaller, manageable functions"
+        },
+        {
+          "key": "C",
+          "text": "To eliminate the need for debugging"
+        },
+        {
+          "key": "D",
+          "text": "To reduce program execution speed"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Fundamentals of Programming): To break a program into smaller, manageable functions"
+    },
+    {
+      "examNumber": 11,
+      "id": 11,
+      "topic": "Fundamentals of Programming",
+      "text": "In a programming problem, you need to swap two variables without using a temporary variable. Which approach works in Python?",
+      "options": [
+        {
+          "key": "A",
+          "text": "a = a + b; b = a - b; a = a - b"
+        },
+        {
+          "key": "B",
+          "text": "a = b; b = a"
+        },
+        {
+          "key": "C",
+          "text": "a, b = b, a"
+        },
+        {
+          "key": "D",
+          "text": "swap(a, b)"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Fundamentals of Programming): a, b = b, a"
+    },
+    {
+      "examNumber": 12,
+      "id": 12,
+      "topic": "Data Structures",
+      "text": "What is the primary advantage of using a linked list over an array?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Faster access time"
+        },
+        {
+          "key": "B",
+          "text": "Dynamic size adjustment"
+        },
+        {
+          "key": "C",
+          "text": "Less memory usage"
+        },
+        {
+          "key": "D",
+          "text": "Constant-time insertion"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Data Structures): Dynamic size adjustment"
+    },
+    {
+      "examNumber": 13,
+      "id": 13,
+      "topic": "Data Structures",
+      "text": "Which data structure operates on a Last-In-First-Out (LIFO) principle?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Queue"
+        },
+        {
+          "key": "B",
+          "text": "Stack"
+        },
+        {
+          "key": "C",
+          "text": "Linked List"
+        },
+        {
+          "key": "D",
+          "text": "Binary Tree"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Data Structures): Stack"
+    },
+    {
+      "examNumber": 14,
+      "id": 14,
+      "topic": "Data Structures",
+      "text": "What is the worst-case time complexity of QuickSort?",
+      "options": [
+        {
+          "key": "A",
+          "text": "O(n log n)"
+        },
+        {
+          "key": "B",
+          "text": "O(n²)"
+        },
+        {
+          "key": "C",
+          "text": "O(n)"
+        },
+        {
+          "key": "D",
+          "text": "O(log n)"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Data Structures): O(n²)"
+    },
+    {
+      "examNumber": 15,
+      "id": 15,
+      "topic": "Data Structures",
+      "text": "Which algorithm is used to find the shortest path in a weighted graph?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Depth-First Search"
+        },
+        {
+          "key": "B",
+          "text": "Breadth-First Search"
+        },
+        {
+          "key": "C",
+          "text": "Dijkstra's Algorithm"
+        },
+        {
+          "key": "D",
+          "text": "Merge Sort"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Data Structures): Dijkstra's Algorithm"
+    },
+    {
+      "examNumber": 16,
+      "id": 16,
+      "topic": "Data Structures",
+      "text": "In a binary search tree, where are nodes with values less than the root stored?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Right subtree"
+        },
+        {
+          "key": "B",
+          "text": "Left subtree"
+        },
+        {
+          "key": "C",
+          "text": "Parent node"
+        },
+        {
+          "key": "D",
+          "text": "Root node"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Data Structures): Left subtree"
+    },
+    {
+      "examNumber": 17,
+      "id": 17,
+      "topic": "Data Structures",
+      "text": "What is the time complexity of inserting an element into a balanced binary search tree?",
+      "options": [
+        {
+          "key": "A",
+          "text": "O(1)"
+        },
+        {
+          "key": "B",
+          "text": "O(n)"
+        },
+        {
+          "key": "C",
+          "text": "O(log n)"
+        },
+        {
+          "key": "D",
+          "text": "O(n²)"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Data Structures): O(log n)"
+    },
+    {
+      "examNumber": 18,
+      "id": 18,
+      "topic": "Java / OOP",
+      "text": "Which OOP principle allows a class to inherit properties from another class?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Encapsulation"
+        },
+        {
+          "key": "B",
+          "text": "Polymorphism"
+        },
+        {
+          "key": "C",
+          "text": "Inheritance"
+        },
+        {
+          "key": "D",
+          "text": "Abstraction"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Java / OOP): Inheritance"
+    },
+    {
+      "examNumber": 19,
+      "id": 19,
+      "topic": "Java / OOP",
+      "text": "What is the purpose of encapsulation in OOP?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To allow multiple inheritance"
+        },
+        {
+          "key": "B",
+          "text": "To hide data and restrict direct access"
+        },
+        {
+          "key": "C",
+          "text": "To enable method overloading"
+        },
+        {
+          "key": "D",
+          "text": "To create abstract classes"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Java / OOP): To hide data and restrict direct access"
+    },
+    {
+      "examNumber": 20,
+      "id": 20,
+      "topic": "Java / OOP",
+      "text": "In Java, which keyword is used to refer to the current object?",
+      "options": [
+        {
+          "key": "A",
+          "text": "this"
+        },
+        {
+          "key": "B",
+          "text": "super"
+        },
+        {
+          "key": "C",
+          "text": "self"
+        },
+        {
+          "key": "D",
+          "text": "instance"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Java / OOP): this"
+    },
+    {
+      "examNumber": 21,
+      "id": 21,
+      "topic": "Java / OOP",
+      "text": "What will be the output of the following Java code?\nclass Animal { void sound() { System.out.println(\"Generic sound\"); } }\nclass Dog extends Animal { void sound() { System.out.println(\"Bark\"); } }\npublic class Main { public static void main(String[] args) { Animal a = new Dog(); a.sound(); } }",
+      "options": [
+        {
+          "key": "A",
+          "text": "Generic sound"
+        },
+        {
+          "key": "B",
+          "text": "Bark"
+        },
+        {
+          "key": "C",
+          "text": "Error"
+        },
+        {
+          "key": "D",
+          "text": "No output"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Java / OOP): Bark"
+    },
+    {
+      "examNumber": 22,
+      "id": 22,
+      "topic": "Java / OOP",
+      "text": "Which of the following is an example of polymorphism?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Defining a variable"
+        },
+        {
+          "key": "B",
+          "text": "Overriding a method in a subclass"
+        },
+        {
+          "key": "C",
+          "text": "Declaring a constant"
+        },
+        {
+          "key": "D",
+          "text": "Creating a loop"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Java / OOP): Overriding a method in a subclass"
+    },
+    {
+      "examNumber": 23,
+      "id": 23,
+      "topic": "Web Development",
+      "text": "Which HTML tag is used to create a hyperlink?",
+      "options": [
+        {
+          "key": "A",
+          "text": "<link>"
+        },
+        {
+          "key": "B",
+          "text": "<a>"
+        },
+        {
+          "key": "C",
+          "text": "<href>"
+        },
+        {
+          "key": "D",
+          "text": "<url>"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Web Development): <a>"
+    },
+    {
+      "examNumber": 24,
+      "id": 24,
+      "topic": "Web Development",
+      "text": "What is the purpose of CSS in web development?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To handle server-side logic"
+        },
+        {
+          "key": "B",
+          "text": "To style and format web pages"
+        },
+        {
+          "key": "C",
+          "text": "To manage databases"
+        },
+        {
+          "key": "D",
+          "text": "To execute JavaScript code"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Web Development): To style and format web pages"
+    },
+    {
+      "examNumber": 25,
+      "id": 25,
+      "topic": "Web Development",
+      "text": "Which JavaScript method is used to add an element to the end of an array?",
+      "options": [
+        {
+          "key": "A",
+          "text": "push()"
+        },
+        {
+          "key": "B",
+          "text": "pop()"
+        },
+        {
+          "key": "C",
+          "text": "shift()"
+        },
+        {
+          "key": "D",
+          "text": "unshift()"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Web Development): push()"
+    },
+    {
+      "examNumber": 26,
+      "id": 26,
+      "topic": "Web Development",
+      "text": "What does AJAX stand for?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Asynchronous JavaScript and XML"
+        },
+        {
+          "key": "B",
+          "text": "Active JavaScript and XML"
+        },
+        {
+          "key": "C",
+          "text": "Asynchronous JSON and XML"
+        },
+        {
+          "key": "D",
+          "text": "Automated JavaScript and XHTML"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Web Development): Asynchronous JavaScript and XML"
+    },
+    {
+      "examNumber": 27,
+      "id": 27,
+      "topic": "Web Development",
+      "text": "Which HTTP method is used to retrieve data from a server?",
+      "options": [
+        {
+          "key": "A",
+          "text": "POST"
+        },
+        {
+          "key": "B",
+          "text": "GET"
+        },
+        {
+          "key": "C",
+          "text": "PUT"
+        },
+        {
+          "key": "D",
+          "text": "DELETE"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Web Development): GET"
+    },
+    {
+      "examNumber": 28,
+      "id": 28,
+      "topic": "Web Development",
+      "text": "In a web application, where is JavaScript typically executed?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Server-side"
+        },
+        {
+          "key": "B",
+          "text": "Client-side"
+        },
+        {
+          "key": "C",
+          "text": "Database"
+        },
+        {
+          "key": "D",
+          "text": "Middleware"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Web Development): Client-side"
+    },
+    {
+      "examNumber": 29,
+      "id": 29,
+      "topic": "Web Development",
+      "text": "What is the output of the following JavaScript code?\nlet x = 5;\nconsole.log(x++ + ++x);",
+      "options": [
+        {
+          "key": "A",
+          "text": "10"
+        },
+        {
+          "key": "B",
+          "text": "11"
+        },
+        {
+          "key": "C",
+          "text": "12"
+        },
+        {
+          "key": "D",
+          "text": "13"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Web Development): 12"
+    },
+    {
+      "examNumber": 30,
+      "id": 30,
+      "topic": "Web Development",
+      "text": "Which technology is commonly used for server-side scripting in web development?",
+      "options": [
+        {
+          "key": "A",
+          "text": "HTML"
+        },
+        {
+          "key": "B",
+          "text": "CSS"
+        },
+        {
+          "key": "C",
+          "text": "PHP"
+        },
+        {
+          "key": "D",
+          "text": "JavaScript"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Web Development): PHP"
+    },
+    {
+      "examNumber": 31,
+      "id": 31,
+      "topic": "Web Development",
+      "text": "What is the role of a web framework like Django?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To manage database connections only"
+        },
+        {
+          "key": "B",
+          "text": "To provide a structure for developing web applications"
+        },
+        {
+          "key": "C",
+          "text": "To handle client-side styling"
+        },
+        {
+          "key": "D",
+          "text": "To execute SQL queries directly"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Web Development): To provide a structure for developing web applications"
+    },
+    {
+      "examNumber": 32,
+      "id": 32,
+      "topic": "Android",
+      "text": "What is the primary programming language for Android app development?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Swift"
+        },
+        {
+          "key": "B",
+          "text": "Java"
+        },
+        {
+          "key": "C",
+          "text": "Python"
+        },
+        {
+          "key": "D",
+          "text": "C++"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Android): Java"
+    },
+    {
+      "examNumber": 33,
+      "id": 33,
+      "topic": "Android",
+      "text": "Which component in an Android application defines the user interface?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Activity"
+        },
+        {
+          "key": "B",
+          "text": "Service"
+        },
+        {
+          "key": "C",
+          "text": "Broadcast Receiver"
+        },
+        {
+          "key": "D",
+          "text": "Content Provider"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Android): Activity"
+    },
+    {
+      "examNumber": 34,
+      "id": 34,
+      "topic": "Android",
+      "text": "What is the purpose of an Android Intent?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To manage database connections"
+        },
+        {
+          "key": "B",
+          "text": "To facilitate communication between components"
+        },
+        {
+          "key": "C",
+          "text": "To handle background services"
+        },
+        {
+          "key": "D",
+          "text": "To secure the application"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Android): To facilitate communication between components"
+    },
+    {
+      "examNumber": 35,
+      "id": 35,
+      "topic": "Android",
+      "text": "Which file in an Android project specifies the app's permissions?",
+      "options": [
+        {
+          "key": "A",
+          "text": "AndroidManifest.xml"
+        },
+        {
+          "key": "B",
+          "text": "build.gradle"
+        },
+        {
+          "key": "C",
+          "text": "activity_main.xml"
+        },
+        {
+          "key": "D",
+          "text": "MainActivity.java"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Android): AndroidManifest.xml"
+    },
+    {
+      "examNumber": 36,
+      "id": 36,
+      "topic": "Android",
+      "text": "What is a key security concern in mobile app development?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Using too many colors in the UI"
+        },
+        {
+          "key": "B",
+          "text": "Storing sensitive data unencrypted"
+        },
+        {
+          "key": "C",
+          "text": "Including large images"
+        },
+        {
+          "key": "D",
+          "text": "Using multiple activities"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Android): Storing sensitive data unencrypted"
+    },
+    {
+      "examNumber": 37,
+      "id": 37,
+      "topic": "Database",
+      "text": "What is the purpose of a primary key in a database table?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To allow duplicate records"
+        },
+        {
+          "key": "B",
+          "text": "To uniquely identify each record"
+        },
+        {
+          "key": "C",
+          "text": "To store foreign keys"
+        },
+        {
+          "key": "D",
+          "text": "To index all columns"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Database): To uniquely identify each record"
+    },
+    {
+      "examNumber": 38,
+      "id": 38,
+      "topic": "Database",
+      "text": "Which SQL statement is used to modify existing data in a table?",
+      "options": [
+        {
+          "key": "A",
+          "text": "INSERT"
+        },
+        {
+          "key": "B",
+          "text": "UPDATE"
+        },
+        {
+          "key": "C",
+          "text": "DELETE"
+        },
+        {
+          "key": "D",
+          "text": "SELECT"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Database): UPDATE"
+    },
+    {
+      "examNumber": 39,
+      "id": 39,
+      "topic": "Database",
+      "text": "What is the result of the following SQL query: SELECT * FROM Students WHERE Age > 20;?",
+      "options": [
+        {
+          "key": "A",
+          "text": "All records from Students"
+        },
+        {
+          "key": "B",
+          "text": "Records from Students where Age is greater than 20"
+        },
+        {
+          "key": "C",
+          "text": "Records from Students where Age is less than 20"
+        },
+        {
+          "key": "D",
+          "text": "No records"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Database): Records from Students where Age is greater than 20"
+    },
+    {
+      "examNumber": 40,
+      "id": 40,
+      "topic": "Database",
+      "text": "What is normalization in database design?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Adding redundant data to tables"
+        },
+        {
+          "key": "B",
+          "text": "Organizing data to eliminate redundancy"
+        },
+        {
+          "key": "C",
+          "text": "Creating multiple databases"
+        },
+        {
+          "key": "D",
+          "text": "Deleting unused tables"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Database): Organizing data to eliminate redundancy"
+    },
+    {
+      "examNumber": 41,
+      "id": 41,
+      "topic": "Database",
+      "text": "Which type of relationship exists between two tables when a primary key in one table is linked to a foreign key in another?",
+      "options": [
+        {
+          "key": "A",
+          "text": "One-to-One"
+        },
+        {
+          "key": "B",
+          "text": "One-to-Many"
+        },
+        {
+          "key": "C",
+          "text": "Many-to-Many"
+        },
+        {
+          "key": "D",
+          "text": "No relationship"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Database): One-to-Many"
+    },
+    {
+      "examNumber": 42,
+      "id": 42,
+      "topic": "Database",
+      "text": "What does ACID stand for in database systems?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Atomicity, Consistency, Isolation, Durability"
+        },
+        {
+          "key": "B",
+          "text": "Accuracy, Completeness, Integrity, Dependability"
+        },
+        {
+          "key": "C",
+          "text": "Adaptability, Connectivity, Isolation, Durability"
+        },
+        {
+          "key": "D",
+          "text": "Atomicity, Consistency, Integration, Durability"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Database): Atomicity, Consistency, Isolation, Durability"
+    },
+    {
+      "examNumber": 43,
+      "id": 43,
+      "topic": "Operating Systems",
+      "text": "What is the primary function of an operating system?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To write application code"
+        },
+        {
+          "key": "B",
+          "text": "To manage hardware and software resources"
+        },
+        {
+          "key": "C",
+          "text": "To design user interfaces"
+        },
+        {
+          "key": "D",
+          "text": "To compile programs"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Operating Systems): To manage hardware and software resources"
+    },
+    {
+      "examNumber": 44,
+      "id": 44,
+      "topic": "Operating Systems",
+      "text": "Which scheduling algorithm selects the process with the shortest next CPU burst?",
+      "options": [
+        {
+          "key": "A",
+          "text": "First-Come, First-Served"
+        },
+        {
+          "key": "B",
+          "text": "Shortest Job Next"
+        },
+        {
+          "key": "C",
+          "text": "Round Robin"
+        },
+        {
+          "key": "D",
+          "text": "Priority Scheduling"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Operating Systems): Shortest Job Next"
+    },
+    {
+      "examNumber": 45,
+      "id": 45,
+      "topic": "Operating Systems",
+      "text": "What is a deadlock in an operating system?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A process running indefinitely"
+        },
+        {
+          "key": "B",
+          "text": "A situation where processes are unable to proceed due to resource conflicts"
+        },
+        {
+          "key": "C",
+          "text": "A memory overflow error"
+        },
+        {
+          "key": "D",
+          "text": "A hardware failure"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Operating Systems): A situation where processes are unable to proceed due to resource conflicts"
+    },
+    {
+      "examNumber": 46,
+      "id": 46,
+      "topic": "Operating Systems",
+      "text": "Which memory management technique divides memory into fixed-size partitions?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Paging"
+        },
+        {
+          "key": "B",
+          "text": "Segmentation"
+        },
+        {
+          "key": "C",
+          "text": "Swapping"
+        },
+        {
+          "key": "D",
+          "text": "Fragmentation"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Operating Systems): Paging"
+    },
+    {
+      "examNumber": 47,
+      "id": 47,
+      "topic": "Operating Systems",
+      "text": "What is the purpose of a mutex in process synchronization?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To allocate memory"
+        },
+        {
+          "key": "B",
+          "text": "To ensure mutual exclusion"
+        },
+        {
+          "key": "C",
+          "text": "To schedule processes"
+        },
+        {
+          "key": "D",
+          "text": "To manage I/O devices"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Operating Systems): To ensure mutual exclusion"
+    },
+    {
+      "examNumber": 48,
+      "id": 48,
+      "topic": "Operating Systems",
+      "text": "Which of the following is a security measure in modern operating systems?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Allowing unrestricted access to all files"
+        },
+        {
+          "key": "B",
+          "text": "Implementing user authentication"
+        },
+        {
+          "key": "C",
+          "text": "Disabling firewalls"
+        },
+        {
+          "key": "D",
+          "text": "Storing passwords in plain text"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Operating Systems): Implementing user authentication"
+    },
+    {
+      "examNumber": 49,
+      "id": 49,
+      "topic": "Software Engineering",
+      "text": "What is the primary goal of software engineering?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To increase software complexity"
+        },
+        {
+          "key": "B",
+          "text": "To develop reliable and efficient software systems"
+        },
+        {
+          "key": "C",
+          "text": "To reduce software documentation"
+        },
+        {
+          "key": "D",
+          "text": "To eliminate testing"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Engineering): To develop reliable and efficient software systems"
+    },
+    {
+      "examNumber": 50,
+      "id": 50,
+      "topic": "Software Engineering",
+      "text": "Which software development model follows a linear and sequential approach?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Agile"
+        },
+        {
+          "key": "B",
+          "text": "Waterfall"
+        },
+        {
+          "key": "C",
+          "text": "Spiral"
+        },
+        {
+          "key": "D",
+          "text": "Scrum"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Engineering): Waterfall"
+    },
+    {
+      "examNumber": 51,
+      "id": 51,
+      "topic": "Software Engineering",
+      "text": "What is a key characteristic of the Agile methodology?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Fixed requirements throughout the project"
+        },
+        {
+          "key": "B",
+          "text": "Iterative and incremental development"
+        },
+        {
+          "key": "C",
+          "text": "No user involvement"
+        },
+        {
+          "key": "D",
+          "text": "Single-phase development"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Engineering): Iterative and incremental development"
+    },
+    {
+      "examNumber": 52,
+      "id": 52,
+      "topic": "Software Engineering",
+      "text": "Which diagram in UML represents the dynamic behavior of a system?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Class Diagram"
+        },
+        {
+          "key": "B",
+          "text": "Use Case Diagram"
+        },
+        {
+          "key": "C",
+          "text": "Sequence Diagram"
+        },
+        {
+          "key": "D",
+          "text": "Component Diagram"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Software Engineering): Sequence Diagram"
+    },
+    {
+      "examNumber": 53,
+      "id": 53,
+      "topic": "Software Engineering",
+      "text": "What is the purpose of a feasibility study in software engineering?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To write code for the project"
+        },
+        {
+          "key": "B",
+          "text": "To assess the viability of a project"
+        },
+        {
+          "key": "C",
+          "text": "To deploy the software"
+        },
+        {
+          "key": "D",
+          "text": "To test the software"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Engineering): To assess the viability of a project"
+    },
+    {
+      "examNumber": 54,
+      "id": 54,
+      "topic": "Software Engineering",
+      "text": "Which of the following is a non-functional requirement?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The system must allow users to log in"
+        },
+        {
+          "key": "B",
+          "text": "The system must respond within 2 seconds"
+        },
+        {
+          "key": "C",
+          "text": "The system must store user data"
+        },
+        {
+          "key": "D",
+          "text": "The system must generate reports"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Engineering): The system must respond within 2 seconds"
+    },
+    {
+      "examNumber": 55,
+      "id": 55,
+      "topic": "Software Engineering",
+      "text": "What is the purpose of requirements elicitation?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To test the software"
+        },
+        {
+          "key": "B",
+          "text": "To gather and document user needs"
+        },
+        {
+          "key": "C",
+          "text": "To deploy the system"
+        },
+        {
+          "key": "D",
+          "text": "To write code"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Engineering): To gather and document user needs"
+    },
+    {
+      "examNumber": 56,
+      "id": 56,
+      "topic": "Software Engineering",
+      "text": "Which technique is commonly used to gather requirements from stakeholders?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Writing code"
+        },
+        {
+          "key": "B",
+          "text": "Conducting interviews"
+        },
+        {
+          "key": "C",
+          "text": "Debugging software"
+        },
+        {
+          "key": "D",
+          "text": "Deploying the system"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Engineering): Conducting interviews"
+    },
+    {
+      "examNumber": 57,
+      "id": 57,
+      "topic": "Software Engineering",
+      "text": "What makes a requirement testable?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It is vague and ambiguous"
+        },
+        {
+          "key": "B",
+          "text": "It is measurable and verifiable"
+        },
+        {
+          "key": "C",
+          "text": "It lacks clarity"
+        },
+        {
+          "key": "D",
+          "text": "It is incomplete"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Engineering): It is measurable and verifiable"
+    },
+    {
+      "examNumber": 58,
+      "id": 58,
+      "topic": "Software Engineering",
+      "text": "Which document specifies both functional and non-functional requirements?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Software Design Document"
+        },
+        {
+          "key": "B",
+          "text": "Software Requirements Specification (SRS)"
+        },
+        {
+          "key": "C",
+          "text": "Test Plan"
+        },
+        {
+          "key": "D",
+          "text": "User Manual"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Engineering): Software Requirements Specification (SRS)"
+    },
+    {
+      "examNumber": 59,
+      "id": 59,
+      "topic": "Software Engineering",
+      "text": "What is a challenge in managing software requirements?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Writing error-free code"
+        },
+        {
+          "key": "B",
+          "text": "Handling requirement changes during development"
+        },
+        {
+          "key": "C",
+          "text": "Deploying the software"
+        },
+        {
+          "key": "D",
+          "text": "Testing the user interface"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Engineering): Handling requirement changes during development"
+    },
+    {
+      "examNumber": 60,
+      "id": 60,
+      "topic": "Software Architecture",
+      "text": "What is the role of software architecture in a system?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To write detailed code"
+        },
+        {
+          "key": "B",
+          "text": "To define the system's structure and behavior"
+        },
+        {
+          "key": "C",
+          "text": "To test the software"
+        },
+        {
+          "key": "D",
+          "text": "To deploy the application"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Architecture): To define the system's structure and behavior"
+    },
+    {
+      "examNumber": 61,
+      "id": 61,
+      "topic": "Software Architecture",
+      "text": "Which design pattern separates an object's abstraction from its implementation?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Singleton"
+        },
+        {
+          "key": "B",
+          "text": "Factory"
+        },
+        {
+          "key": "C",
+          "text": "Bridge"
+        },
+        {
+          "key": "D",
+          "text": "Observer"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Software Architecture): Bridge"
+    },
+    {
+      "examNumber": 62,
+      "id": 62,
+      "topic": "Software Architecture",
+      "text": "Which architectural style is suitable for web-based applications?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Monolithic"
+        },
+        {
+          "key": "B",
+          "text": "Client-Server"
+        },
+        {
+          "key": "C",
+          "text": "Pipe-and-Filter"
+        },
+        {
+          "key": "D",
+          "text": "Layered"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Architecture): Client-Server"
+    },
+    {
+      "examNumber": 63,
+      "id": 63,
+      "topic": "Software Architecture",
+      "text": "What is a quality attribute in software architecture?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The programming language used"
+        },
+        {
+          "key": "B",
+          "text": "The system's performance or scalability"
+        },
+        {
+          "key": "C",
+          "text": "The number of developers"
+        },
+        {
+          "key": "D",
+          "text": "The project budget"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Architecture): The system's performance or scalability"
+    },
+    {
+      "examNumber": 64,
+      "id": 64,
+      "topic": "Software Architecture",
+      "text": "Which UML diagram is used to represent the structure of a system?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sequence Diagram"
+        },
+        {
+          "key": "B",
+          "text": "Class Diagram"
+        },
+        {
+          "key": "C",
+          "text": "Activity Diagram"
+        },
+        {
+          "key": "D",
+          "text": "Use Case Diagram"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Architecture): Class Diagram"
+    },
+    {
+      "examNumber": 65,
+      "id": 65,
+      "topic": "Project Management",
+      "text": "What is the purpose of a Work Breakdown Structure (WBS)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To write code"
+        },
+        {
+          "key": "B",
+          "text": "To divide a project into manageable tasks"
+        },
+        {
+          "key": "C",
+          "text": "To test the software"
+        },
+        {
+          "key": "D",
+          "text": "To deploy the system"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Project Management): To divide a project into manageable tasks"
+    },
+    {
+      "examNumber": 66,
+      "id": 66,
+      "topic": "Project Management",
+      "text": "Which project management tool is used to visualize task dependencies?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Gantt Chart"
+        },
+        {
+          "key": "B",
+          "text": "Pie Chart"
+        },
+        {
+          "key": "C",
+          "text": "Histogram"
+        },
+        {
+          "key": "D",
+          "text": "Scatter Plot"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Project Management): Gantt Chart"
+    },
+    {
+      "examNumber": 67,
+      "id": 67,
+      "topic": "Project Management",
+      "text": "What is a key activity in risk management?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Writing code"
+        },
+        {
+          "key": "B",
+          "text": "Identifying and mitigating potential risks"
+        },
+        {
+          "key": "C",
+          "text": "Designing the user interface"
+        },
+        {
+          "key": "D",
+          "text": "Testing the database"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Project Management): Identifying and mitigating potential risks"
+    },
+    {
+      "examNumber": 68,
+      "id": 68,
+      "topic": "Project Management",
+      "text": "In Scrum, who is responsible for prioritizing the product backlog?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Scrum Master"
+        },
+        {
+          "key": "B",
+          "text": "Product Owner"
+        },
+        {
+          "key": "C",
+          "text": "Development Team"
+        },
+        {
+          "key": "D",
+          "text": "Stakeholders"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Project Management): Product Owner"
+    },
+    {
+      "examNumber": 69,
+      "id": 69,
+      "topic": "Project Management",
+      "text": "What is the purpose of a project schedule?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To document code"
+        },
+        {
+          "key": "B",
+          "text": "To plan and track project timelines"
+        },
+        {
+          "key": "C",
+          "text": "To test the software"
+        },
+        {
+          "key": "D",
+          "text": "To manage hardware resources"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Project Management): To plan and track project timelines"
+    },
+    {
+      "examNumber": 70,
+      "id": 70,
+      "topic": "Software Testing",
+      "text": "What is the purpose of unit testing?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To test the entire system"
+        },
+        {
+          "key": "B",
+          "text": "To test individual components or functions"
+        },
+        {
+          "key": "C",
+          "text": "To test the user interface"
+        },
+        {
+          "key": "D",
+          "text": "To test the database"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Testing): To test individual components or functions"
+    },
+    {
+      "examNumber": 71,
+      "id": 71,
+      "topic": "Software Testing",
+      "text": "Which testing technique uses the internal structure of the code?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Black-box testing"
+        },
+        {
+          "key": "B",
+          "text": "White-box testing"
+        },
+        {
+          "key": "C",
+          "text": "Integration testing"
+        },
+        {
+          "key": "D",
+          "text": "System testing"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Testing): White-box testing"
+    },
+    {
+      "examNumber": 72,
+      "id": 72,
+      "topic": "Software Testing",
+      "text": "What is a test case?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A set of conditions to verify a system's functionality"
+        },
+        {
+          "key": "B",
+          "text": "A programming script"
+        },
+        {
+          "key": "C",
+          "text": "A project plan"
+        },
+        {
+          "key": "D",
+          "text": "A database schema"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Software Testing): A set of conditions to verify a system's functionality"
+    },
+    {
+      "examNumber": 73,
+      "id": 73,
+      "topic": "Software Testing",
+      "text": "What is a common goal of quality assurance in software development?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To increase development time"
+        },
+        {
+          "key": "B",
+          "text": "To ensure the software meets specified requirements"
+        },
+        {
+          "key": "C",
+          "text": "To reduce documentation"
+        },
+        {
+          "key": "D",
+          "text": "To eliminate user feedback"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Testing): To ensure the software meets specified requirements"
+    },
+    {
+      "examNumber": 74,
+      "id": 74,
+      "topic": "Software Testing",
+      "text": "Which of the following is a defect in software?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A feature that meets user requirements"
+        },
+        {
+          "key": "B",
+          "text": "A bug that causes incorrect behavior"
+        },
+        {
+          "key": "C",
+          "text": "A well-documented code"
+        },
+        {
+          "key": "D",
+          "text": "A user manual"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Testing): A bug that causes incorrect behavior"
+    },
+    {
+      "examNumber": 75,
+      "id": 75,
+      "topic": "Software Maintenance",
+      "text": "What is software maintenance?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Writing new code from scratch"
+        },
+        {
+          "key": "B",
+          "text": "Updating and fixing existing software"
+        },
+        {
+          "key": "C",
+          "text": "Designing the user interface"
+        },
+        {
+          "key": "D",
+          "text": "Deploying the software"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Maintenance): Updating and fixing existing software"
+    },
+    {
+      "examNumber": 76,
+      "id": 76,
+      "topic": "Software Maintenance",
+      "text": "Which maintenance type addresses user-reported issues?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Corrective maintenance"
+        },
+        {
+          "key": "B",
+          "text": "Adaptive maintenance"
+        },
+        {
+          "key": "C",
+          "text": "Perfective maintenance"
+        },
+        {
+          "key": "D",
+          "text": "Preventive maintenance"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Software Maintenance): Corrective maintenance"
+    },
+    {
+      "examNumber": 77,
+      "id": 77,
+      "topic": "Software Maintenance",
+      "text": "What is refactoring in software maintenance?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Adding new features"
+        },
+        {
+          "key": "B",
+          "text": "Improving code structure without changing functionality"
+        },
+        {
+          "key": "C",
+          "text": "Deleting old code"
+        },
+        {
+          "key": "D",
+          "text": "Testing the software"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Maintenance): Improving code structure without changing functionality"
+    },
+    {
+      "examNumber": 78,
+      "id": 78,
+      "topic": "Software Maintenance",
+      "text": "Which factor affects software maintenance cost?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The programming language used"
+        },
+        {
+          "key": "B",
+          "text": "The number of users"
+        },
+        {
+          "key": "C",
+          "text": "The complexity of the software"
+        },
+        {
+          "key": "D",
+          "text": "The project timeline"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Software Maintenance): The complexity of the software"
+    },
+    {
+      "examNumber": 79,
+      "id": 79,
+      "topic": "Software Maintenance",
+      "text": "What is a benefit of applying best practices in software maintenance?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Increased software bugs"
+        },
+        {
+          "key": "B",
+          "text": "Improved software reliability"
+        },
+        {
+          "key": "C",
+          "text": "Reduced documentation"
+        },
+        {
+          "key": "D",
+          "text": "Slower development"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Maintenance): Improved software reliability"
+    },
+    {
+      "examNumber": 80,
+      "id": 80,
+      "topic": "Networking",
+      "text": "What is the purpose of the OSI model in networking?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To write network protocols"
+        },
+        {
+          "key": "B",
+          "text": "To standardize network communication layers"
+        },
+        {
+          "key": "C",
+          "text": "To manage hardware resources"
+        },
+        {
+          "key": "D",
+          "text": "To secure the network"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Networking): To standardize network communication layers"
+    },
+    {
+      "examNumber": 81,
+      "id": 81,
+      "topic": "Networking",
+      "text": "Which layer of the OSI model is responsible for routing?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Data Link Layer"
+        },
+        {
+          "key": "B",
+          "text": "Network Layer"
+        },
+        {
+          "key": "C",
+          "text": "Transport Layer"
+        },
+        {
+          "key": "D",
+          "text": "Application Layer"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Networking): Network Layer"
+    },
+    {
+      "examNumber": 82,
+      "id": 82,
+      "topic": "Networking",
+      "text": "What is the function of a router in a network?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To connect devices within the same network"
+        },
+        {
+          "key": "B",
+          "text": "To forward data packets between networks"
+        },
+        {
+          "key": "C",
+          "text": "To store data packets"
+        },
+        {
+          "key": "D",
+          "text": "To encrypt data"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Networking): To forward data packets between networks"
+    },
+    {
+      "examNumber": 83,
+      "id": 83,
+      "topic": "Networking",
+      "text": "Which protocol is used for secure web communication?",
+      "options": [
+        {
+          "key": "A",
+          "text": "HTTP"
+        },
+        {
+          "key": "B",
+          "text": "FTP"
+        },
+        {
+          "key": "C",
+          "text": "HTTPS"
+        },
+        {
+          "key": "D",
+          "text": "SMTP"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Networking): HTTPS"
+    },
+    {
+      "examNumber": 84,
+      "id": 84,
+      "topic": "Networking",
+      "text": "What is a subnet mask used for?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To encrypt network traffic"
+        },
+        {
+          "key": "B",
+          "text": "To divide a network into smaller subnetworks"
+        },
+        {
+          "key": "C",
+          "text": "To assign IP addresses"
+        },
+        {
+          "key": "D",
+          "text": "To secure the network"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Networking): To divide a network into smaller subnetworks"
+    },
+    {
+      "examNumber": 85,
+      "id": 85,
+      "topic": "Networking",
+      "text": "Which device is used to connect different network types?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Switch"
+        },
+        {
+          "key": "B",
+          "text": "Hub"
+        },
+        {
+          "key": "C",
+          "text": "Gateway"
+        },
+        {
+          "key": "D",
+          "text": "Repeater"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Networking): Gateway"
+    },
+    {
+      "examNumber": 86,
+      "id": 86,
+      "topic": "Security",
+      "text": "What is the purpose of encryption in software security?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To increase software size"
+        },
+        {
+          "key": "B",
+          "text": "To protect data confidentiality"
+        },
+        {
+          "key": "C",
+          "text": "To speed up execution"
+        },
+        {
+          "key": "D",
+          "text": "To simplify code"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Security): To protect data confidentiality"
+    },
+    {
+      "examNumber": 87,
+      "id": 87,
+      "topic": "Security",
+      "text": "Which type of attack involves injecting malicious code into a web application?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Phishing"
+        },
+        {
+          "key": "B",
+          "text": "SQL Injection"
+        },
+        {
+          "key": "C",
+          "text": "Denial of Service"
+        },
+        {
+          "key": "D",
+          "text": "Brute Force"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Security): SQL Injection"
+    },
+    {
+      "examNumber": 88,
+      "id": 88,
+      "topic": "Security",
+      "text": "What is a firewall used for in a network?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To store data"
+        },
+        {
+          "key": "B",
+          "text": "To monitor and control network traffic"
+        },
+        {
+          "key": "C",
+          "text": "To assign IP addresses"
+        },
+        {
+          "key": "D",
+          "text": "To manage databases"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Security): To monitor and control network traffic"
+    },
+    {
+      "examNumber": 89,
+      "id": 89,
+      "topic": "Security",
+      "text": "Which authentication method verifies a user's identity using multiple factors?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Single Sign-On"
+        },
+        {
+          "key": "B",
+          "text": "Multi-Factor Authentication"
+        },
+        {
+          "key": "C",
+          "text": "Password Authentication"
+        },
+        {
+          "key": "D",
+          "text": "Token Authentication"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Security): Multi-Factor Authentication"
+    },
+    {
+      "examNumber": 90,
+      "id": 90,
+      "topic": "Security",
+      "text": "What is a common way to mitigate software vulnerabilities?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ignoring user feedback"
+        },
+        {
+          "key": "B",
+          "text": "Applying regular security patches"
+        },
+        {
+          "key": "C",
+          "text": "Increasing code complexity"
+        },
+        {
+          "key": "D",
+          "text": "Disabling encryption"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Security): Applying regular security patches"
+    },
+    {
+      "examNumber": 91,
+      "id": 91,
+      "topic": "AI / ML",
+      "text": "What is an intelligent agent in AI?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A program that writes code"
+        },
+        {
+          "key": "B",
+          "text": "A system that perceives and acts in an environment"
+        },
+        {
+          "key": "C",
+          "text": "A database management system"
+        },
+        {
+          "key": "D",
+          "text": "A user interface"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (AI / ML): A system that perceives and acts in an environment"
+    },
+    {
+      "examNumber": 92,
+      "id": 92,
+      "topic": "AI / ML",
+      "text": "Which search strategy explores all nodes at the current depth before moving deeper?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Depth-First Search"
+        },
+        {
+          "key": "B",
+          "text": "Breadth-First Search"
+        },
+        {
+          "key": "C",
+          "text": "A* Search"
+        },
+        {
+          "key": "D",
+          "text": "Greedy Search"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (AI / ML): Breadth-First Search"
+    },
+    {
+      "examNumber": 93,
+      "id": 93,
+      "topic": "AI / ML",
+      "text": "What is the purpose of a knowledge base in an expert system?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To store user data"
+        },
+        {
+          "key": "B",
+          "text": "To store rules and facts for decision-making"
+        },
+        {
+          "key": "C",
+          "text": "To manage hardware resources"
+        },
+        {
+          "key": "D",
+          "text": "To execute search algorithms"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (AI / ML): To store rules and facts for decision-making"
+    },
+    {
+      "examNumber": 94,
+      "id": 94,
+      "topic": "AI / ML",
+      "text": "Which AI technique mimics human reasoning using if-then rules?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Machine Learning"
+        },
+        {
+          "key": "B",
+          "text": "Expert Systems"
+        },
+        {
+          "key": "C",
+          "text": "Neural Networks"
+        },
+        {
+          "key": "D",
+          "text": "Genetic Algorithms"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (AI / ML): Expert Systems"
+    },
+    {
+      "examNumber": 95,
+      "id": 95,
+      "topic": "AI / ML",
+      "text": "What is a benefit of lifelong learning in AI?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Reduced system performance"
+        },
+        {
+          "key": "B",
+          "text": "Continuous adaptation to new data"
+        },
+        {
+          "key": "C",
+          "text": "Increased code complexity"
+        },
+        {
+          "key": "D",
+          "text": "Limited application scope"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (AI / ML): Continuous adaptation to new data"
+    },
+    {
+      "examNumber": 96,
+      "id": 96,
+      "topic": "AI / ML",
+      "text": "What is the main difference between supervised and unsupervised learning?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Supervised learning uses labeled data, unsupervised does not"
+        },
+        {
+          "key": "B",
+          "text": "Unsupervised learning uses labeled data, supervised does not"
+        },
+        {
+          "key": "C",
+          "text": "Supervised learning is faster than unsupervised"
+        },
+        {
+          "key": "D",
+          "text": "Unsupervised learning requires more data"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (AI / ML): Supervised learning uses labeled data, unsupervised does not"
+    },
+    {
+      "examNumber": 97,
+      "id": 97,
+      "topic": "AI / ML",
+      "text": "Which algorithm is commonly used for classification tasks in machine learning?",
+      "options": [
+        {
+          "key": "A",
+          "text": "K-Means Clustering"
+        },
+        {
+          "key": "B",
+          "text": "Linear Regression"
+        },
+        {
+          "key": "C",
+          "text": "Decision Trees"
+        },
+        {
+          "key": "D",
+          "text": "Principal Component Analysis"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (AI / ML): Decision Trees"
+    },
+    {
+      "examNumber": 98,
+      "id": 98,
+      "topic": "AI / ML",
+      "text": "What is overfitting in machine learning?",
+      "options": [
+        {
+          "key": "A",
+          "text": "When a model performs well on new data"
+        },
+        {
+          "key": "B",
+          "text": "When a model is too complex and fits noise in the training data"
+        },
+        {
+          "key": "C",
+          "text": "When a model is too simple"
+        },
+        {
+          "key": "D",
+          "text": "When a model fails to train"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (AI / ML): When a model is too complex and fits noise in the training data"
+    },
+    {
+      "examNumber": 99,
+      "id": 99,
+      "topic": "AI / ML",
+      "text": "Which of the following is a supervised learning task?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Clustering customer data"
+        },
+        {
+          "key": "B",
+          "text": "Predicting house prices based on features"
+        },
+        {
+          "key": "C",
+          "text": "Reducing data dimensions"
+        },
+        {
+          "key": "D",
+          "text": "Finding patterns in unlabeled data"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (AI / ML): Predicting house prices based on features"
+    },
+    {
+      "examNumber": 100,
+      "id": 100,
+      "topic": "AI / ML",
+      "text": "What is the purpose of a training dataset in machine learning?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To test the model's performance"
+        },
+        {
+          "key": "B",
+          "text": "To train the model to learn patterns"
+        },
+        {
+          "key": "C",
+          "text": "To validate the model"
+        },
+        {
+          "key": "D",
+          "text": "To deploy the model"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (AI / ML): To train the model to learn patterns"
+    }
+  ]
+}

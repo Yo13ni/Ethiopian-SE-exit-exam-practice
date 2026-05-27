@@ -1,0 +1,100 @@
+﻿1 C Operating Systems A process scheduling approach on which decision as to which available 
+2 A Project Management Which of the following analysis mechanism defines the input for which 
+3 A Java / OOP Which of the following UML diagram is not used to represent dynamic be
+4 A Java / OOP Class A is abstract with abstract method `String welcome()` (no parame
+5 A AI / ML Which of the following is not type of Ensemble learning?
+6 A Software Engineering A technique for generating plans with conditionals and loops are almos
+7 B Web Development The CSS property used to specify the transparency of an element is?
+8 D Java / OOP Which of the following describes the functionalities of application la
+9 C Java / OOP Which function is used to serialize an object into a JSON string in Ja
+10 B Networking A TCP/IP port number used by SSH is?
+11 B Software Testing Given nested if-statements comparing width, length, and height, how ma
+12 B Database Which of the following is true regarding the referential triggered act
+13 B Operating Systems Which file system can be used to change certain kernel parameters at r
+14 A Networking A software tool, such as a design editor or a program debugger, that d
+15 A Java / OOP Which of the following statements designates part of the process of ho
+16 A Networking Which of the following is a unique IPV4 address?
+17 C Web Development Which one of the following is not correct?
+18 B Project Management One of the following statements addresses the characteristics of funct
+19 D Java / OOP What will be the output of the following program class increment { pub
+20 C Data Structures In a quad-tree each non-leaf node has exactly ____ children.
+21 C Project Management Which of the following mostly used by software project quality evaluat
+22 A Software Engineering What is printed? int[] arr = {3,4,5,6,7}; for (int i = 0; i < arr.leng
+23 A Web Development An Artificial Intelligence system is composed of:
+24 C Web Development Which of the following is true regarding integration testing?
+25 D Project Management Which of the following describes the leading agile development method?
+26 D Java / OOP Which access modifier is suitable if you want your instance variables 
+27 A Networking Which of the following is not a data link layer technology?
+28 C C++ The purpose of <iostream> header file in c++ program is:
+29 D Web Development What of the following describes informed search algorithms?
+30 C Networking Which one is not an architectural style?
+31 B Software Testing As a software tester, which testing principle can save time and cost o
+32 B Data Structures Which of the following specifies divergence between Dijkstra's Algorit
+33 D Software Testing In software testing, a term which relates the genuine imperfect segmen
+34 D Data Structures Which of the following is not true about binary tree?
+35 A C++ What will happen if there is no break statement next to case labels in
+36 D Security Security estimation is an essential component of ______ process.
+37 C Operating Systems Which of the following is one of the indirect applications of queues?
+38 D Software Engineering Which development model helps to cope up with software requirement cha
+39 C Networking A temporary endeavor undertaken to create a unique product, service, o
+40 A Project Management Select the one different from others
+41 A AI / ML One of the following is model optimization technique:
+42 B Database The keyword used in the SELECT clause to eliminate duplicate tuples fr
+43 B Java / OOP The ultimate purpose of inheritance in OOP is:
+44 C Java / OOP The base class from which all classes in Java are inherited?
+45 A Android Which one is not among the layouts available in android?
+46 C Web Development Which CSS element is used to make rounded borders around elements?
+47 A Java / OOP A technique that allows large numbers of ideas to be classified into g
+48 B Web Development Which of the following refers to unauthorized disclosure of informatio
+49 A AI / ML Which of the following is not the contribution of the big data analysi
+50 D Java / OOP The correct structure of the for loop statement is:
+51 A Data Structures Introducing new requirement at the later phase of the project is not r
+52 D Software Testing Being a software tester you want to verify the integration of the mess
+53 A Software Engineering Fundamental program structure consists of the following core component
+54 D Data Structures Assume you have the following hash table, implemented using linear pro
+55 B Software Architectur If your software system can continue in spite of unexpected problems f
+56 C AI / ML What does velocity in big data refer to?
+57 C Database Which of the following android component displays the part of an activ
+58 D Database Assume that you are assigned to design a dormitory management database
+59 C Operating Systems A program that initializes all aspects of the system, from CPU registe
+60 D Java / OOP Method overriding is a characteristic of which OOP principle?
+61 A Software Engineering A tool that is used to check the quality of software to ensure that it
+62 B Operating Systems A system software that resides in main memory is
+63 D Java / OOP Which object-oriented principle allows the creation of several methods
+64 B Networking Which one is not the criteria for selecting best programming language 
+65 C Networking Which of the following virtual machines is used by the Android operati
+66 B Android Which of the following is the first callback method that is invoked by
+67 B Web Development APK stands for:
+68 C Project Management Which principle states that 80% of the problems can be fixed with 20% 
+69 B Java / OOP Select the one that is not correct related to generalization in system
+70 D Web Development Action attribute in HTML forms specifies
+71 C Software Testing Which of the following indicates the assurance that a product, service
+72 B Database In a relation design, primary key is a critical constraint that should
+73 D Java / OOP Adding additional header information as data moved from the applicatio
+74 B Software Testing The incredible change in business and society as emerging economies de
+75 A Networking A software work product which is associated with the test execution pr
+76 A AI / ML One of the following statements is inappropriate about Artificial Inte
+77 B Operating Systems Which of the following concept describes bootstrapping?
+78 C Web Development Identify the one that does not affect architectural decision
+79 A Web Development You fit a model too closely to the particularities of the training set
+80 B Software Architectur For the software architecture to be easily understood by other design 
+81 A Operating Systems A modification of the free-list approach is to store the addresses of 
+82 C Web Development If performance is the critical requirement of your architecture, which
+83 C Data Structures What is the time complexity of below function? Public void function (i
+84 C Database Database approach supports different user groups who might have differ
+85 B Software Testing To reduce the dispute that might arise between the customer and contra
+86 A Data Structures Select the correct statement that describes local search algorithms (L
+87 D Software Testing One of the following is not purpose of software testing?
+88 B Networking Which of the following statements is false when a packet is being comp
+89 B Security You have received an e-mail which is unsolicited and commercially know
+90 B Android For which of the following Android is mainly developed?
+91 C Web Development Which activity is not related to data preprocessing?
+92 C Java / OOP An input stream class in java that is used to read data from file is
+93 D Java / OOP A data link sub layer which is responsible for identifying Network lay
+94 C Java / OOP Assume you have an interface called Payable as follows public interfac
+95 A Database Refer to the following schemas. Attributes underlined are primary keys
+96 D Project Management Which one is different from others?
+97 D Java / OOP Which of the following keywords is used to define a variable in Javasc
+98 B Software Engineering From the following, which one is not among the challenges that are fac
+99 C Software Engineering When running your program, you did not see any error. However, the fin
+100 A Security Which of the following is against the professional ethics of software 

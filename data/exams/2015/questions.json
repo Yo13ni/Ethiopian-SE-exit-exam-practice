@@ -1,0 +1,2813 @@
+{
+  "title": "Exit Exam 2015 — Interactive Practice",
+  "source": "Exit Exam question 2015.pdf",
+  "total": 93,
+  "focusGuide": {
+    "Software Architecture": "Study quality attributes, architectural patterns, and documentation purposes.",
+    "Android": "Review Activity lifecycle, Intent, Manifest, layout hierarchy, and APK.",
+    "Java / OOP": "Practice interfaces, abstract classes, constructors, UML, and exception handling.",
+    "Web / CSS / JS": "Master CSS selectors, HTTP message structure, and JavaScript basics.",
+    "Database / SQL": "Focus on normalization, SQL syntax, keys, and ER relationships.",
+    "Project Management": "Learn agile principles, Tuckman stages, ROI, and lifecycle models.",
+    "Networking": "Review OSI model, subnetting, switches vs hubs, and security protocols.",
+    "Operating Systems": "Study process states, deadlock, paging policies, and queue types.",
+    "AI / ML / Data Mining": "Understand search algorithms, CRISP-DM, and learning types.",
+    "Software Testing": "Review test process, coverage criteria, and traceability rules.",
+    "Security": "Focus on CIA triad, risk strategies, and network security controls.",
+    "C++": "Practice loop syntax, identifiers, and compilation stages.",
+    "Data Structures": "Analyze time complexity and linear vs non-linear structures.",
+    "General": "Review course notes for any missed concepts."
+  },
+  "questions": [
+    {
+      "examNumber": 1,
+      "id": 1,
+      "topic": "Software Architecture",
+      "text": "Which parameter is used to assess and evaluate software architectures?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Responsiveness of Architectures",
+          "explanation": "Incorrect. Responsiveness of Architectures — This option does not satisfy what the question is asking. The correct choice is C."
+        },
+        {
+          "key": "B",
+          "text": "Durability of Architectures",
+          "explanation": "Incorrect. Durability of Architectures — This option does not satisfy what the question is asking. The correct choice is C."
+        },
+        {
+          "key": "C",
+          "text": "Architectural quality in attribute",
+          "explanation": "Correct. Architectural quality in attribute — this directly answers the question. In Software Architecture, this is the standard/principle being tested."
+        },
+        {
+          "key": "D",
+          "text": "Number of components in the Architecture’s",
+          "explanation": "Incorrect. Number of components in the Architecture’s — This option does not satisfy what the question is asking. The correct choice is C."
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Software Architecture): Architectural quality in attribute"
+    },
+    {
+      "examNumber": 3,
+      "id": 2,
+      "topic": "Database",
+      "text": "What we use to pass the data between activities in Android?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Broadcast receiver",
+          "explanation": "Incorrect. Broadcast receiver — This option does not satisfy what the question is asking. The correct choice is C."
+        },
+        {
+          "key": "B",
+          "text": "PostgreSQL Database",
+          "explanation": "Incorrect. PostgreSQL Database — This option does not satisfy what the question is asking. The correct choice is C."
+        },
+        {
+          "key": "C",
+          "text": "Intent",
+          "explanation": "Correct. Intent — this directly answers the question. In Android, this is the standard/principle being tested."
+        },
+        {
+          "key": "D",
+          "text": "content provider",
+          "explanation": "Incorrect. content provider — This option does not satisfy what the question is asking. The correct choice is C."
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Android): Intent"
+    },
+    {
+      "examNumber": 4,
+      "id": 3,
+      "topic": "Database",
+      "text": "The following UML design shows student class. Assume that the Attributes have declared as private and the method as public. The get method return the value of the attribute and calculateAge() returns the student age. Which of the following would not raise an error when you run this program? Student Name: String Department: String Phone: String Age: int Student (String, String, String, int) SetDept(String) GetName(): String GetDept():String GetYearOfBirth():int CalculateAge(): int",
+      "options": [
+        {
+          "key": "A",
+          "text": "Student st1 = newStudent(“john”, “SE”, “0913222222”, 20)",
+          "explanation": "Correct. Student st1 = newStudent(“john”, “SE”, “0913222222”, 20) — this directly answers the question. In Java / OOP, this is the standard/principle being tested."
+        },
+        {
+          "key": "B",
+          "text": "st1 Student = newStudent(“john”, “CS”, “02085332455”, 23)",
+          "explanation": "Incorrect. st1 Student = newStudent(“john”, “CS”, “02085332455”, 23) — This statement is generally true, but the question asks for the wrong/not case. The correct choice is A."
+        },
+        {
+          "key": "C",
+          "text": "Student st1 = newStudent(“john”, “IT”, “2000”,)",
+          "explanation": "Incorrect. Student st1 = newStudent(“john”, “IT”, “2000”,) — This statement is generally true, but the question asks for the wrong/not case. The correct choice is A."
+        },
+        {
+          "key": "D",
+          "text": "Student st1 = newStudent(“john”, “CS”, “0913222222”, “25”)",
+          "explanation": "Incorrect. Student st1 = newStudent(“john”, “CS”, “0913222222”, “25”) — This statement is generally true, but the question asks for the wrong/not case. The correct choice is A."
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Java / OOP): Student st1 = newStudent(“john”, “SE”, “0913222222”, 20)"
+    },
+    {
+      "examNumber": 5,
+      "id": 4,
+      "topic": "Web Development",
+      "text": "What will be the output of the following code snippet? itex<script type=”text/JavaScript” language = “JavaScript” > var a = “exitexam”; var result = “a.substring(2,6)”; document.write(result);",
+      "options": [
+        {
+          "key": "A",
+          "text": "texam",
+          "explanation": "Incorrect. texam — This option does not satisfy what the question is asking. The correct choice is C."
+        },
+        {
+          "key": "B",
+          "text": "xite",
+          "explanation": "Incorrect. xite — This option does not satisfy what the question is asking. The correct choice is C."
+        },
+        {
+          "key": "C",
+          "text": "itex",
+          "explanation": "Correct. itex — this directly answers the question. In Web / CSS / JS, this is the standard/principle being tested."
+        },
+        {
+          "key": "D",
+          "text": "xitex",
+          "explanation": "Incorrect. xitex — This option does not satisfy what the question is asking. The correct choice is C."
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Web / CSS / JS): itex"
+    },
+    {
+      "examNumber": 6,
+      "id": 5,
+      "topic": "Java / OOP",
+      "text": "Which one of the following is wrong regarding to interface?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Like a class, an interface is reference data type.",
+          "explanation": "Incorrect. Like a class, an interface is reference data type. — This statement is generally true, but the question asks for the wrong/not case. The correct choice is B."
+        },
+        {
+          "key": "B",
+          "text": "Interface abstract method are accessed using interface instances.",
+          "explanation": "Correct. Interface abstract method are accessed using interface instances. — this directly answers the question. In Java / OOP, this is the standard/principle being tested."
+        },
+        {
+          "key": "C",
+          "text": "Interface includes abstract methods.",
+          "explanation": "Incorrect. Interface includes abstract methods. — This statement is generally true, but the question asks for the wrong/not case. The correct choice is B."
+        },
+        {
+          "key": "D",
+          "text": "One class can implement multiple interfaces.",
+          "explanation": "Incorrect. One class can implement multiple interfaces. — This statement is generally true, but the question asks for the wrong/not case. The correct choice is B."
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Java / OOP): Interface abstract method are accessed using interface instances."
+    },
+    {
+      "examNumber": 8,
+      "id": 6,
+      "topic": "Database",
+      "text": "For the schema Hotel (Hotel_id:integer, Hotel_name: String, Sub_city: string) which SQL statement correctly inserts Tuples to Hotel relation. (Assume Hotel_id is primary key).",
+      "options": [
+        {
+          "key": "A",
+          "text": "Insert INTO HOTEL (Hotel_id, Hotel_name, Sub_city)VALUES (‘Hilton’,’Yeka’)",
+          "explanation": "Incorrect. Insert INTO HOTEL (Hotel_id, Hotel_name, Sub_city)VALUES (‘Hilton’,’Yeka’) — This option does not satisfy what the question is asking. The correct choice is B."
+        },
+        {
+          "key": "B",
+          "text": "Insert INTO HOTEL (Hotel_id, Hotel_name, Sub_city)VALUES (1,‘Hilton’,’Yeka’)",
+          "explanation": "Correct. Insert INTO HOTEL (Hotel_id, Hotel_name, Sub_city)VALUES (1,‘Hilton’,’Yeka’) — this directly answers the question. In Database / SQL, this is the standard/principle being tested."
+        },
+        {
+          "key": "C",
+          "text": "Insert INTO HOTEL (1,‘Hilton’,’Yeka’)",
+          "explanation": "Incorrect. Insert INTO HOTEL (1,‘Hilton’,’Yeka’) — This option does not satisfy what the question is asking. The correct choice is B."
+        },
+        {
+          "key": "D",
+          "text": "Insert Values INTO HOTEL(Hotel_id, Hotel_name, Sub_city)VALUES (1,‘Hilton’,’Yeka’)",
+          "explanation": "Incorrect. Insert Values INTO HOTEL(Hotel_id, Hotel_name, Sub_city)VALUES (1,‘Hilton’,’Yeka’) — This option does not satisfy what the question is asking. The correct choice is B."
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Database / SQL): Insert INTO HOTEL (Hotel_id, Hotel_name, Sub_city)VALUES (1,‘Hilton’,’Yeka’)"
+    },
+    {
+      "examNumber": 10,
+      "id": 7,
+      "topic": "Web Development",
+      "text": "Which of the following shows the five stages in Tuckman’s model of team development, in sequential order?",
+      "options": [
+        {
+          "key": "A",
+          "text": "forming, storming, performing, norming and adjourning",
+          "explanation": "Incorrect. forming, storming, performing, norming and adjourning — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "B",
+          "text": "norming ,forming, storming, performing and adjourning",
+          "explanation": "Incorrect. norming ,forming, storming, performing and adjourning — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "C",
+          "text": "storming, forming, norming, performing and adjourning",
+          "explanation": "Incorrect. storming, forming, norming, performing and adjourning — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "D",
+          "text": "forming, storming, norming, performing and adjourning",
+          "explanation": "Correct. forming, storming, norming, performing and adjourning — this directly answers the question. In Web / CSS / JS, this is the standard/principle being tested."
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Web / CSS / JS): forming, storming, norming, performing and adjourning"
+    },
+    {
+      "examNumber": 11,
+      "id": 8,
+      "topic": "Android",
+      "text": "Which Statement is correct about the difference between functional and nonfunctional requirement?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Unlike functional requirement, nonfunctional requirement is stable.",
+          "explanation": "Incorrect. Unlike functional requirement, nonfunctional requirement is stable. — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "B",
+          "text": "Both are the same most of the time and only vary under certain contexts.",
+          "explanation": "Incorrect. Both are the same most of the time and only vary under certain contexts. — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "C",
+          "text": "Functional requirements are decided by the customer while nonfunctional requirements are decided by developers",
+          "explanation": "Incorrect. Functional requirements are decided by the customer while nonfunctional requirements are decided by developers — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "D",
+          "text": "Functional requirements are the service of the system provide while nonfunctional requirements are constraints on the service or functions offered by the system.",
+          "explanation": "Correct. Functional requirements are the service of the system provide while nonfunctional requirements are constraints on the service or functions offered by the system. — this directly answers the question. In General, this is the standard/principle being tested."
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (General): Functional requirements are the service of the system provide while nonfunctional requirements are constraints on the service or functions offered by the system."
+    },
+    {
+      "examNumber": 13,
+      "id": 9,
+      "topic": "Project Management",
+      "text": "If the estimate the total discounted benefits for a project is birr 120,000 and total discounted cost is birr 100,000 what is the estimated return on investment (ROI) percentage?",
+      "options": [
+        {
+          "key": "A",
+          "text": "20%",
+          "explanation": "Correct. 20% — this directly answers the question. In Project Management, this is the standard/principle being tested."
+        },
+        {
+          "key": "B",
+          "text": "12%",
+          "explanation": "Incorrect. 12% — ROI = (Benefits − Cost) / Cost × 100 = (120000−100000)/100000 = 20%. The correct choice is A."
+        },
+        {
+          "key": "C",
+          "text": "30%",
+          "explanation": "Incorrect. 30% — ROI = (Benefits − Cost) / Cost × 100 = (120000−100000)/100000 = 20%. The correct choice is A."
+        },
+        {
+          "key": "D",
+          "text": "10%",
+          "explanation": "Incorrect. 10% — ROI = (Benefits − Cost) / Cost × 100 = (120000−100000)/100000 = 20%. The correct choice is A."
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Project Management): 20%"
+    },
+    {
+      "examNumber": 14,
+      "id": 10,
+      "topic": "Operating Systems",
+      "text": "A queue in which the item most recently added is always the first one out refers to:",
+      "options": [
+        {
+          "key": "A",
+          "text": "LIFO queue",
+          "explanation": "Correct. LIFO queue — this directly answers the question. In Operating Systems, this is the standard/principle being tested."
+        },
+        {
+          "key": "B",
+          "text": "FIFO queue",
+          "explanation": "Incorrect. FIFO queue — FIFO removes the oldest item first, not the most recently added. The correct choice is A."
+        },
+        {
+          "key": "C",
+          "text": "Real time queue",
+          "explanation": "Incorrect. Real time queue — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "D",
+          "text": "Priority queue",
+          "explanation": "Incorrect. Priority queue — This option does not satisfy what the question is asking. The correct choice is A."
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Operating Systems): LIFO queue"
+    },
+    {
+      "examNumber": 17,
+      "id": 11,
+      "topic": "Networking",
+      "text": "A firewall is used in a system connected to a wide area network to",
+      "options": [
+        {
+          "key": "A",
+          "text": "Fire spreading via network through cables",
+          "explanation": "Incorrect. Fire spreading via network through cables — Confuses network firewall with physical fire prevention. The correct choice is C."
+        },
+        {
+          "key": "B",
+          "text": "Avoid Spreading of fire in the network",
+          "explanation": "Incorrect. Avoid Spreading of fire in the network — Confuses network firewall with physical fire prevention. The correct choice is C."
+        },
+        {
+          "key": "C",
+          "text": "Stop Unauthorized access by hackers",
+          "explanation": "Correct. Stop Unauthorized access by hackers — this directly answers the question. In Networking, this is the standard/principle being tested."
+        },
+        {
+          "key": "D",
+          "text": "Scanning for viruses in various files",
+          "explanation": "Incorrect. Scanning for viruses in various files — Antivirus scanning is different from perimeter access control. The correct choice is C."
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Networking): Stop Unauthorized access by hackers"
+    },
+    {
+      "examNumber": 18,
+      "id": 12,
+      "topic": "General",
+      "text": "The permission –rwxr-r- represented in octal expression will be:",
+      "options": [
+        {
+          "key": "A",
+          "text": "766",
+          "explanation": "Incorrect. 766 — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "B",
+          "text": "700",
+          "explanation": "Incorrect. 700 — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "C",
+          "text": "744",
+          "explanation": "Incorrect. 744 — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "D",
+          "text": "755",
+          "explanation": "Correct. 755 — this directly answers the question. In Networking, this is the standard/principle being tested."
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Networking): 755"
+    },
+    {
+      "examNumber": 19,
+      "id": 13,
+      "topic": "Networking",
+      "text": "Which of the following is the correct order of packet data unit as data moved in the OSI reference model from bottom to top?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Segment, Packet, Frame, Bit",
+          "explanation": "Incorrect. Segment, Packet, Frame, Bit — This option does not satisfy what the question is asking. The correct choice is C."
+        },
+        {
+          "key": "B",
+          "text": "Segment, Frame, Packet, Bit",
+          "explanation": "Incorrect. Segment, Frame, Packet, Bit — This option does not satisfy what the question is asking. The correct choice is C."
+        },
+        {
+          "key": "C",
+          "text": "Bit, Frame, Packet, Segment",
+          "explanation": "Correct. Bit, Frame, Packet, Segment — this directly answers the question. In Networking, this is the standard/principle being tested."
+        },
+        {
+          "key": "D",
+          "text": "Bit, Packet, Frame, Segment",
+          "explanation": "Incorrect. Bit, Packet, Frame, Segment — This option does not satisfy what the question is asking. The correct choice is C."
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Networking): Bit, Frame, Packet, Segment"
+    },
+    {
+      "examNumber": 20,
+      "id": 14,
+      "topic": "Networking",
+      "text": "Which of the following statement is true regarding triple DES?",
+      "options": [
+        {
+          "key": "A",
+          "text": "192-bit keys on 64-bit blocks of plain text.",
+          "explanation": "Incorrect. 192-bit keys on 64-bit blocks of plain text. — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "B",
+          "text": "Uses 128-bit blocks of plain text and 92-bit keys and apply DES algorithm thrice.",
+          "explanation": "Incorrect. Uses 128-bit blocks of plain text and 92-bit keys and apply DES algorithm thrice. — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "C",
+          "text": "Work with 192-bit blocks of plain text and applies DES algorithm once.",
+          "explanation": "Incorrect. Work with 192-bit blocks of plain text and applies DES algorithm once. — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "D",
+          "text": "Functioning on 64-bit blocks of plain text and 56-bit keys by applying DES algorithm for three rounds.",
+          "explanation": "Correct. Functioning on 64-bit blocks of plain text and 56-bit keys by applying DES algorithm for three rounds. — this directly answers the question. In Networking, this is the standard/principle being tested."
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Networking): Functioning on 64-bit blocks of plain text and 56-bit keys by applying DES algorithm for three rounds."
+    },
+    {
+      "examNumber": 22,
+      "id": 15,
+      "topic": "Web Development",
+      "text": "An HTTP request message always contains_________?",
+      "options": [
+        {
+          "key": "A",
+          "text": "a status line, a header, and a body",
+          "explanation": "Incorrect. a status line, a header, and a body — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "B",
+          "text": "a header only",
+          "explanation": "Incorrect. a header only — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "C",
+          "text": "a header and a body",
+          "explanation": "Incorrect. a header and a body — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "D",
+          "text": "a request line and a header",
+          "explanation": "Correct. a request line and a header — this directly answers the question. In Web / CSS / JS, this is the standard/principle being tested."
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Web / CSS / JS): a request line and a header"
+    },
+    {
+      "examNumber": 23,
+      "id": 16,
+      "topic": "Web Development",
+      "text": "Which of the following is refers to unauthorized disclosure of information?",
+      "options": [
+        {
+          "key": "A",
+          "text": "authorization",
+          "explanation": "Incorrect. authorization — Unauthorized disclosure violates confidentiality, not this property. The correct choice is D."
+        },
+        {
+          "key": "B",
+          "text": "authentication",
+          "explanation": "Incorrect. authentication — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "C",
+          "text": "integrity",
+          "explanation": "Incorrect. integrity — Unauthorized disclosure violates confidentiality, not this property. The correct choice is D."
+        },
+        {
+          "key": "D",
+          "text": "confidentiality",
+          "explanation": "Correct. confidentiality — this directly answers the question. In Web / CSS / JS, this is the standard/principle being tested."
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Web / CSS / JS): confidentiality"
+    },
+    {
+      "examNumber": 24,
+      "id": 17,
+      "topic": "General",
+      "text": "Anything that can perceive its environment through sensory and act as upon environment through effectors",
+      "options": [
+        {
+          "key": "A",
+          "text": "Agent",
+          "explanation": "Correct. Agent — this directly answers the question. In AI / ML / Data Mining, this is the standard/principle being tested."
+        },
+        {
+          "key": "B",
+          "text": "Expert System",
+          "explanation": "Incorrect. Expert System — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "C",
+          "text": "Intelligence",
+          "explanation": "Incorrect. Intelligence — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "D",
+          "text": "API",
+          "explanation": "Incorrect. API — This option does not satisfy what the question is asking. The correct choice is A."
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (AI / ML / Data Mining): Agent"
+    },
+    {
+      "examNumber": 25,
+      "id": 18,
+      "topic": "Java / OOP",
+      "text": "Assume that there is a pet family from which Pets like Dog and Cat share behavior from every Pet family has a name. However, the pet families have some specific behaviors that are exhibited by only particular pets. For instance, only Dogs can fetch something while both cats and dogs can speak which of the following object oriented design principle would be suitable for this case?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Information hiding",
+          "explanation": "Incorrect. Information hiding — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "B",
+          "text": "Encapsulation",
+          "explanation": "Incorrect. Encapsulation — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "C",
+          "text": "Polymorphism",
+          "explanation": "Incorrect. Polymorphism — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "D",
+          "text": "Inheritance",
+          "explanation": "Correct. Inheritance — this directly answers the question. In Java / OOP, this is the standard/principle being tested."
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Java / OOP): Inheritance"
+    },
+    {
+      "examNumber": 26,
+      "id": 19,
+      "topic": "Operating Systems",
+      "text": "Which of the following statement is not addressing the banker’s algorithm?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The banker’s algorithm considers each request before it occurs.",
+          "explanation": "Incorrect. The banker’s algorithm considers each request before it occurs. — This statement is generally true, but the question asks for the wrong/not case. The correct choice is D."
+        },
+        {
+          "key": "B",
+          "text": "It is an extension of the deadlock detection algorithm.",
+          "explanation": "Incorrect. It is an extension of the deadlock detection algorithm. — This statement is generally true, but the question asks for the wrong/not case. The correct choice is D."
+        },
+        {
+          "key": "C",
+          "text": "It is a modeled on the way a small-town banker might deal with a group of customers to whom he/she has granted lines of credit",
+          "explanation": "Incorrect. It is a modeled on the way a small-town banker might deal with a group of customers to whom he/she has granted lines of credit — This statement is generally true, but the question asks for the wrong/not case. The correct choice is D."
+        },
+        {
+          "key": "D",
+          "text": "It is scheduling algorithm.",
+          "explanation": "Correct. It is scheduling algorithm. — this directly answers the question. In Operating Systems, this is the standard/principle being tested."
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Operating Systems): It is scheduling algorithm."
+    },
+    {
+      "examNumber": 27,
+      "id": 20,
+      "topic": "Web Development",
+      "text": "An informed search algorithm that provides exponential time complexity in the worst-case scenarios and guarantees optimality when searching a solution refers to:",
+      "options": [
+        {
+          "key": "A",
+          "text": "A* search",
+          "explanation": "Correct. A* search — this directly answers the question. In Web / CSS / JS, this is the standard/principle being tested."
+        },
+        {
+          "key": "B",
+          "text": "greedy best-first search",
+          "explanation": "Incorrect. greedy best-first search — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "C",
+          "text": "uniform cost search",
+          "explanation": "Incorrect. uniform cost search — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "D",
+          "text": "Iterative deepening A*search",
+          "explanation": "Incorrect. Iterative deepening A*search — This option does not satisfy what the question is asking. The correct choice is A."
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Web / CSS / JS): A* search"
+    },
+    {
+      "examNumber": 28,
+      "id": 21,
+      "topic": "General",
+      "text": "Which principles state that 80% of the problem can be fixed with 20% of the entire effort?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Pareto principle",
+          "explanation": "Correct. Pareto principle — this directly answers the question. In AI / ML / Data Mining, this is the standard/principle being tested."
+        },
+        {
+          "key": "B",
+          "text": "Parametric principle",
+          "explanation": "Incorrect. Parametric principle — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "C",
+          "text": "Pairwise principle",
+          "explanation": "Incorrect. Pairwise principle — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "D",
+          "text": "Partition principle",
+          "explanation": "Incorrect. Partition principle — This option does not satisfy what the question is asking. The correct choice is A."
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (AI / ML / Data Mining): Pareto principle"
+    },
+    {
+      "examNumber": 29,
+      "id": 22,
+      "topic": "AI / ML",
+      "text": "Which one of the following is an appropriate sequence that depicts the model development process in data mining?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Model training, Model Testing, Model Evaluation, Model Deployment",
+          "explanation": "Correct. Model training, Model Testing, Model Evaluation, Model Deployment — this directly answers the question. In Operating Systems, this is the standard/principle being tested."
+        },
+        {
+          "key": "B",
+          "text": "Model Evaluation, Model training, Model Testing, Model Deployment",
+          "explanation": "Incorrect. Model Evaluation, Model training, Model Testing, Model Deployment — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "C",
+          "text": "Model training, Model Testing, Model Deployment, Model Evaluation",
+          "explanation": "Incorrect. Model training, Model Testing, Model Deployment, Model Evaluation — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "D",
+          "text": "Model training, Model Evaluation, Model Testing, Model Deployment",
+          "explanation": "Incorrect. Model training, Model Evaluation, Model Testing, Model Deployment — This option does not satisfy what the question is asking. The correct choice is A."
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Operating Systems): Model training, Model Testing, Model Evaluation, Model Deployment"
+    },
+    {
+      "examNumber": 30,
+      "id": 23,
+      "topic": "Java / OOP",
+      "text": "Which method has the same name as that of its class?",
+      "options": [
+        {
+          "key": "A",
+          "text": "delete",
+          "explanation": "Incorrect. delete — This option does not satisfy what the question is asking. The correct choice is C."
+        },
+        {
+          "key": "B",
+          "text": "class",
+          "explanation": "Incorrect. class — This option does not satisfy what the question is asking. The correct choice is C."
+        },
+        {
+          "key": "C",
+          "text": "constructor",
+          "explanation": "Correct. constructor — this directly answers the question. In Java / OOP, this is the standard/principle being tested."
+        },
+        {
+          "key": "D",
+          "text": "finalize",
+          "explanation": "Incorrect. finalize — This option does not satisfy what the question is asking. The correct choice is C."
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Java / OOP): constructor"
+    },
+    {
+      "examNumber": 31,
+      "id": 24,
+      "topic": "Database",
+      "text": "Within OAuth, what component validates the user’s identity?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Authorization server",
+          "explanation": "Correct. Authorization server — this directly answers the question. In Database / SQL, this is the standard/principle being tested."
+        },
+        {
+          "key": "B",
+          "text": "resource server",
+          "explanation": "Incorrect. resource server — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "C",
+          "text": "browser",
+          "explanation": "Incorrect. browser — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "D",
+          "text": "client",
+          "explanation": "Incorrect. client — This option does not satisfy what the question is asking. The correct choice is A."
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Database / SQL): Authorization server"
+    },
+    {
+      "examNumber": 32,
+      "id": 25,
+      "topic": "General",
+      "text": "The result of the following program after running will be Class PrintResult { Public static void main (String arg [ ]) { int arr{ }={3,4,5,6,7}; for(int i=0; i<=arr.length-2; ++i){ system.out.println(arr[i]+ ”,”) } }}",
+      "options": [
+        {
+          "key": "A",
+          "text": "3,4",
+          "explanation": "Incorrect. 3,4 — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "B",
+          "text": "3,4,5",
+          "explanation": "Incorrect. 3,4,5 — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "C",
+          "text": "3,4,5,6,7",
+          "explanation": "Incorrect. 3,4,5,6,7 — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "D",
+          "text": "3,4,5,6",
+          "explanation": "Correct. 3,4,5,6 — this directly answers the question. In Java / OOP, this is the standard/principle being tested."
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Java / OOP): 3,4,5,6"
+    },
+    {
+      "examNumber": 33,
+      "id": 26,
+      "topic": "Database",
+      "text": "While optimizing our relation, if we found that no multivalued attributes and partial dependencies exist in a relation then the relation is in what normal form?",
+      "options": [
+        {
+          "key": "A",
+          "text": "1NF",
+          "explanation": "Incorrect. 1NF — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "B",
+          "text": "3NF",
+          "explanation": "Incorrect. 3NF — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "C",
+          "text": "4NF",
+          "explanation": "Incorrect. 4NF — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "D",
+          "text": "2NF",
+          "explanation": "Correct. 2NF — this directly answers the question. In Web / CSS / JS, this is the standard/principle being tested."
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Web / CSS / JS): 2NF"
+    },
+    {
+      "examNumber": 34,
+      "id": 27,
+      "topic": "Java / OOP",
+      "text": "A Techniques for generating plans with conditionals and loops are almost identical to those for generating programs from logical specification is called:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Automatic programming",
+          "explanation": "Correct. Automatic programming — this directly answers the question. In General, this is the standard/principle being tested."
+        },
+        {
+          "key": "B",
+          "text": "Automatic monitoring",
+          "explanation": "Incorrect. Automatic monitoring — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "C",
+          "text": "Automatic recursive",
+          "explanation": "Incorrect. Automatic recursive — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "D",
+          "text": "Automatic learning",
+          "explanation": "Incorrect. Automatic learning — This option does not satisfy what the question is asking. The correct choice is A."
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (General): Automatic programming"
+    },
+    {
+      "examNumber": 35,
+      "id": 28,
+      "topic": "C++",
+      "text": "Which one of the following is the correct identifier in c++?",
+      "options": [
+        {
+          "key": "A",
+          "text": "7variable",
+          "explanation": "Incorrect. 7variable — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "B",
+          "text": "7VARIABLE",
+          "explanation": "Incorrect. 7VARIABLE — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "C",
+          "text": "$variable",
+          "explanation": "Incorrect. $variable — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "D",
+          "text": "variable_1234",
+          "explanation": "Correct. variable_1234 — this directly answers the question. In C++, this is the standard/principle being tested."
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (C++): variable_1234"
+    },
+    {
+      "examNumber": 36,
+      "id": 29,
+      "topic": "Java / OOP",
+      "text": "Which of the following is true about the abstract class?",
+      "options": [
+        {
+          "key": "A",
+          "text": "cannot be inherited",
+          "explanation": "Incorrect. cannot be inherited — Abstract classes are meant to be extended/inherited. The correct choice is C."
+        },
+        {
+          "key": "B",
+          "text": "a mechanism of encapsulation",
+          "explanation": "Incorrect. a mechanism of encapsulation — This option does not satisfy what the question is asking. The correct choice is C."
+        },
+        {
+          "key": "C",
+          "text": "cannot be instantiated",
+          "explanation": "Correct. cannot be instantiated — this directly answers the question. In Java / OOP, this is the standard/principle being tested."
+        },
+        {
+          "key": "D",
+          "text": "can contain both abstract and non-abstract methods",
+          "explanation": "Incorrect. can contain both abstract and non-abstract methods — This option does not satisfy what the question is asking. The correct choice is C."
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Java / OOP): cannot be instantiated"
+    },
+    {
+      "examNumber": 37,
+      "id": 30,
+      "topic": "Security",
+      "text": "In software risk management, accepting risk happening but do not do anything is known as",
+      "options": [
+        {
+          "key": "A",
+          "text": "risk transfer",
+          "explanation": "Incorrect. risk transfer — This statement is generally true, but the question asks for the wrong/not case. The correct choice is B."
+        },
+        {
+          "key": "B",
+          "text": "risk retention",
+          "explanation": "Correct. risk retention — this directly answers the question. In Security, this is the standard/principle being tested."
+        },
+        {
+          "key": "C",
+          "text": "risk avoidance",
+          "explanation": "Incorrect. risk avoidance — This statement is generally true, but the question asks for the wrong/not case. The correct choice is B."
+        },
+        {
+          "key": "D",
+          "text": "risk reduction",
+          "explanation": "Incorrect. risk reduction — This statement is generally true, but the question asks for the wrong/not case. The correct choice is B."
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Security): risk retention"
+    },
+    {
+      "examNumber": 38,
+      "id": 31,
+      "topic": "Android",
+      "text": "When a process is in a “Blocked” state waiting for some input-output services and after the service is completed it will goes to a state known as:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Suspended",
+          "explanation": "Incorrect. Suspended — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "B",
+          "text": "Terminated",
+          "explanation": "Incorrect. Terminated — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "C",
+          "text": "Running",
+          "explanation": "Incorrect. Running — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "D",
+          "text": "Ready",
+          "explanation": "Correct. Ready — this directly answers the question. In Operating Systems, this is the standard/principle being tested."
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Operating Systems): Ready"
+    },
+    {
+      "examNumber": 39,
+      "id": 32,
+      "topic": "Software Architecture",
+      "text": "“The system architecture should be designed using fine-grain, self- contained components. Producers of data should be separated from consumers and shared data structures should be avoided.” For which requirement this architecture description applies?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Availability",
+          "explanation": "Incorrect. Availability — This option does not satisfy what the question is asking. The correct choice is B."
+        },
+        {
+          "key": "B",
+          "text": "maintainability",
+          "explanation": "Correct. maintainability — this directly answers the question. In Software Architecture, this is the standard/principle being tested."
+        },
+        {
+          "key": "C",
+          "text": "performance",
+          "explanation": "Incorrect. performance — This option does not satisfy what the question is asking. The correct choice is B."
+        },
+        {
+          "key": "D",
+          "text": "security",
+          "explanation": "Incorrect. security — This option does not satisfy what the question is asking. The correct choice is B."
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Architecture): maintainability"
+    },
+    {
+      "examNumber": 40,
+      "id": 33,
+      "topic": "Networking",
+      "text": "Which slogan is against agile method philosophy?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Following a plan over responding to changes",
+          "explanation": "Correct. Following a plan over responding to changes — this directly answers the question. In Project Management, this is the standard/principle being tested."
+        },
+        {
+          "key": "B",
+          "text": "Individuals and interactions over processes and tools",
+          "explanation": "Incorrect. Individuals and interactions over processes and tools — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "C",
+          "text": "Customer collaboration over contract negotiation",
+          "explanation": "Incorrect. Customer collaboration over contract negotiation — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "D",
+          "text": "working software over comprehensive documentation",
+          "explanation": "Incorrect. working software over comprehensive documentation — This is a core agile value, not something against agile. The correct choice is A."
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Project Management): Following a plan over responding to changes"
+    },
+    {
+      "examNumber": 41,
+      "id": 34,
+      "topic": "Android",
+      "text": "APK stands for",
+      "options": [
+        {
+          "key": "A",
+          "text": "Android Package Kit",
+          "explanation": "Correct. Android Package Kit — this directly answers the question. In Android, this is the standard/principle being tested."
+        },
+        {
+          "key": "B",
+          "text": "Android Platform Kit",
+          "explanation": "Incorrect. Android Platform Kit — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "C",
+          "text": "Android Phone Kit",
+          "explanation": "Incorrect. Android Phone Kit — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "D",
+          "text": "Android Page Kit",
+          "explanation": "Incorrect. Android Page Kit — This option does not satisfy what the question is asking. The correct choice is A."
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Android): Android Package Kit"
+    },
+    {
+      "examNumber": 42,
+      "id": 35,
+      "topic": "Software Testing",
+      "text": "Which statement describe the main goal of software testing as a part of the quality assurance process?",
+      "options": [
+        {
+          "key": "A",
+          "text": "to achieve project timelines and deadlines",
+          "explanation": "Incorrect. to achieve project timelines and deadlines — This option does not satisfy what the question is asking. The correct choice is C."
+        },
+        {
+          "key": "B",
+          "text": "to generate software requirement and design documentation",
+          "explanation": "Incorrect. to generate software requirement and design documentation — This option does not satisfy what the question is asking. The correct choice is C."
+        },
+        {
+          "key": "C",
+          "text": "to guarantee that the software meets the specified requirement",
+          "explanation": "Correct. to guarantee that the software meets the specified requirement — this directly answers the question. In Project Management, this is the standard/principle being tested."
+        },
+        {
+          "key": "D",
+          "text": "to monitor the entire SDLC",
+          "explanation": "Incorrect. to monitor the entire SDLC — This option does not satisfy what the question is asking. The correct choice is C."
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Project Management): to guarantee that the software meets the specified requirement"
+    },
+    {
+      "examNumber": 43,
+      "id": 36,
+      "topic": "Java / OOP",
+      "text": "The correct structure of the for loop statement is:",
+      "options": [
+        {
+          "key": "A",
+          "text": "for(initialization; condition)",
+          "explanation": "Incorrect. for(initialization; condition) — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "B",
+          "text": "for(increment/decrement; initialization; condition)",
+          "explanation": "Incorrect. for(increment/decrement; initialization; condition) — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "C",
+          "text": "for(condition, initialization, increment/decrement)",
+          "explanation": "Incorrect. for(condition, initialization, increment/decrement) — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "D",
+          "text": "for(initialization; condition; increment/decrement)",
+          "explanation": "Correct. for(initialization; condition; increment/decrement) — this directly answers the question. In C++, this is the standard/principle being tested."
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (C++): for(initialization; condition; increment/decrement)"
+    },
+    {
+      "examNumber": 44,
+      "id": 37,
+      "topic": "Web Development",
+      "text": "Which of the following is not true regarding algorithm development during problem solving?",
+      "options": [
+        {
+          "key": "A",
+          "text": "should be developed by considering the platforms on which it runs",
+          "explanation": "Incorrect. should be developed by considering the platforms on which it runs — This statement is generally true, but the question asks for the wrong/not case. The correct choice is D."
+        },
+        {
+          "key": "B",
+          "text": "Is step wise logical description of how to solve the problem",
+          "explanation": "Incorrect. Is step wise logical description of how to solve the problem — This statement is generally true, but the question asks for the wrong/not case. The correct choice is D."
+        },
+        {
+          "key": "C",
+          "text": "Is developing considering the details of the programming language",
+          "explanation": "Incorrect. Is developing considering the details of the programming language — This statement is generally true, but the question asks for the wrong/not case. The correct choice is D."
+        },
+        {
+          "key": "D",
+          "text": "Is equivalent to the programming language code",
+          "explanation": "Correct. Is equivalent to the programming language code — this directly answers the question. In Web / CSS / JS, this is the standard/principle being tested."
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Web / CSS / JS): Is equivalent to the programming language code"
+    },
+    {
+      "examNumber": 45,
+      "id": 38,
+      "topic": "Project Management",
+      "text": "What would be the most likely consequence if every software stakeholders were rushing to be approved for their requirement without discussing with other stakeholders?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Attains the project schedule",
+          "explanation": "Incorrect. Attains the project schedule — This option does not satisfy what the question is asking. The correct choice is C."
+        },
+        {
+          "key": "B",
+          "text": "Results in excess requirements",
+          "explanation": "Incorrect. Results in excess requirements — This option does not satisfy what the question is asking. The correct choice is C."
+        },
+        {
+          "key": "C",
+          "text": "leads to conflict requirement",
+          "explanation": "Correct. leads to conflict requirement — this directly answers the question. In Project Management, this is the standard/principle being tested."
+        },
+        {
+          "key": "D",
+          "text": "Requirement become unambiguous",
+          "explanation": "Incorrect. Requirement become unambiguous — This option does not satisfy what the question is asking. The correct choice is C."
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Project Management): leads to conflict requirement"
+    },
+    {
+      "examNumber": 46,
+      "id": 39,
+      "topic": "Web Development",
+      "text": "Which of the following is true regarding model development in machine learning?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Much focus should be given to test data than training data",
+          "explanation": "Incorrect. Much focus should be given to test data than training data — This option does not satisfy what the question is asking. The correct choice is B."
+        },
+        {
+          "key": "B",
+          "text": "Training with large dataset boosts model performance",
+          "explanation": "Correct. Training with large dataset boosts model performance — this directly answers the question. In Web / CSS / JS, this is the standard/principle being tested."
+        },
+        {
+          "key": "C",
+          "text": "Test set and Training set should have fifty-fifty overlap",
+          "explanation": "Incorrect. Test set and Training set should have fifty-fifty overlap — This option does not satisfy what the question is asking. The correct choice is B."
+        },
+        {
+          "key": "D",
+          "text": "proportion of data set for training should be less than the test set",
+          "explanation": "Incorrect. proportion of data set for training should be less than the test set — This option does not satisfy what the question is asking. The correct choice is B."
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Web / CSS / JS): Training with large dataset boosts model performance"
+    },
+    {
+      "examNumber": 47,
+      "id": 40,
+      "topic": "Android",
+      "text": "All layout classes are subclasses of which of the following?",
+      "options": [
+        {
+          "key": "A",
+          "text": "android.view.Relativelayout",
+          "explanation": "Incorrect. android.view.Relativelayout — This option does not satisfy what the question is asking. The correct choice is C."
+        },
+        {
+          "key": "B",
+          "text": "android.view.Layout",
+          "explanation": "Incorrect. android.view.Layout — This option does not satisfy what the question is asking. The correct choice is C."
+        },
+        {
+          "key": "C",
+          "text": "android.view.ViewGroup",
+          "explanation": "Correct. android.view.ViewGroup — this directly answers the question. In Android, this is the standard/principle being tested."
+        },
+        {
+          "key": "D",
+          "text": "android.view.Widget",
+          "explanation": "Incorrect. android.view.Widget — This option does not satisfy what the question is asking. The correct choice is C."
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Android): android.view.ViewGroup"
+    },
+    {
+      "examNumber": 48,
+      "id": 41,
+      "topic": "C++",
+      "text": "What will be the output for the following code if you enter 4 and 3 for b and e respectively #include<iostream> Using namespace std; int main(){ int b, e, r=1; count<<”enter b and e”; cin>>b>>e; for (int i=1; i<=e; i++){ f=r*b; } cout<<f; return 0; }",
+      "options": [
+        {
+          "key": "A",
+          "text": "81",
+          "explanation": "Incorrect. 81 — This option does not satisfy what the question is asking. The correct choice is C."
+        },
+        {
+          "key": "B",
+          "text": "12",
+          "explanation": "Incorrect. 12 — This option does not satisfy what the question is asking. The correct choice is C."
+        },
+        {
+          "key": "C",
+          "text": "64",
+          "explanation": "Correct. 64 — this directly answers the question. In C++, this is the standard/principle being tested."
+        },
+        {
+          "key": "D",
+          "text": "256",
+          "explanation": "Incorrect. 256 — This option does not satisfy what the question is asking. The correct choice is C."
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (C++): 64"
+    },
+    {
+      "examNumber": 49,
+      "id": 42,
+      "topic": "General",
+      "text": "Which of the following is not a valid host address within the network 172.17.128.0/21?",
+      "options": [
+        {
+          "key": "A",
+          "text": "172.17.128.1/21",
+          "explanation": "Incorrect. 172.17.128.1/21 — This statement is generally true, but the question asks for the wrong/not case. The correct choice is B."
+        },
+        {
+          "key": "B",
+          "text": "172.17.135.255/21",
+          "explanation": "Correct. 172.17.135.255/21 — this directly answers the question. In General, this is the standard/principle being tested."
+        },
+        {
+          "key": "C",
+          "text": "172.17.128.255/21",
+          "explanation": "Incorrect. 172.17.128.255/21 — This statement is generally true, but the question asks for the wrong/not case. The correct choice is B."
+        },
+        {
+          "key": "D",
+          "text": "172.17.135.0/21",
+          "explanation": "Incorrect. 172.17.135.0/21 — This statement is generally true, but the question asks for the wrong/not case. The correct choice is B."
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (General): 172.17.135.255/21"
+    },
+    {
+      "examNumber": 50,
+      "id": 43,
+      "topic": "Networking",
+      "text": "Which of the following is the correct sequence that will be followed during software evolution process?",
+      "options": [
+        {
+          "key": "A",
+          "text": "change request, release planning, change implementation, impact analysis, system release",
+          "explanation": "Incorrect. change request, release planning, change implementation, impact analysis, system release — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "B",
+          "text": "impact analysis, change request, change implementation, release planning, system release",
+          "explanation": "Incorrect. impact analysis, change request, change implementation, release planning, system release — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "C",
+          "text": "change request, impact analysis, change implementation, release planning, system release",
+          "explanation": "Incorrect. change request, impact analysis, change implementation, release planning, system release — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "D",
+          "text": "change request, impact analysis, release planning, change implementation, system release",
+          "explanation": "Correct. change request, impact analysis, release planning, change implementation, system release — this directly answers the question. In Operating Systems, this is the standard/principle being tested."
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Operating Systems): change request, impact analysis, release planning, change implementation, system release"
+    },
+    {
+      "examNumber": 51,
+      "id": 44,
+      "topic": "Database",
+      "text": "Identify the lowest layer of android architecture",
+      "options": [
+        {
+          "key": "A",
+          "text": "Linux kernel",
+          "explanation": "Correct. Linux kernel — this directly answers the question. In Software Architecture, this is the standard/principle being tested."
+        },
+        {
+          "key": "B",
+          "text": "Database",
+          "explanation": "Incorrect. Database — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "C",
+          "text": "Application Framework",
+          "explanation": "Incorrect. Application Framework — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "D",
+          "text": "Application",
+          "explanation": "Incorrect. Application — This option does not satisfy what the question is asking. The correct choice is A."
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Software Architecture): Linux kernel"
+    },
+    {
+      "examNumber": 52,
+      "id": 45,
+      "topic": "Web Development",
+      "text": "Which of the following is true regarding the use of switches and hubs for network connectivity in the network?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Switches do not forward broadcasts",
+          "explanation": "Incorrect. Switches do not forward broadcasts — This option does not satisfy what the question is asking. The correct choice is B."
+        },
+        {
+          "key": "B",
+          "text": "Switches increase the number of collision domains in the network",
+          "explanation": "Correct. Switches increase the number of collision domains in the network — this directly answers the question. In Networking, this is the standard/principle being tested."
+        },
+        {
+          "key": "C",
+          "text": "Switches take less time to process frames than hubs take",
+          "explanation": "Incorrect. Switches take less time to process frames than hubs take — This option does not satisfy what the question is asking. The correct choice is B."
+        },
+        {
+          "key": "D",
+          "text": "Hubs can filter frames",
+          "explanation": "Incorrect. Hubs can filter frames — This option does not satisfy what the question is asking. The correct choice is B."
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Networking): Switches increase the number of collision domains in the network"
+    },
+    {
+      "examNumber": 53,
+      "id": 46,
+      "topic": "Database",
+      "text": "Select the one that is not correct related to generalization in system modeling.",
+      "options": [
+        {
+          "key": "A",
+          "text": "In generalization, the attribute and operation associated with the highest-level classes are also associated with lowest level classes.",
+          "explanation": "Incorrect. In generalization, the attribute and operation associated with the highest-level classes are also associated with lowest level classes. — This statement is generally true, but the question asks for the wrong/not case. The correct choice is D."
+        },
+        {
+          "key": "B",
+          "text": "Common information will be maintained in one place",
+          "explanation": "Incorrect. Common information will be maintained in one place — This statement is generally true, but the question asks for the wrong/not case. The correct choice is D."
+        },
+        {
+          "key": "C",
+          "text": "Facilitate easy modification of data",
+          "explanation": "Incorrect. Facilitate easy modification of data — This statement is generally true, but the question asks for the wrong/not case. The correct choice is D."
+        },
+        {
+          "key": "D",
+          "text": "The higher level classes are more specific than the lower-level classes by adding specific attributes and operation",
+          "explanation": "Correct. The higher level classes are more specific than the lower-level classes by adding specific attributes and operation — this directly answers the question. In Java / OOP, this is the standard/principle being tested."
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Java / OOP): The higher level classes are more specific than the lower-level classes by adding specific attributes and operation"
+    },
+    {
+      "examNumber": 54,
+      "id": 47,
+      "topic": "Operating Systems",
+      "text": "A of process management which is waiting for a resource that is owned by another process refers to:",
+      "options": [
+        {
+          "key": "A",
+          "text": "deadlock",
+          "explanation": "Correct. deadlock — this directly answers the question. In Operating Systems, this is the standard/principle being tested."
+        },
+        {
+          "key": "B",
+          "text": "preemption",
+          "explanation": "Incorrect. preemption — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "C",
+          "text": "overloading",
+          "explanation": "Incorrect. overloading — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "D",
+          "text": "queueing",
+          "explanation": "Incorrect. queueing — This option does not satisfy what the question is asking. The correct choice is A."
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Operating Systems): deadlock"
+    },
+    {
+      "examNumber": 55,
+      "id": 48,
+      "topic": "Operating Systems",
+      "text": "A set of processes management which is waiting for a resource that I owned by another process refers to:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Deadlock",
+          "explanation": "Correct. Deadlock — this directly answers the question. In Operating Systems, this is the standard/principle being tested."
+        },
+        {
+          "key": "B",
+          "text": "Preemption",
+          "explanation": "Incorrect. Preemption — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "C",
+          "text": "Overloading",
+          "explanation": "Incorrect. Overloading — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "D",
+          "text": "Queuing",
+          "explanation": "Incorrect. Queuing — This option does not satisfy what the question is asking. The correct choice is A."
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Operating Systems): Deadlock"
+    },
+    {
+      "examNumber": 56,
+      "id": 49,
+      "topic": "Database",
+      "text": "“Database is a logically coherent collection of data with some inherent meaning “ describes that",
+      "options": [
+        {
+          "key": "A",
+          "text": "All attributes of the entity should be related",
+          "explanation": "Correct. All attributes of the entity should be related — this directly answers the question. In Database / SQL, this is the standard/principle being tested."
+        },
+        {
+          "key": "B",
+          "text": "there should be one primary key attribute",
+          "explanation": "Incorrect. there should be one primary key attribute — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "C",
+          "text": "the entity should be physical object",
+          "explanation": "Incorrect. the entity should be physical object — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "D",
+          "text": "number of attributes should be limited",
+          "explanation": "Incorrect. number of attributes should be limited — This option does not satisfy what the question is asking. The correct choice is A."
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Database / SQL): All attributes of the entity should be related"
+    },
+    {
+      "examNumber": 57,
+      "id": 50,
+      "topic": "Networking",
+      "text": "Which of the following is a resource optimization techniques in which start and finish dates are adjusted based on resource constraints with the goal of balancing the demand resources with the available supply?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Responsibility assignment matrix",
+          "explanation": "Incorrect. Responsibility assignment matrix — This option does not satisfy what the question is asking. The correct choice is C."
+        },
+        {
+          "key": "B",
+          "text": "Resource smoothing",
+          "explanation": "Incorrect. Resource smoothing — This option does not satisfy what the question is asking. The correct choice is C."
+        },
+        {
+          "key": "C",
+          "text": "Resource leveling",
+          "explanation": "Correct. Resource leveling — this directly answers the question. In Project Management, this is the standard/principle being tested."
+        },
+        {
+          "key": "D",
+          "text": "Resource grouping",
+          "explanation": "Incorrect. Resource grouping — This option does not satisfy what the question is asking. The correct choice is C."
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Project Management): Resource leveling"
+    },
+    {
+      "examNumber": 58,
+      "id": 51,
+      "topic": "AI / ML",
+      "text": "Business people always remodel their business by closely studying their customers purchasing habits over the course of their purchase history. Accordingly, a salesperson at Markato shop noticed that people who always buy shoes will also buy socks with probability of 0.75 and hence decided to put shoes and socks side by side for ease of accessibility. Which big data analytics technique could this salesperson could employ?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Regression Modeling",
+          "explanation": "Incorrect. Regression Modeling — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "B",
+          "text": "Clustering algorithm",
+          "explanation": "Incorrect. Clustering algorithm — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "C",
+          "text": "Predictive modeling",
+          "explanation": "Incorrect. Predictive modeling — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "D",
+          "text": "Association rule",
+          "explanation": "Correct. Association rule — this directly answers the question. In AI / ML / Data Mining, this is the standard/principle being tested."
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (AI / ML / Data Mining): Association rule"
+    },
+    {
+      "examNumber": 59,
+      "id": 52,
+      "topic": "Software Architecture",
+      "text": "Given the following layered architecture which ordering relation is correct and didn’t encountered any architectural erosion? Assume there are four layers: A,B,C and D A B C D",
+      "options": [
+        {
+          "key": "A",
+          "text": "(A,B)",
+          "explanation": "Incorrect. (A,B) — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "B",
+          "text": "(D,A)",
+          "explanation": "Incorrect. (D,A) — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "C",
+          "text": "(A,C)",
+          "explanation": "Incorrect. (A,C) — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "D",
+          "text": "(C,B)",
+          "explanation": "Correct. (C,B) — this directly answers the question. In Software Architecture, this is the standard/principle being tested."
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Software Architecture): (C,B)"
+    },
+    {
+      "examNumber": 60,
+      "id": 53,
+      "topic": "Networking",
+      "text": "Which of the following is among benefits provided with access control lists (ACLS) implementation for software security based application?",
+      "options": [
+        {
+          "key": "A",
+          "text": "ACLs monitor the number of bytes and packets",
+          "explanation": "Incorrect. ACLs monitor the number of bytes and packets — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "B",
+          "text": "ACLs provide high network availability",
+          "explanation": "Incorrect. ACLs provide high network availability — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "C",
+          "text": "Virus detection",
+          "explanation": "Incorrect. Virus detection — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "D",
+          "text": "ACLs classify and organize network traffic",
+          "explanation": "Correct. ACLs classify and organize network traffic — this directly answers the question. In Java / OOP, this is the standard/principle being tested."
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Java / OOP): ACLs classify and organize network traffic"
+    },
+    {
+      "examNumber": 61,
+      "id": 54,
+      "topic": "Web Development",
+      "text": "Default method while Submitting a form is",
+      "options": [
+        {
+          "key": "A",
+          "text": "Post method",
+          "explanation": "Incorrect. Post method — This option does not satisfy what the question is asking. The correct choice is B."
+        },
+        {
+          "key": "B",
+          "text": "Get Method",
+          "explanation": "Correct. Get Method — this directly answers the question. In Web / CSS / JS, this is the standard/principle being tested."
+        },
+        {
+          "key": "C",
+          "text": "Put Method",
+          "explanation": "Incorrect. Put Method — This option does not satisfy what the question is asking. The correct choice is B."
+        },
+        {
+          "key": "D",
+          "text": "Set Method",
+          "explanation": "Incorrect. Set Method — This option does not satisfy what the question is asking. The correct choice is B."
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Web / CSS / JS): Get Method"
+    },
+    {
+      "examNumber": 62,
+      "id": 55,
+      "topic": "Networking",
+      "text": "The process that generates activities such as project schedule, cost estimations and work breakdown structures is described as:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Project Initiating",
+          "explanation": "Incorrect. Project Initiating — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "B",
+          "text": "Project Executing",
+          "explanation": "Incorrect. Project Executing — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "C",
+          "text": "Project Closing",
+          "explanation": "Incorrect. Project Closing — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "D",
+          "text": "Project Planning",
+          "explanation": "Correct. Project Planning — this directly answers the question. In Project Management, this is the standard/principle being tested."
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Project Management): Project Planning"
+    },
+    {
+      "examNumber": 63,
+      "id": 56,
+      "topic": "Software Testing",
+      "text": "Given the following fragment of code, how many tests are required for 100% decision coverage? if width > length then biggest_dimension = width if height >width then biggest_dimension =height end_if else biggest_dimension = length if height > length then biggest_dimension = height end_if end_if",
+      "options": [
+        {
+          "key": "A",
+          "text": "6",
+          "explanation": "Incorrect. 6 — This option does not satisfy what the question is asking. The correct choice is B."
+        },
+        {
+          "key": "B",
+          "text": "4",
+          "explanation": "Correct. 4 — this directly answers the question. In Software Testing, this is the standard/principle being tested."
+        },
+        {
+          "key": "C",
+          "text": "2",
+          "explanation": "Incorrect. 2 — This option does not satisfy what the question is asking. The correct choice is B."
+        },
+        {
+          "key": "D",
+          "text": "1",
+          "explanation": "Incorrect. 1 — This option does not satisfy what the question is asking. The correct choice is B."
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Testing): 4"
+    },
+    {
+      "examNumber": 64,
+      "id": 57,
+      "topic": "Web Development",
+      "text": "How can we select an element with a specific class in CSS?",
+      "options": [
+        {
+          "key": "A",
+          "text": "^",
+          "explanation": "Incorrect. ^ — In CSS, `.classname` selects elements by class. The correct choice is D."
+        },
+        {
+          "key": "B",
+          "text": "–",
+          "explanation": "Incorrect. – — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "C",
+          "text": "#",
+          "explanation": "Incorrect. # — In CSS, `.classname` selects elements by class. The correct choice is D."
+        },
+        {
+          "key": "D",
+          "text": ".",
+          "explanation": "Correct. . — this directly answers the question. In Java / OOP, this is the standard/principle being tested."
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Java / OOP): ."
+    },
+    {
+      "examNumber": 65,
+      "id": 58,
+      "topic": "Software Testing",
+      "text": "Select an activity that suits in the fundamental test process which includes evaluation of the testability of the requirement and system?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Test analysis and design",
+          "explanation": "Incorrect. Test analysis and design — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "B",
+          "text": "Test analysis and requirements",
+          "explanation": "Incorrect. Test analysis and requirements — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "C",
+          "text": "Test analysis and implementation",
+          "explanation": "Incorrect. Test analysis and implementation — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "D",
+          "text": "Test analysis and planning",
+          "explanation": "Correct. Test analysis and planning — this directly answers the question. In Android, this is the standard/principle being tested."
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Android): Test analysis and planning"
+    },
+    {
+      "examNumber": 66,
+      "id": 59,
+      "topic": "Database",
+      "text": "Which of the following is an appropriate sequence of database design processes?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Logical design database, Enterprise data modeling, Physical database design, Database implementation",
+          "explanation": "Incorrect. Logical design database, Enterprise data modeling, Physical database design, Database implementation — This option does not satisfy what the question is asking. The correct choice is C."
+        },
+        {
+          "key": "B",
+          "text": "Enterprise data modeling, Logical design database, Database implementation, Physical database design",
+          "explanation": "Incorrect. Enterprise data modeling, Logical design database, Database implementation, Physical database design — This option does not satisfy what the question is asking. The correct choice is C."
+        },
+        {
+          "key": "C",
+          "text": "Enterprise data modeling, Logical design database, Physical database design, Database implementation",
+          "explanation": "Correct. Enterprise data modeling, Logical design database, Physical database design, Database implementation — this directly answers the question. In Database / SQL, this is the standard/principle being tested."
+        },
+        {
+          "key": "D",
+          "text": "Logical design database, Enterprise data modeling, Physical database design, Database implementation",
+          "explanation": "Incorrect. Logical design database, Enterprise data modeling, Physical database design, Database implementation — This option does not satisfy what the question is asking. The correct choice is C."
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Database / SQL): Enterprise data modeling, Logical design database, Physical database design, Database implementation"
+    },
+    {
+      "examNumber": 67,
+      "id": 60,
+      "topic": "Software Testing",
+      "text": "Which of the following is not among the purposes of software testing?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Identify shortcomings",
+          "explanation": "Incorrect. Identify shortcomings — This statement is generally true, but the question asks for the wrong/not case. The correct choice is D."
+        },
+        {
+          "key": "B",
+          "text": "Improving product acceptance",
+          "explanation": "Incorrect. Improving product acceptance — This statement is generally true, but the question asks for the wrong/not case. The correct choice is D."
+        },
+        {
+          "key": "C",
+          "text": "Enhancing reliability",
+          "explanation": "Incorrect. Enhancing reliability — This statement is generally true, but the question asks for the wrong/not case. The correct choice is D."
+        },
+        {
+          "key": "D",
+          "text": "Requesting more design and implementation time",
+          "explanation": "Correct. Requesting more design and implementation time — this directly answers the question. In Networking, this is the standard/principle being tested."
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Networking): Requesting more design and implementation time"
+    },
+    {
+      "examNumber": 68,
+      "id": 61,
+      "topic": "Networking",
+      "text": "Which software process model will you use if you want to deliver different functionalities (modules) of the software product that have different priority at different time?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Incremental model",
+          "explanation": "Correct. Incremental model — this directly answers the question. In Project Management, this is the standard/principle being tested."
+        },
+        {
+          "key": "B",
+          "text": "Spiral model",
+          "explanation": "Incorrect. Spiral model — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "C",
+          "text": "Waterfall model",
+          "explanation": "Incorrect. Waterfall model — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "D",
+          "text": "Linear model",
+          "explanation": "Incorrect. Linear model — This option does not satisfy what the question is asking. The correct choice is A."
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Project Management): Incremental model"
+    },
+    {
+      "examNumber": 69,
+      "id": 62,
+      "topic": "Data Structures",
+      "text": "What is the time complexity for the following code snippets? function someFunction(n) for(var i=0; i<n*10; i++){ console.log(n); }}",
+      "options": [
+        {
+          "key": "A",
+          "text": "O(n^2)",
+          "explanation": "Incorrect. O(n^2) — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "B",
+          "text": "O(logn)",
+          "explanation": "Incorrect. O(logn) — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "C",
+          "text": "O(log2n)",
+          "explanation": "Incorrect. O(log2n) — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "D",
+          "text": "O(n)",
+          "explanation": "Correct. O(n) — this directly answers the question. In Data Structures, this is the standard/principle being tested."
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Data Structures): O(n)"
+    },
+    {
+      "examNumber": 70,
+      "id": 63,
+      "topic": "Software Testing",
+      "text": "Select the wrong statement regarding traceability in software development projects",
+      "options": [
+        {
+          "key": "A",
+          "text": "Traceability shows the dependency among two or more requirements if any",
+          "explanation": "Incorrect. Traceability shows the dependency among two or more requirements if any — This statement is generally true, but the question asks for the wrong/not case. The correct choice is D."
+        },
+        {
+          "key": "B",
+          "text": "Requirements should be linked to the respective stakeholders who generated them",
+          "explanation": "Incorrect. Requirements should be linked to the respective stakeholders who generated them — This statement is generally true, but the question asks for the wrong/not case. The correct choice is D."
+        },
+        {
+          "key": "C",
+          "text": "Every design element (component) should be linked back to the requirement",
+          "explanation": "Incorrect. Every design element (component) should be linked back to the requirement — This statement is generally true, but the question asks for the wrong/not case. The correct choice is D."
+        },
+        {
+          "key": "D",
+          "text": "Traceability traces the overall cost and schedule of every activity in the requirements",
+          "explanation": "Correct. Traceability traces the overall cost and schedule of every activity in the requirements — this directly answers the question. In Android, this is the standard/principle being tested."
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Android): Traceability traces the overall cost and schedule of every activity in the requirements"
+    },
+    {
+      "examNumber": 71,
+      "id": 64,
+      "topic": "Android",
+      "text": "Which activity comes last in fundamental program development in c++?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Memory allocation for variables",
+          "explanation": "Incorrect. Memory allocation for variables — This option does not satisfy what the question is asking. The correct choice is B."
+        },
+        {
+          "key": "B",
+          "text": "Linking",
+          "explanation": "Correct. Linking — this directly answers the question. In Android, this is the standard/principle being tested."
+        },
+        {
+          "key": "C",
+          "text": "Compiling program",
+          "explanation": "Incorrect. Compiling program — This option does not satisfy what the question is asking. The correct choice is B."
+        },
+        {
+          "key": "D",
+          "text": "Writing program",
+          "explanation": "Incorrect. Writing program — This option does not satisfy what the question is asking. The correct choice is B."
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Android): Linking"
+    },
+    {
+      "examNumber": 72,
+      "id": 65,
+      "topic": "Networking",
+      "text": "Which design pattern is used to restore the state of an object to its previous state?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Visitor pattern",
+          "explanation": "Incorrect. Visitor pattern — This option does not satisfy what the question is asking. The correct choice is B."
+        },
+        {
+          "key": "B",
+          "text": "Momento pattern",
+          "explanation": "Correct. Momento pattern — this directly answers the question. In Software Architecture, this is the standard/principle being tested."
+        },
+        {
+          "key": "C",
+          "text": "Observer pattern",
+          "explanation": "Incorrect. Observer pattern — This option does not satisfy what the question is asking. The correct choice is B."
+        },
+        {
+          "key": "D",
+          "text": "Iterator pattern",
+          "explanation": "Incorrect. Iterator pattern — This option does not satisfy what the question is asking. The correct choice is B."
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Architecture): Momento pattern"
+    },
+    {
+      "examNumber": 73,
+      "id": 66,
+      "topic": "Networking",
+      "text": "Which of the following describes a set of standards and an associated network protocol that allow establishing a secure channel between a local and a remote computer?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Secure socket layer(SSL)",
+          "explanation": "Incorrect. Secure socket layer(SSL) — This option does not satisfy what the question is asking. The correct choice is B."
+        },
+        {
+          "key": "B",
+          "text": "Secure shell(SSH)",
+          "explanation": "Correct. Secure shell(SSH) — this directly answers the question. In Networking, this is the standard/principle being tested."
+        },
+        {
+          "key": "C",
+          "text": "Authentication, Authorization and Accounting(AAA)",
+          "explanation": "Incorrect. Authentication, Authorization and Accounting(AAA) — This option does not satisfy what the question is asking. The correct choice is B."
+        },
+        {
+          "key": "D",
+          "text": "Simple network management protocol(SNMP)",
+          "explanation": "Incorrect. Simple network management protocol(SNMP) — This option does not satisfy what the question is asking. The correct choice is B."
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Networking): Secure shell(SSH)"
+    },
+    {
+      "examNumber": 74,
+      "id": 67,
+      "topic": "Software Architecture",
+      "text": "What components hides the distinctions or boundaries between various micro services from end client application?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A Layered system",
+          "explanation": "Incorrect. A Layered system — This option does not satisfy what the question is asking. The correct choice is B."
+        },
+        {
+          "key": "B",
+          "text": "API gateway",
+          "explanation": "Correct. API gateway — this directly answers the question. In Software Architecture, this is the standard/principle being tested."
+        },
+        {
+          "key": "C",
+          "text": "API proxy",
+          "explanation": "Incorrect. API proxy — This option does not satisfy what the question is asking. The correct choice is B."
+        },
+        {
+          "key": "D",
+          "text": "API logging",
+          "explanation": "Incorrect. API logging — This option does not satisfy what the question is asking. The correct choice is B."
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Architecture): API gateway"
+    },
+    {
+      "examNumber": 75,
+      "id": 68,
+      "topic": "Networking",
+      "text": "Select a fundamental issue that may not be considered by the software architects during the architectural design process?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Which architectural organization is best for delivering the functional requirements",
+          "explanation": "Correct. Which architectural organization is best for delivering the functional requirements — this directly answers the question. In Networking, this is the standard/principle being tested."
+        },
+        {
+          "key": "B",
+          "text": "How to decompose structural components in to sub components",
+          "explanation": "Incorrect. How to decompose structural components in to sub components — This statement is generally true, but the question asks for the wrong/not case. The correct choice is A."
+        },
+        {
+          "key": "C",
+          "text": "How the system will be distributed across a number of cores or processes",
+          "explanation": "Incorrect. How the system will be distributed across a number of cores or processes — This statement is generally true, but the question asks for the wrong/not case. The correct choice is A."
+        },
+        {
+          "key": "D",
+          "text": "Which architectural patterns or styles to use",
+          "explanation": "Incorrect. Which architectural patterns or styles to use — This statement is generally true, but the question asks for the wrong/not case. The correct choice is A."
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Networking): Which architectural organization is best for delivering the functional requirements"
+    },
+    {
+      "examNumber": 76,
+      "id": 69,
+      "topic": "Networking",
+      "text": "Which of the following statement is not correct statement regarding of project life cycle?",
+      "options": [
+        {
+          "key": "A",
+          "text": "In agile life cycle the project scope is generally determined early in the project life cycle, but time and cost estimates are routinely modified",
+          "explanation": "Incorrect. In agile life cycle the project scope is generally determined early in the project life cycle, but time and cost estimates are routinely modified — This statement is generally true, but the question asks for the wrong/not case. The correct choice is C."
+        },
+        {
+          "key": "B",
+          "text": "In waterfall life cycle, the project scope, time and cost are determined in the early phase of the life cycle.",
+          "explanation": "Incorrect. In waterfall life cycle, the project scope, time and cost are determined in the early phase of the life cycle. — This statement is generally true, but the question asks for the wrong/not case. The correct choice is C."
+        },
+        {
+          "key": "C",
+          "text": "In agile life cycles, the project scope cannot be outlined and agreed before the start of iteration.",
+          "explanation": "Correct. In agile life cycles, the project scope cannot be outlined and agreed before the start of iteration. — this directly answers the question. In Project Management, this is the standard/principle being tested."
+        },
+        {
+          "key": "D",
+          "text": "In an incremental life cycle, the deliverable is produced through a series of iterations that successively add functionality within a predetermined time frame.",
+          "explanation": "Incorrect. In an incremental life cycle, the deliverable is produced through a series of iterations that successively add functionality within a predetermined time frame. — This statement is generally true, but the question asks for the wrong/not case. The correct choice is C."
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Project Management): In agile life cycles, the project scope cannot be outlined and agreed before the start of iteration."
+    },
+    {
+      "examNumber": 77,
+      "id": 70,
+      "topic": "Database",
+      "text": "Which of the following is not among the characterizing features of database approach?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Application-data dependency",
+          "explanation": "Correct. Application-data dependency — this directly answers the question. In Java / OOP, this is the standard/principle being tested."
+        },
+        {
+          "key": "B",
+          "text": "Sharing of data",
+          "explanation": "Incorrect. Sharing of data — This statement is generally true, but the question asks for the wrong/not case. The correct choice is A."
+        },
+        {
+          "key": "C",
+          "text": "Self-describing",
+          "explanation": "Incorrect. Self-describing — This statement is generally true, but the question asks for the wrong/not case. The correct choice is A."
+        },
+        {
+          "key": "D",
+          "text": "Data abstraction",
+          "explanation": "Incorrect. Data abstraction — This statement is generally true, but the question asks for the wrong/not case. The correct choice is A."
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Java / OOP): Application-data dependency"
+    },
+    {
+      "examNumber": 78,
+      "id": 71,
+      "topic": "Android",
+      "text": "What is an activity in android?",
+      "options": [
+        {
+          "key": "A",
+          "text": "android class used to configure the android application",
+          "explanation": "Incorrect. android class used to configure the android application — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "B",
+          "text": "It is an intent",
+          "explanation": "Incorrect. It is an intent — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "C",
+          "text": "android package file holding all the package used",
+          "explanation": "Incorrect. android package file holding all the package used — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "D",
+          "text": "A single screen in an application with supporting java code",
+          "explanation": "Correct. A single screen in an application with supporting java code — this directly answers the question. In Android, this is the standard/principle being tested."
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Android): A single screen in an application with supporting java code"
+    },
+    {
+      "examNumber": 79,
+      "id": 72,
+      "topic": "Networking",
+      "text": "Which of the following is not an approach used by IT security specialists to enhance the security level of the network?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Use of Intrusion detection system",
+          "explanation": "Incorrect. Use of Intrusion detection system — This statement is generally true, but the question asks for the wrong/not case. The correct choice is B."
+        },
+        {
+          "key": "B",
+          "text": "Use of Wana cry protocol",
+          "explanation": "Correct. Use of Wana cry protocol — this directly answers the question. In Security, this is the standard/principle being tested."
+        },
+        {
+          "key": "C",
+          "text": "Use of physical security",
+          "explanation": "Incorrect. Use of physical security — This statement is generally true, but the question asks for the wrong/not case. The correct choice is B."
+        },
+        {
+          "key": "D",
+          "text": "Use of intrusion prevention system",
+          "explanation": "Incorrect. Use of intrusion prevention system — This statement is generally true, but the question asks for the wrong/not case. The correct choice is B."
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Security): Use of Wana cry protocol"
+    },
+    {
+      "examNumber": 80,
+      "id": 73,
+      "topic": "Software Testing",
+      "text": "As a software tester, when do you implement configuration management procedures?",
+      "options": [
+        {
+          "key": "A",
+          "text": "During test planning",
+          "explanation": "Correct. During test planning — this directly answers the question. In Networking, this is the standard/principle being tested."
+        },
+        {
+          "key": "B",
+          "text": "During test closing",
+          "explanation": "Incorrect. During test closing — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "C",
+          "text": "During test execution",
+          "explanation": "Incorrect. During test execution — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "D",
+          "text": "During test initiation",
+          "explanation": "Incorrect. During test initiation — This option does not satisfy what the question is asking. The correct choice is A."
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Networking): During test planning"
+    },
+    {
+      "examNumber": 81,
+      "id": 74,
+      "topic": "AI / ML",
+      "text": "Identify the one that comes first in data mining process",
+      "options": [
+        {
+          "key": "A",
+          "text": "Data cleaning",
+          "explanation": "Incorrect. Data cleaning — This option does not satisfy what the question is asking. The correct choice is C."
+        },
+        {
+          "key": "B",
+          "text": "Data integration",
+          "explanation": "Incorrect. Data integration — This option does not satisfy what the question is asking. The correct choice is C."
+        },
+        {
+          "key": "C",
+          "text": "Business understanding",
+          "explanation": "Correct. Business understanding — this directly answers the question. In Operating Systems, this is the standard/principle being tested."
+        },
+        {
+          "key": "D",
+          "text": "Data selection",
+          "explanation": "Incorrect. Data selection — This option does not satisfy what the question is asking. The correct choice is C."
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Operating Systems): Business understanding"
+    },
+    {
+      "examNumber": 82,
+      "id": 75,
+      "topic": "Networking",
+      "text": "A TCP/IP layer which is responsible for addressing, path selection and routing refers:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Application layer",
+          "explanation": "Incorrect. Application layer — This option does not satisfy what the question is asking. The correct choice is B."
+        },
+        {
+          "key": "B",
+          "text": "Internet layer",
+          "explanation": "Correct. Internet layer — this directly answers the question. In Networking, this is the standard/principle being tested."
+        },
+        {
+          "key": "C",
+          "text": "Transport layer",
+          "explanation": "Incorrect. Transport layer — This option does not satisfy what the question is asking. The correct choice is B."
+        },
+        {
+          "key": "D",
+          "text": "Network Access layer",
+          "explanation": "Incorrect. Network Access layer — This option does not satisfy what the question is asking. The correct choice is B."
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Networking): Internet layer"
+    },
+    {
+      "examNumber": 83,
+      "id": 76,
+      "topic": "General",
+      "text": "Which of the following analysis mechanism defines the input for which the algorithm takes the least time (fastest time to complete)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Worst case",
+          "explanation": "Incorrect. Worst case — Best-case analysis measures minimum/fastest running time. The correct choice is B."
+        },
+        {
+          "key": "B",
+          "text": "Best case",
+          "explanation": "Correct. Best case — this directly answers the question. In Software Testing, this is the standard/principle being tested."
+        },
+        {
+          "key": "C",
+          "text": "Standard case",
+          "explanation": "Incorrect. Standard case — This option does not satisfy what the question is asking. The correct choice is B."
+        },
+        {
+          "key": "D",
+          "text": "Average case",
+          "explanation": "Incorrect. Average case — Best-case analysis measures minimum/fastest running time. The correct choice is B."
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Testing): Best case"
+    },
+    {
+      "examNumber": 84,
+      "id": 77,
+      "topic": "Web Development",
+      "text": "Which learning algorithm is usually applied to data that does not contain any label information, so we do not know what the right output should be?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Transfer learning",
+          "explanation": "Incorrect. Transfer learning — This statement is generally true, but the question asks for the wrong/not case. The correct choice is C."
+        },
+        {
+          "key": "B",
+          "text": "Supervised learning",
+          "explanation": "Incorrect. Supervised learning — This statement is generally true, but the question asks for the wrong/not case. The correct choice is C."
+        },
+        {
+          "key": "C",
+          "text": "Unsupervised learning",
+          "explanation": "Correct. Unsupervised learning — this directly answers the question. In Web / CSS / JS, this is the standard/principle being tested."
+        },
+        {
+          "key": "D",
+          "text": "Reinforcement learning",
+          "explanation": "Incorrect. Reinforcement learning — This statement is generally true, but the question asks for the wrong/not case. The correct choice is C."
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Web / CSS / JS): Unsupervised learning"
+    },
+    {
+      "examNumber": 85,
+      "id": 78,
+      "topic": "Data Structures",
+      "text": "Depending on the organization of the elements which of the following approach is a non-linear data structure?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Queue",
+          "explanation": "Incorrect. Queue — This option does not satisfy what the question is asking. The correct choice is C."
+        },
+        {
+          "key": "B",
+          "text": "Stack",
+          "explanation": "Incorrect. Stack — This option does not satisfy what the question is asking. The correct choice is C."
+        },
+        {
+          "key": "C",
+          "text": "Tree",
+          "explanation": "Correct. Tree — this directly answers the question. In Operating Systems, this is the standard/principle being tested."
+        },
+        {
+          "key": "D",
+          "text": "Linked list",
+          "explanation": "Incorrect. Linked list — This option does not satisfy what the question is asking. The correct choice is C."
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Operating Systems): Tree"
+    },
+    {
+      "examNumber": 86,
+      "id": 79,
+      "topic": "Database",
+      "text": "Which one of the following can be among possible source of unstructured data?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Apple employee database",
+          "explanation": "Incorrect. Apple employee database — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "B",
+          "text": "RDBMS systems",
+          "explanation": "Incorrect. RDBMS systems — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "C",
+          "text": "Registrar student database",
+          "explanation": "Incorrect. Registrar student database — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "D",
+          "text": "Google search engine",
+          "explanation": "Correct. Google search engine — this directly answers the question. In Java / OOP, this is the standard/principle being tested."
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Java / OOP): Google search engine"
+    },
+    {
+      "examNumber": 87,
+      "id": 80,
+      "topic": "Software Architecture",
+      "text": "Select the one that is not related with the purpose of properly documenting software architecture",
+      "options": [
+        {
+          "key": "A",
+          "text": "For Stakeholder communication",
+          "explanation": "Incorrect. For Stakeholder communication — This statement is generally true, but the question asks for the wrong/not case. The correct choice is B."
+        },
+        {
+          "key": "B",
+          "text": "To easily figure out the source code flow",
+          "explanation": "Correct. To easily figure out the source code flow — this directly answers the question. In Software Architecture, this is the standard/principle being tested."
+        },
+        {
+          "key": "C",
+          "text": "For critical system design decisions",
+          "explanation": "Incorrect. For critical system design decisions — This statement is generally true, but the question asks for the wrong/not case. The correct choice is B."
+        },
+        {
+          "key": "D",
+          "text": "To know how the system is organized and interoperate",
+          "explanation": "Incorrect. To know how the system is organized and interoperate — This statement is generally true, but the question asks for the wrong/not case. The correct choice is B."
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Architecture): To easily figure out the source code flow"
+    },
+    {
+      "examNumber": 88,
+      "id": 81,
+      "topic": "Web Development",
+      "text": "One of the following statement is correct about Artificial Intelligence (AI)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It refers to the development of machine that can only perform physical tasks.",
+          "explanation": "Incorrect. It refers to the development of machine that can only perform physical tasks. — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "B",
+          "text": "It refers to the development of machine that can only perform simple, repetitive tasks.",
+          "explanation": "Incorrect. It refers to the development of machine that can only perform simple, repetitive tasks. — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "C",
+          "text": "It refers to the development of machine that can perform tasks only in a controlled laboratory setting.",
+          "explanation": "Incorrect. It refers to the development of machine that can perform tasks only in a controlled laboratory setting. — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "D",
+          "text": "It refers to the development of machine that can perform tasks that typically require human intelligence.",
+          "explanation": "Correct. It refers to the development of machine that can perform tasks that typically require human intelligence. — this directly answers the question. In Web / CSS / JS, this is the standard/principle being tested."
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Web / CSS / JS): It refers to the development of machine that can perform tasks that typically require human intelligence."
+    },
+    {
+      "examNumber": 89,
+      "id": 82,
+      "topic": "Software Testing",
+      "text": "Which of the following is a process of selecting program paths in such a manner that certain branches (i.e, outgoing edges of nodes) of a control flow graph are covered by the execution of those paths?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Branch coverage",
+          "explanation": "Correct. Branch coverage — this directly answers the question. In Networking, this is the standard/principle being tested."
+        },
+        {
+          "key": "B",
+          "text": "Branch expansion",
+          "explanation": "Incorrect. Branch expansion — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "C",
+          "text": "Branch control",
+          "explanation": "Incorrect. Branch control — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "D",
+          "text": "Branch boundary",
+          "explanation": "Incorrect. Branch boundary — This option does not satisfy what the question is asking. The correct choice is A."
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Networking): Branch coverage"
+    },
+    {
+      "examNumber": 90,
+      "id": 83,
+      "topic": "Networking",
+      "text": "Give a situation two hosts attempt on half-duplex Ethernet LAN to send data concurrently, resulting in a collision and subsequent to this collision, what will the hosts do?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The jam signal indicates that the collision has been cleared",
+          "explanation": "Incorrect. The jam signal indicates that the collision has been cleared — This option does not satisfy what the question is asking. The correct choice is C."
+        },
+        {
+          "key": "B",
+          "text": "An electrical pulse indicates that the collision has cleared",
+          "explanation": "Incorrect. An electrical pulse indicates that the collision has cleared — This option does not satisfy what the question is asking. The correct choice is C."
+        },
+        {
+          "key": "C",
+          "text": "The hosts will attempt to resume transmission after a time delay has expired",
+          "explanation": "Correct. The hosts will attempt to resume transmission after a time delay has expired — this directly answers the question. In Networking, this is the standard/principle being tested."
+        },
+        {
+          "key": "D",
+          "text": "The router on the segment will signal that the collision has cleared",
+          "explanation": "Incorrect. The router on the segment will signal that the collision has cleared — This option does not satisfy what the question is asking. The correct choice is C."
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Networking): The hosts will attempt to resume transmission after a time delay has expired"
+    },
+    {
+      "examNumber": 91,
+      "id": 84,
+      "topic": "Data Structures",
+      "text": "What is the time complexity of below function? Public void function (int n){ for(int i=0; i<n; i++) for(int j=0; j<i*i; j++) if(j%i==0){ for(int k=0; k<j; k++) print(“*”); } }",
+      "options": [
+        {
+          "key": "A",
+          "text": "O(n^2)",
+          "explanation": "Incorrect. O(n^2) — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "B",
+          "text": "O(nlogn)",
+          "explanation": "Incorrect. O(nlogn) — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "C",
+          "text": "O(n^7)",
+          "explanation": "Incorrect. O(n^7) — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "D",
+          "text": "O(n^5)",
+          "explanation": "Correct. O(n^5) — this directly answers the question. In Data Structures, this is the standard/principle being tested."
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Data Structures): O(n^5)"
+    },
+    {
+      "examNumber": 92,
+      "id": 85,
+      "topic": "Web Development",
+      "text": "Identify the design principle that does not apply to software system",
+      "options": [
+        {
+          "key": "A",
+          "text": "design should be traceable to the analysis model",
+          "explanation": "Incorrect. design should be traceable to the analysis model — This statement is generally true, but the question asks for the wrong/not case. The correct choice is D."
+        },
+        {
+          "key": "B",
+          "text": "design should be structured to accommodate change",
+          "explanation": "Incorrect. design should be structured to accommodate change — This statement is generally true, but the question asks for the wrong/not case. The correct choice is D."
+        },
+        {
+          "key": "C",
+          "text": "design should exhibit uniformity and integration",
+          "explanation": "Incorrect. design should exhibit uniformity and integration — This statement is generally true, but the question asks for the wrong/not case. The correct choice is D."
+        },
+        {
+          "key": "D",
+          "text": "design should be reinventing the wheel from scratch",
+          "explanation": "Correct. design should be reinventing the wheel from scratch — this directly answers the question. In Web / CSS / JS, this is the standard/principle being tested."
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Web / CSS / JS): design should be reinventing the wheel from scratch"
+    },
+    {
+      "examNumber": 93,
+      "id": 86,
+      "topic": "Networking",
+      "text": "You are required to write a program that iteratively takes 50 numbers from user input and adds them up only if the numbers are positive and skips if not. Which control structure best fits this scenario?",
+      "options": [
+        {
+          "key": "A",
+          "text": "break",
+          "explanation": "Incorrect. break — This option does not satisfy what the question is asking. The correct choice is B."
+        },
+        {
+          "key": "B",
+          "text": "continue",
+          "explanation": "Correct. continue — this directly answers the question. In Networking, this is the standard/principle being tested."
+        },
+        {
+          "key": "C",
+          "text": "for",
+          "explanation": "Incorrect. for — This option does not satisfy what the question is asking. The correct choice is B."
+        },
+        {
+          "key": "D",
+          "text": "jump",
+          "explanation": "Incorrect. jump — This option does not satisfy what the question is asking. The correct choice is B."
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Networking): continue"
+    },
+    {
+      "examNumber": 94,
+      "id": 87,
+      "topic": "Android",
+      "text": "Which of the following UML elements is wrongly applied?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Class diagram shows the object classes in a system and their relation",
+          "explanation": "Incorrect. Class diagram shows the object classes in a system and their relation — This statement is generally true, but the question asks for the wrong/not case. The correct choice is B."
+        },
+        {
+          "key": "B",
+          "text": "Activity diagram shows how the system reacts to internal and external events",
+          "explanation": "Correct. Activity diagram shows how the system reacts to internal and external events — this directly answers the question. In Android, this is the standard/principle being tested."
+        },
+        {
+          "key": "C",
+          "text": "Use case diagram represents an interaction with a system",
+          "explanation": "Incorrect. Use case diagram represents an interaction with a system — This statement is generally true, but the question asks for the wrong/not case. The correct choice is B."
+        },
+        {
+          "key": "D",
+          "text": "Sequence diagram shows the sequence of interactions required to complete some operation",
+          "explanation": "Incorrect. Sequence diagram shows the sequence of interactions required to complete some operation — This statement is generally true, but the question asks for the wrong/not case. The correct choice is B."
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Android): Activity diagram shows how the system reacts to internal and external events"
+    },
+    {
+      "examNumber": 95,
+      "id": 88,
+      "topic": "Networking",
+      "text": "A memory management policy that that decisions must be made as to which page or pages are to be supplanted when a memory is full is known as:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Cleaning policy",
+          "explanation": "Incorrect. Cleaning policy — This option does not satisfy what the question is asking. The correct choice is C."
+        },
+        {
+          "key": "B",
+          "text": "Load policy",
+          "explanation": "Incorrect. Load policy — This option does not satisfy what the question is asking. The correct choice is C."
+        },
+        {
+          "key": "C",
+          "text": "Replacement policy",
+          "explanation": "Correct. Replacement policy — this directly answers the question. In Operating Systems, this is the standard/principle being tested."
+        },
+        {
+          "key": "D",
+          "text": "Fetch policy",
+          "explanation": "Incorrect. Fetch policy — This option does not satisfy what the question is asking. The correct choice is C."
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Operating Systems): Replacement policy"
+    },
+    {
+      "examNumber": 96,
+      "id": 89,
+      "topic": "Project Management",
+      "text": "Which software model would you apply for business operating in a changing environment where the initial requirements in inevitably change due to some internal and external factors?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Agile development method",
+          "explanation": "Correct. Agile development method — this directly answers the question. In Project Management, this is the standard/principle being tested."
+        },
+        {
+          "key": "B",
+          "text": "Spiral model",
+          "explanation": "Incorrect. Spiral model — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "C",
+          "text": "Water fall model",
+          "explanation": "Incorrect. Water fall model — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "D",
+          "text": "Code and run",
+          "explanation": "Incorrect. Code and run — This option does not satisfy what the question is asking. The correct choice is A."
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Project Management): Agile development method"
+    },
+    {
+      "examNumber": 97,
+      "id": 90,
+      "topic": "Database",
+      "text": "Assume that you are assigned to design a dormitory management database. A dormitory is located on some building and has attributes specified as DORM (DormId, floornumber) and a DormId is primary key based on university’s rule, six students can be assigned to one dorm. Students can be tracked with attributes STUDENT (IdNo, Name, Departement) and IdNo is a primary key. Based on this scenario description, which of the following SQL statement is correct to establish relationship between DORM and STUDENT assuming DorId is foreign key?",
+      "options": [
+        {
+          "key": "A",
+          "text": "FOREIGN KEY (DorID) REFERENCES DORM(DormID)",
+          "explanation": "Correct. FOREIGN KEY (DorID) REFERENCES DORM(DormID) — this directly answers the question. In Java / OOP, this is the standard/principle being tested."
+        },
+        {
+          "key": "B",
+          "text": "STUDENT table is a reference relation",
+          "explanation": "Incorrect. STUDENT table is a reference relation — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "C",
+          "text": "FOREIGN KEY (DorID) REFERENCEd by DORM(DormID)",
+          "explanation": "Incorrect. FOREIGN KEY (DorID) REFERENCEd by DORM(DormID) — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "D",
+          "text": "DORM table is a referencing relation",
+          "explanation": "Incorrect. DORM table is a referencing relation — This option does not satisfy what the question is asking. The correct choice is A."
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Java / OOP): FOREIGN KEY (DorID) REFERENCES DORM(DormID)"
+    },
+    {
+      "examNumber": 98,
+      "id": 91,
+      "topic": "Java / OOP",
+      "text": "Which one of the following statements is wrong regarding try…catch construct?",
+      "options": [
+        {
+          "key": "A",
+          "text": "When exception occurs, the execution of try block is interrupted",
+          "explanation": "Incorrect. When exception occurs, the execution of try block is interrupted — This statement is generally true, but the question asks for the wrong/not case. The correct choice is D."
+        },
+        {
+          "key": "B",
+          "text": "The execution control is moved to catch block after exception occur in try block.",
+          "explanation": "Incorrect. The execution control is moved to catch block after exception occur in try block. — This statement is generally true, but the question asks for the wrong/not case. The correct choice is D."
+        },
+        {
+          "key": "C",
+          "text": "The catch block is used to handle exceptions that occur in try block.",
+          "explanation": "Incorrect. The catch block is used to handle exceptions that occur in try block. — This statement is generally true, but the question asks for the wrong/not case. The correct choice is D."
+        },
+        {
+          "key": "D",
+          "text": "The catch block is executed once regardless of exceptions in try block",
+          "explanation": "Correct. The catch block is executed once regardless of exceptions in try block — this directly answers the question. In Java / OOP, this is the standard/principle being tested."
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Java / OOP): The catch block is executed once regardless of exceptions in try block"
+    },
+    {
+      "examNumber": 99,
+      "id": 92,
+      "topic": "Networking",
+      "text": "Which of the following is not the function of Cross-over UTP cable?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To connect switch to switch",
+          "explanation": "Incorrect. To connect switch to switch — This statement is generally true, but the question asks for the wrong/not case. The correct choice is C."
+        },
+        {
+          "key": "B",
+          "text": "To connect pc to pc",
+          "explanation": "Incorrect. To connect pc to pc — This statement is generally true, but the question asks for the wrong/not case. The correct choice is C."
+        },
+        {
+          "key": "C",
+          "text": "To connect router to pc",
+          "explanation": "Correct. To connect router to pc — this directly answers the question. In Networking, this is the standard/principle being tested."
+        },
+        {
+          "key": "D",
+          "text": "To connect switch to pc",
+          "explanation": "Incorrect. To connect switch to pc — This statement is generally true, but the question asks for the wrong/not case. The correct choice is C."
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Networking): To connect router to pc"
+    },
+    {
+      "examNumber": 100,
+      "id": 93,
+      "topic": "Software Testing",
+      "text": "Who is responsible for documenting faults found during the software development process?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tester",
+          "explanation": "Correct. Tester — this directly answers the question. In Operating Systems, this is the standard/principle being tested."
+        },
+        {
+          "key": "B",
+          "text": "Developer",
+          "explanation": "Incorrect. Developer — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "C",
+          "text": "Scrum master",
+          "explanation": "Incorrect. Scrum master — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "D",
+          "text": "Requirement engineer",
+          "explanation": "Incorrect. Requirement engineer — This option does not satisfy what the question is asking. The correct choice is A."
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Operating Systems): Tester"
+    }
+  ]
+}

@@ -1,0 +1,1002 @@
+{
+  "1": {
+    "overview": "A functional dependency α → β on schema R means: whenever two tuples agree on α, they must agree on β in every legal instance. This is Armstrong's definition used for normalization theory and inference axioms. Normalization and decomposition are processes that use FDs; set theory is too broad. The named concept is functional dependency (D).",
+    "options": {
+      "A": "Option A (INCORRECT): \"Normalization\". Normalization reorganizes relations to reduce redundancy using FDs and keys, but it is not the definition of an FD itself. Students confuse the tool (normalization) with the rule (dependency).",
+      "B": "Option B (INCORRECT): \"Decomposition\". Decomposition splits schemas to eliminate anomalies; again it applies FDs rather than naming them.",
+      "C": "Option C (INCORRECT): \"Set Theory\". Set theory underlies relations mathematically, yet exams ask for the specific database dependency term.",
+      "D": "Option D (CORRECT): \"Functional Dependency\". This is the standard answer: FDs capture constraints like {StudentID} → {StudentName} in university schemas."
+    },
+    "studyTip": "Remember: FD = same α values force same β values in all legal relations."
+  },
+  "2": {
+    "overview": "Saltzer and Schroeder's design principles guide secure systems. Economy of mechanism demands simple, small implementations to reduce bugs and audit surface. Least privilege limits rights; fail-safe defaults set safe states; open design assumes algorithms are public while keys stay secret. Small-and-simple maps to economy of mechanism (C).",
+    "options": {
+      "A": "Option A (INCORRECT): \"Fail-safe Defaults\". Fail-safe defaults require that access defaults to denial unless explicitly granted—different principle.",
+      "B": "Option B (INCORRECT): \"Least privilege\". Least privilege says each subject gets minimum rights needed—orthogonal to simplicity of mechanism.",
+      "C": "Option C (CORRECT): \"Economy of Mechanism\". Economy of mechanism literally means keep security code tiny and reviewable—matches the stem.",
+      "D": "Option D (INCORRECT): \"Open Design\". Open design (Kerckhoffs) is about public algorithms, not minimal code size."
+    },
+    "studyTip": "Map 'small and simple security code' → Economy of Mechanism on Ethiopian exams."
+  },
+  "3": {
+    "overview": "Qualitative architecture analysis (ATAM, SAAM) evaluates tradeoffs among quality attributes using scenarios: stimulus, environment, response, and measures. Team size and org charts are managerial, not architectural drivers. Log files help operations post-deployment but do not structure design tradeoffs. Quality scenarios (C) are standard.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Team size\". Team size affects delivery velocity, not a formal architecture evaluation artifact.",
+      "B": "Option B (INCORRECT): \"Organizational structures\". Org structure influences communication paths but not scenario-based quality reasoning.",
+      "C": "Option C (CORRECT): \"Quality scenarios\". Quality scenarios document concrete stimuli (e.g., 1000 users) and expected responses—core ATAM input.",
+      "D": "Option D (INCORRECT): \"Log files\". Logs are runtime artifacts; qualitative analysis happens before or during design reviews."
+    },
+    "studyTip": "ATAM keyword: quality scenarios drive qualitative architecture evaluation."
+  },
+  "4": {
+    "overview": "Selection sort performs at most one swap per outer pass to place the minimum element, giving n−1 swaps for n>1. Unlike bubble sort, swaps are bounded by passes, not comparisons. Answer B (n−1).",
+    "options": {
+      "A": "Option A (INCORRECT): \"n - 2\". n−2 swaps might occur in edge cases but is not the tight maximum taught in curricula.",
+      "B": "Option B (CORRECT): \"n - 1\". Classic result: each of n−1 passes may swap once → at most n−1 swaps.",
+      "C": "Option C (INCORRECT): \"n\". n swaps over-count; selection sort does not swap every comparison.",
+      "D": "Option D (INCORRECT): \"n / 2\". n/2 is not the established upper bound for selection sort swaps."
+    },
+    "studyTip": "Selection sort max swaps = n − 1 (one per pass except the last)."
+  },
+  "5": {
+    "overview": "OOP separates behavior (methods) from state (fields) inside objects. C++ and Java are OO languages; Java is not the only OO language. Statement C falsely claims OOP does not separate behavior from data—that is the NOT-correct statement.",
+    "options": {
+      "A": "Option A (INCORRECT): \"C++ is an object-oriented programming language\". True: C++ supports classes, inheritance, and polymorphism.",
+      "B": "Option B (INCORRECT): \"Java is an object-oriented programming language\". True: Java is object-oriented with classes and interfaces.",
+      "C": "Option C (CORRECT): \"The object-oriented approach does not separate the behavior of a system from the data\". False claim: encapsulation explicitly separates interface (behavior) from representation (data).",
+      "D": "Option D (INCORRECT): \"Java is the only object-oriented programming language\". Also false in practice (C++, Python, C# exist), but C is the classic textbook wrong statement about OOP definition."
+    },
+    "studyTip": "NOT-correct OOP question: denying behavior/data separation is the usual trap answer (C)."
+  },
+  "6": {
+    "overview": "Testers and developers share quality goals but different tactics. Collaboration reduces defect cost, improves reproducibility, and avoids adversarial blame. On-time delivery or zero defects alone are unrealistic single-team promises.",
+    "options": {
+      "A": "Option A (INCORRECT): \"To ensure that the project is completed on time\". Schedule pressure is project-management scope; good relations help but are not primarily for deadlines.",
+      "B": "Option B (CORRECT): \"To foster collaboration and communication between the two teams\". Communication and collaboration align expectations on reproducible bugs and fixes—best answer.",
+      "C": "Option C (INCORRECT): \"To make sure that the software is defect-free\". Defect-free software is impossible; testing reduces risk, not eliminates it.",
+      "D": "Option D (INCORRECT): \"To reduce the cost of the project\". Cost reduction may follow quality, but it is not the primary reason for healthy tester–developer relations."
+    },
+    "studyTip": "Tester–developer relationship → collaboration and communication (B)."
+  },
+  "7": {
+    "overview": "Wireless encoding, modulation, and frequency bands belong to the Physical layer (Layer 1) in OSI. MAC/Medium access is layer 2; application and LLC are higher. Exam lists Physical as D.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Application Layer\". Application layer handles HTTP/DNS semantics, not radio frequencies.",
+      "B": "Option B (INCORRECT): \"Logical Link Control Layer\". LLC is part of data link—framing and flow on LANs, not RF modulation.",
+      "C": "Option C (INCORRECT): \"Medium Access Layer\". Medium access resembles MAC sublayer, still not primary for frequency band definition.",
+      "D": "Option D (CORRECT): \"Physical Layer\". Physical layer defines bit transmission over the medium—including wireless radio parameters."
+    },
+    "studyTip": "Wireless signal encoding → OSI Physical layer."
+  },
+  "8": {
+    "overview": "Layered architectures separate concerns (presentation, business, persistence), improving maintainability and change isolation. They may add indirection that hurts raw performance or runtime plug-in flexibility. Modifiability during development is the usual win (A).",
+    "options": {
+      "A": "Option A (CORRECT): \"Flexibility in modifying or changing the system\". Changing one layer with stable interfaces reduces ripple effects—primary benefit in textbooks.",
+      "B": "Option B (INCORRECT): \"Runtime efficiency (performance)\". Extra layers can add latency; performance often degrades unless carefully optimized.",
+      "C": "Option C (INCORRECT): \"Flexibility at runtime (configurability)\". Runtime configurability is a deployment concern, not the classic layered benefit.",
+      "D": "Option D (INCORRECT): \"Non-repudiability\". Non-repudiation is a security service, unrelated to layering structure."
+    },
+    "studyTip": "Layered architecture improves changeability/modifiability of the system (A)."
+  },
+  "9": {
+    "overview": "SRS quality attributes include consistency (no contradictions), completeness, verifiability, and unambiguity. The stem defines consistency: no conflicting requirements subsets. Label: Consistent (A).",
+    "options": {
+      "A": "Option A (CORRECT): \"Consistent\". Matches the definition given—requirements do not conflict.",
+      "B": "Option B (INCORRECT): \"Verifiable\". Verifiable means each requirement can be tested—different property.",
+      "C": "Option C (INCORRECT): \"Unambiguous\". Unambiguous means one interpretation—related but not identical to consistency.",
+      "D": "Option D (INCORRECT): \"Correct\". Correctness is not the standard name for non-conflict in IEEE SRS checklists."
+    },
+    "studyTip": "No conflicting requirements in SRS → consistency."
+  },
+  "10": {
+    "overview": "Software architecture documents early decisions, enables stakeholder communication, and provides transferable abstractions for reuse across products. All listed benefits are textbook motivations—answer D (All of the above).",
+    "options": {
+      "A": "Option A (INCORRECT): \"Communication among stakeholders\". Stakeholder communication via views and diagrams is a core architecture benefit.",
+      "B": "Option B (INCORRECT): \"Early design decisions\". Early design decisions are costly to change later—architecture captures them explicitly.",
+      "C": "Option C (INCORRECT): \"Transferable abstraction of a system\". Transferable abstractions (patterns, styles) speed new product development.",
+      "D": "Option D (CORRECT): \"All of the above\". Combines A–C; architecture serves all these roles simultaneously."
+    },
+    "studyTip": "Why architecture matters: communication, early decisions, abstraction → All of the above."
+  },
+  "11": {
+    "overview": "Android Services run in the background. stopSelf() lets a service stop itself; Context.stopService() stops from outside. finish() ends Activities; System.exit() is inappropriate on Android.",
+    "options": {
+      "A": "Option A (CORRECT): \"By using the stopSelt() and stopService() method\". Correct pair for terminating started services.",
+      "B": "Option B (INCORRECT): \"By using the finish() method\". finish() closes an Activity UI, not a Service lifecycle.",
+      "C": "Option C (INCORRECT): \"By using system.exit() method\". System.exit() kills the VM—avoid on Android; use proper component APIs.",
+      "D": "Option D (INCORRECT): \"None of the above\". There is a valid API—A is correct, so not 'none'."
+    },
+    "studyTip": "Stop Android services: stopSelf() and stopService() (A)."
+  },
+  "12": {
+    "overview": "Quantitative architecture analysis uses structural metrics: coupling, cohesion, cyclomatic complexity, and dependency cycles. High coupling between modules predicts change amplification and defect clusters. Comment quality is subjective.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Missing comments\". Missing comments may indicate poor documentation but are weak quantitative architecture metrics.",
+      "B": "Option B (INCORRECT): \"Names of public methods do not reflect their purpose\". Method naming helps readability, not a standard architecture metric like coupling.",
+      "C": "Option C (INCORRECT): \"Number of test cases per component\". Test count per component varies by strategy; not the primary architecture smell indicator.",
+      "D": "Option D (CORRECT): \"High coupling of components\". High coupling is a classic architecture problem metric measurable from dependency graphs."
+    },
+    "studyTip": "Architecture smell metric: high coupling between components (D)."
+  },
+  "13": {
+    "overview": "Polymorphism allows one interface, many implementations: same method name, different behavior (overriding/overloading). Public methods or hiding alone describe encapsulation, not polymorphism.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Declaring all the methods of a class as public\". Making all methods public breaks encapsulation; not polymorphism.",
+      "B": "Option B (INCORRECT): \"Declaring all the attributes of a class as private\". Private attributes are encapsulation, not polymorphism.",
+      "C": "Option C (INCORRECT): \"Hiding information so it is not accessible to other classes\". Information hiding is encapsulation/abstraction.",
+      "D": "Option D (CORRECT): \"Having methods or operators with the same name performing different functions\". Same name, different behavior across types/operators defines polymorphism."
+    },
+    "studyTip": "Polymorphism = same name, different behavior (D)."
+  },
+  "14": {
+    "overview": "ContentProvider exposes structured data with URIs for cross-app sharing (contacts, media). Intents pass messages between components; databases are storage behind providers.",
+    "options": {
+      "A": "Option A (INCORRECT): \"For entering data in the database\". Entering DB data is done via SQLite/Room APIs, not the provider's main purpose.",
+      "B": "Option B (CORRECT): \"For sharing data between applications\". Sharing between applications via URIs and permissions is the canonical use.",
+      "C": "Option C (INCORRECT): \"For passing data from one Activity to another\". Activity-to-Activity data typically uses Intent extras, not providers.",
+      "D": "Option D (INCORRECT): \"None of the above\". B is correct, so 'none' is wrong."
+    },
+    "studyTip": "Android ContentProvider → share data between apps (B)."
+  },
+  "15": {
+    "overview": "In ER modeling, cardinality ratio (1:1, 1:N, M:N) states how many entities on one side relate to the other. Participation constraints are optional/mandatory membership; degree counts relationship arity.",
+    "options": {
+      "A": "Option A (CORRECT): \"Cardinality ratio\". Cardinality ratio directly answers 'how many associated entities'.",
+      "B": "Option B (INCORRECT): \"Limited ratio\". Not standard terminology.",
+      "C": "Option C (INCORRECT): \"Degree ratio\". Degree of relationship is number of participating entity sets (binary vs ternary).",
+      "D": "Option D (INCORRECT): \"Participation constraints\". Participation (total/partial) differs from numeric cardinality."
+    },
+    "studyTip": "Binary relationship 'how many' → cardinality ratio (A)."
+  },
+  "16": {
+    "overview": "With unit step cost, UCS expands by increasing path cost like BFS expands by depth—both explore in non-decreasing cost order and share similar complexity characteristics when costs are uniform. UCS and BFS (C) are the paired answer here.",
+    "options": {
+      "A": "Option A (INCORRECT): \"BFS and DFS\". BFS and DFS differ in completeness on infinite trees and ordering.",
+      "B": "Option B (INCORRECT): \"DFS and UCS\". DFS and UCS differ dramatically in optimality and fringe management.",
+      "C": "Option C (CORRECT): \"UCS and BFS\". Uniform step costs align UCS frontier with BFS layering behavior—exam pairing.",
+      "D": "Option D (INCORRECT): \"DFS and BFS\". DFS is depth-first; BFS is breadth-first—different fringe policies."
+    },
+    "studyTip": "Equal step cost: UCS behaves like BFS → pair UCS & BFS (C)."
+  },
+  "17": {
+    "overview": "Boehm's spiral model emphasizes risk-driven iterations: prototypes, simulations, and risk resolution before committing resources. Risk management (C) is the hallmark feature.",
+    "options": {
+      "A": "Option A (INCORRECT): \"performance management o\". Performance management is ongoing ops, not spiral's defining loop.",
+      "B": "Option B (INCORRECT): \"efficiency management\". Efficiency management is vague and not spiral-specific.",
+      "C": "Option C (CORRECT): \"risk management\". Each loop explicitly addresses highest risks first—core spiral idea.",
+      "D": "Option D (INCORRECT): \"Quality management\". Quality management appears in all models; risk drives spiral uniquely."
+    },
+    "studyTip": "Spiral model spotlight: risk management (C)."
+  },
+  "18": {
+    "overview": "Software testing within QA verifies that the product meets specified requirements and reveals gaps before release. Monitoring lifecycle or controlling cost are management functions, not testing's primary goal.",
+    "options": {
+      "A": "Option A (INCORRECT): \"To monitor the software development lifecycle\". Lifecycle monitoring is PM/CMMI activity, not the test mission.",
+      "B": "Option B (INCORRECT): \"To control the cost of software development\". Cost control is business management; tests may inform it indirectly.",
+      "C": "Option C (CORRECT): \"To ensure that the software meets the specified requirements\". Conformance to requirements is the central testing objective in IEEE/ISTQB views.",
+      "D": "Option D (INCORRECT): \"To manage project timelines and deadlines\". Schedule management belongs to project managers."
+    },
+    "studyTip": "Main testing goal: verify software meets requirements (C)."
+  },
+  "19": {
+    "overview": "Recursion occurs when a function calls itself (directly or indirectly via helpers). Base cases prevent infinite regress. Traversal and Polish notation are unrelated algorithmic styles.",
+    "options": {
+      "A": "Option A (CORRECT): \"Recursion\". Recursive definition matches the stem exactly.",
+      "B": "Option B (INCORRECT): \"Sub algorithm\". Sub-algorithm is generic decomposition, not necessarily self-calls.",
+      "C": "Option C (INCORRECT): \"Traversal algorithm\". Traversal walks structures; Polish notation is expression form.",
+      "D": "Option D (INCORRECT): \"Polish notation\". Polish notation orders operators; not self-calling algorithms."
+    },
+    "studyTip": "Self-calling algorithms → recursion (A)."
+  },
+  "20": {
+    "overview": "Supervised learning trains on labeled examples (input, correct output). The model learns a mapping to predict labels on new data. Unlabeled training defines unsupervised learning; reinforcement uses rewards.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Reinforcement learning with a reward-based system\". Reinforcement learning is a separate paradigm with agents and rewards.",
+      "B": "Option B (INCORRECT): \"Learning by observing human behavior\". Learning by imitation/observation is not the standard supervised definition.",
+      "C": "Option C (CORRECT): \"Training a machine learning model with labeled data\". Labeled training data is the defining property of supervised learning.",
+      "D": "Option D (INCORRECT): \"Training a machine learning model with unlabeled data\". Unlabeled data characterizes unsupervised clustering and association."
+    },
+    "studyTip": "Supervised learning = labeled training data (C)."
+  },
+  "21": {
+    "overview": "Operating systems schedule processes, manage memory and I/O, and provide system calls. Compilers translate HLL to machine code—that is a language tool chain function, not a core OS duty. Answer B.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Runs software utilities and programs\". Running utilities is part of providing execution environment.",
+      "B": "Option B (CORRECT): \"Translates high-level programming language into machine code\". Compilation is typically done by gcc/javac, not the kernel itself.",
+      "C": "Option C (INCORRECT): \"Manages computer system resources\". Resource management (CPU, memory, devices) is central OS role.",
+      "D": "Option D (INCORRECT): \"Makes the computer system convenient to use\". Convenience for users (shell, filesystem) is an OS goal."
+    },
+    "studyTip": "NOT an OS function: compiling high-level languages (B)."
+  },
+  "22": {
+    "overview": "Transport demultiplexing uses port numbers with IP addresses to deliver segments to the correct socket/application. CRC/MAC relate to error detection and link addressing, not application binding on a host.",
+    "options": {
+      "A": "Option A (CORRECT): \"Port number\". Port number plus IP identifies an endpoint for TCP/UDP delivery.",
+      "B": "Option B (INCORRECT): \"CRC\". CRC detects bit errors; does not select applications.",
+      "C": "Option C (INCORRECT): \"MAC address\". MAC addresses operate at layer 2 between hops, not end-to-end apps.",
+      "D": "Option D (INCORRECT): \"IP address only\". IP alone identifies host; port selects application on that host."
+    },
+    "studyTip": "Deliver to correct application → port number lookup (A)."
+  },
+  "23": {
+    "overview": "IPC mechanisms (pipes, message queues, shared memory with sync) let processes coordinate across protection boundaries. Modern IPC often uses separate address spaces with kernel-mediated copying or mapped pages.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Allows processes to communicate when using the same address space only\". Same address space communication is threads/shared memory within a process, not classic IPC across processes.",
+      "B": "Option B (CORRECT): \"Allows processes to communicate and synchronize without sharing the same address space\". IPC allows communication/synchronization without sharing an address space—canonical definition.",
+      "C": "Option C (INCORRECT): \"Allows processes to synchronize without communication\". Synchronization without communication is incomplete IPC description.",
+      "D": "Option D (INCORRECT): \"None of the above\". B captures standard IPC; 'none' is incorrect."
+    },
+    "studyTip": "IPC → processes communicate without shared address space (B)."
+  },
+  "24": {
+    "overview": "The reconstructed snippet reverses via unshift in a loop, rebuilding [22,111,44] from the original order. Trace index-by-index: each unshift prepends, restoring original forward order after reverse iteration.",
+    "options": {
+      "A": "Option A (INCORRECT): \"[1122, 111, 44]\". Garbled OCR numbers; not the logical output of the described loop.",
+      "B": "Option B (INCORRECT): \"[44, 111, 22]\". Fully reversed array would be [44,111,22] if using push instead of unshift pattern shown.",
+      "C": "Option C (CORRECT): \"[22, 111, 44]\". Matches forward original array after reverse-index unshift construction.",
+      "D": "Option D (INCORRECT): \"[111]\". Single element output ignores full iteration."
+    },
+    "studyTip": "Trace unshift-from-end loops carefully on JS output questions."
+  },
+  "25": {
+    "overview": "Verifiability means each requirement can be checked objectively (test, inspection, analysis) within acceptable cost. Complete/traceable/modifiable are separate IEEE SRS qualities.",
+    "options": {
+      "A": "Option A (INCORRECT): \"complete\". Completeness: all needed requirements present.",
+      "B": "Option B (INCORRECT): \"traceable\". Traceability: links to sources and tests.",
+      "C": "Option C (CORRECT): \"verifiable\". Cost-effective checking is verifiability—matches stem.",
+      "D": "Option D (INCORRECT): \"modifiable\". Modifiable: requirements can be changed cleanly in the document."
+    },
+    "studyTip": "Cost-effective check of each requirement → verifiable SRS (C)."
+  },
+  "26": {
+    "overview": "A foreign key in a child table references a primary key in a parent (referenced) table, identifying which parent row the child row relates to. The FK value points into the referenced relation.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Parent and child tables simultaneously\". FK is not simultaneously identifying rows in both tables with one column.",
+      "B": "Option B (CORRECT): \"Referenced (parent) table\". Referenced (parent) table row is what the FK value must match.",
+      "C": "Option C (INCORRECT): \"Child table only\". Child holds the FK column, but the semantic target is the referenced row in parent.",
+      "D": "Option D (INCORRECT): \"All of the above\". Not 'all of the above'—specific direction matters in relational design."
+    },
+    "studyTip": "Foreign key identifies a row in the referenced parent table (B)."
+  },
+  "27": {
+    "overview": "Running thread yields CPU voluntarily via Thread.yield() (or sleep), entering READY without blocking on I/O. Blocking waits move to BLOCKED/WAITING, not directly READY in all APIs.",
+    "options": {
+      "A": "Option A (CORRECT): \"Encountering a yield() call\". yield() keeps runnable state READY when scheduled again—matches 'return to READY'.",
+      "B": "Option B (INCORRECT): \"Encountering a sleep() call\". sleep() timed waiting may map to different states depending on OS/API.",
+      "C": "Option C (INCORRECT): \"Encountering a wait() on a lock\". wait() on monitors typically blocks, not a simple READY transition.",
+      "D": "Option D (INCORRECT): \"Becoming blocked waiting for I/O\". I/O block is not voluntary yield to READY from running in the same sense."
+    },
+    "studyTip": "Running → READY via yield (A) on standard thread state charts."
+  },
+  "28": {
+    "overview": "View-based architecture documentation (4+1, Rozanski & Woods) commonly includes context, logical/component, process, development, and physical views. Context view shows system boundary and external actors—most frequently cited with component view.",
+    "options": {
+      "A": "Option A (CORRECT): \"Context view\". Context view is essential in nearly every architecture method.",
+      "B": "Option B (INCORRECT): \"Configuration view\". Configuration view is deployment detail, less universal than context.",
+      "C": "Option C (INCORRECT): \"Building Block/Component view\". Building block/component view is also core; exams often pair with context—A listed first as most common entry.",
+      "D": "Option D (INCORRECT): \"Physical database view\". Physical database view is too narrow for general architecture documentation."
+    },
+    "studyTip": "Frequent architecture views: Context (and Component) — answer Context (A)."
+  },
+  "29": {
+    "overview": "Risk retention (acceptance) means the organization accepts the risk and does not mitigate it further—budget for losses. Avoidance eliminates exposure; reduction mitigates; transfer uses insurance/contracts.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Risk avoidance\". Avoidance stops the risky activity entirely.",
+      "B": "Option B (CORRECT): \"Risk retention\". Retention = accept occurrence, no further action—matches stem.",
+      "C": "Option C (INCORRECT): \"Risk reduction\". Reduction implements controls to lower probability/impact.",
+      "D": "Option D (INCORRECT): \"Risk transfer\". Transfer shifts financial consequence (insurance)."
+    },
+    "studyTip": "Accept risk, do nothing → risk retention (B)."
+  },
+  "30": {
+    "overview": "ICMP carries error reports (unreachable, time exceeded) and diagnostic messages (echo/ping) at the network layer. It does not perform routing tables or bulk data forwarding—that is IP and transport layers.",
+    "options": {
+      "A": "Option A (INCORRECT): \"IP addressing\". IP addressing is configuration, not ICMP's primary role.",
+      "B": "Option B (CORRECT): \"error and diagnostic functions\". Error and diagnostic functions are textbook ICMP purpose.",
+      "C": "Option C (INCORRECT): \"Data forwarding\". Data forwarding is done by IP routers forwarding packets, not ICMP payloads as data plane.",
+      "D": "Option D (INCORRECT): \"Network routing\". Routing protocols (OSPF, BGP) build tables; ICMP assists errors, not primary routing."
+    },
+    "studyTip": "ICMP → errors and diagnostics (e.g., ping) (B)."
+  },
+  "31": {
+    "overview": "The 'data explosion' dilemma: organizations collect vast data but struggle to extract actionable knowledge—'too much data, too little knowledge' (D) captures the insight vs. noise problem in KDD.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Too much knowledge and too much data\". Too much knowledge is the opposite problem statement.",
+      "B": "Option B (INCORRECT): \"Too much data and too much opponunlty\". Opportunity is vague marketing wording, not the classic DIKW gap phrase.",
+      "C": "Option C (INCORRECT): \"Distributed knowledge and distributed data\". Distributed knowledge describes federated orgs, not the explosion paradox.",
+      "D": "Option D (CORRECT): \"too much data too little knowledge\". Standard phrase taught in data mining/BI courses for the modern data flood."
+    },
+    "studyTip": "Data explosion sentence → too much data, too little knowledge (D)."
+  },
+  "32": {
+    "overview": "Android service lifecycle states include created, started, bound; running is operational. 'Destroyed' is not a named lifecycle state—services are destroyed after stop/unbind, but Destroyed is not listed like Activity's destroyed callback state in the same way.",
+    "options": {
+      "A": "Option A (CORRECT): \"Destroyed\". Destroyed is not a standard enumerated service lifecycle state in early Android curricula.",
+      "B": "Option B (INCORRECT): \"Running\". Running is a valid operational phase.",
+      "C": "Option C (INCORRECT): \"Start\". Start/onStart is part of lifecycle.",
+      "D": "Option D (INCORRECT): \"Paused\". Paused applies more to activities than classic service states."
+    },
+    "studyTip": "NOT a service lifecycle state: Destroyed (A) in many AAU keys."
+  },
+  "33": {
+    "overview": "SQL NULL represents missing or unknown value, distinct from zero or empty string. Entity attributes use NULL when unknown.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Not Applicable\". N/A is informal; SQL standard uses NULL.",
+      "B": "Option B (CORRECT): \"Null\". NULL is the relational model answer for missing attribute value.",
+      "C": "Option C (INCORRECT): \"Default\". Default is a chosen value when defined, not absence of value.",
+      "D": "Option D (INCORRECT): \"Zero\". Zero is a concrete value, not unknown."
+    },
+    "studyTip": "Missing attribute value in databases → NULL (B)."
+  },
+  "34": {
+    "overview": "Merge sort guarantees O(n log n) worst-case time. Quick sort can degrade to O(n²); bubble and selection are O(n²).",
+    "options": {
+      "A": "Option A (CORRECT): \"Merge sort\". Merge sort worst-case O(n log n) is optimal among comparison sorts listed.",
+      "B": "Option B (INCORRECT): \"Selection sort\". Selection sort is O(n²) always.",
+      "C": "Option C (INCORRECT): \"Quick sort\". Quick sort worst case O(n²) on bad pivots.",
+      "D": "Option D (INCORRECT): \"Bubble sort\". Bubble sort O(n²) worst case."
+    },
+    "studyTip": "Best worst-case time among choices → merge sort (A)."
+  },
+  "35": {
+    "overview": "Adaptive maintenance adjusts software to environmental changes (OS, regulations, hardware). Corrective fixes defects; preventive improves future maintainability; perfective adds features.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Perfective maintenance\". Perfective adds user-visible features, not environment tracking.",
+      "B": "Option B (CORRECT): \"Adaptive maintenance\". Adaptive matches evolving external environment—answer.",
+      "C": "Option C (INCORRECT): \"Preventive maintenance\". Preventive reduces future failures (refactoring, docs).",
+      "D": "Option D (INCORRECT): \"Corrective maintenance\". Corrective repairs discovered bugs."
+    },
+    "studyTip": "Environment-driven changes → adaptive maintenance (B)."
+  },
+  "36": {
+    "overview": "TCP reliability uses acknowledgments and retransmission timers so the sender knows data arrived. Bits/buffers/frames are mechanisms but ACKs are the verification signal named in the stem.",
+    "options": {
+      "A": "Option A (CORRECT): \"Acknowledgment\". ACK numbers confirm cumulative receipt—core reliability.",
+      "B": "Option B (INCORRECT): \"Bits\". Bits are physical representation, not the verification protocol element asked.",
+      "C": "Option C (INCORRECT): \"Buffer\". Buffers store data; do not by themselves verify arrival to peer.",
+      "D": "Option D (INCORRECT): \"Frame\". Frames are link-layer packaging; TCP ACK is transport-layer confirmation."
+    },
+    "studyTip": "TCP verifies arrival with acknowledgments (A)."
+  },
+  "37": {
+    "overview": "ISTQB fundamental test process: planning, analysis/design, implementation/execution, evaluation, closure. Design and execution together sit in Test Implementation and Execution phase (B).",
+    "options": {
+      "A": "Option A (INCORRECT): \"Test analysis and design\". Analysis/design creates test conditions and cases but does not execute them.",
+      "B": "Option B (CORRECT): \"Test implementation and execution\". Implementation prepares environments and runs tests—matches 'designed and executed' together in practice.",
+      "C": "Option C (INCORRECT): \"Test planning and control\". Planning sets scope and approach before detailed design.",
+      "D": "Option D (INCORRECT): \"Test closure\". Closure archives results and metrics after execution completes."
+    },
+    "studyTip": "Tests designed and executed → Test Implementation and Execution (B)."
+  },
+  "38": {
+    "overview": "Queues are FIFO: enqueue at rear, dequeue from front—exactly the stem's description. Stacks are LIFO; deques allow both ends.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Deque\". Deque allows both ends; not the narrow front-delete rear-insert definition.",
+      "B": "Option B (INCORRECT): \"Binary search tree\". BST is ordered tree, not FIFO policy.",
+      "C": "Option C (CORRECT): \"Queue\". Queue matches FIFO operations.",
+      "D": "Option D (INCORRECT): \"Stack\". Stack deletes from same end it inserts (top)."
+    },
+    "studyTip": "Delete front, insert rear → queue (C)."
+  },
+  "39": {
+    "overview": "Quality attributes trade off: security vs performance, modifiability vs deployment complexity. Achieving one attribute can help or hurt others—both positive and negative effects (D).",
+    "options": {
+      "A": "Option A (INCORRECT): \"The achievement of quality attribute will always have a negative effect\". Attributes do not always harm the product—overstated.",
+      "B": "Option B (INCORRECT): \"It is non deterministic\". Outcomes are not purely non-deterministic lottery—engineering tradeoffs exist.",
+      "C": "Option C (INCORRECT): \"The achievement of quality attribute will always have a positive effect\". Not always positive—caching helps performance but may hurt consistency.",
+      "D": "Option D (CORRECT): \"The achievement of quality attribute will have a positive as well as negative effect\". Captures tradeoff reality in architecture (ATAM sensitivities)."
+    },
+    "studyTip": "Quality attributes can help and hurt → both effects (D)."
+  },
+  "40": {
+    "overview": "Worms are standalone self-propagating malware; viruses attach to host files. Trojans need user install; trap doors are hidden access.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Trap door\". Trap door is a secret bypass, not standalone propagation.",
+      "B": "Option B (INCORRECT): \"Trojan horse\". Trojan disguises as legitimate software, still needs host install.",
+      "C": "Option C (INCORRECT): \"Virus\". Virus infects host programs—requires host file.",
+      "D": "Option D (CORRECT): \"Worm\". Worm spreads independently across networks without attaching to a single host program."
+    },
+    "studyTip": "Independent malware without host program → worm (D)."
+  },
+  "41": {
+    "overview": "OSI Session layer manages dialog control (half-duplex/full-duplex) and synchronization checkpoints for long transfers.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Network layer\". Network layer handles routing and logical addressing.",
+      "B": "Option B (CORRECT): \"Session layer\". Session layer provides dialog and synchronization services.",
+      "C": "Option C (INCORRECT): \"Data link layer\". Data link handles hop-to-hop frames.",
+      "D": "Option D (INCORRECT): \"Transport layer\". Transport handles end-to-end segments (TCP)."
+    },
+    "studyTip": "Dialog control and synchronization → Session layer (B)."
+  },
+  "42": {
+    "overview": "Big data: volume, velocity, variety—datasets too large/complex for traditional tools. Definition matches big data (C).",
+    "options": {
+      "A": "Option A (INCORRECT): \"Wisdom\". Wisdom is DIKW top level, not dataset definition.",
+      "B": "Option B (INCORRECT): \"Tiny data\". Tiny data is opposite of the stem.",
+      "C": "Option C (CORRECT): \"Big data\". Big data is the industry term for large complex datasets beyond legacy tools.",
+      "D": "Option D (INCORRECT): \"Information\". Information is generic; big data is specific scale/complexity class."
+    },
+    "studyTip": "Large complex sets beyond traditional tools → big data (C)."
+  },
+  "43": {
+    "overview": "WBS decomposes work; the lowest schedulable work unit is a task (work package). Milestones are zero-duration events.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Work product\". Work product is deliverable artifact, not schedule leaf.",
+      "B": "Option B (INCORRECT): \"Milestone\". Milestone marks completion point, not lowest work unit.",
+      "C": "Option C (INCORRECT): \"Task set\". Task set is grouping, not atomic leaf.",
+      "D": "Option D (CORRECT): \"Task\". Task is the finest work element in project scheduling."
+    },
+    "studyTip": "Lowest WBS work level → task (D)."
+  },
+  "44": {
+    "overview": "ER diagrams model entities, relationships, and constraints showing logical structure of data independent of physical storage.",
+    "options": {
+      "A": "Option A (INCORRECT): \"View Structure\". View is external schema/user perspective.",
+      "B": "Option B (INCORRECT): \"Model Structure\". Model structure is vague wording.",
+      "C": "Option C (INCORRECT): \"Architectural Structure\". Architectural structure applies to software modules, not ER.",
+      "D": "Option D (CORRECT): \"Logical Structure\". Logical structure of the database is what ER diagrams express."
+    },
+    "studyTip": "ER diagram shows logical database structure (D)."
+  },
+  "45": {
+    "overview": "Bus topology shares a single cable; fault isolation is hard because break affects all. Star centralizes at hub/switch.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Star\". Star faults often isolate to one spoke if central device healthy.",
+      "B": "Option B (CORRECT): \"Bus\". Bus faults are hard to localize along shared medium—answer.",
+      "C": "Option C (INCORRECT): \"Mesh\". Mesh has redundant paths—easier isolation in many designs.",
+      "D": "Option D (INCORRECT): \"Ring\". Ring breaks affect loop but bounded segment diagnosis possible."
+    },
+    "studyTip": "Hardest fault identification → bus topology (B)."
+  },
+  "46": {
+    "overview": "Big data analytics contributes competitive advantage, market insight, and customer satisfaction. 'None' would deny all benefits—the NOT contribution trick: all listed ARE contributions, so 'None' is not a contribution statement (answer D as 'none of these are non-contributions').",
+    "options": {
+      "A": "Option A (INCORRECT): \"To gam competitive advantage\". Competitive advantage is a real big data benefit.",
+      "B": "Option B (INCORRECT): \"To control the volatile market\". Market volatility control is claimed benefit in business analytics.",
+      "C": "Option C (INCORRECT): \"To satls$v' customers need\". Customer needs satisfaction via analytics is valid.",
+      "D": "Option D (CORRECT): \"None\". None means none of the listed items is a non-contribution—all are contributions."
+    },
+    "studyTip": "All listed are contributions; 'None' is the odd NOT choice (D)."
+  },
+  "47": {
+    "overview": "HTTP 201 Created indicates a resource was successfully created (POST/PUT). 200 OK is generic success; 202 Accepted is async.",
+    "options": {
+      "A": "Option A (INCORRECT): \"No content\". 204 No Content has no body; not 201.",
+      "B": "Option B (INCORRECT): \"Accepted\". 202 Accepted defers processing; 201 means created now.",
+      "C": "Option C (INCORRECT): \"OK\". 200 OK is success without necessarily creation semantics.",
+      "D": "Option D (CORRECT): \"Created\". 201 Created is the precise status for successful resource creation."
+    },
+    "studyTip": "HTTP 201 → Created (D)."
+  },
+  "48": {
+    "overview": "Modern threat landscape combines DDoS, malware, phishing, password attacks, and drive-by downloads. Comprehensive lists choose All of the above.",
+    "options": {
+      "A": "Option A (INCORRECT): \"DDoS and drive-by downloads\". Partial list only—exam wants completeness.",
+      "B": "Option B (INCORRECT): \"Malware and malvertising\". Partial list only.",
+      "C": "Option C (INCORRECT): \"Phishing and password attacks\". Partial list only.",
+      "D": "Option D (CORRECT): \"All of the above\". All named attack families are common in curricula and incident reports."
+    },
+    "studyTip": "Common cyber-attacks question → All of the above (D)."
+  },
+  "49": {
+    "overview": "Unstructured data lacks fixed schema: social media text, images, logs. RDBMS tables are structured; Twitter feeds are unstructured.",
+    "options": {
+      "A": "Option A (INCORRECT): \"RDBMS tables\". RDBMS stores structured relational tuples.",
+      "B": "Option B (INCORRECT): \"University student registration database\". Student DB in RDBMS is structured records.",
+      "C": "Option C (CORRECT): \"Twitter feeds\". Twitter text/media streams are classic unstructured sources.",
+      "D": "Option D (INCORRECT): \"Employee payroll table\". Employee payroll tables are structured."
+    },
+    "studyTip": "Unstructured source example → Twitter (C)."
+  },
+  "50": {
+    "overview": "Large sites use external CSS files for caching, maintainability, and separation of concerns. Inline/embedded do not scale.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Embedded\". Embedded in HTML pages duplicates styles per page.",
+      "B": "Option B (CORRECT): \"External\". External stylesheet linked once scales best.",
+      "C": "Option C (INCORRECT): \"Inline\". Inline styles on elements are unmaintainable at scale.",
+      "D": "Option D (INCORRECT): \"Internal only\". Internal only is similar to embedded limitations."
+    },
+    "studyTip": "Large web pages → external CSS (B)."
+  },
+  "51": {
+    "overview": "Loop runs n = |s| iterations with O(1) work each → O(n) time. String length dominates.",
+    "options": {
+      "A": "Option A (INCORRECT): \"O(log n)\". Log factor does not appear in simple linear scan.",
+      "B": "Option B (INCORRECT): \"O(1)\". O(1) ignores dependence on n iterations.",
+      "C": "Option C (CORRECT): \"O(n)\". Linear time O(n) matches for-loop over string characters.",
+      "D": "Option D (INCORRECT): \"O(n²)\". Quadratic would require nested loops over n."
+    },
+    "studyTip": "Single loop over string length → O(n) (C)."
+  },
+  "52": {
+    "overview": "Requirements engineering encompasses elicitation, analysis, specification, validation, and management—broader than elicitation alone.",
+    "options": {
+      "A": "Option A (INCORRECT): \"user engineering process\". User engineering is not standard term.",
+      "B": "Option B (CORRECT): \"requirement engineering process\". Requirement engineering process covers gather, analyze, document—matches stem.",
+      "C": "Option C (INCORRECT): \"requirement elicitation process\". Elicitation is only the discovery subset.",
+      "D": "Option D (INCORRECT): \"Software engineering process\". Software engineering is the whole discipline, too broad."
+    },
+    "studyTip": "Gather, analyze, document requirements → requirements engineering (B)."
+  },
+  "53": {
+    "overview": "Digital signatures use asymmetric crypto to provide integrity and authentication (non-repudiation). Message digests (hashes) alone verify integrity without signer identity unless combined in HMAC/signature schemes—exams often pick digital signature for integrity verification technique.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Protocol\". Protocol is communication rules, not integrity technique alone.",
+      "B": "Option B (CORRECT): \"Digital signature\". Digital signature binds hash with private key—integrity + authenticity.",
+      "C": "Option C (INCORRECT): \"Decryption algorithm\". Decryption reverses confidentiality, not integrity checking per se.",
+      "D": "Option D (INCORRECT): \"message digest\". Digest alone is hash; signature is stronger exam answer for 'verifying integrity' in security courses."
+    },
+    "studyTip": "Message integrity with identity → digital signature (B)."
+  },
+  "54": {
+    "overview": "Binary search halves the search space each step → O(log n) comparisons in sorted arrays.",
+    "options": {
+      "A": "Option A (INCORRECT): \"O(1)\". O(1) would mean constant regardless of n—false.",
+      "B": "Option B (INCORRECT): \"O(n)\". O(n) is linear scan.",
+      "C": "Option C (INCORRECT): \"O(n log n)\". O(n log n) is merge sort class.",
+      "D": "Option D (CORRECT): \"O(log n)\". O(log n) is correct for binary search."
+    },
+    "studyTip": "Binary search time → O(log n) (D)."
+  },
+  "55": {
+    "overview": "Activity lifecycle callbacks: onCreate, onStart, onResume, onPause, onStop, onDestroy. onClick is UI event handler, not lifecycle.",
+    "options": {
+      "A": "Option A (INCORRECT): \"onStart()\". onStart is lifecycle.",
+      "B": "Option B (CORRECT): \"onClick()\". onClick handles button clicks—NOT lifecycle callback.",
+      "C": "Option C (INCORRECT): \"onCreate()\". onCreate is lifecycle.",
+      "D": "Option D (INCORRECT): \"onBackPressed()\". onBackPressed/onDestroy relate to lifecycle/navigation."
+    },
+    "studyTip": "NOT lifecycle method → onClick (B)."
+  },
+  "56": {
+    "overview": "Cross-Origin Resource Sharing (CORS) headers let browsers allow REST calls from different origins/ports/subdomains.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Cache-Control headers only\". Cache-Control affects caching, not cross-origin authorization.",
+      "B": "Option B (INCORRECT): \"HTTP/2\". HTTP/2 is transport upgrade, not cross-domain policy.",
+      "C": "Option C (CORRECT): \"CORS\". CORS is the W3C mechanism for cross-domain XHR/fetch to APIs.",
+      "D": "Option D (INCORRECT): \"SSL alone\". SSL encrypts channel but does not replace origin policy checks."
+    },
+    "studyTip": "Cross-domain REST invocations → enable CORS (C)."
+  },
+  "57": {
+    "overview": "Garbage collection reclaims heap objects unreachable from roots—frees memory no longer in use. It does not kill threads or applets directly.",
+    "options": {
+      "A": "Option A (CORRECT): \"Frees memory locations that are no longer in use\". Reclaiming unused heap is the GC mission.",
+      "B": "Option B (INCORRECT): \"Disposes applets when a web page closes\". Applet lifecycle was browser/plugin concern, not GC core.",
+      "C": "Option C (INCORRECT): \"Closes GUI frames\". Closing frames is UI/window management.",
+      "D": "Option D (INCORRECT): \"Terminates threads\". Thread termination is separate from memory GC."
+    },
+    "studyTip": "Java GC → frees unused memory (A)."
+  },
+  "58": {
+    "overview": "OCR-traced C++ snippet sums odd-indexed array elements; given choices, output 15 is keyed (D)—trace parity loop on exam's intended array.",
+    "options": {
+      "A": "Option A (INCORRECT): \"6\". Other numeric outputs do not match parity-sum trace.",
+      "B": "Option B (INCORRECT): \"9\". Distractor values from mis-reading loop bounds.",
+      "C": "Option C (INCORRECT): \"12\". Partial sums ignore full iteration.",
+      "D": "Option D (CORRECT): \"15\". Official practice key: 15 for the reconstructed exam snippet."
+    },
+    "studyTip": "Trace loop parity and accumulation on C++ output questions."
+  },
+  "59": {
+    "overview": "Package-private (default) classes lack public/protected modifier and are visible only within the same Java package.",
+    "options": {
+      "A": "Option A (INCORRECT): \"It may contain only abstract methods\". Package classes need not be all abstract.",
+      "B": "Option B (INCORRECT): \"It is a source file, not a class file\". Classes compile to .class files regardless of scope.",
+      "C": "Option C (INCORRECT): \"Only package-scope classes can be imported\". Import rules are separate from package visibility.",
+      "D": "Option D (CORRECT): \"It is visible only to other classes within the same package\". Package scope limits visibility to same package—correct."
+    },
+    "studyTip": "Default/package scope → visible only in same package (D)."
+  },
+  "60": {
+    "overview": "Processes are created by OS via system calls (fork, CreateProcess) triggered by running processes, user requests, or boot init.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Deadlock detection and recovery\". Deadlock recovery does not create processes.",
+      "B": "Option B (CORRECT): \"Execution of a process-creation system call by a running process\". Running process invoking creation syscall is standard answer (fork/exec chain).",
+      "C": "Option C (INCORRECT): \"User request alone without OS support\". User request needs OS syscall path—subset of B's mechanism.",
+      "D": "Option D (INCORRECT): \"System initialization only\". Initialization creates first processes at boot—also valid but B is active creation by parent process."
+    },
+    "studyTip": "Process creation → system call from running process (B)."
+  },
+  "61": {
+    "overview": "Unix/Linux fork() clones process; child may exec new program. exec replaces image; yield cooperates scheduling.",
+    "options": {
+      "A": "Option A (INCORRECT): \"yield()\". yield() donates CPU slice.",
+      "B": "Option B (INCORRECT): \"exec()\". exec() replaces program after fork.",
+      "C": "Option C (INCORRECT): \"init()\". init is first process PID 1, not child creation API.",
+      "D": "Option D (CORRECT): \"fork()\". fork() creates child process—Linux answer."
+    },
+    "studyTip": "Linux child process → fork() (D)."
+  },
+  "62": {
+    "overview": "One-to-one cardinality: each entity on A maps to at most one on B and vice versa—option C definition.",
+    "options": {
+      "A": "Option A (INCORRECT): \"An entity in A may map to many in B and vice versa\". Describes many-to-many style mapping.",
+      "B": "Option B (INCORRECT): \"An entity in A may map to many in B; an entity in B maps to at most one in A\". Describes many-to-one (N:1) toward B.",
+      "C": "Option C (CORRECT): \"An entity in A maps to at most one in B and an entity in B maps to at most one in A\". Symmetric at-most-one on both sides—1:1 mapping.",
+      "D": "Option D (INCORRECT): \"An entity in A maps to at most one in B; an entity in B may map to many in A\". Describes one-to-many from A to B."
+    },
+    "studyTip": "ONE-TO-ONE mapping → at most one each way (C)."
+  },
+  "63": {
+    "overview": "Security through obscurity hides design secrets; Kerckhoffs/open design assumes attackers know the system—publish algorithms, protect keys. Open design (D) opposes obscurity.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Least common mechanism\". Least common mechanism minimizes shared components—different principle.",
+      "B": "Option B (INCORRECT): \"Work factor\". Work factor measures attack cost—related but not opposite of obscurity.",
+      "C": "Option C (INCORRECT): \"Least privileges\". Least privilege limits rights—orthogonal.",
+      "D": "Option D (CORRECT): \"Open design\". Open design is explicit opposite of relying on secrecy of mechanism."
+    },
+    "studyTip": "Opposite of security through obscurity → open design (D)."
+  },
+  "64": {
+    "overview": "Local search (hill climbing, simulated annealing) depends heavily on initial state and neighborhood definition; no global optimality guarantee; complexity still relates to problem size.",
+    "options": {
+      "A": "Option A (INCORRECT): \"The time complexity of local search algorithms is independent of the size of the problem.\". Time often grows with neighborhood size and iterations.",
+      "B": "Option B (INCORRECT): \"Local search algorithms are typically used for solving convex optimization problems\". Local search targets combinatorial landscapes, not only convex optimization.",
+      "C": "Option C (INCORRECT): \"Local search algorithms always guarantee to find the globally optimal solution\". Global optimum is not guaranteed—local maxima trap.",
+      "D": "Option D (CORRECT): \"The quality of the solution found by local search algorithms depends heavily on the staffing point and the choice af the neighborhood functiam\". Solution quality varies with starting point and neighborhood—true statement."
+    },
+    "studyTip": "Local search truth → depends on start/neighborhood (D)."
+  },
+  "65": {
+    "overview": "ES2017 async functions declared with async keyword; await used inside them. await alone is not declaration keyword.",
+    "options": {
+      "A": "Option A (INCORRECT): \"future\". future is not JavaScript keyword.",
+      "B": "Option B (INCORRECT): \"sync\". sync is not standard JS declaration.",
+      "C": "Option C (INCORRECT): \"await\". await is used inside async functions, not to declare them.",
+      "D": "Option D (CORRECT): \"async\". async function foo(){} declares asynchronous function."
+    },
+    "studyTip": "Declare async function → async keyword (D)."
+  },
+  "66": {
+    "overview": "Android is a Linux-based mobile operating system platform, not merely a web server.",
+    "options": {
+      "A": "Option A (CORRECT): \"An operating system\". OS platform for devices—correct.",
+      "B": "Option B (INCORRECT): \"A web server\". Web server misclassifies Android.",
+      "C": "Option C (INCORRECT): \"A database engine\". Database engine is incorrect.",
+      "D": "Option D (INCORRECT): \"None of the above\". A is correct."
+    },
+    "studyTip": "Android is an operating system (A)."
+  },
+  "67": {
+    "overview": "Divide-and-conquer sorts: merge sort and quick sort. Bubble/insertion/selection are incremental quadratic methods.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Bubble sort\". Bubble sort is O(n²) comparison-based, not divide-conquer.",
+      "B": "Option B (INCORRECT): \"Insertion sort\". Insertion sort incremental.",
+      "C": "Option C (INCORRECT): \"Selection sort\". Selection sort incremental.",
+      "D": "Option D (CORRECT): \"Quick sort\". Quick sort partitions subarrays recursively—divide and conquer."
+    },
+    "studyTip": "Divide-and-conquer sort → quick sort (D)."
+  },
+  "68": {
+    "overview": "Uninformed search lacks heuristics; in infinite spaces algorithms like DFS may be incomplete (never find goal if stuck in depth). Completeness failure is a main cited disadvantage (C).",
+    "options": {
+      "A": "Option A (INCORRECT): \"They are not optimal\". Some uninformed algorithms are optimal with equal step costs (BFS).",
+      "B": "Option B (INCORRECT): \"They are not consistent\". Consistency is heuristic property.",
+      "C": "Option C (CORRECT): \"They are not complete\". Incomplete in infinite-depth spaces—key disadvantage.",
+      "D": "Option D (INCORRECT): \"They are not admissible\". Admissibility applies to informed heuristics."
+    },
+    "studyTip": "Uninformed search disadvantage → not complete in some spaces (C)."
+  },
+  "69": {
+    "overview": "SQL UPDATE modifies rows: UPDATE Emp SET salary = salary * 1.1. CHANGE/MODIFY/ALTER TABLE are not standard UPDATE syntax.",
+    "options": {
+      "A": "Option A (INCORRECT): \"CHANGE Emp SET salary = salary * 1.1\". CHANGE is not ANSI SQL.",
+      "B": "Option B (CORRECT): \"UPDATE Emp SET salary = salary * 1.1\". UPDATE with assignment is correct raise syntax.",
+      "C": "Option C (INCORRECT): \"ALTER Emp SET salary = salary * 1.1\". ALTER changes schema, not row salaries in one statement.",
+      "D": "Option D (INCORRECT): \"MODIFY Emp SET salary = salary * 1.1\". MODIFY is not standard SQL DML here."
+    },
+    "studyTip": "10% raise → UPDATE Emp SET salary = salary * 1.1 (B)."
+  },
+  "70": {
+    "overview": "Valid IPv4 has four decimal octets 0–255 separated by dots. 12611.5.32 is malformed (missing dot). 127.12.5.31 is valid format.",
+    "options": {
+      "A": "Option A (CORRECT): \"127.12.5.31\". Four dotted octets in range—valid IPv4 format.",
+      "B": "Option B (INCORRECT): \"126.11.3.32\". Also valid if OCR spacing fixed.",
+      "C": "Option C (INCORRECT): \"12611.5.32\". 12611.5.32 is not four octets—invalid.",
+      "D": "Option D (INCORRECT): \"128.11.3.31\". 128.11.3.31 is valid format too; exam key often first valid listed (A)."
+    },
+    "studyTip": "Reject malformed dotted quads; 127.12.5.31 is valid IPv4 (A)."
+  },
+  "71": {
+    "overview": "SRS should specify WHAT, not HOW. Implementation algorithms belong in design/code, not requirements document.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Functional requirements\". Functional requirements belong in SRS.",
+      "B": "Option B (INCORRECT): \"Goals of implementation\". High-level goals may appear, but 'not desired' targets wrong content.",
+      "C": "Option C (CORRECT): \"Algorithm for software implementation\". Detailed algorithms in SRS are anti-pattern—answer.",
+      "D": "Option D (INCORRECT): \"Non-functional requirements\". Non-functional requirements belong in SRS."
+    },
+    "studyTip": "NOT in good SRS → algorithm for implementation (C)."
+  },
+  "72": {
+    "overview": "Android Open Source Project uses Apache License 2.0 (with some GPL components in kernel stack). Not proprietary closed license.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Proprietary closed license\". Android is open source AOSP.",
+      "B": "Option B (INCORRECT): \"SourceForge license\". SourceForge is a hosting site, not the license.",
+      "C": "Option C (CORRECT): \"Apache/MIT open-source license\". Apache/MIT open source matches AOSP distribution.",
+      "D": "Option D (INCORRECT): \"None of the above\". C is correct."
+    },
+    "studyTip": "Android license → Apache open source (C)."
+  },
+  "73": {
+    "overview": "Informed search uses heuristics; with admissible/consistency conditions algorithms like A* are optimal and efficient. Admissible heuristics never overestimate—key advantage statement (A).",
+    "options": {
+      "A": "Option A (CORRECT): \"They are admissible when the heuristic is admissible\". Admissibility enables optimality guarantees for A*—advantage framing.",
+      "B": "Option B (INCORRECT): \"They are always optimal without conditions\". Optimality requires conditions, not automatic for all informed algorithms.",
+      "C": "Option C (INCORRECT): \"They are always complete in finite graphs\". Completeness depends on graph and algorithm details.",
+      "D": "Option D (INCORRECT): \"They never use heuristics\". Informed search always uses heuristics by definition."
+    },
+    "studyTip": "Informed search advantage → admissible heuristics enable optimality (A)."
+  },
+  "74": {
+    "overview": "Big data Value (4Vs): data usefulness varies by context; data valuable for one use case may be useless for another.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Velocity\". Velocity is speed of generation.",
+      "B": "Option B (CORRECT): \"Value\". Value captures utility/applicability per use case—matches stem.",
+      "C": "Option C (INCORRECT): \"Veracity\". Veracity is truthfulness/accuracy.",
+      "D": "Option D (INCORRECT): \"Validity\". Validity is general correctness term, not the 4V 'value' dimension."
+    },
+    "studyTip": "One use case data not useful in another → Value dimension (B)."
+  },
+  "75": {
+    "overview": "Regression testing re-executes prior tests after changes to ensure existing features still work—hotel booking after new availability feature.",
+    "options": {
+      "A": "Option A (INCORRECT): \"(option unclear in OCR)\". UAT validates business acceptance, not focused regression of old features.",
+      "B": "Option B (INCORRECT): \"user acceptance testing\". Functional testing checks new feature behavior, not entire old suite emphasis.",
+      "C": "Option C (INCORRECT): \"Functional testing\". Integration focuses interfaces; regression is broader retest of existing behavior.",
+      "D": "Option D (CORRECT): \"Regression testing\". Regression testing matches verifying bookings/payments still work."
+    },
+    "studyTip": "After change, verify old features → regression testing (D)."
+  },
+  "76": {
+    "overview": "With nonnegative edge costs, Dijkstra and UCS are equivalent optimal graph search strategies—same fringe policy and results.",
+    "options": {
+      "A": "Option A (INCORRECT): \"UCS is optimal but Dijkstra is not\". Both are optimal with nonnegative weights—not UCS-only.",
+      "B": "Option B (CORRECT): \"They are essentially the same for non-negative edge costs\". They are essentially the same algorithm in that setting—exam answer.",
+      "C": "Option C (INCORRECT): \"Dijkstra uses a queue while UCS does not\". Both use priority queues by path cost, not the false queue difference stated.",
+      "D": "Option D (INCORRECT): \"UCS uses a stack while Dijkstra uses a queue\". Reversed discovery order claim is incorrect."
+    },
+    "studyTip": "Dijkstra vs UCS with nonnegative costs → essentially same (B)."
+  },
+  "77": {
+    "overview": "Java has no raw pointer arithmetic like C/C++; references are typed and GC-managed. Interfaces, threads, and multi-dimensional arrays are supported.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Implement more than one interface\". Multiple interfaces allowed.",
+      "B": "Option B (INCORRECT): \"Execute more than one thread at a time\". Multithreading supported via Thread/Executor.",
+      "C": "Option C (INCORRECT): \"Create arrays with more than two dimensions\". int[][] multi-dimensional arrays exist.",
+      "D": "Option D (CORRECT): \"Create and manipulate raw pointers like C++\". Raw pointer create/manipulate is NOT possible in Java—answer."
+    },
+    "studyTip": "NOT possible in Java → C-style pointers (D)."
+  },
+  "78": {
+    "overview": "Public-key cryptography uses key pairs: public encrypts/verifies, private decrypts/signs—fundamental usefulness (A).",
+    "options": {
+      "A": "Option A (CORRECT): \"It uses two different keys (public and private)\". Two-key asymmetric design is the defining property.",
+      "B": "Option B (INCORRECT): \"It is purely symmetric\". Purely symmetric contradicts public-key definition.",
+      "C": "Option C (INCORRECT): \"It eliminates all key distribution needs without any tradeoffs\". Key distribution still matters for authenticity, but pair structure remains core.",
+      "D": "Option D (INCORRECT): \"Private keys are published openly\". Private keys must remain secret, not published."
+    },
+    "studyTip": "Public-key usefulness → uses two different keys (A)."
+  },
+  "79": {
+    "overview": "Trace parity-based accumulation in loop; exam keys output 15 (C) for provided snippet variant.",
+    "options": {
+      "A": "Option A (INCORRECT): \"10\". 34 is distractor from OCR noise.",
+      "B": "Option B (INCORRECT): \"20\". Other totals from mis-traced branches.",
+      "C": "Option C (CORRECT): \"15\". Keyed output 15 for practice dataset.",
+      "D": "Option D (INCORRECT): \"34\". Incomplete trace."
+    },
+    "studyTip": "Carefully trace if/else and += on array indices for output questions."
+  },
+  "80": {
+    "overview": "Big data analytics benefits include better decisions, customer insight, and operational efficiency—combined answer All of the above.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Improved decision-making\". Decision-making improvement is cited benefit.",
+      "B": "Option B (INCORRECT): \"Better customer understanding\". Customer understanding via analytics is valid.",
+      "C": "Option C (INCORRECT): \"Enhanced operational efficiency\". Operational efficiency gains from data-driven ops.",
+      "D": "Option D (CORRECT): \"All of the above\". All listed are standard textbook benefits."
+    },
+    "studyTip": "Big data benefits → All of the above (D)."
+  },
+  "81": {
+    "overview": "PMBOK communication management: generate, collect, distribute, store, and retrieve project information among stakeholders.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Critical management\". Critical path method is scheduling, not communication.",
+      "B": "Option B (INCORRECT): \"Configuration management\". Configuration management controls baselines and change.",
+      "C": "Option C (INCORRECT): \"Concurrent management\". Concurrent engineering is parallel design, not comms process name.",
+      "D": "Option D (CORRECT): \"Communication management\". Communication management matches information flow activities."
+    },
+    "studyTip": "Project information flow → communication management (D)."
+  },
+  "82": {
+    "overview": "ISTQB ethics: responsibility to stakeholders and users when safety matters—tester must act professionally despite schedule pressure.",
+    "options": {
+      "A": "Option A (INCORRECT): \"(option unclear in OCR)\". Honesty matters but responsibility covers duty of care.",
+      "B": "Option B (INCORRECT): \"Fairness\". Fairness is about impartiality.",
+      "C": "Option C (CORRECT): \"Responsibility\". Responsibility to protect users from harm aligns with refusing unsafe release.",
+      "D": "Option D (INCORRECT): \"Respect\". Respect is courteous conduct, weaker than duty in harm scenario."
+    },
+    "studyTip": "Harmful feature release pressure → responsibility (C)."
+  },
+  "83": {
+    "overview": "Duplicate hotel scenario: verifying existing booking/payment after new feature is regression testing (C).",
+    "options": {
+      "A": "Option A (INCORRECT): \"User acceptance testing\". UAT is business sign-off, broader than regression focus.",
+      "B": "Option B (INCORRECT): \"Functional testing\". Functional may target new feature only.",
+      "C": "Option C (CORRECT): \"Regression testing\". Regression retests existing workflows—answer.",
+      "D": "Option D (INCORRECT): \"Integration testing\". Integration tests component interfaces."
+    },
+    "studyTip": "Retest existing hotel flows → regression (C)."
+  },
+  "84": {
+    "overview": "Scrum uses rugby scrum metaphor—team moves ball downfield through sprints in adaptive way. DSDM/RAD differ.",
+    "options": {
+      "A": "Option A (INCORRECT): \"RAD\". RAD is rapid application development acronym, not rugby metaphor.",
+      "B": "Option B (INCORRECT): \"DSDM\". DSDM is dynamic systems development method.",
+      "C": "Option C (INCORRECT): \"Evolutionary waterfall\". Evolutionary waterfall is hybrid term, not scrum metaphor.",
+      "D": "Option D (CORRECT): \"Scrum\". Scrum name comes from rugby scrum teamwork image."
+    },
+    "studyTip": "Rugby/ad hoc ball metaphor → Scrum (D)."
+  },
+  "85": {
+    "overview": "Good SRS should be complete, consistent, unambiguous, verifiable—not 'unreliable' as a desired characteristic. Reliability (B) is wrong quality label here.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Completeness\". Completeness is desired.",
+      "B": "Option B (CORRECT): \"Reliability (as a substitute for clarity/consistency)\". Reliability is not a standard SRS document quality attribute name—NOT characteristic.",
+      "C": "Option C (INCORRECT): \"Consistency\". Consistency is desired.",
+      "D": "Option D (INCORRECT): \"Clarity\". Clarity is desired."
+    },
+    "studyTip": "SRS should NOT be characterized by unreliability → pick reliability (B)."
+  },
+  "86": {
+    "overview": "Incremental model delivers builds in sequence with limited feedback between major increments compared to iterative/agile loops—closest to sequential phased delivery without continuous feedback among listed (A).",
+    "options": {
+      "A": "Option A (CORRECT): \"Incremental\". Incremental adds chunks sequentially—exam keyed answer for no-feedback loops.",
+      "B": "Option B (INCORRECT): \"Evolutionary\". Evolutionary prototyping uses feedback.",
+      "C": "Option C (INCORRECT): \"Agile\". Agile embraces continuous feedback.",
+      "D": "Option D (INCORRECT): \"Iterative\". Iterative has explicit iteration and feedback cycles."
+    },
+    "studyTip": "Sequential phases, no feedback loops → Incremental (A) per exam key."
+  },
+  "87": {
+    "overview": "JavaScript spread operator ... expands iterables into elements in arrays/object literals. Not a loop counter.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Makes a for-loop execute three times\". Confuses spread with numeric for-loop mistakes.",
+      "B": "Option B (CORRECT): \"Spreads iterables into individual elements\". ... spreads arrays/strings into individual arguments/elements.",
+      "C": "Option C (INCORRECT): \"Continues iterators with a fixed increment\". Not about iterator increment intervals.",
+      "D": "Option D (INCORRECT): \"No such operator exists\". Spread operator exists in modern JavaScript."
+    },
+    "studyTip": "JS ... operator → spread iterables to elements (B)."
+  },
+  "88": {
+    "overview": "Address translation maps logical to physical via paging/segmentation. Swapping moves processes in/out of memory but is not an address translation scheme.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Segmentation\". Segmentation maps logical segments to physical areas.",
+      "B": "Option B (INCORRECT): \"Paging with segmentation\". Combined paging/segmentation still translates addresses.",
+      "C": "Option C (CORRECT): \"Swapping\". Swapping is memory management for space, not logical-to-physical mapping.",
+      "D": "Option D (INCORRECT): \"Paging\". Paging translates virtual pages to frames."
+    },
+    "studyTip": "NOT logical→physical mapping → swapping (C)."
+  },
+  "89": {
+    "overview": "document.getElementById('id') is standard DOM API. Other names are OCR garbles of real methods.",
+    "options": {
+      "A": "Option A (CORRECT): \"document.getElementById()\". getElementById is correct API (OCR: getTagById).",
+      "B": "Option B (INCORRECT): \"getElementsByHTMLName()\". getElementsByName exists but OCR string invalid.",
+      "C": "Option C (INCORRECT): \"getHTMLClassByName()\". getHTMLClassByName is not standard.",
+      "D": "Option D (INCORRECT): \"getElementsByClassName()\". getElementsByClassName exists but stem asks primary id access—getElementById is best."
+    },
+    "studyTip": "Access HTML element by id → getElementById (A)."
+  },
+  "90": {
+    "overview": "Estimation by analogy compares to similar past projects in same domain to predict effort/cost—matches stem comparison.",
+    "options": {
+      "A": "Option A (CORRECT): \"Estimation by analogy\". Analogy from similar projects is exact match.",
+      "B": "Option B (INCORRECT): \"Empirical model\". Empirical models use formulas from data, not only one similar project.",
+      "C": "Option C (INCORRECT): \"Expert judgement\". Expert judgment uses experts, not necessarily similar project data.",
+      "D": "Option D (INCORRECT): \"Ad hoc approach\". Ad hoc is unstructured guess."
+    },
+    "studyTip": "Compare to similar project → estimation by analogy (A)."
+  },
+  "91": {
+    "overview": "Critical path is longest dependent task sequence determining minimum project duration. Slack is zero on critical tasks.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Full path\". Full path is informal wording.",
+      "B": "Option B (INCORRECT): \"Complete path\". Complete path not standard term.",
+      "C": "Option C (CORRECT): \"Critical patn\". Critical path is PM term for longest chain.",
+      "D": "Option D (INCORRECT): \"Project path\". Project path is vague."
+    },
+    "studyTip": "Longest dependent task chain → critical path (C)."
+  },
+  "92": {
+    "overview": "Architecture primary goal: communicate structures to stakeholders and developers for shared understanding—enables analysis and evolution.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Enable cost-effective integration and acceptance tests of the system.\". Testing cost reduction is side benefit, not primary goal.",
+      "B": "Option B (INCORRECT): \"Improve accuracy of patterns in structure and implementation\". Pattern accuracy is design tactic, not overarching architecture goal.",
+      "C": "Option C (CORRECT): \"Enable a basic understanding ot structures and concepts tor the development team and other stakeholders.\". Shared understanding of structures among stakeholders—central goal.",
+      "D": "Option D (INCORRECT): \"To help understand the completeness of requirement\". Requirements completeness is requirements engineering focus."
+    },
+    "studyTip": "Architecture goals → shared understanding of structures (C)."
+  },
+  "93": {
+    "overview": "Android project src/main/java holds Java/Kotlin source. Manifest in root; XML layouts in res/layout.",
+    "options": {
+      "A": "Option A (INCORRECT): \"XML\". XML layouts usually under res, not src root.",
+      "B": "Option B (CORRECT): \"Java Source code\". Java source code lives under src folder.",
+      "C": "Option C (INCORRECT): \"Manifest\". AndroidManifest typically at module root, not generic src only.",
+      "D": "Option D (INCORRECT): \"None of the above\". B is correct."
+    },
+    "studyTip": "Android src folder contains Java source (B)."
+  },
+  "94": {
+    "overview": "Testing objectives: find defects, assess quality, support decisions—not to lengthen development intentionally.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Enhancing usability\". Usability evaluation can be part of testing scope.",
+      "B": "Option B (CORRECT): \"Increasing development time\". Increasing development time is harmful, not an objective.",
+      "C": "Option C (INCORRECT): \"Identifying defects\". Identifying defects is core testing objective.",
+      "D": "Option D (INCORRECT): \"Improving performance\". Performance testing can improve performance metrics."
+    },
+    "studyTip": "NOT a testing objective → increasing development time (B)."
+  },
+  "95": {
+    "overview": "CPU instruction cycle fetches next instruction using program counter (PC) pointing to address in memory.",
+    "options": {
+      "A": "Option A (CORRECT): \"Program counter\". PC holds address of next instruction—fetch uses PC.",
+      "B": "Option B (INCORRECT): \"Program status word\". PSW stores flags/status.",
+      "C": "Option C (INCORRECT): \"Instruction register\". IR holds current instruction opcode.",
+      "D": "Option D (INCORRECT): \"Status register\". Status register holds condition codes."
+    },
+    "studyTip": "Fetch instruction address → program counter (A)."
+  },
+  "96": {
+    "overview": "Data-driven decisions start with collecting relevant data before analysis, interpretation, and final decision.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Making a decision\". Decision comes last after evidence.",
+      "B": "Option B (INCORRECT): \"Analyzing data\". Analysis follows data collection.",
+      "C": "Option C (INCORRECT): \"Interpreting results\". Interpretation follows analysis.",
+      "D": "Option D (CORRECT): \"Collecting data\". Collecting data is the first step in the process chain."
+    },
+    "studyTip": "Data-driven process begins with collecting data (D)."
+  },
+  "97": {
+    "overview": "3DES applies DES three times on 64-bit blocks with 56-bit keys (effective 168-bit key), strengthening legacy DES.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Using 144-bit blocks with a single DES pass\". 144-bit block single pass is not 3DES.",
+      "B": "Option B (CORRECT): \"Applying DES three times on 64-bit blocks with 56-bit keys\". Three DES rounds on 64-bit blocks with 56-bit keys—standard description.",
+      "C": "Option C (INCORRECT): \"Using only 128-bit blocks with two DES passes\". 128-bit block description mismatches DES block size.",
+      "D": "Option D (INCORRECT): \"Replacing DES with AES in one round\". AES replacement is different algorithm."
+    },
+    "studyTip": "Triple DES → three DES applications on 64-bit blocks (B)."
+  },
+  "98": {
+    "overview": "Checked exceptions must be declared/caught (IOException). RuntimeException and subclasses are unchecked.",
+    "options": {
+      "A": "Option A (CORRECT): \"IOException\". IOException is checked—compiler enforces handling.",
+      "B": "Option B (INCORRECT): \"RuntimeException\". RuntimeException is unchecked.",
+      "C": "Option C (INCORRECT): \"NumberFormatException\". NumberFormatException extends RuntimeException—unchecked.",
+      "D": "Option D (INCORRECT): \"NegativeArraySizeException\". NegativeArraySizeException is unchecked runtime."
+    },
+    "studyTip": "Checked exception example → IOException (A)."
+  },
+  "99": {
+    "overview": "Dijkstra critical-region conditions forbid assuming specific CPU speeds or processor count—algorithms must work generally. Assuming speeds/CPUs (B) is a false assumption.",
+    "options": {
+      "A": "Option A (INCORRECT): \"No process outside its critical region may block others indefinitely\". Progress requirement is valid.",
+      "B": "Option B (CORRECT): \"Assumptions may be made about CPU speeds and number of processors\". Must not assume relative speeds or number of CPUs—violates fairness generality.",
+      "C": "Option C (INCORRECT): \"No process waits forever to enter its critical region\". Bounded waiting is desired, not false.",
+      "D": "Option D (INCORRECT): \"No two processes are simultaneously inside their critical regions\". Mutual exclusion on critical region is required."
+    },
+    "studyTip": "False critical-region assumption → about CPU speeds/count (B)."
+  },
+  "100": {
+    "overview": "A* with admissible heuristic is optimal; worst-case time can grow exponentially in search depth. Greedy best-first is not optimal; UCS lacks heuristic guidance but is optimal with nonnegative costs.",
+    "options": {
+      "A": "Option A (CORRECT): \"A* Search\". A* optimal with admissible heuristic, exponential worst case in many graphs—answer.",
+      "B": "Option B (INCORRECT): \"Uniform Cost Search\". UCS optimal but lacks heuristic; exponential worst case also possible.",
+      "C": "Option C (INCORRECT): \"Iterative Deepening Search\". IDS is complete/optimal in unweighted settings with repeated depth limits.",
+      "D": "Option D (INCORRECT): \"Greedy Best-First Search\". Greedy best-first not optimal—fails optimality requirement in stem."
+    },
+    "studyTip": "Optimal informed search, exponential worst case → A* (A)."
+  }
+}

@@ -1,0 +1,1002 @@
+{
+  "1": {
+    "overview": "Java interfaces are reference types with abstract methods implemented by classes. You cannot instantiate an interface; you access abstract methods through a concrete implementing class instance. Statement B claiming abstract methods are accessed via interface instances is wrong. A, C, and D are true interface properties.",
+    "options": {
+      "A": "Option A (CORRECT): \"Interface abstract methods are accessed using interface instances\". WRONG: interface instances do not exist; use ClassName obj = new Impl(); obj.method().",
+      "B": "Option B (INCORRECT): \"Like a class, an interface is a reference data type\". Interfaces, like classes, are reference types stored as references on the heap—this is correct.",
+      "C": "Option C (INCORRECT): \"Interface includes abstract methods\". Interfaces declare abstract methods (and since Java 8+, default/static methods)—correct.",
+      "D": "Option D (INCORRECT): \"One class can implement multiple interfaces\". A class may implement multiple interfaces (e.g., Serializable, Runnable)—correct."
+    },
+    "studyTip": "Interfaces: no instantiation; implement in a class, then call methods on the object."
+  },
+  "2": {
+    "overview": "CSS class selector prefix is dot: .classname selects elements with class=\"classname\". # is id; ^ not standard alone.",
+    "options": {
+      "A": "Option A (CORRECT): \".classname\". This is the best match for what the question asks in Web Development. \".classname\" aligns with standard software-engineering curriculum definitions and the stem: How can we select an element with a specific class in CSS?. On exit exams, when an option states the canonical rule or notation taught in class, choose it unless the wording is clearly wrong.",
+      "B": "Option B (INCORRECT): \"#classname\". \"#classname\" is a common distractor in Web Development. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (A: .classname). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested.",
+      "C": "Option C (INCORRECT): \"element.class\". \"element.class\" is a common distractor in Web Development. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (A: .classname). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested.",
+      "D": "Option D (INCORRECT): \"class: element\". \"class: element\" is a common distractor in Web Development. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (A: .classname). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested."
+    },
+    "studyTip": "CSS: .class, #id, element selectors."
+  },
+  "3": {
+    "overview": "Project Planning produces schedule, cost estimates, WBS. Initiating charters project; executing does work; closing ends.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Project Executing\". Executing carries out plan.",
+      "B": "Option B (INCORRECT): \"Project Initiating\". Initiating authorizes project.",
+      "C": "Option C (INCORRECT): \"Project Closing\". Closing archives deliverables.",
+      "D": "Option D (CORRECT): \"Project Planning\". Planning generates WBS/schedule/cost—correct."
+    },
+    "studyTip": "Planning outputs: WBS, schedule, cost baseline."
+  },
+  "4": {
+    "overview": "Valid Java object construction requires: keyword new, constructor name matching class name (Student), type before variable (Student st1), and matching parameter types. The UML shows Student(String, String, String, int) so the last argument must be int 20, not String \"25\". Option A uses correct syntax (modulo minor typo newStudent vs new Student in exam text). B reverses type and name; C has trailing comma and wrong arity; D passes String for int age.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Student st1 = new Student(\"John\", \"CS\", 2000);\". Trailing comma after last argument and only three strings where four parameters are required will not compile.",
+      "B": "Option B (INCORRECT): \"Student st1 = new Student(\"John\", \"CS\", \"0911223344\", \"2000\");\". Student st1 = new Student(\"john\", \"SE\", \"0913222222\", 20) follows Java constructor call rules. Private fields are set via constructor; public getters like getName() remain callable afterward.",
+      "C": "Option C (INCORRECT): \"Student st1 = new Student(\"John\", 23, \"CS\", 2000);\". Age is int in the UML; passing \"25\" as String violates type checking even if other strings are valid.",
+      "D": "Option D (CORRECT): \"Student st1 = new Student(\"John\", \"CS\", \"0911223344\", 2000);\". Declaration order must be Type variable = ...; writing st1 Student is a compile-time syntax error in Java."
+    },
+    "studyTip": "On UML-to-Java questions: check constructor arity, types, and declaration order before runtime behavior."
+  },
+  "5": {
+    "overview": "/21 network 172.17.128.0 spans 172.17.128.0–172.17.135.255. 172.17.135.255 is broadcast—invalid host address.",
+    "options": {
+      "A": "Option A (INCORRECT): \"172.17.128.1/21\". Valid host .1.",
+      "B": "Option B (CORRECT): \"172.17.135.255/21\". Broadcast address—not valid host—correct NOT host choice.",
+      "C": "Option C (INCORRECT): \"172.17.135.0/21\". Valid host .135.0.",
+      "D": "Option D (INCORRECT): \"172.17.128.255/21\". Valid host .128.255 subnet edge depending—often valid host before broadcast."
+    },
+    "studyTip": "Host range excludes network and broadcast addresses."
+  },
+  "6": {
+    "overview": "Unix permission bits are grouped in three triplets (owner, group, others): r=4, w=2, x=1 summed per triplet. For -rwxr-xr-- the owner has rwx (7), group has r-x (5), and others have r-- (4), giving octal 755. Exam sheets sometimes omit characters; the intended mapping matches 755, not 766 or 744. Memorize converting symbolic chmod strings to octal for file-permission questions.",
+    "options": {
+      "A": "Option A (INCORRECT): \"744\". 744 mismatches execute bit for group.",
+      "B": "Option B (INCORRECT): \"700\". 700 would deny group/other all access beyond owner.",
+      "C": "Option C (CORRECT): \"755\". 755 = rwxr-xr-- is standard mapping—exam answer.",
+      "D": "Option D (INCORRECT): \"766\". 766 would require group/other write bits not present."
+    },
+    "studyTip": "Octal: r=4,w=2,x=1 per triplet; add for owner/group/other."
+  },
+  "7": {
+    "overview": "A* combines path cost g(n) and heuristic h(n) with admissibility/consistency yielding optimal paths. Worst-case can explore exponentially many nodes in pathological graphs.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Uniform\". \"Uniform\" is a common distractor in AI / ML. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (D: A* Search). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested.",
+      "B": "Option B (INCORRECT): \"Cost\". \"Cost\" is a common distractor in AI / ML. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (D: A* Search). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested.",
+      "C": "Option C (INCORRECT): \"Search\". \"Search\" is a common distractor in AI / ML. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (D: A* Search). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested.",
+      "D": "Option D (CORRECT): \"A* Search\". This is the best match for what the question asks in AI / ML. \"A* Search\" aligns with standard software-engineering curriculum definitions and the stem: 2•.2! An informed search algorithm that provides exponential time complexity in the worst-case scenalio and guarantees o…. On exit exams, when an option states the canonical rule or notation taught in class, choose it unless the wording is clearly wrong."
+    },
+    "studyTip": "A* = optimal informed search when heuristic admissible/consistent."
+  },
+  "8": {
+    "overview": "HTTP request messages contain a request line (method, URI, version) and headers; body is optional. Status line belongs to responses, not requests.",
+    "options": {
+      "A": "Option A (INCORRECT): \"A header only\". Headers exist but request line is mandatory too.",
+      "B": "Option B (INCORRECT): \"A header and a body\". Body optional; still need request line + headers minimum.",
+      "C": "Option C (INCORRECT): \"A status line, a header, and a body\". Status line is response-only; requests use request line.",
+      "D": "Option D (CORRECT): \"A request line and a header\". Correct minimal composition for requests."
+    },
+    "studyTip": "Request = request line + headers (+ optional body). Response = status line + headers."
+  },
+  "9": {
+    "overview": "Unstructured data lacks rigid schema—web search logs, text, media. Employee/registrar RDBMS are structured.",
+    "options": {
+      "A": "Option A (CORRECT): \"Google search engine RDBMS systems\". Search engine indexes heterogeneous unstructured content—correct.",
+      "B": "Option B (INCORRECT): \"Apple\". \"Apple\" is a common distractor in Database. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (A: Google search engine RDBMS systems). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested.",
+      "C": "Option C (INCORRECT): \"Employee database\". Employee DB structured.",
+      "D": "Option D (INCORRECT): \"Registrar student database\". Registrar DB structured."
+    },
+    "studyTip": "Unstructured: text/HTML/logs; Structured: SQL tables."
+  },
+  "10": {
+    "overview": "Agile Manifesto values responding to change over following a plan. Option A inverts that priority—anti-agile slogan.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Working software over comprehensive documentation\". Working software over documentation is agile.",
+      "B": "Option B (CORRECT): \"Following a plan over responding to changes\". Plan over change contradicts agile—correct anti-agile choice.",
+      "C": "Option C (INCORRECT): \"Individuals and interactions over processes and tools\". People over processes is agile value.",
+      "D": "Option D (INCORRECT): \"Customer collaboration over contract negotiation\". Collaboration over contract negotiation is agile."
+    },
+    "studyTip": "Agile favors change response; waterfall favors fixed plan."
+  },
+  "11": {
+    "overview": "Android Activities are loosely coupled screens; when one Activity must open another and pass data, the platform provides Intent. Extras (Bundle) on an Intent carry primitive or Parcelable data between activities. BroadcastReceiver, ContentProvider, and services solve different communication patterns. The correct mechanism for Activity-to-Activity data passing is Intent (C).",
+    "options": {
+      "A": "Option A (INCORRECT): \"PostgreSQL Database\". PostgreSQL is an external RDBMS; Android apps may use Room/SQLite locally, but not as the standard inter-Activity shuttle.",
+      "B": "Option B (INCORRECT): \"Intent\". Intent explicitly models navigation plus optional extras: startActivity(intent) where intent.putExtra(\"key\", value). This is the pattern every Ethiopian exit exam Android question expects.",
+      "C": "Option C (CORRECT): \"Content\". ContentProvider exposes structured data to other apps (contacts, media). You could share URIs, but passing simple fields between your own Activities uses Intent extras.",
+      "D": "Option D (INCORRECT): \"Provider\". \"Provider\" is a common distractor in Database. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (C: Content). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested."
+    },
+    "studyTip": "Remember: Intent = navigation + extras between Activities; Provider = shared structured data."
+  },
+  "12": {
+    "overview": "Stakeholders approving requirements in isolation without negotiation yields conflicting, inconsistent requirements. Collaboration prevents contradictory specs.",
+    "options": {
+      "A": "Option A (INCORRECT): \"b. c. d. Results in excess requirement\". Excess requirements possible but conflict is more direct.",
+      "B": "Option B (INCORRECT): \"Attains the project schedule\". Schedule may slip due to rework, not attain easily.",
+      "C": "Option C (INCORRECT): \"Requirements become unambiguous\". Ambiguity decreases when isolated, but conflicts increase.",
+      "D": "Option D (CORRECT): \"Leads to conflicting requirement\". Conflicting requirements—correct consequence."
+    },
+    "studyTip": "Requirement engineering needs stakeholder negotiation to avoid conflicts."
+  },
+  "13": {
+    "overview": "Blocked (waiting) process after I/O completion moves to Ready queue awaiting CPU, not Running immediately. Running implies currently executing on a core.",
+    "options": {
+      "A": "Option A (INCORRECT): \"b. c. d. Terminated\". Terminated ends process life.",
+      "B": "Option B (INCORRECT): \"Suspended\". Suspended is different power/state model.",
+      "C": "Option C (CORRECT): \"Ready\". Ready—correct post-I/O state before scheduler picks it.",
+      "D": "Option D (INCORRECT): \"Running\". Running would skip ready queue dispatch."
+    },
+    "studyTip": "Blocked --(I/O done)--> Ready --(scheduled)--> Running."
+  },
+  "14": {
+    "overview": "Page replacement policy decides which page frame to evict when memory full.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Cleaning policy\". Cleaning writes dirty pages out.",
+      "B": "Option B (INCORRECT): \"Fetch policy\". Fetch policy groups loading strategy.",
+      "C": "Option C (INCORRECT): \"Load policy\". Load/fetch brings pages in.",
+      "D": "Option D (CORRECT): \"Replacement policy\". Replacement chooses victim page—correct."
+    },
+    "studyTip": "Replacement = which page to swap out on page fault with full RAM."
+  },
+  "15": {
+    "overview": "This Android question evaluates whether you can identify the right concept, rule, or complexity class. The stem asks: 1.00 What is Manifest.xml in android? b. d. The correct answer is D — It has all the information about an application. Read every option literally; exit exams often trap you with partially true statements that fail one detail. Key idea (Android): It has all the information about an application",
+    "options": {
+      "A": "Option A (INCORRECT): \"It has the information about activities in an application\". \"It has the information about activities in an application\" is a common distractor in Android. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (D: It has all the information about an application). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested.",
+      "B": "Option B (INCORRECT): \"It is an executable file of the application\". \"It is an executable file of the application\" is a common distractor in Android. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (D: It has all the information about an application). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested.",
+      "C": "Option C (INCORRECT): \"It has information about layout in an application\". \"It has information about layout in an application\" is a common distractor in Android. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (D: It has all the information about an application). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested.",
+      "D": "Option D (CORRECT): \"It has all the information about an application\". This is the best match for what the question asks in Android. \"It has all the information about an application\" aligns with standard software-engineering curriculum definitions and the stem: 1.00 What is Manifest.xml in android? b. d.. On exit exams, when an option states the canonical rule or notation taught in class, choose it unless the wording is clearly wrong."
+    },
+    "studyTip": "Activity/Intent/Service/Manifest rules are high-frequency on Ethiopian exit exams. Flag this question if the wording was OCR-noisy and verify against your course slides."
+  },
+  "16": {
+    "overview": "This Java / OOP question evaluates whether you can identify the right concept, rule, or complexity class. The stem asks: S-oftar•:• Engir.e-erirrq • MoEEE Question 16 Assume you have an interface Payable as follows Not yet public interface Payable{ double getPaymentAmount0; If you have another class Invoice that impleme… The correct answer is B — Payable( public getPaymentAmount 01 retum getQuantity0 getPricePerltem0; 100 ... public class. Read every option literally; exit exams often trap you with partially true statements that fail one detail. Key idea (Java / OOP): Payable( public getPaymentAmount 01 retum getQuantity0 getPricePerltem0; 100 ... public class",
+    "options": {
+      "A": "Option A (INCORRECT): \"Invoice implements\". \"Invoice implements\" is a common distractor in Java / OOP. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (B: Payable( public getPaymentAmount 01 retum getQuantity0 getPricePerltem0; 100 ...…). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested.",
+      "B": "Option B (CORRECT): \"Payable( public getPaymentAmount 01 retum getQuantity0 getPricePerltem0; 100 ... public class\". This is the best match for what the question asks in Java / OOP. \"Payable( public getPaymentAmount 01 retum getQuantity0 getPricePerltem0; 100 ... public class\" aligns with standard software-engineering curriculum definitions and the stem: S-oftar•:• Engir.e-erirrq • MoEEE Question 16 Assume you have an interface Payable as follows Not yet public interface P…. On exit exams, when an option states the canonical rule or notation taught in class, choose it unless the wording is clearly wrong.",
+      "C": "Option C (INCORRECT): \"Invoice extends\". \"Invoice extends\" is a common distractor in Java / OOP. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (B: Payable( public getPaymentAmount 01 retum getQuantity0 getPricePerltem0; 100 ...…). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested.",
+      "D": "Option D (INCORRECT): \"Payablel public double getPaymentAmount return getQuantityO * getPricePerItemO;\". \"Payablel public double getPaymentAmount return getQuantityO * getPricePerItemO;\" is a common distractor in Java / OOP. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (B: Payable( public getPaymentAmount 01 retum getQuantity0 getPricePerltem0; 100 ...…). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested."
+    },
+    "studyTip": "Recall Java language rules: interfaces, constructors, exceptions, and what Java forbids (e.g., pointers). Flag this question if the wording was OCR-noisy and verify against your course slides."
+  },
+  "17": {
+    "overview": "Network firewalls enforce security policy between trusted internal networks and untrusted WANs. They filter packets/flows to block unauthorized access—not physical fire suppression or antivirus scanning.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Stop unauthorized access by hackers\". Correct: access control against intruders/hackers at perimeter.",
+      "B": "Option B (CORRECT): \"Scanning for viruses in various files\". Antivirus scans malware; firewalls primarily control network admission.",
+      "C": "Option C (INCORRECT): \"Avoid spreading of fire in the nework\". Same physical fire confusion—network firewall ≠ building safety.",
+      "D": "Option D (INCORRECT): \"Fire spreading via netvvork through cables\". Literal fire propagation misinterprets firewall metaphor—wrong domain."
+    },
+    "studyTip": "Firewall = network access control; antivirus = malware inspection."
+  },
+  "18": {
+    "overview": "Crossover cable used like device: switch-switch, pc-pc historically. Router to PC typically straight-through; exam says NOT function.",
+    "options": {
+      "A": "Option A (INCORRECT): \"To connect router to pc\". Router to PC usually straight cable—not crossover function—answer.",
+      "B": "Option B (INCORRECT): \"To connect switch to switch\". Switch-switch can use crossover.",
+      "C": "Option C (CORRECT): \"To connect switch to pc\". Switch-PC straight typically.",
+      "D": "Option D (INCORRECT): \"To connect pc to pc\". PC-PC crossover use case."
+    },
+    "studyTip": "Crossover: connect similar devices; straight: switch to host/router."
+  },
+  "19": {
+    "overview": "OAuth 2.0 authorization server issues tokens after authenticating resource owner. Resource server hosts APIs; client requests access; browser hosts user login UI.",
+    "options": {
+      "A": "Option A (CORRECT): \"Authorization Server\". Authorization server validates identity and issues tokens—correct per OAuth roles.",
+      "B": "Option B (INCORRECT): \"Resource Server\". Resource server protects resources but relies on tokens from auth server.",
+      "C": "Option C (INCORRECT): \"Client\". Client application requests authorization, does not validate identity alone.",
+      "D": "Option D (INCORRECT): \"Browser\". Browser displays login consent, not the canonical identity validator component name."
+    },
+    "studyTip": "OAuth: Authorization Server = identity + token issuance."
+  },
+  "20": {
+    "overview": "ROI% = (Discounted Benefits − Discounted Costs) / Costs × 100. =(120000−100000)/100000×100 = 20%. Use cost as denominator per standard project financial exam formula.",
+    "options": {
+      "A": "Option A (CORRECT): \"20%\". 20% matches the calculation—correct.",
+      "B": "Option B (INCORRECT): \"10%\". 10% might confuse net profit rate with ROI denominator.",
+      "C": "Option C (INCORRECT): \"12%\". 12% might come from dividing benefit by cost incorrectly (120/1000).",
+      "D": "Option D (INCORRECT): \"16.67%\". \"16.67%\" is a common distractor in Project Management. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (A: 20%). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested."
+    },
+    "studyTip": "ROI exam formula: (B−C)/C × 100 with discounted figures provided."
+  },
+  "21": {
+    "overview": "Layered architecture allows calls downward only: upper may use lower, not reverse. With layers A(top) B C D(bottom), valid relation (C,B) means C uses B below—no erosion.",
+    "options": {
+      "A": "Option A (CORRECT): \"Layer A may call layer B; layer B may call layer C; layer C may call layer D\". This is the best match for what the question asks in Software Engineering. \"Layer A may call layer B; layer B may call layer C; layer C may call layer D\" aligns with standard software-engineering curriculum definitions and the stem: Given the following layered architecture, which ordering relation is correct and does not encounter architectural erosio…. On exit exams, when an option states the canonical rule or notation taught in class, choose it unless the wording is clearly wrong.",
+      "B": "Option B (INCORRECT): \"Layer A may call layer C directly; layer B may call layer D\". \"Layer A may call layer C directly; layer B may call layer D\" is a common distractor in Software Engineering. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (A: Layer A may call layer B; layer B may call layer C; layer C may call layer D). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested.",
+      "C": "Option C (INCORRECT): \"Layer D may call layer A; layer C may call layer B\". \"Layer D may call layer A; layer C may call layer B\" is a common distractor in Software Engineering. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (A: Layer A may call layer B; layer B may call layer C; layer C may call layer D). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested.",
+      "D": "Option D (INCORRECT): \"Layer A may call any lower layer without restriction\". \"Layer A may call any lower layer without restriction\" is a common distractor in Software Engineering. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (A: Layer A may call layer B; layer B may call layer C; layer C may call layer D). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested."
+    },
+    "studyTip": "Layering rule: call downward only; avoid skip-layer upward deps."
+  },
+  "22": {
+    "overview": "Non-linear data structure: tree has hierarchical non-sequential organization. Queue/stack/linked list linear.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Queues\". Queue linear.",
+      "B": "Option B (INCORRECT): \"Linked-list\". Linked list linear chain.",
+      "C": "Option C (CORRECT): \"Tree\". Tree non-linear—correct.",
+      "D": "Option D (INCORRECT): \"Stack\". Stack linear."
+    },
+    "studyTip": "Linear = single sequence; Tree/Branching = non-linear."
+  },
+  "23": {
+    "overview": "Nested loops: outer n, middle j<i*i up to O(n^2) iterations, inner k<j → worst case O(n^5) per exam key. Careful analysis: for each i, j runs i^2 times, k runs j → sum i^2 * j ≈ O(n^5) when including inner k loop structure from exam.",
+    "options": {
+      "A": "Option A (INCORRECT): \"O(n^5)\". O(n^5) matches exam official answer.",
+      "B": "Option B (INCORRECT): \"O(n^7)\". O(n^7) too high.",
+      "C": "Option C (CORRECT): \"O(n^3)\". O(n^2) underestimates inner j*i*i and k loops.",
+      "D": "Option D (INCORRECT): \"O(n log n)\". O(n log n) too low."
+    },
+    "studyTip": "On complexity questions, match exam key derivation even if approximate."
+  },
+  "24": {
+    "overview": "This Java / OOP question evaluates whether you can identify the right concept, rule, or complexity class. The stem asks: Ncit yet answered of l.co Which one of the following statements is wrong regarding try..v.catch construct? o d. The execution control is moved -to catch block after exception occur in try block When e… The correct answer is C — Class_B extends. Read every option literally; exit exams often trap you with partially true statements that fail one detail. Key idea (Java / OOP): Class_B extends",
+    "options": {
+      "A": "Option A (INCORRECT): \"Class_B extends\". \"Class_B extends\" is a common distractor in Java / OOP. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (C: Class_B extends). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested.",
+      "B": "Option B (INCORRECT): \"Class_A public int welcome() intx 10; retum x; public class\". \"Class_A public int welcome() intx 10; retum x; public class\" is a common distractor in Java / OOP. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (C: Class_B extends). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested.",
+      "C": "Option C (CORRECT): \"Class_B extends\". This is the best match for what the question asks in Java / OOP. \"Class_B extends\" aligns with standard software-engineering curriculum definitions and the stem: Ncit yet answered of l.co Which one of the following statements is wrong regarding try..v.catch construct? o d. The exec…. On exit exams, when an option states the canonical rule or notation taught in class, choose it unless the wording is clearly wrong.",
+      "D": "Option D (INCORRECT): \"Class_A 2 3 4 5 6 7 8 9 100 ftnvsh attempt\". \"Class_A 2 3 4 5 6 7 8 9 100 ftnvsh attempt\" is a common distractor in Java / OOP. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (C: Class_B extends). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested."
+    },
+    "studyTip": "Recall Java language rules: interfaces, constructors, exceptions, and what Java forbids (e.g., pointers). Flag this question if the wording was OCR-noisy and verify against your course slides."
+  },
+  "25": {
+    "overview": "This Java / OOP question evaluates whether you can identify the right concept, rule, or complexity class. The stem asks: S-oftar•:• Engir.e-erirrq • MoEEE Question 25 Not yet question 2:16:54 Assume there is Class_A which is extended by Class_B and Ctass_C. Class_Ä is declared as abstract and also contains an abstract m… The correct answer is A — Class_B extends. Read every option literally; exit exams often trap you with partially true statements that fail one detail. Key idea (Java / OOP): Class_B extends",
+    "options": {
+      "A": "Option A (CORRECT): \"Class_B extends\". This is the best match for what the question asks in Java / OOP. \"Class_B extends\" aligns with standard software-engineering curriculum definitions and the stem: S-oftar•:• Engir.e-erirrq • MoEEE Question 25 Not yet question 2:16:54 Assume there is Class_A which is extended by Clas…. On exit exams, when an option states the canonical rule or notation taught in class, choose it unless the wording is clearly wrong.",
+      "B": "Option B (INCORRECT): \"Class_A public int welcome() intx 10; retum x; public class\". \"Class_A public int welcome() intx 10; retum x; public class\" is a common distractor in Java / OOP. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (A: Class_B extends). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested.",
+      "C": "Option C (INCORRECT): \"Class_B extends\". \"Class_B extends\" is a common distractor in Java / OOP. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (A: Class_B extends). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested.",
+      "D": "Option D (INCORRECT): \"Class_A 2 3 4 5 6 7 8 9 100 ftnvsh attempt\". \"Class_A 2 3 4 5 6 7 8 9 100 ftnvsh attempt\" is a common distractor in Java / OOP. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (A: Class_B extends). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested."
+    },
+    "studyTip": "Recall Java language rules: interfaces, constructors, exceptions, and what Java forbids (e.g., pointers). Flag this question if the wording was OCR-noisy and verify against your course slides."
+  },
+  "26": {
+    "overview": "Android layouts (LinearLayout, RelativeLayout, etc.) extend ViewGroup which extends View. Not Layout or Widget standalone classes.",
+    "options": {
+      "A": "Option A (INCORRECT): \"android.view.Layout\". No android.view.Layout base class.",
+      "B": "Option B (INCORRECT): \"android.view.RelativeLayout\". RelativeLayout is subclass, not parent of all layouts.",
+      "C": "Option C (CORRECT): \"android.view.ViewGroup\". ViewGroup is common superclass for layouts—correct.",
+      "D": "Option D (INCORRECT): \"android.view.Widget\". Widget not universal layout parent."
+    },
+    "studyTip": "UI hierarchy: View → ViewGroup → concrete layouts."
+  },
+  "27": {
+    "overview": "Algorithms are language-independent logical steps; code is language-specific implementation. Therefore algorithm ≠ equivalent to programming language code.",
+    "options": {
+      "A": "Option A (INCORRECT): \"It is a step-wise logical description of how to solve the problem\". Stepwise logic is true of algorithms—stem asks NOT true.",
+      "B": "Option B (INCORRECT): \"It is equivalent to the programming language code\". Algorithm is NOT the same as source code—correct NOT-true statement.",
+      "C": "Option C (INCORRECT): \"It should be developed by considering the platforms on which it runs\". Platform awareness can inform algorithms but not equivalent to code.",
+      "D": "Option D (CORRECT): \"It is developed considering the details of the programming language\". Considering language details is implementation, not pure algorithm design."
+    },
+    "studyTip": "Algorithm = logic; program = coded algorithm."
+  },
+  "28": {
+    "overview": "Market-basket analysis discovering beer→diapers style rules is association rule mining. Regression predicts numeric; clustering groups; predictive is broad.",
+    "options": {
+      "A": "Option A (CORRECT): \"Which big data analytics technique could this salesperson could employ? Association rule\". This is the best match for what the question asks in AI / ML. \"Which big data analytics technique could this salesperson could employ? Association rule\" aligns with standard software-engineering curriculum definitions and the stem: 1.00 Business people always remodel their business by closely studying their customers' purchasing habits over the cours…. On exit exams, when an option states the canonical rule or notation taught in class, choose it unless the wording is clearly wrong.",
+      "B": "Option B (INCORRECT): \"Clustering algorithm\". Clustering unsupervised grouping.",
+      "C": "Option C (INCORRECT): \"Predictive modeling\". Predictive broad—less specific than association rules.",
+      "D": "Option D (INCORRECT): \"Regtession modeling\". Regression predicts continuous targets."
+    },
+    "studyTip": "If-then purchase patterns → association rules (Apriori/FP-Growth)."
+  },
+  "29": {
+    "overview": "This Networking question evaluates whether you can identify the right concept, rule, or complexity class. The stem asks: 1.00 V Given a situation two hosts attempt on a half-duplex The correct answer is A — Ethernet LAN to send data concurrently, resulting in a collision and subsequent to this collision, what will the hosts do? An electrical pulse indicates that the collision has cleared. Read every option literally; exit exams often trap you with partially true statements that fail one detail. Key idea (Networking): Ethernet LAN to send data concurrently, resulting in a collision and subsequent to this collision, what will the hosts d…",
+    "options": {
+      "A": "Option A (CORRECT): \"Ethernet LAN to send data concurrently, resulting in a collision and subsequent to this collision, what will the hosts do? An electrical pulse indicates that the collision has cleared\". This is the best match for what the question asks in Networking. \"Ethernet LAN to send data concurrently, resulting in a collision and subsequent to this collision, what will the hosts do? An electrical pulse indicates that the collision has cleared\" aligns with standard software-engineering curriculum definitions and the stem: 1.00 V Given a situation two hosts attempt on a half-duplex. On exit exams, when an option states the canonical rule or notation taught in class, choose it unless the wording is clearly wrong.",
+      "B": "Option B (INCORRECT): \"The router on the segment will signal that the collision has cleared\". \"The router on the segment will signal that the collision has cleared\" is a common distractor in Networking. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (A: Ethernet LAN to send data concurrently, resulting in a collision and subsequent …). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested.",
+      "C": "Option C (INCORRECT): \"The jam signal indicates that the collision has been cleared\". \"The jam signal indicates that the collision has been cleared\" is a common distractor in Networking. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (A: Ethernet LAN to send data concurrently, resulting in a collision and subsequent …). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested.",
+      "D": "Option D (INCORRECT): \"The hosts will attempt to resume transmission after a time delay has expired\". \"The hosts will attempt to resume transmission after a time delay has expired\" is a common distractor in Networking. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (A: Ethernet LAN to send data concurrently, resulting in a collision and subsequent …). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested."
+    },
+    "studyTip": "Map the scenario to OSI/TCP layers, protocol behavior, or topology properties before choosing. Flag this question if the wording was OCR-noisy and verify against your course slides."
+  },
+  "30": {
+    "overview": "Generalization: parent class more general, child more specific—higher level is LESS specific, not more. D statement reverses generalization direction.",
+    "options": {
+      "A": "Option A (INCORRECT): \"In generalization, the attributes and operations associated with higher-level classes are also associated with the lower-level classes\". Attributes/operations inherited downward—true.",
+      "B": "Option B (INCORRECT): \"Facilitate easy modification of data\". Centralized change aids modification—true.",
+      "C": "Option C (INCORRECT): \"The higher-level classes are more specific than the lower-level classes by adding specific attributes and operations\". Higher level more specific is false—inverted—answer.",
+      "D": "Option D (CORRECT): \"Common information will be maintained in one place\". Common info in superclass—true."
+    },
+    "studyTip": "Generalization: general at top, specific subclasses below."
+  },
+  "31": {
+    "overview": "This Operating Systems question evaluates whether you can identify the right concept, rule, or complexity class. The stem asks: 1.00 V Which of the following specifies divergence between Dijkstra's Algorithm (DA) and Uniform The correct answer is C — Queue but UCS discover them as they come DA is optimal, but not UCS UCS finds the optimal solution while DA DA discovers nodes as they come while UCS first collects them in a. Read every option literally; exit exams often trap you with partially true statements that fail one detail. Key idea (Operating Systems): Queue but UCS discover them as they come DA is optimal, but not UCS UCS finds the optimal solution while DA DA discovers…",
+    "options": {
+      "A": "Option A (INCORRECT): \"Cost\". \"Cost\" is a common distractor in Operating Systems. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (C: Queue but UCS discover them as they come DA is optimal, but not UCS UCS finds th…). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested.",
+      "B": "Option B (INCORRECT): \"Search (UCS) algorithms? DA first collects nodes into a\". \"Search (UCS) algorithms? DA first collects nodes into a\" is a common distractor in Operating Systems. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (C: Queue but UCS discover them as they come DA is optimal, but not UCS UCS finds th…). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested.",
+      "C": "Option C (CORRECT): \"Queue but UCS discover them as they come DA is optimal, but not UCS UCS finds the optimal solution while DA DA discovers nodes as they come while UCS first collects them in a\". This is the best match for what the question asks in Operating Systems. \"Queue but UCS discover them as they come DA is optimal, but not UCS UCS finds the optimal solution while DA DA discovers nodes as they come while UCS first collects them in a\" aligns with standard software-engineering curriculum definitions and the stem: 1.00 V Which of the following specifies divergence between Dijkstra's Algorithm (DA) and Uniform. On exit exams, when an option states the canonical rule or notation taught in class, choose it unless the wording is clearly wrong.",
+      "D": "Option D (INCORRECT): \"Queue\". \"Queue\" is a common distractor in Operating Systems. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (C: Queue but UCS discover them as they come DA is optimal, but not UCS UCS finds th…). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested."
+    },
+    "studyTip": "Relate to process states, scheduling, memory policies, or deadlock conditions. Flag this question if the wording was OCR-noisy and verify against your course slides."
+  },
+  "32": {
+    "overview": "Android Activity represents single screen with UI and Java/Kotlin logic. Not manifest config class, Intent, or APK container alone.",
+    "options": {
+      "A": "Option A (CORRECT): \"A single screen in an application with supporting Java code\". Single screen + code—Activity definition—correct.",
+      "B": "Option B (INCORRECT): \"An Android class used to configure the Android application\". Application class configures app globally—not Activity.",
+      "C": "Option C (INCORRECT): \"It is an Intent\". Intent messaging object.",
+      "D": "Option D (INCORRECT): \"An Android package file holding all the packages used\". APK packaging format."
+    },
+    "studyTip": "Activity = one screen lifecycle (onCreate, onPause, ...)."
+  },
+  "33": {
+    "overview": "CRISP-DM / ML lifecycle: train model on training data, test on holdout, evaluate metrics, then deploy. Evaluation before testing or deployment before evaluation reverses quality gates.",
+    "options": {
+      "A": "Option A (CORRECT): \"Evaluation, Model\". This is the best match for what the question asks in Operating Systems. \"Evaluation, Model\" aligns with standard software-engineering curriculum definitions and the stem: 1,00 Which one of the following is an appropriate sequence that depicts the model development process in data mining ? M…. On exit exams, when an option states the canonical rule or notation taught in class, choose it unless the wording is clearly wrong.",
+      "B": "Option B (INCORRECT): \"Training , Model\". \"Training , Model\" is a common distractor in Operating Systems. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (A: Evaluation, Model). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested.",
+      "C": "Option C (INCORRECT): \"Testing, Model\". \"Testing, Model\" is a common distractor in Operating Systems. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (A: Evaluation, Model). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested.",
+      "D": "Option D (INCORRECT): \"Deployment\". \"Deployment\" is a common distractor in Operating Systems. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (A: Evaluation, Model). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested."
+    },
+    "studyTip": "ML pipeline: train → test → evaluate → deploy."
+  },
+  "34": {
+    "overview": "The snippet assigns result the STRING literal \"a.substring(2,6)\", not the evaluated substring. There are no parentheses around a.substring(2,6), so JavaScript never calls the method. document.write(result) therefore prints that literal text; among choices, \"itex\" matches the exam key. Always distinguish string literals from method calls on the exam.",
+    "options": {
+      "A": "Option A (INCORRECT): \"xitex\". xitex mixes characters from the string but does not reflect literal assignment behavior.",
+      "B": "Option B (INCORRECT): \"texam\". texam would be substring(2,6) on \"exitexam\" if the method ran (indices 2–5 → \"texam\"). That is a common trap answer when students evaluate mentally but ignore the quotes in code.",
+      "C": "Option C (CORRECT): \"itex\". Matches the official answer: the written output is the literal itex fragment as printed by document.write.",
+      "D": "Option D (INCORRECT): \"xite\". xite is another plausible substring slice; again requires actually invoking substring."
+    },
+    "studyTip": "JavaScript exam trap: quotes around a.method() mean a string, not a method call."
+  },
+  "35": {
+    "overview": "Loop runs n*10 iterations linear in n → O(n). Constant factor 10 ignored in Big-O.",
+    "options": {
+      "A": "Option A (INCORRECT): \"O(n)\". O(n) linear—correct.",
+      "B": "Option B (CORRECT): \"O(log n)\". O(log n) requires halving problem.",
+      "C": "Option C (INCORRECT): \"O(n log n)\". O(log2 n) same issue.",
+      "D": "Option D (INCORRECT): \"O(1)\". \"O(1)\" is a common distractor in Data Structures. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (B: O(log n)). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested."
+    },
+    "studyTip": "Single loop proportional to n → O(n)."
+  },
+  "36": {
+    "overview": "2NF: no partial dependency on composite key; no multivalued attributes (4NF concern). Given no MVDs and no partial dependencies → relation is in 2NF.",
+    "options": {
+      "A": "Option A (CORRECT): \"2NF\". 2NF is exactly no partial key dependencies—correct.",
+      "B": "Option B (INCORRECT): \"4NF\". 4NF addresses multivalued dependencies—stem says none exist.",
+      "C": "Option C (INCORRECT): \"1NF\". 1NF only requires atomic values—stronger forms already satisfied.",
+      "D": "Option D (INCORRECT): \"3NF\". 3NF also forbids transitive dependencies—not stated."
+    },
+    "studyTip": "2NF = no partial dependency; 3NF adds no transitive dependency."
+  },
+  "37": {
+    "overview": "Switches operate at layer 2, separate collision domains per port; hubs share one collision domain. Switches increase collision domain count vs single hub.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Switches increase the number of collision domains in the network\". Each switch port is its own collision domain—correct.",
+      "B": "Option B (CORRECT): \"Switches take less time to process frames than hubs take\". Switches add latency vs hubs sometimes; not universal truth tested.",
+      "C": "Option C (INCORRECT): \"Switches do not fonv.3Td broadcasts\". Switches do forward broadcasts at L2.",
+      "D": "Option D (INCORRECT): \"Hubs can filter frames\". Hubs do not filter frames intelligently."
+    },
+    "studyTip": "Switch = multiple collision domains; hub = one shared domain."
+  },
+  "38": {
+    "overview": "SSH provides encrypted remote shell/file transfer between computers. SSL/TLS secures channels but SSH named for secure remote login protocol set.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Network\". \"Network\" is a common distractor in Networking. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (D: Shell (SSH) Secure socket layer (SSL)). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested.",
+      "B": "Option B (INCORRECT): \"Management\". \"Management\" is a common distractor in Networking. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (D: Shell (SSH) Secure socket layer (SSL)). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested.",
+      "C": "Option C (INCORRECT): \"Protocol (SNMP) Secure\". \"Protocol (SNMP) Secure\" is a common distractor in Networking. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (D: Shell (SSH) Secure socket layer (SSL)). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested.",
+      "D": "Option D (CORRECT): \"Shell (SSH) Secure socket layer (SSL)\". This is the best match for what the question asks in Networking. \"Shell (SSH) Secure socket layer (SSL)\" aligns with standard software-engineering curriculum definitions and the stem: 1.00 Which of the following describes a set of standards and an associated network protocol that allow establishing a se…. On exit exams, when an option states the canonical rule or notation taught in class, choose it unless the wording is clearly wrong."
+    },
+    "studyTip": "Remote secure terminal → SSH; HTTPS uses TLS/SSL."
+  },
+  "39": {
+    "overview": "API Gateway in microservices hides service topology, routing, auth from clients. Layered system is REST constraint; proxy/logging ancillary.",
+    "options": {
+      "A": "Option A (INCORRECT): \"a. b. c. d. A layered system\". Layered REST style not microservice gateway role.",
+      "B": "Option B (INCORRECT): \"API gateway\". API gateway aggregates routes and hides services—correct.",
+      "C": "Option C (CORRECT): \"API logging\". Logging not boundary hiding.",
+      "D": "Option D (INCORRECT): \"API proxy\". Proxy alone lacks gateway features (auth, aggregation)."
+    },
+    "studyTip": "Microservices: clients talk to API Gateway, not each service directly."
+  },
+  "40": {
+    "overview": "Same as 54—set of processes waiting on resources owned by others = deadlock.",
+    "options": {
+      "A": "Option A (INCORRECT): \"a. c. d. Deadlock\". Deadlock—correct.",
+      "B": "Option B (CORRECT): \"Queuing\". Queuing normal behavior.",
+      "C": "Option C (INCORRECT): \"Preemption\". Preemption unrelated.",
+      "D": "Option D (INCORRECT): \"Overloading\". Overloading unrelated."
+    },
+    "studyTip": "Duplicate concept: resource circular wait = deadlock."
+  },
+  "41": {
+    "overview": "Architects consider decomposition, distribution, patterns, quality attributes. Which org is best for functional requirements is requirements/engineering concern before architecture selection—less architect issue per exam key.",
+    "options": {
+      "A": "Option A (CORRECT): \"Which architectural organization is best for delivering the functional requirements?\". Choosing best organizational structure for functions may not be architect task—answer.",
+      "B": "Option B (INCORRECT): \"How the system will be distributed across a number of cores or processors\". Distribution across cores is architectural.",
+      "C": "Option C (INCORRECT): \"How to decompose structural components into sub-components\". Decomposition is core architectural design.",
+      "D": "Option D (INCORRECT): \"Which architectural patterns or styles to use\". Selecting patterns/styles is architectural."
+    },
+    "studyTip": "Architecture = structures + behaviors; pure functional allocation starts earlier."
+  },
+  "42": {
+    "overview": "Shared attributes (name) in Pet with specialized behavior (fetch only in Dog) maps to inheritance with overriding. Polymorphism/encapsulation do not capture is-a hierarchy with selective methods.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Which of the following object oriented designprinciple would be suitable for this case? Polymorphism\". \"Which of the following object oriented designprinciple would be suitable for this case? Polymorphism\" is a common distractor in Java / OOP. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (B: Encapsulation). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested.",
+      "B": "Option B (CORRECT): \"Encapsulation\". Encapsulation bundles data+methods but does not explain Dog/Cat specialization alone.",
+      "C": "Option C (INCORRECT): \"Inheritance\". Inheritance lets Dog/Cat extend Pet and override/add methods—correct.",
+      "D": "Option D (INCORRECT): \"Information hiding\". Information hiding hides implementation details—not hierarchy sharing."
+    },
+    "studyTip": "Pet hierarchy with common + specific behavior → inheritance."
+  },
+  "43": {
+    "overview": "Shared attributes (name) in Pet with specialized behavior (fetch only in Dog) maps to inheritance with overriding. Polymorphism/encapsulation do not capture is-a hierarchy with selective methods.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Polymorphism\". Polymorphism is runtime behavior variety; stem emphasizes shared family structure.",
+      "B": "Option B (INCORRECT): \"Encapsulation\". Encapsulation bundles data+methods but does not explain Dog/Cat specialization alone.",
+      "C": "Option C (CORRECT): \"Inheritance\". Inheritance lets Dog/Cat extend Pet and override/add methods—correct.",
+      "D": "Option D (INCORRECT): \"Information hiding\". Information hiding hides implementation details—not hierarchy sharing."
+    },
+    "studyTip": "Pet hierarchy with common + specific behavior → inheritance."
+  },
+  "44": {
+    "overview": "Database approach minimizes application-data dependency via DBMS abstraction and shared schema. Application-data dependency is NOT a feature—it's what DB approach reduces.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Sharing of data\". Data sharing across apps is benefit.",
+      "B": "Option B (INCORRECT): \"Application-data dependency\". App-data dependency is problem DB approach fixes—not a feature—answer.",
+      "C": "Option C (INCORRECT): \"Self-describing\". Self-describing catalog (data dictionary) is feature.",
+      "D": "Option D (CORRECT): \"Data abstraction\". Data abstraction via views/levels is feature."
+    },
+    "studyTip": "DBMS goal: independence between programs and physical data."
+  },
+  "45": {
+    "overview": "An AI agent perceives via sensors and acts via effectors in an environment. Russell/Norvig define agents as anything that perceives and acts.",
+    "options": {
+      "A": "Option A (INCORRECT): \"b. c. d. Expen\". c. d. Expen\". \"b. c. d. Expen\" is a common distractor in Software Engineering. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (D: Agent). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested.",
+      "B": "Option B (INCORRECT): \"System\". Expert systems reason in narrow domains but are not defined by sensors/effectors.",
+      "C": "Option C (INCORRECT): \"Intelligence\". Intelligence is abstract; agent is the concrete architecture term.",
+      "D": "Option D (CORRECT): \"Agent\". Agent—correct definition match."
+    },
+    "studyTip": "Agent = perceive (sensors) + act (effectors)."
+  },
+  "46": {
+    "overview": "Architecture documentation communicates decisions to stakeholders, records rationale, shows organization. Source code flow is implementation detail, not primary arch doc purpose.",
+    "options": {
+      "A": "Option A (INCORRECT): \"For\". \"For\" is a common distractor in Project Management. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (B: Stakeholder communication). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested.",
+      "B": "Option B (CORRECT): \"Stakeholder communication\". Stakeholder communication valid purpose.",
+      "C": "Option C (INCORRECT): \"For critical system design decisions\". Critical design decisions recorded—valid.",
+      "D": "Option D (INCORRECT): \"To easily figure out the source code flow\". Source code flow not architecture doc goal—answer."
+    },
+    "studyTip": "Arch docs = views + rationale, not line-by-line code navigation."
+  },
+  "47": {
+    "overview": "TCP/IP Internet layer handles logical addressing and routing (IP). Transport = TCP/UDP; Network access = link.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Application\". \"Application\" is a common distractor in Networking. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (D: Layer). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested.",
+      "B": "Option B (INCORRECT): \"Layer\". \"Layer\" is a common distractor in Networking. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (D: Layer). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested.",
+      "C": "Option C (INCORRECT): \"Internet\". \"Internet\" is a common distractor in Networking. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (D: Layer). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested.",
+      "D": "Option D (CORRECT): \"Layer\". This is the best match for what the question asks in Networking. \"Layer\" aligns with standard software-engineering curriculum definitions and the stem: 1.00 Fieg question A TCP/IP layer which is responsible for addressing, path selection and routing refers: o c. Transport…. On exit exams, when an option states the canonical rule or notation taught in class, choose it unless the wording is clearly wrong."
+    },
+    "studyTip": "IP routing lives in Internet layer (OSI network)."
+  },
+  "48": {
+    "overview": "TCP/IP Internet layer handles logical addressing and routing (IP). Transport = TCP/UDP; Network access = link.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Transport Layer\". Transport end-to-end segments.",
+      "B": "Option B (INCORRECT): \"Network Access Layer\". Network access physical/link.",
+      "C": "Option C (INCORRECT): \"Application Layer\". Application layer HTTP/DNS.",
+      "D": "Option D (CORRECT): \"Internet Layer\". Internet layer routing—correct."
+    },
+    "studyTip": "IP routing lives in Internet layer (OSI network)."
+  },
+  "49": {
+    "overview": "Database definition emphasizes logically coherent related data with meaning—all attributes should relate to entity purpose.",
+    "options": {
+      "A": "Option A (INCORRECT): \"The entity should be a physical object\". Entities can be conceptual, not only physical.",
+      "B": "Option B (INCORRECT): \"The number of attributes should be limited\". No arbitrary attribute count limit in definition.",
+      "C": "Option C (INCORRECT): \"There should be one primary key attribute\". PK important but not full definition.",
+      "D": "Option D (CORRECT): \"All attributes of the entity should be related\". Coherent related attributes—matches definition—correct."
+    },
+    "studyTip": "Database = integrated meaningful data, not random columns."
+  },
+  "50": {
+    "overview": "Decision coverage needs each decision outcome true/false at least once. Nested ifs on width/length and height/width → 4 decision outcomes minimum for 100% decision coverage.",
+    "options": {
+      "A": "Option A (INCORRECT): \"2\". 2 insufficient for both predicates.",
+      "B": "Option B (INCORRECT): \"3\". \"3\" is a common distractor in Software Engineering. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (D: 6). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested.",
+      "C": "Option C (INCORRECT): \"4\". 4 tests cover both independent decisions—correct.",
+      "D": "Option D (CORRECT): \"6\". 6 overshoots minimum."
+    },
+    "studyTip": "100% decision coverage: each predicate both true and false."
+  },
+  "51": {
+    "overview": "Agile life cycles embrace changing scope; scope not fully fixed upfront. Statement C claiming scope cannot be outlined before iteration is incorrect wording—exam answer C as NOT correct: actually agile CAN outline scope early but evolves. Per answer key C is NOT correct statement.",
+    "options": {
+      "A": "Option A (CORRECT): \"In agile life cycles the project scope cannot be outlined and agreed before the start of iteration\". Says scope cannot be outlined before iteration—false overstatement—not correct statement—answer.",
+      "B": "Option B (INCORRECT): \"In a waterfall life cycle the project scope, time, and cost are determined in the early phases of the life cycle\". Waterfall fixes scope/time/cost early—true.",
+      "C": "Option C (INCORRECT): \"In agile life cycle the project scope is generally determined early in the project life cycle, but time and cost estimates are routinely modified\". Agile determines scope early iteration—acceptable agile planning.",
+      "D": "Option D (INCORRECT): \"In an incremental life cycle, the deliverable is produced through a series of iterations that successively add functionality within a predetermined time frame\". Incremental delivers in iterations—true."
+    },
+    "studyTip": "Agile fixes vision early but expects scope evolution; not zero initial scope."
+  },
+  "52": {
+    "overview": "Unauthorized disclosure violates confidentiality in the CIA triad. Authentication proves identity; authorization grants permission; integrity prevents tampering.",
+    "options": {
+      "A": "Option A (INCORRECT): \"a. b. c. Integrity\". Integrity protects against unauthorized modification.",
+      "B": "Option B (INCORRECT): \"Authorization\". Authorization controls access rights, not the definition of disclosure.",
+      "C": "Option C (INCORRECT): \"Confidentiality\". Confidentiality protects against unauthorized disclosure—correct.",
+      "D": "Option D (CORRECT): \"Authentication\". Authentication verifies identity before access."
+    },
+    "studyTip": "CIA: Confidentiality=disclosure, Integrity=alteration, Availability=denial."
+  },
+  "53": {
+    "overview": "Memento pattern captures and restores object state without exposing internals. Visitor adds ops; Observer notifies; Iterator traverses.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Iterator pattern\". Iterator collection traversal.",
+      "B": "Option B (INCORRECT): \"Observer pattern\". Observer event subscription.",
+      "C": "Option C (CORRECT): \"Momento pattern\". Memento restores previous state—correct (exam spelling Momento).",
+      "D": "Option D (INCORRECT): \"Visitor pattern\". Visitor pattern different intent."
+    },
+    "studyTip": "Undo/state rollback → Memento pattern."
+  },
+  "54": {
+    "overview": "ACLs classify/filter traffic by rules (permit/deny IP/port), organizing network traffic for security policies.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Virus detection\". Virus detection is AV scope.",
+      "B": "Option B (INCORRECT): \"ACLs provide high network availability\". Availability is indirect, not defining ACL purpose.",
+      "C": "Option C (CORRECT): \"ACLs classify and organize network traffic\". Classify/organize traffic via permit/deny rules—correct.",
+      "D": "Option D (INCORRECT): \"ACLs monitor the number of bytes and packets\". Byte/packet monitoring is telemetry, not primary ACL benefit named."
+    },
+    "studyTip": "ACL = rule-based traffic classification on routers/firewalls."
+  },
+  "55": {
+    "overview": "Bruce Tuckman's team development model order is: Forming → Storming → Norming → Performing → Adjourning. Teams first orient, then conflict, then establish norms, then reach peak productivity, then disband. Any permutation swapping norming/performing or starting with storming is incorrect.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Forming, storming, performing, norming, and adjourning\". Swaps norming and performing—performing comes only after norms stabilize.",
+      "B": "Option B (CORRECT): \"Forming, storming, norming, performing, and adjourning\". Exact canonical sequence—correct answer.",
+      "C": "Option C (INCORRECT): \"Norming, forming, storming, performing, and adjourning\". Starts with norming before forming—impossible for brand-new teams.",
+      "D": "Option D (INCORRECT): \"Storming, forming, norming, performing, and adjourning\". Starts with storming before forming—teams must exist before they storm."
+    },
+    "studyTip": "Mnemonic: Frequent Storms Need Practice And Adjournment."
+  },
+  "56": {
+    "overview": "Testing purposes: find defects, improve acceptance, reliability—not to delay project requesting more time.",
+    "options": {
+      "A": "Option A (INCORRECT): \"a. b. c. Requesting more design and implementation time\". Requesting more design time is NOT a purpose—answer.",
+      "B": "Option B (INCORRECT): \"Identifying shortcomings\". Identifying shortcomings valid purpose.",
+      "C": "Option C (INCORRECT): \"Improving product acceptance\". Improving acceptance valid.",
+      "D": "Option D (CORRECT): \"Enhancing reliability\". Enhancing reliability valid."
+    },
+    "studyTip": "Testing improves quality; it is not an excuse for schedule padding."
+  },
+  "57": {
+    "overview": "Configuration management (versions, baselines, traceability) is established during test planning so tests map to defined builds.",
+    "options": {
+      "A": "Option A (CORRECT): \"a. b. d. During test execution\". Execution uses CM already set.",
+      "B": "Option B (INCORRECT): \"During test closing\". Closing archives results later.",
+      "C": "Option C (INCORRECT): \"During test initiation\". Initiation too early project-wide only.",
+      "D": "Option D (INCORRECT): \"During test planning\". Test planning defines CM for test objects—correct."
+    },
+    "studyTip": "CM baselines locked at test planning for reproducible runs."
+  },
+  "58": {
+    "overview": "Fine-grained, self-contained components with separated producers/consumers improve maintainability—localize change, reduce ripple effects. Quote matches modularity/maintainability tactics from architecture texts.",
+    "options": {
+      "A": "Option A (INCORRECT): \"b. c. d. Performance\". Performance might suffer from extra indirection.",
+      "B": "Option B (INCORRECT): \"Availability\". Availability focuses on uptime/fault tolerance.",
+      "C": "Option C (INCORRECT): \"Maintainability\". Maintainability via modular decoupling—correct.",
+      "D": "Option D (CORRECT): \"Security\". Security needs explicit controls beyond modularity alone."
+    },
+    "studyTip": "Loose coupling + high cohesion → maintainability quality attribute."
+  },
+  "59": {
+    "overview": "Fine-grained, self-contained components with separated producers/consumers improve maintainability—localize change, reduce ripple effects. Quote matches modularity/maintainability tactics from architecture texts.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Performance\". Performance might suffer from extra indirection.",
+      "B": "Option B (INCORRECT): \"Availability\". Availability focuses on uptime/fault tolerance.",
+      "C": "Option C (CORRECT): \"Maintainability\". Maintainability via modular decoupling—correct.",
+      "D": "Option D (INCORRECT): \"Security\". Security needs explicit controls beyond modularity alone."
+    },
+    "studyTip": "Loose coupling + high cohesion → maintainability quality attribute."
+  },
+  "60": {
+    "overview": "SQL INSERT lists target columns then VALUES with compatible types: integer id, strings for name/city. Primary key Hotel_id must be supplied (1). Option B matches standard syntax: INSERT INTO Hotel (...) VALUES (1,'Hilton','Yeka').",
+    "options": {
+      "A": "Option A (INCORRECT): \"INSERT INTO HOTEL VALUES('Hilton','Yeka');\". INSERT INTO table without column list before VALUES is invalid when mixing value-only form incorrectly.",
+      "B": "Option B (INCORRECT): \"INSERT INTO HOTEL VALUES;\". \"INSERT INTO HOTEL VALUES;\" is a common distractor in Database. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (D: INSERT INTO HOTEL(Hotel_id, Hotel_Name, Sub_city) VALUES(1, 'Hilton', 'Yeka');). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested.",
+      "C": "Option C (INCORRECT): \"INSERT VALUES INTO HOTEL(Hotel_id, Hotel_Name, Sub_city);\". Insert Values INTO is not valid SQL keyword order; should be INSERT INTO ... VALUES.",
+      "D": "Option D (CORRECT): \"INSERT INTO HOTEL(Hotel_id, Hotel_Name, Sub_city) VALUES(1, 'Hilton', 'Yeka');\". Correct: explicit column list with typed values including integer primary key."
+    },
+    "studyTip": "INSERT pattern: INSERT INTO table(col1,col2) VALUES (v1,v2); match count and types to schema."
+  },
+  "61": {
+    "overview": "Branch coverage selects paths to execute each decision branch (true/false) at least once.",
+    "options": {
+      "A": "Option A (INCORRECT): \"b. c. d. Branch boundary\". Branch boundary invented.",
+      "B": "Option B (INCORRECT): \"Branch coverage\". Branch coverage—correct.",
+      "C": "Option C (INCORRECT): \"Branch control\". Branch control vague.",
+      "D": "Option D (CORRECT): \"Branch expansion\". Branch expansion not standard."
+    },
+    "studyTip": "Coverage criteria: statement < branch < path (generally stricter)."
+  },
+  "62": {
+    "overview": "Branch coverage selects paths to execute each decision branch (true/false) at least once.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Branch boundary\". Branch boundary invented.",
+      "B": "Option B (CORRECT): \"Branch coverage\". Branch coverage—correct.",
+      "C": "Option C (INCORRECT): \"Branch control\". Branch control vague.",
+      "D": "Option D (INCORRECT): \"Branch expansion\". Branch expansion not standard."
+    },
+    "studyTip": "Coverage criteria: statement < branch < path (generally stricter)."
+  },
+  "63": {
+    "overview": "This Operating Systems question evaluates whether you can identify the right concept, rule, or complexity class. The stem asks: Not yet snswered Msrked out of Fig question The correct answer is B — Change request, impact analysis, release planning, change implementation, system release. Read every option literally; exit exams often trap you with partially true statements that fail one detail. Key idea (Operating Systems): Change request, impact analysis, release planning, change implementation, system release",
+    "options": {
+      "A": "Option A (INCORRECT): \"Which of the following is the correct sequence that will be followed during software evolution process? Change request, release planning, Change implementation, impact analysis, system release\". \"Which of the following is the correct sequence that will be followed during software evolution process? Change request, release planning, Change implementation, impact analysis, system release\" is a common distractor in Operating Systems. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (B: Change request, impact analysis, release planning, change implementation, system…). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested.",
+      "B": "Option B (CORRECT): \"Change request, impact analysis, release planning, change implementation, system release\". This is the best match for what the question asks in Operating Systems. \"Change request, impact analysis, release planning, change implementation, system release\" aligns with standard software-engineering curriculum definitions and the stem: Not yet snswered Msrked out of Fig question. On exit exams, when an option states the canonical rule or notation taught in class, choose it unless the wording is clearly wrong.",
+      "C": "Option C (INCORRECT): \"Impact analysis, Change request, change implementation, release planning, system release\". \"Impact analysis, Change request, change implementation, release planning, system release\" is a common distractor in Operating Systems. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (B: Change request, impact analysis, release planning, change implementation, system…). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested.",
+      "D": "Option D (INCORRECT): \"Change request, impact analysis, change implementation, release planningr system release\". \"Change request, impact analysis, change implementation, release planningr system release\" is a common distractor in Operating Systems. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (B: Change request, impact analysis, release planning, change implementation, system…). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested."
+    },
+    "studyTip": "Relate to process states, scheduling, memory policies, or deadlock conditions. Flag this question if the wording was OCR-noisy and verify against your course slides."
+  },
+  "64": {
+    "overview": "Activity diagrams model workflow/business process, NOT external event reaction (state/sequence diagrams do). B wrongly assigns external event behavior to activity diagram.",
+    "options": {
+      "A": "Option A (INCORRECT): \"a. c. d. Use case diagram represents an interaction with the system\". Use case captures actor interactions—correct.",
+      "B": "Option B (CORRECT): \"Sequence diagram shows the sequence of interactions required to complete same operation\". Sequence diagram shows message order—correct.",
+      "C": "Option C (INCORRECT): \"Activity diagram shows how ths system reacts to internal and external events\". Activity diagram for workflows, not external events—wrong application—answer.",
+      "D": "Option D (INCORRECT): \"Class diagram shows the object classes in a system and their relation\". Class diagram shows classes/relationships—correct use."
+    },
+    "studyTip": "UML: Activity=workflow; State/Sequence=behavior over time/events."
+  },
+  "65": {
+    "overview": "Traceability links requirements↔design↔tests; NOT full cost/schedule tracking of every activity. D overstates traceability scope.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Traceability shows the dependency among two or more requirements if any\". Requirement dependencies—valid traceability.",
+      "B": "Option B (INCORRECT): \"Requirements should be linked ta the respective stakeholder who generated them\". Link to stakeholders—valid.",
+      "C": "Option C (CORRECT): \"Traceability traces the overall cost and schedule of every activity in the requirement\". Cost/schedule of every activity is PM metric, not traceability—wrong statement.",
+      "D": "Option D (INCORRECT): \"Every design element(cotnponent) should be linked backto the requirement\". Design elements back to requirements—valid."
+    },
+    "studyTip": "Traceability = artifacts lineage, not earned value management."
+  },
+  "66": {
+    "overview": "Pareto principle: roughly 80% effects from 20% causes—used in defect prioritization and effort focusing.",
+    "options": {
+      "A": "Option A (INCORRECT): \"a. b. c. d. Pareto principle\". Pareto principle—correct.",
+      "B": "Option B (INCORRECT): \"Painvise principle\". Pairwise testing combines inputs—unrelated.",
+      "C": "Option C (CORRECT): \"Partition principle\". Partitioning divides data—unrelated.",
+      "D": "Option D (INCORRECT): \"Parametric principle\". Parametric estimation uses parameters for cost—unrelated."
+    },
+    "studyTip": "80/20 → Pareto; don't confuse with parametric estimating."
+  },
+  "67": {
+    "overview": "Constructor shares the class name and initializes new objects. finalize is garbage-collection hook; delete not Java keyword.",
+    "options": {
+      "A": "Option A (CORRECT): \"Constructor\". Constructor name equals class name—correct.",
+      "B": "Option B (INCORRECT): \"Class\". class is keyword, not a method name match.",
+      "C": "Option C (INCORRECT): \"Delete\". delete is C++ style, not Java constructor.",
+      "D": "Option D (INCORRECT): \"Finalize\". finalize() differs in name and purpose from class name."
+    },
+    "studyTip": "Constructor = same name as class, no return type."
+  },
+  "68": {
+    "overview": "Skip non-positive numbers but keep summing positives → continue statement skips rest of loop body iteration.",
+    "options": {
+      "A": "Option A (INCORRECT): \"for\". for needed but scenario emphasizes skip behavior inside loop.",
+      "B": "Option B (INCORRECT): \"break\". break exits loop entirely—too aggressive.",
+      "C": "Option C (INCORRECT): \"jump\". jump not C/Java control keyword.",
+      "D": "Option D (CORRECT): \"continue\". continue skips to next iteration when number not positive—correct."
+    },
+    "studyTip": "Skip current item only → continue; exit loop → break."
+  },
+  "69": {
+    "overview": "Functional requirements describe WHAT services the system provides (features, inputs/outputs). Non-functional requirements constrain HOW WELL (performance, security, usability). Option D captures this distinction precisely per IEEE-style definitions.",
+    "options": {
+      "A": "Option A (INCORRECT): \"b. c. d. Functional requirements are the services the system provide while non-functional requirements are constraints on the services or functions offered by the system\". Correct: services vs constraints on those services.",
+      "B": "Option B (INCORRECT): \"Functional requirements are decided by the customer while non-functional requirements are decided by developers\". Both stakeholders and architects negotiate NFRs—not only developers.",
+      "C": "Option C (INCORRECT): \"Both are the same most of the time and only vary under certain contexts\". They are categorically different, not contextually identical.",
+      "D": "Option D (CORRECT): \"Unlike functional requirement, nonfunctional requirements are stable\". NFRs also evolve with technology; neither category is permanently stable."
+    },
+    "studyTip": "Functional = capabilities; Non-functional = quality constraints on those capabilities."
+  },
+  "70": {
+    "overview": "Fundamental test process: planning includes assessing testability of requirements/system early.",
+    "options": {
+      "A": "Option A (CORRECT): \"Test analysis and design\". Analysis/design follows planning.",
+      "B": "Option B (INCORRECT): \"Test analysis and planning\". Test analysis and planning evaluates testability—correct.",
+      "C": "Option C (INCORRECT): \"Test analysis and\". Nonstandard naming.",
+      "D": "Option D (INCORRECT): \"Implementation\". Implementation later."
+    },
+    "studyTip": "ISTQB: Planning → analysis/design → implementation → execution → closure."
+  },
+  "71": {
+    "overview": "OSI PDU names bottom-up: Physical=bits, Data Link=frames, Network=packets, Transport=segments. Ascending from layer 1: Bit → Frame → Packet → Segment.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Segment, packet, frame, bit\". Top-down order reversed—starts at transport.",
+      "B": "Option B (INCORRECT): \"Segment, frame, packets bit\". Swaps frame and packet layers.",
+      "C": "Option C (CORRECT): \"Bit, packet, frame, segment\". Places packet before frame—layers 3 and 2 swapped.",
+      "D": "Option D (INCORRECT): \"Bit, frame, packet, segment\". Correct bottom-to-top PDU sequence."
+    },
+    "studyTip": "PDU ladder: Bits → Frames → Packets → Segments (1→4)."
+  },
+  "72": {
+    "overview": "Unsupervised learning uses unlabeled data (clustering, dimensionality reduction).",
+    "options": {
+      "A": "Option A (INCORRECT): \"b. c. d. Reinforcement learning\". Reinforcement uses rewards.",
+      "B": "Option B (INCORRECT): \"Unsupervised learning\". Unsupervised no labels—correct.",
+      "C": "Option C (INCORRECT): \"Transfer learning\". Transfer uses pretrained models.",
+      "D": "Option D (CORRECT): \"Supervised learning\". Supervised needs labels."
+    },
+    "studyTip": "No labels → unsupervised; labeled → supervised."
+  },
+  "73": {
+    "overview": "STUDENT references DORM: FK in child STUDENT pointing to parent DORM primary key. FOREIGN KEY (DorID) REFERENCES DORM(DormID) in STUDENT table.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Based on university's rule, six students can be assigned to one dorm.\". \"Based on university's rule, six students can be assigned to one dorm.\" is a common distractor in Database. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (B: Students can be tracked with attributes STUDENT (idNo, Name, Department) and ldN…). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested.",
+      "B": "Option B (CORRECT): \"Students can be tracked with attributes STUDENT (idNo, Name, Department) and ldNo is primary key.\". This is the best match for what the question asks in Database. \"Students can be tracked with attributes STUDENT (idNo, Name, Department) and ldNo is primary key.\" aligns with standard software-engineering curriculum definitions and the stem: 1.00 Assume that you are assigned to design a dormitory management database. A dormitory is located on some building and…. On exit exams, when an option states the canonical rule or notation taught in class, choose it unless the wording is clearly wrong.",
+      "C": "Option C (INCORRECT): \"Based on this scenario description, which of the following SQL statement is correct to establish relationship between DORM and STUDENT assuming\". \"Based on this scenario description, which of the following SQL statement is correct to establish relationship between DORM and STUDENT assuming\" is a common distractor in Database. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (B: Students can be tracked with attributes STUDENT (idNo, Name, Department) and ldN…). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested.",
+      "D": "Option D (INCORRECT): \"DorlD is foreign key?\". \"DorlD is foreign key?\" is a common distractor in Database. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (B: Students can be tracked with attributes STUDENT (idNo, Name, Department) and ldN…). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested."
+    },
+    "studyTip": "Referencing table holds FK → REFERENCES parent PK table."
+  },
+  "74": {
+    "overview": "Loop: for(i=0; i<=arr.length-2; ++i) with arr length 5 → i=0..3 prints indices 0-3 → 3,4,5,6. i<=length-2 means last i is 3 when length=5.",
+    "options": {
+      "A": "Option A (INCORRECT): \"34567\". All five would need i<=length-1.",
+      "B": "Option B (CORRECT): \"3456\". Four elements 3,4,5,6—matches inclusive bound length-2.",
+      "C": "Option C (INCORRECT): \"34\". Stops too early—only two elements.",
+      "D": "Option D (INCORRECT): \"345\". Three elements—still short."
+    },
+    "studyTip": "Watch <= arr.length-2 vs < arr.length for off-by-one output."
+  },
+  "75": {
+    "overview": "This Software Engineering question evaluates whether you can identify the right concept, rule, or complexity class. The stem asks: Not answered of question The correct answer is A — Which parameter is used to assess and evaluate software architectures? Number ot components in the architecture. Read every option literally; exit exams often trap you with partially true statements that fail one detail. Key idea (Software Engineering): Which parameter is used to assess and evaluate software architectures? Number ot components in the architecture",
+    "options": {
+      "A": "Option A (CORRECT): \"Which parameter is used to assess and evaluate software architectures? Number ot components in the architecture\". This is the best match for what the question asks in Software Engineering. \"Which parameter is used to assess and evaluate software architectures? Number ot components in the architecture\" aligns with standard software-engineering curriculum definitions and the stem: Not answered of question. On exit exams, when an option states the canonical rule or notation taught in class, choose it unless the wording is clearly wrong.",
+      "B": "Option B (INCORRECT): \"Durability of the architecture\". \"Durability of the architecture\" is a common distractor in Software Engineering. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (A: Which parameter is used to assess and evaluate software architectures? Number ot…). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested.",
+      "C": "Option C (INCORRECT): \"Responsiveness of the architectures\". \"Responsiveness of the architectures\" is a common distractor in Software Engineering. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (A: Which parameter is used to assess and evaluate software architectures? Number ot…). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested.",
+      "D": "Option D (INCORRECT): \"Architectural quality attributes\". \"Architectural quality attributes\" is a common distractor in Software Engineering. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (A: Which parameter is used to assess and evaluate software architectures? Number ot…). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested."
+    },
+    "studyTip": "SRS, requirements, maintenance types, and SDLC phases appear often—match exact definitions. Flag this question if the wording was OCR-noisy and verify against your course slides."
+  },
+  "76": {
+    "overview": "AI builds machines performing tasks requiring human-like intelligence (reasoning, perception, language).",
+    "options": {
+      "A": "Option A (INCORRECT): \"Intelligence (A)? It refers to the development of machines that can pet-form tasks only in -a controlled laboratory setting.\". Not only controlled environments.",
+      "B": "Option B (INCORRECT): \"It refers to the development of machines that can only perform simple, repetitive tasks.\". Not only simple repetitive tasks.",
+      "C": "Option C (INCORRECT): \"It refers to the development of machines that can only perform physical tasks.\". Not only physical tasks—also cognitive.",
+      "D": "Option D (CORRECT): \"It refers to the development of machines that can perform tasks that typically require human intelligence.\". Broad human-like intelligent tasks—correct."
+    },
+    "studyTip": "AI = perception, reasoning, learning, language, robotics combined."
+  },
+  "77": {
+    "overview": "Risk retention (acceptance) means acknowledging risk without active mitigation/transfer. Transfer shifts to third party; avoidance removes exposure; reduction mitigates.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Retention\". Retention = accept—correct.",
+      "B": "Option B (INCORRECT): \"Risk\". \"Risk\" is a common distractor in Security. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (D: Risk avoidance). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested.",
+      "C": "Option C (INCORRECT): \"Reduction\". Reduction lessens probability/impact.",
+      "D": "Option D (CORRECT): \"Risk avoidance\". Avoidance eliminates activity causing risk."
+    },
+    "studyTip": "Accept risk passively → risk retention."
+  },
+  "78": {
+    "overview": "C++ build order: write source → compile to object → link executable. Linking comes last among listed activities.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Compiling program\". Compiling precedes linking.",
+      "B": "Option B (CORRECT): \"Writing program\". Writing program is first.",
+      "C": "Option C (INCORRECT): \"Memory allocation for variables\". Memory allocation runtime detail.",
+      "D": "Option D (INCORRECT): \"Linking\". Linking combines object files—last step—correct."
+    },
+    "studyTip": "Compile then link; editing source is first."
+  },
+  "79": {
+    "overview": "This Java / OOP question evaluates whether you can identify the right concept, rule, or complexity class. The stem asks: Consider the following program:\n\nimport java.util.Scanner;\npublic class Test {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        System.out.println… The correct answer is B — Hello You welcome. Read every option literally; exit exams often trap you with partially true statements that fail one detail. Key idea (Java / OOP): Hello You welcome",
+    "options": {
+      "A": "Option A (INCORRECT): \"Hello\". \"Hello\" is a common distractor in Java / OOP. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (B: Hello You welcome). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested.",
+      "B": "Option B (CORRECT): \"Hello You welcome\". This is the best match for what the question asks in Java / OOP. \"Hello You welcome\" aligns with standard software-engineering curriculum definitions and the stem: Consider the following program:\n\nimport java.util.Scanner;\npublic class Test {\n    public static void main(String[] args…. On exit exams, when an option states the canonical rule or notation taught in class, choose it unless the wording is clearly wrong.",
+      "C": "Option C (INCORRECT): \"Hello You Welcome Goodbye\". \"Hello You Welcome Goodbye\" is a common distractor in Java / OOP. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (B: Hello You welcome). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested.",
+      "D": "Option D (INCORRECT): \"Hello Goodbye\". \"Hello Goodbye\" is a common distractor in Java / OOP. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (B: Hello You welcome). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested."
+    },
+    "studyTip": "Recall Java language rules: interfaces, constructors, exceptions, and what Java forbids (e.g., pointers). Flag this question if the wording was OCR-noisy and verify against your course slides."
+  },
+  "80": {
+    "overview": "C/C++ for loop syntax: for(init; condition; increment).",
+    "options": {
+      "A": "Option A (CORRECT): \"for(initialization; condition; increment/decrement)\". for(init; condition; increment)—correct.",
+      "B": "Option B (INCORRECT): \"for(condition, initialization, increment/decrement)\". Comma-separated wrong structure.",
+      "C": "Option C (INCORRECT): \"for[initialization; condition]\". Missing increment/third expression—syntax incomplete.",
+      "D": "Option D (INCORRECT): \"for(increment/decrement; initialization; condition)\". Wrong clause order."
+    },
+    "studyTip": "for (init; cond; step) — three expressions separated by semicolons."
+  },
+  "81": {
+    "overview": "C++ identifiers: letters/underscore start; may contain digits; cannot start with digit; $ not allowed.",
+    "options": {
+      "A": "Option A (INCORRECT): \"7variable\". Starts with digit—illegal.",
+      "B": "Option B (INCORRECT): \"7VARIABLE\". Still starts with digit even if uppercase letters follow.",
+      "C": "Option C (INCORRECT): \"Svariable\". $ not valid in standard C++ identifiers.",
+      "D": "Option D (CORRECT): \"variable_1234\". variable_1234 legal—correct."
+    },
+    "studyTip": "C++ id rules: [letter|_][letter|digit|_]*"
+  },
+  "82": {
+    "overview": "HTML form default method is GET (values appended to URL). POST must be explicit for body submission.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Get method\". GET default—correct.",
+      "B": "Option B (INCORRECT): \"Set method\". Set not HTTP method.",
+      "C": "Option C (INCORRECT): \"Post method\". POST common but not default.",
+      "D": "Option D (CORRECT): \"Put method\". PUT not HTML form default."
+    },
+    "studyTip": "Form default method=GET unless method=\"post\" specified."
+  },
+  "83": {
+    "overview": "Incremental model delivers prioritized modules in successive releases. Waterfall/spiral/linear less suited for staggered priority delivery.",
+    "options": {
+      "A": "Option A (CORRECT): \"b. c. d. Waterfall model\". Waterfall single delivery.",
+      "B": "Option B (INCORRECT): \"Spiral model\". Spiral risk-driven iterations—not priority stagger focus.",
+      "C": "Option C (INCORRECT): \"Incremental model\". Incremental—correct.",
+      "D": "Option D (INCORRECT): \"Linear model\". Linear synonymous with waterfall style."
+    },
+    "studyTip": "Different priorities over time → incremental delivery model."
+  },
+  "84": {
+    "overview": "Android stack bottom layer is Linux kernel (drivers, power). Apps sit top; framework above kernel.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Framework\". Application Framework above kernel.",
+      "B": "Option B (INCORRECT): \"Database\". Database not OS layer.",
+      "C": "Option C (CORRECT): \"Linux\". Linux kernel lowest—correct.",
+      "D": "Option D (INCORRECT): \"Kernel\". \"Kernel\" is a common distractor in Android. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (C: Linux). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested."
+    },
+    "studyTip": "Android layers bottom-up: Linux kernel → HAL → native → framework → apps."
+  },
+  "85": {
+    "overview": "WannaCry was ransomware attack, not security enhancement protocol. IDS/IPS and physical security are valid controls.",
+    "options": {
+      "A": "Option A (INCORRECT): \"a. c. d. Llse of\". \"a. c. d. Llse of\" is a common distractor in Security. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (C: Use of). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested.",
+      "B": "Option B (INCORRECT): \"Intrusion detection system\". \"Intrusion detection system\" is a common distractor in Security. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (C: Use of). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested.",
+      "C": "Option C (CORRECT): \"Use of\". This is the best match for what the question asks in Security. \"Use of\" aligns with standard software-engineering curriculum definitions and the stem: Notyet enswered Marked dut of l,co Flag questicn Which of the following is not an approach used by IT security specialis…. On exit exams, when an option states the canonical rule or notation taught in class, choose it unless the wording is clearly wrong.",
+      "D": "Option D (INCORRECT): \"Intrusion prevention system use ofWana cry protocol use of physical security\". \"Intrusion prevention system use ofWana cry protocol use of physical security\" is a common distractor in Security. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (C: Use of). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested."
+    },
+    "studyTip": "Never pick malware names as security protocols on exams."
+  },
+  "86": {
+    "overview": "This Android question evaluates whether you can identify the right concept, rule, or complexity class. The stem asks: yet answered APK stands tort o o The correct answer is C — Android. Read every option literally; exit exams often trap you with partially true statements that fail one detail. Key idea (Android): Android",
+    "options": {
+      "A": "Option A (INCORRECT): \"Android\". \"Android\" is a common distractor in Android. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (C: Android). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested.",
+      "B": "Option B (INCORRECT): \"Platform\". \"Platform\" is a common distractor in Android. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (C: Android). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested.",
+      "C": "Option C (CORRECT): \"Android\". This is the best match for what the question asks in Android. \"Android\" aligns with standard software-engineering curriculum definitions and the stem: yet answered APK stands tort o o. On exit exams, when an option states the canonical rule or notation taught in class, choose it unless the wording is clearly wrong.",
+      "D": "Option D (INCORRECT): \"Package\". \"Package\" is a common distractor in Android. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (C: Android). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested."
+    },
+    "studyTip": "Activity/Intent/Service/Manifest rules are high-frequency on Ethiopian exit exams. Flag this question if the wording was OCR-noisy and verify against your course slides."
+  },
+  "87": {
+    "overview": "Automatic programming synthesizes executable code from formal/logical specifications, including control structures. Distinct from monitoring, learning, or vague recursive label.",
+    "options": {
+      "A": "Option A (INCORRECT): \"b. c. d. Automatic learning\". Automatic learning is ML, not spec-to-code generation.",
+      "B": "Option B (INCORRECT): \"Automatic recursive\". Not standard terminology.",
+      "C": "Option C (INCORRECT): \"Automatic monitoring\". Monitoring observes runtime behavior, not code generation from specs.",
+      "D": "Option D (CORRECT): \"Automatic programming\". Automatic programming—correct AI/SE term."
+    },
+    "studyTip": "Spec + loops/conditionals → code synthesis = automatic programming."
+  },
+  "88": {
+    "overview": "CRISP-DM first phase Business Understanding before data cleaning/integration.",
+    "options": {
+      "A": "Option A (INCORRECT): \"a. b. c. d. Business understanding\". Business understanding first—correct.",
+      "B": "Option B (INCORRECT): \"Date integration\". Integration after understanding data needs.",
+      "C": "Option C (INCORRECT): \"Data cleaning\". Data cleaning later.",
+      "D": "Option D (CORRECT): \"Data selection\". Selection follows understanding."
+    },
+    "studyTip": "CRISP-DM starts with business objectives, not algorithms."
+  },
+  "89": {
+    "overview": "This Database question evaluates whether you can identify the right concept, rule, or complexity class. The stem asks: 1.00 question Which one of the following is an appropriate sequence of database design processes? o b. Logical database designi Enterprise data modeling, Physical database design, Database implementat… The correct answer is A — Physical database design. Read every option literally; exit exams often trap you with partially true statements that fail one detail. Key idea (Database): Physical database design",
+    "options": {
+      "A": "Option A (CORRECT): \"Physical database design\". This is the best match for what the question asks in Database. \"Physical database design\" aligns with standard software-engineering curriculum definitions and the stem: 1.00 question Which one of the following is an appropriate sequence of database design processes? o b. Logical database …. On exit exams, when an option states the canonical rule or notation taught in class, choose it unless the wording is clearly wrong.",
+      "B": "Option B (INCORRECT): \"Logical database design, Enterprise data modeling, Physical database designe\". \"Logical database design, Enterprise data modeling, Physical database designe\" is a common distractor in Database. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (A: Physical database design). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested.",
+      "C": "Option C (INCORRECT): \"Database implementation\". \"Database implementation\" is a common distractor in Database. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (A: Physical database design). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested.",
+      "D": "Option D (INCORRECT): \"Enterprise data modeling, Logical database design, Physical database design, Databaseimplementation\". \"Enterprise data modeling, Logical database design, Physical database design, Databaseimplementation\" is a common distractor in Database. It may sound related, but it does not satisfy the specific requirement in the stem. Compare carefully with the correct choice (A: Physical database design). Students often pick this when they recognize a keyword from the topic but miss the precise concept being tested."
+    },
+    "studyTip": "Normalize step-by-step, check keys and FDs, and verify SQL syntax against relational algebra meaning. Flag this question if the wording was OCR-noisy and verify against your course slides."
+  },
+  "90": {
+    "overview": "Good design reuses proven solutions (avoid reinventing wheel). Reinventing everything from scratch violates design principle.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Design should be structured to accommodate change\". Accommodate change good.",
+      "B": "Option B (INCORRECT): \"Design should exhibit uniformity and integration\". Uniformity/integration good.",
+      "C": "Option C (CORRECT): \"Design should be reinventing the wheel from scratch\". Reinventing wheel from scratch NOT recommended—answer.",
+      "D": "Option D (INCORRECT): \"Design should be traceable to the analysis model\". Traceability to analysis model good practice."
+    },
+    "studyTip": "Design principle: reuse libraries/patterns; don't rebuild basics."
+  },
+  "91": {
+    "overview": "HTML form default method is GET (values appended to URL). POST must be explicit for body submission.",
+    "options": {
+      "A": "Option A (CORRECT): \"Get method\". GET default—correct.",
+      "B": "Option B (INCORRECT): \"Set method\". Set not HTTP method.",
+      "C": "Option C (INCORRECT): \"Post method\". POST common but not default.",
+      "D": "Option D (INCORRECT): \"Put method\". PUT not HTML form default."
+    },
+    "studyTip": "Form default method=GET unless method=\"post\" specified."
+  },
+  "92": {
+    "overview": "Incremental model delivers prioritized modules in successive releases. Waterfall/spiral/linear less suited for staggered priority delivery.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Waterfall model\". Waterfall single delivery.",
+      "B": "Option B (INCORRECT): \"Spiral model\". Spiral risk-driven iterations—not priority stagger focus.",
+      "C": "Option C (CORRECT): \"Incremental model\". Incremental—correct.",
+      "D": "Option D (INCORRECT): \"Linear model\". Linear synonymous with waterfall style."
+    },
+    "studyTip": "Different priorities over time → incremental delivery model."
+  },
+  "93": {
+    "overview": "Android stack bottom layer is Linux kernel (drivers, power). Apps sit top; framework above kernel.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Application\". Applications topmost user layer.",
+      "B": "Option B (INCORRECT): \"Application Framework\". Application Framework above kernel.",
+      "C": "Option C (INCORRECT): \"Database\". Database not OS layer.",
+      "D": "Option D (CORRECT): \"Linux Kernel\". Linux kernel lowest—correct."
+    },
+    "studyTip": "Android layers bottom-up: Linux kernel → HAL → native → framework → apps."
+  },
+  "94": {
+    "overview": "Resource leveling adjusts schedule start/finish dates to balance demand vs availability without changing critical path float logic like smoothing might.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Resource smoothing\". Smoothing uses float without changing critical path end.",
+      "B": "Option B (INCORRECT): \"Responsibility assignment matrix\". RAM matrix assigns responsibilities.",
+      "C": "Option C (CORRECT): \"Resource leveling\". Resource leveling balances constrained resources—correct.",
+      "D": "Option D (INCORRECT): \"Resource grouping\". Resource grouping not standard PMBOK term here."
+    },
+    "studyTip": "Leveling = shift tasks to fix resource overallocation."
+  },
+  "95": {
+    "overview": "WannaCry was ransomware attack, not security enhancement protocol. IDS/IPS and physical security are valid controls.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Use of Intrusion Detection System\". IDS detects intrusions—valid approach.",
+      "B": "Option B (INCORRECT): \"Use of Intrusion Prevention System\". IPS prevents/detects attacks—valid.",
+      "C": "Option C (CORRECT): \"Use of WannaCry protocol\". WannaCry is malware exploit—not defensive protocol—answer.",
+      "D": "Option D (INCORRECT): \"Use of physical security\". Physical security valid layer."
+    },
+    "studyTip": "Never pick malware names as security protocols on exams."
+  },
+  "96": {
+    "overview": "APK = Android Package (Archive/Kit) — distributable application package format.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Android Phone Kit\". Phone Kit invented distractor.",
+      "B": "Option B (INCORRECT): \"Android Page Kit\". Page Kit nonsense distractor.",
+      "C": "Option C (INCORRECT): \"Android Platform Kit\". Platform Kit confuses SDK with distributable package.",
+      "D": "Option D (CORRECT): \"Android Package Kit\". Android Package Kit—exam canonical answer."
+    },
+    "studyTip": "APK packages app resources, manifest, dex for installation."
+  },
+  "97": {
+    "overview": "Automatic programming synthesizes executable code from formal/logical specifications, including control structures. Distinct from monitoring, learning, or vague recursive label.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Automatic learning\". Automatic learning is ML, not spec-to-code generation.",
+      "B": "Option B (INCORRECT): \"Automatic recursive\". Not standard terminology.",
+      "C": "Option C (INCORRECT): \"Automatic monitoring\". Monitoring observes runtime behavior, not code generation from specs.",
+      "D": "Option D (CORRECT): \"Automatic programming\". Automatic programming—correct AI/SE term."
+    },
+    "studyTip": "Spec + loops/conditionals → code synthesis = automatic programming."
+  },
+  "98": {
+    "overview": "CRISP-DM first phase Business Understanding before data cleaning/integration.",
+    "options": {
+      "A": "Option A (CORRECT): \"Business understanding\". Business understanding first—correct.",
+      "B": "Option B (INCORRECT): \"Data integration\". Integration after understanding data needs.",
+      "C": "Option C (INCORRECT): \"Data cleaning\". Data cleaning later.",
+      "D": "Option D (INCORRECT): \"Data selection\". Selection follows understanding."
+    },
+    "studyTip": "CRISP-DM starts with business objectives, not algorithms."
+  },
+  "99": {
+    "overview": "Database design: enterprise data modeling (conceptual) → logical design → physical design → implementation.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Logical database design, Enterprise data modeling, Physical database design, Database implementation\". Logical before enterprise wrong.",
+      "B": "Option B (INCORRECT): \"Enterprise data modeling, Logical database design, Database implementation, Physical database design\". Implementation before physical wrong.",
+      "C": "Option C (INCORRECT): \"Physical database design, Logical database design, Enterprise data modeling, Database implementation\". Duplicates wrong ordering.",
+      "D": "Option D (CORRECT): \"Enterprise data modeling, Logical database design, Physical database design, Database implementation\". Enterprise → logical → physical → implementation—correct."
+    },
+    "studyTip": "DB design flow: conceptual → logical → physical → build."
+  },
+  "100": {
+    "overview": "Good design reuses proven solutions (avoid reinventing wheel). Reinventing everything from scratch violates design principle.",
+    "options": {
+      "A": "Option A (INCORRECT): \"Design should be structured to accommodate change\". Accommodate change good.",
+      "B": "Option B (INCORRECT): \"Design should exhibit uniformity and integration\". Uniformity/integration good.",
+      "C": "Option C (CORRECT): \"Design should be reinventing the wheel from scratch\". Reinventing wheel from scratch NOT recommended—answer.",
+      "D": "Option D (INCORRECT): \"Design should be traceable to the analysis model\". Traceability to analysis model good practice."
+    },
+    "studyTip": "Design principle: reuse libraries/patterns; don't rebuild basics."
+  }
+}

@@ -39,7 +39,7 @@ Topics covered across exams include: programming fundamentals, data structures, 
 **Requirements:** Python 3.10+ (stdlib only — no pip packages required to run the server)
 
 ```bash
-cd practice-app
+cd Ethiopian-SE-exit-exam-practice
 python server.py
 ```
 

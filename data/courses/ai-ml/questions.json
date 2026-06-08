@@ -1,0 +1,925 @@
+{
+  "title": "AI / ML — Course Practice",
+  "courseId": "ai-ml",
+  "topics": [
+    "AI / ML"
+  ],
+  "total": 31,
+  "focusGuide": {
+    "AI / ML": "Study search algorithms (A*, UCS), agent types, and data mining CRISP-DM phases."
+  },
+  "questions": [
+    {
+      "examNumber": 29,
+      "id": 1,
+      "topic": "AI / ML",
+      "text": "Which one of the following is an appropriate sequence that depicts the model development process in data mining?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Model training, Model Testing, Model Evaluation, Model Deployment",
+          "explanation": "Correct. Model training, Model Testing, Model Evaluation, Model Deployment — this directly answers the question. In Operating Systems, this is the standard/principle being tested."
+        },
+        {
+          "key": "B",
+          "text": "Model Evaluation, Model training, Model Testing, Model Deployment",
+          "explanation": "Incorrect. Model Evaluation, Model training, Model Testing, Model Deployment — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "C",
+          "text": "Model training, Model Testing, Model Deployment, Model Evaluation",
+          "explanation": "Incorrect. Model training, Model Testing, Model Deployment, Model Evaluation — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "D",
+          "text": "Model training, Model Evaluation, Model Testing, Model Deployment",
+          "explanation": "Incorrect. Model training, Model Evaluation, Model Testing, Model Deployment — This option does not satisfy what the question is asking. The correct choice is A."
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Operating Systems): Model training, Model Testing, Model Evaluation, Model Deployment",
+      "sourceExamId": "2015",
+      "sourceQuestionId": 22,
+      "sourceExamTitle": "Exit Exam 2015"
+    },
+    {
+      "examNumber": 58,
+      "id": 2,
+      "topic": "AI / ML",
+      "text": "Business people always remodel their business by closely studying their customers purchasing habits over the course of their purchase history. Accordingly, a salesperson at Markato shop noticed that people who always buy shoes will also buy socks with probability of 0.75 and hence decided to put shoes and socks side by side for ease of accessibility. Which big data analytics technique could this salesperson could employ?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Regression Modeling",
+          "explanation": "Incorrect. Regression Modeling — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "B",
+          "text": "Clustering algorithm",
+          "explanation": "Incorrect. Clustering algorithm — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "C",
+          "text": "Predictive modeling",
+          "explanation": "Incorrect. Predictive modeling — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "D",
+          "text": "Association rule",
+          "explanation": "Correct. Association rule — this directly answers the question. In AI / ML / Data Mining, this is the standard/principle being tested."
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (AI / ML / Data Mining): Association rule",
+      "sourceExamId": "2015",
+      "sourceQuestionId": 51,
+      "sourceExamTitle": "Exit Exam 2015"
+    },
+    {
+      "examNumber": 81,
+      "id": 3,
+      "topic": "AI / ML",
+      "text": "Identify the one that comes first in data mining process",
+      "options": [
+        {
+          "key": "A",
+          "text": "Data cleaning",
+          "explanation": "Incorrect. Data cleaning — This option does not satisfy what the question is asking. The correct choice is C."
+        },
+        {
+          "key": "B",
+          "text": "Data integration",
+          "explanation": "Incorrect. Data integration — This option does not satisfy what the question is asking. The correct choice is C."
+        },
+        {
+          "key": "C",
+          "text": "Business understanding",
+          "explanation": "Correct. Business understanding — this directly answers the question. In Operating Systems, this is the standard/principle being tested."
+        },
+        {
+          "key": "D",
+          "text": "Data selection",
+          "explanation": "Incorrect. Data selection — This option does not satisfy what the question is asking. The correct choice is C."
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Operating Systems): Business understanding",
+      "sourceExamId": "2015",
+      "sourceQuestionId": 74,
+      "sourceExamTitle": "Exit Exam 2015"
+    },
+    {
+      "examNumber": 16,
+      "id": 4,
+      "topic": "AI / ML",
+      "text": "Which pair of algorithms has equal cost in terms of time and space complexity under an equal step-cost function?",
+      "options": [
+        {
+          "key": "A",
+          "text": "BFS and DFS"
+        },
+        {
+          "key": "B",
+          "text": "DFS and UCS"
+        },
+        {
+          "key": "C",
+          "text": "UCS and BFS"
+        },
+        {
+          "key": "D",
+          "text": "DFS and BFS"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (AI/ML): UCS and BFS",
+      "sourceExamId": "aau",
+      "sourceQuestionId": 16,
+      "sourceExamTitle": "AAU Model Exit Exam"
+    },
+    {
+      "examNumber": 20,
+      "id": 5,
+      "topic": "AI / ML",
+      "text": "What is supervised learning in AI?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Reinforcement learning with a reward-based system"
+        },
+        {
+          "key": "B",
+          "text": "Learning by observing human behavior"
+        },
+        {
+          "key": "C",
+          "text": "Training a machine learning model with labeled data"
+        },
+        {
+          "key": "D",
+          "text": "Training a machine learning model with unlabeled data"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (AI/ML): Training a machine learning model with labeled data",
+      "sourceExamId": "aau",
+      "sourceQuestionId": 20,
+      "sourceExamTitle": "AAU Model Exit Exam"
+    },
+    {
+      "examNumber": 54,
+      "id": 6,
+      "topic": "AI / ML",
+      "text": "What is the time complexity of the binary search algorithm?",
+      "options": [
+        {
+          "key": "A",
+          "text": "O(1)"
+        },
+        {
+          "key": "B",
+          "text": "O(n)"
+        },
+        {
+          "key": "C",
+          "text": "O(n log n)"
+        },
+        {
+          "key": "D",
+          "text": "O(log n)"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (AI/ML): O(log n)",
+      "sourceExamId": "aau",
+      "sourceQuestionId": 54,
+      "sourceExamTitle": "AAU Model Exit Exam"
+    },
+    {
+      "examNumber": 64,
+      "id": 7,
+      "topic": "AI / ML",
+      "text": "Which of the following statements about local search algorithms is true? o o o o",
+      "options": [
+        {
+          "key": "A",
+          "text": "The time complexity of local search algorithms is independent of the size of the problem."
+        },
+        {
+          "key": "B",
+          "text": "Local search algorithms are typically used for solving convex optimization problems"
+        },
+        {
+          "key": "C",
+          "text": "Local search algorithms always guarantee to find the globally optimal solution"
+        },
+        {
+          "key": "D",
+          "text": "The quality of the solution found by local search algorithms depends heavily on the staffing point and the choice af the neighborhood functiam"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (AI/ML): The quality of the solution found by local search algorithms depends heavily on the staffing point and the choice af the neighborhood functiam",
+      "sourceExamId": "aau",
+      "sourceQuestionId": 64,
+      "sourceExamTitle": "AAU Model Exit Exam"
+    },
+    {
+      "examNumber": 2,
+      "id": 8,
+      "topic": "AI / ML",
+      "text": "What is the algorithm complexity of Binary search algorithm?",
+      "options": [
+        {
+          "key": "A",
+          "text": "O(n)"
+        },
+        {
+          "key": "B",
+          "text": "O(n^2)"
+        },
+        {
+          "key": "C",
+          "text": "O(1)"
+        },
+        {
+          "key": "D",
+          "text": "O(log n)"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Data Structures): O(log n)",
+      "sourceExamId": "bdu",
+      "sourceQuestionId": 2,
+      "sourceExamTitle": "BDU Model Exit Exam"
+    },
+    {
+      "examNumber": 36,
+      "id": 9,
+      "topic": "AI / ML",
+      "text": "Which of the following statement is false",
+      "options": [
+        {
+          "key": "A",
+          "text": "If the file is ordered implementing a select operation using linear search algorithm is more efficient than Binary search"
+        },
+        {
+          "key": "B",
+          "text": "All"
+        },
+        {
+          "key": "C",
+          "text": "Disjunctive selection conditions are much harder to process and optimize than conjunctive selection conditions"
+        },
+        {
+          "key": "D",
+          "text": "Join operation is one of the most time consuming operations in query processing"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (AI / ML): Disjunctive selection conditions are much harder to process and optimize than conjunctive selection conditions",
+      "sourceExamId": "bdu",
+      "sourceQuestionId": 36,
+      "sourceExamTitle": "BDU Model Exit Exam"
+    },
+    {
+      "examNumber": 43,
+      "id": 10,
+      "topic": "AI / ML",
+      "text": "o o a. Heuristic processing b. Pattern matching c, Cognitive science d Relative symbolism PR EVIOUS PAGE",
+      "options": [
+        {
+          "key": "A",
+          "text": "Heuristic processing"
+        },
+        {
+          "key": "B",
+          "text": "Pattern matching"
+        },
+        {
+          "key": "C",
+          "text": "Cognitive science d Relative symbolism PR EVIOUS PAGE"
+        },
+        {
+          "key": "D",
+          "text": "(option unclear in OCR)"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (AI / ML): Pattern matching",
+      "sourceExamId": "bdu",
+      "sourceQuestionId": 43,
+      "sourceExamTitle": "BDU Model Exit Exam"
+    },
+    {
+      "examNumber": 88,
+      "id": 11,
+      "topic": "AI / ML",
+      "text": "Which one of the following is a subject- oriented, integrated, time-variant, nonvolatile collection of data in support of management decisions",
+      "options": [
+        {
+          "key": "A",
+          "text": "Web Mining"
+        },
+        {
+          "key": "B",
+          "text": "Data Warehousing o"
+        },
+        {
+          "key": "C",
+          "text": "Text Mining"
+        },
+        {
+          "key": "D",
+          "text": "Data Mining"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (AI / ML): Data Warehousing o",
+      "sourceExamId": "bdu",
+      "sourceQuestionId": 88,
+      "sourceExamTitle": "BDU Model Exit Exam"
+    },
+    {
+      "examNumber": 90,
+      "id": 12,
+      "topic": "AI / ML",
+      "text": "Which search algorithm aims at achieving to minimize the total path cost",
+      "options": [
+        {
+          "key": "A",
+          "text": "Greedy search"
+        },
+        {
+          "key": "B",
+          "text": "Depth-first search"
+        },
+        {
+          "key": "C",
+          "text": "search"
+        },
+        {
+          "key": "D",
+          "text": "Breadth-first search"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (AI / ML): Greedy search",
+      "sourceExamId": "bdu",
+      "sourceQuestionId": 90,
+      "sourceExamTitle": "BDU Model Exit Exam"
+    },
+    {
+      "examNumber": 5,
+      "id": 13,
+      "topic": "AI / ML",
+      "text": "Which of the following is not type of Ensemble learning?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Lasso"
+        },
+        {
+          "key": "B",
+          "text": "Boosting"
+        },
+        {
+          "key": "C",
+          "text": "Bagging"
+        },
+        {
+          "key": "D",
+          "text": "Random forest"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (AI / ML): Lasso",
+      "sourceExamId": "model1",
+      "sourceQuestionId": 5,
+      "sourceExamTitle": "MoEE Model Exam 1"
+    },
+    {
+      "examNumber": 41,
+      "id": 14,
+      "topic": "AI / ML",
+      "text": "One of the following is model optimization technique:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Gradient descent"
+        },
+        {
+          "key": "B",
+          "text": "Bagging"
+        },
+        {
+          "key": "C",
+          "text": "Lasso"
+        },
+        {
+          "key": "D",
+          "text": "Gradient boosting"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (AI / ML): Gradient descent",
+      "sourceExamId": "model1",
+      "sourceQuestionId": 41,
+      "sourceExamTitle": "MoEE Model Exam 1"
+    },
+    {
+      "examNumber": 49,
+      "id": 15,
+      "topic": "AI / ML",
+      "text": "Which of the following is not the contribution of the big data analysis",
+      "options": [
+        {
+          "key": "A",
+          "text": "To introduce new culture of data usage"
+        },
+        {
+          "key": "B",
+          "text": "To gain competitive advantage"
+        },
+        {
+          "key": "C",
+          "text": "To cope up with volatile market"
+        },
+        {
+          "key": "D",
+          "text": "To satisfy customer need"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (AI / ML): To introduce new culture of data usage",
+      "sourceExamId": "model1",
+      "sourceQuestionId": 49,
+      "sourceExamTitle": "MoEE Model Exam 1"
+    },
+    {
+      "examNumber": 56,
+      "id": 16,
+      "topic": "AI / ML",
+      "text": "What does velocity in big data refer to?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Speed of storage consumption"
+        },
+        {
+          "key": "B",
+          "text": "Speed of data ingestion"
+        },
+        {
+          "key": "C",
+          "text": "Speed of input data generation"
+        },
+        {
+          "key": "D",
+          "text": "Speed of data processing and storing"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (AI / ML): Speed of input data generation",
+      "sourceExamId": "model1",
+      "sourceQuestionId": 56,
+      "sourceExamTitle": "MoEE Model Exam 1"
+    },
+    {
+      "examNumber": 76,
+      "id": 17,
+      "topic": "AI / ML",
+      "text": "One of the following statements is inappropriate about Artificial Intelligence?",
+      "options": [
+        {
+          "key": "A",
+          "text": "An agent perceives its environment through effectors."
+        },
+        {
+          "key": "B",
+          "text": "It is a preprogrammed system,"
+        },
+        {
+          "key": "C",
+          "text": "AI is a multidisciplinary field of study."
+        },
+        {
+          "key": "D",
+          "text": "Ability to learn from the environment"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (AI / ML): An agent perceives its environment through effectors.",
+      "sourceExamId": "model1",
+      "sourceQuestionId": 76,
+      "sourceExamTitle": "MoEE Model Exam 1"
+    },
+    {
+      "examNumber": 91,
+      "id": 18,
+      "topic": "AI / ML",
+      "text": "What is an intelligent agent in AI?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A program that writes code"
+        },
+        {
+          "key": "B",
+          "text": "A system that perceives and acts in an environment"
+        },
+        {
+          "key": "C",
+          "text": "A database management system"
+        },
+        {
+          "key": "D",
+          "text": "A user interface"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (AI / ML): A system that perceives and acts in an environment",
+      "sourceExamId": "moe2025",
+      "sourceQuestionId": 91,
+      "sourceExamTitle": "2025 MoEE Exit Exam"
+    },
+    {
+      "examNumber": 92,
+      "id": 19,
+      "topic": "AI / ML",
+      "text": "Which search strategy explores all nodes at the current depth before moving deeper?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Depth-First Search"
+        },
+        {
+          "key": "B",
+          "text": "Breadth-First Search"
+        },
+        {
+          "key": "C",
+          "text": "A* Search"
+        },
+        {
+          "key": "D",
+          "text": "Greedy Search"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (AI / ML): Breadth-First Search",
+      "sourceExamId": "moe2025",
+      "sourceQuestionId": 92,
+      "sourceExamTitle": "2025 MoEE Exit Exam"
+    },
+    {
+      "examNumber": 93,
+      "id": 20,
+      "topic": "AI / ML",
+      "text": "What is the purpose of a knowledge base in an expert system?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To store user data"
+        },
+        {
+          "key": "B",
+          "text": "To store rules and facts for decision-making"
+        },
+        {
+          "key": "C",
+          "text": "To manage hardware resources"
+        },
+        {
+          "key": "D",
+          "text": "To execute search algorithms"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (AI / ML): To store rules and facts for decision-making",
+      "sourceExamId": "moe2025",
+      "sourceQuestionId": 93,
+      "sourceExamTitle": "2025 MoEE Exit Exam"
+    },
+    {
+      "examNumber": 94,
+      "id": 21,
+      "topic": "AI / ML",
+      "text": "Which AI technique mimics human reasoning using if-then rules?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Machine Learning"
+        },
+        {
+          "key": "B",
+          "text": "Expert Systems"
+        },
+        {
+          "key": "C",
+          "text": "Neural Networks"
+        },
+        {
+          "key": "D",
+          "text": "Genetic Algorithms"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (AI / ML): Expert Systems",
+      "sourceExamId": "moe2025",
+      "sourceQuestionId": 94,
+      "sourceExamTitle": "2025 MoEE Exit Exam"
+    },
+    {
+      "examNumber": 95,
+      "id": 22,
+      "topic": "AI / ML",
+      "text": "What is a benefit of lifelong learning in AI?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Reduced system performance"
+        },
+        {
+          "key": "B",
+          "text": "Continuous adaptation to new data"
+        },
+        {
+          "key": "C",
+          "text": "Increased code complexity"
+        },
+        {
+          "key": "D",
+          "text": "Limited application scope"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (AI / ML): Continuous adaptation to new data",
+      "sourceExamId": "moe2025",
+      "sourceQuestionId": 95,
+      "sourceExamTitle": "2025 MoEE Exit Exam"
+    },
+    {
+      "examNumber": 96,
+      "id": 23,
+      "topic": "AI / ML",
+      "text": "What is the main difference between supervised and unsupervised learning?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Supervised learning uses labeled data, unsupervised does not"
+        },
+        {
+          "key": "B",
+          "text": "Unsupervised learning uses labeled data, supervised does not"
+        },
+        {
+          "key": "C",
+          "text": "Supervised learning is faster than unsupervised"
+        },
+        {
+          "key": "D",
+          "text": "Unsupervised learning requires more data"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (AI / ML): Supervised learning uses labeled data, unsupervised does not",
+      "sourceExamId": "moe2025",
+      "sourceQuestionId": 96,
+      "sourceExamTitle": "2025 MoEE Exit Exam"
+    },
+    {
+      "examNumber": 97,
+      "id": 24,
+      "topic": "AI / ML",
+      "text": "Which algorithm is commonly used for classification tasks in machine learning?",
+      "options": [
+        {
+          "key": "A",
+          "text": "K-Means Clustering"
+        },
+        {
+          "key": "B",
+          "text": "Linear Regression"
+        },
+        {
+          "key": "C",
+          "text": "Decision Trees"
+        },
+        {
+          "key": "D",
+          "text": "Principal Component Analysis"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (AI / ML): Decision Trees",
+      "sourceExamId": "moe2025",
+      "sourceQuestionId": 97,
+      "sourceExamTitle": "2025 MoEE Exit Exam"
+    },
+    {
+      "examNumber": 98,
+      "id": 25,
+      "topic": "AI / ML",
+      "text": "What is overfitting in machine learning?",
+      "options": [
+        {
+          "key": "A",
+          "text": "When a model performs well on new data"
+        },
+        {
+          "key": "B",
+          "text": "When a model is too complex and fits noise in the training data"
+        },
+        {
+          "key": "C",
+          "text": "When a model is too simple"
+        },
+        {
+          "key": "D",
+          "text": "When a model fails to train"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (AI / ML): When a model is too complex and fits noise in the training data",
+      "sourceExamId": "moe2025",
+      "sourceQuestionId": 98,
+      "sourceExamTitle": "2025 MoEE Exit Exam"
+    },
+    {
+      "examNumber": 99,
+      "id": 26,
+      "topic": "AI / ML",
+      "text": "Which of the following is a supervised learning task?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Clustering customer data"
+        },
+        {
+          "key": "B",
+          "text": "Predicting house prices based on features"
+        },
+        {
+          "key": "C",
+          "text": "Reducing data dimensions"
+        },
+        {
+          "key": "D",
+          "text": "Finding patterns in unlabeled data"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (AI / ML): Predicting house prices based on features",
+      "sourceExamId": "moe2025",
+      "sourceQuestionId": 99,
+      "sourceExamTitle": "2025 MoEE Exit Exam"
+    },
+    {
+      "examNumber": 100,
+      "id": 27,
+      "topic": "AI / ML",
+      "text": "What is the purpose of a training dataset in machine learning?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To test the model's performance"
+        },
+        {
+          "key": "B",
+          "text": "To train the model to learn patterns"
+        },
+        {
+          "key": "C",
+          "text": "To validate the model"
+        },
+        {
+          "key": "D",
+          "text": "To deploy the model"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (AI / ML): To train the model to learn patterns",
+      "sourceExamId": "moe2025",
+      "sourceQuestionId": 100,
+      "sourceExamTitle": "2025 MoEE Exit Exam"
+    },
+    {
+      "examNumber": 7,
+      "id": 28,
+      "topic": "AI / ML",
+      "text": "2•.2! An informed search algorithm that provides exponential time complexity in the worst-case scenalio and guarantees optimality when searching a solution refers to:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Uniform"
+        },
+        {
+          "key": "B",
+          "text": "Cost"
+        },
+        {
+          "key": "C",
+          "text": "Search"
+        },
+        {
+          "key": "D",
+          "text": "A* Search"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (AI / ML): A* Search",
+      "sourceExamId": "2016",
+      "sourceQuestionId": 7,
+      "sourceExamTitle": "2016 Software Engineering Exit Exam"
+    },
+    {
+      "examNumber": 28,
+      "id": 29,
+      "topic": "AI / ML",
+      "text": "1.00 Business people always remodel their business by closely studying their customers' purchasing habits over the course of their purchase history. Accordingly, a salesperson at Markato shop noticed that people who always buy shoes will also buy socks with probability of 0.75 and hence decided to put shoes and socks side by side for ease of accessibility.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Which big data analytics technique could this salesperson could employ? Association rule"
+        },
+        {
+          "key": "B",
+          "text": "Clustering algorithm"
+        },
+        {
+          "key": "C",
+          "text": "Predictive modeling"
+        },
+        {
+          "key": "D",
+          "text": "Regtession modeling"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (AI / ML): Which big data analytics technique could this salesperson could employ? Association rule",
+      "sourceExamId": "2016",
+      "sourceQuestionId": 28,
+      "sourceExamTitle": "2016 Software Engineering Exit Exam"
+    },
+    {
+      "examNumber": 97,
+      "id": 30,
+      "topic": "AI / ML",
+      "text": "A technique for generating plans with conditionals and loops that is almost identical to those for generating programs from logical specifications is called:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Automatic learning"
+        },
+        {
+          "key": "B",
+          "text": "Automatic recursive"
+        },
+        {
+          "key": "C",
+          "text": "Automatic monitoring"
+        },
+        {
+          "key": "D",
+          "text": "Automatic programming"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (AI / ML): Automatic programming",
+      "sourceExamId": "2016",
+      "sourceQuestionId": 97,
+      "sourceExamTitle": "2016 Software Engineering Exit Exam"
+    },
+    {
+      "examNumber": 98,
+      "id": 31,
+      "topic": "AI / ML",
+      "text": "Identify the one that comes first in the data mining process.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Business understanding"
+        },
+        {
+          "key": "B",
+          "text": "Data integration"
+        },
+        {
+          "key": "C",
+          "text": "Data cleaning"
+        },
+        {
+          "key": "D",
+          "text": "Data selection"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (AI / ML): Business understanding",
+      "sourceExamId": "2016",
+      "sourceQuestionId": 98,
+      "sourceExamTitle": "2016 Software Engineering Exit Exam"
+    }
+  ],
+  "dataRevision": 1
+}

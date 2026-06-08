@@ -1,0 +1,1744 @@
+{
+  "title": "Database — Course Practice",
+  "courseId": "database",
+  "topics": [
+    "Database"
+  ],
+  "total": 58,
+  "focusGuide": {
+    "Database": "Practice normalization (1NF–3NF), SQL INSERT/FOREIGN KEY, and ER-to-relational mapping."
+  },
+  "questions": [
+    {
+      "examNumber": 3,
+      "id": 1,
+      "topic": "Database",
+      "text": "What we use to pass the data between activities in Android?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Broadcast receiver",
+          "explanation": "Incorrect. Broadcast receiver — This option does not satisfy what the question is asking. The correct choice is C."
+        },
+        {
+          "key": "B",
+          "text": "PostgreSQL Database",
+          "explanation": "Incorrect. PostgreSQL Database — This option does not satisfy what the question is asking. The correct choice is C."
+        },
+        {
+          "key": "C",
+          "text": "Intent",
+          "explanation": "Correct. Intent — this directly answers the question. In Android, this is the standard/principle being tested."
+        },
+        {
+          "key": "D",
+          "text": "content provider",
+          "explanation": "Incorrect. content provider — This option does not satisfy what the question is asking. The correct choice is C."
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Android): Intent",
+      "sourceExamId": "2015",
+      "sourceQuestionId": 2,
+      "sourceExamTitle": "Exit Exam 2015"
+    },
+    {
+      "examNumber": 4,
+      "id": 2,
+      "topic": "Database",
+      "text": "The following UML design shows student class. Assume that the Attributes have declared as private and the method as public. The get method return the value of the attribute and calculateAge() returns the student age. Which of the following would not raise an error when you run this program? Student Name: String Department: String Phone: String Age: int Student (String, String, String, int) SetDept(String) GetName(): String GetDept():String GetYearOfBirth():int CalculateAge(): int",
+      "options": [
+        {
+          "key": "A",
+          "text": "Student st1 = newStudent(“john”, “SE”, “0913222222”, 20)",
+          "explanation": "Correct. Student st1 = newStudent(“john”, “SE”, “0913222222”, 20) — this directly answers the question. In Java / OOP, this is the standard/principle being tested."
+        },
+        {
+          "key": "B",
+          "text": "st1 Student = newStudent(“john”, “CS”, “02085332455”, 23)",
+          "explanation": "Incorrect. st1 Student = newStudent(“john”, “CS”, “02085332455”, 23) — This statement is generally true, but the question asks for the wrong/not case. The correct choice is A."
+        },
+        {
+          "key": "C",
+          "text": "Student st1 = newStudent(“john”, “IT”, “2000”,)",
+          "explanation": "Incorrect. Student st1 = newStudent(“john”, “IT”, “2000”,) — This statement is generally true, but the question asks for the wrong/not case. The correct choice is A."
+        },
+        {
+          "key": "D",
+          "text": "Student st1 = newStudent(“john”, “CS”, “0913222222”, “25”)",
+          "explanation": "Incorrect. Student st1 = newStudent(“john”, “CS”, “0913222222”, “25”) — This statement is generally true, but the question asks for the wrong/not case. The correct choice is A."
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Java / OOP): Student st1 = newStudent(“john”, “SE”, “0913222222”, 20)",
+      "sourceExamId": "2015",
+      "sourceQuestionId": 3,
+      "sourceExamTitle": "Exit Exam 2015"
+    },
+    {
+      "examNumber": 8,
+      "id": 3,
+      "topic": "Database",
+      "text": "For the schema Hotel (Hotel_id:integer, Hotel_name: String, Sub_city: string) which SQL statement correctly inserts Tuples to Hotel relation. (Assume Hotel_id is primary key).",
+      "options": [
+        {
+          "key": "A",
+          "text": "Insert INTO HOTEL (Hotel_id, Hotel_name, Sub_city)VALUES (‘Hilton’,’Yeka’)",
+          "explanation": "Incorrect. Insert INTO HOTEL (Hotel_id, Hotel_name, Sub_city)VALUES (‘Hilton’,’Yeka’) — This option does not satisfy what the question is asking. The correct choice is B."
+        },
+        {
+          "key": "B",
+          "text": "Insert INTO HOTEL (Hotel_id, Hotel_name, Sub_city)VALUES (1,‘Hilton’,’Yeka’)",
+          "explanation": "Correct. Insert INTO HOTEL (Hotel_id, Hotel_name, Sub_city)VALUES (1,‘Hilton’,’Yeka’) — this directly answers the question. In Database / SQL, this is the standard/principle being tested."
+        },
+        {
+          "key": "C",
+          "text": "Insert INTO HOTEL (1,‘Hilton’,’Yeka’)",
+          "explanation": "Incorrect. Insert INTO HOTEL (1,‘Hilton’,’Yeka’) — This option does not satisfy what the question is asking. The correct choice is B."
+        },
+        {
+          "key": "D",
+          "text": "Insert Values INTO HOTEL(Hotel_id, Hotel_name, Sub_city)VALUES (1,‘Hilton’,’Yeka’)",
+          "explanation": "Incorrect. Insert Values INTO HOTEL(Hotel_id, Hotel_name, Sub_city)VALUES (1,‘Hilton’,’Yeka’) — This option does not satisfy what the question is asking. The correct choice is B."
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Database / SQL): Insert INTO HOTEL (Hotel_id, Hotel_name, Sub_city)VALUES (1,‘Hilton’,’Yeka’)",
+      "sourceExamId": "2015",
+      "sourceQuestionId": 6,
+      "sourceExamTitle": "Exit Exam 2015"
+    },
+    {
+      "examNumber": 31,
+      "id": 4,
+      "topic": "Database",
+      "text": "Within OAuth, what component validates the user’s identity?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Authorization server",
+          "explanation": "Correct. Authorization server — this directly answers the question. In Database / SQL, this is the standard/principle being tested."
+        },
+        {
+          "key": "B",
+          "text": "resource server",
+          "explanation": "Incorrect. resource server — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "C",
+          "text": "browser",
+          "explanation": "Incorrect. browser — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "D",
+          "text": "client",
+          "explanation": "Incorrect. client — This option does not satisfy what the question is asking. The correct choice is A."
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Database / SQL): Authorization server",
+      "sourceExamId": "2015",
+      "sourceQuestionId": 24,
+      "sourceExamTitle": "Exit Exam 2015"
+    },
+    {
+      "examNumber": 33,
+      "id": 5,
+      "topic": "Database",
+      "text": "While optimizing our relation, if we found that no multivalued attributes and partial dependencies exist in a relation then the relation is in what normal form?",
+      "options": [
+        {
+          "key": "A",
+          "text": "1NF",
+          "explanation": "Incorrect. 1NF — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "B",
+          "text": "3NF",
+          "explanation": "Incorrect. 3NF — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "C",
+          "text": "4NF",
+          "explanation": "Incorrect. 4NF — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "D",
+          "text": "2NF",
+          "explanation": "Correct. 2NF — this directly answers the question. In Web / CSS / JS, this is the standard/principle being tested."
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Web / CSS / JS): 2NF",
+      "sourceExamId": "2015",
+      "sourceQuestionId": 26,
+      "sourceExamTitle": "Exit Exam 2015"
+    },
+    {
+      "examNumber": 51,
+      "id": 6,
+      "topic": "Database",
+      "text": "Identify the lowest layer of android architecture",
+      "options": [
+        {
+          "key": "A",
+          "text": "Linux kernel",
+          "explanation": "Correct. Linux kernel — this directly answers the question. In Software Architecture, this is the standard/principle being tested."
+        },
+        {
+          "key": "B",
+          "text": "Database",
+          "explanation": "Incorrect. Database — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "C",
+          "text": "Application Framework",
+          "explanation": "Incorrect. Application Framework — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "D",
+          "text": "Application",
+          "explanation": "Incorrect. Application — This option does not satisfy what the question is asking. The correct choice is A."
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Software Architecture): Linux kernel",
+      "sourceExamId": "2015",
+      "sourceQuestionId": 44,
+      "sourceExamTitle": "Exit Exam 2015"
+    },
+    {
+      "examNumber": 53,
+      "id": 7,
+      "topic": "Database",
+      "text": "Select the one that is not correct related to generalization in system modeling.",
+      "options": [
+        {
+          "key": "A",
+          "text": "In generalization, the attribute and operation associated with the highest-level classes are also associated with lowest level classes.",
+          "explanation": "Incorrect. In generalization, the attribute and operation associated with the highest-level classes are also associated with lowest level classes. — This statement is generally true, but the question asks for the wrong/not case. The correct choice is D."
+        },
+        {
+          "key": "B",
+          "text": "Common information will be maintained in one place",
+          "explanation": "Incorrect. Common information will be maintained in one place — This statement is generally true, but the question asks for the wrong/not case. The correct choice is D."
+        },
+        {
+          "key": "C",
+          "text": "Facilitate easy modification of data",
+          "explanation": "Incorrect. Facilitate easy modification of data — This statement is generally true, but the question asks for the wrong/not case. The correct choice is D."
+        },
+        {
+          "key": "D",
+          "text": "The higher level classes are more specific than the lower-level classes by adding specific attributes and operation",
+          "explanation": "Correct. The higher level classes are more specific than the lower-level classes by adding specific attributes and operation — this directly answers the question. In Java / OOP, this is the standard/principle being tested."
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Java / OOP): The higher level classes are more specific than the lower-level classes by adding specific attributes and operation",
+      "sourceExamId": "2015",
+      "sourceQuestionId": 46,
+      "sourceExamTitle": "Exit Exam 2015"
+    },
+    {
+      "examNumber": 56,
+      "id": 8,
+      "topic": "Database",
+      "text": "“Database is a logically coherent collection of data with some inherent meaning “ describes that",
+      "options": [
+        {
+          "key": "A",
+          "text": "All attributes of the entity should be related",
+          "explanation": "Correct. All attributes of the entity should be related — this directly answers the question. In Database / SQL, this is the standard/principle being tested."
+        },
+        {
+          "key": "B",
+          "text": "there should be one primary key attribute",
+          "explanation": "Incorrect. there should be one primary key attribute — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "C",
+          "text": "the entity should be physical object",
+          "explanation": "Incorrect. the entity should be physical object — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "D",
+          "text": "number of attributes should be limited",
+          "explanation": "Incorrect. number of attributes should be limited — This option does not satisfy what the question is asking. The correct choice is A."
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Database / SQL): All attributes of the entity should be related",
+      "sourceExamId": "2015",
+      "sourceQuestionId": 49,
+      "sourceExamTitle": "Exit Exam 2015"
+    },
+    {
+      "examNumber": 66,
+      "id": 9,
+      "topic": "Database",
+      "text": "Which of the following is an appropriate sequence of database design processes?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Logical design database, Enterprise data modeling, Physical database design, Database implementation",
+          "explanation": "Incorrect. Logical design database, Enterprise data modeling, Physical database design, Database implementation — This option does not satisfy what the question is asking. The correct choice is C."
+        },
+        {
+          "key": "B",
+          "text": "Enterprise data modeling, Logical design database, Database implementation, Physical database design",
+          "explanation": "Incorrect. Enterprise data modeling, Logical design database, Database implementation, Physical database design — This option does not satisfy what the question is asking. The correct choice is C."
+        },
+        {
+          "key": "C",
+          "text": "Enterprise data modeling, Logical design database, Physical database design, Database implementation",
+          "explanation": "Correct. Enterprise data modeling, Logical design database, Physical database design, Database implementation — this directly answers the question. In Database / SQL, this is the standard/principle being tested."
+        },
+        {
+          "key": "D",
+          "text": "Logical design database, Enterprise data modeling, Physical database design, Database implementation",
+          "explanation": "Incorrect. Logical design database, Enterprise data modeling, Physical database design, Database implementation — This option does not satisfy what the question is asking. The correct choice is C."
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Database / SQL): Enterprise data modeling, Logical design database, Physical database design, Database implementation",
+      "sourceExamId": "2015",
+      "sourceQuestionId": 59,
+      "sourceExamTitle": "Exit Exam 2015"
+    },
+    {
+      "examNumber": 77,
+      "id": 10,
+      "topic": "Database",
+      "text": "Which of the following is not among the characterizing features of database approach?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Application-data dependency",
+          "explanation": "Correct. Application-data dependency — this directly answers the question. In Java / OOP, this is the standard/principle being tested."
+        },
+        {
+          "key": "B",
+          "text": "Sharing of data",
+          "explanation": "Incorrect. Sharing of data — This statement is generally true, but the question asks for the wrong/not case. The correct choice is A."
+        },
+        {
+          "key": "C",
+          "text": "Self-describing",
+          "explanation": "Incorrect. Self-describing — This statement is generally true, but the question asks for the wrong/not case. The correct choice is A."
+        },
+        {
+          "key": "D",
+          "text": "Data abstraction",
+          "explanation": "Incorrect. Data abstraction — This statement is generally true, but the question asks for the wrong/not case. The correct choice is A."
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Java / OOP): Application-data dependency",
+      "sourceExamId": "2015",
+      "sourceQuestionId": 70,
+      "sourceExamTitle": "Exit Exam 2015"
+    },
+    {
+      "examNumber": 86,
+      "id": 11,
+      "topic": "Database",
+      "text": "Which one of the following can be among possible source of unstructured data?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Apple employee database",
+          "explanation": "Incorrect. Apple employee database — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "B",
+          "text": "RDBMS systems",
+          "explanation": "Incorrect. RDBMS systems — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "C",
+          "text": "Registrar student database",
+          "explanation": "Incorrect. Registrar student database — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "D",
+          "text": "Google search engine",
+          "explanation": "Correct. Google search engine — this directly answers the question. In Java / OOP, this is the standard/principle being tested."
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Java / OOP): Google search engine",
+      "sourceExamId": "2015",
+      "sourceQuestionId": 79,
+      "sourceExamTitle": "Exit Exam 2015"
+    },
+    {
+      "examNumber": 97,
+      "id": 12,
+      "topic": "Database",
+      "text": "Assume that you are assigned to design a dormitory management database. A dormitory is located on some building and has attributes specified as DORM (DormId, floornumber) and a DormId is primary key based on university’s rule, six students can be assigned to one dorm. Students can be tracked with attributes STUDENT (IdNo, Name, Departement) and IdNo is a primary key. Based on this scenario description, which of the following SQL statement is correct to establish relationship between DORM and STUDENT assuming DorId is foreign key?",
+      "options": [
+        {
+          "key": "A",
+          "text": "FOREIGN KEY (DorID) REFERENCES DORM(DormID)",
+          "explanation": "Correct. FOREIGN KEY (DorID) REFERENCES DORM(DormID) — this directly answers the question. In Java / OOP, this is the standard/principle being tested."
+        },
+        {
+          "key": "B",
+          "text": "STUDENT table is a reference relation",
+          "explanation": "Incorrect. STUDENT table is a reference relation — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "C",
+          "text": "FOREIGN KEY (DorID) REFERENCEd by DORM(DormID)",
+          "explanation": "Incorrect. FOREIGN KEY (DorID) REFERENCEd by DORM(DormID) — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "D",
+          "text": "DORM table is a referencing relation",
+          "explanation": "Incorrect. DORM table is a referencing relation — This option does not satisfy what the question is asking. The correct choice is A."
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Java / OOP): FOREIGN KEY (DorID) REFERENCES DORM(DormID)",
+      "sourceExamId": "2015",
+      "sourceQuestionId": 90,
+      "sourceExamTitle": "Exit Exam 2015"
+    },
+    {
+      "examNumber": 1,
+      "id": 13,
+      "topic": "Database",
+      "text": "Consider a relation schema R with attributes α ⊆ R and β ⊆ R. The functional dependency α → β holds on R if, in every legal relation r(R), for all pairs of tuples t1 and t2 in r such that t1[α] = t2[α], we also have t1[β] = t2[β]. This concept is called:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Normalization"
+        },
+        {
+          "key": "B",
+          "text": "Decomposition"
+        },
+        {
+          "key": "C",
+          "text": "Set Theory"
+        },
+        {
+          "key": "D",
+          "text": "Functional Dependency"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Database): Functional Dependency",
+      "sourceExamId": "aau",
+      "sourceQuestionId": 1,
+      "sourceExamTitle": "AAU Model Exit Exam"
+    },
+    {
+      "examNumber": 13,
+      "id": 14,
+      "topic": "Database",
+      "text": "Polymorphism means:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Declaring all the methods of a class as public"
+        },
+        {
+          "key": "B",
+          "text": "Declaring all the attributes of a class as private"
+        },
+        {
+          "key": "C",
+          "text": "Hiding information so it is not accessible to other classes"
+        },
+        {
+          "key": "D",
+          "text": "Having methods or operators with the same name performing different functions"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Database): Having methods or operators with the same name performing different functions",
+      "sourceExamId": "aau",
+      "sourceQuestionId": 13,
+      "sourceExamTitle": "AAU Model Exit Exam"
+    },
+    {
+      "examNumber": 14,
+      "id": 15,
+      "topic": "Database",
+      "text": "What is the use of a content provider in Android?",
+      "options": [
+        {
+          "key": "A",
+          "text": "For entering data in the database"
+        },
+        {
+          "key": "B",
+          "text": "For sharing data between applications"
+        },
+        {
+          "key": "C",
+          "text": "For passing data from one Activity to another"
+        },
+        {
+          "key": "D",
+          "text": "None of the above"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Networking): For sharing data between applications",
+      "sourceExamId": "aau",
+      "sourceQuestionId": 14,
+      "sourceExamTitle": "AAU Model Exit Exam"
+    },
+    {
+      "examNumber": 15,
+      "id": 16,
+      "topic": "Database",
+      "text": "For a binary relationship set R between entity sets A and B, the ______ expresses the number of entities to which another entity can be associated.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Cardinality ratio"
+        },
+        {
+          "key": "B",
+          "text": "Limited ratio"
+        },
+        {
+          "key": "C",
+          "text": "Degree ratio"
+        },
+        {
+          "key": "D",
+          "text": "Participation constraints"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Database): Cardinality ratio",
+      "sourceExamId": "aau",
+      "sourceQuestionId": 15,
+      "sourceExamTitle": "AAU Model Exit Exam"
+    },
+    {
+      "examNumber": 26,
+      "id": 17,
+      "topic": "Database",
+      "text": "The purpose of a foreign key is to identify a particular row in the:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Parent and child tables simultaneously"
+        },
+        {
+          "key": "B",
+          "text": "Referenced (parent) table"
+        },
+        {
+          "key": "C",
+          "text": "Child table only"
+        },
+        {
+          "key": "D",
+          "text": "All of the above"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Database): Referenced (parent) table",
+      "sourceExamId": "aau",
+      "sourceQuestionId": 26,
+      "sourceExamTitle": "AAU Model Exit Exam"
+    },
+    {
+      "examNumber": 28,
+      "id": 18,
+      "topic": "Database",
+      "text": "Several architecture development methods suggest a view-based approach. Which of the following views are most often used?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Context view"
+        },
+        {
+          "key": "B",
+          "text": "Configuration view"
+        },
+        {
+          "key": "C",
+          "text": "Building Block/Component view"
+        },
+        {
+          "key": "D",
+          "text": "Physical database view"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (SE): Context view",
+      "sourceExamId": "aau",
+      "sourceQuestionId": 28,
+      "sourceExamTitle": "AAU Model Exit Exam"
+    },
+    {
+      "examNumber": 33,
+      "id": 19,
+      "topic": "Database",
+      "text": "An attribute takes a ______ value when an entity does not have a value for it.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Not Applicable"
+        },
+        {
+          "key": "B",
+          "text": "Null"
+        },
+        {
+          "key": "C",
+          "text": "Default"
+        },
+        {
+          "key": "D",
+          "text": "Zero"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Database): Null",
+      "sourceExamId": "aau",
+      "sourceQuestionId": 33,
+      "sourceExamTitle": "AAU Model Exit Exam"
+    },
+    {
+      "examNumber": 38,
+      "id": 20,
+      "topic": "Database",
+      "text": "Which data structure allows deleting elements from the front and inserting at the rear?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Deque"
+        },
+        {
+          "key": "B",
+          "text": "Binary search tree"
+        },
+        {
+          "key": "C",
+          "text": "Queue"
+        },
+        {
+          "key": "D",
+          "text": "Stack"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Data Structures): Queue",
+      "sourceExamId": "aau",
+      "sourceQuestionId": 38,
+      "sourceExamTitle": "AAU Model Exit Exam"
+    },
+    {
+      "examNumber": 39,
+      "id": 21,
+      "topic": "Database",
+      "text": "What effect does achievement of quality attribute will have on softwsare product?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The achievement of quality attribute will always have a negative effect"
+        },
+        {
+          "key": "B",
+          "text": "It is non deterministic"
+        },
+        {
+          "key": "C",
+          "text": "The achievement of quality attribute will always have a positive effect"
+        },
+        {
+          "key": "D",
+          "text": "The achievement of quality attribute will have a positive as well as negative effect"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Database): The achievement of quality attribute will have a positive as well as negative effect",
+      "sourceExamId": "aau",
+      "sourceQuestionId": 39,
+      "sourceExamTitle": "AAU Model Exit Exam"
+    },
+    {
+      "examNumber": 44,
+      "id": 22,
+      "topic": "Database",
+      "text": "An ER diagram can express the overall .00 ot a database graphically",
+      "options": [
+        {
+          "key": "A",
+          "text": "View Structure"
+        },
+        {
+          "key": "B",
+          "text": "Model Structure"
+        },
+        {
+          "key": "C",
+          "text": "Architectural Structure"
+        },
+        {
+          "key": "D",
+          "text": "Logical Structure"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Database): Logical Structure",
+      "sourceExamId": "aau",
+      "sourceQuestionId": 44,
+      "sourceExamTitle": "AAU Model Exit Exam"
+    },
+    {
+      "examNumber": 49,
+      "id": 23,
+      "topic": "Database",
+      "text": "Identify a possible source of unstructured data:",
+      "options": [
+        {
+          "key": "A",
+          "text": "RDBMS tables"
+        },
+        {
+          "key": "B",
+          "text": "University student registration database"
+        },
+        {
+          "key": "C",
+          "text": "Twitter feeds"
+        },
+        {
+          "key": "D",
+          "text": "Employee payroll table"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (General): Twitter feeds",
+      "sourceExamId": "aau",
+      "sourceQuestionId": 49,
+      "sourceExamTitle": "AAU Model Exit Exam"
+    },
+    {
+      "examNumber": 62,
+      "id": 24,
+      "topic": "Database",
+      "text": "For a binary relationship with mapping cardinality ONE-TO-ONE between entity sets A and B:",
+      "options": [
+        {
+          "key": "A",
+          "text": "An entity in A may map to many in B and vice versa"
+        },
+        {
+          "key": "B",
+          "text": "An entity in A may map to many in B; an entity in B maps to at most one in A"
+        },
+        {
+          "key": "C",
+          "text": "An entity in A maps to at most one in B and an entity in B maps to at most one in A"
+        },
+        {
+          "key": "D",
+          "text": "An entity in A maps to at most one in B; an entity in B may map to many in A"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Database): An entity in A maps to at most one in B and an entity in B maps to at most one in A",
+      "sourceExamId": "aau",
+      "sourceQuestionId": 62,
+      "sourceExamTitle": "AAU Model Exit Exam"
+    },
+    {
+      "examNumber": 66,
+      "id": 25,
+      "topic": "Database",
+      "text": "What is Android?",
+      "options": [
+        {
+          "key": "A",
+          "text": "An operating system"
+        },
+        {
+          "key": "B",
+          "text": "A web server"
+        },
+        {
+          "key": "C",
+          "text": "A database engine"
+        },
+        {
+          "key": "D",
+          "text": "None of the above"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Android): An operating system",
+      "sourceExamId": "aau",
+      "sourceQuestionId": 66,
+      "sourceExamTitle": "AAU Model Exit Exam"
+    },
+    {
+      "examNumber": 67,
+      "id": 26,
+      "topic": "Database",
+      "text": "Which sorting algorithm is a divide-and-conquer type?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Bubble sort"
+        },
+        {
+          "key": "B",
+          "text": "Insertion sort"
+        },
+        {
+          "key": "C",
+          "text": "Selection sort"
+        },
+        {
+          "key": "D",
+          "text": "Quick sort"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Data Structures): Quick sort",
+      "sourceExamId": "aau",
+      "sourceQuestionId": 67,
+      "sourceExamTitle": "AAU Model Exit Exam"
+    },
+    {
+      "examNumber": 69,
+      "id": 27,
+      "topic": "Database",
+      "text": "Which SQL statement gives every employee a 10% raise?",
+      "options": [
+        {
+          "key": "A",
+          "text": "CHANGE Emp SET salary = salary * 1.1"
+        },
+        {
+          "key": "B",
+          "text": "UPDATE Emp SET salary = salary * 1.1"
+        },
+        {
+          "key": "C",
+          "text": "ALTER Emp SET salary = salary * 1.1"
+        },
+        {
+          "key": "D",
+          "text": "MODIFY Emp SET salary = salary * 1.1"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Database): UPDATE Emp SET salary = salary * 1.1",
+      "sourceExamId": "aau",
+      "sourceQuestionId": 69,
+      "sourceExamTitle": "AAU Model Exit Exam"
+    },
+    {
+      "examNumber": 18,
+      "id": 28,
+      "topic": "Database",
+      "text": "Of the following one cannot be describe about the difference between Abstract class and Interface in java",
+      "options": [
+        {
+          "key": "A",
+          "text": "(option unclear in OCR)"
+        },
+        {
+          "key": "B",
+          "text": "Interfaces help define the identity of a classe whereas an abstract class defines a class's peripheral abilities (D"
+        },
+        {
+          "key": "C",
+          "text": "In Interface does not have access modifiers. Everything defined inside the Interface is assumed to have a public modifier. whereas Abstract Class can have an access modifier"
+        },
+        {
+          "key": "D",
+          "text": "In Interface, a class can implement multiple interfaces, whereas the class can inherit only one Abstract Class https:.// / & &page= 17 p wm"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Database): Interfaces help define the identity of a classe whereas an abstract class defines a class's peripheral abilities (D",
+      "sourceExamId": "bdu",
+      "sourceQuestionId": 18,
+      "sourceExamTitle": "BDU Model Exit Exam"
+    },
+    {
+      "examNumber": 22,
+      "id": 29,
+      "topic": "Database",
+      "text": "eeeeæ eæee 25 Hide all YeneTube YeneTube",
+      "options": [
+        {
+          "key": "A",
+          "text": "PHP is ane of the client-side scripting language, like JavaScript"
+        },
+        {
+          "key": "B",
+          "text": "PHP files are returned to the browser as plain HTML text"
+        },
+        {
+          "key": "C",
+          "text": "PHP is one of an open-source software that supports only MYSQL databases"
+        },
+        {
+          "key": "D",
+          "text": "can have a file extension of \".pph\", \".pph3\". or \",phmtl\""
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Database): PHP is ane of the client-side scripting language, like JavaScript",
+      "sourceExamId": "bdu",
+      "sourceQuestionId": 22,
+      "sourceExamTitle": "BDU Model Exit Exam"
+    },
+    {
+      "examNumber": 39,
+      "id": 30,
+      "topic": "Database",
+      "text": "If a transaction does not modify the database until it has committed, it is said to use which technique",
+      "options": [
+        {
+          "key": "A",
+          "text": "Undo"
+        },
+        {
+          "key": "B",
+          "text": "Deferred modification"
+        },
+        {
+          "key": "C",
+          "text": "Late modification"
+        },
+        {
+          "key": "D",
+          "text": "Immediate modification PR EVIOUS PAGE"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (General): Deferred modification",
+      "sourceExamId": "bdu",
+      "sourceQuestionId": 39,
+      "sourceExamTitle": "BDU Model Exit Exam"
+    },
+    {
+      "examNumber": 48,
+      "id": 31,
+      "topic": "Database",
+      "text": "Consider a system where its database withstands growing numbers of queries\" What kind of NFR the system is providing",
+      "options": [
+        {
+          "key": "A",
+          "text": "Maintainability"
+        },
+        {
+          "key": "B",
+          "text": "Portability"
+        },
+        {
+          "key": "C",
+          "text": "Reliability"
+        },
+        {
+          "key": "D",
+          "text": "Scalability PR EVIOUS PAGE"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (General): Scalability PR EVIOUS PAGE",
+      "sourceExamId": "bdu",
+      "sourceQuestionId": 48,
+      "sourceExamTitle": "BDU Model Exit Exam"
+    },
+    {
+      "examNumber": 53,
+      "id": 32,
+      "topic": "Database",
+      "text": "How do you prevent SQL injection",
+      "options": [
+        {
+          "key": "A",
+          "text": "Merge tables"
+        },
+        {
+          "key": "B",
+          "text": "Escape queries"
+        },
+        {
+          "key": "C",
+          "text": "Interrupt requests"
+        },
+        {
+          "key": "D",
+          "text": "All"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Database): Escape queries",
+      "sourceExamId": "bdu",
+      "sourceQuestionId": 53,
+      "sourceExamTitle": "BDU Model Exit Exam"
+    },
+    {
+      "examNumber": 55,
+      "id": 33,
+      "topic": "Database",
+      "text": "magne a you re crea Inga e or app, In addition to simple text editing, your editor can format text, insert inline imagese etc. At some point, you decided to let users undo any operations carried out on the text. This feature has become so common over the years that nowadays people expect every app to have it. For the implementation, you chose to take the direct approach. Before performing any operation, the app records the state of all objects and saves it in some storage. Later, when a user decides to revert an action, the app fetches the latest snapshot from the history and uses it to restore the state of all objects. Choose the best design pattern that best suits for the problem mentioned",
+      "options": [
+        {
+          "key": "A",
+          "text": "Mediator . Memento"
+        },
+        {
+          "key": "B",
+          "text": "(option unclear in OCR)"
+        },
+        {
+          "key": "C",
+          "text": "Observer d Iterator eeeæ eeeee eeeeg sofeng-2015: Modem 7"
+        },
+        {
+          "key": "D",
+          "text": "(option unclear in OCR)"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Networking): Mediator . Memento",
+      "sourceExamId": "bdu",
+      "sourceQuestionId": 55,
+      "sourceExamTitle": "BDU Model Exit Exam"
+    },
+    {
+      "examNumber": 69,
+      "id": 34,
+      "topic": "Database",
+      "text": "What is the aim of nasql",
+      "options": [
+        {
+          "key": "A",
+          "text": "NoSQL is not suitable for storing structured data"
+        },
+        {
+          "key": "B",
+          "text": "NoSQL databases allow staring non- structured data o"
+        },
+        {
+          "key": "C",
+          "text": "NoSQL is a new data format to stare large datasets"
+        },
+        {
+          "key": "D",
+          "text": "NoSQL provides an alternative to SQL databases to store textual data"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Database): NoSQL databases allow staring non- structured data o",
+      "sourceExamId": "bdu",
+      "sourceQuestionId": 69,
+      "sourceExamTitle": "BDU Model Exit Exam"
+    },
+    {
+      "examNumber": 72,
+      "id": 35,
+      "topic": "Database",
+      "text": "What refers to the value associated with a specific attribute of an object and to any actions or side",
+      "options": [
+        {
+          "key": "A",
+          "text": "Object"
+        },
+        {
+          "key": "B",
+          "text": "None cv State d Interface PR EVIOUS PAGE"
+        },
+        {
+          "key": "C",
+          "text": "(option unclear in OCR)"
+        },
+        {
+          "key": "D",
+          "text": "(option unclear in OCR)"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Java / OOP): (option unclear in OCR)",
+      "sourceExamId": "bdu",
+      "sourceQuestionId": 72,
+      "sourceExamTitle": "BDU Model Exit Exam"
+    },
+    {
+      "examNumber": 80,
+      "id": 36,
+      "topic": "Database",
+      "text": "Which of the following is not a NoSQL database",
+      "options": [
+        {
+          "key": "A",
+          "text": "SQL Server"
+        },
+        {
+          "key": "B",
+          "text": "Cassandra"
+        },
+        {
+          "key": "C",
+          "text": "MongoDB"
+        },
+        {
+          "key": "D",
+          "text": "None of the above"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Database): None of the above",
+      "sourceExamId": "bdu",
+      "sourceQuestionId": 80,
+      "sourceExamTitle": "BDU Model Exit Exam"
+    },
+    {
+      "examNumber": 12,
+      "id": 37,
+      "topic": "Database",
+      "text": "Which of the following is true regarding the referential triggered action ON UPDATE CASCADE",
+      "options": [
+        {
+          "key": "A",
+          "text": "sets the referencing primary key to NULL"
+        },
+        {
+          "key": "B",
+          "text": "change the value of the referencing foreign key attribute to the updated primary key value for all the referencing tuples"
+        },
+        {
+          "key": "C",
+          "text": "sets the referencing primary key of the base table to default value"
+        },
+        {
+          "key": "D",
+          "text": "deletes all tuples of the referencing table"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Database): change the value of the referencing foreign key attribute to the updated primary key value for all the referencing tuple…",
+      "sourceExamId": "model1",
+      "sourceQuestionId": 12,
+      "sourceExamTitle": "MoEE Model Exam 1"
+    },
+    {
+      "examNumber": 42,
+      "id": 38,
+      "topic": "Database",
+      "text": "The keyword used in the SELECT clause to eliminate duplicate tuples from the result of an SOL query is",
+      "options": [
+        {
+          "key": "A",
+          "text": "UNIQUE"
+        },
+        {
+          "key": "B",
+          "text": "DISTINCT"
+        },
+        {
+          "key": "C",
+          "text": "Group By"
+        },
+        {
+          "key": "D",
+          "text": "PRIMARY"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Database): DISTINCT",
+      "sourceExamId": "model1",
+      "sourceQuestionId": 42,
+      "sourceExamTitle": "MoEE Model Exam 1"
+    },
+    {
+      "examNumber": 57,
+      "id": 39,
+      "topic": "Database",
+      "text": "Which of the following android component displays the part of an activity on screen?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Manifest"
+        },
+        {
+          "key": "B",
+          "text": "Intent"
+        },
+        {
+          "key": "C",
+          "text": "View"
+        },
+        {
+          "key": "D",
+          "text": "Fragment"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Database): View",
+      "sourceExamId": "model1",
+      "sourceQuestionId": 57,
+      "sourceExamTitle": "MoEE Model Exam 1"
+    },
+    {
+      "examNumber": 58,
+      "id": 40,
+      "topic": "Database",
+      "text": "Assume that you are assigned to design a dormitory management database. A dormitory is located on some building and has attributes specified as DORM (DormID, floornumber) and DormID is a primary key. Based on university's rule, six students can be assigned to one dorm. Students can be tracked with attributes STUDENT (IdNo, Name, Department) and IdNo is primary key. Referring to this scenario, if there is a rule that says every DORM must have at least one student, which of the following is true?",
+      "options": [
+        {
+          "key": "A",
+          "text": "STUDENT has a total participation"
+        },
+        {
+          "key": "B",
+          "text": "STUDENT has existence dependency"
+        },
+        {
+          "key": "C",
+          "text": "DORM has partial participation"
+        },
+        {
+          "key": "D",
+          "text": "DORM has existence dependency"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Database): DORM has existence dependency",
+      "sourceExamId": "model1",
+      "sourceQuestionId": 58,
+      "sourceExamTitle": "MoEE Model Exam 1"
+    },
+    {
+      "examNumber": 72,
+      "id": 41,
+      "topic": "Database",
+      "text": "In a relation design, primary key is a critical constraint that should be considered. It should be defined:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Non editable"
+        },
+        {
+          "key": "B",
+          "text": "NOT NULL"
+        },
+        {
+          "key": "C",
+          "text": "Within limited value"
+        },
+        {
+          "key": "D",
+          "text": "NULL"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Database): NOT NULL",
+      "sourceExamId": "model1",
+      "sourceQuestionId": 72,
+      "sourceExamTitle": "MoEE Model Exam 1"
+    },
+    {
+      "examNumber": 84,
+      "id": 42,
+      "topic": "Database",
+      "text": "Database approach supports different user groups who might have different interest in different parts of the database. This characteristic of data base describes:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Parallel transaction"
+        },
+        {
+          "key": "B",
+          "text": "Multiple users"
+        },
+        {
+          "key": "C",
+          "text": "Multiple views"
+        },
+        {
+          "key": "D",
+          "text": "Concurrent transaction"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Database): Multiple views",
+      "sourceExamId": "model1",
+      "sourceQuestionId": 84,
+      "sourceExamTitle": "MoEE Model Exam 1"
+    },
+    {
+      "examNumber": 95,
+      "id": 43,
+      "topic": "Database",
+      "text": "Refer to the following schemas. Attributes underlined are primary keys HOTEL (Hotel_id integer, Hotel_ Name: string, Sub city:; string) ROOM (Room_id: integer, Hotel _id: integer,Price: integen) BOOKING (Hotel id: integer, Room_id: integer,Date_from: date, Date_to: date) GUEST (Guest_id: integer,Name: string,Country: string) Considering the above schema, which of the following SOL statement retrieves Hotel names with their respective Room_id",
+      "options": [
+        {
+          "key": "A",
+          "text": "SELECT Hotel_ Name, Room_Id FROM HOTEL, ROOM WHERE ROOM.Hotel_id= HOTEL. Hotel_id"
+        },
+        {
+          "key": "B",
+          "text": "SELECT Hotel_Name, Room_ld FROM HOTEL, ROOM WHERE ROOM.Room_id= HOTEL. Hotel_id"
+        },
+        {
+          "key": "C",
+          "text": "SELECT Hotel_Name, Room_ld FROM HOTEL, ROOM WHERE ROOM. Room_id= HOTEL. Hotel_id and ROOM. Hotel_id=HOTEL. Hotel_id"
+        },
+        {
+          "key": "D",
+          "text": "SELECT Hotel_Name, Room_ld FROM HOTEL, ROOM"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Database): SELECT Hotel_ Name, Room_Id FROM HOTEL, ROOM WHERE ROOM.Hotel_id= HOTEL. Hotel_id",
+      "sourceExamId": "model1",
+      "sourceQuestionId": 95,
+      "sourceExamTitle": "MoEE Model Exam 1"
+    },
+    {
+      "examNumber": 37,
+      "id": 44,
+      "topic": "Database",
+      "text": "What is the purpose of a primary key in a database table?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To allow duplicate records"
+        },
+        {
+          "key": "B",
+          "text": "To uniquely identify each record"
+        },
+        {
+          "key": "C",
+          "text": "To store foreign keys"
+        },
+        {
+          "key": "D",
+          "text": "To index all columns"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Database): To uniquely identify each record",
+      "sourceExamId": "moe2025",
+      "sourceQuestionId": 37,
+      "sourceExamTitle": "2025 MoEE Exit Exam"
+    },
+    {
+      "examNumber": 38,
+      "id": 45,
+      "topic": "Database",
+      "text": "Which SQL statement is used to modify existing data in a table?",
+      "options": [
+        {
+          "key": "A",
+          "text": "INSERT"
+        },
+        {
+          "key": "B",
+          "text": "UPDATE"
+        },
+        {
+          "key": "C",
+          "text": "DELETE"
+        },
+        {
+          "key": "D",
+          "text": "SELECT"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Database): UPDATE",
+      "sourceExamId": "moe2025",
+      "sourceQuestionId": 38,
+      "sourceExamTitle": "2025 MoEE Exit Exam"
+    },
+    {
+      "examNumber": 39,
+      "id": 46,
+      "topic": "Database",
+      "text": "What is the result of the following SQL query: SELECT * FROM Students WHERE Age > 20;?",
+      "options": [
+        {
+          "key": "A",
+          "text": "All records from Students"
+        },
+        {
+          "key": "B",
+          "text": "Records from Students where Age is greater than 20"
+        },
+        {
+          "key": "C",
+          "text": "Records from Students where Age is less than 20"
+        },
+        {
+          "key": "D",
+          "text": "No records"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Database): Records from Students where Age is greater than 20",
+      "sourceExamId": "moe2025",
+      "sourceQuestionId": 39,
+      "sourceExamTitle": "2025 MoEE Exit Exam"
+    },
+    {
+      "examNumber": 40,
+      "id": 47,
+      "topic": "Database",
+      "text": "What is normalization in database design?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Adding redundant data to tables"
+        },
+        {
+          "key": "B",
+          "text": "Organizing data to eliminate redundancy"
+        },
+        {
+          "key": "C",
+          "text": "Creating multiple databases"
+        },
+        {
+          "key": "D",
+          "text": "Deleting unused tables"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Database): Organizing data to eliminate redundancy",
+      "sourceExamId": "moe2025",
+      "sourceQuestionId": 40,
+      "sourceExamTitle": "2025 MoEE Exit Exam"
+    },
+    {
+      "examNumber": 41,
+      "id": 48,
+      "topic": "Database",
+      "text": "Which type of relationship exists between two tables when a primary key in one table is linked to a foreign key in another?",
+      "options": [
+        {
+          "key": "A",
+          "text": "One-to-One"
+        },
+        {
+          "key": "B",
+          "text": "One-to-Many"
+        },
+        {
+          "key": "C",
+          "text": "Many-to-Many"
+        },
+        {
+          "key": "D",
+          "text": "No relationship"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Database): One-to-Many",
+      "sourceExamId": "moe2025",
+      "sourceQuestionId": 41,
+      "sourceExamTitle": "2025 MoEE Exit Exam"
+    },
+    {
+      "examNumber": 42,
+      "id": 49,
+      "topic": "Database",
+      "text": "What does ACID stand for in database systems?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Atomicity, Consistency, Isolation, Durability"
+        },
+        {
+          "key": "B",
+          "text": "Accuracy, Completeness, Integrity, Dependability"
+        },
+        {
+          "key": "C",
+          "text": "Adaptability, Connectivity, Isolation, Durability"
+        },
+        {
+          "key": "D",
+          "text": "Atomicity, Consistency, Integration, Durability"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Database): Atomicity, Consistency, Isolation, Durability",
+      "sourceExamId": "moe2025",
+      "sourceQuestionId": 42,
+      "sourceExamTitle": "2025 MoEE Exit Exam"
+    },
+    {
+      "examNumber": 9,
+      "id": 50,
+      "topic": "Database",
+      "text": "Rot yet .nswered Marked out oi 1.00 Which one of the following can be among possible sources of unstructured data? o a. c.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Google search engine RDBMS systems"
+        },
+        {
+          "key": "B",
+          "text": "Apple"
+        },
+        {
+          "key": "C",
+          "text": "Employee database"
+        },
+        {
+          "key": "D",
+          "text": "Registrar student database"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Database): Google search engine RDBMS systems",
+      "sourceExamId": "2016",
+      "sourceQuestionId": 9,
+      "sourceExamTitle": "2016 Software Engineering Exit Exam"
+    },
+    {
+      "examNumber": 11,
+      "id": 51,
+      "topic": "Database",
+      "text": "' What we use to pass the data between activities in Android? a. b. Broadcast receiver",
+      "options": [
+        {
+          "key": "A",
+          "text": "PostgreSQL Database"
+        },
+        {
+          "key": "B",
+          "text": "Intent"
+        },
+        {
+          "key": "C",
+          "text": "Content"
+        },
+        {
+          "key": "D",
+          "text": "Provider"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Database): Content",
+      "sourceExamId": "2016",
+      "sourceQuestionId": 11,
+      "sourceExamTitle": "2016 Software Engineering Exit Exam"
+    },
+    {
+      "examNumber": 36,
+      "id": 52,
+      "topic": "Database",
+      "text": "While optimizing our relation, if we found that no multivalued attributes and no partial dependencies exist in a relation, then the relation is in what normal form?",
+      "options": [
+        {
+          "key": "A",
+          "text": "2NF"
+        },
+        {
+          "key": "B",
+          "text": "4NF"
+        },
+        {
+          "key": "C",
+          "text": "1NF"
+        },
+        {
+          "key": "D",
+          "text": "3NF"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Database): 2NF",
+      "sourceExamId": "2016",
+      "sourceQuestionId": 36,
+      "sourceExamTitle": "2016 Software Engineering Exit Exam"
+    },
+    {
+      "examNumber": 44,
+      "id": 53,
+      "topic": "Database",
+      "text": "Rot yet enswared 1.00 V Which one of the fallowing is not among the characterizing features of database approach? o d.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sharing of data"
+        },
+        {
+          "key": "B",
+          "text": "Application-data dependency"
+        },
+        {
+          "key": "C",
+          "text": "Self-describing"
+        },
+        {
+          "key": "D",
+          "text": "Data abstraction"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Database): Data abstraction",
+      "sourceExamId": "2016",
+      "sourceQuestionId": 44,
+      "sourceExamTitle": "2016 Software Engineering Exit Exam"
+    },
+    {
+      "examNumber": 49,
+      "id": 54,
+      "topic": "Database",
+      "text": "\"Database is a logically coherent collection of data with some inherent meaning\" describes that:",
+      "options": [
+        {
+          "key": "A",
+          "text": "The entity should be a physical object"
+        },
+        {
+          "key": "B",
+          "text": "The number of attributes should be limited"
+        },
+        {
+          "key": "C",
+          "text": "There should be one primary key attribute"
+        },
+        {
+          "key": "D",
+          "text": "All attributes of the entity should be related"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Database): All attributes of the entity should be related",
+      "sourceExamId": "2016",
+      "sourceQuestionId": 49,
+      "sourceExamTitle": "2016 Software Engineering Exit Exam"
+    },
+    {
+      "examNumber": 60,
+      "id": 55,
+      "topic": "Database",
+      "text": "For the schema HOTEL (Hotel_id: integer, Hotel_Name: string, Sub_city: string), which SQL statement correctly inserts tuples into the HOTEL relation? (Assume Hotel_id is the primary key.)",
+      "options": [
+        {
+          "key": "A",
+          "text": "INSERT INTO HOTEL VALUES('Hilton','Yeka');"
+        },
+        {
+          "key": "B",
+          "text": "INSERT INTO HOTEL VALUES;"
+        },
+        {
+          "key": "C",
+          "text": "INSERT VALUES INTO HOTEL(Hotel_id, Hotel_Name, Sub_city);"
+        },
+        {
+          "key": "D",
+          "text": "INSERT INTO HOTEL(Hotel_id, Hotel_Name, Sub_city) VALUES(1, 'Hilton', 'Yeka');"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Database): INSERT INTO HOTEL(Hotel_id, Hotel_Name, Sub_city) VALUES(1, 'Hilton', 'Yeka');",
+      "sourceExamId": "2016",
+      "sourceQuestionId": 60,
+      "sourceExamTitle": "2016 Software Engineering Exit Exam"
+    },
+    {
+      "examNumber": 73,
+      "id": 56,
+      "topic": "Database",
+      "text": "1.00 Assume that you are assigned to design a dormitory management database. A dormitory is located on some building and has attributes specified as DORM (DormlD, floornumber) and DormlD is a primary key.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Based on university's rule, six students can be assigned to one dorm."
+        },
+        {
+          "key": "B",
+          "text": "Students can be tracked with attributes STUDENT (idNo, Name, Department) and ldNo is primary key."
+        },
+        {
+          "key": "C",
+          "text": "Based on this scenario description, which of the following SQL statement is correct to establish relationship between DORM and STUDENT assuming"
+        },
+        {
+          "key": "D",
+          "text": "DorlD is foreign key?"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Database): Students can be tracked with attributes STUDENT (idNo, Name, Department) and ldNo is primary key.",
+      "sourceExamId": "2016",
+      "sourceQuestionId": 73,
+      "sourceExamTitle": "2016 Software Engineering Exit Exam"
+    },
+    {
+      "examNumber": 89,
+      "id": 57,
+      "topic": "Database",
+      "text": "1.00 question Which one of the following is an appropriate sequence of database design processes? o b. Logical database designi Enterprise data modeling, Physical database design, Database implementation Enterprise data modeling, Logical database design, Database implementatiom",
+      "options": [
+        {
+          "key": "A",
+          "text": "Physical database design"
+        },
+        {
+          "key": "B",
+          "text": "Logical database design, Enterprise data modeling, Physical database designe"
+        },
+        {
+          "key": "C",
+          "text": "Database implementation"
+        },
+        {
+          "key": "D",
+          "text": "Enterprise data modeling, Logical database design, Physical database design, Databaseimplementation"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Database): Physical database design",
+      "sourceExamId": "2016",
+      "sourceQuestionId": 89,
+      "sourceExamTitle": "2016 Software Engineering Exit Exam"
+    },
+    {
+      "examNumber": 99,
+      "id": 58,
+      "topic": "Database",
+      "text": "Which one of the following is an appropriate sequence of database design processes?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Logical database design, Enterprise data modeling, Physical database design, Database implementation"
+        },
+        {
+          "key": "B",
+          "text": "Enterprise data modeling, Logical database design, Database implementation, Physical database design"
+        },
+        {
+          "key": "C",
+          "text": "Physical database design, Logical database design, Enterprise data modeling, Database implementation"
+        },
+        {
+          "key": "D",
+          "text": "Enterprise data modeling, Logical database design, Physical database design, Database implementation"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Database): Enterprise data modeling, Logical database design, Physical database design, Database implementation",
+      "sourceExamId": "2016",
+      "sourceQuestionId": 99,
+      "sourceExamTitle": "2016 Software Engineering Exit Exam"
+    }
+  ],
+  "dataRevision": 1
+}

@@ -1,0 +1,1273 @@
+{
+  "title": "Project Management — Course Practice",
+  "courseId": "project-management",
+  "topics": [
+    "Project Management"
+  ],
+  "total": 43,
+  "focusGuide": {
+    "Project Management": "Study agile vs waterfall, WBS, stakeholder management, Tuckman model, and ROI."
+  },
+  "questions": [
+    {
+      "examNumber": 13,
+      "id": 1,
+      "topic": "Project Management",
+      "text": "If the estimate the total discounted benefits for a project is birr 120,000 and total discounted cost is birr 100,000 what is the estimated return on investment (ROI) percentage?",
+      "options": [
+        {
+          "key": "A",
+          "text": "20%",
+          "explanation": "Correct. 20% — this directly answers the question. In Project Management, this is the standard/principle being tested."
+        },
+        {
+          "key": "B",
+          "text": "12%",
+          "explanation": "Incorrect. 12% — ROI = (Benefits − Cost) / Cost × 100 = (120000−100000)/100000 = 20%. The correct choice is A."
+        },
+        {
+          "key": "C",
+          "text": "30%",
+          "explanation": "Incorrect. 30% — ROI = (Benefits − Cost) / Cost × 100 = (120000−100000)/100000 = 20%. The correct choice is A."
+        },
+        {
+          "key": "D",
+          "text": "10%",
+          "explanation": "Incorrect. 10% — ROI = (Benefits − Cost) / Cost × 100 = (120000−100000)/100000 = 20%. The correct choice is A."
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Project Management): 20%",
+      "sourceExamId": "2015",
+      "sourceQuestionId": 9,
+      "sourceExamTitle": "Exit Exam 2015"
+    },
+    {
+      "examNumber": 45,
+      "id": 2,
+      "topic": "Project Management",
+      "text": "What would be the most likely consequence if every software stakeholders were rushing to be approved for their requirement without discussing with other stakeholders?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Attains the project schedule",
+          "explanation": "Incorrect. Attains the project schedule — This option does not satisfy what the question is asking. The correct choice is C."
+        },
+        {
+          "key": "B",
+          "text": "Results in excess requirements",
+          "explanation": "Incorrect. Results in excess requirements — This option does not satisfy what the question is asking. The correct choice is C."
+        },
+        {
+          "key": "C",
+          "text": "leads to conflict requirement",
+          "explanation": "Correct. leads to conflict requirement — this directly answers the question. In Project Management, this is the standard/principle being tested."
+        },
+        {
+          "key": "D",
+          "text": "Requirement become unambiguous",
+          "explanation": "Incorrect. Requirement become unambiguous — This option does not satisfy what the question is asking. The correct choice is C."
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Project Management): leads to conflict requirement",
+      "sourceExamId": "2015",
+      "sourceQuestionId": 38,
+      "sourceExamTitle": "Exit Exam 2015"
+    },
+    {
+      "examNumber": 96,
+      "id": 3,
+      "topic": "Project Management",
+      "text": "Which software model would you apply for business operating in a changing environment where the initial requirements in inevitably change due to some internal and external factors?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Agile development method",
+          "explanation": "Correct. Agile development method — this directly answers the question. In Project Management, this is the standard/principle being tested."
+        },
+        {
+          "key": "B",
+          "text": "Spiral model",
+          "explanation": "Incorrect. Spiral model — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "C",
+          "text": "Water fall model",
+          "explanation": "Incorrect. Water fall model — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "D",
+          "text": "Code and run",
+          "explanation": "Incorrect. Code and run — This option does not satisfy what the question is asking. The correct choice is A."
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Project Management): Agile development method",
+      "sourceExamId": "2015",
+      "sourceQuestionId": 89,
+      "sourceExamTitle": "Exit Exam 2015"
+    },
+    {
+      "examNumber": 43,
+      "id": 4,
+      "topic": "Project Management",
+      "text": "The lowest level of work on a project schedule is called a:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Work product"
+        },
+        {
+          "key": "B",
+          "text": "Milestone"
+        },
+        {
+          "key": "C",
+          "text": "Task set"
+        },
+        {
+          "key": "D",
+          "text": "Task"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (PM): Task",
+      "sourceExamId": "aau",
+      "sourceQuestionId": 43,
+      "sourceExamTitle": "AAU Model Exit Exam"
+    },
+    {
+      "examNumber": 84,
+      "id": 5,
+      "topic": "Project Management",
+      "text": "Which agile method uses the metaphor of a team moving the ball downfield in an apparently ad hoc manner?",
+      "options": [
+        {
+          "key": "A",
+          "text": "RAD"
+        },
+        {
+          "key": "B",
+          "text": "DSDM"
+        },
+        {
+          "key": "C",
+          "text": "Evolutionary waterfall"
+        },
+        {
+          "key": "D",
+          "text": "Scrum"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (PM): Scrum",
+      "sourceExamId": "aau",
+      "sourceQuestionId": 84,
+      "sourceExamTitle": "AAU Model Exit Exam"
+    },
+    {
+      "examNumber": 91,
+      "id": 6,
+      "topic": "Project Management",
+      "text": "The specific aet of sequential tasks upon which the prpject completion date depends or the longezt full path iz called .",
+      "options": [
+        {
+          "key": "A",
+          "text": "Full path"
+        },
+        {
+          "key": "B",
+          "text": "Complete path"
+        },
+        {
+          "key": "C",
+          "text": "Critical patn"
+        },
+        {
+          "key": "D",
+          "text": "Project path"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (PM): Critical patn",
+      "sourceExamId": "aau",
+      "sourceQuestionId": 91,
+      "sourceExamTitle": "AAU Model Exit Exam"
+    },
+    {
+      "examNumber": 64,
+      "id": 7,
+      "topic": "Project Management",
+      "text": "The PERT in project management means program evaluation and which technique",
+      "options": [
+        {
+          "key": "A",
+          "text": "Review"
+        },
+        {
+          "key": "B",
+          "text": "Reconsideration"
+        },
+        {
+          "key": "C",
+          "text": "Reconciliation"
+        },
+        {
+          "key": "D",
+          "text": "Resource"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Project Management): Review",
+      "sourceExamId": "bdu",
+      "sourceQuestionId": 64,
+      "sourceExamTitle": "BDU Model Exit Exam"
+    },
+    {
+      "examNumber": 79,
+      "id": 8,
+      "topic": "Project Management",
+      "text": "Which of the following does not relate to Evolutionary Process Model",
+      "options": [
+        {
+          "key": "A",
+          "text": "All of the above"
+        },
+        {
+          "key": "B",
+          "text": "Incremental Model"
+        },
+        {
+          "key": "C",
+          "text": "WINWIN spiral Model"
+        },
+        {
+          "key": "D",
+          "text": "Concurrent Development Model"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Project Management): All of the above",
+      "sourceExamId": "bdu",
+      "sourceQuestionId": 79,
+      "sourceExamTitle": "BDU Model Exit Exam"
+    },
+    {
+      "examNumber": 40,
+      "id": 9,
+      "topic": "Project Management",
+      "text": "__________ is not considered as an activity of Structured Analysis (SA).",
+      "options": [
+        {
+          "key": "A",
+          "text": "Transformation of a textual problem description into a graphic model"
+        },
+        {
+          "key": "B",
+          "text": "Functional decomposition"
+        },
+        {
+          "key": "C",
+          "text": "All the functions represented in the DFD are mapped to a module structure"
+        },
+        {
+          "key": "D",
+          "text": "All of the mentioned"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Project Management): All the functions represented in the DFD are mapped to a module structure",
+      "sourceExamId": "astu",
+      "sourceQuestionId": 40,
+      "sourceExamTitle": "ASTU Software Engineering MCQs"
+    },
+    {
+      "examNumber": 43,
+      "id": 10,
+      "topic": "Project Management",
+      "text": "__________ is not a direct measure of SE process.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Effort"
+        },
+        {
+          "key": "B",
+          "text": "Cost"
+        },
+        {
+          "key": "C",
+          "text": "Efficiency"
+        },
+        {
+          "key": "D",
+          "text": "All of the above"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Project Management): Efficiency",
+      "sourceExamId": "astu",
+      "sourceQuestionId": 43,
+      "sourceExamTitle": "ASTU Software Engineering MCQs"
+    },
+    {
+      "examNumber": 44,
+      "id": 11,
+      "topic": "Project Management",
+      "text": "What is the main task of project indicators?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To evaluate the ongoing project's status and track possible risks."
+        },
+        {
+          "key": "B",
+          "text": "To evaluate the ongoing project's status."
+        },
+        {
+          "key": "C",
+          "text": "To track potential risks."
+        },
+        {
+          "key": "D",
+          "text": "None of the above"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Project Management): To evaluate the ongoing project's status and track possible risks.",
+      "sourceExamId": "astu",
+      "sourceQuestionId": 44,
+      "sourceExamTitle": "ASTU Software Engineering MCQs"
+    },
+    {
+      "examNumber": 45,
+      "id": 12,
+      "topic": "Project Management",
+      "text": "What is the main intent of project metrics?",
+      "options": [
+        {
+          "key": "A",
+          "text": "For strategic purposes"
+        },
+        {
+          "key": "B",
+          "text": "To minimize the development schedule."
+        },
+        {
+          "key": "C",
+          "text": "To evaluate the ongoing project's quality on a daily basis"
+        },
+        {
+          "key": "D",
+          "text": "To minimize the development schedule and evaluate the ongoing project's quality on a daily basis"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Project Management): To minimize the development schedule and evaluate the ongoing project's quality on a daily basis",
+      "sourceExamId": "astu",
+      "sourceQuestionId": 45,
+      "sourceExamTitle": "ASTU Software Engineering MCQs"
+    },
+    {
+      "examNumber": 47,
+      "id": 13,
+      "topic": "Project Management",
+      "text": "Which parameters are essentially used while computing the software development cost?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hardware and Software Costs"
+        },
+        {
+          "key": "B",
+          "text": "Effort Costs"
+        },
+        {
+          "key": "C",
+          "text": "Travel and Training Costs"
+        },
+        {
+          "key": "D",
+          "text": "All of the above"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Project Management): All of the above",
+      "sourceExamId": "astu",
+      "sourceQuestionId": 47,
+      "sourceExamTitle": "ASTU Software Engineering MCQs"
+    },
+    {
+      "examNumber": 49,
+      "id": 14,
+      "topic": "Project Management",
+      "text": "The project planner examines the statement of scope and extracts all-important software functions, which is known as",
+      "options": [
+        {
+          "key": "A",
+          "text": "Planning process"
+        },
+        {
+          "key": "B",
+          "text": "Decomposition"
+        },
+        {
+          "key": "C",
+          "text": "Association"
+        },
+        {
+          "key": "D",
+          "text": "All of the mentioned"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Project Management): Decomposition",
+      "sourceExamId": "astu",
+      "sourceQuestionId": 49,
+      "sourceExamTitle": "ASTU Software Engineering MCQs"
+    },
+    {
+      "examNumber": 50,
+      "id": 15,
+      "topic": "Project Management",
+      "text": "Which of the following Is not considered as an option for achieving reliable cost and effort estimation?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The ability to translate the size estimate into human effort, calendar time, and dollars"
+        },
+        {
+          "key": "B",
+          "text": "Use relatively simple decomposition techniques to generate project cost and effort estimates."
+        },
+        {
+          "key": "C",
+          "text": "Base estimates on similar projects that have already been completed"
+        },
+        {
+          "key": "D",
+          "text": "Use one or more empirical models for software cost and effort estimation"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Project Management): The ability to translate the size estimate into human effort, calendar time, and dollars",
+      "sourceExamId": "astu",
+      "sourceQuestionId": 50,
+      "sourceExamTitle": "ASTU Software Engineering MCQs"
+    },
+    {
+      "examNumber": 51,
+      "id": 16,
+      "topic": "Project Management",
+      "text": "Which of the following does not complement the decomposition techniques but offers a potential estimation approach for their impersonal growth?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Empirical estimation models"
+        },
+        {
+          "key": "B",
+          "text": "Decomposition techniques"
+        },
+        {
+          "key": "C",
+          "text": "Automated estimation tools"
+        },
+        {
+          "key": "D",
+          "text": "Both empirical estimation models and automated estimation tools"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Project Management): Empirical estimation models",
+      "sourceExamId": "astu",
+      "sourceQuestionId": 51,
+      "sourceExamTitle": "ASTU Software Engineering MCQs"
+    },
+    {
+      "examNumber": 52,
+      "id": 17,
+      "topic": "Project Management",
+      "text": "Which of the following is not included in the total effort cost?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Costs of lunch time food"
+        },
+        {
+          "key": "B",
+          "text": "Costs of support staff"
+        },
+        {
+          "key": "C",
+          "text": "Costs of networking and communications"
+        },
+        {
+          "key": "D",
+          "text": "Costs of air conditioning and lighting in the office space"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Project Management): Costs of lunch time food",
+      "sourceExamId": "astu",
+      "sourceQuestionId": 52,
+      "sourceExamTitle": "ASTU Software Engineering MCQs"
+    },
+    {
+      "examNumber": 53,
+      "id": 18,
+      "topic": "Project Management",
+      "text": "What is developed by utilizing the historical cost function?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Parkinson's Law"
+        },
+        {
+          "key": "B",
+          "text": "Expert judgment"
+        },
+        {
+          "key": "C",
+          "text": "Algorithmic cost modeling"
+        },
+        {
+          "key": "D",
+          "text": "Estimation by analogy"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Project Management): Algorithmic cost modeling",
+      "sourceExamId": "astu",
+      "sourceQuestionId": 53,
+      "sourceExamTitle": "ASTU Software Engineering MCQs"
+    },
+    {
+      "examNumber": 55,
+      "id": 19,
+      "topic": "Project Management",
+      "text": "Which of the following is used to predict the effort as a function of LOC or FP?",
+      "options": [
+        {
+          "key": "A",
+          "text": "COCOMO"
+        },
+        {
+          "key": "B",
+          "text": "FP-based estimation"
+        },
+        {
+          "key": "C",
+          "text": "Both COCOMO and FP-based estimation"
+        },
+        {
+          "key": "D",
+          "text": "Process-based estimation"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Project Management): Both COCOMO and FP-based estimation",
+      "sourceExamId": "astu",
+      "sourceQuestionId": 55,
+      "sourceExamTitle": "ASTU Software Engineering MCQs"
+    },
+    {
+      "examNumber": 56,
+      "id": 20,
+      "topic": "Project Management",
+      "text": "Once the requirements are stabilized, the basic architecture of the software can be established. Which of the following version of the COCOMO model conforms to the given statement?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Application composition model"
+        },
+        {
+          "key": "B",
+          "text": "Post-architecture-stage model"
+        },
+        {
+          "key": "C",
+          "text": "Early design stage model"
+        },
+        {
+          "key": "D",
+          "text": "All of the above"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Project Management): Application composition model",
+      "sourceExamId": "astu",
+      "sourceQuestionId": 56,
+      "sourceExamTitle": "ASTU Software Engineering MCQs"
+    },
+    {
+      "examNumber": 57,
+      "id": 21,
+      "topic": "Project Management",
+      "text": "Which of the following threatens the quality and timeliness of the produced software?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Business risks"
+        },
+        {
+          "key": "B",
+          "text": "Potential risks"
+        },
+        {
+          "key": "C",
+          "text": "Technical risks"
+        },
+        {
+          "key": "D",
+          "text": "Known risks"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Project Management): Technical risks",
+      "sourceExamId": "astu",
+      "sourceQuestionId": 57,
+      "sourceExamTitle": "ASTU Software Engineering MCQs"
+    },
+    {
+      "examNumber": 58,
+      "id": 22,
+      "topic": "Project Management",
+      "text": "Which of the following refers to the systematic attempt, which is implemented to ascertain the threats to any project plan?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Performance risk"
+        },
+        {
+          "key": "B",
+          "text": "Risk identification"
+        },
+        {
+          "key": "C",
+          "text": "Risk projection"
+        },
+        {
+          "key": "D",
+          "text": "Support risk"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Project Management): Risk projection",
+      "sourceExamId": "astu",
+      "sourceQuestionId": 58,
+      "sourceExamTitle": "ASTU Software Engineering MCQs"
+    },
+    {
+      "examNumber": 2,
+      "id": 23,
+      "topic": "Project Management",
+      "text": "Which of the following analysis mechanism defines the input for which the algorithm takes the least time (fastest time to complete)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Best case"
+        },
+        {
+          "key": "B",
+          "text": "Average case"
+        },
+        {
+          "key": "C",
+          "text": "Standard Case"
+        },
+        {
+          "key": "D",
+          "text": "Worst case"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Project Management): Best case",
+      "sourceExamId": "model1",
+      "sourceQuestionId": 2,
+      "sourceExamTitle": "MoEE Model Exam 1"
+    },
+    {
+      "examNumber": 18,
+      "id": 24,
+      "topic": "Project Management",
+      "text": "One of the following statements addresses the characteristics of functional organization structure?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Low to moderate project manager authority, low to moderate resource availability, and a full-time project manager's role"
+        },
+        {
+          "key": "B",
+          "text": "Little or no project manager authority, little or no resource availability, and the functional manager control the project budget"
+        },
+        {
+          "key": "C",
+          "text": "High to almost total project manager authority, high to almost total resource availability, and full-time project management administrative staff"
+        },
+        {
+          "key": "D",
+          "text": "Limited project manager authority, limited resource availability, and a part-time project manager's role"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Project Management): Little or no project manager authority, little or no resource availability, and the functional manager control the proje…",
+      "sourceExamId": "model1",
+      "sourceQuestionId": 18,
+      "sourceExamTitle": "MoEE Model Exam 1"
+    },
+    {
+      "examNumber": 21,
+      "id": 25,
+      "topic": "Project Management",
+      "text": "Which of the following mostly used by software project quality evaluators to using the approach of plan, check and act?",
+      "options": [
+        {
+          "key": "A",
+          "text": "IEEE"
+        },
+        {
+          "key": "B",
+          "text": "Capability maturity model"
+        },
+        {
+          "key": "C",
+          "text": "Six sigma"
+        },
+        {
+          "key": "D",
+          "text": "ISO model"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Project Management): Six sigma",
+      "sourceExamId": "model1",
+      "sourceQuestionId": 21,
+      "sourceExamTitle": "MoEE Model Exam 1"
+    },
+    {
+      "examNumber": 25,
+      "id": 26,
+      "topic": "Project Management",
+      "text": "Which of the following describes the leading agile development method?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sprint"
+        },
+        {
+          "key": "B",
+          "text": "Six sigma"
+        },
+        {
+          "key": "C",
+          "text": "Extreme programming"
+        },
+        {
+          "key": "D",
+          "text": "Scrum"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Project Management): Scrum",
+      "sourceExamId": "model1",
+      "sourceQuestionId": 25,
+      "sourceExamTitle": "MoEE Model Exam 1"
+    },
+    {
+      "examNumber": 40,
+      "id": 27,
+      "topic": "Project Management",
+      "text": "Select the one different from others",
+      "options": [
+        {
+          "key": "A",
+          "text": "System design"
+        },
+        {
+          "key": "B",
+          "text": "Requirement validation"
+        },
+        {
+          "key": "C",
+          "text": "Requirement elicitation"
+        },
+        {
+          "key": "D",
+          "text": "Requirement analysis"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Project Management): System design",
+      "sourceExamId": "model1",
+      "sourceQuestionId": 40,
+      "sourceExamTitle": "MoEE Model Exam 1"
+    },
+    {
+      "examNumber": 68,
+      "id": 28,
+      "topic": "Project Management",
+      "text": "Which principle states that 80% of the problems can be fixed with 20% of the entire effort?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Pairwise principle"
+        },
+        {
+          "key": "B",
+          "text": "Partition principle"
+        },
+        {
+          "key": "C",
+          "text": "Pareto principle"
+        },
+        {
+          "key": "D",
+          "text": "Parametric principle"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Project Management): Pareto principle",
+      "sourceExamId": "model1",
+      "sourceQuestionId": 68,
+      "sourceExamTitle": "MoEE Model Exam 1"
+    },
+    {
+      "examNumber": 96,
+      "id": 29,
+      "topic": "Project Management",
+      "text": "Which one is different from others?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Requirement elicitation"
+        },
+        {
+          "key": "B",
+          "text": "Requirements validation"
+        },
+        {
+          "key": "C",
+          "text": "Requirements analysis"
+        },
+        {
+          "key": "D",
+          "text": "Requirements status tracking"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Project Management): Requirements status tracking",
+      "sourceExamId": "model1",
+      "sourceQuestionId": 96,
+      "sourceExamTitle": "MoEE Model Exam 1"
+    },
+    {
+      "examNumber": 65,
+      "id": 30,
+      "topic": "Project Management",
+      "text": "What is the purpose of a Work Breakdown Structure (WBS)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To write code"
+        },
+        {
+          "key": "B",
+          "text": "To divide a project into manageable tasks"
+        },
+        {
+          "key": "C",
+          "text": "To test the software"
+        },
+        {
+          "key": "D",
+          "text": "To deploy the system"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Project Management): To divide a project into manageable tasks",
+      "sourceExamId": "moe2025",
+      "sourceQuestionId": 65,
+      "sourceExamTitle": "2025 MoEE Exit Exam"
+    },
+    {
+      "examNumber": 66,
+      "id": 31,
+      "topic": "Project Management",
+      "text": "Which project management tool is used to visualize task dependencies?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Gantt Chart"
+        },
+        {
+          "key": "B",
+          "text": "Pie Chart"
+        },
+        {
+          "key": "C",
+          "text": "Histogram"
+        },
+        {
+          "key": "D",
+          "text": "Scatter Plot"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Project Management): Gantt Chart",
+      "sourceExamId": "moe2025",
+      "sourceQuestionId": 66,
+      "sourceExamTitle": "2025 MoEE Exit Exam"
+    },
+    {
+      "examNumber": 67,
+      "id": 32,
+      "topic": "Project Management",
+      "text": "What is a key activity in risk management?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Writing code"
+        },
+        {
+          "key": "B",
+          "text": "Identifying and mitigating potential risks"
+        },
+        {
+          "key": "C",
+          "text": "Designing the user interface"
+        },
+        {
+          "key": "D",
+          "text": "Testing the database"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Project Management): Identifying and mitigating potential risks",
+      "sourceExamId": "moe2025",
+      "sourceQuestionId": 67,
+      "sourceExamTitle": "2025 MoEE Exit Exam"
+    },
+    {
+      "examNumber": 68,
+      "id": 33,
+      "topic": "Project Management",
+      "text": "In Scrum, who is responsible for prioritizing the product backlog?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Scrum Master"
+        },
+        {
+          "key": "B",
+          "text": "Product Owner"
+        },
+        {
+          "key": "C",
+          "text": "Development Team"
+        },
+        {
+          "key": "D",
+          "text": "Stakeholders"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Project Management): Product Owner",
+      "sourceExamId": "moe2025",
+      "sourceQuestionId": 68,
+      "sourceExamTitle": "2025 MoEE Exit Exam"
+    },
+    {
+      "examNumber": 69,
+      "id": 34,
+      "topic": "Project Management",
+      "text": "What is the purpose of a project schedule?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To document code"
+        },
+        {
+          "key": "B",
+          "text": "To plan and track project timelines"
+        },
+        {
+          "key": "C",
+          "text": "To test the software"
+        },
+        {
+          "key": "D",
+          "text": "To manage hardware resources"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Project Management): To plan and track project timelines",
+      "sourceExamId": "moe2025",
+      "sourceQuestionId": 69,
+      "sourceExamTitle": "2025 MoEE Exit Exam"
+    },
+    {
+      "examNumber": 3,
+      "id": 35,
+      "topic": "Project Management",
+      "text": "The process that generates activities such as project schedule, cost estimations and work breakdown structures is described as:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Project Executing"
+        },
+        {
+          "key": "B",
+          "text": "Project Initiating"
+        },
+        {
+          "key": "C",
+          "text": "Project Closing"
+        },
+        {
+          "key": "D",
+          "text": "Project Planning"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Project Management): Project Planning",
+      "sourceExamId": "2016",
+      "sourceQuestionId": 3,
+      "sourceExamTitle": "2016 Software Engineering Exit Exam"
+    },
+    {
+      "examNumber": 10,
+      "id": 36,
+      "topic": "Project Management",
+      "text": "r•ot yet , zoswered 1.00 Which slogan is against the agile method philosophy? o a. d.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Working software over comprehensive documentation"
+        },
+        {
+          "key": "B",
+          "text": "Following a plan over responding to changes"
+        },
+        {
+          "key": "C",
+          "text": "Individuals and interactions over processes and tools"
+        },
+        {
+          "key": "D",
+          "text": "Customer collaboration over contract negotiation"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Project Management): Following a plan over responding to changes",
+      "sourceExamId": "2016",
+      "sourceQuestionId": 10,
+      "sourceExamTitle": "2016 Software Engineering Exit Exam"
+    },
+    {
+      "examNumber": 12,
+      "id": 37,
+      "topic": "Project Management",
+      "text": "What would be the most likely consequence if every software stakeholder were rushing to be approved for their requirements without discussing with other stakeholders?",
+      "options": [
+        {
+          "key": "A",
+          "text": "b. c. d. Results in excess requirement"
+        },
+        {
+          "key": "B",
+          "text": "Attains the project schedule"
+        },
+        {
+          "key": "C",
+          "text": "Requirements become unambiguous"
+        },
+        {
+          "key": "D",
+          "text": "Leads to conflicting requirement"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Project Management): Leads to conflicting requirement",
+      "sourceExamId": "2016",
+      "sourceQuestionId": 12,
+      "sourceExamTitle": "2016 Software Engineering Exit Exam"
+    },
+    {
+      "examNumber": 20,
+      "id": 38,
+      "topic": "Project Management",
+      "text": "If the estimate for total discounted benefits for a project is Birr 120,000 and total discounted cost is Birr 100,000, what is the estimated return on investment (ROI) percentage?",
+      "options": [
+        {
+          "key": "A",
+          "text": "20%"
+        },
+        {
+          "key": "B",
+          "text": "10%"
+        },
+        {
+          "key": "C",
+          "text": "12%"
+        },
+        {
+          "key": "D",
+          "text": "16.67%"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Project Management): 20%",
+      "sourceExamId": "2016",
+      "sourceQuestionId": 20,
+      "sourceExamTitle": "2016 Software Engineering Exit Exam"
+    },
+    {
+      "examNumber": 46,
+      "id": 39,
+      "topic": "Project Management",
+      "text": "1.00 Select the one that is not related with the purpose of properly documenting software architectures b. d. to Know haw the system is organized and interoperate",
+      "options": [
+        {
+          "key": "A",
+          "text": "For"
+        },
+        {
+          "key": "B",
+          "text": "Stakeholder communication"
+        },
+        {
+          "key": "C",
+          "text": "For critical system design decisions"
+        },
+        {
+          "key": "D",
+          "text": "To easily figure out the source code flow"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Project Management): Stakeholder communication",
+      "sourceExamId": "2016",
+      "sourceQuestionId": 46,
+      "sourceExamTitle": "2016 Software Engineering Exit Exam"
+    },
+    {
+      "examNumber": 51,
+      "id": 40,
+      "topic": "Project Management",
+      "text": "Which of the following statements is not true regarding project life cycle?",
+      "options": [
+        {
+          "key": "A",
+          "text": "In agile life cycles the project scope cannot be outlined and agreed before the start of iteration"
+        },
+        {
+          "key": "B",
+          "text": "In a waterfall life cycle the project scope, time, and cost are determined in the early phases of the life cycle"
+        },
+        {
+          "key": "C",
+          "text": "In agile life cycle the project scope is generally determined early in the project life cycle, but time and cost estimates are routinely modified"
+        },
+        {
+          "key": "D",
+          "text": "In an incremental life cycle, the deliverable is produced through a series of iterations that successively add functionality within a predetermined time frame"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Project Management): In agile life cycles the project scope cannot be outlined and agreed before the start of iteration",
+      "sourceExamId": "2016",
+      "sourceQuestionId": 51,
+      "sourceExamTitle": "2016 Software Engineering Exit Exam"
+    },
+    {
+      "examNumber": 55,
+      "id": 41,
+      "topic": "Project Management",
+      "text": "Which of the following shows the five stages in Tuckman's model of team development, in sequential order?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Forming, storming, performing, norming, and adjourning"
+        },
+        {
+          "key": "B",
+          "text": "Forming, storming, norming, performing, and adjourning"
+        },
+        {
+          "key": "C",
+          "text": "Norming, forming, storming, performing, and adjourning"
+        },
+        {
+          "key": "D",
+          "text": "Storming, forming, norming, performing, and adjourning"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Project Management): Forming, storming, norming, performing, and adjourning",
+      "sourceExamId": "2016",
+      "sourceQuestionId": 55,
+      "sourceExamTitle": "2016 Software Engineering Exit Exam"
+    },
+    {
+      "examNumber": 65,
+      "id": 42,
+      "topic": "Project Management",
+      "text": "Rot yet ansavvered f 1.00 FEag quction Select the wrang statement regarding traceability in software development projects. o b.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Traceability shows the dependency among two or more requirements if any"
+        },
+        {
+          "key": "B",
+          "text": "Requirements should be linked ta the respective stakeholder who generated them"
+        },
+        {
+          "key": "C",
+          "text": "Traceability traces the overall cost and schedule of every activity in the requirement"
+        },
+        {
+          "key": "D",
+          "text": "Every design element(cotnponent) should be linked backto the requirement"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Project Management): Traceability traces the overall cost and schedule of every activity in the requirement",
+      "sourceExamId": "2016",
+      "sourceQuestionId": 65,
+      "sourceExamTitle": "2016 Software Engineering Exit Exam"
+    },
+    {
+      "examNumber": 94,
+      "id": 43,
+      "topic": "Project Management",
+      "text": "Which of the following is a resource optimization technique in which start and finish dates are adjusted based on resource constraints with the goal of balancing the demand for resources with the available supply?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Resource smoothing"
+        },
+        {
+          "key": "B",
+          "text": "Responsibility assignment matrix"
+        },
+        {
+          "key": "C",
+          "text": "Resource leveling"
+        },
+        {
+          "key": "D",
+          "text": "Resource grouping"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Project Management): Resource leveling",
+      "sourceExamId": "2016",
+      "sourceQuestionId": 94,
+      "sourceExamTitle": "2016 Software Engineering Exit Exam"
+    }
+  ],
+  "dataRevision": 1
+}

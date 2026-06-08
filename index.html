@@ -3,17 +3,17 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-  <title>Exit Exam Practice</title>
-  <link rel="stylesheet" href="styles.css" />
+  <title>Ethiopian SE Exit Exam — Online Practice</title>
+  <link rel="stylesheet" href="styles.css?v=16" />
 </head>
 <body>
   <div id="app">
     <section id="screen-home" class="screen active">
       <div class="card hero">
         <button class="icon-btn" id="btn-settings" title="Settings">⚙</button>
-        <p class="eyebrow">Exit Exam Simulator</p>
-        <h1>Practice & Exam Mode</h1>
-        <p class="lead">Each exam has a <strong>3-hour timer</strong>. Exam mode hides answers until you submit — just like the real test. Review mode gives detailed explanations.</p>
+        <p class="eyebrow">Ministry of Education · Software Engineering</p>
+        <h1>National Exit Exam Practice</h1>
+        <p class="lead">Timed <strong>3-hour</strong> exam simulation with live progress tracking, question navigation panel, and instant color-coded feedback — just like a real online national exam.</p>
         <div id="exam-list" class="exam-list"></div>
         <ul class="stats">
           <li id="ai-status">Checking…</li>
@@ -21,63 +21,118 @@
       </div>
     </section>
 
-    <section id="screen-exam" class="screen">
-      <header class="topbar">
-        <div class="timer-wrap">
-          <span class="timer-label">Time left</span>
+    <section id="screen-exam" class="screen exam-screen">
+      <header class="national-header">
+        <div class="national-header-left">
+          <button type="button" class="btn-icon-nav" id="btn-toggle-exam-nav" aria-label="Toggle question panel">☰</button>
+          <div class="national-brand">
+            <span class="national-brand-title" id="exam-title-bar">Exit Exam</span>
+            <span class="national-brand-sub" id="exam-subtitle-bar">Software Engineering</span>
+          </div>
+        </div>
+        <div class="national-timer-block">
+          <span class="timer-label">Time Remaining</span>
           <span id="timer" class="timer">3:00:00</span>
         </div>
-        <span id="counter">1 / 100</span>
-        <button class="icon-btn small" id="btn-flag" title="Flag for review">🚩</button>
+        <div class="national-header-right">
+          <span id="counter" class="header-q-counter">Q 1 / 100</span>
+          <button type="button" class="btn-header-flag" id="btn-flag" title="Flag for review">🚩 Flag</button>
+          <button type="button" class="btn-header-submit" id="btn-submit-exam">Submit Exam</button>
+        </div>
       </header>
-      <div class="progress-track full"><div id="bar"></div></div>
 
-      <main class="content">
-        <span id="topic-badge" class="badge"></span>
-        <p id="q-text" class="q-text"></p>
-        <div id="choices" class="choices"></div>
-      </main>
+      <div class="national-body">
+        <aside class="national-sidebar" id="exam-sidebar">
+          <div class="sidebar-head">
+            <h2>Question Panel</h2>
+            <span id="exam-nav-total" class="sidebar-total">0 Questions</span>
+          </div>
+          <div id="exam-progress-stats" class="progress-panel"></div>
+          <div class="nav-legend" id="exam-nav-legend">
+            <span><i class="dot dot-answered"></i> Answered</span>
+            <span><i class="dot dot-skipped"></i> Skipped</span>
+            <span><i class="dot dot-pending"></i> Not visited</span>
+          </div>
+          <div id="exam-question-nav" class="question-nav-grid" aria-label="Question navigation"></div>
+        </aside>
+        <div class="sidebar-backdrop" id="exam-sidebar-backdrop"></div>
 
-      <footer class="exam-footer">
-        <button class="btn ghost" id="btn-prev">Previous</button>
-        <button class="btn ghost" id="btn-submit-exam">Submit Exam</button>
-        <button class="btn primary" id="btn-next-exam">Next</button>
-      </footer>
+        <main class="national-main">
+          <div class="question-meta-row">
+            <span id="topic-badge" class="badge"></span>
+            <div class="progress-track exam-progress"><div id="bar"></div></div>
+          </div>
+          <p id="q-text" class="q-text exam-q-text"></p>
+          <div id="choices" class="choices"></div>
+          <footer class="exam-footer national-footer">
+            <button class="btn ghost" id="btn-prev">← Previous</button>
+            <button class="btn primary" id="btn-next-exam">Next →</button>
+          </footer>
+        </main>
+      </div>
     </section>
 
-    <section id="screen-review" class="screen">
-      <header class="topbar">
-        <div class="progress-track"><div id="review-bar"></div></div>
-        <span id="review-counter">1 / 100</span>
-        <button class="icon-btn small" id="btn-settings-review" title="Settings">⚙</button>
+    <section id="screen-review" class="screen exam-screen review-screen">
+      <header class="national-header review-header">
+        <div class="national-header-left">
+          <button type="button" class="btn-icon-nav" id="btn-toggle-review-nav" aria-label="Toggle question panel">☰</button>
+          <div class="national-brand">
+            <span class="national-brand-title">Review Mode</span>
+            <span class="national-brand-sub" id="review-exam-title">Practice with explanations</span>
+          </div>
+        </div>
+        <div class="national-header-right">
+          <span id="review-counter" class="header-q-counter">Q 1 / 100</span>
+          <button type="button" class="btn-icon-nav" id="btn-settings-review" title="Settings">⚙</button>
+        </div>
       </header>
 
-      <main class="content">
-        <span id="review-topic-badge" class="badge"></span>
-        <p id="review-q-text" class="q-text"></p>
-        <div id="review-choices" class="choices"></div>
-
-        <div id="feedback" class="feedback hidden">
-          <div id="result-banner" class="result-banner"></div>
-          <div id="explain-loading" class="loading hidden">
-            <div class="spinner"></div>
-            <span>Loading detailed explanation…</span>
+      <div class="national-body">
+        <aside class="national-sidebar" id="review-sidebar">
+          <div class="sidebar-head">
+            <h2>Question Panel</h2>
+            <span id="review-nav-total" class="sidebar-total">0 Questions</span>
           </div>
-          <div id="explain-body" class="hidden">
-            <div id="concept" class="concept"></div>
-            <p id="explain-source" class="explain-source"></p>
-            <h3>Detailed breakdown — every choice</h3>
-            <div id="explanations" class="explanations"></div>
-            <p id="study-tip" class="study-tip"></p>
+          <div id="review-progress-stats" class="progress-panel"></div>
+          <div class="nav-legend">
+            <span><i class="dot dot-correct"></i> Correct</span>
+            <span><i class="dot dot-wrong"></i> Incorrect</span>
+            <span><i class="dot dot-pending"></i> Not answered</span>
           </div>
-          <button class="btn primary" id="btn-next-review" disabled>Next Question</button>
-        </div>
-      </main>
+          <div id="review-question-nav" class="question-nav-grid" aria-label="Question navigation"></div>
+        </aside>
+        <div class="sidebar-backdrop" id="review-sidebar-backdrop"></div>
 
-      <footer class="exam-footer">
-        <button class="btn ghost" id="btn-prev-review">Previous</button>
-        <button class="btn primary" id="btn-next-review-footer">Next</button>
-      </footer>
+        <main class="national-main">
+          <div class="question-meta-row">
+            <span id="review-topic-badge" class="badge"></span>
+            <div class="progress-track exam-progress"><div id="review-bar"></div></div>
+          </div>
+          <p id="review-q-text" class="q-text exam-q-text"></p>
+          <div id="review-choices" class="choices"></div>
+
+          <div id="feedback" class="feedback hidden">
+            <div id="result-banner" class="result-banner"></div>
+            <div id="explain-loading" class="loading hidden">
+              <div class="spinner"></div>
+              <span>Loading detailed explanation…</span>
+            </div>
+            <div id="explain-body" class="hidden">
+              <div id="concept" class="concept"></div>
+              <p id="explain-source" class="explain-source"></p>
+              <h3>Detailed breakdown — every choice</h3>
+              <div id="explanations" class="explanations"></div>
+              <p id="study-tip" class="study-tip"></p>
+            </div>
+            <button class="btn primary" id="btn-next-review" disabled>Next Question</button>
+          </div>
+
+          <footer class="exam-footer national-footer">
+            <button class="btn ghost" id="btn-prev-review">← Previous</button>
+            <button class="btn primary" id="btn-next-review-footer">Next →</button>
+          </footer>
+        </main>
+      </div>
     </section>
 
     <section id="screen-summary" class="screen">
@@ -85,6 +140,13 @@
         <p class="eyebrow">Exam Complete</p>
         <div class="big-score" id="final-score">0%</div>
         <p id="final-text"></p>
+        <div id="summary-progress-stats" class="progress-panel summary-progress"></div>
+        <div class="nav-legend summary-legend">
+          <span><i class="dot dot-correct"></i> Correct</span>
+          <span><i class="dot dot-wrong"></i> Incorrect</span>
+          <span><i class="dot dot-skipped"></i> Skipped</span>
+        </div>
+        <div id="summary-question-nav" class="question-nav-grid summary-nav" aria-label="Results by question"></div>
         <p id="summary-date" class="summary-date"></p>
         <p id="summary-save-warn" class="summary-warn hidden"></p>
       </div>
@@ -134,6 +196,6 @@
     </form>
   </dialog>
 
-  <script src="app.js?v=11"></script>
+  <script src="app.js?v=16"></script>
 </body>
 </html>

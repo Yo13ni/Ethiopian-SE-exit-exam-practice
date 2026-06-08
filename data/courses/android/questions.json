@@ -1,0 +1,1202 @@
+{
+  "title": "Android — Course Practice",
+  "courseId": "android",
+  "topics": [
+    "Android"
+  ],
+  "total": 40,
+  "focusGuide": {
+    "Android": "Study Activity, Intent, Manifest.xml, layout hierarchy (ViewGroup), and APK."
+  },
+  "questions": [
+    {
+      "examNumber": 11,
+      "id": 1,
+      "topic": "Android",
+      "text": "Which Statement is correct about the difference between functional and nonfunctional requirement?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Unlike functional requirement, nonfunctional requirement is stable.",
+          "explanation": "Incorrect. Unlike functional requirement, nonfunctional requirement is stable. — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "B",
+          "text": "Both are the same most of the time and only vary under certain contexts.",
+          "explanation": "Incorrect. Both are the same most of the time and only vary under certain contexts. — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "C",
+          "text": "Functional requirements are decided by the customer while nonfunctional requirements are decided by developers",
+          "explanation": "Incorrect. Functional requirements are decided by the customer while nonfunctional requirements are decided by developers — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "D",
+          "text": "Functional requirements are the service of the system provide while nonfunctional requirements are constraints on the service or functions offered by the system.",
+          "explanation": "Correct. Functional requirements are the service of the system provide while nonfunctional requirements are constraints on the service or functions offered by the system. — this directly answers the question. In General, this is the standard/principle being tested."
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (General): Functional requirements are the service of the system provide while nonfunctional requirements are constraints on the service or functions offered by the system.",
+      "sourceExamId": "2015",
+      "sourceQuestionId": 8,
+      "sourceExamTitle": "Exit Exam 2015"
+    },
+    {
+      "examNumber": 38,
+      "id": 2,
+      "topic": "Android",
+      "text": "When a process is in a “Blocked” state waiting for some input-output services and after the service is completed it will goes to a state known as:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Suspended",
+          "explanation": "Incorrect. Suspended — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "B",
+          "text": "Terminated",
+          "explanation": "Incorrect. Terminated — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "C",
+          "text": "Running",
+          "explanation": "Incorrect. Running — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "D",
+          "text": "Ready",
+          "explanation": "Correct. Ready — this directly answers the question. In Operating Systems, this is the standard/principle being tested."
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Operating Systems): Ready",
+      "sourceExamId": "2015",
+      "sourceQuestionId": 31,
+      "sourceExamTitle": "Exit Exam 2015"
+    },
+    {
+      "examNumber": 41,
+      "id": 3,
+      "topic": "Android",
+      "text": "APK stands for",
+      "options": [
+        {
+          "key": "A",
+          "text": "Android Package Kit",
+          "explanation": "Correct. Android Package Kit — this directly answers the question. In Android, this is the standard/principle being tested."
+        },
+        {
+          "key": "B",
+          "text": "Android Platform Kit",
+          "explanation": "Incorrect. Android Platform Kit — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "C",
+          "text": "Android Phone Kit",
+          "explanation": "Incorrect. Android Phone Kit — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "D",
+          "text": "Android Page Kit",
+          "explanation": "Incorrect. Android Page Kit — This option does not satisfy what the question is asking. The correct choice is A."
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Android): Android Package Kit",
+      "sourceExamId": "2015",
+      "sourceQuestionId": 34,
+      "sourceExamTitle": "Exit Exam 2015"
+    },
+    {
+      "examNumber": 47,
+      "id": 4,
+      "topic": "Android",
+      "text": "All layout classes are subclasses of which of the following?",
+      "options": [
+        {
+          "key": "A",
+          "text": "android.view.Relativelayout",
+          "explanation": "Incorrect. android.view.Relativelayout — This option does not satisfy what the question is asking. The correct choice is C."
+        },
+        {
+          "key": "B",
+          "text": "android.view.Layout",
+          "explanation": "Incorrect. android.view.Layout — This option does not satisfy what the question is asking. The correct choice is C."
+        },
+        {
+          "key": "C",
+          "text": "android.view.ViewGroup",
+          "explanation": "Correct. android.view.ViewGroup — this directly answers the question. In Android, this is the standard/principle being tested."
+        },
+        {
+          "key": "D",
+          "text": "android.view.Widget",
+          "explanation": "Incorrect. android.view.Widget — This option does not satisfy what the question is asking. The correct choice is C."
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Android): android.view.ViewGroup",
+      "sourceExamId": "2015",
+      "sourceQuestionId": 40,
+      "sourceExamTitle": "Exit Exam 2015"
+    },
+    {
+      "examNumber": 71,
+      "id": 5,
+      "topic": "Android",
+      "text": "Which activity comes last in fundamental program development in c++?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Memory allocation for variables",
+          "explanation": "Incorrect. Memory allocation for variables — This option does not satisfy what the question is asking. The correct choice is B."
+        },
+        {
+          "key": "B",
+          "text": "Linking",
+          "explanation": "Correct. Linking — this directly answers the question. In Android, this is the standard/principle being tested."
+        },
+        {
+          "key": "C",
+          "text": "Compiling program",
+          "explanation": "Incorrect. Compiling program — This option does not satisfy what the question is asking. The correct choice is B."
+        },
+        {
+          "key": "D",
+          "text": "Writing program",
+          "explanation": "Incorrect. Writing program — This option does not satisfy what the question is asking. The correct choice is B."
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Android): Linking",
+      "sourceExamId": "2015",
+      "sourceQuestionId": 64,
+      "sourceExamTitle": "Exit Exam 2015"
+    },
+    {
+      "examNumber": 78,
+      "id": 6,
+      "topic": "Android",
+      "text": "What is an activity in android?",
+      "options": [
+        {
+          "key": "A",
+          "text": "android class used to configure the android application",
+          "explanation": "Incorrect. android class used to configure the android application — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "B",
+          "text": "It is an intent",
+          "explanation": "Incorrect. It is an intent — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "C",
+          "text": "android package file holding all the package used",
+          "explanation": "Incorrect. android package file holding all the package used — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "D",
+          "text": "A single screen in an application with supporting java code",
+          "explanation": "Correct. A single screen in an application with supporting java code — this directly answers the question. In Android, this is the standard/principle being tested."
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Android): A single screen in an application with supporting java code",
+      "sourceExamId": "2015",
+      "sourceQuestionId": 71,
+      "sourceExamTitle": "Exit Exam 2015"
+    },
+    {
+      "examNumber": 94,
+      "id": 7,
+      "topic": "Android",
+      "text": "Which of the following UML elements is wrongly applied?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Class diagram shows the object classes in a system and their relation",
+          "explanation": "Incorrect. Class diagram shows the object classes in a system and their relation — This statement is generally true, but the question asks for the wrong/not case. The correct choice is B."
+        },
+        {
+          "key": "B",
+          "text": "Activity diagram shows how the system reacts to internal and external events",
+          "explanation": "Correct. Activity diagram shows how the system reacts to internal and external events — this directly answers the question. In Android, this is the standard/principle being tested."
+        },
+        {
+          "key": "C",
+          "text": "Use case diagram represents an interaction with a system",
+          "explanation": "Incorrect. Use case diagram represents an interaction with a system — This statement is generally true, but the question asks for the wrong/not case. The correct choice is B."
+        },
+        {
+          "key": "D",
+          "text": "Sequence diagram shows the sequence of interactions required to complete some operation",
+          "explanation": "Incorrect. Sequence diagram shows the sequence of interactions required to complete some operation — This statement is generally true, but the question asks for the wrong/not case. The correct choice is B."
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Android): Activity diagram shows how the system reacts to internal and external events",
+      "sourceExamId": "2015",
+      "sourceQuestionId": 87,
+      "sourceExamTitle": "Exit Exam 2015"
+    },
+    {
+      "examNumber": 11,
+      "id": 8,
+      "topic": "Android",
+      "text": "0 How can we stop the sene€ices in android? o",
+      "options": [
+        {
+          "key": "A",
+          "text": "By using the stopSelt() and stopService() method"
+        },
+        {
+          "key": "B",
+          "text": "By using the finish() method"
+        },
+        {
+          "key": "C",
+          "text": "By using system.exit() method"
+        },
+        {
+          "key": "D",
+          "text": "None of the above"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Android): By using the stopSelt() and stopService() method",
+      "sourceExamId": "aau",
+      "sourceQuestionId": 11,
+      "sourceExamTitle": "AAU Model Exit Exam"
+    },
+    {
+      "examNumber": 32,
+      "id": 9,
+      "topic": "Android",
+      "text": "Which of the following is NOT a state in the Android service lifecycle?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Destroyed"
+        },
+        {
+          "key": "B",
+          "text": "Running"
+        },
+        {
+          "key": "C",
+          "text": "Start"
+        },
+        {
+          "key": "D",
+          "text": "Paused"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Networking): Destroyed",
+      "sourceExamId": "aau",
+      "sourceQuestionId": 32,
+      "sourceExamTitle": "AAU Model Exit Exam"
+    },
+    {
+      "examNumber": 55,
+      "id": 10,
+      "topic": "Android",
+      "text": "Which of the following is NOT an Activity lifecycle callback method in Android?",
+      "options": [
+        {
+          "key": "A",
+          "text": "onStart()"
+        },
+        {
+          "key": "B",
+          "text": "onClick()"
+        },
+        {
+          "key": "C",
+          "text": "onCreate()"
+        },
+        {
+          "key": "D",
+          "text": "onBackPressed()"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Networking): onClick()",
+      "sourceExamId": "aau",
+      "sourceQuestionId": 55,
+      "sourceExamTitle": "AAU Model Exit Exam"
+    },
+    {
+      "examNumber": 56,
+      "id": 11,
+      "topic": "Android",
+      "text": "What must be enabled for a RESTful web service to receive invocations from different domains, subdomains, or ports?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Cache-Control headers only"
+        },
+        {
+          "key": "B",
+          "text": "HTTP/2"
+        },
+        {
+          "key": "C",
+          "text": "CORS"
+        },
+        {
+          "key": "D",
+          "text": "SSL alone"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Networking): CORS",
+      "sourceExamId": "aau",
+      "sourceQuestionId": 56,
+      "sourceExamTitle": "AAU Model Exit Exam"
+    },
+    {
+      "examNumber": 72,
+      "id": 12,
+      "topic": "Android",
+      "text": "Under which license is Android primarily distributed?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Proprietary closed license"
+        },
+        {
+          "key": "B",
+          "text": "SourceForge license"
+        },
+        {
+          "key": "C",
+          "text": "Apache/MIT open-source license"
+        },
+        {
+          "key": "D",
+          "text": "None of the above"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Android): Apache/MIT open-source license",
+      "sourceExamId": "aau",
+      "sourceQuestionId": 72,
+      "sourceExamTitle": "AAU Model Exit Exam"
+    },
+    {
+      "examNumber": 93,
+      "id": 13,
+      "topic": "Android",
+      "text": "Which of the following is contained in the src folder?",
+      "options": [
+        {
+          "key": "A",
+          "text": "XML"
+        },
+        {
+          "key": "B",
+          "text": "Java Source code"
+        },
+        {
+          "key": "C",
+          "text": "Manifest"
+        },
+        {
+          "key": "D",
+          "text": "None of the above"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Java/OOP): Java Source code",
+      "sourceExamId": "aau",
+      "sourceQuestionId": 93,
+      "sourceExamTitle": "AAU Model Exit Exam"
+    },
+    {
+      "examNumber": 28,
+      "id": 14,
+      "topic": "Android",
+      "text": "What is the life cycle of services in android",
+      "options": [
+        {
+          "key": "A",
+          "text": "onCreate0?>anStartCommand0? >anDestoryO"
+        },
+        {
+          "key": "B",
+          "text": "finalO C' Service life cycle is same as activity life cycle"
+        },
+        {
+          "key": "C",
+          "text": "(option unclear in OCR)"
+        },
+        {
+          "key": "D",
+          "text": "onRecieve0 PR EVIOUS PAGE"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Android): onCreate0?>anStartCommand0? >anDestoryO",
+      "sourceExamId": "bdu",
+      "sourceQuestionId": 28,
+      "sourceExamTitle": "BDU Model Exit Exam"
+    },
+    {
+      "examNumber": 29,
+      "id": 15,
+      "topic": "Android",
+      "text": "In which direct01Y XML layout files are stored",
+      "options": [
+        {
+          "key": "A",
+          "text": "'assets"
+        },
+        {
+          "key": "B",
+          "text": "/res/layout"
+        },
+        {
+          "key": "C",
+          "text": "/res/values"
+        },
+        {
+          "key": "D",
+          "text": "/src"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Android): /res/layout",
+      "sourceExamId": "bdu",
+      "sourceQuestionId": 29,
+      "sourceExamTitle": "BDU Model Exit Exam"
+    },
+    {
+      "examNumber": 30,
+      "id": 16,
+      "topic": "Android",
+      "text": "All layout classes are the subclasses of",
+      "options": [
+        {
+          "key": "A",
+          "text": "android-widget"
+        },
+        {
+          "key": "B",
+          "text": "None"
+        },
+        {
+          "key": "C",
+          "text": "android,view.view"
+        },
+        {
+          "key": "D",
+          "text": "android.viewSfiewGroup"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Android): android,view.view",
+      "sourceExamId": "bdu",
+      "sourceQuestionId": 30,
+      "sourceExamTitle": "BDU Model Exit Exam"
+    },
+    {
+      "examNumber": 31,
+      "id": 17,
+      "topic": "Android",
+      "text": "What is Manifest.xml in android",
+      "options": [
+        {
+          "key": "A",
+          "text": "It has all the information about an application"
+        },
+        {
+          "key": "B",
+          "text": "It has information about layout in an application C' It has the information about activities in an application . None"
+        },
+        {
+          "key": "C",
+          "text": "(option unclear in OCR)"
+        },
+        {
+          "key": "D",
+          "text": "(option unclear in OCR)"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Android): (option unclear in OCR)",
+      "sourceExamId": "bdu",
+      "sourceQuestionId": 31,
+      "sourceExamTitle": "BDU Model Exit Exam"
+    },
+    {
+      "examNumber": 32,
+      "id": 18,
+      "topic": "Android",
+      "text": "Which of the following method is used to handle what happens after clicking a button",
+      "options": [
+        {
+          "key": "A",
+          "text": "onCreate"
+        },
+        {
+          "key": "B",
+          "text": "All"
+        },
+        {
+          "key": "C",
+          "text": "onClick"
+        },
+        {
+          "key": "D",
+          "text": "onSelect"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Android): onClick",
+      "sourceExamId": "bdu",
+      "sourceQuestionId": 32,
+      "sourceExamTitle": "BDU Model Exit Exam"
+    },
+    {
+      "examNumber": 33,
+      "id": 19,
+      "topic": "Android",
+      "text": "Android is based on which Kernal",
+      "options": [
+        {
+          "key": "A",
+          "text": "Redhat . Windows"
+        },
+        {
+          "key": "B",
+          "text": "(option unclear in OCR)"
+        },
+        {
+          "key": "C",
+          "text": "MAC . Linux"
+        },
+        {
+          "key": "D",
+          "text": "(option unclear in OCR)"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Android): MAC . Linux",
+      "sourceExamId": "bdu",
+      "sourceQuestionId": 33,
+      "sourceExamTitle": "BDU Model Exit Exam"
+    },
+    {
+      "examNumber": 50,
+      "id": 20,
+      "topic": "Android",
+      "text": "Denial of Service attacks affects which af the following factors",
+      "options": [
+        {
+          "key": "A",
+          "text": "All of the above"
+        },
+        {
+          "key": "B",
+          "text": "Integrity"
+        },
+        {
+          "key": "C",
+          "text": "Confidentiality"
+        },
+        {
+          "key": "D",
+          "text": "Availability"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Android): Availability",
+      "sourceExamId": "bdu",
+      "sourceQuestionId": 50,
+      "sourceExamTitle": "BDU Model Exit Exam"
+    },
+    {
+      "examNumber": 51,
+      "id": 21,
+      "topic": "Android",
+      "text": "During project execution, a team member is not sure of what work to accomplish. Which document contains detailed descriptions of work packages?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Project scope statement"
+        },
+        {
+          "key": "B",
+          "text": "Activity list"
+        },
+        {
+          "key": "C",
+          "text": "WBS"
+        },
+        {
+          "key": "D",
+          "text": "Scope management plan"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Project Management): WBS",
+      "sourceExamId": "bdu",
+      "sourceQuestionId": 51,
+      "sourceExamTitle": "BDU Model Exit Exam"
+    },
+    {
+      "examNumber": 77,
+      "id": 22,
+      "topic": "Android",
+      "text": "Which of the following activity is undertaken immediately after feasibility study and before the requirement analysis and specification phase",
+      "options": [
+        {
+          "key": "A",
+          "text": "Project Control"
+        },
+        {
+          "key": "B",
+          "text": "Project Monitoring o"
+        },
+        {
+          "key": "C",
+          "text": "Project Scheduling"
+        },
+        {
+          "key": "D",
+          "text": "Project Planning"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Android): Project Planning",
+      "sourceExamId": "bdu",
+      "sourceQuestionId": 77,
+      "sourceExamTitle": "BDU Model Exit Exam"
+    },
+    {
+      "examNumber": 85,
+      "id": 23,
+      "topic": "Android",
+      "text": "Which of the following statement is incorrect about agile manifesto",
+      "options": [
+        {
+          "key": "A",
+          "text": "It's recommended to respond to changes in requirements over following the plan"
+        },
+        {
+          "key": "B",
+          "text": "Contract negotiation over customer collaboration"
+        },
+        {
+          "key": "C",
+          "text": "Working software is the primary measure of progress"
+        },
+        {
+          "key": "D",
+          "text": "Working software over comprehensive documentation"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Android): Working software is the primary measure of progress",
+      "sourceExamId": "bdu",
+      "sourceQuestionId": 85,
+      "sourceExamTitle": "BDU Model Exit Exam"
+    },
+    {
+      "examNumber": 87,
+      "id": 24,
+      "topic": "Android",
+      "text": "Which one of the following is a service provided by the transport layer",
+      "options": [
+        {
+          "key": "A",
+          "text": "Process addressing"
+        },
+        {
+          "key": "B",
+          "text": "Physical addressing"
+        },
+        {
+          "key": "C",
+          "text": "Host addressing"
+        },
+        {
+          "key": "D",
+          "text": "Network addressing"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Android): Process addressing",
+      "sourceExamId": "bdu",
+      "sourceQuestionId": 87,
+      "sourceExamTitle": "BDU Model Exit Exam"
+    },
+    {
+      "examNumber": 45,
+      "id": 25,
+      "topic": "Android",
+      "text": "Which one is not among the layouts available in android?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Card Layout"
+        },
+        {
+          "key": "B",
+          "text": "Linear Layout"
+        },
+        {
+          "key": "C",
+          "text": "Relative Layout"
+        },
+        {
+          "key": "D",
+          "text": "Frame Layout"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Android): Card Layout",
+      "sourceExamId": "model1",
+      "sourceQuestionId": 45,
+      "sourceExamTitle": "MoEE Model Exam 1"
+    },
+    {
+      "examNumber": 66,
+      "id": 26,
+      "topic": "Android",
+      "text": "Which of the following is the first callback method that is invoked by the system during an activity life-cycle?",
+      "options": [
+        {
+          "key": "A",
+          "text": "onRestart()"
+        },
+        {
+          "key": "B",
+          "text": "onCreate()"
+        },
+        {
+          "key": "C",
+          "text": "onClick()"
+        },
+        {
+          "key": "D",
+          "text": "onStart()"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Android): onCreate()",
+      "sourceExamId": "model1",
+      "sourceQuestionId": 66,
+      "sourceExamTitle": "MoEE Model Exam 1"
+    },
+    {
+      "examNumber": 90,
+      "id": 27,
+      "topic": "Android",
+      "text": "For which of the following Android is mainly developed?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Servers"
+        },
+        {
+          "key": "B",
+          "text": "Mobile devices"
+        },
+        {
+          "key": "C",
+          "text": "Laptops"
+        },
+        {
+          "key": "D",
+          "text": "Desktops"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Android): Mobile devices",
+      "sourceExamId": "model1",
+      "sourceQuestionId": 90,
+      "sourceExamTitle": "MoEE Model Exam 1"
+    },
+    {
+      "examNumber": 32,
+      "id": 28,
+      "topic": "Android",
+      "text": "What is the primary programming language for Android app development?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Swift"
+        },
+        {
+          "key": "B",
+          "text": "Java"
+        },
+        {
+          "key": "C",
+          "text": "Python"
+        },
+        {
+          "key": "D",
+          "text": "C++"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Android): Java",
+      "sourceExamId": "moe2025",
+      "sourceQuestionId": 32,
+      "sourceExamTitle": "2025 MoEE Exit Exam"
+    },
+    {
+      "examNumber": 33,
+      "id": 29,
+      "topic": "Android",
+      "text": "Which component in an Android application defines the user interface?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Activity"
+        },
+        {
+          "key": "B",
+          "text": "Service"
+        },
+        {
+          "key": "C",
+          "text": "Broadcast Receiver"
+        },
+        {
+          "key": "D",
+          "text": "Content Provider"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Android): Activity",
+      "sourceExamId": "moe2025",
+      "sourceQuestionId": 33,
+      "sourceExamTitle": "2025 MoEE Exit Exam"
+    },
+    {
+      "examNumber": 34,
+      "id": 30,
+      "topic": "Android",
+      "text": "What is the purpose of an Android Intent?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To manage database connections"
+        },
+        {
+          "key": "B",
+          "text": "To facilitate communication between components"
+        },
+        {
+          "key": "C",
+          "text": "To handle background services"
+        },
+        {
+          "key": "D",
+          "text": "To secure the application"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Android): To facilitate communication between components",
+      "sourceExamId": "moe2025",
+      "sourceQuestionId": 34,
+      "sourceExamTitle": "2025 MoEE Exit Exam"
+    },
+    {
+      "examNumber": 35,
+      "id": 31,
+      "topic": "Android",
+      "text": "Which file in an Android project specifies the app's permissions?",
+      "options": [
+        {
+          "key": "A",
+          "text": "AndroidManifest.xml"
+        },
+        {
+          "key": "B",
+          "text": "build.gradle"
+        },
+        {
+          "key": "C",
+          "text": "activity_main.xml"
+        },
+        {
+          "key": "D",
+          "text": "MainActivity.java"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Android): AndroidManifest.xml",
+      "sourceExamId": "moe2025",
+      "sourceQuestionId": 35,
+      "sourceExamTitle": "2025 MoEE Exit Exam"
+    },
+    {
+      "examNumber": 36,
+      "id": 32,
+      "topic": "Android",
+      "text": "What is a key security concern in mobile app development?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Using too many colors in the UI"
+        },
+        {
+          "key": "B",
+          "text": "Storing sensitive data unencrypted"
+        },
+        {
+          "key": "C",
+          "text": "Including large images"
+        },
+        {
+          "key": "D",
+          "text": "Using multiple activities"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Android): Storing sensitive data unencrypted",
+      "sourceExamId": "moe2025",
+      "sourceQuestionId": 36,
+      "sourceExamTitle": "2025 MoEE Exit Exam"
+    },
+    {
+      "examNumber": 15,
+      "id": 33,
+      "topic": "Android",
+      "text": "1.00 What is Manifest.xml in android? b. d.",
+      "options": [
+        {
+          "key": "A",
+          "text": "It has the information about activities in an application"
+        },
+        {
+          "key": "B",
+          "text": "It is an executable file of the application"
+        },
+        {
+          "key": "C",
+          "text": "It has information about layout in an application"
+        },
+        {
+          "key": "D",
+          "text": "It has all the information about an application"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Android): It has all the information about an application",
+      "sourceExamId": "2016",
+      "sourceQuestionId": 15,
+      "sourceExamTitle": "2016 Software Engineering Exit Exam"
+    },
+    {
+      "examNumber": 32,
+      "id": 34,
+      "topic": "Android",
+      "text": "What is an activity in Android?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A single screen in an application with supporting Java code"
+        },
+        {
+          "key": "B",
+          "text": "An Android class used to configure the Android application"
+        },
+        {
+          "key": "C",
+          "text": "It is an Intent"
+        },
+        {
+          "key": "D",
+          "text": "An Android package file holding all the packages used"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Android): A single screen in an application with supporting Java code",
+      "sourceExamId": "2016",
+      "sourceQuestionId": 32,
+      "sourceExamTitle": "2016 Software Engineering Exit Exam"
+    },
+    {
+      "examNumber": 70,
+      "id": 35,
+      "topic": "Android",
+      "text": "76 Question Not yet enswered of Select an activity that suits in the fundamental test process which includes evaluation of the testability of the requirements and system?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Test analysis and design"
+        },
+        {
+          "key": "B",
+          "text": "Test analysis and planning"
+        },
+        {
+          "key": "C",
+          "text": "Test analysis and"
+        },
+        {
+          "key": "D",
+          "text": "Implementation"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Android): Test analysis and design",
+      "sourceExamId": "2016",
+      "sourceQuestionId": 70,
+      "sourceExamTitle": "2016 Software Engineering Exit Exam"
+    },
+    {
+      "examNumber": 78,
+      "id": 36,
+      "topic": "Android",
+      "text": "Msrked out Which activity comes last in fundamental program development in c++ 7 a.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Compiling program"
+        },
+        {
+          "key": "B",
+          "text": "Writing program"
+        },
+        {
+          "key": "C",
+          "text": "Memory allocation for variables"
+        },
+        {
+          "key": "D",
+          "text": "Linking"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Android): Writing program",
+      "sourceExamId": "2016",
+      "sourceQuestionId": 78,
+      "sourceExamTitle": "2016 Software Engineering Exit Exam"
+    },
+    {
+      "examNumber": 84,
+      "id": 37,
+      "topic": "Android",
+      "text": "1.00 Identify the lowest layer of Android architecture.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Framework"
+        },
+        {
+          "key": "B",
+          "text": "Database"
+        },
+        {
+          "key": "C",
+          "text": "Linux"
+        },
+        {
+          "key": "D",
+          "text": "Kernel"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Android): Linux",
+      "sourceExamId": "2016",
+      "sourceQuestionId": 84,
+      "sourceExamTitle": "2016 Software Engineering Exit Exam"
+    },
+    {
+      "examNumber": 86,
+      "id": 38,
+      "topic": "Android",
+      "text": "yet answered APK stands tort o o",
+      "options": [
+        {
+          "key": "A",
+          "text": "Android"
+        },
+        {
+          "key": "B",
+          "text": "Platform"
+        },
+        {
+          "key": "C",
+          "text": "Android"
+        },
+        {
+          "key": "D",
+          "text": "Package"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Android): Android",
+      "sourceExamId": "2016",
+      "sourceQuestionId": 86,
+      "sourceExamTitle": "2016 Software Engineering Exit Exam"
+    },
+    {
+      "examNumber": 93,
+      "id": 39,
+      "topic": "Android",
+      "text": "Identify the lowest layer of Android architecture.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Application"
+        },
+        {
+          "key": "B",
+          "text": "Application Framework"
+        },
+        {
+          "key": "C",
+          "text": "Database"
+        },
+        {
+          "key": "D",
+          "text": "Linux Kernel"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Android): Linux Kernel",
+      "sourceExamId": "2016",
+      "sourceQuestionId": 93,
+      "sourceExamTitle": "2016 Software Engineering Exit Exam"
+    },
+    {
+      "examNumber": 96,
+      "id": 40,
+      "topic": "Android",
+      "text": "APK stands for:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Android Phone Kit"
+        },
+        {
+          "key": "B",
+          "text": "Android Page Kit"
+        },
+        {
+          "key": "C",
+          "text": "Android Platform Kit"
+        },
+        {
+          "key": "D",
+          "text": "Android Package Kit"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Android): Android Package Kit",
+      "sourceExamId": "2016",
+      "sourceQuestionId": 96,
+      "sourceExamTitle": "2016 Software Engineering Exit Exam"
+    }
+  ],
+  "dataRevision": 1
+}

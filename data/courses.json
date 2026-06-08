@@ -1,0 +1,219 @@
+{
+  "courses": [
+    {
+      "id": "networking",
+      "title": "Networking",
+      "description": "OSI model, TCP/IP, routing, subnetting, and network protocols",
+      "icon": "🌐",
+      "color": "#0ea5e9",
+      "topics": [
+        "Networking"
+      ],
+      "timeLimitHours": 3,
+      "questionsPath": "data/courses/networking/questions.json",
+      "questionCount": 70,
+      "dataRevision": 1
+    },
+    {
+      "id": "oop",
+      "title": "Object-Oriented Programming",
+      "shortTitle": "OOP",
+      "description": "Inheritance, encapsulation, polymorphism, Java and OOP principles",
+      "icon": "🧩",
+      "color": "#8b5cf6",
+      "topics": [
+        "Java / OOP"
+      ],
+      "timeLimitHours": 3,
+      "questionsPath": "data/courses/oop/questions.json",
+      "questionCount": 54,
+      "dataRevision": 1
+    },
+    {
+      "id": "operating-systems",
+      "title": "Operating Systems",
+      "shortTitle": "OS",
+      "description": "Process scheduling, deadlock, memory management, and concurrency",
+      "icon": "💻",
+      "color": "#6366f1",
+      "topics": [
+        "Operating Systems"
+      ],
+      "timeLimitHours": 3,
+      "questionsPath": "data/courses/operating-systems/questions.json",
+      "questionCount": 32,
+      "dataRevision": 1
+    },
+    {
+      "id": "cpp",
+      "title": "C++",
+      "description": "Pointers, memory, operators, loops, and C++ fundamentals",
+      "icon": "⚙️",
+      "color": "#64748b",
+      "topics": [
+        "C++"
+      ],
+      "timeLimitHours": 3,
+      "questionsPath": "data/courses/cpp/questions.json",
+      "questionCount": 10,
+      "dataRevision": 1
+    },
+    {
+      "id": "database",
+      "title": "Database",
+      "description": "SQL, normalization, ER modeling, and relational algebra",
+      "icon": "🗄️",
+      "color": "#14b8a6",
+      "topics": [
+        "Database"
+      ],
+      "timeLimitHours": 3,
+      "questionsPath": "data/courses/database/questions.json",
+      "questionCount": 58,
+      "dataRevision": 1
+    },
+    {
+      "id": "web-development",
+      "title": "Web Development",
+      "description": "HTML, CSS, JavaScript, HTTP, and front-end concepts",
+      "icon": "🌍",
+      "color": "#f59e0b",
+      "topics": [
+        "Web Development"
+      ],
+      "timeLimitHours": 3,
+      "questionsPath": "data/courses/web-development/questions.json",
+      "questionCount": 65,
+      "dataRevision": 1
+    },
+    {
+      "id": "software-engineering",
+      "title": "Software Engineering",
+      "description": "SDLC, requirements, design principles, and engineering practices",
+      "icon": "📐",
+      "color": "#3b82f6",
+      "topics": [
+        "Software Engineering"
+      ],
+      "timeLimitHours": 3,
+      "questionsPath": "data/courses/software-engineering/questions.json",
+      "questionCount": 74,
+      "dataRevision": 1
+    },
+    {
+      "id": "software-testing",
+      "title": "Software Testing",
+      "description": "Test types, coverage, validation, and quality assurance",
+      "icon": "🔬",
+      "color": "#ec4899",
+      "topics": [
+        "Software Testing"
+      ],
+      "timeLimitHours": 3,
+      "questionsPath": "data/courses/software-testing/questions.json",
+      "questionCount": 36,
+      "dataRevision": 1
+    },
+    {
+      "id": "android",
+      "title": "Android Development",
+      "shortTitle": "Android",
+      "description": "Activities, layouts, intents, and mobile app fundamentals",
+      "icon": "📱",
+      "color": "#22c55e",
+      "topics": [
+        "Android"
+      ],
+      "timeLimitHours": 3,
+      "questionsPath": "data/courses/android/questions.json",
+      "questionCount": 40,
+      "dataRevision": 1
+    },
+    {
+      "id": "data-structures",
+      "title": "Data Structures",
+      "description": "Arrays, trees, graphs, complexity, and algorithm analysis",
+      "icon": "📊",
+      "color": "#a855f7",
+      "topics": [
+        "Data Structures"
+      ],
+      "timeLimitHours": 3,
+      "questionsPath": "data/courses/data-structures/questions.json",
+      "questionCount": 25,
+      "dataRevision": 1
+    },
+    {
+      "id": "ai-ml",
+      "title": "AI & Machine Learning",
+      "shortTitle": "AI / ML",
+      "description": "Search, learning types, neural networks, and intelligent agents",
+      "icon": "🤖",
+      "color": "#06b6d4",
+      "topics": [
+        "AI / ML"
+      ],
+      "timeLimitHours": 3,
+      "questionsPath": "data/courses/ai-ml/questions.json",
+      "questionCount": 31,
+      "dataRevision": 1
+    },
+    {
+      "id": "security",
+      "title": "Security",
+      "description": "CIA triad, encryption, authentication, and risk management",
+      "icon": "🔒",
+      "color": "#ef4444",
+      "topics": [
+        "Security"
+      ],
+      "timeLimitHours": 3,
+      "questionsPath": "data/courses/security/questions.json",
+      "questionCount": 19,
+      "dataRevision": 1
+    },
+    {
+      "id": "project-management",
+      "title": "Project Management",
+      "description": "Agile, scheduling, risk, and software project lifecycle",
+      "icon": "📋",
+      "color": "#eab308",
+      "topics": [
+        "Project Management"
+      ],
+      "timeLimitHours": 3,
+      "questionsPath": "data/courses/project-management/questions.json",
+      "questionCount": 43,
+      "dataRevision": 1
+    },
+    {
+      "id": "software-architecture",
+      "title": "Software Architecture",
+      "description": "Patterns, quality attributes, and architectural design",
+      "icon": "🏗️",
+      "color": "#78716c",
+      "topics": [
+        "Software Architecture"
+      ],
+      "timeLimitHours": 3,
+      "questionsPath": "data/courses/software-architecture/questions.json",
+      "questionCount": 28,
+      "dataRevision": 1
+    },
+    {
+      "id": "fundamentals",
+      "title": "Programming Fundamentals",
+      "description": "Core programming concepts and general SE knowledge",
+      "icon": "📚",
+      "color": "#94a3b8",
+      "topics": [
+        "General",
+        "Fundamentals of Programming"
+      ],
+      "timeLimitHours": 3,
+      "questionsPath": "data/courses/fundamentals/questions.json",
+      "questionCount": 57,
+      "dataRevision": 1
+    }
+  ]
+}

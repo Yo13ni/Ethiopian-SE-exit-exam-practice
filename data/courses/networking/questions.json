@@ -1,0 +1,2120 @@
+{
+  "title": "Networking — Course Practice",
+  "courseId": "networking",
+  "topics": [
+    "Networking"
+  ],
+  "total": 70,
+  "focusGuide": {
+    "Networking": "Review OSI/TCP-IP layers, subnetting, switches vs hubs, HTTP, and network security basics."
+  },
+  "questions": [
+    {
+      "examNumber": 17,
+      "id": 1,
+      "topic": "Networking",
+      "text": "A firewall is used in a system connected to a wide area network to",
+      "options": [
+        {
+          "key": "A",
+          "text": "Fire spreading via network through cables",
+          "explanation": "Incorrect. Fire spreading via network through cables — Confuses network firewall with physical fire prevention. The correct choice is C."
+        },
+        {
+          "key": "B",
+          "text": "Avoid Spreading of fire in the network",
+          "explanation": "Incorrect. Avoid Spreading of fire in the network — Confuses network firewall with physical fire prevention. The correct choice is C."
+        },
+        {
+          "key": "C",
+          "text": "Stop Unauthorized access by hackers",
+          "explanation": "Correct. Stop Unauthorized access by hackers — this directly answers the question. In Networking, this is the standard/principle being tested."
+        },
+        {
+          "key": "D",
+          "text": "Scanning for viruses in various files",
+          "explanation": "Incorrect. Scanning for viruses in various files — Antivirus scanning is different from perimeter access control. The correct choice is C."
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Networking): Stop Unauthorized access by hackers",
+      "sourceExamId": "2015",
+      "sourceQuestionId": 11,
+      "sourceExamTitle": "Exit Exam 2015"
+    },
+    {
+      "examNumber": 19,
+      "id": 2,
+      "topic": "Networking",
+      "text": "Which of the following is the correct order of packet data unit as data moved in the OSI reference model from bottom to top?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Segment, Packet, Frame, Bit",
+          "explanation": "Incorrect. Segment, Packet, Frame, Bit — This option does not satisfy what the question is asking. The correct choice is C."
+        },
+        {
+          "key": "B",
+          "text": "Segment, Frame, Packet, Bit",
+          "explanation": "Incorrect. Segment, Frame, Packet, Bit — This option does not satisfy what the question is asking. The correct choice is C."
+        },
+        {
+          "key": "C",
+          "text": "Bit, Frame, Packet, Segment",
+          "explanation": "Correct. Bit, Frame, Packet, Segment — this directly answers the question. In Networking, this is the standard/principle being tested."
+        },
+        {
+          "key": "D",
+          "text": "Bit, Packet, Frame, Segment",
+          "explanation": "Incorrect. Bit, Packet, Frame, Segment — This option does not satisfy what the question is asking. The correct choice is C."
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Networking): Bit, Frame, Packet, Segment",
+      "sourceExamId": "2015",
+      "sourceQuestionId": 13,
+      "sourceExamTitle": "Exit Exam 2015"
+    },
+    {
+      "examNumber": 20,
+      "id": 3,
+      "topic": "Networking",
+      "text": "Which of the following statement is true regarding triple DES?",
+      "options": [
+        {
+          "key": "A",
+          "text": "192-bit keys on 64-bit blocks of plain text.",
+          "explanation": "Incorrect. 192-bit keys on 64-bit blocks of plain text. — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "B",
+          "text": "Uses 128-bit blocks of plain text and 92-bit keys and apply DES algorithm thrice.",
+          "explanation": "Incorrect. Uses 128-bit blocks of plain text and 92-bit keys and apply DES algorithm thrice. — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "C",
+          "text": "Work with 192-bit blocks of plain text and applies DES algorithm once.",
+          "explanation": "Incorrect. Work with 192-bit blocks of plain text and applies DES algorithm once. — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "D",
+          "text": "Functioning on 64-bit blocks of plain text and 56-bit keys by applying DES algorithm for three rounds.",
+          "explanation": "Correct. Functioning on 64-bit blocks of plain text and 56-bit keys by applying DES algorithm for three rounds. — this directly answers the question. In Networking, this is the standard/principle being tested."
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Networking): Functioning on 64-bit blocks of plain text and 56-bit keys by applying DES algorithm for three rounds.",
+      "sourceExamId": "2015",
+      "sourceQuestionId": 14,
+      "sourceExamTitle": "Exit Exam 2015"
+    },
+    {
+      "examNumber": 40,
+      "id": 4,
+      "topic": "Networking",
+      "text": "Which slogan is against agile method philosophy?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Following a plan over responding to changes",
+          "explanation": "Correct. Following a plan over responding to changes — this directly answers the question. In Project Management, this is the standard/principle being tested."
+        },
+        {
+          "key": "B",
+          "text": "Individuals and interactions over processes and tools",
+          "explanation": "Incorrect. Individuals and interactions over processes and tools — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "C",
+          "text": "Customer collaboration over contract negotiation",
+          "explanation": "Incorrect. Customer collaboration over contract negotiation — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "D",
+          "text": "working software over comprehensive documentation",
+          "explanation": "Incorrect. working software over comprehensive documentation — This is a core agile value, not something against agile. The correct choice is A."
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Project Management): Following a plan over responding to changes",
+      "sourceExamId": "2015",
+      "sourceQuestionId": 33,
+      "sourceExamTitle": "Exit Exam 2015"
+    },
+    {
+      "examNumber": 50,
+      "id": 5,
+      "topic": "Networking",
+      "text": "Which of the following is the correct sequence that will be followed during software evolution process?",
+      "options": [
+        {
+          "key": "A",
+          "text": "change request, release planning, change implementation, impact analysis, system release",
+          "explanation": "Incorrect. change request, release planning, change implementation, impact analysis, system release — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "B",
+          "text": "impact analysis, change request, change implementation, release planning, system release",
+          "explanation": "Incorrect. impact analysis, change request, change implementation, release planning, system release — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "C",
+          "text": "change request, impact analysis, change implementation, release planning, system release",
+          "explanation": "Incorrect. change request, impact analysis, change implementation, release planning, system release — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "D",
+          "text": "change request, impact analysis, release planning, change implementation, system release",
+          "explanation": "Correct. change request, impact analysis, release planning, change implementation, system release — this directly answers the question. In Operating Systems, this is the standard/principle being tested."
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Operating Systems): change request, impact analysis, release planning, change implementation, system release",
+      "sourceExamId": "2015",
+      "sourceQuestionId": 43,
+      "sourceExamTitle": "Exit Exam 2015"
+    },
+    {
+      "examNumber": 57,
+      "id": 6,
+      "topic": "Networking",
+      "text": "Which of the following is a resource optimization techniques in which start and finish dates are adjusted based on resource constraints with the goal of balancing the demand resources with the available supply?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Responsibility assignment matrix",
+          "explanation": "Incorrect. Responsibility assignment matrix — This option does not satisfy what the question is asking. The correct choice is C."
+        },
+        {
+          "key": "B",
+          "text": "Resource smoothing",
+          "explanation": "Incorrect. Resource smoothing — This option does not satisfy what the question is asking. The correct choice is C."
+        },
+        {
+          "key": "C",
+          "text": "Resource leveling",
+          "explanation": "Correct. Resource leveling — this directly answers the question. In Project Management, this is the standard/principle being tested."
+        },
+        {
+          "key": "D",
+          "text": "Resource grouping",
+          "explanation": "Incorrect. Resource grouping — This option does not satisfy what the question is asking. The correct choice is C."
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Project Management): Resource leveling",
+      "sourceExamId": "2015",
+      "sourceQuestionId": 50,
+      "sourceExamTitle": "Exit Exam 2015"
+    },
+    {
+      "examNumber": 60,
+      "id": 7,
+      "topic": "Networking",
+      "text": "Which of the following is among benefits provided with access control lists (ACLS) implementation for software security based application?",
+      "options": [
+        {
+          "key": "A",
+          "text": "ACLs monitor the number of bytes and packets",
+          "explanation": "Incorrect. ACLs monitor the number of bytes and packets — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "B",
+          "text": "ACLs provide high network availability",
+          "explanation": "Incorrect. ACLs provide high network availability — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "C",
+          "text": "Virus detection",
+          "explanation": "Incorrect. Virus detection — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "D",
+          "text": "ACLs classify and organize network traffic",
+          "explanation": "Correct. ACLs classify and organize network traffic — this directly answers the question. In Java / OOP, this is the standard/principle being tested."
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Java / OOP): ACLs classify and organize network traffic",
+      "sourceExamId": "2015",
+      "sourceQuestionId": 53,
+      "sourceExamTitle": "Exit Exam 2015"
+    },
+    {
+      "examNumber": 62,
+      "id": 8,
+      "topic": "Networking",
+      "text": "The process that generates activities such as project schedule, cost estimations and work breakdown structures is described as:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Project Initiating",
+          "explanation": "Incorrect. Project Initiating — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "B",
+          "text": "Project Executing",
+          "explanation": "Incorrect. Project Executing — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "C",
+          "text": "Project Closing",
+          "explanation": "Incorrect. Project Closing — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "D",
+          "text": "Project Planning",
+          "explanation": "Correct. Project Planning — this directly answers the question. In Project Management, this is the standard/principle being tested."
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Project Management): Project Planning",
+      "sourceExamId": "2015",
+      "sourceQuestionId": 55,
+      "sourceExamTitle": "Exit Exam 2015"
+    },
+    {
+      "examNumber": 68,
+      "id": 9,
+      "topic": "Networking",
+      "text": "Which software process model will you use if you want to deliver different functionalities (modules) of the software product that have different priority at different time?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Incremental model",
+          "explanation": "Correct. Incremental model — this directly answers the question. In Project Management, this is the standard/principle being tested."
+        },
+        {
+          "key": "B",
+          "text": "Spiral model",
+          "explanation": "Incorrect. Spiral model — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "C",
+          "text": "Waterfall model",
+          "explanation": "Incorrect. Waterfall model — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "D",
+          "text": "Linear model",
+          "explanation": "Incorrect. Linear model — This option does not satisfy what the question is asking. The correct choice is A."
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Project Management): Incremental model",
+      "sourceExamId": "2015",
+      "sourceQuestionId": 61,
+      "sourceExamTitle": "Exit Exam 2015"
+    },
+    {
+      "examNumber": 72,
+      "id": 10,
+      "topic": "Networking",
+      "text": "Which design pattern is used to restore the state of an object to its previous state?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Visitor pattern",
+          "explanation": "Incorrect. Visitor pattern — This option does not satisfy what the question is asking. The correct choice is B."
+        },
+        {
+          "key": "B",
+          "text": "Momento pattern",
+          "explanation": "Correct. Momento pattern — this directly answers the question. In Software Architecture, this is the standard/principle being tested."
+        },
+        {
+          "key": "C",
+          "text": "Observer pattern",
+          "explanation": "Incorrect. Observer pattern — This option does not satisfy what the question is asking. The correct choice is B."
+        },
+        {
+          "key": "D",
+          "text": "Iterator pattern",
+          "explanation": "Incorrect. Iterator pattern — This option does not satisfy what the question is asking. The correct choice is B."
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Architecture): Momento pattern",
+      "sourceExamId": "2015",
+      "sourceQuestionId": 65,
+      "sourceExamTitle": "Exit Exam 2015"
+    },
+    {
+      "examNumber": 73,
+      "id": 11,
+      "topic": "Networking",
+      "text": "Which of the following describes a set of standards and an associated network protocol that allow establishing a secure channel between a local and a remote computer?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Secure socket layer(SSL)",
+          "explanation": "Incorrect. Secure socket layer(SSL) — This option does not satisfy what the question is asking. The correct choice is B."
+        },
+        {
+          "key": "B",
+          "text": "Secure shell(SSH)",
+          "explanation": "Correct. Secure shell(SSH) — this directly answers the question. In Networking, this is the standard/principle being tested."
+        },
+        {
+          "key": "C",
+          "text": "Authentication, Authorization and Accounting(AAA)",
+          "explanation": "Incorrect. Authentication, Authorization and Accounting(AAA) — This option does not satisfy what the question is asking. The correct choice is B."
+        },
+        {
+          "key": "D",
+          "text": "Simple network management protocol(SNMP)",
+          "explanation": "Incorrect. Simple network management protocol(SNMP) — This option does not satisfy what the question is asking. The correct choice is B."
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Networking): Secure shell(SSH)",
+      "sourceExamId": "2015",
+      "sourceQuestionId": 66,
+      "sourceExamTitle": "Exit Exam 2015"
+    },
+    {
+      "examNumber": 75,
+      "id": 12,
+      "topic": "Networking",
+      "text": "Select a fundamental issue that may not be considered by the software architects during the architectural design process?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Which architectural organization is best for delivering the functional requirements",
+          "explanation": "Correct. Which architectural organization is best for delivering the functional requirements — this directly answers the question. In Networking, this is the standard/principle being tested."
+        },
+        {
+          "key": "B",
+          "text": "How to decompose structural components in to sub components",
+          "explanation": "Incorrect. How to decompose structural components in to sub components — This statement is generally true, but the question asks for the wrong/not case. The correct choice is A."
+        },
+        {
+          "key": "C",
+          "text": "How the system will be distributed across a number of cores or processes",
+          "explanation": "Incorrect. How the system will be distributed across a number of cores or processes — This statement is generally true, but the question asks for the wrong/not case. The correct choice is A."
+        },
+        {
+          "key": "D",
+          "text": "Which architectural patterns or styles to use",
+          "explanation": "Incorrect. Which architectural patterns or styles to use — This statement is generally true, but the question asks for the wrong/not case. The correct choice is A."
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Networking): Which architectural organization is best for delivering the functional requirements",
+      "sourceExamId": "2015",
+      "sourceQuestionId": 68,
+      "sourceExamTitle": "Exit Exam 2015"
+    },
+    {
+      "examNumber": 76,
+      "id": 13,
+      "topic": "Networking",
+      "text": "Which of the following statement is not correct statement regarding of project life cycle?",
+      "options": [
+        {
+          "key": "A",
+          "text": "In agile life cycle the project scope is generally determined early in the project life cycle, but time and cost estimates are routinely modified",
+          "explanation": "Incorrect. In agile life cycle the project scope is generally determined early in the project life cycle, but time and cost estimates are routinely modified — This statement is generally true, but the question asks for the wrong/not case. The correct choice is C."
+        },
+        {
+          "key": "B",
+          "text": "In waterfall life cycle, the project scope, time and cost are determined in the early phase of the life cycle.",
+          "explanation": "Incorrect. In waterfall life cycle, the project scope, time and cost are determined in the early phase of the life cycle. — This statement is generally true, but the question asks for the wrong/not case. The correct choice is C."
+        },
+        {
+          "key": "C",
+          "text": "In agile life cycles, the project scope cannot be outlined and agreed before the start of iteration.",
+          "explanation": "Correct. In agile life cycles, the project scope cannot be outlined and agreed before the start of iteration. — this directly answers the question. In Project Management, this is the standard/principle being tested."
+        },
+        {
+          "key": "D",
+          "text": "In an incremental life cycle, the deliverable is produced through a series of iterations that successively add functionality within a predetermined time frame.",
+          "explanation": "Incorrect. In an incremental life cycle, the deliverable is produced through a series of iterations that successively add functionality within a predetermined time frame. — This statement is generally true, but the question asks for the wrong/not case. The correct choice is C."
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Project Management): In agile life cycles, the project scope cannot be outlined and agreed before the start of iteration.",
+      "sourceExamId": "2015",
+      "sourceQuestionId": 69,
+      "sourceExamTitle": "Exit Exam 2015"
+    },
+    {
+      "examNumber": 79,
+      "id": 14,
+      "topic": "Networking",
+      "text": "Which of the following is not an approach used by IT security specialists to enhance the security level of the network?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Use of Intrusion detection system",
+          "explanation": "Incorrect. Use of Intrusion detection system — This statement is generally true, but the question asks for the wrong/not case. The correct choice is B."
+        },
+        {
+          "key": "B",
+          "text": "Use of Wana cry protocol",
+          "explanation": "Correct. Use of Wana cry protocol — this directly answers the question. In Security, this is the standard/principle being tested."
+        },
+        {
+          "key": "C",
+          "text": "Use of physical security",
+          "explanation": "Incorrect. Use of physical security — This statement is generally true, but the question asks for the wrong/not case. The correct choice is B."
+        },
+        {
+          "key": "D",
+          "text": "Use of intrusion prevention system",
+          "explanation": "Incorrect. Use of intrusion prevention system — This statement is generally true, but the question asks for the wrong/not case. The correct choice is B."
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Security): Use of Wana cry protocol",
+      "sourceExamId": "2015",
+      "sourceQuestionId": 72,
+      "sourceExamTitle": "Exit Exam 2015"
+    },
+    {
+      "examNumber": 82,
+      "id": 15,
+      "topic": "Networking",
+      "text": "A TCP/IP layer which is responsible for addressing, path selection and routing refers:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Application layer",
+          "explanation": "Incorrect. Application layer — This option does not satisfy what the question is asking. The correct choice is B."
+        },
+        {
+          "key": "B",
+          "text": "Internet layer",
+          "explanation": "Correct. Internet layer — this directly answers the question. In Networking, this is the standard/principle being tested."
+        },
+        {
+          "key": "C",
+          "text": "Transport layer",
+          "explanation": "Incorrect. Transport layer — This option does not satisfy what the question is asking. The correct choice is B."
+        },
+        {
+          "key": "D",
+          "text": "Network Access layer",
+          "explanation": "Incorrect. Network Access layer — This option does not satisfy what the question is asking. The correct choice is B."
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Networking): Internet layer",
+      "sourceExamId": "2015",
+      "sourceQuestionId": 75,
+      "sourceExamTitle": "Exit Exam 2015"
+    },
+    {
+      "examNumber": 90,
+      "id": 16,
+      "topic": "Networking",
+      "text": "Give a situation two hosts attempt on half-duplex Ethernet LAN to send data concurrently, resulting in a collision and subsequent to this collision, what will the hosts do?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The jam signal indicates that the collision has been cleared",
+          "explanation": "Incorrect. The jam signal indicates that the collision has been cleared — This option does not satisfy what the question is asking. The correct choice is C."
+        },
+        {
+          "key": "B",
+          "text": "An electrical pulse indicates that the collision has cleared",
+          "explanation": "Incorrect. An electrical pulse indicates that the collision has cleared — This option does not satisfy what the question is asking. The correct choice is C."
+        },
+        {
+          "key": "C",
+          "text": "The hosts will attempt to resume transmission after a time delay has expired",
+          "explanation": "Correct. The hosts will attempt to resume transmission after a time delay has expired — this directly answers the question. In Networking, this is the standard/principle being tested."
+        },
+        {
+          "key": "D",
+          "text": "The router on the segment will signal that the collision has cleared",
+          "explanation": "Incorrect. The router on the segment will signal that the collision has cleared — This option does not satisfy what the question is asking. The correct choice is C."
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Networking): The hosts will attempt to resume transmission after a time delay has expired",
+      "sourceExamId": "2015",
+      "sourceQuestionId": 83,
+      "sourceExamTitle": "Exit Exam 2015"
+    },
+    {
+      "examNumber": 93,
+      "id": 17,
+      "topic": "Networking",
+      "text": "You are required to write a program that iteratively takes 50 numbers from user input and adds them up only if the numbers are positive and skips if not. Which control structure best fits this scenario?",
+      "options": [
+        {
+          "key": "A",
+          "text": "break",
+          "explanation": "Incorrect. break — This option does not satisfy what the question is asking. The correct choice is B."
+        },
+        {
+          "key": "B",
+          "text": "continue",
+          "explanation": "Correct. continue — this directly answers the question. In Networking, this is the standard/principle being tested."
+        },
+        {
+          "key": "C",
+          "text": "for",
+          "explanation": "Incorrect. for — This option does not satisfy what the question is asking. The correct choice is B."
+        },
+        {
+          "key": "D",
+          "text": "jump",
+          "explanation": "Incorrect. jump — This option does not satisfy what the question is asking. The correct choice is B."
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Networking): continue",
+      "sourceExamId": "2015",
+      "sourceQuestionId": 86,
+      "sourceExamTitle": "Exit Exam 2015"
+    },
+    {
+      "examNumber": 95,
+      "id": 18,
+      "topic": "Networking",
+      "text": "A memory management policy that that decisions must be made as to which page or pages are to be supplanted when a memory is full is known as:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Cleaning policy",
+          "explanation": "Incorrect. Cleaning policy — This option does not satisfy what the question is asking. The correct choice is C."
+        },
+        {
+          "key": "B",
+          "text": "Load policy",
+          "explanation": "Incorrect. Load policy — This option does not satisfy what the question is asking. The correct choice is C."
+        },
+        {
+          "key": "C",
+          "text": "Replacement policy",
+          "explanation": "Correct. Replacement policy — this directly answers the question. In Operating Systems, this is the standard/principle being tested."
+        },
+        {
+          "key": "D",
+          "text": "Fetch policy",
+          "explanation": "Incorrect. Fetch policy — This option does not satisfy what the question is asking. The correct choice is C."
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Operating Systems): Replacement policy",
+      "sourceExamId": "2015",
+      "sourceQuestionId": 88,
+      "sourceExamTitle": "Exit Exam 2015"
+    },
+    {
+      "examNumber": 99,
+      "id": 19,
+      "topic": "Networking",
+      "text": "Which of the following is not the function of Cross-over UTP cable?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To connect switch to switch",
+          "explanation": "Incorrect. To connect switch to switch — This statement is generally true, but the question asks for the wrong/not case. The correct choice is C."
+        },
+        {
+          "key": "B",
+          "text": "To connect pc to pc",
+          "explanation": "Incorrect. To connect pc to pc — This statement is generally true, but the question asks for the wrong/not case. The correct choice is C."
+        },
+        {
+          "key": "C",
+          "text": "To connect router to pc",
+          "explanation": "Correct. To connect router to pc — this directly answers the question. In Networking, this is the standard/principle being tested."
+        },
+        {
+          "key": "D",
+          "text": "To connect switch to pc",
+          "explanation": "Incorrect. To connect switch to pc — This statement is generally true, but the question asks for the wrong/not case. The correct choice is C."
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Networking): To connect router to pc",
+      "sourceExamId": "2015",
+      "sourceQuestionId": 92,
+      "sourceExamTitle": "Exit Exam 2015"
+    },
+    {
+      "examNumber": 2,
+      "id": 20,
+      "topic": "Networking",
+      "text": "Which one of the principles of cyber security refers to the security mechanism being as small and simple as possible?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Fail-safe Defaults"
+        },
+        {
+          "key": "B",
+          "text": "Least privilege"
+        },
+        {
+          "key": "C",
+          "text": "Economy of Mechanism"
+        },
+        {
+          "key": "D",
+          "text": "Open Design"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Security): Economy of Mechanism",
+      "sourceExamId": "aau",
+      "sourceQuestionId": 2,
+      "sourceExamTitle": "AAU Model Exit Exam"
+    },
+    {
+      "examNumber": 7,
+      "id": 21,
+      "topic": "Networking",
+      "text": "Which OSI layer is responsible for wireless signal encoding and frequency band definition?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Application Layer"
+        },
+        {
+          "key": "B",
+          "text": "Logical Link Control Layer"
+        },
+        {
+          "key": "C",
+          "text": "Medium Access Layer"
+        },
+        {
+          "key": "D",
+          "text": "Physical Layer"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Networking): Physical Layer",
+      "sourceExamId": "aau",
+      "sourceQuestionId": 7,
+      "sourceExamTitle": "AAU Model Exit Exam"
+    },
+    {
+      "examNumber": 9,
+      "id": 22,
+      "topic": "Networking",
+      "text": "The software requirements specification (SRS) is said to be consistent if and only if no subset of individual requirements described in it conflict with each other. This property is called:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Consistent"
+        },
+        {
+          "key": "B",
+          "text": "Verifiable"
+        },
+        {
+          "key": "C",
+          "text": "Unambiguous"
+        },
+        {
+          "key": "D",
+          "text": "Correct"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (SE): Consistent",
+      "sourceExamId": "aau",
+      "sourceQuestionId": 9,
+      "sourceExamTitle": "AAU Model Exit Exam"
+    },
+    {
+      "examNumber": 21,
+      "id": 23,
+      "topic": "Networking",
+      "text": "Which one of the following is NOT a function of the operating system?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Runs software utilities and programs"
+        },
+        {
+          "key": "B",
+          "text": "Translates high-level programming language into machine code"
+        },
+        {
+          "key": "C",
+          "text": "Manages computer system resources"
+        },
+        {
+          "key": "D",
+          "text": "Makes the computer system convenient to use"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (OS): Translates high-level programming language into machine code",
+      "sourceExamId": "aau",
+      "sourceQuestionId": 21,
+      "sourceExamTitle": "AAU Model Exit Exam"
+    },
+    {
+      "examNumber": 30,
+      "id": 24,
+      "topic": "Networking",
+      "text": "ICMP is mostly employed for o",
+      "options": [
+        {
+          "key": "A",
+          "text": "IP addressing"
+        },
+        {
+          "key": "B",
+          "text": "error and diagnostic functions"
+        },
+        {
+          "key": "C",
+          "text": "Data forwarding"
+        },
+        {
+          "key": "D",
+          "text": "Network routing"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Networking): error and diagnostic functions",
+      "sourceExamId": "aau",
+      "sourceQuestionId": 30,
+      "sourceExamTitle": "AAU Model Exit Exam"
+    },
+    {
+      "examNumber": 31,
+      "id": 25,
+      "topic": "Networking",
+      "text": "1%ich one of the followmg \" sentences\" best describe the current explosion of . o",
+      "options": [
+        {
+          "key": "A",
+          "text": "Too much knowledge and too much data"
+        },
+        {
+          "key": "B",
+          "text": "Too much data and too much opponunlty"
+        },
+        {
+          "key": "C",
+          "text": "Distributed knowledge and distributed data"
+        },
+        {
+          "key": "D",
+          "text": "too much data too little knowledge"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Networking): too much data too little knowledge",
+      "sourceExamId": "aau",
+      "sourceQuestionId": 31,
+      "sourceExamTitle": "AAU Model Exit Exam"
+    },
+    {
+      "examNumber": 34,
+      "id": 26,
+      "topic": "Networking",
+      "text": "Which sorting algorithm provides the best worst-case time complexity?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Merge sort"
+        },
+        {
+          "key": "B",
+          "text": "Selection sort"
+        },
+        {
+          "key": "C",
+          "text": "Quick sort"
+        },
+        {
+          "key": "D",
+          "text": "Bubble sort"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (C++): Merge sort",
+      "sourceExamId": "aau",
+      "sourceQuestionId": 34,
+      "sourceExamTitle": "AAU Model Exit Exam"
+    },
+    {
+      "examNumber": 36,
+      "id": 27,
+      "topic": "Networking",
+      "text": "In TCP, reliable transport verifies safe arrival of data using:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Acknowledgment"
+        },
+        {
+          "key": "B",
+          "text": "Bits"
+        },
+        {
+          "key": "C",
+          "text": "Buffer"
+        },
+        {
+          "key": "D",
+          "text": "Frame"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Networking): Acknowledgment",
+      "sourceExamId": "aau",
+      "sourceQuestionId": 36,
+      "sourceExamTitle": "AAU Model Exit Exam"
+    },
+    {
+      "examNumber": 41,
+      "id": 28,
+      "topic": "Networking",
+      "text": "Which OSI layer functions as the basis for dialog control and synchronization?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Network layer"
+        },
+        {
+          "key": "B",
+          "text": "Session layer"
+        },
+        {
+          "key": "C",
+          "text": "Data link layer"
+        },
+        {
+          "key": "D",
+          "text": "Transport layer"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Networking): Session layer",
+      "sourceExamId": "aau",
+      "sourceQuestionId": 41,
+      "sourceExamTitle": "AAU Model Exit Exam"
+    },
+    {
+      "examNumber": 45,
+      "id": 29,
+      "topic": "Networking",
+      "text": "Which network topology design makes it most difficult to identify faults?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Star"
+        },
+        {
+          "key": "B",
+          "text": "Bus"
+        },
+        {
+          "key": "C",
+          "text": "Mesh"
+        },
+        {
+          "key": "D",
+          "text": "Ring"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Networking): Bus",
+      "sourceExamId": "aau",
+      "sourceQuestionId": 45,
+      "sourceExamTitle": "AAU Model Exit Exam"
+    },
+    {
+      "examNumber": 47,
+      "id": 30,
+      "topic": "Networking",
+      "text": "What does the HTTP status code 201 indicate?",
+      "options": [
+        {
+          "key": "A",
+          "text": "No content"
+        },
+        {
+          "key": "B",
+          "text": "Accepted"
+        },
+        {
+          "key": "C",
+          "text": "OK"
+        },
+        {
+          "key": "D",
+          "text": "Created"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Web): Created",
+      "sourceExamId": "aau",
+      "sourceQuestionId": 47,
+      "sourceExamTitle": "AAU Model Exit Exam"
+    },
+    {
+      "examNumber": 63,
+      "id": 31,
+      "topic": "Networking",
+      "text": "Which of the following is just opposite to the Security through obscurity principle7",
+      "options": [
+        {
+          "key": "A",
+          "text": "Least common mechanism"
+        },
+        {
+          "key": "B",
+          "text": "Work factor"
+        },
+        {
+          "key": "C",
+          "text": "Least privileges"
+        },
+        {
+          "key": "D",
+          "text": "Open design"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Networking): Open design",
+      "sourceExamId": "aau",
+      "sourceQuestionId": 63,
+      "sourceExamTitle": "AAU Model Exit Exam"
+    },
+    {
+      "examNumber": 70,
+      "id": 32,
+      "topic": "Networking",
+      "text": "Which of the following is a valid IPv4 address?",
+      "options": [
+        {
+          "key": "A",
+          "text": "127.12.5.31"
+        },
+        {
+          "key": "B",
+          "text": "126.11.3.32"
+        },
+        {
+          "key": "C",
+          "text": "12611.5.32"
+        },
+        {
+          "key": "D",
+          "text": "128.11.3.31"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Networking): 127.12.5.31",
+      "sourceExamId": "aau",
+      "sourceQuestionId": 70,
+      "sourceExamTitle": "AAU Model Exit Exam"
+    },
+    {
+      "examNumber": 71,
+      "id": 33,
+      "topic": "Networking",
+      "text": "Which of the following is NOT desired in a good software requirements specification (SRS)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Functional requirements"
+        },
+        {
+          "key": "B",
+          "text": "Goals of implementation"
+        },
+        {
+          "key": "C",
+          "text": "Algorithm for software implementation"
+        },
+        {
+          "key": "D",
+          "text": "Non-functional requirements"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (SE): Algorithm for software implementation",
+      "sourceExamId": "aau",
+      "sourceQuestionId": 71,
+      "sourceExamTitle": "AAU Model Exit Exam"
+    },
+    {
+      "examNumber": 74,
+      "id": 34,
+      "topic": "Networking",
+      "text": "Data generated for one uses case may not be applicable to another use case. ThlS describes which characteristlc of Big Data? .",
+      "options": [
+        {
+          "key": "A",
+          "text": "Velocity"
+        },
+        {
+          "key": "B",
+          "text": "Value"
+        },
+        {
+          "key": "C",
+          "text": "Veracity"
+        },
+        {
+          "key": "D",
+          "text": "Validity"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (General): Value",
+      "sourceExamId": "aau",
+      "sourceQuestionId": 74,
+      "sourceExamTitle": "AAU Model Exit Exam"
+    },
+    {
+      "examNumber": 88,
+      "id": 35,
+      "topic": "Networking",
+      "text": "Which memory management scheme is NOT used for mapping logical addresses to physical addresses?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Segmentation"
+        },
+        {
+          "key": "B",
+          "text": "Paging with segmentation"
+        },
+        {
+          "key": "C",
+          "text": "Swapping"
+        },
+        {
+          "key": "D",
+          "text": "Paging"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (OS): Swapping",
+      "sourceExamId": "aau",
+      "sourceQuestionId": 88,
+      "sourceExamTitle": "AAU Model Exit Exam"
+    },
+    {
+      "examNumber": 97,
+      "id": 36,
+      "topic": "Networking",
+      "text": "Triple DES (3DES) works by:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Using 144-bit blocks with a single DES pass"
+        },
+        {
+          "key": "B",
+          "text": "Applying DES three times on 64-bit blocks with 56-bit keys"
+        },
+        {
+          "key": "C",
+          "text": "Using only 128-bit blocks with two DES passes"
+        },
+        {
+          "key": "D",
+          "text": "Replacing DES with AES in one round"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Security): Applying DES three times on 64-bit blocks with 56-bit keys",
+      "sourceExamId": "aau",
+      "sourceQuestionId": 97,
+      "sourceExamTitle": "AAU Model Exit Exam"
+    },
+    {
+      "examNumber": 40,
+      "id": 37,
+      "topic": "Networking",
+      "text": "What is the prefix length notation for the subnet mask 255.25±255.248",
+      "options": [
+        {
+          "key": "A",
+          "text": "(option unclear in OCR)"
+        },
+        {
+          "key": "B",
+          "text": "a/28 C.a/30"
+        },
+        {
+          "key": "C",
+          "text": "(option unclear in OCR)"
+        },
+        {
+          "key": "D",
+          "text": "3/29"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Networking): 3/29",
+      "sourceExamId": "bdu",
+      "sourceQuestionId": 40,
+      "sourceExamTitle": "BDU Model Exit Exam"
+    },
+    {
+      "examNumber": 41,
+      "id": 38,
+      "topic": "Networking",
+      "text": "Which IPv4 address class does this address belong to: 6.142.3.5?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Class A"
+        },
+        {
+          "key": "B",
+          "text": "Class B"
+        },
+        {
+          "key": "C",
+          "text": "Class C"
+        },
+        {
+          "key": "D",
+          "text": "Class D"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Networking): Class A",
+      "sourceExamId": "bdu",
+      "sourceQuestionId": 41,
+      "sourceExamTitle": "BDU Model Exit Exam"
+    },
+    {
+      "examNumber": 46,
+      "id": 39,
+      "topic": "Networking",
+      "text": "Which project management phase includes defining project scope and obtaining authorization to start?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Planning"
+        },
+        {
+          "key": "B",
+          "text": "Execution"
+        },
+        {
+          "key": "C",
+          "text": "Initiation"
+        },
+        {
+          "key": "D",
+          "text": "Closure"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Project Management): Initiation",
+      "sourceExamId": "bdu",
+      "sourceQuestionId": 46,
+      "sourceExamTitle": "BDU Model Exit Exam"
+    },
+    {
+      "examNumber": 54,
+      "id": 40,
+      "topic": "Networking",
+      "text": "How many bits are used for IPv6 address",
+      "options": [
+        {
+          "key": "A",
+          "text": "48 bits"
+        },
+        {
+          "key": "B",
+          "text": "128 bits"
+        },
+        {
+          "key": "C",
+          "text": "16 bits"
+        },
+        {
+          "key": "D",
+          "text": "32 bits"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (General): 128 bits",
+      "sourceExamId": "bdu",
+      "sourceQuestionId": 54,
+      "sourceExamTitle": "BDU Model Exit Exam"
+    },
+    {
+      "examNumber": 65,
+      "id": 41,
+      "topic": "Networking",
+      "text": "The process of transmitting two or more different signals simultaneously on the same medium is called",
+      "options": [
+        {
+          "key": "A",
+          "text": "Switching"
+        },
+        {
+          "key": "B",
+          "text": "Multiplexing cv Segmentation d Layering PR EVIOUS PAGE"
+        },
+        {
+          "key": "C",
+          "text": "(option unclear in OCR)"
+        },
+        {
+          "key": "D",
+          "text": "(option unclear in OCR)"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Networking): Multiplexing cv Segmentation d Layering PR EVIOUS PAGE",
+      "sourceExamId": "bdu",
+      "sourceQuestionId": 65,
+      "sourceExamTitle": "BDU Model Exit Exam"
+    },
+    {
+      "examNumber": 73,
+      "id": 42,
+      "topic": "Networking",
+      "text": "What type of core-relationship is represented by the symbol in the figure below",
+      "options": [
+        {
+          "key": "A",
+          "text": "Dependency"
+        },
+        {
+          "key": "B",
+          "text": "Composition cv Association"
+        },
+        {
+          "key": "C",
+          "text": "(option unclear in OCR)"
+        },
+        {
+          "key": "D",
+          "text": "Aggregation"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Networking): Composition cv Association",
+      "sourceExamId": "bdu",
+      "sourceQuestionId": 73,
+      "sourceExamTitle": "BDU Model Exit Exam"
+    },
+    {
+      "examNumber": 86,
+      "id": 43,
+      "topic": "Networking",
+      "text": "Which of the following term describes testing",
+      "options": [
+        {
+          "key": "A",
+          "text": "A stage of all projects b None of the mentioned"
+        },
+        {
+          "key": "B",
+          "text": "(option unclear in OCR)"
+        },
+        {
+          "key": "C",
+          "text": "Finding broken code"
+        },
+        {
+          "key": "D",
+          "text": "Evaluating deliverable to find errors"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Project Management): Evaluating deliverable to find errors",
+      "sourceExamId": "bdu",
+      "sourceQuestionId": 86,
+      "sourceExamTitle": "BDU Model Exit Exam"
+    },
+    {
+      "examNumber": 97,
+      "id": 44,
+      "topic": "Networking",
+      "text": "Which is not true about closing the opened file? *include <fcntl.h> int close(int fd);",
+      "options": [
+        {
+          "key": "A",
+          "text": "I : on error"
+        },
+        {
+          "key": "B",
+          "text": "NULL : on error"
+        },
+        {
+          "key": "C",
+          "text": "fdt file descriptor"
+        },
+        {
+          "key": "D",
+          "text": "0 success"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Networking): NULL : on error",
+      "sourceExamId": "bdu",
+      "sourceQuestionId": 97,
+      "sourceExamTitle": "BDU Model Exit Exam"
+    },
+    {
+      "examNumber": 10,
+      "id": 45,
+      "topic": "Networking",
+      "text": "A TCP/IP port number used by SSH is?",
+      "options": [
+        {
+          "key": "A",
+          "text": "20"
+        },
+        {
+          "key": "B",
+          "text": "22"
+        },
+        {
+          "key": "C",
+          "text": "23"
+        },
+        {
+          "key": "D",
+          "text": "21"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Networking): 22",
+      "sourceExamId": "model1",
+      "sourceQuestionId": 10,
+      "sourceExamTitle": "MoEE Model Exam 1"
+    },
+    {
+      "examNumber": 14,
+      "id": 46,
+      "topic": "Networking",
+      "text": "A software tool, such as a design editor or a program debugger, that developers and other software stakeholders use to support an activity in the software development process is",
+      "options": [
+        {
+          "key": "A",
+          "text": "CASE tools"
+        },
+        {
+          "key": "B",
+          "text": "CMMI"
+        },
+        {
+          "key": "C",
+          "text": "CMM"
+        },
+        {
+          "key": "D",
+          "text": "BPMN"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Networking): CASE tools",
+      "sourceExamId": "model1",
+      "sourceQuestionId": 14,
+      "sourceExamTitle": "MoEE Model Exam 1"
+    },
+    {
+      "examNumber": 16,
+      "id": 47,
+      "topic": "Networking",
+      "text": "Which of the following is a unique IPV4 address?",
+      "options": [
+        {
+          "key": "A",
+          "text": "172.17.17.17/26"
+        },
+        {
+          "key": "B",
+          "text": "172.16.30.0/16"
+        },
+        {
+          "key": "C",
+          "text": "172.16.25.250/16"
+        },
+        {
+          "key": "D",
+          "text": "172.43.17.1/16"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Networking): 172.17.17.17/26",
+      "sourceExamId": "model1",
+      "sourceQuestionId": 16,
+      "sourceExamTitle": "MoEE Model Exam 1"
+    },
+    {
+      "examNumber": 27,
+      "id": 48,
+      "topic": "Networking",
+      "text": "Which of the following is not a data link layer technology?",
+      "options": [
+        {
+          "key": "A",
+          "text": "OSPF"
+        },
+        {
+          "key": "B",
+          "text": "VLAN"
+        },
+        {
+          "key": "C",
+          "text": "PPP"
+        },
+        {
+          "key": "D",
+          "text": "Frame-relay"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Networking): OSPF",
+      "sourceExamId": "model1",
+      "sourceQuestionId": 27,
+      "sourceExamTitle": "MoEE Model Exam 1"
+    },
+    {
+      "examNumber": 30,
+      "id": 49,
+      "topic": "Networking",
+      "text": "Which one is not an architectural style?",
+      "options": [
+        {
+          "key": "A",
+          "text": "MVC"
+        },
+        {
+          "key": "B",
+          "text": "Client server"
+        },
+        {
+          "key": "C",
+          "text": "UML"
+        },
+        {
+          "key": "D",
+          "text": "OSI layer"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Networking): UML",
+      "sourceExamId": "model1",
+      "sourceQuestionId": 30,
+      "sourceExamTitle": "MoEE Model Exam 1"
+    },
+    {
+      "examNumber": 39,
+      "id": 50,
+      "topic": "Networking",
+      "text": "A temporary endeavor undertaken to create a unique product, service, or result is known as:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Program"
+        },
+        {
+          "key": "B",
+          "text": "Portfolio"
+        },
+        {
+          "key": "C",
+          "text": "Project"
+        },
+        {
+          "key": "D",
+          "text": "Process"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Networking): Project",
+      "sourceExamId": "model1",
+      "sourceQuestionId": 39,
+      "sourceExamTitle": "MoEE Model Exam 1"
+    },
+    {
+      "examNumber": 64,
+      "id": 51,
+      "topic": "Networking",
+      "text": "Which one is not the criteria for selecting best programming language for your problem:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Modularity"
+        },
+        {
+          "key": "B",
+          "text": "Platform dependency"
+        },
+        {
+          "key": "C",
+          "text": "Portability"
+        },
+        {
+          "key": "D",
+          "text": "Code efficiency"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Networking): Platform dependency",
+      "sourceExamId": "model1",
+      "sourceQuestionId": 64,
+      "sourceExamTitle": "MoEE Model Exam 1"
+    },
+    {
+      "examNumber": 65,
+      "id": 52,
+      "topic": "Networking",
+      "text": "Which of the following virtual machines is used by the Android operating system?",
+      "options": [
+        {
+          "key": "A",
+          "text": "CLR"
+        },
+        {
+          "key": "B",
+          "text": "Docker"
+        },
+        {
+          "key": "C",
+          "text": "Dalvik virtual machine"
+        },
+        {
+          "key": "D",
+          "text": "JVM"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Networking): Dalvik virtual machine",
+      "sourceExamId": "model1",
+      "sourceQuestionId": 65,
+      "sourceExamTitle": "MoEE Model Exam 1"
+    },
+    {
+      "examNumber": 75,
+      "id": 53,
+      "topic": "Networking",
+      "text": "A software work product which is associated with the test execution process group is known as:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Test Reports"
+        },
+        {
+          "key": "B",
+          "text": "Requirements"
+        },
+        {
+          "key": "C",
+          "text": "Test Cases"
+        },
+        {
+          "key": "D",
+          "text": "Code"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Networking): Test Reports",
+      "sourceExamId": "model1",
+      "sourceQuestionId": 75,
+      "sourceExamTitle": "MoEE Model Exam 1"
+    },
+    {
+      "examNumber": 88,
+      "id": 54,
+      "topic": "Networking",
+      "text": "Which of the following statements is false when a packet is being compared to an-access list?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It's always compared with each line of the access list in sequential order."
+        },
+        {
+          "key": "B",
+          "text": "Until all lines have been analyzed, the comparison is not over."
+        },
+        {
+          "key": "C",
+          "text": "There is an implicit \"deny\" at the end of each access list"
+        },
+        {
+          "key": "D",
+          "text": "Once the packet matches the condition on a line of the access list, the packet is"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Networking): Until all lines have been analyzed, the comparison is not over.",
+      "sourceExamId": "model1",
+      "sourceQuestionId": 88,
+      "sourceExamTitle": "MoEE Model Exam 1"
+    },
+    {
+      "examNumber": 80,
+      "id": 55,
+      "topic": "Networking",
+      "text": "What is the purpose of the OSI model in networking?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To write network protocols"
+        },
+        {
+          "key": "B",
+          "text": "To standardize network communication layers"
+        },
+        {
+          "key": "C",
+          "text": "To manage hardware resources"
+        },
+        {
+          "key": "D",
+          "text": "To secure the network"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Networking): To standardize network communication layers",
+      "sourceExamId": "moe2025",
+      "sourceQuestionId": 80,
+      "sourceExamTitle": "2025 MoEE Exit Exam"
+    },
+    {
+      "examNumber": 81,
+      "id": 56,
+      "topic": "Networking",
+      "text": "Which layer of the OSI model is responsible for routing?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Data Link Layer"
+        },
+        {
+          "key": "B",
+          "text": "Network Layer"
+        },
+        {
+          "key": "C",
+          "text": "Transport Layer"
+        },
+        {
+          "key": "D",
+          "text": "Application Layer"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Networking): Network Layer",
+      "sourceExamId": "moe2025",
+      "sourceQuestionId": 81,
+      "sourceExamTitle": "2025 MoEE Exit Exam"
+    },
+    {
+      "examNumber": 82,
+      "id": 57,
+      "topic": "Networking",
+      "text": "What is the function of a router in a network?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To connect devices within the same network"
+        },
+        {
+          "key": "B",
+          "text": "To forward data packets between networks"
+        },
+        {
+          "key": "C",
+          "text": "To store data packets"
+        },
+        {
+          "key": "D",
+          "text": "To encrypt data"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Networking): To forward data packets between networks",
+      "sourceExamId": "moe2025",
+      "sourceQuestionId": 82,
+      "sourceExamTitle": "2025 MoEE Exit Exam"
+    },
+    {
+      "examNumber": 83,
+      "id": 58,
+      "topic": "Networking",
+      "text": "Which protocol is used for secure web communication?",
+      "options": [
+        {
+          "key": "A",
+          "text": "HTTP"
+        },
+        {
+          "key": "B",
+          "text": "FTP"
+        },
+        {
+          "key": "C",
+          "text": "HTTPS"
+        },
+        {
+          "key": "D",
+          "text": "SMTP"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Networking): HTTPS",
+      "sourceExamId": "moe2025",
+      "sourceQuestionId": 83,
+      "sourceExamTitle": "2025 MoEE Exit Exam"
+    },
+    {
+      "examNumber": 84,
+      "id": 59,
+      "topic": "Networking",
+      "text": "What is a subnet mask used for?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To encrypt network traffic"
+        },
+        {
+          "key": "B",
+          "text": "To divide a network into smaller subnetworks"
+        },
+        {
+          "key": "C",
+          "text": "To assign IP addresses"
+        },
+        {
+          "key": "D",
+          "text": "To secure the network"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Networking): To divide a network into smaller subnetworks",
+      "sourceExamId": "moe2025",
+      "sourceQuestionId": 84,
+      "sourceExamTitle": "2025 MoEE Exit Exam"
+    },
+    {
+      "examNumber": 85,
+      "id": 60,
+      "topic": "Networking",
+      "text": "Which device is used to connect different network types?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Switch"
+        },
+        {
+          "key": "B",
+          "text": "Hub"
+        },
+        {
+          "key": "C",
+          "text": "Gateway"
+        },
+        {
+          "key": "D",
+          "text": "Repeater"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Networking): Gateway",
+      "sourceExamId": "moe2025",
+      "sourceQuestionId": 85,
+      "sourceExamTitle": "2025 MoEE Exit Exam"
+    },
+    {
+      "examNumber": 5,
+      "id": 61,
+      "topic": "Networking",
+      "text": "Which of the following is not a valid host address within the network 172.17.128.0/21?",
+      "options": [
+        {
+          "key": "A",
+          "text": "172.17.128.1/21"
+        },
+        {
+          "key": "B",
+          "text": "172.17.135.255/21"
+        },
+        {
+          "key": "C",
+          "text": "172.17.135.0/21"
+        },
+        {
+          "key": "D",
+          "text": "172.17.128.255/21"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Networking): 172.17.135.255/21",
+      "sourceExamId": "2016",
+      "sourceQuestionId": 5,
+      "sourceExamTitle": "2016 Software Engineering Exit Exam"
+    },
+    {
+      "examNumber": 8,
+      "id": 62,
+      "topic": "Networking",
+      "text": "An HTTP request message always contains:",
+      "options": [
+        {
+          "key": "A",
+          "text": "A header only"
+        },
+        {
+          "key": "B",
+          "text": "A header and a body"
+        },
+        {
+          "key": "C",
+          "text": "A status line, a header, and a body"
+        },
+        {
+          "key": "D",
+          "text": "A request line and a header"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Networking): A request line and a header",
+      "sourceExamId": "2016",
+      "sourceQuestionId": 8,
+      "sourceExamTitle": "2016 Software Engineering Exit Exam"
+    },
+    {
+      "examNumber": 17,
+      "id": 63,
+      "topic": "Networking",
+      "text": "Met-ked out A firewall is used in a system connected to a wide area network to o c. d.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Stop unauthorized access by hackers"
+        },
+        {
+          "key": "B",
+          "text": "Scanning for viruses in various files"
+        },
+        {
+          "key": "C",
+          "text": "Avoid spreading of fire in the nework"
+        },
+        {
+          "key": "D",
+          "text": "Fire spreading via netvvork through cables"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Networking): Scanning for viruses in various files",
+      "sourceExamId": "2016",
+      "sourceQuestionId": 17,
+      "sourceExamTitle": "2016 Software Engineering Exit Exam"
+    },
+    {
+      "examNumber": 18,
+      "id": 64,
+      "topic": "Networking",
+      "text": "Msrked out, of 100 Which of the fallowing is not the function of Crass-over IJTP cable? cu",
+      "options": [
+        {
+          "key": "A",
+          "text": "To connect router to pc"
+        },
+        {
+          "key": "B",
+          "text": "To connect switch to switch"
+        },
+        {
+          "key": "C",
+          "text": "To connect switch to pc"
+        },
+        {
+          "key": "D",
+          "text": "To connect pc to pc"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Networking): To connect switch to pc",
+      "sourceExamId": "2016",
+      "sourceQuestionId": 18,
+      "sourceExamTitle": "2016 Software Engineering Exit Exam"
+    },
+    {
+      "examNumber": 29,
+      "id": 65,
+      "topic": "Networking",
+      "text": "1.00 V Given a situation two hosts attempt on a half-duplex",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ethernet LAN to send data concurrently, resulting in a collision and subsequent to this collision, what will the hosts do? An electrical pulse indicates that the collision has cleared"
+        },
+        {
+          "key": "B",
+          "text": "The router on the segment will signal that the collision has cleared"
+        },
+        {
+          "key": "C",
+          "text": "The jam signal indicates that the collision has been cleared"
+        },
+        {
+          "key": "D",
+          "text": "The hosts will attempt to resume transmission after a time delay has expired"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Networking): Ethernet LAN to send data concurrently, resulting in a collision and subsequent to this collision, what will the hosts d…",
+      "sourceExamId": "2016",
+      "sourceQuestionId": 29,
+      "sourceExamTitle": "2016 Software Engineering Exit Exam"
+    },
+    {
+      "examNumber": 37,
+      "id": 66,
+      "topic": "Networking",
+      "text": "Notyet answered V' question Which of the following is true regarding the use of switches and hubs far network connectivity in the network? o o a.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Switches increase the number of collision domains in the network"
+        },
+        {
+          "key": "B",
+          "text": "Switches take less time to process frames than hubs take"
+        },
+        {
+          "key": "C",
+          "text": "Switches do not fonv.3Td broadcasts"
+        },
+        {
+          "key": "D",
+          "text": "Hubs can filter frames"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Networking): Switches take less time to process frames than hubs take",
+      "sourceExamId": "2016",
+      "sourceQuestionId": 37,
+      "sourceExamTitle": "2016 Software Engineering Exit Exam"
+    },
+    {
+      "examNumber": 38,
+      "id": 67,
+      "topic": "Networking",
+      "text": "1.00 Which of the following describes a set of standards and an associated network protocol that allow establishing a secure channel between a local and a remote computer? Authentication, Authorization and Accounting (AAA) Simple",
+      "options": [
+        {
+          "key": "A",
+          "text": "Network"
+        },
+        {
+          "key": "B",
+          "text": "Management"
+        },
+        {
+          "key": "C",
+          "text": "Protocol (SNMP) Secure"
+        },
+        {
+          "key": "D",
+          "text": "Shell (SSH) Secure socket layer (SSL)"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Networking): Shell (SSH) Secure socket layer (SSL)",
+      "sourceExamId": "2016",
+      "sourceQuestionId": 38,
+      "sourceExamTitle": "2016 Software Engineering Exit Exam"
+    },
+    {
+      "examNumber": 47,
+      "id": 68,
+      "topic": "Networking",
+      "text": "1.00 Fieg question A TCP/IP layer which is responsible for addressing, path selection and routing refers: o c. Transport Layer Network Access Layer",
+      "options": [
+        {
+          "key": "A",
+          "text": "Application"
+        },
+        {
+          "key": "B",
+          "text": "Layer"
+        },
+        {
+          "key": "C",
+          "text": "Internet"
+        },
+        {
+          "key": "D",
+          "text": "Layer"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Networking): Layer",
+      "sourceExamId": "2016",
+      "sourceQuestionId": 47,
+      "sourceExamTitle": "2016 Software Engineering Exit Exam"
+    },
+    {
+      "examNumber": 48,
+      "id": 69,
+      "topic": "Networking",
+      "text": "A TCP/IP layer which is responsible for addressing, path selection, and routing refers to:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Transport Layer"
+        },
+        {
+          "key": "B",
+          "text": "Network Access Layer"
+        },
+        {
+          "key": "C",
+          "text": "Application Layer"
+        },
+        {
+          "key": "D",
+          "text": "Internet Layer"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Networking): Internet Layer",
+      "sourceExamId": "2016",
+      "sourceQuestionId": 48,
+      "sourceExamTitle": "2016 Software Engineering Exit Exam"
+    },
+    {
+      "examNumber": 71,
+      "id": 70,
+      "topic": "Networking",
+      "text": "question Which of the following is the correct order of packet data unit as data moved in the OSI reference model from bottom to top? o a. c.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Segment, packet, frame, bit"
+        },
+        {
+          "key": "B",
+          "text": "Segment, frame, packets bit"
+        },
+        {
+          "key": "C",
+          "text": "Bit, packet, frame, segment"
+        },
+        {
+          "key": "D",
+          "text": "Bit, frame, packet, segment"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Networking): Bit, packet, frame, segment",
+      "sourceExamId": "2016",
+      "sourceQuestionId": 71,
+      "sourceExamTitle": "2016 Software Engineering Exit Exam"
+    }
+  ],
+  "dataRevision": 1
+}

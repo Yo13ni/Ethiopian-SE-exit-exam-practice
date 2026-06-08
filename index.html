@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
   <title>Ethiopian SE Exit Exam — Online Practice</title>
-  <link rel="stylesheet" href="styles.css?v=16" />
+  <link rel="stylesheet" href="styles.css?v=17" />
 </head>
 <body>
   <div id="app">
@@ -14,7 +14,23 @@
         <p class="eyebrow">Ministry of Education · Software Engineering</p>
         <h1>National Exit Exam Practice</h1>
         <p class="lead">Timed <strong>3-hour</strong> exam simulation with live progress tracking, question navigation panel, and instant color-coded feedback — just like a real online national exam.</p>
-        <div id="exam-list" class="exam-list"></div>
+
+        <div class="home-section">
+          <div class="section-head">
+            <h2 class="section-title">Practice by Course</h2>
+            <p class="section-sub">Focus on one subject — Networking, OOP, OS, C++, and more. Same exam interface, filtered questions only.</p>
+          </div>
+          <div id="course-grid" class="course-grid" aria-label="Course selection"></div>
+        </div>
+
+        <div class="home-section">
+          <div class="section-head">
+            <h2 class="section-title">Full National Exams</h2>
+            <p class="section-sub">Complete timed mock exams from universities and past national papers.</p>
+          </div>
+          <div id="exam-list" class="exam-list"></div>
+        </div>
+
         <ul class="stats">
           <li id="ai-status">Checking…</li>
         </ul>
@@ -196,6 +212,6 @@
     </form>
   </dialog>
 
-  <script src="app.js?v=16"></script>
+  <script src="app.js?v=18"></script>
 </body>
 </html>

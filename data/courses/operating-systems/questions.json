@@ -1,0 +1,958 @@
+{
+  "title": "OS — Course Practice",
+  "courseId": "operating-systems",
+  "topics": [
+    "Operating Systems"
+  ],
+  "total": 32,
+  "focusGuide": {
+    "Operating Systems": "Review process states, deadlock/banker's algorithm, paging, and CPU scheduling."
+  },
+  "questions": [
+    {
+      "examNumber": 14,
+      "id": 1,
+      "topic": "Operating Systems",
+      "text": "A queue in which the item most recently added is always the first one out refers to:",
+      "options": [
+        {
+          "key": "A",
+          "text": "LIFO queue",
+          "explanation": "Correct. LIFO queue — this directly answers the question. In Operating Systems, this is the standard/principle being tested."
+        },
+        {
+          "key": "B",
+          "text": "FIFO queue",
+          "explanation": "Incorrect. FIFO queue — FIFO removes the oldest item first, not the most recently added. The correct choice is A."
+        },
+        {
+          "key": "C",
+          "text": "Real time queue",
+          "explanation": "Incorrect. Real time queue — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "D",
+          "text": "Priority queue",
+          "explanation": "Incorrect. Priority queue — This option does not satisfy what the question is asking. The correct choice is A."
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Operating Systems): LIFO queue",
+      "sourceExamId": "2015",
+      "sourceQuestionId": 10,
+      "sourceExamTitle": "Exit Exam 2015"
+    },
+    {
+      "examNumber": 26,
+      "id": 2,
+      "topic": "Operating Systems",
+      "text": "Which of the following statement is not addressing the banker’s algorithm?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The banker’s algorithm considers each request before it occurs.",
+          "explanation": "Incorrect. The banker’s algorithm considers each request before it occurs. — This statement is generally true, but the question asks for the wrong/not case. The correct choice is D."
+        },
+        {
+          "key": "B",
+          "text": "It is an extension of the deadlock detection algorithm.",
+          "explanation": "Incorrect. It is an extension of the deadlock detection algorithm. — This statement is generally true, but the question asks for the wrong/not case. The correct choice is D."
+        },
+        {
+          "key": "C",
+          "text": "It is a modeled on the way a small-town banker might deal with a group of customers to whom he/she has granted lines of credit",
+          "explanation": "Incorrect. It is a modeled on the way a small-town banker might deal with a group of customers to whom he/she has granted lines of credit — This statement is generally true, but the question asks for the wrong/not case. The correct choice is D."
+        },
+        {
+          "key": "D",
+          "text": "It is scheduling algorithm.",
+          "explanation": "Correct. It is scheduling algorithm. — this directly answers the question. In Operating Systems, this is the standard/principle being tested."
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Operating Systems): It is scheduling algorithm.",
+      "sourceExamId": "2015",
+      "sourceQuestionId": 19,
+      "sourceExamTitle": "Exit Exam 2015"
+    },
+    {
+      "examNumber": 54,
+      "id": 3,
+      "topic": "Operating Systems",
+      "text": "A of process management which is waiting for a resource that is owned by another process refers to:",
+      "options": [
+        {
+          "key": "A",
+          "text": "deadlock",
+          "explanation": "Correct. deadlock — this directly answers the question. In Operating Systems, this is the standard/principle being tested."
+        },
+        {
+          "key": "B",
+          "text": "preemption",
+          "explanation": "Incorrect. preemption — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "C",
+          "text": "overloading",
+          "explanation": "Incorrect. overloading — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "D",
+          "text": "queueing",
+          "explanation": "Incorrect. queueing — This option does not satisfy what the question is asking. The correct choice is A."
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Operating Systems): deadlock",
+      "sourceExamId": "2015",
+      "sourceQuestionId": 47,
+      "sourceExamTitle": "Exit Exam 2015"
+    },
+    {
+      "examNumber": 55,
+      "id": 4,
+      "topic": "Operating Systems",
+      "text": "A set of processes management which is waiting for a resource that I owned by another process refers to:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Deadlock",
+          "explanation": "Correct. Deadlock — this directly answers the question. In Operating Systems, this is the standard/principle being tested."
+        },
+        {
+          "key": "B",
+          "text": "Preemption",
+          "explanation": "Incorrect. Preemption — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "C",
+          "text": "Overloading",
+          "explanation": "Incorrect. Overloading — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "D",
+          "text": "Queuing",
+          "explanation": "Incorrect. Queuing — This option does not satisfy what the question is asking. The correct choice is A."
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Operating Systems): Deadlock",
+      "sourceExamId": "2015",
+      "sourceQuestionId": 48,
+      "sourceExamTitle": "Exit Exam 2015"
+    },
+    {
+      "examNumber": 27,
+      "id": 5,
+      "topic": "Operating Systems",
+      "text": "When a thread is running, it can return directly to the READY state by which of the following means?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Encountering a yield() call"
+        },
+        {
+          "key": "B",
+          "text": "Encountering a sleep() call"
+        },
+        {
+          "key": "C",
+          "text": "Encountering a wait() on a lock"
+        },
+        {
+          "key": "D",
+          "text": "Becoming blocked waiting for I/O"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Networking): Encountering a yield() call",
+      "sourceExamId": "aau",
+      "sourceQuestionId": 27,
+      "sourceExamTitle": "AAU Model Exit Exam"
+    },
+    {
+      "examNumber": 60,
+      "id": 6,
+      "topic": "Operating Systems",
+      "text": "In an operating system, which mechanism is used to create a process?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Deadlock detection and recovery"
+        },
+        {
+          "key": "B",
+          "text": "Execution of a process-creation system call by a running process"
+        },
+        {
+          "key": "C",
+          "text": "User request alone without OS support"
+        },
+        {
+          "key": "D",
+          "text": "System initialization only"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Networking): Execution of a process-creation system call by a running process",
+      "sourceExamId": "aau",
+      "sourceQuestionId": 60,
+      "sourceExamTitle": "AAU Model Exit Exam"
+    },
+    {
+      "examNumber": 61,
+      "id": 7,
+      "topic": "Operating Systems",
+      "text": "In Linux, a process creates a child process using which system call?",
+      "options": [
+        {
+          "key": "A",
+          "text": "yield()"
+        },
+        {
+          "key": "B",
+          "text": "exec()"
+        },
+        {
+          "key": "C",
+          "text": "init()"
+        },
+        {
+          "key": "D",
+          "text": "fork()"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (OS): fork()",
+      "sourceExamId": "aau",
+      "sourceQuestionId": 61,
+      "sourceExamTitle": "AAU Model Exit Exam"
+    },
+    {
+      "examNumber": 37,
+      "id": 8,
+      "topic": "Operating Systems",
+      "text": "If a transaction may release locks but may not obtain locks then it is in which phase",
+      "options": [
+        {
+          "key": "A",
+          "text": "Deadlock phase o"
+        },
+        {
+          "key": "B",
+          "text": "Growing phase"
+        },
+        {
+          "key": "C",
+          "text": "Shrinking phase o"
+        },
+        {
+          "key": "D",
+          "text": "Starved phase"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Operating Systems): Shrinking phase o",
+      "sourceExamId": "bdu",
+      "sourceQuestionId": 37,
+      "sourceExamTitle": "BDU Model Exit Exam"
+    },
+    {
+      "examNumber": 94,
+      "id": 9,
+      "topic": "Operating Systems",
+      "text": "Which is the correct signature to exit thread? #include<pthread.h>",
+      "options": [
+        {
+          "key": "A",
+          "text": "void"
+        },
+        {
+          "key": "B",
+          "text": "int pthread_exit_();"
+        },
+        {
+          "key": "C",
+          "text": "int pthread_exit(0);"
+        },
+        {
+          "key": "D",
+          "text": "void pthread_exit(void*rval_ptr);"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Operating Systems): void pthread_exit(void*rval_ptr);",
+      "sourceExamId": "bdu",
+      "sourceQuestionId": 94,
+      "sourceExamTitle": "BDU Model Exit Exam"
+    },
+    {
+      "examNumber": 1,
+      "id": 10,
+      "topic": "Operating Systems",
+      "text": "A process scheduling approach on which decision as to which available process will be executed by the Processor refers to:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Long-term scheduling"
+        },
+        {
+          "key": "B",
+          "text": "I/O scheduling"
+        },
+        {
+          "key": "C",
+          "text": "Short-term scheduling"
+        },
+        {
+          "key": "D",
+          "text": "Medium-term scheduling"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Operating Systems): Short-term scheduling",
+      "sourceExamId": "model1",
+      "sourceQuestionId": 1,
+      "sourceExamTitle": "MoEE Model Exam 1"
+    },
+    {
+      "examNumber": 13,
+      "id": 11,
+      "topic": "Operating Systems",
+      "text": "Which file system can be used to change certain kernel parameters at runtime using sysctl command?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ext4"
+        },
+        {
+          "key": "B",
+          "text": "Sysfs"
+        },
+        {
+          "key": "C",
+          "text": "Procfs"
+        },
+        {
+          "key": "D",
+          "text": "Ext3"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Operating Systems): Sysfs",
+      "sourceExamId": "model1",
+      "sourceQuestionId": 13,
+      "sourceExamTitle": "MoEE Model Exam 1"
+    },
+    {
+      "examNumber": 37,
+      "id": 12,
+      "topic": "Operating Systems",
+      "text": "Which of the following is one of the indirect applications of queues?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Multiprogramming"
+        },
+        {
+          "key": "B",
+          "text": "Operating systems schedule jobs (with equal priority) in the order of arrival (e.g., a print queue)."
+        },
+        {
+          "key": "C",
+          "text": "Auxiliary data structure for algorithms"
+        },
+        {
+          "key": "D",
+          "text": "Simulation of real-world queues such as lines at a ticket counter or any other first-come first-served scenario requires a queue."
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Operating Systems): Auxiliary data structure for algorithms",
+      "sourceExamId": "model1",
+      "sourceQuestionId": 37,
+      "sourceExamTitle": "MoEE Model Exam 1"
+    },
+    {
+      "examNumber": 59,
+      "id": 13,
+      "topic": "Operating Systems",
+      "text": "A program that initializes all aspects of the system, from CPU registers to device controllers and the contents of main memory, and then starts the operating system known as:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Bootstrap"
+        },
+        {
+          "key": "B",
+          "text": "Cache memory"
+        },
+        {
+          "key": "C",
+          "text": "Bootloader"
+        },
+        {
+          "key": "D",
+          "text": "BIOS"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Operating Systems): Bootloader",
+      "sourceExamId": "model1",
+      "sourceQuestionId": 59,
+      "sourceExamTitle": "MoEE Model Exam 1"
+    },
+    {
+      "examNumber": 62,
+      "id": 14,
+      "topic": "Operating Systems",
+      "text": "A system software that resides in main memory is",
+      "options": [
+        {
+          "key": "A",
+          "text": "Compiler"
+        },
+        {
+          "key": "B",
+          "text": "Loader"
+        },
+        {
+          "key": "C",
+          "text": "Executor"
+        },
+        {
+          "key": "D",
+          "text": "Linker"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Operating Systems): Loader",
+      "sourceExamId": "model1",
+      "sourceQuestionId": 62,
+      "sourceExamTitle": "MoEE Model Exam 1"
+    },
+    {
+      "examNumber": 77,
+      "id": 15,
+      "topic": "Operating Systems",
+      "text": "Which of the following concept describes bootstrapping?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A language interpret other language program"
+        },
+        {
+          "key": "B",
+          "text": "A language compile itself"
+        },
+        {
+          "key": "C",
+          "text": "A language compiling other language program"
+        },
+        {
+          "key": "D",
+          "text": "All of the above"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Operating Systems): A language compile itself",
+      "sourceExamId": "model1",
+      "sourceQuestionId": 77,
+      "sourceExamTitle": "MoEE Model Exam 1"
+    },
+    {
+      "examNumber": 81,
+      "id": 16,
+      "topic": "Operating Systems",
+      "text": "A modification of the free-list approach is to store the addresses of n free blocks in the first free block.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Grouping"
+        },
+        {
+          "key": "B",
+          "text": "Counting"
+        },
+        {
+          "key": "C",
+          "text": "Linked-list"
+        },
+        {
+          "key": "D",
+          "text": "Deadlock"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Operating Systems): Grouping",
+      "sourceExamId": "model1",
+      "sourceQuestionId": 81,
+      "sourceExamTitle": "MoEE Model Exam 1"
+    },
+    {
+      "examNumber": 43,
+      "id": 17,
+      "topic": "Operating Systems",
+      "text": "What is the primary function of an operating system?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To write application code"
+        },
+        {
+          "key": "B",
+          "text": "To manage hardware and software resources"
+        },
+        {
+          "key": "C",
+          "text": "To design user interfaces"
+        },
+        {
+          "key": "D",
+          "text": "To compile programs"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Operating Systems): To manage hardware and software resources",
+      "sourceExamId": "moe2025",
+      "sourceQuestionId": 43,
+      "sourceExamTitle": "2025 MoEE Exit Exam"
+    },
+    {
+      "examNumber": 44,
+      "id": 18,
+      "topic": "Operating Systems",
+      "text": "Which scheduling algorithm selects the process with the shortest next CPU burst?",
+      "options": [
+        {
+          "key": "A",
+          "text": "First-Come, First-Served"
+        },
+        {
+          "key": "B",
+          "text": "Shortest Job Next"
+        },
+        {
+          "key": "C",
+          "text": "Round Robin"
+        },
+        {
+          "key": "D",
+          "text": "Priority Scheduling"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Operating Systems): Shortest Job Next",
+      "sourceExamId": "moe2025",
+      "sourceQuestionId": 44,
+      "sourceExamTitle": "2025 MoEE Exit Exam"
+    },
+    {
+      "examNumber": 45,
+      "id": 19,
+      "topic": "Operating Systems",
+      "text": "What is a deadlock in an operating system?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A process running indefinitely"
+        },
+        {
+          "key": "B",
+          "text": "A situation where processes are unable to proceed due to resource conflicts"
+        },
+        {
+          "key": "C",
+          "text": "A memory overflow error"
+        },
+        {
+          "key": "D",
+          "text": "A hardware failure"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Operating Systems): A situation where processes are unable to proceed due to resource conflicts",
+      "sourceExamId": "moe2025",
+      "sourceQuestionId": 45,
+      "sourceExamTitle": "2025 MoEE Exit Exam"
+    },
+    {
+      "examNumber": 46,
+      "id": 20,
+      "topic": "Operating Systems",
+      "text": "Which memory management technique divides memory into fixed-size partitions?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Paging"
+        },
+        {
+          "key": "B",
+          "text": "Segmentation"
+        },
+        {
+          "key": "C",
+          "text": "Swapping"
+        },
+        {
+          "key": "D",
+          "text": "Fragmentation"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Operating Systems): Paging",
+      "sourceExamId": "moe2025",
+      "sourceQuestionId": 46,
+      "sourceExamTitle": "2025 MoEE Exit Exam"
+    },
+    {
+      "examNumber": 47,
+      "id": 21,
+      "topic": "Operating Systems",
+      "text": "What is the purpose of a mutex in process synchronization?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To allocate memory"
+        },
+        {
+          "key": "B",
+          "text": "To ensure mutual exclusion"
+        },
+        {
+          "key": "C",
+          "text": "To schedule processes"
+        },
+        {
+          "key": "D",
+          "text": "To manage I/O devices"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Operating Systems): To ensure mutual exclusion",
+      "sourceExamId": "moe2025",
+      "sourceQuestionId": 47,
+      "sourceExamTitle": "2025 MoEE Exit Exam"
+    },
+    {
+      "examNumber": 48,
+      "id": 22,
+      "topic": "Operating Systems",
+      "text": "Which of the following is a security measure in modern operating systems?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Allowing unrestricted access to all files"
+        },
+        {
+          "key": "B",
+          "text": "Implementing user authentication"
+        },
+        {
+          "key": "C",
+          "text": "Disabling firewalls"
+        },
+        {
+          "key": "D",
+          "text": "Storing passwords in plain text"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Operating Systems): Implementing user authentication",
+      "sourceExamId": "moe2025",
+      "sourceQuestionId": 48,
+      "sourceExamTitle": "2025 MoEE Exit Exam"
+    },
+    {
+      "examNumber": 6,
+      "id": 23,
+      "topic": "Operating Systems",
+      "text": "The permission -rwxr-xr-x represented in octal expression will be:",
+      "options": [
+        {
+          "key": "A",
+          "text": "744"
+        },
+        {
+          "key": "B",
+          "text": "700"
+        },
+        {
+          "key": "C",
+          "text": "755"
+        },
+        {
+          "key": "D",
+          "text": "766"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Operating Systems): 755",
+      "sourceExamId": "2016",
+      "sourceQuestionId": 6,
+      "sourceExamTitle": "2016 Software Engineering Exit Exam"
+    },
+    {
+      "examNumber": 13,
+      "id": 24,
+      "topic": "Operating Systems",
+      "text": "1.00 V When a process is in a \"Blocked\" state waiting for some Input-Output services and afterthe service is completed, it will goes to a state known as:",
+      "options": [
+        {
+          "key": "A",
+          "text": "b. c. d. Terminated"
+        },
+        {
+          "key": "B",
+          "text": "Suspended"
+        },
+        {
+          "key": "C",
+          "text": "Ready"
+        },
+        {
+          "key": "D",
+          "text": "Running"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Operating Systems): Ready",
+      "sourceExamId": "2016",
+      "sourceQuestionId": 13,
+      "sourceExamTitle": "2016 Software Engineering Exit Exam"
+    },
+    {
+      "examNumber": 14,
+      "id": 25,
+      "topic": "Operating Systems",
+      "text": "A memory management policy in which decisions must be made as to which page or pages are to be replaced when memory is full is known as:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Cleaning policy"
+        },
+        {
+          "key": "B",
+          "text": "Fetch policy"
+        },
+        {
+          "key": "C",
+          "text": "Load policy"
+        },
+        {
+          "key": "D",
+          "text": "Replacement policy"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Operating Systems): Replacement policy",
+      "sourceExamId": "2016",
+      "sourceQuestionId": 14,
+      "sourceExamTitle": "2016 Software Engineering Exit Exam"
+    },
+    {
+      "examNumber": 31,
+      "id": 26,
+      "topic": "Operating Systems",
+      "text": "1.00 V Which of the following specifies divergence between Dijkstra's Algorithm (DA) and Uniform",
+      "options": [
+        {
+          "key": "A",
+          "text": "Cost"
+        },
+        {
+          "key": "B",
+          "text": "Search (UCS) algorithms? DA first collects nodes into a"
+        },
+        {
+          "key": "C",
+          "text": "Queue but UCS discover them as they come DA is optimal, but not UCS UCS finds the optimal solution while DA DA discovers nodes as they come while UCS first collects them in a"
+        },
+        {
+          "key": "D",
+          "text": "Queue"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Operating Systems): Queue but UCS discover them as they come DA is optimal, but not UCS UCS finds the optimal solution while DA DA discovers…",
+      "sourceExamId": "2016",
+      "sourceQuestionId": 31,
+      "sourceExamTitle": "2016 Software Engineering Exit Exam"
+    },
+    {
+      "examNumber": 33,
+      "id": 27,
+      "topic": "Operating Systems",
+      "text": "1,00 Which one of the following is an appropriate sequence that depicts the model development process in data mining ? Model Training, Model Evaluation, Model Testing, Model Deployment Model Training, Model Testing, Model Deployment, Model Evaluation Model Training, Model Testing, Model Evaluation, Model Deployment Model",
+      "options": [
+        {
+          "key": "A",
+          "text": "Evaluation, Model"
+        },
+        {
+          "key": "B",
+          "text": "Training , Model"
+        },
+        {
+          "key": "C",
+          "text": "Testing, Model"
+        },
+        {
+          "key": "D",
+          "text": "Deployment"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Operating Systems): Evaluation, Model",
+      "sourceExamId": "2016",
+      "sourceQuestionId": 33,
+      "sourceExamTitle": "2016 Software Engineering Exit Exam"
+    },
+    {
+      "examNumber": 40,
+      "id": 28,
+      "topic": "Operating Systems",
+      "text": "1,00 fig question A set of processes management which is waiting for a resource that is owned by another process refers to,",
+      "options": [
+        {
+          "key": "A",
+          "text": "a. c. d. Deadlock"
+        },
+        {
+          "key": "B",
+          "text": "Queuing"
+        },
+        {
+          "key": "C",
+          "text": "Preemption"
+        },
+        {
+          "key": "D",
+          "text": "Overloading"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Operating Systems): Queuing",
+      "sourceExamId": "2016",
+      "sourceQuestionId": 40,
+      "sourceExamTitle": "2016 Software Engineering Exit Exam"
+    },
+    {
+      "examNumber": 61,
+      "id": 29,
+      "topic": "Operating Systems",
+      "text": "1.00 Which of the following is a process of selecting program paths in such a manner that certain branches (i.e., outgoing edges of nodes) of a control flow graph are covered by the execution of those paths?",
+      "options": [
+        {
+          "key": "A",
+          "text": "b. c. d. Branch boundary"
+        },
+        {
+          "key": "B",
+          "text": "Branch coverage"
+        },
+        {
+          "key": "C",
+          "text": "Branch control"
+        },
+        {
+          "key": "D",
+          "text": "Branch expansion"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Operating Systems): Branch expansion",
+      "sourceExamId": "2016",
+      "sourceQuestionId": 61,
+      "sourceExamTitle": "2016 Software Engineering Exit Exam"
+    },
+    {
+      "examNumber": 63,
+      "id": 30,
+      "topic": "Operating Systems",
+      "text": "Not yet snswered Msrked out of Fig question",
+      "options": [
+        {
+          "key": "A",
+          "text": "Which of the following is the correct sequence that will be followed during software evolution process? Change request, release planning, Change implementation, impact analysis, system release"
+        },
+        {
+          "key": "B",
+          "text": "Change request, impact analysis, release planning, change implementation, system release"
+        },
+        {
+          "key": "C",
+          "text": "Impact analysis, Change request, change implementation, release planning, system release"
+        },
+        {
+          "key": "D",
+          "text": "Change request, impact analysis, change implementation, release planningr system release"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Operating Systems): Change request, impact analysis, release planning, change implementation, system release",
+      "sourceExamId": "2016",
+      "sourceQuestionId": 63,
+      "sourceExamTitle": "2016 Software Engineering Exit Exam"
+    },
+    {
+      "examNumber": 83,
+      "id": 31,
+      "topic": "Operating Systems",
+      "text": "1.00 Which software process model will you use if you want to deliver different functionalities (modules) of the software product that have different priority at different time?",
+      "options": [
+        {
+          "key": "A",
+          "text": "b. c. d. Waterfall model"
+        },
+        {
+          "key": "B",
+          "text": "Spiral model"
+        },
+        {
+          "key": "C",
+          "text": "Incremental model"
+        },
+        {
+          "key": "D",
+          "text": "Linear model"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Operating Systems): b. c. d. Waterfall model",
+      "sourceExamId": "2016",
+      "sourceQuestionId": 83,
+      "sourceExamTitle": "2016 Software Engineering Exit Exam"
+    },
+    {
+      "examNumber": 88,
+      "id": 32,
+      "topic": "Operating Systems",
+      "text": "of l.co question Identify the one that comes first in data mining process o o",
+      "options": [
+        {
+          "key": "A",
+          "text": "a. b. c. d. Business understanding"
+        },
+        {
+          "key": "B",
+          "text": "Date integration"
+        },
+        {
+          "key": "C",
+          "text": "Data cleaning"
+        },
+        {
+          "key": "D",
+          "text": "Data selection"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Operating Systems): Data selection",
+      "sourceExamId": "2016",
+      "sourceQuestionId": 88,
+      "sourceExamTitle": "2016 Software Engineering Exit Exam"
+    }
+  ],
+  "dataRevision": 1
+}

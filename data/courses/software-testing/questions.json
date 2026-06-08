@@ -1,0 +1,1090 @@
+{
+  "title": "Software Testing — Course Practice",
+  "courseId": "software-testing",
+  "topics": [
+    "Software Testing"
+  ],
+  "total": 36,
+  "focusGuide": {
+    "Software Testing": "Unit/white-box testing, test cases, QA goals, defects."
+  },
+  "questions": [
+    {
+      "examNumber": 42,
+      "id": 1,
+      "topic": "Software Testing",
+      "text": "Which statement describe the main goal of software testing as a part of the quality assurance process?",
+      "options": [
+        {
+          "key": "A",
+          "text": "to achieve project timelines and deadlines",
+          "explanation": "Incorrect. to achieve project timelines and deadlines — This option does not satisfy what the question is asking. The correct choice is C."
+        },
+        {
+          "key": "B",
+          "text": "to generate software requirement and design documentation",
+          "explanation": "Incorrect. to generate software requirement and design documentation — This option does not satisfy what the question is asking. The correct choice is C."
+        },
+        {
+          "key": "C",
+          "text": "to guarantee that the software meets the specified requirement",
+          "explanation": "Correct. to guarantee that the software meets the specified requirement — this directly answers the question. In Project Management, this is the standard/principle being tested."
+        },
+        {
+          "key": "D",
+          "text": "to monitor the entire SDLC",
+          "explanation": "Incorrect. to monitor the entire SDLC — This option does not satisfy what the question is asking. The correct choice is C."
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Project Management): to guarantee that the software meets the specified requirement",
+      "sourceExamId": "2015",
+      "sourceQuestionId": 35,
+      "sourceExamTitle": "Exit Exam 2015"
+    },
+    {
+      "examNumber": 63,
+      "id": 2,
+      "topic": "Software Testing",
+      "text": "Given the following fragment of code, how many tests are required for 100% decision coverage? if width > length then biggest_dimension = width if height >width then biggest_dimension =height end_if else biggest_dimension = length if height > length then biggest_dimension = height end_if end_if",
+      "options": [
+        {
+          "key": "A",
+          "text": "6",
+          "explanation": "Incorrect. 6 — This option does not satisfy what the question is asking. The correct choice is B."
+        },
+        {
+          "key": "B",
+          "text": "4",
+          "explanation": "Correct. 4 — this directly answers the question. In Software Testing, this is the standard/principle being tested."
+        },
+        {
+          "key": "C",
+          "text": "2",
+          "explanation": "Incorrect. 2 — This option does not satisfy what the question is asking. The correct choice is B."
+        },
+        {
+          "key": "D",
+          "text": "1",
+          "explanation": "Incorrect. 1 — This option does not satisfy what the question is asking. The correct choice is B."
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Testing): 4",
+      "sourceExamId": "2015",
+      "sourceQuestionId": 56,
+      "sourceExamTitle": "Exit Exam 2015"
+    },
+    {
+      "examNumber": 65,
+      "id": 3,
+      "topic": "Software Testing",
+      "text": "Select an activity that suits in the fundamental test process which includes evaluation of the testability of the requirement and system?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Test analysis and design",
+          "explanation": "Incorrect. Test analysis and design — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "B",
+          "text": "Test analysis and requirements",
+          "explanation": "Incorrect. Test analysis and requirements — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "C",
+          "text": "Test analysis and implementation",
+          "explanation": "Incorrect. Test analysis and implementation — This option does not satisfy what the question is asking. The correct choice is D."
+        },
+        {
+          "key": "D",
+          "text": "Test analysis and planning",
+          "explanation": "Correct. Test analysis and planning — this directly answers the question. In Android, this is the standard/principle being tested."
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Android): Test analysis and planning",
+      "sourceExamId": "2015",
+      "sourceQuestionId": 58,
+      "sourceExamTitle": "Exit Exam 2015"
+    },
+    {
+      "examNumber": 67,
+      "id": 4,
+      "topic": "Software Testing",
+      "text": "Which of the following is not among the purposes of software testing?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Identify shortcomings",
+          "explanation": "Incorrect. Identify shortcomings — This statement is generally true, but the question asks for the wrong/not case. The correct choice is D."
+        },
+        {
+          "key": "B",
+          "text": "Improving product acceptance",
+          "explanation": "Incorrect. Improving product acceptance — This statement is generally true, but the question asks for the wrong/not case. The correct choice is D."
+        },
+        {
+          "key": "C",
+          "text": "Enhancing reliability",
+          "explanation": "Incorrect. Enhancing reliability — This statement is generally true, but the question asks for the wrong/not case. The correct choice is D."
+        },
+        {
+          "key": "D",
+          "text": "Requesting more design and implementation time",
+          "explanation": "Correct. Requesting more design and implementation time — this directly answers the question. In Networking, this is the standard/principle being tested."
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Networking): Requesting more design and implementation time",
+      "sourceExamId": "2015",
+      "sourceQuestionId": 60,
+      "sourceExamTitle": "Exit Exam 2015"
+    },
+    {
+      "examNumber": 70,
+      "id": 5,
+      "topic": "Software Testing",
+      "text": "Select the wrong statement regarding traceability in software development projects",
+      "options": [
+        {
+          "key": "A",
+          "text": "Traceability shows the dependency among two or more requirements if any",
+          "explanation": "Incorrect. Traceability shows the dependency among two or more requirements if any — This statement is generally true, but the question asks for the wrong/not case. The correct choice is D."
+        },
+        {
+          "key": "B",
+          "text": "Requirements should be linked to the respective stakeholders who generated them",
+          "explanation": "Incorrect. Requirements should be linked to the respective stakeholders who generated them — This statement is generally true, but the question asks for the wrong/not case. The correct choice is D."
+        },
+        {
+          "key": "C",
+          "text": "Every design element (component) should be linked back to the requirement",
+          "explanation": "Incorrect. Every design element (component) should be linked back to the requirement — This statement is generally true, but the question asks for the wrong/not case. The correct choice is D."
+        },
+        {
+          "key": "D",
+          "text": "Traceability traces the overall cost and schedule of every activity in the requirements",
+          "explanation": "Correct. Traceability traces the overall cost and schedule of every activity in the requirements — this directly answers the question. In Android, this is the standard/principle being tested."
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Android): Traceability traces the overall cost and schedule of every activity in the requirements",
+      "sourceExamId": "2015",
+      "sourceQuestionId": 63,
+      "sourceExamTitle": "Exit Exam 2015"
+    },
+    {
+      "examNumber": 80,
+      "id": 6,
+      "topic": "Software Testing",
+      "text": "As a software tester, when do you implement configuration management procedures?",
+      "options": [
+        {
+          "key": "A",
+          "text": "During test planning",
+          "explanation": "Correct. During test planning — this directly answers the question. In Networking, this is the standard/principle being tested."
+        },
+        {
+          "key": "B",
+          "text": "During test closing",
+          "explanation": "Incorrect. During test closing — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "C",
+          "text": "During test execution",
+          "explanation": "Incorrect. During test execution — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "D",
+          "text": "During test initiation",
+          "explanation": "Incorrect. During test initiation — This option does not satisfy what the question is asking. The correct choice is A."
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Networking): During test planning",
+      "sourceExamId": "2015",
+      "sourceQuestionId": 73,
+      "sourceExamTitle": "Exit Exam 2015"
+    },
+    {
+      "examNumber": 89,
+      "id": 7,
+      "topic": "Software Testing",
+      "text": "Which of the following is a process of selecting program paths in such a manner that certain branches (i.e, outgoing edges of nodes) of a control flow graph are covered by the execution of those paths?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Branch coverage",
+          "explanation": "Correct. Branch coverage — this directly answers the question. In Networking, this is the standard/principle being tested."
+        },
+        {
+          "key": "B",
+          "text": "Branch expansion",
+          "explanation": "Incorrect. Branch expansion — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "C",
+          "text": "Branch control",
+          "explanation": "Incorrect. Branch control — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "D",
+          "text": "Branch boundary",
+          "explanation": "Incorrect. Branch boundary — This option does not satisfy what the question is asking. The correct choice is A."
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Networking): Branch coverage",
+      "sourceExamId": "2015",
+      "sourceQuestionId": 82,
+      "sourceExamTitle": "Exit Exam 2015"
+    },
+    {
+      "examNumber": 100,
+      "id": 8,
+      "topic": "Software Testing",
+      "text": "Who is responsible for documenting faults found during the software development process?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tester",
+          "explanation": "Correct. Tester — this directly answers the question. In Operating Systems, this is the standard/principle being tested."
+        },
+        {
+          "key": "B",
+          "text": "Developer",
+          "explanation": "Incorrect. Developer — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "C",
+          "text": "Scrum master",
+          "explanation": "Incorrect. Scrum master — This option does not satisfy what the question is asking. The correct choice is A."
+        },
+        {
+          "key": "D",
+          "text": "Requirement engineer",
+          "explanation": "Incorrect. Requirement engineer — This option does not satisfy what the question is asking. The correct choice is A."
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Operating Systems): Tester",
+      "sourceExamId": "2015",
+      "sourceQuestionId": 93,
+      "sourceExamTitle": "Exit Exam 2015"
+    },
+    {
+      "examNumber": 6,
+      "id": 9,
+      "topic": "Software Testing",
+      "text": "Why is it important to maintain a good relationship between software testers and developers?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To ensure that the project is completed on time"
+        },
+        {
+          "key": "B",
+          "text": "To foster collaboration and communication between the two teams"
+        },
+        {
+          "key": "C",
+          "text": "To make sure that the software is defect-free"
+        },
+        {
+          "key": "D",
+          "text": "To reduce the cost of the project"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Database): To foster collaboration and communication between the two teams",
+      "sourceExamId": "aau",
+      "sourceQuestionId": 6,
+      "sourceExamTitle": "AAU Model Exit Exam"
+    },
+    {
+      "examNumber": 18,
+      "id": 10,
+      "topic": "Software Testing",
+      "text": "Which of the following is the main goal of software testing as part of the quality assurance process?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To monitor the software development lifecycle"
+        },
+        {
+          "key": "B",
+          "text": "To control the cost of software development"
+        },
+        {
+          "key": "C",
+          "text": "To ensure that the software meets the specified requirements"
+        },
+        {
+          "key": "D",
+          "text": "To manage project timelines and deadlines"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Android): To ensure that the software meets the specified requirements",
+      "sourceExamId": "aau",
+      "sourceQuestionId": 18,
+      "sourceExamTitle": "AAU Model Exit Exam"
+    },
+    {
+      "examNumber": 37,
+      "id": 11,
+      "topic": "Software Testing",
+      "text": "During which activity in the fundamental test process are tests designed and executed?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Test analysis and design"
+        },
+        {
+          "key": "B",
+          "text": "Test implementation and execution"
+        },
+        {
+          "key": "C",
+          "text": "Test planning and control"
+        },
+        {
+          "key": "D",
+          "text": "Test closure"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Networking): Test implementation and execution",
+      "sourceExamId": "aau",
+      "sourceQuestionId": 37,
+      "sourceExamTitle": "AAU Model Exit Exam"
+    },
+    {
+      "examNumber": 75,
+      "id": 12,
+      "topic": "Software Testing",
+      "text": "A software system that manages a hotel booking system has been updated wm a new feature that allows users to view room availability in real-time. A tester has been assigned to verify that existing functionality, such as the ability to book rooms and make payments, has not been adversely affected by the new feature. What type of testing is the tester performing? . . Integration testing",
+      "options": [
+        {
+          "key": "A",
+          "text": "(option unclear in OCR)"
+        },
+        {
+          "key": "B",
+          "text": "user acceptance testing"
+        },
+        {
+          "key": "C",
+          "text": "Functional testing"
+        },
+        {
+          "key": "D",
+          "text": "Regression testing"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (SE): Regression testing",
+      "sourceExamId": "aau",
+      "sourceQuestionId": 75,
+      "sourceExamTitle": "AAU Model Exit Exam"
+    },
+    {
+      "examNumber": 81,
+      "id": 13,
+      "topic": "Software Testing",
+      "text": "______ involves generating, collecting, disseminating, and storing project information.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Critical management"
+        },
+        {
+          "key": "B",
+          "text": "Configuration management"
+        },
+        {
+          "key": "C",
+          "text": "Concurrent management"
+        },
+        {
+          "key": "D",
+          "text": "Communication management"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Networking): Communication management",
+      "sourceExamId": "aau",
+      "sourceQuestionId": 81,
+      "sourceExamTitle": "AAU Model Exit Exam"
+    },
+    {
+      "examNumber": 82,
+      "id": 14,
+      "topic": "Software Testing",
+      "text": "A software testing professional has been asked to test a new feature for a client. However, the tester realizes that the feature is not working properly and may cause harm to the end-users. The client insists that the feature is released as scheduled, even though the tester has recommended further testing. What ethical principle trom the ISTQ3 Code of Ethics should the tester follow in this situation? Select anew Honesty a",
+      "options": [
+        {
+          "key": "A",
+          "text": "(option unclear in OCR)"
+        },
+        {
+          "key": "B",
+          "text": "Fairness"
+        },
+        {
+          "key": "C",
+          "text": "Responsibility"
+        },
+        {
+          "key": "D",
+          "text": "Respect"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (SE): Responsibility",
+      "sourceExamId": "aau",
+      "sourceQuestionId": 82,
+      "sourceExamTitle": "AAU Model Exit Exam"
+    },
+    {
+      "examNumber": 83,
+      "id": 15,
+      "topic": "Software Testing",
+      "text": "A hotel booking system was updated with real-time room availability. A tester verifies that booking and payment still work. What testing is this?",
+      "options": [
+        {
+          "key": "A",
+          "text": "User acceptance testing"
+        },
+        {
+          "key": "B",
+          "text": "Functional testing"
+        },
+        {
+          "key": "C",
+          "text": "Regression testing"
+        },
+        {
+          "key": "D",
+          "text": "Integration testing"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (SE): Regression testing",
+      "sourceExamId": "aau",
+      "sourceQuestionId": 83,
+      "sourceExamTitle": "AAU Model Exit Exam"
+    },
+    {
+      "examNumber": 94,
+      "id": 16,
+      "topic": "Software Testing",
+      "text": "Which of the following is NOT an objective of software testing?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Enhancing usability"
+        },
+        {
+          "key": "B",
+          "text": "Increasing development time"
+        },
+        {
+          "key": "C",
+          "text": "Identifying defects"
+        },
+        {
+          "key": "D",
+          "text": "Improving performance"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (SE): Increasing development time",
+      "sourceExamId": "aau",
+      "sourceQuestionId": 94,
+      "sourceExamTitle": "AAU Model Exit Exam"
+    },
+    {
+      "examNumber": 68,
+      "id": 17,
+      "topic": "Software Testing",
+      "text": "What formula do you use to find the percentage of decision coverage af the code",
+      "options": [
+        {
+          "key": "A",
+          "text": "Decision coverage=Number of all the loops outcomes/total number of outcomes *100"
+        },
+        {
+          "key": "B",
+          "text": "Decision coverage-Number of nodes and edges/total number of outcome* 100"
+        },
+        {
+          "key": "C",
+          "text": "DeciSion coverage=Number of decision outcomes/total number of outcomes *100 PR EVIOUS PAGE"
+        },
+        {
+          "key": "D",
+          "text": "(option unclear in OCR)"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Software Testing): DeciSion coverage=Number of decision outcomes/total number of outcomes *100 PR EVIOUS PAGE",
+      "sourceExamId": "bdu",
+      "sourceQuestionId": 68,
+      "sourceExamTitle": "BDU Model Exit Exam"
+    },
+    {
+      "examNumber": 70,
+      "id": 18,
+      "topic": "Software Testing",
+      "text": "What is the main task of test planning",
+      "options": [
+        {
+          "key": "A",
+          "text": "Determining the test approach"
+        },
+        {
+          "key": "B",
+          "text": "Measuring and analyzing results"
+        },
+        {
+          "key": "C",
+          "text": "Preparing the test specification"
+        },
+        {
+          "key": "D",
+          "text": "Evaluating exit criteria and reporting"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Networking): Determining the test approach",
+      "sourceExamId": "bdu",
+      "sourceQuestionId": 70,
+      "sourceExamTitle": "BDU Model Exit Exam"
+    },
+    {
+      "examNumber": 83,
+      "id": 19,
+      "topic": "Software Testing",
+      "text": "Which of the following is not test coverage metrics",
+      "options": [
+        {
+          "key": "A",
+          "text": "The number of test cases by requirement"
+        },
+        {
+          "key": "B",
+          "text": "Nane"
+        },
+        {
+          "key": "C",
+          "text": "Requirements coverage"
+        },
+        {
+          "key": "D",
+          "text": "The percentage of test execution coverage."
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Software Testing): The number of test cases by requirement",
+      "sourceExamId": "bdu",
+      "sourceQuestionId": 83,
+      "sourceExamTitle": "BDU Model Exit Exam"
+    },
+    {
+      "examNumber": 92,
+      "id": 20,
+      "topic": "Software Testing",
+      "text": "Which testing technique is used to design the cases af the white box",
+      "options": [
+        {
+          "key": "A",
+          "text": "Data flow testing technique"
+        },
+        {
+          "key": "B",
+          "text": "Statement coverage testing technique"
+        },
+        {
+          "key": "C",
+          "text": "Branch coverage testing technique"
+        },
+        {
+          "key": "D",
+          "text": "(option unclear in OCR)"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Software Testing): Data flow testing technique",
+      "sourceExamId": "bdu",
+      "sourceQuestionId": 92,
+      "sourceExamTitle": "BDU Model Exit Exam"
+    },
+    {
+      "examNumber": 93,
+      "id": 21,
+      "topic": "Software Testing",
+      "text": "Which types of traceability information links design and implementation components backs to requirements",
+      "options": [
+        {
+          "key": "A",
+          "text": "Forward from traceability"
+        },
+        {
+          "key": "B",
+          "text": "Backward from traceability"
+        },
+        {
+          "key": "C",
+          "text": "Backward to traceability d Forward to traceability PR EVIOUS PAGE"
+        },
+        {
+          "key": "D",
+          "text": "(option unclear in OCR)"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Software Testing): Backward to traceability d Forward to traceability PR EVIOUS PAGE",
+      "sourceExamId": "bdu",
+      "sourceQuestionId": 93,
+      "sourceExamTitle": "BDU Model Exit Exam"
+    },
+    {
+      "examNumber": 15,
+      "id": 22,
+      "topic": "Software Testing",
+      "text": "Which of the following is an example of Black Box and Functional Processing?",
+      "options": [
+        {
+          "key": "A",
+          "text": "First Generation Language"
+        },
+        {
+          "key": "B",
+          "text": "Second Generation Language"
+        },
+        {
+          "key": "C",
+          "text": "Third Generation Language"
+        },
+        {
+          "key": "D",
+          "text": "Fourth Generation Language"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Software Testing): Fourth Generation Language",
+      "sourceExamId": "astu",
+      "sourceQuestionId": 15,
+      "sourceExamTitle": "ASTU Software Engineering MCQs"
+    },
+    {
+      "examNumber": 46,
+      "id": 23,
+      "topic": "Software Testing",
+      "text": "Name the graphical practice that depicts the meaningful changes that occurred in metrics data.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Function point analysis"
+        },
+        {
+          "key": "B",
+          "text": "Control Chart"
+        },
+        {
+          "key": "C",
+          "text": "DRE (Defect Removal Efficiency)"
+        },
+        {
+          "key": "D",
+          "text": "None of the above"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Software Testing): DRE (Defect Removal Efficiency)",
+      "sourceExamId": "astu",
+      "sourceQuestionId": 46,
+      "sourceExamTitle": "ASTU Software Engineering MCQs"
+    },
+    {
+      "examNumber": 11,
+      "id": 24,
+      "topic": "Software Testing",
+      "text": "Given nested if-statements comparing width, length, and height, how many test cases are required for 100% decision coverage?",
+      "options": [
+        {
+          "key": "A",
+          "text": "2"
+        },
+        {
+          "key": "B",
+          "text": "6"
+        },
+        {
+          "key": "C",
+          "text": "4"
+        },
+        {
+          "key": "D",
+          "text": "3"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Testing): 6",
+      "sourceExamId": "model1",
+      "sourceQuestionId": 11,
+      "sourceExamTitle": "MoEE Model Exam 1"
+    },
+    {
+      "examNumber": 31,
+      "id": 25,
+      "topic": "Software Testing",
+      "text": "As a software tester, which testing principle can save time and cost of testing?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Exhaustive testing is not possible"
+        },
+        {
+          "key": "B",
+          "text": "Testing early development process saves time and cost"
+        },
+        {
+          "key": "C",
+          "text": "Prioritize testing based on risk and criticality"
+        },
+        {
+          "key": "D",
+          "text": "Testing the entire development process affect time and cost"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Testing): Testing early development process saves time and cost",
+      "sourceExamId": "model1",
+      "sourceQuestionId": 31,
+      "sourceExamTitle": "MoEE Model Exam 1"
+    },
+    {
+      "examNumber": 33,
+      "id": 26,
+      "topic": "Software Testing",
+      "text": "In software testing, a term which relates the genuine imperfect segments to the absolute number of segments anticipated as faulty known as:",
+      "options": [
+        {
+          "key": "A",
+          "text": "F-measure"
+        },
+        {
+          "key": "B",
+          "text": "Recall"
+        },
+        {
+          "key": "C",
+          "text": "Accuracy"
+        },
+        {
+          "key": "D",
+          "text": "Precision"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Software Testing): Precision",
+      "sourceExamId": "model1",
+      "sourceQuestionId": 33,
+      "sourceExamTitle": "MoEE Model Exam 1"
+    },
+    {
+      "examNumber": 52,
+      "id": 27,
+      "topic": "Software Testing",
+      "text": "Being a software tester you want to verify the integration of the message between different processes communication using ______ .",
+      "options": [
+        {
+          "key": "A",
+          "text": "Network authorization"
+        },
+        {
+          "key": "B",
+          "text": "Decryption algorithm"
+        },
+        {
+          "key": "C",
+          "text": "Message Digest"
+        },
+        {
+          "key": "D",
+          "text": "Digital Signature"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Software Testing): Digital Signature",
+      "sourceExamId": "model1",
+      "sourceQuestionId": 52,
+      "sourceExamTitle": "MoEE Model Exam 1"
+    },
+    {
+      "examNumber": 71,
+      "id": 28,
+      "topic": "Software Testing",
+      "text": "Which of the following indicates the assurance that a product, service, or result meets the needs of the customer and other identified stakeholders?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Variance"
+        },
+        {
+          "key": "B",
+          "text": "SWOT Analysis"
+        },
+        {
+          "key": "C",
+          "text": "Validation"
+        },
+        {
+          "key": "D",
+          "text": "Verification"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Software Testing): Validation",
+      "sourceExamId": "model1",
+      "sourceQuestionId": 71,
+      "sourceExamTitle": "MoEE Model Exam 1"
+    },
+    {
+      "examNumber": 74,
+      "id": 29,
+      "topic": "Software Testing",
+      "text": "The incredible change in business and society as emerging economies develop and new technologies become available mainly:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Makes obsolete the already existing software systems"
+        },
+        {
+          "key": "B",
+          "text": "Leads to demand for new software architecture"
+        },
+        {
+          "key": "C",
+          "text": "Requires new testing on the existing software systems"
+        },
+        {
+          "key": "D",
+          "text": "Leads to Privacy and security breaches"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Testing): Leads to demand for new software architecture",
+      "sourceExamId": "model1",
+      "sourceQuestionId": 74,
+      "sourceExamTitle": "MoEE Model Exam 1"
+    },
+    {
+      "examNumber": 85,
+      "id": 30,
+      "topic": "Software Testing",
+      "text": "To reduce the dispute that might arise between the customer and contractor, each requirement should be documented and later checked during product delivery whether each documented requirements are fully implemented or not. What type of requirement validation is this?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Realism check"
+        },
+        {
+          "key": "B",
+          "text": "Verifiability"
+        },
+        {
+          "key": "C",
+          "text": "Completeness check"
+        },
+        {
+          "key": "D",
+          "text": "Validity check"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Testing): Verifiability",
+      "sourceExamId": "model1",
+      "sourceQuestionId": 85,
+      "sourceExamTitle": "MoEE Model Exam 1"
+    },
+    {
+      "examNumber": 87,
+      "id": 31,
+      "topic": "Software Testing",
+      "text": "One of the following is not purpose of software testing?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Improving product acceptance"
+        },
+        {
+          "key": "B",
+          "text": "Enhancing reliability"
+        },
+        {
+          "key": "C",
+          "text": "Identifying shortcomings"
+        },
+        {
+          "key": "D",
+          "text": "Requesting more design and implementation time"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Software Testing): Requesting more design and implementation time",
+      "sourceExamId": "model1",
+      "sourceQuestionId": 87,
+      "sourceExamTitle": "MoEE Model Exam 1"
+    },
+    {
+      "examNumber": 70,
+      "id": 32,
+      "topic": "Software Testing",
+      "text": "What is the purpose of unit testing?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To test the entire system"
+        },
+        {
+          "key": "B",
+          "text": "To test individual components or functions"
+        },
+        {
+          "key": "C",
+          "text": "To test the user interface"
+        },
+        {
+          "key": "D",
+          "text": "To test the database"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Testing): To test individual components or functions",
+      "sourceExamId": "moe2025",
+      "sourceQuestionId": 70,
+      "sourceExamTitle": "2025 MoEE Exit Exam"
+    },
+    {
+      "examNumber": 71,
+      "id": 33,
+      "topic": "Software Testing",
+      "text": "Which testing technique uses the internal structure of the code?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Black-box testing"
+        },
+        {
+          "key": "B",
+          "text": "White-box testing"
+        },
+        {
+          "key": "C",
+          "text": "Integration testing"
+        },
+        {
+          "key": "D",
+          "text": "System testing"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Testing): White-box testing",
+      "sourceExamId": "moe2025",
+      "sourceQuestionId": 71,
+      "sourceExamTitle": "2025 MoEE Exit Exam"
+    },
+    {
+      "examNumber": 72,
+      "id": 34,
+      "topic": "Software Testing",
+      "text": "What is a test case?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A set of conditions to verify a system's functionality"
+        },
+        {
+          "key": "B",
+          "text": "A programming script"
+        },
+        {
+          "key": "C",
+          "text": "A project plan"
+        },
+        {
+          "key": "D",
+          "text": "A database schema"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Software Testing): A set of conditions to verify a system's functionality",
+      "sourceExamId": "moe2025",
+      "sourceQuestionId": 72,
+      "sourceExamTitle": "2025 MoEE Exit Exam"
+    },
+    {
+      "examNumber": 73,
+      "id": 35,
+      "topic": "Software Testing",
+      "text": "What is a common goal of quality assurance in software development?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To increase development time"
+        },
+        {
+          "key": "B",
+          "text": "To ensure the software meets specified requirements"
+        },
+        {
+          "key": "C",
+          "text": "To reduce documentation"
+        },
+        {
+          "key": "D",
+          "text": "To eliminate user feedback"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Testing): To ensure the software meets specified requirements",
+      "sourceExamId": "moe2025",
+      "sourceQuestionId": 73,
+      "sourceExamTitle": "2025 MoEE Exit Exam"
+    },
+    {
+      "examNumber": 74,
+      "id": 36,
+      "topic": "Software Testing",
+      "text": "Which of the following is a defect in software?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A feature that meets user requirements"
+        },
+        {
+          "key": "B",
+          "text": "A bug that causes incorrect behavior"
+        },
+        {
+          "key": "C",
+          "text": "A well-documented code"
+        },
+        {
+          "key": "D",
+          "text": "A user manual"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Testing): A bug that causes incorrect behavior",
+      "sourceExamId": "moe2025",
+      "sourceQuestionId": 74,
+      "sourceExamTitle": "2025 MoEE Exit Exam"
+    }
+  ],
+  "dataRevision": 1
+}

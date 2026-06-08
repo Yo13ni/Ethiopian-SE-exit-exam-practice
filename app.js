@@ -2,9 +2,12 @@ const SETTINGS_KEY = "practice_settings";
 const EXAM_HOURS_DEFAULT = 3;
 const EXPLAIN_CACHE_VERSION = 5;
 const EXPLAIN_CACHE_VERSION_KEY = "practice_explain_cache_version";
-const CATALOG_VERSION = 16;
+const CATALOG_VERSION = 17;
+const COURSES_VERSION = 1;
 
 let catalog = null;
+let coursesCatalog = null;
+let sessionType = "exam"; // "exam" | "course"
 let currentExam = null;
 let data = null;
 let questions = [];
@@ -31,8 +34,23 @@ let reviewAnswers = {}; // question id -> picked key
 let reviewAnswered = false;
 let lastResult = null;
 
+function sessionStorageId(id = currentExam?.id) {
+  if (!id) return "default";
+  return sessionType === "course" ? `course_${id}` : id;
+}
+
+function examStateKey(id = currentExam?.id, type = sessionType) {
+  const sid = type === "course" ? `course_${id}` : id;
+  return `practice_${sid}_exam_state`;
+}
+
+function lastResultKey(id = currentExam?.id, type = sessionType) {
+  const sid = type === "course" ? `course_${id}` : id;
+  return `practice_${sid}_last_result`;
+}
+
 function storeKey(name) {
-  return `practice_${currentExam?.id || "default"}_${name}`;
+  return `practice_${sessionStorageId()}_${name}`;
 }
 
 function purgeStaleExplainCache() {
@@ -65,21 +83,21 @@ function saveSettings(s) {
   localStorage.setItem(SETTINGS_KEY, JSON.stringify(s));
 }
 
-function getExamState(examId) {
+function getExamState(sessionId, type = "exam") {
   try {
-    return JSON.parse(localStorage.getItem(`practice_${examId}_exam_state`));
+    return JSON.parse(localStorage.getItem(examStateKey(sessionId, type)));
   } catch {
     return null;
   }
 }
 
 function saveExamState(state) {
-  localStorage.setItem(`practice_${currentExam.id}_exam_state`, JSON.stringify(state));
+  localStorage.setItem(examStateKey(currentExam.id, sessionType), JSON.stringify(state));
 }
 
-function getLastResult(examId) {
+function getLastResult(sessionId, type = "exam") {
   try {
-    return JSON.parse(localStorage.getItem(`practice_${examId}_last_result`));
+    return JSON.parse(localStorage.getItem(lastResultKey(sessionId, type)));
   } catch {
     return null;
   }
@@ -108,8 +126,13 @@ function saveLastResult(examId, result) {
     })),
     focusGuide: result.focusGuide,
     timeUsedMs: result.timeUsedMs,
+    sessionType: result.sessionType || sessionType,
   };
-  localStorage.setItem(`practice_${examId}_last_result`, JSON.stringify(slim));
+  localStorage.setItem(lastResultKey(examId, sessionType), JSON.stringify(slim));
+}
+
+function getSummarySessionType() {
+  return lastResult?.sessionType || sessionType;
 }
 
 function formatTime(ms) {
@@ -125,11 +148,18 @@ function examDataRevision(exam) {
   return exam?.dataRevision ?? 1;
 }
 
-function isStaleExamState(examId, state) {
+function getSessionMeta(sessionId, type = "exam") {
+  if (type === "course") {
+    return coursesCatalog?.courses?.find((c) => c.id === sessionId) || null;
+  }
+  return catalog?.exams?.find((e) => e.id === sessionId) || null;
+}
+
+function isStaleExamState(sessionId, state, type = "exam") {
   if (!state?.inProgress) return false;
-  const exam = catalog?.exams?.find((e) => e.id === examId);
-  if (!exam) return false;
-  const current = examDataRevision(exam);
+  const meta = getSessionMeta(sessionId, type);
+  if (!meta) return false;
+  const current = examDataRevision(meta);
   return state.dataRevision == null || state.dataRevision !== current;
 }
 
@@ -140,25 +170,121 @@ function cacheBust(url, version) {
 
 async function init() {
   purgeStaleExplainCache();
-  const catRes = await fetch(cacheBust("data/catalog.json", CATALOG_VERSION), { cache: "no-store" });
+  const [catRes, coursesRes] = await Promise.all([
+    fetch(cacheBust("data/catalog.json", CATALOG_VERSION), { cache: "no-store" }),
+    fetch(cacheBust("data/courses.json", COURSES_VERSION), { cache: "no-store" }),
+  ]);
   catalog = await catRes.json();
+  coursesCatalog = await coursesRes.json();
+  renderCourseList();
   renderExamList();
   await checkAiStatus();
+}
+
+function renderCourseList() {
+  const el = document.getElementById("course-grid");
+  if (!el || !coursesCatalog?.courses?.length) return;
+
+  el.innerHTML = coursesCatalog.courses
+    .filter((course) => (course.questionCount ?? 0) > 0)
+    .map((course) => {
+      const state = getExamState(course.id, "course");
+      const last = getLastResult(course.id, "course");
+      const count = course.questionCount ?? 0;
+      const displayTitle = course.shortTitle || course.title;
+      let status = "";
+      if (state?.inProgress && !isStaleExamState(course.id, state, "course")) {
+        const courseMs = getExamTimeMs(course);
+        const left = state.timeLeftMs ?? courseMs;
+        const answered = Object.keys(state.answers || {}).length;
+        status = `In progress · ${answered}/${count} · ${formatTime(left)}`;
+      } else if (last) {
+        status = `Last: ${last.pct}%`;
+      }
+
+      const accent = course.color || "#6366f1";
+      return `
+      <div class="course-card-wrap" style="--course-accent:${escAttr(accent)}">
+        <button type="button" class="course-card" data-course="${escAttr(course.id)}" style="--course-accent:${escAttr(accent)}">
+          <span class="course-card-icon" aria-hidden="true">${course.icon || "📘"}</span>
+          <span class="course-card-title">${esc(displayTitle)}</span>
+          <span class="course-card-count">${count} question${count === 1 ? "" : "s"}</span>
+          ${status ? `<span class="course-card-status">${esc(status)}</span>` : ""}
+        </button>
+        <div class="course-card-actions">
+          ${state?.inProgress && !isStaleExamState(course.id, state, "course")
+            ? `<button type="button" class="btn primary course-resume" data-id="${escAttr(course.id)}">Resume</button>`
+            : `<button type="button" class="btn primary course-start" data-id="${escAttr(course.id)}">Start Practice</button>`}
+          <button type="button" class="btn ghost course-review" data-id="${escAttr(course.id)}">Review</button>
+          ${last ? `<button type="button" class="btn ghost course-results" data-id="${escAttr(course.id)}">Results</button>` : ""}
+        </div>
+      </div>`;
+    })
+    .join("");
+
+  el.querySelectorAll(".course-card").forEach((card) => {
+    card.addEventListener("click", (e) => {
+      if (e.target.closest(".course-card-actions")) return;
+      const id = card.dataset.course;
+      const state = getExamState(id, "course");
+      if (state?.inProgress && !isStaleExamState(id, state, "course")) {
+        startCourse(id, true);
+      } else {
+        startCourse(id, false);
+      }
+    });
+  });
+  el.querySelectorAll(".course-start").forEach((b) =>
+    b.addEventListener("click", (e) => {
+      e.stopPropagation();
+      startCourse(b.dataset.id, false);
+    })
+  );
+  el.querySelectorAll(".course-resume").forEach((b) =>
+    b.addEventListener("click", (e) => {
+      e.stopPropagation();
+      startCourse(b.dataset.id, true);
+    })
+  );
+  el.querySelectorAll(".course-review").forEach((b) =>
+    b.addEventListener("click", (e) => {
+      e.stopPropagation();
+      startReviewMode(b.dataset.id, null, "course");
+    })
+  );
+  el.querySelectorAll(".course-results").forEach((b) => {
+    b.addEventListener("click", async (e) => {
+      e.stopPropagation();
+      const last = getLastResult(b.dataset.id, "course");
+      if (last) {
+        sessionType = "course";
+        currentExam = getSessionMeta(b.dataset.id, "course");
+        await loadSessionData(b.dataset.id, "course");
+        lastResult = last;
+        if (!lastResult.focusGuide || !Object.keys(lastResult.focusGuide).length) {
+          lastResult.focusGuide = data?.focusGuide || {};
+        }
+        renderSummary(lastResult);
+        show("screen-summary");
+        window.scrollTo(0, 0);
+      }
+    });
+  });
 }
 
 function renderExamList() {
   const el = document.getElementById("exam-list");
   el.innerHTML = catalog.exams
     .map((exam) => {
-      const state = getExamState(exam.id);
-      const last = getLastResult(exam.id);
+      const state = getExamState(exam.id, "exam");
+      const last = getLastResult(exam.id, "exam");
       let status = "Not started";
-      if (state?.inProgress && !isStaleExamState(exam.id, state)) {
+      if (state?.inProgress && !isStaleExamState(exam.id, state, "exam")) {
         const examMs = getExamTimeMs(exam);
         const left = state.timeLeftMs ?? examMs;
         const answered = Object.keys(state.answers || {}).length;
         status = `In progress · Q${(state.index || 0) + 1} · ${answered} answered · ${formatTime(left)} left`;
-      } else if (state?.inProgress && isStaleExamState(exam.id, state)) {
+      } else if (state?.inProgress && isStaleExamState(exam.id, state, "exam")) {
         status = "Exam updated — start a new attempt";
       } else if (last) {
         status = `Last score: ${last.pct}% (${last.correct}/${last.total})`;
@@ -168,7 +294,7 @@ function renderExamList() {
         <div class="exam-card-title">${esc(exam.title)}</div>
         <div class="exam-card-meta">${status}</div>
         <div class="exam-card-actions">
-          ${state?.inProgress && !isStaleExamState(exam.id, state)
+          ${state?.inProgress && !isStaleExamState(exam.id, state, "exam")
             ? `<button type="button" class="btn primary exam-resume" data-id="${escAttr(exam.id)}">Resume Exam</button>`
             : `<button type="button" class="btn primary exam-start" data-id="${escAttr(exam.id)}">Start Exam (3h)</button>`}
           <button type="button" class="btn ghost exam-review" data-id="${escAttr(exam.id)}">Review Mode</button>
@@ -189,10 +315,11 @@ function renderExamList() {
   );
   el.querySelectorAll(".exam-results").forEach((b) => {
     b.addEventListener("click", async () => {
-      const last = getLastResult(b.dataset.id);
+      const last = getLastResult(b.dataset.id, "exam");
       if (last) {
-        currentExam = catalog.exams.find((e) => e.id === b.dataset.id);
-        await loadExamData(b.dataset.id);
+        sessionType = "exam";
+        currentExam = getSessionMeta(b.dataset.id, "exam");
+        await loadSessionData(b.dataset.id, "exam");
         lastResult = last;
         if (!lastResult.focusGuide || !Object.keys(lastResult.focusGuide).length) {
           lastResult.focusGuide = data?.focusGuide || {};
@@ -205,30 +332,37 @@ function renderExamList() {
   });
 }
 
-async function loadExamData(examId) {
-  const meta = catalog.exams.find((e) => e.id === examId);
+async function loadSessionData(sessionId, type = sessionType) {
+  const meta = getSessionMeta(sessionId, type);
   if (!meta) return false;
   currentExam = meta;
+  sessionType = type;
   const rev = examDataRevision(meta);
   const res = await fetch(cacheBust(meta.questionsPath, rev), { cache: "no-store" });
   data = await res.json();
-  questions = data.questions;
+  questions = data.questions || [];
   return true;
 }
 
-async function startExam(examId, resume) {
-  if (!(await loadExamData(examId))) return;
+async function loadExamData(examId) {
+  return loadSessionData(examId, "exam");
+}
+
+async function startSession(sessionId, resume, type) {
+  if (!(await loadSessionData(sessionId, type))) return;
+
+  const label = type === "course" ? "course practice" : "3-hour exam";
 
   if (resume) {
-    const state = getExamState(examId);
-    if (isStaleExamState(examId, state)) {
-      localStorage.removeItem(`practice_${examId}_exam_state`);
+    const state = getExamState(sessionId, type);
+    if (isStaleExamState(sessionId, state, type)) {
+      localStorage.removeItem(examStateKey(sessionId, type));
       resume = false;
     }
   }
 
   if (resume) {
-    const state = getExamState(examId);
+    const state = getExamState(sessionId, type);
     const examMs = getExamTimeMs(currentExam);
     if (state?.inProgress) {
       examIndex = state.index || 0;
@@ -241,7 +375,11 @@ async function startExam(examId, resume) {
       timeLeftMs = state.timeLeftMs ?? examMs;
     }
   } else {
-    if (!confirm("Start a new 3-hour exam? Any in-progress attempt will be replaced.")) return;
+    const msg =
+      type === "course"
+        ? `Start ${currentExam.title} practice (${questions.length} questions)? Any in-progress attempt will be replaced.`
+        : "Start a new 3-hour exam? Any in-progress attempt will be replaced.";
+    if (!confirm(msg)) return;
     examIndex = 0;
     examAnswers = {};
     examFlagged = new Set();
@@ -252,13 +390,30 @@ async function startExam(examId, resume) {
   document.body.classList.add("in-exam");
   const titleBar = document.getElementById("exam-title-bar");
   const subBar = document.getElementById("exam-subtitle-bar");
-  if (titleBar) titleBar.textContent = data.title || currentExam.title;
-  if (subBar) subBar.textContent = `${questions.length} Questions · ${currentExam.timeLimitHours ?? EXAM_HOURS_DEFAULT}h Timer`;
+  const displayTitle =
+    type === "course"
+      ? `${currentExam.shortTitle || currentExam.title} Practice`
+      : data.title || currentExam.title;
+  if (titleBar) titleBar.textContent = displayTitle;
+  if (subBar) {
+    subBar.textContent =
+      type === "course"
+        ? `${questions.length} Questions · ${label} · ${currentExam.timeLimitHours ?? EXAM_HOURS_DEFAULT}h Timer`
+        : `${questions.length} Questions · ${currentExam.timeLimitHours ?? EXAM_HOURS_DEFAULT}h Timer`;
+  }
 
   show("screen-exam");
   startTimer();
   updateExamNav();
   renderExamQuestion();
+}
+
+async function startExam(examId, resume) {
+  return startSession(examId, resume, "exam");
+}
+
+async function startCourse(courseId, resume) {
+  return startSession(courseId, resume, "course");
 }
 
 function startTimer() {
@@ -431,7 +586,7 @@ function updateExamNavLegend() {
 function ensureQuestionNav(navId, questionList, onNavigate) {
   const nav = document.getElementById(navId);
   if (!nav) return;
-  const navKey = `${currentExam?.id || "default"}-${questionList.length}`;
+  const navKey = `${sessionType}-${currentExam?.id || "default"}-${questionList.length}`;
   if (nav.dataset.key !== navKey) {
     nav.innerHTML = questionList
       .map(
@@ -528,7 +683,7 @@ function persistExamState() {
     skipped: [...examSkipped],
     timeLeftMs,
     dataRevision: examDataRevision(currentExam),
-    startedAt: getExamState(currentExam.id)?.startedAt || Date.now(),
+    startedAt: getExamState(currentExam.id, sessionType)?.startedAt || Date.now(),
   });
 }
 
@@ -628,10 +783,16 @@ function buildExamResult() {
 
   const weakTopics = topicBreakdown.filter((t) => t.missed > 0);
 
+  const sessionTitle =
+    sessionType === "course"
+      ? `${currentExam.shortTitle || currentExam.title} Practice`
+      : data.title || currentExam.title;
+
   return {
     date: new Date().toISOString(),
     examId: currentExam.id,
-    examTitle: data.title || currentExam.title,
+    sessionType,
+    examTitle: sessionTitle,
     pct,
     correct,
     incorrect: answered - correct,
@@ -679,8 +840,8 @@ function submitExam(auto = false) {
   }
 }
 
-async function startReviewMode(examId, filterIds) {
-  if (!(await loadExamData(examId))) return;
+async function startReviewMode(sessionId, filterIds, type = "exam") {
+  if (!(await loadSessionData(sessionId, type))) return;
   reviewFilter = filterIds;
   if (filterIds) {
     reviewQuestions = questions.filter((q) => filterIds.includes(q.id));
@@ -695,7 +856,12 @@ async function startReviewMode(examId, filterIds) {
   reviewAnswers = {};
   document.body.classList.add("in-exam");
   const reviewTitle = document.getElementById("review-exam-title");
-  if (reviewTitle) reviewTitle.textContent = data.title || currentExam.title;
+  if (reviewTitle) {
+    reviewTitle.textContent =
+      type === "course"
+        ? `${currentExam.shortTitle || currentExam.title} · Review`
+        : data.title || currentExam.title;
+  }
   show("screen-review");
   updateReviewNav();
   renderReviewQuestion();
@@ -709,7 +875,11 @@ function renderReviewQuestion() {
 
   document.getElementById("review-bar").style.width = `${pct}%`;
   document.getElementById("review-counter").textContent = `Q ${reviewIndex + 1} / ${reviewQuestions.length}`;
-  document.getElementById("review-topic-badge").textContent = `${currentExam.title} · ${q.topic}`;
+  const topicLabel =
+    sessionType === "course" && q.sourceExamTitle
+      ? `${q.sourceExamTitle} · ${q.topic}`
+      : `${currentExam.title} · ${q.topic}`;
+  document.getElementById("review-topic-badge").textContent = topicLabel;
   document.getElementById("review-q-text").textContent = q.text;
 
   document.getElementById("feedback").classList.add("hidden");
@@ -798,8 +968,12 @@ async function pickReview(key) {
   renderExplanation(q, key, correct, isCorrect, exp);
 }
 
+function explainExamId(q) {
+  return q.sourceExamId || currentExam.id;
+}
+
 function cacheKey(q, picked) {
-  return `v${EXPLAIN_CACHE_VERSION}_${currentExam.id}_${q.examNumber}_${picked}_${settings.useAi ? "ai" : "off"}`;
+  return `v${EXPLAIN_CACHE_VERSION}_${explainExamId(q)}_${q.examNumber}_${picked}_${settings.useAi ? "ai" : "off"}`;
 }
 
 async function fetchExplanation(q, userPick) {
@@ -814,7 +988,7 @@ async function fetchExplanation(q, userPick) {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
-        examId: currentExam.id,
+        examId: explainExamId(q),
         examTitle: data.title || currentExam.title,
         examNumber: q.examNumber,
         question: q.text,
@@ -1028,7 +1202,10 @@ function show(id) {
   document.querySelectorAll(".screen").forEach((s) => s.classList.remove("active"));
   document.getElementById(id).classList.add("active");
   document.body.classList.toggle("in-exam", id === "screen-exam" || id === "screen-review");
-  if (id === "screen-home") renderExamList();
+  if (id === "screen-home") {
+    renderCourseList();
+    renderExamList();
+  }
 }
 
 async function checkAiStatus() {
@@ -1087,13 +1264,14 @@ document.getElementById("btn-next-review-footer").addEventListener("click", () =
 });
 
 document.getElementById("btn-review-answers").addEventListener("click", () => {
-  if (currentExam) startReviewMode(currentExam.id, null);
+  if (currentExam) startReviewMode(currentExam.id, null, getSummarySessionType());
 });
 document.getElementById("btn-review-missed-only").addEventListener("click", () => {
   if (lastResult?.sessionMissed?.length) {
     startReviewMode(
       currentExam.id,
-      lastResult.sessionMissed.map((m) => m.id)
+      lastResult.sessionMissed.map((m) => m.id),
+      getSummarySessionType()
     );
   }
 });

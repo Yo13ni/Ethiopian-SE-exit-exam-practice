@@ -1,0 +1,569 @@
+{
+  "title": "Security — Course Practice",
+  "courseId": "security",
+  "topics": [
+    "Security"
+  ],
+  "total": 19,
+  "focusGuide": {
+    "Security": "Focus on CIA triad, ACLs, risk management, and common attack mitigations."
+  },
+  "questions": [
+    {
+      "examNumber": 37,
+      "id": 1,
+      "topic": "Security",
+      "text": "In software risk management, accepting risk happening but do not do anything is known as",
+      "options": [
+        {
+          "key": "A",
+          "text": "risk transfer",
+          "explanation": "Incorrect. risk transfer — This statement is generally true, but the question asks for the wrong/not case. The correct choice is B."
+        },
+        {
+          "key": "B",
+          "text": "risk retention",
+          "explanation": "Correct. risk retention — this directly answers the question. In Security, this is the standard/principle being tested."
+        },
+        {
+          "key": "C",
+          "text": "risk avoidance",
+          "explanation": "Incorrect. risk avoidance — This statement is generally true, but the question asks for the wrong/not case. The correct choice is B."
+        },
+        {
+          "key": "D",
+          "text": "risk reduction",
+          "explanation": "Incorrect. risk reduction — This statement is generally true, but the question asks for the wrong/not case. The correct choice is B."
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Security): risk retention",
+      "sourceExamId": "2015",
+      "sourceQuestionId": 30,
+      "sourceExamTitle": "Exit Exam 2015"
+    },
+    {
+      "examNumber": 29,
+      "id": 2,
+      "topic": "Security",
+      "text": "Accepting risk occurrence but not doing anything about it is called:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Risk avoidance"
+        },
+        {
+          "key": "B",
+          "text": "Risk retention"
+        },
+        {
+          "key": "C",
+          "text": "Risk reduction"
+        },
+        {
+          "key": "D",
+          "text": "Risk transfer"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Security): Risk retention",
+      "sourceExamId": "aau",
+      "sourceQuestionId": 29,
+      "sourceExamTitle": "AAU Model Exit Exam"
+    },
+    {
+      "examNumber": 40,
+      "id": 3,
+      "topic": "Security",
+      "text": "Which is a type of independent malicious program that never requires a host program?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Trap door"
+        },
+        {
+          "key": "B",
+          "text": "Trojan horse"
+        },
+        {
+          "key": "C",
+          "text": "Virus"
+        },
+        {
+          "key": "D",
+          "text": "Worm"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Security): Worm",
+      "sourceExamId": "aau",
+      "sourceQuestionId": 40,
+      "sourceExamTitle": "AAU Model Exit Exam"
+    },
+    {
+      "examNumber": 48,
+      "id": 4,
+      "topic": "Security",
+      "text": "Which are famous common cyber-attacks used to infiltrate user systems?",
+      "options": [
+        {
+          "key": "A",
+          "text": "DDoS and drive-by downloads"
+        },
+        {
+          "key": "B",
+          "text": "Malware and malvertising"
+        },
+        {
+          "key": "C",
+          "text": "Phishing and password attacks"
+        },
+        {
+          "key": "D",
+          "text": "All of the above"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Security): All of the above",
+      "sourceExamId": "aau",
+      "sourceQuestionId": 48,
+      "sourceExamTitle": "AAU Model Exit Exam"
+    },
+    {
+      "examNumber": 53,
+      "id": 5,
+      "topic": "Security",
+      "text": "Which one ot the tallowing refers to the technique used for verifying the integrity ot the message? . o",
+      "options": [
+        {
+          "key": "A",
+          "text": "Protocol"
+        },
+        {
+          "key": "B",
+          "text": "Digital signature"
+        },
+        {
+          "key": "C",
+          "text": "Decryption algorithm"
+        },
+        {
+          "key": "D",
+          "text": "message digest"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Security): Digital signature",
+      "sourceExamId": "aau",
+      "sourceQuestionId": 53,
+      "sourceExamTitle": "AAU Model Exit Exam"
+    },
+    {
+      "examNumber": 49,
+      "id": 6,
+      "topic": "Security",
+      "text": "Decryption and encryption of data are the responsibility of which Layer",
+      "options": [
+        {
+          "key": "A",
+          "text": "Presentation"
+        },
+        {
+          "key": "B",
+          "text": "Data Link"
+        },
+        {
+          "key": "C",
+          "text": "Network"
+        },
+        {
+          "key": "D",
+          "text": "Transport"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Security): Presentation",
+      "sourceExamId": "bdu",
+      "sourceQuestionId": 49,
+      "sourceExamTitle": "BDU Model Exit Exam"
+    },
+    {
+      "examNumber": 36,
+      "id": 7,
+      "topic": "Security",
+      "text": "Security estimation is an essential component of ______ process.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Software design"
+        },
+        {
+          "key": "B",
+          "text": "Software development"
+        },
+        {
+          "key": "C",
+          "text": "SRS design"
+        },
+        {
+          "key": "D",
+          "text": "Risk management"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Security): Risk management",
+      "sourceExamId": "model1",
+      "sourceQuestionId": 36,
+      "sourceExamTitle": "MoEE Model Exam 1"
+    },
+    {
+      "examNumber": 89,
+      "id": 8,
+      "topic": "Security",
+      "text": "You have received an e-mail which is unsolicited and commercially known as?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Wana Cry"
+        },
+        {
+          "key": "B",
+          "text": "Spam"
+        },
+        {
+          "key": "C",
+          "text": "Trash"
+        },
+        {
+          "key": "D",
+          "text": "Adware"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Security): Spam",
+      "sourceExamId": "model1",
+      "sourceQuestionId": 89,
+      "sourceExamTitle": "MoEE Model Exam 1"
+    },
+    {
+      "examNumber": 100,
+      "id": 9,
+      "topic": "Security",
+      "text": "Which of the following is against the professional ethics of software engineering?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Accepting any works regardless of your competence"
+        },
+        {
+          "key": "B",
+          "text": "Responsibly remain up-to-date in your profession"
+        },
+        {
+          "key": "C",
+          "text": "Respect the confidentiality of your employers or clients"
+        },
+        {
+          "key": "D",
+          "text": "Use your technical skills responsibly"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Security): Accepting any works regardless of your competence",
+      "sourceExamId": "model1",
+      "sourceQuestionId": 100,
+      "sourceExamTitle": "MoEE Model Exam 1"
+    },
+    {
+      "examNumber": 86,
+      "id": 10,
+      "topic": "Security",
+      "text": "What is the purpose of encryption in software security?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To increase software size"
+        },
+        {
+          "key": "B",
+          "text": "To protect data confidentiality"
+        },
+        {
+          "key": "C",
+          "text": "To speed up execution"
+        },
+        {
+          "key": "D",
+          "text": "To simplify code"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Security): To protect data confidentiality",
+      "sourceExamId": "moe2025",
+      "sourceQuestionId": 86,
+      "sourceExamTitle": "2025 MoEE Exit Exam"
+    },
+    {
+      "examNumber": 87,
+      "id": 11,
+      "topic": "Security",
+      "text": "Which type of attack involves injecting malicious code into a web application?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Phishing"
+        },
+        {
+          "key": "B",
+          "text": "SQL Injection"
+        },
+        {
+          "key": "C",
+          "text": "Denial of Service"
+        },
+        {
+          "key": "D",
+          "text": "Brute Force"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Security): SQL Injection",
+      "sourceExamId": "moe2025",
+      "sourceQuestionId": 87,
+      "sourceExamTitle": "2025 MoEE Exit Exam"
+    },
+    {
+      "examNumber": 88,
+      "id": 12,
+      "topic": "Security",
+      "text": "What is a firewall used for in a network?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To store data"
+        },
+        {
+          "key": "B",
+          "text": "To monitor and control network traffic"
+        },
+        {
+          "key": "C",
+          "text": "To assign IP addresses"
+        },
+        {
+          "key": "D",
+          "text": "To manage databases"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Security): To monitor and control network traffic",
+      "sourceExamId": "moe2025",
+      "sourceQuestionId": 88,
+      "sourceExamTitle": "2025 MoEE Exit Exam"
+    },
+    {
+      "examNumber": 89,
+      "id": 13,
+      "topic": "Security",
+      "text": "Which authentication method verifies a user's identity using multiple factors?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Single Sign-On"
+        },
+        {
+          "key": "B",
+          "text": "Multi-Factor Authentication"
+        },
+        {
+          "key": "C",
+          "text": "Password Authentication"
+        },
+        {
+          "key": "D",
+          "text": "Token Authentication"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Security): Multi-Factor Authentication",
+      "sourceExamId": "moe2025",
+      "sourceQuestionId": 89,
+      "sourceExamTitle": "2025 MoEE Exit Exam"
+    },
+    {
+      "examNumber": 90,
+      "id": 14,
+      "topic": "Security",
+      "text": "What is a common way to mitigate software vulnerabilities?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ignoring user feedback"
+        },
+        {
+          "key": "B",
+          "text": "Applying regular security patches"
+        },
+        {
+          "key": "C",
+          "text": "Increasing code complexity"
+        },
+        {
+          "key": "D",
+          "text": "Disabling encryption"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Security): Applying regular security patches",
+      "sourceExamId": "moe2025",
+      "sourceQuestionId": 90,
+      "sourceExamTitle": "2025 MoEE Exit Exam"
+    },
+    {
+      "examNumber": 19,
+      "id": 15,
+      "topic": "Security",
+      "text": "Within OAuth, what component validates the user's identity?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Authorization Server"
+        },
+        {
+          "key": "B",
+          "text": "Resource Server"
+        },
+        {
+          "key": "C",
+          "text": "Client"
+        },
+        {
+          "key": "D",
+          "text": "Browser"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Security): Authorization Server",
+      "sourceExamId": "2016",
+      "sourceQuestionId": 19,
+      "sourceExamTitle": "2016 Software Engineering Exit Exam"
+    },
+    {
+      "examNumber": 54,
+      "id": 16,
+      "topic": "Security",
+      "text": "Which of the following is among benefits provided with access control lists (ACLs) implementation for software security based applications?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Virus detection"
+        },
+        {
+          "key": "B",
+          "text": "ACLs provide high network availability"
+        },
+        {
+          "key": "C",
+          "text": "ACLs classify and organize network traffic"
+        },
+        {
+          "key": "D",
+          "text": "ACLs monitor the number of bytes and packets"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Security): ACLs classify and organize network traffic",
+      "sourceExamId": "2016",
+      "sourceQuestionId": 54,
+      "sourceExamTitle": "2016 Software Engineering Exit Exam"
+    },
+    {
+      "examNumber": 77,
+      "id": 17,
+      "topic": "Security",
+      "text": "In Software risk management, accepting risk happening but don not do anything is known as: 1.00 Fkag question b. Risk transfer Risk",
+      "options": [
+        {
+          "key": "A",
+          "text": "Retention"
+        },
+        {
+          "key": "B",
+          "text": "Risk"
+        },
+        {
+          "key": "C",
+          "text": "Reduction"
+        },
+        {
+          "key": "D",
+          "text": "Risk avoidance"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Security): Risk avoidance",
+      "sourceExamId": "2016",
+      "sourceQuestionId": 77,
+      "sourceExamTitle": "2016 Software Engineering Exit Exam"
+    },
+    {
+      "examNumber": 85,
+      "id": 18,
+      "topic": "Security",
+      "text": "Notyet enswered Marked dut of l,co Flag questicn Which of the following is not an approach used by IT security specialists to enhance the security level of the neüork? o o o",
+      "options": [
+        {
+          "key": "A",
+          "text": "a. c. d. Llse of"
+        },
+        {
+          "key": "B",
+          "text": "Intrusion detection system"
+        },
+        {
+          "key": "C",
+          "text": "Use of"
+        },
+        {
+          "key": "D",
+          "text": "Intrusion prevention system use ofWana cry protocol use of physical security"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Security): Use of",
+      "sourceExamId": "2016",
+      "sourceQuestionId": 85,
+      "sourceExamTitle": "2016 Software Engineering Exit Exam"
+    },
+    {
+      "examNumber": 95,
+      "id": 19,
+      "topic": "Security",
+      "text": "Which of the following is not an approach used by IT security specialists to enhance the security level of the network?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Use of Intrusion Detection System"
+        },
+        {
+          "key": "B",
+          "text": "Use of Intrusion Prevention System"
+        },
+        {
+          "key": "C",
+          "text": "Use of WannaCry protocol"
+        },
+        {
+          "key": "D",
+          "text": "Use of physical security"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Security): Use of WannaCry protocol",
+      "sourceExamId": "2016",
+      "sourceQuestionId": 95,
+      "sourceExamTitle": "2016 Software Engineering Exit Exam"
+    }
+  ],
+  "dataRevision": 1
+}

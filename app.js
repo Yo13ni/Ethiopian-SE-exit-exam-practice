@@ -2,7 +2,7 @@ const SETTINGS_KEY = "practice_settings";
 const EXAM_HOURS_DEFAULT = 3;
 const EXPLAIN_CACHE_VERSION = 5;
 const EXPLAIN_CACHE_VERSION_KEY = "practice_explain_cache_version";
-const CATALOG_VERSION = 11;
+const CATALOG_VERSION = 16;
 
 let catalog = null;
 let currentExam = null;
@@ -19,6 +19,7 @@ function getExamTimeMs(exam) {
 let examIndex = 0;
 let examAnswers = {}; // question id -> selected key
 let examFlagged = new Set();
+let examSkipped = new Set(); // left without answering when navigating away
 let timeLeftMs = EXAM_HOURS_DEFAULT * 60 * 60 * 1000;
 let timerInterval = null;
 
@@ -26,6 +27,7 @@ let timerInterval = null;
 let reviewIndex = 0;
 let reviewFilter = null; // null = all, or array of question ids
 let reviewQuestions = [];
+let reviewAnswers = {}; // question id -> picked key
 let reviewAnswered = false;
 let lastResult = null;
 
@@ -235,6 +237,7 @@ async function startExam(examId, resume) {
         examAnswers[String(k)] = v;
       }
       examFlagged = new Set((state.flagged || []).map(String));
+      examSkipped = new Set((state.skipped || []).map(String));
       timeLeftMs = state.timeLeftMs ?? examMs;
     }
   } else {
@@ -242,11 +245,19 @@ async function startExam(examId, resume) {
     examIndex = 0;
     examAnswers = {};
     examFlagged = new Set();
+    examSkipped = new Set();
     timeLeftMs = getExamTimeMs(currentExam);
   }
 
+  document.body.classList.add("in-exam");
+  const titleBar = document.getElementById("exam-title-bar");
+  const subBar = document.getElementById("exam-subtitle-bar");
+  if (titleBar) titleBar.textContent = data.title || currentExam.title;
+  if (subBar) subBar.textContent = `${questions.length} Questions · ${currentExam.timeLimitHours ?? EXAM_HOURS_DEFAULT}h Timer`;
+
   show("screen-exam");
   startTimer();
+  updateExamNav();
   renderExamQuestion();
 }
 
@@ -290,6 +301,221 @@ function getExamAnswer(q) {
 
 function setExamAnswer(q, key) {
   examAnswers[questionKey(q)] = key;
+  examSkipped.delete(questionKey(q));
+}
+
+function markExamSkippedAtIndex(index) {
+  const q = questions[index];
+  if (!q || getExamAnswer(q)) return;
+  examSkipped.add(questionKey(q));
+}
+
+function navigateExamQuestion(newIndex) {
+  if (newIndex === examIndex) return;
+  markExamSkippedAtIndex(examIndex);
+  examIndex = newIndex;
+  renderExamQuestion();
+}
+
+function examLivePillStatus(q) {
+  if (getExamAnswer(q)) return "answered";
+  if (examSkipped.has(questionKey(q))) return "skipped";
+  return "pending";
+}
+
+function getExamLiveStats() {
+  let skipped = 0;
+  let answered = 0;
+  questions.forEach((q) => {
+    if (getExamAnswer(q)) answered++;
+    else if (examSkipped.has(questionKey(q))) skipped++;
+  });
+  return { skipped, answered, total: questions.length };
+}
+
+function computeSessionStats(questionList, getPicked) {
+  let correct = 0;
+  let attempted = 0;
+  questionList.forEach((q) => {
+    const picked = getPicked(q);
+    if (!picked) return;
+    attempted++;
+    if (isAnswerCorrect(picked, q.answer)) correct++;
+  });
+  const total = questionList.length;
+  const incorrect = attempted - correct;
+  const skipped = total - attempted;
+  return { correct, incorrect, attempted, skipped, total };
+}
+
+function getReviewStats() {
+  return computeSessionStats(reviewQuestions, (q) => reviewAnswers[questionKey(q)]);
+}
+
+function normalizeAnswerKey(key) {
+  return String(key ?? "").trim().toUpperCase();
+}
+
+function isAnswerCorrect(picked, correctAnswer) {
+  if (!picked || !correctAnswer) return false;
+  return normalizeAnswerKey(picked) === normalizeAnswerKey(correctAnswer);
+}
+
+function pillStatus(picked, correctAnswer) {
+  if (!picked) return "pending";
+  return isAnswerCorrect(picked, correctAnswer) ? "correct" : "wrong";
+}
+
+const navDelegates = new Set();
+
+function renderProgressPanel(statsId, stats, mode = "final") {
+  const el = document.getElementById(statsId);
+  if (!el) return;
+
+  if (mode === "live") {
+    const pct = stats.total ? Math.round((stats.answered / stats.total) * 100) : 0;
+    el.innerHTML = `
+      <p class="progress-headline"><strong>${stats.skipped}</strong> question${stats.skipped === 1 ? "" : "s"} skipped</p>
+      <div class="progress-bar-wrap"><div class="progress-bar-fill" style="width:${pct}%"></div></div>
+      <p class="progress-sub">${stats.answered} of ${stats.total} answered · results hidden until submit</p>`;
+    return;
+  }
+
+  const pct = stats.total ? Math.round((stats.attempted / stats.total) * 100) : 0;
+  const headline =
+    stats.attempted > 0
+      ? `<strong>${stats.correct}</strong> correct out of <strong>${stats.attempted}</strong> attempted`
+      : "Exam submitted";
+  el.innerHTML = `
+    <p class="progress-headline">${headline}</p>
+    <div class="progress-grid">
+      <div class="stat-card stat-ok"><span class="stat-val">${stats.correct}</span><span class="stat-lbl">Correct</span></div>
+      <div class="stat-card stat-bad"><span class="stat-val">${stats.incorrect}</span><span class="stat-lbl">Incorrect</span></div>
+      <div class="stat-card"><span class="stat-val">${stats.skipped}</span><span class="stat-lbl">Skipped</span></div>
+      <div class="stat-card"><span class="stat-val">${stats.attempted}</span><span class="stat-lbl">Attempted</span></div>
+    </div>
+    <div class="progress-bar-wrap"><div class="progress-bar-fill" style="width:${pct}%"></div></div>
+    <p class="progress-sub">${stats.correct} correct · ${stats.incorrect} incorrect · ${stats.skipped} skipped</p>`;
+}
+
+function refreshExamQuestionNav() {
+  const nav = document.getElementById("exam-question-nav");
+  if (!nav) return;
+  questions.forEach((q, i) => {
+    const pill = nav.querySelector(`[data-index="${i}"]`);
+    if (!pill) return;
+    pill.dataset.status = examLivePillStatus(q);
+    pill.classList.toggle("is-active", i === examIndex);
+    pill.classList.toggle("flagged", examFlagged.has(questionKey(q)));
+    const label =
+      pill.dataset.status === "answered"
+        ? ", answered"
+        : pill.dataset.status === "skipped"
+          ? ", skipped"
+          : "";
+    pill.setAttribute("aria-label", `Question ${i + 1}${label}`);
+  });
+  const active = nav.querySelector(".q-pill.is-active");
+  if (active) active.scrollIntoView({ block: "nearest", behavior: "smooth" });
+}
+
+function updateExamNavLegend() {
+  const legend = document.getElementById("exam-nav-legend");
+  if (!legend) return;
+  legend.innerHTML = `
+    <span><i class="dot dot-answered"></i> Answered</span>
+    <span><i class="dot dot-skipped"></i> Skipped</span>
+    <span><i class="dot dot-pending"></i> Not visited</span>`;
+}
+
+function ensureQuestionNav(navId, questionList, onNavigate) {
+  const nav = document.getElementById(navId);
+  if (!nav) return;
+  const navKey = `${currentExam?.id || "default"}-${questionList.length}`;
+  if (nav.dataset.key !== navKey) {
+    nav.innerHTML = questionList
+      .map(
+        (_, i) =>
+          `<button type="button" class="q-pill" data-status="pending" data-index="${i}" aria-label="Question ${i + 1}">${i + 1}</button>`
+      )
+      .join("");
+    nav.dataset.key = navKey;
+  }
+  if (!navDelegates.has(navId)) {
+    nav.addEventListener("click", (e) => {
+      const btn = e.target.closest(".q-pill");
+      if (!btn) return;
+      onNavigate(parseInt(btn.dataset.index, 10));
+    });
+    navDelegates.add(navId);
+  }
+}
+
+function refreshQuestionNav(navId, questionList, activeIndex, getPicked, flaggedSet = null) {
+  const nav = document.getElementById(navId);
+  if (!nav) return;
+  questionList.forEach((q, i) => {
+    const pill = nav.querySelector(`[data-index="${i}"]`);
+    if (!pill) return;
+    const picked = getPicked(q);
+    pill.dataset.status = pillStatus(picked, q.answer);
+    pill.classList.toggle("is-active", i === activeIndex);
+    pill.classList.toggle("flagged", Boolean(flaggedSet?.has(questionKey(q))));
+    const status =
+      pill.dataset.status === "correct"
+        ? ", correct"
+        : pill.dataset.status === "wrong"
+          ? ", incorrect"
+          : "";
+    pill.setAttribute("aria-label", `Question ${i + 1}${status}`);
+  });
+  const active = nav.querySelector(".q-pill.is-active");
+  if (active) active.scrollIntoView({ block: "nearest", behavior: "smooth" });
+}
+
+function updateExamNav() {
+  renderProgressPanel("exam-progress-stats", getExamLiveStats(), "live");
+  updateExamNavLegend();
+  ensureQuestionNav("exam-question-nav", questions, (idx) => {
+    closeSidebar("exam");
+    navigateExamQuestion(idx);
+  });
+  refreshExamQuestionNav();
+  const totalEl = document.getElementById("exam-nav-total");
+  if (totalEl) totalEl.textContent = `${questions.length} Questions`;
+}
+
+function updateReviewNav() {
+  const stats = getReviewStats();
+  renderProgressPanel("review-progress-stats", stats);
+  ensureQuestionNav("review-question-nav", reviewQuestions, (idx) => {
+    reviewIndex = idx;
+    closeSidebar("review");
+    renderReviewQuestion();
+  });
+  refreshQuestionNav("review-question-nav", reviewQuestions, reviewIndex, (q) =>
+    reviewAnswers[questionKey(q)]
+  );
+  const totalEl = document.getElementById("review-nav-total");
+  if (totalEl) totalEl.textContent = `${reviewQuestions.length} Questions`;
+}
+
+function closeSidebar(mode) {
+  const sidebar = document.getElementById(mode === "exam" ? "exam-sidebar" : "review-sidebar");
+  const backdrop = document.getElementById(
+    mode === "exam" ? "exam-sidebar-backdrop" : "review-sidebar-backdrop"
+  );
+  sidebar?.classList.remove("open");
+  backdrop?.classList.remove("open");
+}
+
+function toggleSidebar(mode) {
+  const sidebar = document.getElementById(mode === "exam" ? "exam-sidebar" : "review-sidebar");
+  const backdrop = document.getElementById(
+    mode === "exam" ? "exam-sidebar-backdrop" : "review-sidebar-backdrop"
+  );
+  const open = sidebar?.classList.toggle("open");
+  backdrop?.classList.toggle("open", open);
 }
 
 function persistExamState() {
@@ -299,6 +525,7 @@ function persistExamState() {
     index: examIndex,
     answers: examAnswers,
     flagged: [...examFlagged],
+    skipped: [...examSkipped],
     timeLeftMs,
     dataRevision: examDataRevision(currentExam),
     startedAt: getExamState(currentExam.id)?.startedAt || Date.now(),
@@ -309,7 +536,7 @@ function renderExamQuestion() {
   const q = questions[examIndex];
   const pct = ((examIndex + 1) / questions.length) * 100;
   document.getElementById("bar").style.width = `${pct}%`;
-  document.getElementById("counter").textContent = `${examIndex + 1} / ${questions.length}`;
+  document.getElementById("counter").textContent = `Q ${examIndex + 1} / ${questions.length}`;
   document.getElementById("topic-badge").textContent = q.topic;
   document.getElementById("q-text").textContent = q.text;
 
@@ -325,6 +552,7 @@ function renderExamQuestion() {
     btn.innerHTML = `<span class="key">${opt.key}</span><span>${esc(opt.text)}</span>`;
     btn.addEventListener("click", () => {
       setExamAnswer(q, opt.key);
+      updateExamNav();
       renderExamQuestion();
       persistExamState();
     });
@@ -335,6 +563,7 @@ function renderExamQuestion() {
   document.getElementById("btn-next-exam").textContent =
     examIndex === questions.length - 1 ? "Finish" : "Next";
   document.getElementById("btn-flag").classList.toggle("flagged", examFlagged.has(questionKey(q)));
+  updateExamNav();
   persistExamState();
 }
 
@@ -364,7 +593,7 @@ function buildExamResult() {
         answer: q.answer,
         reason: "unanswered",
       });
-    } else if (picked === q.answer) {
+    } else if (isAnswerCorrect(picked, q.answer)) {
       correct++;
       ts.correct++;
     } else {
@@ -405,6 +634,7 @@ function buildExamResult() {
     examTitle: data.title || currentExam.title,
     pct,
     correct,
+    incorrect: answered - correct,
     total,
     answered,
     unanswered: unansweredCount,
@@ -417,6 +647,7 @@ function buildExamResult() {
 }
 
 function submitExam(auto = false) {
+  markExamSkippedAtIndex(examIndex);
   const unanswered = questions.filter((q) => !getExamAnswer(q)).length;
   if (!auto && unanswered > 0) {
     if (!confirm(`${unanswered} question(s) unanswered. Submit anyway?`)) return;
@@ -461,17 +692,23 @@ async function startReviewMode(examId, filterIds) {
     return;
   }
   reviewIndex = 0;
+  reviewAnswers = {};
+  document.body.classList.add("in-exam");
+  const reviewTitle = document.getElementById("review-exam-title");
+  if (reviewTitle) reviewTitle.textContent = data.title || currentExam.title;
   show("screen-review");
+  updateReviewNav();
   renderReviewQuestion();
 }
 
 function renderReviewQuestion() {
-  reviewAnswered = false;
   const q = reviewQuestions[reviewIndex];
+  const picked = reviewAnswers[questionKey(q)];
+  reviewAnswered = Boolean(picked);
   const pct = ((reviewIndex + 1) / reviewQuestions.length) * 100;
 
   document.getElementById("review-bar").style.width = `${pct}%`;
-  document.getElementById("review-counter").textContent = `${reviewIndex + 1} / ${reviewQuestions.length}`;
+  document.getElementById("review-counter").textContent = `Q ${reviewIndex + 1} / ${reviewQuestions.length}`;
   document.getElementById("review-topic-badge").textContent = `${currentExam.title} · ${q.topic}`;
   document.getElementById("review-q-text").textContent = q.text;
 
@@ -487,19 +724,54 @@ function renderReviewQuestion() {
     btn.type = "button";
     btn.className = "choice";
     btn.innerHTML = `<span class="key">${opt.key}</span><span>${esc(opt.text)}</span>`;
-    btn.addEventListener("click", () => pickReview(opt.key));
+    if (picked) {
+      btn.disabled = true;
+      if (opt.key === q.answer) btn.classList.add("correct");
+      else if (opt.key === picked) btn.classList.add("wrong");
+      else btn.classList.add("dim");
+    } else {
+      btn.addEventListener("click", () => pickReview(opt.key));
+    }
     container.appendChild(btn);
   });
+
+  if (picked) {
+    const isCorrect = picked === q.answer;
+    showReviewFeedback(q, picked);
+    document.getElementById("explain-loading").classList.remove("hidden");
+    fetchExplanation(q, picked).then((exp) => {
+      if (reviewQuestions[reviewIndex] !== q) return;
+      renderExplanation(q, picked, q.answer, isCorrect, exp);
+    });
+  }
+
+  updateReviewNav();
 
   document.getElementById("btn-prev-review").disabled = reviewIndex === 0;
   document.getElementById("btn-next-review-footer").textContent =
     reviewIndex === reviewQuestions.length - 1 ? "Done" : "Next";
 }
 
+function showReviewFeedback(q, picked) {
+  const correct = q.answer;
+  const isCorrect = picked === correct;
+
+  document.getElementById("result-banner").className = "result-banner " + (isCorrect ? "ok" : "no");
+  document.getElementById("result-banner").textContent = isCorrect
+    ? "Correct — explanation below"
+    : `Incorrect — correct answer is ${correct}`;
+
+  document.getElementById("feedback").classList.remove("hidden");
+  document.getElementById("btn-next-review").disabled = false;
+  document.getElementById("btn-next-review").textContent =
+    reviewIndex === reviewQuestions.length - 1 ? "Finish Review" : "Next Question";
+}
+
 async function pickReview(key) {
   if (reviewAnswered) return;
   reviewAnswered = true;
   const q = reviewQuestions[reviewIndex];
+  reviewAnswers[questionKey(q)] = key;
   const correct = q.answer;
   const isCorrect = key === correct;
 
@@ -519,6 +791,8 @@ async function pickReview(key) {
   document.getElementById("feedback").classList.remove("hidden");
   document.getElementById("explain-loading").classList.remove("hidden");
   document.getElementById("explain-body").classList.add("hidden");
+
+  updateReviewNav();
 
   const exp = await fetchExplanation(q, key);
   renderExplanation(q, key, correct, isCorrect, exp);
@@ -641,14 +915,44 @@ function prevReview() {
   }
 }
 
+function renderSummaryQuestionStrip(result) {
+  const strip = document.getElementById("summary-question-nav");
+  if (!strip || !questions.length) return;
+
+  strip.innerHTML = questions
+    .map((q, i) => {
+      const key = questionKey(q);
+      const missed = (result.sessionMissed || []).find((m) => String(m.id) === key);
+      let status = "correct";
+      if (missed) {
+        status = missed.reason === "unanswered" || missed.picked == null ? "skipped" : "wrong";
+      }
+      return `<span class="q-pill" data-status="${status}" title="Q${i + 1}">${i + 1}</span>`;
+    })
+    .join("");
+}
+
 function renderSummary(result) {
   const scoreEl = document.getElementById("final-score");
   scoreEl.textContent = `${result.pct}%`;
   scoreEl.className = "big-score" + (result.pct >= 70 ? " score-pass" : result.pct >= 50 ? " score-mid" : " score-low");
 
-  const unanswered = result.unanswered ?? result.total - (result.answered ?? result.total);
+  const answeredCount = result.answered ?? result.total - (result.unanswered ?? 0);
+  const incorrect = result.incorrect ?? answeredCount - result.correct;
+  const skipped = result.unanswered ?? result.total - answeredCount;
+
+  renderProgressPanel("summary-progress-stats", {
+    correct: result.correct,
+    incorrect,
+    attempted: answeredCount,
+    skipped,
+    total: result.total,
+  });
+
   document.getElementById("final-text").textContent =
-    `${result.examTitle}: ${result.correct} / ${result.total} correct · ${result.answered ?? result.total - unanswered} answered · ${unanswered} skipped`;
+    `${result.examTitle} — Final score ${result.pct}%`;
+
+  renderSummaryQuestionStrip(result);
   document.getElementById("summary-date").textContent = result.date
     ? `Completed: ${new Date(result.date).toLocaleString()} · Time used: ${formatTime(result.timeUsedMs || 0)}`
     : "";
@@ -723,6 +1027,7 @@ function renderSummary(result) {
 function show(id) {
   document.querySelectorAll(".screen").forEach((s) => s.classList.remove("active"));
   document.getElementById(id).classList.add("active");
+  document.body.classList.toggle("in-exam", id === "screen-exam" || id === "screen-review");
   if (id === "screen-home") renderExamList();
 }
 
@@ -759,18 +1064,11 @@ function escAttr(s) {
 
 // Event listeners
 document.getElementById("btn-prev").addEventListener("click", () => {
-  if (examIndex > 0) {
-    examIndex--;
-    renderExamQuestion();
-  }
+  if (examIndex > 0) navigateExamQuestion(examIndex - 1);
 });
 document.getElementById("btn-next-exam").addEventListener("click", () => {
-  if (examIndex < questions.length - 1) {
-    examIndex++;
-    renderExamQuestion();
-  } else {
-    submitExam(false);
-  }
+  if (examIndex < questions.length - 1) navigateExamQuestion(examIndex + 1);
+  else submitExam(false);
 });
 document.getElementById("btn-submit-exam").addEventListener("click", () => submitExam(false));
 document.getElementById("btn-flag").addEventListener("click", () => {
@@ -817,5 +1115,10 @@ document.getElementById("settings-form").addEventListener("submit", (e) => {
 document.getElementById("btn-clear-key").addEventListener("click", () => {
   document.getElementById("api-key").value = "";
 });
+
+document.getElementById("btn-toggle-exam-nav")?.addEventListener("click", () => toggleSidebar("exam"));
+document.getElementById("btn-toggle-review-nav")?.addEventListener("click", () => toggleSidebar("review"));
+document.getElementById("exam-sidebar-backdrop")?.addEventListener("click", () => closeSidebar("exam"));
+document.getElementById("review-sidebar-backdrop")?.addEventListener("click", () => closeSidebar("review"));
 
 init();

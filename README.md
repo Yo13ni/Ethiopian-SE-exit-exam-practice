@@ -6,10 +6,33 @@ Built for students preparing for the national MoE exit exam and related model pa
 
 ---
 
+## Screenshots
+
+### Home — study by subject or take a timed exam
+
+Browse **748 questions** grouped into **17 subjects** in the sidebar, or start/resume a full 3-hour exam from the main grid.
+
+![Home page with subject sidebar and exam list](docs/screenshots/home-subjects-and-exams.png)
+
+### Study by subject — scrollable practice with explanations
+
+Pick a subject (e.g. Operating Systems), scroll through all related questions across every exam, choose an answer, and get instant feedback plus a deep explanation — same style as Feedback Mode.
+
+![Study by subject page with interactive Q&A and explanation](docs/screenshots/study-by-subject.png)
+
+### Exam mode — timed simulation
+
+Practice under real exam conditions: 3-hour timer, question panel, flagging, and answers hidden until you submit.
+
+![Timed exam mode with question navigation panel](docs/screenshots/exam-mode.png)
+
+---
+
 ## Features
 
+- **Study by subject** — 748 questions across 8 exams, grouped into 17 topics; scrollable practice with pick-then-explain flow
 - **Exam mode** — timed 3-hour sessions, answers hidden until submit (like the real test)
-- **Review mode** — step through questions with instant feedback and detailed breakdowns
+- **Feedback mode** — step through one exam at a time with instant feedback and detailed breakdowns
 - **Deep explanations** — overview, per-option analysis (A–D), and study tips for every question
 - **Score summary** — percentage score, **score by topic**, and **focus areas** for weak concepts
 - **Resume exam** — continue an in-progress attempt (saved in your browser)
@@ -64,10 +87,11 @@ PORT=3000 python server/server.py
 
 ## How to use
 
-1. **Home** — pick an exam from the list
-2. **Start Exam (3h)** — timed attempt; flag questions and navigate freely before submitting
-3. **Review Mode** — learn at your own pace; explanations load after you pick an answer
-4. **View Results** — see your last score, topic breakdown, and questions you missed
+1. **Home** — click a **subject** in the sidebar to practice by topic, or pick an **exam** for timed mode
+2. **Study by subject** — scroll through all questions in that topic; pick an answer to reveal the explanation
+3. **Start Exam (3h)** — timed attempt; flag questions and navigate freely before submitting
+4. **Feedback Mode** — learn one exam at a time; explanations load after you pick an answer
+5. **View Results** — see your last score, topic breakdown, and questions you missed
 
 Progress and results are stored in **localStorage** in your browser (no account required). Explanations come from **offline deep explanation** files bundled with each exam.
 

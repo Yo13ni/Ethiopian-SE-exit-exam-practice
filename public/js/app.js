@@ -2,6 +2,7 @@ const EXAM_HOURS_DEFAULT = 3;
 const EXPLAIN_CACHE_VERSION = 10;
 const EXPLAIN_CACHE_VERSION_KEY = "practice_explain_cache_version";
 const CATALOG_VERSION = 22;
+const SUBJECTS_VERSION = 1;
 
 let catalog = null;
 let currentExam = null;
@@ -28,6 +29,11 @@ let reviewQuestions = [];
 let reviewAnswers = {}; // question id -> picked key
 let reviewAnswered = false;
 let lastResult = null;
+
+let subjectData = null;
+let currentSubjectSlug = null;
+let currentSubjectQuestions = [];
+let subjectAnswers = {};
 
 function sessionStorageId(id = currentExam?.id) {
   return id || "default";
@@ -141,6 +147,9 @@ let routeSyncing = false;
 function parseRoute() {
   const parts = (location.hash || "#/").replace(/^#/, "").split("/").filter(Boolean);
   if (!parts.length) return { screen: "home" };
+  if (parts[0] === "subject" && parts[1]) {
+    return { screen: "subject", slug: decodeURIComponent(parts[1]) };
+  }
   if (parts[0] !== "exam" || !parts[1]) return { screen: "home" };
   const id = decodeURIComponent(parts[1]);
   if (parts[2] === "review") {
@@ -155,6 +164,8 @@ function hashForDest(dest) {
   switch (dest.type) {
     case "home":
       return "#/";
+    case "subject":
+      return `#/subject/${encodeURIComponent(dest.slug)}`;
     case "exam":
       return `#/exam/${encodeURIComponent(dest.id)}`;
     case "review":
@@ -170,6 +181,7 @@ function hashForDest(dest) {
 
 function destFromRoute(route) {
   if (route.screen === "home") return { type: "home" };
+  if (route.screen === "subject") return { type: "subject", slug: route.slug };
   if (route.screen === "exam") {
     return { type: "exam", id: route.id, resume: true, confirmNew: false };
   }
@@ -227,6 +239,10 @@ async function navigate(dest, { replace = false, skipHash = false } = {}) {
     return openExamResults(dest.id);
   }
 
+  if (dest.type === "subject") {
+    return openSubject(dest.slug);
+  }
+
   return false;
 }
 
@@ -248,7 +264,10 @@ async function init() {
   catalog = await catRes.json();
   bindExamListEvents();
   bindSummaryEvents();
+  bindSubjectNav();
   bindRouting();
+  await ensureSubjectData();
+  renderSubjectNav();
   if (!location.hash) setRouteHash("#/", true);
   await handleRouteChange();
   document.getElementById("exam-search")?.addEventListener("input", filterExamGrid);
@@ -280,6 +299,271 @@ function examStatusLine(exam) {
     return `Last score: ${last.pct}% (${last.correct}/${last.total})`;
   }
   return "Not started yet";
+}
+
+function topicToSlug(topic) {
+  return topic
+    .toLowerCase()
+    .replace(/\s*\/\s*/g, "-")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
+}
+
+function setSubjectLoading(loading) {
+  const html = loading
+    ? '<p class="subject-loading">Loading subjects…</p>'
+    : "";
+  if (loading) {
+    for (const id of ["subject-nav", "subject-nav-page"]) {
+      const el = document.getElementById(id);
+      if (el) el.innerHTML = html;
+    }
+  }
+}
+
+async function ensureSubjectData() {
+  if (subjectData) return subjectData;
+  if (!catalog?.exams?.length) return null;
+
+  setSubjectLoading(true);
+  try {
+    const subRes = await fetch(cacheBust("data/subjects.json", SUBJECTS_VERSION), { cache: "no-store" });
+    if (!subRes.ok) throw new Error("subjects.json not found — run scripts/build_subjects.py");
+    const bundle = await subRes.json();
+
+    const deepByExam = new Map();
+    await Promise.all(
+      catalog.exams.map(async (exam) => {
+        const res = await fetch(cacheBust(exam.deepPath, examDataRevision(exam)), { cache: "no-store" });
+        if (res.ok) deepByExam.set(exam.id, await res.json());
+      })
+    );
+
+    const topics = (bundle.subjects || []).map((s) => ({
+      name: s.name,
+      slug: s.slug,
+      count: s.count,
+      guide: s.guide || "",
+      questions: s.questions || [],
+    }));
+    const slugToTopic = new Map(topics.map((t) => [t.slug, t.name]));
+    const questionsByTopic = new Map(topics.map((t) => [t.name, t.questions]));
+
+    subjectData = {
+      totalQuestions: bundle.totalQuestions ?? 0,
+      examCount: bundle.examCount ?? catalog.exams.length,
+      focusGuide: bundle.focusGuide || {},
+      deepByExam,
+      topics,
+      slugToTopic,
+      questionsByTopic,
+    };
+
+    const label = `${subjectData.totalQuestions} questions · ${subjectData.examCount} exams`;
+    document.getElementById("subject-source-label")?.replaceChildren(document.createTextNode(label));
+    document.getElementById("subject-source-label-page")?.replaceChildren(document.createTextNode(label));
+    const lead = document.getElementById("home-lead");
+    if (lead) {
+      lead.textContent = `Study all ${subjectData.totalQuestions} questions by subject in the sidebar, or take a timed exam below.`;
+    }
+    return subjectData;
+  } finally {
+    setSubjectLoading(false);
+  }
+}
+
+function renderSubjectNav(activeSlug = currentSubjectSlug) {
+  if (!subjectData) return;
+  for (const id of ["subject-nav", "subject-nav-page"]) {
+    const el = document.getElementById(id);
+    if (!el) continue;
+    el.innerHTML = subjectData.topics
+      .map((t) => {
+        const active = t.slug === activeSlug;
+        return `<button type="button" class="subject-nav-btn${active ? " is-active" : ""}" data-slug="${escAttr(t.slug)}">
+          <span class="subject-nav-label">${esc(t.name)}</span>
+          <span class="subject-nav-count">${t.count}</span>
+        </button>`;
+      })
+      .join("");
+  }
+}
+
+function bindSubjectNav() {
+  document.addEventListener("click", (e) => {
+    const btn = e.target.closest(".subject-nav-btn");
+    if (!btn) return;
+    e.preventDefault();
+    navigate({ type: "subject", slug: btn.dataset.slug });
+  });
+}
+
+function deepEntryForQuestion(q) {
+  const num = String(q.examNumber ?? q.id ?? "");
+  const deep = subjectData?.deepByExam?.get(q.examId);
+  const entry = deep?.[num];
+  if (entry) return entry;
+  return {
+    overview: q.concept || "No detailed explanation available for this question.",
+    options: Object.fromEntries((q.options || []).map((o) => [o.key, o.text])),
+    studyTip:
+      subjectData?.focusGuide?.[q.topic] || subjectData?.focusGuide?.General || "",
+  };
+}
+
+function subjectQuestionKey(q) {
+  return `${q.examId}-${q.examNumber ?? q.id}`;
+}
+
+function buildExplanationHtml(q, correct, exp, picked = null) {
+  const optionsHtml = (q.options || [])
+    .map((opt) => {
+      const text = (exp.options && exp.options[opt.key]) || opt.text;
+      let itemCls = "exp-item";
+      let label = `Option ${opt.key}`;
+      let labelCls = "neutral";
+      if (opt.key === correct) {
+        itemCls += " is-answer";
+        label = `Option ${opt.key} — Correct`;
+        labelCls = "ok";
+      } else if (picked && opt.key === picked) {
+        itemCls += " is-wrong-pick";
+        label = `Option ${opt.key} — Your choice`;
+        labelCls = "bad";
+      }
+      return `<div class="${itemCls}"><div class="exp-label ${labelCls}">${label}</div><div class="exp-text">${formatText(text)}</div></div>`;
+    })
+    .join("");
+
+  const tip = exp.studyTip || "";
+  const tipHtml = tip ? `<p class="study-tip"><strong>Study tip:</strong> ${formatText(tip)}</p>` : "";
+
+  return `<div class="concept">${formatText(exp.overview || q.concept || "")}</div>
+    <div class="explanations">${optionsHtml}</div>
+    ${tipHtml}`;
+}
+
+function renderSubjectChoicesHtml(q, cardId) {
+  const picked = subjectAnswers[cardId];
+  const correct = q.answer;
+  return (q.options || [])
+    .map((opt) => {
+      if (!picked) {
+        return `<button type="button" class="choice" data-card="${escAttr(cardId)}" data-key="${opt.key}">
+          <span class="key">${opt.key}</span><span>${esc(opt.text)}</span>
+        </button>`;
+      }
+      let cls = "choice";
+      if (opt.key === correct) cls += " correct";
+      else if (opt.key === picked) cls += " wrong selected";
+      else cls += " dim";
+      return `<div class="${cls}"><span class="key">${opt.key}</span><span>${esc(opt.text)}</span></div>`;
+    })
+    .join("");
+}
+
+function renderSubjectQuestionCard(q) {
+  const cardId = subjectQuestionKey(q);
+  const picked = subjectAnswers[cardId];
+  const num = q.examNumber ?? q.id;
+  const answered = Boolean(picked);
+  const correct = q.answer;
+  const isCorrect = picked === correct;
+  const exp = answered ? deepEntryForQuestion(q) : null;
+
+  let feedbackInner = "";
+  if (answered && exp) {
+    feedbackInner = `
+      <div class="result-banner ${isCorrect ? "ok" : "no"}">${isCorrect ? "Correct" : `Incorrect — answer is ${correct}`}</div>
+      ${buildExplanationHtml(q, correct, exp, picked)}`;
+  }
+
+  return `<article class="subject-q-card" id="subject-q-${escAttr(cardId)}">
+    <div class="subject-q-head">
+      <span class="badge">Q${num}</span>
+      <span class="subject-q-meta">${esc(q.examTitle || q.examId)}</span>
+    </div>
+    <p class="q-text exam-q-text">${esc(q.text)}</p>
+    <div class="choices" data-choices="${escAttr(cardId)}">${renderSubjectChoicesHtml(q, cardId)}</div>
+    <div class="feedback subject-q-feedback${answered ? "" : " hidden"}" data-feedback="${escAttr(cardId)}">
+      ${feedbackInner}
+    </div>
+  </article>`;
+}
+
+function pickSubjectAnswer(cardId, key) {
+  if (subjectAnswers[cardId]) return;
+  const q = currentSubjectQuestions.find((item) => subjectQuestionKey(item) === cardId);
+  if (!q) return;
+
+  subjectAnswers[cardId] = key;
+  const correct = q.answer;
+  const isCorrect = key === correct;
+  const card = document.getElementById(`subject-q-${cardId}`);
+  if (!card) return;
+
+  const choicesEl = card.querySelector(`[data-choices="${cardId}"]`);
+  if (choicesEl) choicesEl.innerHTML = renderSubjectChoicesHtml(q, cardId);
+
+  const exp = deepEntryForQuestion(q);
+  const feedbackEl = card.querySelector(`[data-feedback="${cardId}"]`);
+  if (feedbackEl) {
+    feedbackEl.classList.remove("hidden");
+    feedbackEl.innerHTML = `
+      <div class="result-banner ${isCorrect ? "ok" : "no"}">${isCorrect ? "Correct" : `Incorrect — answer is ${correct}`}</div>
+      ${buildExplanationHtml(q, correct, exp, key)}`;
+  }
+}
+
+function bindSubjectQuestionEvents() {
+  const list = document.getElementById("subject-questions-list");
+  if (!list || list.dataset.bound === "1") return;
+  list.dataset.bound = "1";
+  list.addEventListener("click", (e) => {
+    const btn = e.target.closest(".choice[data-card][data-key]");
+    if (!btn || btn.disabled) return;
+    pickSubjectAnswer(btn.dataset.card, btn.dataset.key);
+  });
+}
+
+function renderSubjectScrollPage(topic) {
+  const qs = subjectData.questionsByTopic.get(topic) || [];
+  currentSubjectQuestions = qs;
+  subjectAnswers = {};
+
+  const topicMeta = subjectData.topics.find((t) => t.name === topic);
+  const guideText =
+    topicMeta?.guide ||
+    subjectData.focusGuide[topic] ||
+    subjectData.focusGuide.General ||
+    "";
+
+  document.getElementById("subject-page-head").innerHTML = `
+    <h1 class="studio-page-title subject-page-title">${esc(topic)}</h1>
+    <p class="studio-page-lead">${qs.length} question${qs.length === 1 ? "" : "s"} · ${subjectData.examCount} exams · pick an answer to see the explanation</p>
+    ${guideText ? `<p class="subject-guide">${esc(guideText)}</p>` : ""}`;
+
+  document.getElementById("subject-questions-list").innerHTML = qs.map(renderSubjectQuestionCard).join("");
+  bindSubjectQuestionEvents();
+  const scrollEl = document.getElementById("subject-scroll");
+  if (scrollEl) scrollEl.scrollTop = 0;
+}
+
+async function openSubject(slug) {
+  if (!(await ensureSubjectData())) return false;
+  const topic = subjectData.slugToTopic.get(slug);
+  if (!topic) {
+    navigate({ type: "home" }, { replace: true });
+    return false;
+  }
+
+  currentSubjectSlug = slug;
+  stopTimer();
+  document.body.classList.remove("in-exam");
+  showScreen("screen-subject");
+  renderSubjectNav(slug);
+  renderSubjectScrollPage(topic);
+  return true;
 }
 
 function renderExamList() {
@@ -1390,8 +1674,11 @@ function showScreen(id) {
   document.getElementById(id).classList.add("active");
   document.body.classList.toggle("in-exam", id === "screen-exam" || id === "screen-review");
   document.body.classList.toggle("on-home", id === "screen-home");
+  document.body.classList.toggle("on-subject", id === "screen-subject");
   document.body.classList.toggle("on-summary", id === "screen-summary");
   if (id === "screen-home") {
+    currentSubjectSlug = null;
+    renderSubjectNav();
     renderExamList();
   }
 }
@@ -1401,7 +1688,7 @@ async function checkExplainStatus() {
   try {
     const h = await (await fetch("/api/health")).json();
     const total = Object.values(h.deepCounts || {}).reduce((a, b) => a + b, 0);
-    el.textContent = `${total} offline explanations available in Feedback Mode`;
+    el.textContent = `${total} offline explanations · study by subject (sidebar) or timed exams`;
   } catch {
     el.textContent = "Run server/server.py to enable explanations";
   }
@@ -1448,6 +1735,7 @@ document.getElementById("btn-review-missed-only").addEventListener("click", () =
   }
 });
 document.getElementById("btn-back-home").addEventListener("click", () => navigate({ type: "home" }));
+document.getElementById("btn-subject-home")?.addEventListener("click", () => navigate({ type: "home" }));
 
 document.getElementById("btn-toggle-exam-nav")?.addEventListener("click", () => toggleSidebar("exam"));
 document.getElementById("btn-toggle-review-nav")?.addEventListener("click", () => toggleSidebar("review"));

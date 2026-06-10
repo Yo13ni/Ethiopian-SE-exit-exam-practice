@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/styles.css?v=28" />
+  <link rel="stylesheet" href="css/styles.css?v=32" />
 </head>
 <body class="on-home">
   <div id="app">
@@ -19,21 +19,31 @@
         </div>
       </header>
 
-      <main class="studio-main">
-        <h1 class="studio-page-title">Exams</h1>
-        <p class="studio-page-lead">Choose an exam set and practice under real 3-hour timed conditions. Clean, fast, and free.</p>
+      <div class="home-layout">
+        <aside class="subject-sidebar">
+          <div class="subject-sidebar-head">
+            <h2>Subjects</h2>
+            <span id="subject-source-label" class="sidebar-total">Loading…</span>
+          </div>
+          <nav id="subject-nav" class="subject-nav" aria-label="Study by subject"></nav>
+        </aside>
 
-        <div class="studio-toolbar">
-          <p id="exam-count-label" class="studio-count">Loading exams…</p>
-          <label class="studio-search-wrap">
-            <span class="visually-hidden">Search exams</span>
-            <input type="search" id="exam-search" class="studio-search" placeholder="Search exam…" autocomplete="off" />
-          </label>
-        </div>
+        <main class="studio-main home-main">
+          <h1 class="studio-page-title">Exams</h1>
+          <p class="studio-page-lead" id="home-lead">Study by subject in the sidebar, or choose a timed exam below.</p>
 
-        <div id="exam-list" class="exam-grid" aria-label="Available exams"></div>
-        <p id="explain-status" class="studio-status">Checking…</p>
-      </main>
+          <div class="studio-toolbar">
+            <p id="exam-count-label" class="studio-count">Loading exams…</p>
+            <label class="studio-search-wrap">
+              <span class="visually-hidden">Search exams</span>
+              <input type="search" id="exam-search" class="studio-search" placeholder="Search exam…" autocomplete="off" />
+            </label>
+          </div>
+
+          <div id="exam-list" class="exam-grid" aria-label="Available exams"></div>
+          <p id="explain-status" class="studio-status">Checking…</p>
+        </main>
+      </div>
 
       <footer class="studio-footer">
         <p>Educational practice only — not affiliated with the Ministry of Education or any university.</p>
@@ -150,6 +160,33 @@
       </div>
     </section>
 
+    <section id="screen-subject" class="screen studio-screen">
+      <header class="studio-topbar">
+        <div class="studio-brand">
+          <button type="button" class="btn ghost subject-back-btn" id="btn-subject-home">← Home</button>
+        </div>
+        <div class="studio-brand">
+          <span class="studio-logo" aria-hidden="true"></span>
+          <span class="studio-brand-text">Study by Subject</span>
+        </div>
+      </header>
+
+      <div class="home-layout subject-page-layout">
+        <aside class="subject-sidebar">
+          <div class="subject-sidebar-head">
+            <h2>Subjects</h2>
+            <span id="subject-source-label-page" class="sidebar-total"></span>
+          </div>
+          <nav id="subject-nav-page" class="subject-nav" aria-label="Study by subject"></nav>
+        </aside>
+
+        <main class="subject-scroll" id="subject-scroll">
+          <div id="subject-page-head" class="subject-page-head"></div>
+          <div id="subject-questions-list" class="subject-questions-list"></div>
+        </main>
+      </div>
+    </section>
+
     <section id="screen-summary" class="screen studio-screen">
       <header class="studio-topbar">
         <div class="studio-brand">
@@ -224,6 +261,6 @@
     </section>
   </div>
 
-  <script src="js/app.js?v=35"></script>
+  <script src="js/app.js?v=39"></script>
 </body>
 </html>

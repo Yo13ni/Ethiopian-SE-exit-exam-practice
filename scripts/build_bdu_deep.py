@@ -1,0 +1,27 @@
+"""Build deep explanations for BDU Model Exit Exam."""
+
+from __future__ import annotations
+
+import json
+from pathlib import Path
+
+from bdu_deep_builder import build_deep_entry, enrich_with_concept
+
+ROOT = Path(__file__).resolve().parent.parent
+QUESTIONS_PATH = ROOT / "data" / "exams" / "bdu" / "questions.json"
+OUT_PATH = ROOT / "data" / "exams" / "bdu" / "deep_explanations.json"
+
+
+def main() -> None:
+    data = json.loads(QUESTIONS_PATH.read_text(encoding="utf-8"))
+    out: dict[str, dict] = {}
+    for q in data["questions"]:
+        num = str(q["examNumber"])
+        out[num] = enrich_with_concept(q, build_deep_entry(q))
+    OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
+    OUT_PATH.write_text(json.dumps(out, indent=2, ensure_ascii=False), encoding="utf-8")
+    print(f"Wrote {len(out)} deep explanations -> {OUT_PATH}")
+
+
+if __name__ == "__main__":
+    main()

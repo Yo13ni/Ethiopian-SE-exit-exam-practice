@@ -1,0 +1,1058 @@
+{
+  "1": {
+    "overview": "Which component of Android Application refers to a reusable UI component within an activity? The answer hinges on: reusable Android UI components hosted inside an Activity Eliminate distractors that confuse related Android terms before picking B.\n\n✅ Answer: B — Fragments",
+    "options": {
+      "A": "✗ Not the answer. BroadcastReceivers listen for system-wide Intents (e.g., connectivity changes) — not reusable UI inside an Activity.",
+      "B": "✓ CORRECT. Fragments are reusable UI/logic portions hosted inside an Activity — the answer for reusable in-activity components.",
+      "C": "✗ Not the answer. Activities represent full screens with their own lifecycle — broader than a reusable UI portion inside one screen.",
+      "D": "✗ Not the answer. ContentProviders expose structured data to other apps via content URIs — not a reusable UI widget."
+    },
+    "studyTip": "Activity/Intent/Service/Manifest rules are high-frequency on Ethiopian exit exams.",
+    "source": "offline-deep"
+  },
+  "2": {
+    "overview": "Among the listed Encryption Technologies, which one is used to secure database storage? The answer hinges on: Advanced Encryption Standard — symmetric encryption for data at rest Eliminate distractors that confuse related Security terms before picking C.\n\n✅ Answer: C — AES",
+    "options": {
+      "A": "✗ Not the answer. SHA-256 is a one-way hash for integrity checks — it does not encrypt database contents for confidentiality.",
+      "B": "✗ Not the answer. Hashing produces a fixed digest for integrity — reversible encryption (AES) is needed to protect stored data.",
+      "C": "✓ CORRECT. AES is a symmetric encryption standard widely used to protect data at rest, including database storage.",
+      "D": "✗ Not the answer. RSA is asymmetric encryption — used for keys/signatures, not the standard choice for bulk database encryption at rest."
+    },
+    "studyTip": "Use Saltzer-Schroeder principles and CIA triad vocabulary to eliminate distractors.",
+    "source": "offline-deep"
+  },
+  "3": {
+    "overview": "Which one of the following types of machine learning algorithms is best suited for demand forecasting and predictive maintenance problems? Eliminate distractors that confuse related AI / ML terms before picking A.\n\n✅ Answer: A — Time-Series Forecasting",
+    "options": {
+      "A": "✓ CORRECT. Time-series forecasting models sequential observations over time — suited to demand forecasting and predictive maintenance.",
+      "B": "✗ Not the answer. Regression predicts continuous values from features — time-series forecasting models temporal sequences explicitly.",
+      "C": "✗ Not the answer. Classification assigns discrete labels — demand forecasting needs sequential temporal prediction.",
+      "D": "✗ Not the answer. Clustering finds groups in unlabeled data — not supervised forecasting of future demand."
+    },
+    "studyTip": "Classify learning type or search strategy (informed vs uninformed, optimal vs greedy).",
+    "source": "offline-deep"
+  },
+  "4": {
+    "overview": "In the context of debugging, what is the purpose of a breakpoint? Eliminate distractors that confuse related Fundamentals of Programming terms before picking B.\n\n✅ Answer: B — To pause the execution of a program",
+    "options": {
+      "A": "✗ Not the answer. Loops are control structures — breakpoints pause execution anywhere, not specifically loop starts.",
+      "B": "✓ CORRECT. A breakpoint pauses program execution at a chosen line so you can inspect variables and step through code.",
+      "C": "✗ Not the answer. Function boundaries are code structure — a breakpoint's purpose is pausing execution for inspection, not marking scope ends.",
+      "D": "✗ Not the answer. Errors/exceptions signal problems at runtime — breakpoints are proactive debugger stops, not error indicators."
+    },
+    "studyTip": "Review Fundamentals of Programming notes and redo this question in Review mode.",
+    "source": "offline-deep"
+  },
+  "5": {
+    "overview": "Which one of the following levels of Software Testing tests interactions between modules? The answer hinges on: tests interactions between combined modules after unit tests Eliminate distractors that confuse related Software Testing terms before picking C.\n\n✅ Answer: C — Integration Testing",
+    "options": {
+      "A": "✗ Not the answer. System testing validates the complete integrated application — broader than module-to-module interaction alone.",
+      "B": "✗ Not the answer. Unit testing isolates a single module/function — it does not test cross-module wiring.",
+      "C": "✓ CORRECT. Integration testing verifies interfaces and interactions between combined modules — after unit tests pass.",
+      "D": "✗ Not the answer. User acceptance testing confirms fitness for business needs — it follows integration and system testing."
+    },
+    "studyTip": "Match the question to test levels, coverage types, or traceability definitions.",
+    "source": "offline-deep"
+  },
+  "6": {
+    "overview": "Which of the following SQL statements is used to select all columns and records from a table named \"Students\"? Eliminate distractors that confuse related Database terms before picking C.\n\n✅ Answer: C — SELECT * FROM Students;",
+    "options": {
+      "A": "✗ Not the answer. SELECT * retrieves all columns from the named table — standard SQL syntax for full-row projection.",
+      "B": "✗ Not the answer. 'SELECT Fields FROM Students;' does not fit the scenario: Which of the following SQL statements is used to select all columns and records from a table named \"Students\"? The keyed answer is C — SELECT * FROM Students;.",
+      "C": "✓ CORRECT. SELECT * retrieves all columns from the named table — standard SQL syntax for full-row projection.",
+      "D": "✗ Not the answer. 'SELECT Students;' does not fit the scenario: Which of the following SQL statements is used to select all columns and records from a table named \"Students\"? The keyed answer is C — SELECT * FROM Students;."
+    },
+    "studyTip": "Normalize step-by-step, check keys and FDs, and verify SQL syntax against schema.",
+    "source": "offline-deep"
+  },
+  "7": {
+    "overview": "Which of the following OSI model layers handles issues such as network transparency and resource allocation? Eliminate distractors that confuse related Networking terms before picking C.\n\n✅ Answer: C — Application",
+    "options": {
+      "A": "✗ Not the answer. Transport layer (L4) provides end-to-end delivery, segmentation, and flow control — not transparency/resource allocation at the application level.",
+      "B": "✗ Not the answer. Network layer (L3) handles routing and logical IP addressing — below the application services asked about here.",
+      "C": "✓ CORRECT. Application layer (L7) handles network transparency, resource allocation, and user-facing services like HTTP and DNS.",
+      "D": "✗ Not the answer. Data link layer (L2) handles framing and MAC addressing on a single link — not application-level transparency."
+    },
+    "studyTip": "Map the scenario to OSI/TCP layers, protocol behavior, or topology properties.",
+    "source": "offline-deep"
+  },
+  "8": {
+    "overview": "Which one of the following types of maintenance is used to refer to maintenance for fault repair? The answer hinges on: fixes faults/defects discovered after deployment Eliminate distractors that confuse related Software Engineering terms before picking C.\n\n✅ Answer: C — Corrective maintenance",
+    "options": {
+      "A": "✗ Not the answer. Adaptive maintenance adapts software to a changed environment (OS, regulations) — not fault repair.",
+      "B": "✗ Not the answer. Function Points measure software size for estimation — not a type of software maintenance.",
+      "C": "✓ CORRECT. Corrective maintenance fixes discovered faults/defects after deployment — the textbook term for repair.",
+      "D": "✗ Not the answer. Perfective maintenance improves performance or maintainability without fixing a specific fault."
+    },
+    "studyTip": "SRS, requirements, maintenance types, and SDLC phases — match exact definitions.",
+    "source": "offline-deep"
+  },
+  "9": {
+    "overview": "What method can be used by two computers to ensure that packets are not dropped because too much data is being sent too quickly? The answer hinges on: TCP windowing that prevents a fast sender from overwhelming the receiver Eliminate distractors that confuse related Networking terms before picking C.\n\n✅ Answer: C — Flow control",
+    "options": {
+      "A": "✗ Not the answer. Encapsulation wraps data with headers — it does not throttle send rate between two hosts.",
+      "B": "✗ Not the answer. 'Access method' represents how devices share a medium (CSMA/CD, token) — not TCP receive-window throttling. This question tests the specific concept tested in this question. That requires 'Flow control' (TCP windowing that prevents a fast sender from overwhelming the receiver), not 'Access method'.",
+      "C": "✓ CORRECT. TCP flow control (windowing) prevents overwhelming the receiver — the direct answer for rate mismatch.",
+      "D": "✗ Not the answer. 'Response timeout' does not fit the scenario: What method can be used by two computers to ensure that packets are not dropped because too much data is being sent too … The keyed answer is C — Flow control."
+    },
+    "studyTip": "Map the scenario to OSI/TCP layers, protocol behavior, or topology properties.",
+    "source": "offline-deep"
+  },
+  "10": {
+    "overview": "Which one of the following classes represents a top-level window with a title and border decorations? The answer hinges on: Java AWT/Swing top-level window with title bar and border decorations Eliminate distractors that confuse related Java / OOP terms before picking C.\n\n✅ Answer: C — Frame",
+    "options": {
+      "A": "✗ Not the answer. Container is a general superclass for components that hold others — not the decorated top-level window class.",
+      "B": "✗ Not the answer. Panel is a container for grouping components inside a window — not itself a top-level window.",
+      "C": "✓ CORRECT. Frame is the AWT/Swing class for a top-level window with title bar and border decorations.",
+      "D": "✗ Not the answer. Window is a generic term; in Java AWT the specific top-level decorated window class is Frame."
+    },
+    "studyTip": "Trace code on paper. Interfaces cannot be instantiated; constructors match class name and types.",
+    "source": "offline-deep"
+  },
+  "12": {
+    "overview": "What is the correct declaration of an integer array of 5 elements in C++? Eliminate distractors that confuse related C++ terms before picking D.\n\n✅ Answer: D — int arr[5];",
+    "options": {
+      "A": "✗ Not the answer. 'int[] arr = {1, 2, 3, 4, 5};' does not fit the scenario: What is the correct declaration of an integer array of 5 elements in C++? The keyed answer is D — int arr[5];.",
+      "B": "✗ Not the answer. 'int arr(5);' does not fit the scenario: What is the correct declaration of an integer array of 5 elements in C++? The keyed answer is D — int arr[5];.",
+      "C": "✗ Not the answer. 'int arr[5] = 1, 2, 3, 4, 5;' does not fit the scenario: What is the correct declaration of an integer array of 5 elements in C++? The keyed answer is D — int arr[5];.",
+      "D": "✓ CORRECT. 'int arr[5];' is the correct answer — it directly addresses the specific concept tested in this question in C++."
+    },
+    "studyTip": "Trace small code fragments and validate syntax against C++ compilation rules.",
+    "source": "offline-deep"
+  },
+  "13": {
+    "overview": "A software developer has completed coding a new feature for a project. Before integrating it with the main codebase, what is the MOST important step to ensure quality? Eliminate distractors that confuse related Software Engineering terms before picking A.\n\n✅ Answer: A — Reviewing the code for potential errors and adherence to coding standards",
+    "options": {
+      "A": "✓ CORRECT. 'Reviewing the code for potential errors and adherence to coding standards' is the correct answer — it directly addresses the specific concept tested in this question in Software Engineering.",
+      "B": "✗ Not the answer. 'Writing extensive user documentation for the new feature' means C++ operator that allocates memory on the heap. That answers a different kind of question. Here, the stem points to 'Reviewing the code for potential errors and adherence to coding standards' instead.",
+      "C": "✗ Not the answer. 'Deploying the code directly to the production environment for testing' does not fit the scenario: A software developer has completed coding a new feature for a project. Before integrating it with the main codebase, wha… The keyed answer is A — Reviewing the code for potential errors and adherence to coding standards.",
+      "D": "✗ Not the answer. 'Updating marketing materials to showcase the new feature' means C++ operator that allocates memory on the heap. That answers a different kind of question. Here, the stem points to 'Reviewing the code for potential errors and adherence to coding standards' instead."
+    },
+    "studyTip": "SRS, requirements, maintenance types, and SDLC phases — match exact definitions.",
+    "source": "offline-deep"
+  },
+  "14": {
+    "overview": "out of page 3:05:41 Hi Which of the following of software engineering enable tracking changes made to software configuration files during installation and configuration? The answer hinges on: tools (apt, npm, pip) that install software and resolve dependency versions Eliminate distractors that confuse related Networking terms before picking C.\n\n✅ Answer: C — Package managers",
+    "options": {
+      "A": "✗ Not the answer. Version control tracks source-code history — package managers handle installed binaries and dependency resolution.",
+      "B": "✗ Not the answer. Documentation tools generate docs — they do not manage installed software packages or dependencies.",
+      "C": "✓ CORRECT. Package managers install software and track dependency versions during installation and configuration.",
+      "D": "✗ Not the answer. 'Installation tcx)ls Next' does not fit the scenario: out of page 3:05:41 Hi Which of the following of software engineering enable tracking changes made to software configura… The keyed answer is C — Package managers."
+    },
+    "studyTip": "Map the scenario to OSI/TCP layers, protocol behavior, or topology properties.",
+    "source": "offline-deep"
+  },
+  "15": {
+    "overview": "Which risk response strategy involves transferring the impact of a risk to a third party, such as through insurance or outsourcing? The answer hinges on: shifts risk impact to a third party (insurance, outsourcing) Eliminate distractors that confuse related Project Management terms before picking C.\n\n✅ Answer: C — Risk Transference",
+    "options": {
+      "A": "✗ Not the answer. Risk mitigation reduces probability or impact through controls — you still own the risk.",
+      "B": "✗ Not the answer. Risk acceptance means tolerating the risk and budgeting for loss — not shifting it externally.",
+      "C": "✓ CORRECT. Risk transference shifts liability to a third party (insurance, outsourcing) — matches the stem.",
+      "D": "✗ Not the answer. Risk avoidance eliminates the risky activity entirely — stronger than transferring impact."
+    },
+    "studyTip": "Identify lifecycle model, risk strategy, or WBS/critical-path terminology.",
+    "source": "offline-deep"
+  },
+  "16": {
+    "overview": "Which one of the following types of operating systems kernel is a minimalist kernel that delegates resource management to applications? The answer hinges on: minimal kernel exposing hardware resources; apps manage policy Eliminate distractors that confuse related Operating Systems terms before picking B.\n\n✅ Answer: B — Exokernel",
+    "options": {
+      "A": "✗ Not the answer. Microkernel runs minimal services in kernel space with drivers in user space — not the same as exokernel exam answer.",
+      "B": "✓ CORRECT. Exokernel exposes low-level hardware resources and pushes policy to applications — minimalist delegation.",
+      "C": "✗ Not the answer. 'Hybrid Kernel' does not fit the scenario: Which one of the following types of operating systems kernel is a minimalist kernel that delegates resource management t… The keyed answer is B — Exokernel.",
+      "D": "✗ Not the answer. 'Monolithic Kernel' does not fit the scenario: Which one of the following types of operating systems kernel is a minimalist kernel that delegates resource management t… The keyed answer is B — Exokernel."
+    },
+    "studyTip": "Relate to process states, scheduling, memory policies, or deadlock conditions.",
+    "source": "offline-deep"
+  },
+  "17": {
+    "overview": "Which one of the following Performance Optimization Techniques helps distribute content across global servers to reduce latency? Eliminate distractors that confuse related Web Development terms before picking B.\n\n✅ Answer: B — Content Delivery Network",
+    "options": {
+      "A": "✗ Not the answer. 'Load Balancing' does not fit the scenario: Which one of the following Performance Optimization Techniques helps distribute content across global servers to reduce … The keyed answer is B — Content Delivery Network.",
+      "B": "✓ CORRECT. 'Content Delivery Network' is the correct answer — it directly addresses the specific concept tested in this question in Web Development.",
+      "C": "✗ Not the answer. 'Lazy Loading' does not fit the scenario: Which one of the following Performance Optimization Techniques helps distribute content across global servers to reduce … The keyed answer is B — Content Delivery Network.",
+      "D": "✗ Not the answer. 'Caching' does not fit the scenario: Which one of the following Performance Optimization Techniques helps distribute content across global servers to reduce … The keyed answer is B — Content Delivery Network."
+    },
+    "studyTip": "Check HTTP methods, CSS selectors, DOM APIs, and client-server roles.",
+    "source": "offline-deep"
+  },
+  "18": {
+    "overview": "Which Normal Form eliminates partial dependencies? Eliminate distractors that confuse related Database terms before picking B.\n\n✅ Answer: B — Second Normal Form (2NF)",
+    "options": {
+      "A": "✗ Not the answer. 'Third Normal Form (3NF)' does not fit the scenario: Which Normal Form eliminates partial dependencies? The keyed answer is B — Second Normal Form (2NF).",
+      "B": "✓ CORRECT. 2NF eliminates partial dependencies — non-key attributes must depend on the whole primary key, not part of it.",
+      "C": "✗ Not the answer. 'First Normal Form (1NF)' does not fit the scenario: Which Normal Form eliminates partial dependencies? The keyed answer is B — Second Normal Form (2NF).",
+      "D": "✗ Not the answer. 'Boyce-Codd Normal Form (BCNF)' does not fit the scenario: Which Normal Form eliminates partial dependencies? The keyed answer is B — Second Normal Form (2NF)."
+    },
+    "studyTip": "Normalize step-by-step, check keys and FDs, and verify SQL syntax against schema.",
+    "source": "offline-deep"
+  },
+  "19": {
+    "overview": "This C++ question tests tracing code execution to determine printed output. The correct choice is A — int day switch (day) { case 1: cout \"'•bnday\".\n\n✅ Answer: A — int day switch (day) { case 1: cout \"'•bnday\"",
+    "options": {
+      "A": "✓ CORRECT. 'int day switch (day) { case 1: cout \"'•bnday\"' is the correct answer — it directly addresses tracing code execution to determine printed output in C++.",
+      "B": "✗ Not the answer. If the program printed break, a different branch or calculation would execute. Trace the code line-by-line with the given inputs to verify the output is int day switch (day) { case 1: cout \"'•bnday\".",
+      "C": "✗ Not the answer. If the program printed case 2: cout \"Tuesday\", a different branch or calculation would execute. Trace the code line-by-line with the given inputs to verify the output is int day switch (day) { case 1: cout \"'•bnday\".",
+      "D": "✗ Not the answer. If the program printed break, a different branch or calculation would execute. Trace the code line-by-line with the given inputs to verify the output is int day switch (day) { case 1: cout \"'•bnday\"."
+    },
+    "studyTip": "Trace small code fragments and validate syntax against C++ compilation rules.",
+    "source": "offline-deep"
+  },
+  "20": {
+    "overview": "Suppose you have entity, Samuel. Samuel is a player. his age is 25. his height is 1.98, his club is Manchester, and he lives tn England. Manchester. Which of the following knowledge representation is best to represent it?\n\n✅ Answer: B — Semantic network Representation",
+    "options": {
+      "A": "✗ Not the answer. 'Logical tepresentation' does not fit the scenario: Suppose you have entity, Samuel. Samuel is a player. his age is 25. his height is 1.98, his club is Manchester, and he l… The keyed answer is B — Semantic network Representation.",
+      "B": "✓ CORRECT. 'Semantic network Representation' is the correct answer — it directly addresses the specific concept tested in this question in Database.",
+      "C": "✗ Not the answer. 'Rule based representation' does not fit the scenario: Suppose you have entity, Samuel. Samuel is a player. his age is 25. his height is 1.98, his club is Manchester, and he l… The keyed answer is B — Semantic network Representation.",
+      "D": "✗ Not the answer. 'Vtarne representation' does not fit the scenario: Suppose you have entity, Samuel. Samuel is a player. his age is 25. his height is 1.98, his club is Manchester, and he l… The keyed answer is B — Semantic network Representation."
+    },
+    "studyTip": "Normalize step-by-step, check keys and FDs, and verify SQL syntax against schema.",
+    "source": "offline-deep"
+  },
+  "21": {
+    "overview": "What should a programmer do when they encounter an error they do not understand? Eliminate distractors that confuse related Software Engineering terms before picking C.\n\n✅ Answer: C — Search for solutions in documentation, forums, or ask for help",
+    "options": {
+      "A": "✗ Not the answer. 'Panic and quit the project' does not fit the scenario: What should a programmer do when they encounter an error they do not understand? The keyed answer is C — Search for solutions in documentation, forums, or ask for help.",
+      "B": "✗ Not the answer. 'Assume they are not smart enough to fix it' does not fit the scenario: What should a programmer do when they encounter an error they do not understand? The keyed answer is C — Search for solutions in documentation, forums, or ask for help.",
+      "C": "✓ CORRECT. 'Search for solutions in documentation, forums, or ask for help' is the correct answer — it directly addresses the specific concept tested in this question in Software Engineering.",
+      "D": "✗ Not the answer. 'Ignore the error and hope it goes away' does not fit the scenario: What should a programmer do when they encounter an error they do not understand? The keyed answer is C — Search for solutions in documentation, forums, or ask for help."
+    },
+    "studyTip": "SRS, requirements, maintenance types, and SDLC phases — match exact definitions.",
+    "source": "offline-deep"
+  },
+  "24": {
+    "overview": "Which of the following functions checks if the end of the file has been reached in C++ file handling? Eliminate distractors that confuse related C++ terms before picking B.\n\n✅ Answer: B — eof()",
+    "options": {
+      "A": "✗ Not the answer. 'getline()' does not fit the scenario: Which of the following functions checks if the end of the file has been reached in C++ file handling? The keyed answer is B — eof().",
+      "B": "✓ CORRECT. 'eof()' is the correct answer — it directly addresses the specific concept tested in this question in C++.",
+      "C": "✗ Not the answer. 'close()' does not fit the scenario: Which of the following functions checks if the end of the file has been reached in C++ file handling? The keyed answer is B — eof().",
+      "D": "✗ Not the answer. 'seekg()' does not fit the scenario: Which of the following functions checks if the end of the file has been reached in C++ file handling? The keyed answer is B — eof()."
+    },
+    "studyTip": "Trace small code fragments and validate syntax against C++ compilation rules.",
+    "source": "offline-deep"
+  },
+  "25": {
+    "overview": "Which of the following is required by data privacy laws like GDPR and CCPA? Eliminate distractors that confuse related Security terms before picking A.\n\n✅ Answer: A — Users must be informed about how their data is being used",
+    "options": {
+      "A": "✓ CORRECT. GDPR/CCPA require transparency — users must know what data is collected and how it is used before meaningful consent.",
+      "B": "✗ Not the answer. Privacy laws require lawful basis/consent for collection — collecting without consent violates GDPR/CCPA principles.",
+      "C": "✗ Not the answer. 'User data must only be stored for 6 months' does not fit the scenario: Which of the following is required by data privacy laws like GDPR and CCPA? The keyed answer is A — Users must be informed about how their data is being used.",
+      "D": "✗ Not the answer. 'Users must provide anonymous data for app functionality' does not fit the scenario: Which of the following is required by data privacy laws like GDPR and CCPA? The keyed answer is A — Users must be informed about how their data is being used."
+    },
+    "studyTip": "Use Saltzer-Schroeder principles and CIA triad vocabulary to eliminate distractors.",
+    "source": "offline-deep"
+  },
+  "26": {
+    "overview": "26 3:17:07 Which software engtneenng practice focuses on identifying and mitigating potential risks during the development process? Eliminate distractors that confuse related Java / OOP terms before picking B.\n\n✅ Answer: B — Risk management",
+    "options": {
+      "A": "✗ Not the answer. 'Deployment planning' does not fit the scenario: 26 3:17:07 Which software engtneenng practice focuses on identifying and mitigating potential risks during the developme… The keyed answer is B — Risk management.",
+      "B": "✓ CORRECT. 'Risk management' is the correct answer — it directly addresses the specific concept tested in this question in Java / OOP.",
+      "C": "✗ Not the answer. 'Version control' does not fit the scenario: 26 3:17:07 Which software engtneenng practice focuses on identifying and mitigating potential risks during the developme… The keyed answer is B — Risk management.",
+      "D": "✗ Not the answer. 'User interface design Next p' means Java contract of abstract methods — implemented by classes. That answers a different kind of question. Here, the stem points to 'Risk management' instead."
+    },
+    "studyTip": "Trace code on paper. Interfaces cannot be instantiated; constructors match class name and types.",
+    "source": "offline-deep"
+  },
+  "27": {
+    "overview": "2:54:14 H ide of touomng Software Architectural Styles is typically used in systems where high responsiveness and real- tme procesqr•.g are needed? Eliminate distractors that confuse related Software Architecture terms before picking C.\n\n✅ Answer: C — Archltecture d. Serv«tess",
+    "options": {
+      "A": "✗ Not the answer. 'Monolithic Architectute ) b. Microservsces' does not fit the scenario: 2:54:14 H ide of touomng Software Architectural Styles is typically used in systems where high responsiveness and real- … The keyed answer is C — Archltecture d. Serv«tess.",
+      "B": "✗ Not the answer. 'Architecture Event-Dnven' does not fit the scenario: 2:54:14 H ide of touomng Software Architectural Styles is typically used in systems where high responsiveness and real- … The keyed answer is C — Archltecture d. Serv«tess.",
+      "C": "✓ CORRECT. 'Archltecture d. Serv«tess' is the correct answer — it directly addresses the specific concept tested in this question in Software Architecture.",
+      "D": "✗ Not the answer. 'Agchttecture Next 10 19 28 37' does not fit the scenario: 2:54:14 H ide of touomng Software Architectural Styles is typically used in systems where high responsiveness and real- … The keyed answer is C — Archltecture d. Serv«tess."
+    },
+    "studyTip": "Think quality attributes and ATAM scenarios — not team size or log files.",
+    "source": "offline-deep"
+  },
+  "28": {
+    "overview": "Which one of the following Process Scheduling Algorithms executes processes in order of arrival? The answer hinges on: First-Come First-Served scheduling in arrival order Eliminate distractors that confuse related Operating Systems terms before picking B.\n\n✅ Answer: B — First-Come, First-Served (FCFS)",
+    "options": {
+      "A": "✗ Not the answer. 'Round Robin (RR)' does not fit the scenario: Which one of the following Process Scheduling Algorithms executes processes in order of arrival? The keyed answer is B — First-Come, First-Served (FCFS).",
+      "B": "✓ CORRECT. FCFS (First-Come, First-Served) schedules processes in arrival order — non-preemptive and simple.",
+      "C": "✗ Not the answer. 'Priority Scheduling' does not fit the scenario: Which one of the following Process Scheduling Algorithms executes processes in order of arrival? The keyed answer is B — First-Come, First-Served (FCFS).",
+      "D": "✗ Not the answer. 'Shortest Job Next (SJN)' does not fit the scenario: Which one of the following Process Scheduling Algorithms executes processes in order of arrival? The keyed answer is B — First-Come, First-Served (FCFS)."
+    },
+    "studyTip": "Relate to process states, scheduling, memory policies, or deadlock conditions.",
+    "source": "offline-deep"
+  },
+  "29": {
+    "overview": "Time lett 2:54:59 you are developing an appbcanon that •nvolves real-ume data analysis and requires efficvent Insertion and O&mn ot data Which of tollow•ng data structures would be suited tor this application?\n\n✅ Answer: D — Hash table",
+    "options": {
+      "A": "✗ Not the answer. 'Stn' does not fit the scenario: Time lett 2:54:59 you are developing an appbcanon that •nvolves real-ume data analysis and requires efficvent Insertion … The keyed answer is D — Hash table.",
+      "B": "✗ Not the answer. 'O*ue' does not fit the scenario: Time lett 2:54:59 you are developing an appbcanon that •nvolves real-ume data analysis and requires efficvent Insertion … The keyed answer is D — Hash table.",
+      "C": "✗ Not the answer. 'Onyy tree' means a hierarchical structure with parent-child nodes and one root. That answers a different kind of question. Here, the stem points to 'Hash table' instead.",
+      "D": "✓ CORRECT. Hash tables offer O(1) average lookup/insert/delete — ideal for real-time data with frequent updates."
+    },
+    "studyTip": "Trace small code fragments and validate syntax against C++ compilation rules.",
+    "source": "offline-deep"
+  },
+  "30": {
+    "overview": "Which of the following is the primary security concern in choosing a web-based solution for a business? The answer hinges on: attack inserting malicious SQL through unescaped user input Eliminate distractors that confuse related Security terms before picking D.\n\n✅ Answer: D — Protection against cyber threats like SQL Injection and XSS",
+    "options": {
+      "A": "✗ Not the answer. 'The server of the websites' does not fit the scenario: Which of the following is the primary security concern in choosing a web-based solution for a business? The keyed answer is D — Protection against cyber threats like SQL Injection and XSS.",
+      "B": "✗ Not the answer. 'The choice of JavaScript framework' refers to client-side scripting language for web interactivity. The question asks about the specific concept tested in this question. That requires 'Protection against cyber threats like SQL Injection and XSS' — attack inserting malicious SQL through unescaped user input. These are different concepts; do not confuse them on the exam.",
+      "C": "✗ Not the answer. 'The number of images used on the website' does not fit the scenario: Which of the following is the primary security concern in choosing a web-based solution for a business? The keyed answer is D — Protection against cyber threats like SQL Injection and XSS.",
+      "D": "✓ CORRECT. XSS injects malicious JavaScript into pages viewed by other users — can steal session cookies and user data."
+    },
+    "studyTip": "Use Saltzer-Schroeder principles and CIA triad vocabulary to eliminate distractors.",
+    "source": "offline-deep"
+  },
+  "31": {
+    "overview": "Imagine you have been assigned to schedule a software development project with multiple dependencies. What approach would you take to create an effective timeline? Eliminate distractors that confuse related Project Management terms before picking A.\n\n✅ Answer: A — Use a Gantt chart and critical path method to plan dependencies",
+    "options": {
+      "A": "✓ CORRECT. 'Use a Gantt chart and critical path method to plan dependencies' is the correct answer — it directly addresses the specific concept tested in this question in Project Management.",
+      "B": "✗ Not the answer. 'Ignore dependencies and focus only on coding speed' does not fit the scenario: Imagine you have been assigned to schedule a software development project with multiple dependencies. What approach woul… The keyed answer is A — Use a Gantt chart and critical path method to plan dependencies.",
+      "C": "✗ Not the answer. 'Allow developers to choose their own timelines without oversight' does not fit the scenario: Imagine you have been assigned to schedule a software development project with multiple dependencies. What approach woul… The keyed answer is A — Use a Gantt chart and critical path method to plan dependencies.",
+      "D": "✗ Not the answer. Assign equal deadlines to all tasks regardless of complexity does not match the dominant growth rate of the given expression."
+    },
+    "studyTip": "Identify lifecycle model, risk strategy, or WBS/critical-path terminology.",
+    "source": "offline-deep"
+  },
+  "32": {
+    "overview": "Which one of the following deadlock conditions occurs when a resource can only be used by one process at a time? The answer hinges on: only one process may use a non-sharable resource at a time Eliminate distractors that confuse related Operating Systems terms before picking C.\n\n✅ Answer: C — Mutual Exclusion",
+    "options": {
+      "A": "✗ Not the answer. 'Circular Wait' does not fit the scenario: Which one of the following deadlock conditions occurs when a resource can only be used by one process at a time? The keyed answer is C — Mutual Exclusion.",
+      "B": "✗ Not the answer. Hold and Wait: a process holds resources while waiting for additional ones — a deadlock condition, not mutual exclusion alone.",
+      "C": "✓ CORRECT. Mutual exclusion means only one process may hold a non-sharable resource at a time — one of Coffman’s deadlock conditions.",
+      "D": "✗ Not the answer. 'No Preemption' does not fit the scenario: Which one of the following deadlock conditions occurs when a resource can only be used by one process at a time? The keyed answer is C — Mutual Exclusion."
+    },
+    "studyTip": "Relate to process states, scheduling, memory policies, or deadlock conditions.",
+    "source": "offline-deep"
+  },
+  "33": {
+    "overview": "68 Prev@us page Which one of the followtng tYJrs of firewall Tracks active connections and allows only legitimate traffic? Eliminate distractors that confuse related Security terms before picking C.\n\n✅ Answer: C — Firewall Packet",
+    "options": {
+      "A": "✗ Not the answer. 'Proxy firewall Cloud-Based' does not fit the scenario: 68 Prev@us page Which one of the followtng tYJrs of firewall Tracks active connections and allows only legitimate traffi… The keyed answer is C — Firewall Packet.",
+      "B": "✗ Not the answer. Stateful inspection tracks connection state and allows only packets belonging to legitimate established sessions.",
+      "C": "✓ CORRECT. 'Firewall Packet' is the correct answer — it directly addresses the specific concept tested in this question in Security.",
+      "D": "✗ Not the answer. 'Filtenng firewall' does not fit the scenario: 68 Prev@us page Which one of the followtng tYJrs of firewall Tracks active connections and allows only legitimate traffi… The keyed answer is C — Firewall Packet."
+    },
+    "studyTip": "Use Saltzer-Schroeder principles and CIA triad vocabulary to eliminate distractors.",
+    "source": "offline-deep"
+  },
+  "34": {
+    "overview": "Which one of the following types of machine learning learns from labeled data? The answer hinges on: learning from labeled training examples Eliminate distractors that confuse related AI / ML terms before picking D.\n\n✅ Answer: D — Supervised Learning",
+    "options": {
+      "A": "✗ Not the answer. Supervised learning trains on labeled input–output pairs — classification and regression are supervised tasks.",
+      "B": "✗ Not the answer. Supervised learning trains on labeled input–output pairs — classification and regression are supervised tasks.",
+      "C": "✗ Not the answer. 'Reinforcement Learning' does not fit the scenario: Which one of the following types of machine learning learns from labeled data? The keyed answer is D — Supervised Learning.",
+      "D": "✓ CORRECT. Supervised learning trains on labeled input–output pairs — classification and regression are supervised tasks."
+    },
+    "studyTip": "Classify learning type or search strategy (informed vs uninformed, optimal vs greedy).",
+    "source": "offline-deep"
+  },
+  "35": {
+    "overview": "Suppose you are designing a data center network that requires minimal latency and high redundancy. Which topology would best meet the requirement? Eliminate distractors that confuse related Networking terms before picking B.\n\n✅ Answer: B — Mesh",
+    "options": {
+      "A": "✗ Not the answer. 'Bus' does not fit the scenario: Suppose you are designing a data center network that requires minimal latency and high redundancy. Which topology would … The keyed answer is B — Mesh.",
+      "B": "✓ CORRECT. 'Mesh' is the correct answer — it directly addresses the specific concept tested in this question in Networking.",
+      "C": "✗ Not the answer. 'Star' does not fit the scenario: Suppose you are designing a data center network that requires minimal latency and high redundancy. Which topology would … The keyed answer is B — Mesh.",
+      "D": "✗ Not the answer. 'Hybrid' does not fit the scenario: Suppose you are designing a data center network that requires minimal latency and high redundancy. Which topology would … The keyed answer is B — Mesh."
+    },
+    "studyTip": "Map the scenario to OSI/TCP layers, protocol behavior, or topology properties.",
+    "source": "offline-deep"
+  },
+  "36": {
+    "overview": "2:57:18 Which one of the following obJect oriented feature restricts direct access to certain details, ensuring data security and integnty? Eliminate distractors that confuse related Java / OOP terms before picking B.\n\n✅ Answer: B — Encapsulation",
+    "options": {
+      "A": "✗ Not the answer. 'Polymorphism' does not fit the scenario: 2:57:18 Which one of the following obJect oriented feature restricts direct access to certain details, ensuring data sec… The keyed answer is B — Encapsulation.",
+      "B": "✓ CORRECT. 'Encapsulation' is the correct answer — it directly addresses the specific concept tested in this question in Java / OOP.",
+      "C": "✗ Not the answer. 'Inheritance' means subclass inherits fields and methods from superclass. That answers a different kind of question. Here, the stem points to 'Encapsulation' instead.",
+      "D": "✗ Not the answer. 'Abstraction' does not fit the scenario: 2:57:18 Which one of the following obJect oriented feature restricts direct access to certain details, ensuring data sec… The keyed answer is B — Encapsulation."
+    },
+    "studyTip": "Trace code on paper. Interfaces cannot be instantiated; constructors match class name and types.",
+    "source": "offline-deep"
+  },
+  "37": {
+    "overview": "37 ut of us page Which one of the followtng Static software Testing type is a formal and well-defined type of static test which was first introduced in 1972 in IBM by Michael Fagan? Eliminate distractors that confuse related Software Engineering terms before picking A.\n\n✅ Answer: A — Inspection",
+    "options": {
+      "A": "✓ CORRECT. 'Inspection' is the correct answer — it directly addresses the specific concept tested in this question in Software Engineering.",
+      "B": "✗ Not the answer. 'Technical review' does not fit the scenario: 37 ut of us page Which one of the followtng Static software Testing type is a formal and well-defined type of static tes… The keyed answer is A — Inspection.",
+      "C": "✗ Not the answer. 'Walk-through' does not fit the scenario: 37 ut of us page Which one of the followtng Static software Testing type is a formal and well-defined type of static tes… The keyed answer is A — Inspection.",
+      "D": "✗ Not the answer. 'Informal review' does not fit the scenario: 37 ut of us page Which one of the followtng Static software Testing type is a formal and well-defined type of static tes… The keyed answer is A — Inspection."
+    },
+    "studyTip": "SRS, requirements, maintenance types, and SDLC phases — match exact definitions.",
+    "source": "offline-deep"
+  },
+  "38": {
+    "overview": "Imagine you want to design a database to store information about orders in online shopping. Which tables and relationships would be most appropriate? Eliminate distractors that confuse related Database terms before picking C.\n\n✅ Answer: C — Separate tables for Products (number, name) and Customers (name), with relationships",
+    "options": {
+      "A": "✗ Not the answer. 'One table with all product details (number, name, type, customers, etc.)' does not fit the scenario: Imagine you want to design a database to store information about orders in online shopping. Which tables and relationshi… The keyed answer is C — Separate tables for Products (number, name) and Customers (name), with relationships.",
+      "B": "✗ Not the answer. 'Multiple tables with redundant data entries for faster searching' does not fit the scenario: Imagine you want to design a database to store information about orders in online shopping. Which tables and relationshi… The keyed answer is C — Separate tables for Products (number, name) and Customers (name), with relationships.",
+      "C": "✓ CORRECT. 'Separate tables for Products (number, name) and Customers (name), with relationships' is the correct answer — it directly addresses the specific concept tested in this question in Database.",
+      "D": "✗ Not the answer. 'Separate tables for Products (number) and Customers (name), with no relationships' does not fit the scenario: Imagine you want to design a database to store information about orders in online shopping. Which tables and relationshi… The keyed answer is C — Separate tables for Products (number, name) and Customers (name), with relationships."
+    },
+    "studyTip": "Normalize step-by-step, check keys and FDs, and verify SQL syntax against schema.",
+    "source": "offline-deep"
+  },
+  "39": {
+    "overview": "Which method is used in JavaScript to change the content of an HTML element dynamically? The answer hinges on: DOM property to read/write HTML inside an element Eliminate distractors that confuse related Web Development terms before picking C.\n\n✅ Answer: C — document.getElementById().innerHTML",
+    "options": {
+      "A": "✗ Not the answer. 'document.write()' does not fit the scenario: Which method is used in JavaScript to change the content of an HTML element dynamically? The keyed answer is C — document.getElementById().innerHTML.",
+      "B": "✗ Not the answer. 'window.alert()' does not fit the scenario: Which method is used in JavaScript to change the content of an HTML element dynamically? The keyed answer is C — document.getElementById().innerHTML.",
+      "C": "✓ CORRECT. element.innerHTML reads/writes the HTML content inside a DOM node — the standard way to change page content dynamically.",
+      "D": "✗ Not the answer. 'console.log()' does not fit the scenario: Which method is used in JavaScript to change the content of an HTML element dynamically? The keyed answer is C — document.getElementById().innerHTML."
+    },
+    "studyTip": "Check HTTP methods, CSS selectors, DOM APIs, and client-server roles.",
+    "source": "offline-deep"
+  },
+  "40": {
+    "overview": "Which one of the following process synchronization mechanisms ensures only one process accesses a shared resource at a time? The answer hinges on: only one process may use a non-sharable resource at a time Eliminate distractors that confuse related Operating Systems terms before picking A.\n\n✅ Answer: A — Mutex (Mutual Exclusion Locks)",
+    "options": {
+      "A": "✓ CORRECT. 'Mutex (Mutual Exclusion Locks)' is correct because it matches the specific concept tested in this question. Definition: only one process may use a non-sharable resource at a time.",
+      "B": "✗ Not the answer. 'Semaphores' does not fit the scenario: Which one of the following process synchronization mechanisms ensures only one process accesses a shared resource at a t… The keyed answer is A — Mutex (Mutual Exclusion Locks).",
+      "C": "✗ Not the answer. 'Read-Write Locks' does not fit the scenario: Which one of the following process synchronization mechanisms ensures only one process accesses a shared resource at a t… The keyed answer is A — Mutex (Mutual Exclusion Locks).",
+      "D": "✗ Not the answer. 'Monitors and Condition Variables' does not fit the scenario: Which one of the following process synchronization mechanisms ensures only one process accesses a shared resource at a t… The keyed answer is A — Mutex (Mutual Exclusion Locks)."
+    },
+    "studyTip": "Relate to process states, scheduling, memory policies, or deadlock conditions.",
+    "source": "offline-deep"
+  },
+  "41": {
+    "overview": "Which of the following CSS style properties are inherited, meaning they are transmitted from parent to child elements? Eliminate distractors that confuse related Web Development terms before picking D.\n\n✅ Answer: D — Colors style",
+    "options": {
+      "A": "✗ Not the answer. 'Margins style' does not fit the scenario: Which of the following CSS style properties are inherited, meaning they are transmitted from parent to child elements? The keyed answer is D — Colors style.",
+      "B": "✗ Not the answer. 'Height style' does not fit the scenario: Which of the following CSS style properties are inherited, meaning they are transmitted from parent to child elements? The keyed answer is D — Colors style.",
+      "C": "✗ Not the answer. 'Borders style' does not fit the scenario: Which of the following CSS style properties are inherited, meaning they are transmitted from parent to child elements? The keyed answer is D — Colors style.",
+      "D": "✓ CORRECT. 'Colors style' is the correct answer — it directly addresses the specific concept tested in this question in Web Development."
+    },
+    "studyTip": "Check HTTP methods, CSS selectors, DOM APIs, and client-server roles.",
+    "source": "offline-deep"
+  },
+  "42": {
+    "overview": "•ret out of Preveous page What IS the pnmary method used to estimate the maintenance effort for software systems? Eliminate distractors that confuse related Security terms before picking C.\n\n✅ Answer: C — Function Potnts (FP) Annual",
+    "options": {
+      "A": "✗ Not the answer. 'unes of (LOC)' does not fit the scenario: •ret out of Preveous page What IS the pnmary method used to estimate the maintenance effort for software systems? The keyed answer is C — Function Potnts (FP) Annual.",
+      "B": "✗ Not the answer. 'Number of security patches required' does not fit the scenario: •ret out of Preveous page What IS the pnmary method used to estimate the maintenance effort for software systems? The keyed answer is C — Function Potnts (FP) Annual.",
+      "C": "✓ CORRECT. 'Function Potnts (FP) Annual' is the correct answer — it directly addresses the specific concept tested in this question in Security.",
+      "D": "✗ Not the answer. 'Maintenance Cost (AMC) Next p' does not fit the scenario: •ret out of Preveous page What IS the pnmary method used to estimate the maintenance effort for software systems? The keyed answer is C — Function Potnts (FP) Annual."
+    },
+    "studyTip": "Use Saltzer-Schroeder principles and CIA triad vocabulary to eliminate distractors.",
+    "source": "offline-deep"
+  },
+  "43": {
+    "overview": "Primary key uniquely identifies each row — NOT NULL + UNIQUE. Enables relationships via foreign keys and efficient indexing.\n\n✅ Answer: B — To enforce referential integrity between related tables",
+    "options": {
+      "A": "✗ Not the answer. 'To improve indexing performance' does not fit the scenario: What is the purpose of a foreign key in database design? The keyed answer is B — To enforce referential integrity between related tables.",
+      "B": "✓ CORRECT. \"To uniquely identify each record\" is correct because exact definition of primary key constraint.",
+      "C": "✗ Not the answer. 'To store duplicate records' does not fit the scenario: What is the purpose of a foreign key in database design? The keyed answer is B — To enforce referential integrity between related tables.",
+      "D": "✗ Not the answer. 'To uniquely identify a record within a table' does not fit the scenario: What is the purpose of a foreign key in database design? The keyed answer is B — To enforce referential integrity between related tables."
+    },
+    "studyTip": "PK = unique + not null identifier per row.",
+    "source": "offline-deep"
+  },
+  "44": {
+    "overview": "Which of the following layers in the TCP/IP model provides a logical connection between a source host and a destination host? Eliminate distractors that confuse related Networking terms before picking C.\n\n✅ Answer: C — Transport",
+    "options": {
+      "A": "✗ Not the answer. 'Data link' does not fit the scenario: Which of the following layers in the TCP/IP model provides a logical connection between a source host and a destination … The keyed answer is C — Transport.",
+      "B": "✗ Not the answer. 'Network' does not fit the scenario: Which of the following layers in the TCP/IP model provides a logical connection between a source host and a destination … The keyed answer is C — Transport.",
+      "C": "✓ CORRECT. 'Transport' is the correct answer — it directly addresses the specific concept tested in this question in Networking.",
+      "D": "✗ Not the answer. 'Application' does not fit the scenario: Which of the following layers in the TCP/IP model provides a logical connection between a source host and a destination … The keyed answer is C — Transport."
+    },
+    "studyTip": "Map the scenario to OSI/TCP layers, protocol behavior, or topology properties.",
+    "source": "offline-deep"
+  },
+  "45": {
+    "overview": "45 Which one of the following algonthm would you use to check if a number is even or odd? Eliminate distractors that confuse related Data Structures terms before picking A.\n\n✅ Answer: A — If-else statement",
+    "options": {
+      "A": "✓ CORRECT. 'If-else statement' is the correct answer — it directly addresses the specific concept tested in this question in Data Structures.",
+      "B": "✗ Not the answer. 'Merge sort' means divide-and-conquer sorting algorithm splitting arrays recursively. That answers a different kind of question. Here, the stem points to 'If-else statement' instead.",
+      "C": "✗ Not the answer. 'Sorting algorithm' does not fit the scenario: 45 Which one of the following algonthm would you use to check if a number is even or odd? The keyed answer is A — If-else statement.",
+      "D": "✗ Not the answer. 'Binary search' means search on sorted data by halving the range — O(log n). That answers a different kind of question. Here, the stem points to 'If-else statement' instead."
+    },
+    "studyTip": "Write the algorithm on paper and count dominant terms or trace one small example.",
+    "source": "offline-deep"
+  },
+  "46": {
+    "overview": "ion 46 Which of the following is a type of A1 agent that maintains an intemal model of the world, which is updated by percepts as they are received? Eliminate distractors that confuse related AI / ML terms before picking C.\n\n✅ Answer: C — Model-based agent",
+    "options": {
+      "A": "✗ Not the answer. 'Simple reflex agent' does not fit the scenario: ion 46 Which of the following is a type of A1 agent that maintains an intemal model of the world, which is updated by pe… The keyed answer is C — Model-based agent.",
+      "B": "✗ Not the answer. 'Learning agent' does not fit the scenario: ion 46 Which of the following is a type of A1 agent that maintains an intemal model of the world, which is updated by pe… The keyed answer is C — Model-based agent.",
+      "C": "✓ CORRECT. 'Model-based agent' is the correct answer — it directly addresses the specific concept tested in this question in AI / ML.",
+      "D": "✗ Not the answer. 'Utility-based agent' does not fit the scenario: ion 46 Which of the following is a type of A1 agent that maintains an intemal model of the world, which is updated by pe… The keyed answer is C — Model-based agent."
+    },
+    "studyTip": "Classify learning type or search strategy (informed vs uninformed, optimal vs greedy).",
+    "source": "offline-deep"
+  },
+  "47": {
+    "overview": "A software company wants to implement a new data security policy for a newly developed system. The most effective way to ensure employee awareness and compliance is to: Eliminate distractors that confuse related Security terms before picking C.\n\n✅ Answer: C — Provide comprehensive training on the policy and its importance",
+    "options": {
+      "A": "✗ Not the answer. 'Rely on employees to read and understand the policy on their own time' does not fit the scenario: A software company wants to implement a new data security policy for a newly developed system. The most effective way to… The keyed answer is C — Provide comprehensive training on the policy and its importance.",
+      "B": "✗ Not the answer. 'Delegate responsibility for policy enforcement to IT security personnel' does not fit the scenario: A software company wants to implement a new data security policy for a newly developed system. The most effective way to… The keyed answer is C — Provide comprehensive training on the policy and its importance.",
+      "C": "✓ CORRECT. 'Provide comprehensive training on the policy and its importance' is the correct answer — it directly addresses the specific concept tested in this question in Security.",
+      "D": "✗ Not the answer. 'Distribute the policy document via email and require a signature for receipt' does not fit the scenario: A software company wants to implement a new data security policy for a newly developed system. The most effective way to… The keyed answer is C — Provide comprehensive training on the policy and its importance."
+    },
+    "studyTip": "Use Saltzer-Schroeder principles and CIA triad vocabulary to eliminate distractors.",
+    "source": "offline-deep"
+  },
+  "48": {
+    "overview": "This Data Structures question tests identifying worst-case asymptotic notation. Key concept: divide-and-conquer sorting algorithm splitting arrays recursively.\n\n✅ Answer: A — Merge Sort",
+    "options": {
+      "A": "✓ CORRECT. 'Merge Sort' matches the dominant growth rate of the expression. Identify the fastest-growing term, drop constants, and express in Big-O notation.",
+      "B": "✗ Not the answer. Bubble Sort does not match the dominant growth rate of the given expression.",
+      "C": "✗ Not the answer. Quick Sort does not match the dominant growth rate of the given expression.",
+      "D": "✗ Not the answer. Heap Sort does not match the dominant growth rate of the given expression."
+    },
+    "studyTip": "Write the algorithm on paper and count dominant terms or trace one small example.",
+    "source": "offline-deep"
+  },
+  "49": {
+    "overview": "49 Why learntng Artifiaal Intelligence is so Important in todays world? Eliminate distractors that confuse related Networking terms before picking C.\n\n✅ Answer: C — A1 is a rapidly evolving field. requinng continuous learning to stay",
+    "options": {
+      "A": "✗ Not the answer. 'Learn•ng A1 once ts enough to know all future developments. At technologies have no' does not fit the scenario: 49 Why learntng Artifiaal Intelligence is so Important in todays world? The keyed answer is C — A1 is a rapidly evolving field. requinng continuous learning to stay.",
+      "B": "✗ Not the answer. 'Impact on human' does not fit the scenario: 49 Why learntng Artifiaal Intelligence is so Important in todays world? The keyed answer is C — A1 is a rapidly evolving field. requinng continuous learning to stay.",
+      "C": "✓ CORRECT. 'A1 is a rapidly evolving field. requinng continuous learning to stay' is the correct answer — it directly addresses the specific concept tested in this question in Networking.",
+      "D": "✗ Not the answer. 'A1 has limited applications. so further leaming is necessary. Next' does not fit the scenario: 49 Why learntng Artifiaal Intelligence is so Important in todays world? The keyed answer is C — A1 is a rapidly evolving field. requinng continuous learning to stay."
+    },
+    "studyTip": "Map the scenario to OSI/TCP layers, protocol behavior, or topology properties.",
+    "source": "offline-deep"
+  },
+  "50": {
+    "overview": "Which one of the following is used for state management in web application development? Eliminate distractors that confuse related Web Development terms before picking B.\n\n✅ Answer: B — Redux",
+    "options": {
+      "A": "✗ Not the answer. 'React Router' does not fit the scenario: Which one of the following is used for state management in web application development? The keyed answer is B — Redux.",
+      "B": "✓ CORRECT. 'Redux' is the correct answer — it directly addresses the specific concept tested in this question in Web Development.",
+      "C": "✗ Not the answer. 'Axios' does not fit the scenario: Which one of the following is used for state management in web application development? The keyed answer is B — Redux.",
+      "D": "✗ Not the answer. 'Content Delivery Network' does not fit the scenario: Which one of the following is used for state management in web application development? The keyed answer is B — Redux."
+    },
+    "studyTip": "Check HTTP methods, CSS selectors, DOM APIs, and client-server roles.",
+    "source": "offline-deep"
+  },
+  "51": {
+    "overview": "Which of the following is the correct way to declare a function that takes two integers and returns their sum? Eliminate distractors that confuse related Fundamentals of Programming terms before picking D.\n\n✅ Answer: D — int sum(int a, int b) { return a + b; }",
+    "options": {
+      "A": "✗ Not the answer. 'sum(int a, int b) { return a + b; }' does not fit the scenario: Which of the following is the correct way to declare a function that takes two integers and returns their sum? The keyed answer is D — int sum(int a, int b) { return a + b; }.",
+      "B": "✗ Not the answer. 'int sum(a, b) { return a + b; }' does not fit the scenario: Which of the following is the correct way to declare a function that takes two integers and returns their sum? The keyed answer is D — int sum(int a, int b) { return a + b; }.",
+      "C": "✗ Not the answer. 'sum(int a, b) { return a + b; }' does not fit the scenario: Which of the following is the correct way to declare a function that takes two integers and returns their sum? The keyed answer is D — int sum(int a, int b) { return a + b; }.",
+      "D": "✓ CORRECT. 'int sum(int a, int b) { return a + b; }' is the correct answer — it directly addresses the specific concept tested in this question in Fundamentals of Programming."
+    },
+    "studyTip": "Review Fundamentals of Programming notes and redo this question in Review mode.",
+    "source": "offline-deep"
+  },
+  "52": {
+    "overview": "Which one of the following deadlock condition occurs when a process holding at least one resource is waiting to acquire additional resources held by other processes? The answer hinges on: process holds resources while waiting to acquire more — deadlock condition Eliminate distractors that confuse related Operating Systems terms before picking A.\n\n✅ Answer: A — Hold and Wait",
+    "options": {
+      "A": "✓ CORRECT. Hold and Wait: a process holds resources while waiting for additional ones — a deadlock condition, not mutual exclusion alone.",
+      "B": "✗ Not the answer. 'No Preemption' does not fit the scenario: Which one of the following deadlock condition occurs when a process holding at least one resource is waiting to acquire … The keyed answer is A — Hold and Wait.",
+      "C": "✗ Not the answer. Mutual exclusion means only one process may hold a non-sharable resource at a time — one of Coffman’s deadlock conditions.",
+      "D": "✗ Not the answer. 'Circular Wait' does not fit the scenario: Which one of the following deadlock condition occurs when a process holding at least one resource is waiting to acquire … The keyed answer is A — Hold and Wait."
+    },
+    "studyTip": "Relate to process states, scheduling, memory policies, or deadlock conditions.",
+    "source": "offline-deep"
+  },
+  "53": {
+    "overview": "Among the listed components of an Android application, which one helps declare permissions such as accessing sensitive data (GPS, Camera, and Storage)? Eliminate distractors that confuse related Android terms before picking D.\n\n✅ Answer: D — AndroidManifest.xml",
+    "options": {
+      "A": "✗ Not the answer. 'Views and ViewGroups' does not fit the scenario: Among the listed components of an Android application, which one helps declare permissions such as accessing sensitive d… The keyed answer is D — AndroidManifest.xml.",
+      "B": "✗ Not the answer. ContentProviders expose structured data to other apps via content URIs — not a reusable UI widget.",
+      "C": "✗ Not the answer. Intents are messaging objects for navigation and data passing — not a UI component type.",
+      "D": "✓ CORRECT. AndroidManifest.xml declares components, permissions, intent filters, and package metadata — required at install time; permissions like GPS/Camera are declared here."
+    },
+    "studyTip": "Activity/Intent/Service/Manifest rules are high-frequency on Ethiopian exit exams.",
+    "source": "offline-deep"
+  },
+  "54": {
+    "overview": "Software defect (bug) is behavior deviating from specified requirements — causes incorrect results or crashes. Features meeting requirements are not defects.\n\n✅ Answer: D — Long method length",
+    "options": {
+      "A": "✗ Not the answer. 'Frequent code reviews' does not fit the scenario: Which one of the following is a code smell in software? The keyed answer is D — Long method length.",
+      "B": "✗ Not the answer. \"A bug that causes incorrect behavior\" is correct because failure to meet specification — defect.",
+      "C": "✗ Not the answer. 'High code test coverage' does not fit the scenario: Which one of the following is a code smell in software? The keyed answer is D — Long method length.",
+      "D": "✓ CORRECT. 'Long method length' is the correct answer — it directly addresses the specific concept tested in this question in Software Engineering."
+    },
+    "studyTip": "Defect = gap between expected (spec) and actual (behavior).",
+    "source": "offline-deep"
+  },
+  "55": {
+    "overview": "In which of the following topologies does a central server provide connectivity for all pairs of nodes willing to communicate with each other? Eliminate distractors that confuse related Networking terms before picking C.\n\n✅ Answer: C — Star",
+    "options": {
+      "A": "✗ Not the answer. 'Bus' does not fit the scenario: In which of the following topologies does a central server provide connectivity for all pairs of nodes willing to commun… The keyed answer is C — Star.",
+      "B": "✗ Not the answer. 'Mesh' does not fit the scenario: In which of the following topologies does a central server provide connectivity for all pairs of nodes willing to commun… The keyed answer is C — Star.",
+      "C": "✓ CORRECT. 'Star' is the correct answer — it directly addresses the specific concept tested in this question in Networking.",
+      "D": "✗ Not the answer. 'Ring' does not fit the scenario: In which of the following topologies does a central server provide connectivity for all pairs of nodes willing to commun… The keyed answer is C — Star."
+    },
+    "studyTip": "Map the scenario to OSI/TCP layers, protocol behavior, or topology properties.",
+    "source": "offline-deep"
+  },
+  "56": {
+    "overview": "Write a program to find the sum of the first n natural numbers (1 to n). What is the correct formula to calculate this sum? Eliminate distractors that confuse related Fundamentals of Programming terms before picking A.\n\n✅ Answer: A — n * (n + 1) / 2",
+    "options": {
+      "A": "✓ CORRECT. 'n * (n + 1) / 2' is the correct answer — it directly addresses the specific concept tested in this question in Fundamentals of Programming.",
+      "B": "✗ Not the answer. 'n * (n + 2) / 2' does not fit the scenario: Write a program to find the sum of the first n natural numbers (1 to n). What is the correct formula to calculate this s… The keyed answer is A — n * (n + 1) / 2.",
+      "C": "✗ Not the answer. 'n * (n - 1) / 2' does not fit the scenario: Write a program to find the sum of the first n natural numbers (1 to n). What is the correct formula to calculate this s… The keyed answer is A — n * (n + 1) / 2.",
+      "D": "✗ Not the answer. 'n + (n - 1) / 2' does not fit the scenario: Write a program to find the sum of the first n natural numbers (1 to n). What is the correct formula to calculate this s… The keyed answer is A — n * (n + 1) / 2."
+    },
+    "studyTip": "Review Fundamentals of Programming notes and redo this question in Review mode.",
+    "source": "offline-deep"
+  },
+  "57": {
+    "overview": "Which of the following is not a user-defined data type? Eliminate distractors that confuse related C++ terms before picking D.\n\n✅ Answer: D — Integer",
+    "options": {
+      "A": "✗ Not the answer. 'Structure' does not fit the scenario: Which of the following is not a user-defined data type? The keyed answer is D — Integer.",
+      "B": "✗ Not the answer. 'Union' does not fit the scenario: Which of the following is not a user-defined data type? The keyed answer is D — Integer.",
+      "C": "✗ Not the answer. 'Enumeration' does not fit the scenario: Which of the following is not a user-defined data type? The keyed answer is D — Integer.",
+      "D": "✓ CORRECT. 'Integer' is the correct answer — it directly addresses the specific concept tested in this question in C++."
+    },
+    "studyTip": "Trace small code fragments and validate syntax against C++ compilation rules.",
+    "source": "offline-deep"
+  },
+  "58": {
+    "overview": "Which of the following is correct regarding the difference between breadth-first search and depth-first search? Eliminate distractors that confuse related AI / ML terms before picking B.\n\n✅ Answer: B — Breadth-first search is slower than depth-first search",
+    "options": {
+      "A": "✗ Not the answer. 'Breadth-first search requires less memory compared to depth-first search' does not fit the scenario: Which of the following is correct regarding the difference between breadth-first search and depth-first search? The keyed answer is B — Breadth-first search is slower than depth-first search.",
+      "B": "✓ CORRECT. 'Breadth-first search is slower than depth-first search' is the correct answer — it directly addresses the specific concept tested in this question in AI / ML.",
+      "C": "✗ Not the answer. 'Breadth-first search is faster than depth-first search' does not fit the scenario: Which of the following is correct regarding the difference between breadth-first search and depth-first search? The keyed answer is B — Breadth-first search is slower than depth-first search.",
+      "D": "✗ Not the answer. 'Depth-first search is useful in finding shortest path, while breadth-first search is not' does not fit the scenario: Which of the following is correct regarding the difference between breadth-first search and depth-first search? The keyed answer is B — Breadth-first search is slower than depth-first search."
+    },
+    "studyTip": "Classify learning type or search strategy (informed vs uninformed, optimal vs greedy).",
+    "source": "offline-deep"
+  },
+  "59": {
+    "overview": "What is the research-oriented software development The correct choice is D — Technology-related problems.\n\n✅ Answer: D — Improving internal code structure without changing external behavior",
+    "options": {
+      "A": "✗ Not the answer. 'Process-related problems' means program in execution with its own address space. That answers a different kind of question. Here, the stem points to 'Technology-related problems' instead.",
+      "B": "✗ Not the answer. 'Enhancing the external user interface' means Java contract of abstract methods — implemented by classes. That answers a different kind of question. Here, the stem points to 'Improving internal code structure without changing external behavior' instead.",
+      "C": "✗ Not the answer. 'Adding new functionalities' means C++ operator that allocates memory on the heap. That answers a different kind of question. Here, the stem points to 'Improving internal code structure without changing external behavior' instead.",
+      "D": "✓ CORRECT. Refactoring improves internal structure without changing external behavior — not adding features or rewriting for performance alone."
+    },
+    "studyTip": "SRS, requirements, maintenance types, and SDLC phases — match exact definitions.",
+    "source": "offline-deep"
+  },
+  "60": {
+    "overview": "Which of the following statement is false Key concept: program in execution with its own address space.\n\n✅ Answer: B — Private methods cannot be overridden in subclasses",
+    "options": {
+      "A": "✗ Not the answer. 'An overriding method can declare checked exceptions not thrown by the method it is overriding' does not fit the scenario: Which one of the following statements is TRUE? The keyed answer is B — Private methods cannot be overridden in subclasses.",
+      "B": "✓ CORRECT. 'All of the above' is only correct when EVERY other option is true. Verify each choice A, B, C individually — if any is false, 'All' is wrong. Here, 'Disjunctive selection conditions are much harder to process and optimize than conjunctive selection conditions' is the specific correct answer.",
+      "C": "✗ Not the answer. 'The parameter list of an overriding method can be a subset of the overridden method' does not fit the scenario: Which one of the following statements is TRUE? The keyed answer is B — Private methods cannot be overridden in subclasses.",
+      "D": "✗ Not the answer. 'A subclass can override any method in a superclass' does not fit the scenario: Which one of the following statements is TRUE? The keyed answer is B — Private methods cannot be overridden in subclasses."
+    },
+    "studyTip": "Classify learning type or search strategy (informed vs uninformed, optimal vs greedy).",
+    "source": "offline-deep"
+  },
+  "61": {
+    "overview": "Which method is used in JavaScript to change the content of an HTML element dynamically? The answer hinges on: DOM property to read/write HTML inside an element Eliminate distractors that confuse related Web Development terms before picking C.\n\n✅ Answer: C — document.getElementById().innerHTML",
+    "options": {
+      "A": "✗ Not the answer. 'document.write()' does not fit the scenario: Which method is used in JavaScript to change the content of an HTML element dynamically? The keyed answer is C — document.getElementById().innerHTML.",
+      "B": "✗ Not the answer. 'window.alert()' does not fit the scenario: Which method is used in JavaScript to change the content of an HTML element dynamically? The keyed answer is C — document.getElementById().innerHTML.",
+      "C": "✓ CORRECT. element.innerHTML reads/writes the HTML content inside a DOM node — the standard way to change page content dynamically.",
+      "D": "✗ Not the answer. 'console.log()' does not fit the scenario: Which method is used in JavaScript to change the content of an HTML element dynamically? The keyed answer is C — document.getElementById().innerHTML."
+    },
+    "studyTip": "Check HTTP methods, CSS selectors, DOM APIs, and client-server roles.",
+    "source": "offline-deep"
+  },
+  "62": {
+    "overview": "Which of the following models is NOT considered a state-of-the-art software process model? Eliminate distractors that confuse related Software Engineering terms before picking B.\n\n✅ Answer: B — Waterfall model",
+    "options": {
+      "A": "✗ Not the answer. 'Extreme Programming (XP)' does not fit the scenario: Which of the following models is NOT considered a state-of-the-art software process model? The keyed answer is B — Waterfall model.",
+      "B": "✓ CORRECT. 'Waterfall model' is the correct answer — it directly addresses the specific concept tested in this question in Software Engineering.",
+      "C": "✗ Not the answer. 'Agile Model' does not fit the scenario: Which of the following models is NOT considered a state-of-the-art software process model? The keyed answer is B — Waterfall model.",
+      "D": "✗ Not the answer. 'Spiral model' does not fit the scenario: Which of the following models is NOT considered a state-of-the-art software process model? The keyed answer is B — Waterfall model."
+    },
+    "studyTip": "SRS, requirements, maintenance types, and SDLC phases — match exact definitions.",
+    "source": "offline-deep"
+  },
+  "63": {
+    "overview": "Which of the following project management tools is used for scope management? Eliminate distractors that confuse related Project Management terms before picking D.\n\n✅ Answer: D — Work breakdown structures",
+    "options": {
+      "A": "✗ Not the answer. 'Critical path analysis' does not fit the scenario: Which of the following project management tools is used for scope management? The keyed answer is D — Work breakdown structures.",
+      "B": "✗ Not the answer. 'Gantt Chart' does not fit the scenario: Which of the following project management tools is used for scope management? The keyed answer is D — Work breakdown structures.",
+      "C": "✗ Not the answer. 'Net present value' does not fit the scenario: Which of the following project management tools is used for scope management? The keyed answer is D — Work breakdown structures.",
+      "D": "✓ CORRECT. 'Work breakdown structures' is the correct answer — it directly addresses the specific concept tested in this question in Project Management."
+    },
+    "studyTip": "Identify lifecycle model, risk strategy, or WBS/critical-path terminology.",
+    "source": "offline-deep"
+  },
+  "64": {
+    "overview": "Which of the following activities is not conducted in software planning? Eliminate distractors that confuse related Project Management terms before picking B.\n\n✅ Answer: B — Managing Stage Boundaries",
+    "options": {
+      "A": "✗ Not the answer. 'Organizational and Resource Planning' does not fit the scenario: Which of the following activities is not conducted in software planning? The keyed answer is B — Managing Stage Boundaries.",
+      "B": "✓ CORRECT. 'Managing Stage Boundaries' is the correct answer — it directly addresses the specific concept tested in this question in Project Management.",
+      "C": "✗ Not the answer. 'Cost Estimation and Budgeting' does not fit the scenario: Which of the following activities is not conducted in software planning? The keyed answer is B — Managing Stage Boundaries.",
+      "D": "✗ Not the answer. 'Project Plan Development and Execution' does not fit the scenario: Which of the following activities is not conducted in software planning? The keyed answer is B — Managing Stage Boundaries."
+    },
+    "studyTip": "Identify lifecycle model, risk strategy, or WBS/critical-path terminology.",
+    "source": "offline-deep"
+  },
+  "65": {
+    "overview": "This Project Management question tests which document contains detailed work package descriptions. The correct choice is B — Create a hierarchical breakdown of tasks based on project deliverables.\n\n✅ Answer: B — Create a hierarchical breakdown of tasks based on project deliverables",
+    "options": {
+      "A": "✗ Not the answer. 'Focus only on the coding phase while ignoring testing and deployment' does not fit the scenario: Given a complex software development project, how would you design a Work Breakdown Structure (WBS) to ensure efficient … The keyed answer is B — Create a hierarchical breakdown of tasks based on project deliverables.",
+      "B": "✓ CORRECT. A WBS decomposes project deliverables into hierarchical work packages — standard PM practice for task allocation.",
+      "C": "✗ Not the answer. Effective WBS follows deliverable structure, not arbitrary splits or one-team ownership of everything.",
+      "D": "✗ Not the answer. Effective WBS follows deliverable structure, not arbitrary splits or one-team ownership of everything."
+    },
+    "studyTip": "Identify lifecycle model, risk strategy, or WBS/critical-path terminology.",
+    "source": "offline-deep"
+  },
+  "66": {
+    "overview": "question Prevvous page 2:56:55 Which one of the following is the purpose of AJAX in web development? Eliminate distractors that confuse related Web Development terms before picking C.\n\n✅ Answer: C — To make asynchronous requests to the server and uvxiate the page dynamically",
+    "options": {
+      "A": "✗ Not the answer. 'To handle server-side database interactions' does not fit the scenario: question Prevvous page 2:56:55 Which one of the following is the purpose of AJAX in web development? The keyed answer is C — To make asynchronous requests to the server and uvxiate the page dynamically.",
+      "B": "✗ Not the answer. 'To create static HTML pages' does not fit the scenario: question Prevvous page 2:56:55 Which one of the following is the purpose of AJAX in web development? The keyed answer is C — To make asynchronous requests to the server and uvxiate the page dynamically.",
+      "C": "✓ CORRECT. 'To make asynchronous requests to the server and uvxiate the page dynamically' is the correct answer — it directly addresses the specific concept tested in this question in Web Development.",
+      "D": "✗ Not the answer. 'To apply styles to HTML elements Next p' does not fit the scenario: question Prevvous page 2:56:55 Which one of the following is the purpose of AJAX in web development? The keyed answer is C — To make asynchronous requests to the server and uvxiate the page dynamically."
+    },
+    "studyTip": "Check HTTP methods, CSS selectors, DOM APIs, and client-server roles.",
+    "source": "offline-deep"
+  },
+  "67": {
+    "overview": "Not Muee•d Out Of quet»on Pre•nous page - Which one of the following incident requires immediate action (e.g., system failure)? Eliminate distractors that confuse related General terms before picking D.\n\n✅ Answer: D — Cnucal",
+    "options": {
+      "A": "✗ Not the answer. 'High' does not fit the scenario: Not Muee•d Out Of quet»on Pre•nous page - Which one of the following incident requires immediate action (e.g., system fa… The keyed answer is D — Cnucal.",
+      "B": "✗ Not the answer. 'Low' does not fit the scenario: Not Muee•d Out Of quet»on Pre•nous page - Which one of the following incident requires immediate action (e.g., system fa… The keyed answer is D — Cnucal.",
+      "C": "✗ Not the answer. 'Medium' does not fit the scenario: Not Muee•d Out Of quet»on Pre•nous page - Which one of the following incident requires immediate action (e.g., system fa… The keyed answer is D — Cnucal.",
+      "D": "✓ CORRECT. 'Cnucal' is the correct answer — it directly addresses the specific concept tested in this question in General."
+    },
+    "studyTip": "DFD symbols, structured analysis steps, and certification standards (DO-178B, UL 1998).",
+    "source": "offline-deep"
+  },
+  "68": {
+    "overview": "Which one of the following types of firewall tracks active connections and allows only legitimate traffic? The answer hinges on: firewall tracking connection state for legitimate session packets Eliminate distractors that confuse related Security terms before picking C.\n\n✅ Answer: C — Stateful Inspection Firewall",
+    "options": {
+      "A": "✗ Not the answer. 'Proxy Firewall' does not fit the scenario: Which one of the following types of firewall tracks active connections and allows only legitimate traffic? The keyed answer is C — Stateful Inspection Firewall.",
+      "B": "✗ Not the answer. 'Cloud-Based Firewall' does not fit the scenario: Which one of the following types of firewall tracks active connections and allows only legitimate traffic? The keyed answer is C — Stateful Inspection Firewall.",
+      "C": "✓ CORRECT. Stateful inspection tracks connection state and allows only packets belonging to legitimate established sessions.",
+      "D": "✗ Not the answer. 'Packet Filtering Firewall' does not fit the scenario: Which one of the following types of firewall tracks active connections and allows only legitimate traffic? The keyed answer is C — Stateful Inspection Firewall."
+    },
+    "studyTip": "Use Saltzer-Schroeder principles and CIA triad vocabulary to eliminate distractors.",
+    "source": "offline-deep"
+  },
+  "69": {
+    "overview": "Tiff Question 69 What is the primary role of CSS in web development? Eliminate distractors that confuse related Android terms before picking B.\n\n✅ Answer: B — To style and layout the webpage elements",
+    "options": {
+      "A": "✗ Not the answer. 'To structure the webpage content' does not fit the scenario: Tiff Question 69 What is the primary role of CSS in web development? The keyed answer is B — To style and layout the webpage elements.",
+      "B": "✓ CORRECT. 'To style and layout the webpage elements' is the correct answer — it directly addresses the specific concept tested in this question in Android.",
+      "C": "✗ Not the answer. Activities represent full screens with their own lifecycle — broader than a reusable UI portion inside one screen.",
+      "D": "✗ Not the answer. 'To interact with the server' does not fit the scenario: Tiff Question 69 What is the primary role of CSS in web development? The keyed answer is B — To style and layout the webpage elements."
+    },
+    "studyTip": "Activity/Intent/Service/Manifest rules are high-frequency on Ethiopian exit exams.",
+    "source": "offline-deep"
+  },
+  "70": {
+    "overview": "What is the first step in developing a medium-scale application that solves real-world problems? Eliminate distractors that confuse related Software Engineering terms before picking D.\n\n✅ Answer: D — Analyzing requirements and designing system architecture",
+    "options": {
+      "A": "✗ Not the answer. 'Writing code immediately' does not fit the scenario: What is the first step in developing a medium-scale application that solves real-world problems? The keyed answer is D — Analyzing requirements and designing system architecture.",
+      "B": "✗ Not the answer. 'Choosing a programming language randomly' does not fit the scenario: What is the first step in developing a medium-scale application that solves real-world problems? The keyed answer is D — Analyzing requirements and designing system architecture.",
+      "C": "✗ Not the answer. 'Copying code from online sources' does not fit the scenario: What is the first step in developing a medium-scale application that solves real-world problems? The keyed answer is D — Analyzing requirements and designing system architecture.",
+      "D": "✓ CORRECT. 'Analyzing requirements and designing system architecture' is the correct answer — it directly addresses the specific concept tested in this question in Software Engineering."
+    },
+    "studyTip": "SRS, requirements, maintenance types, and SDLC phases — match exact definitions.",
+    "source": "offline-deep"
+  },
+  "71": {
+    "overview": "This Security question tests definition of a vulnerability. Key concept: Cross-Site Scripting — injecting scripts via unsanitized user input.\n\n✅ Answer: B — Cross-Site Scripting (XSS)",
+    "options": {
+      "A": "✗ Not the answer. 'Insecure Deserialization' does not fit the scenario: Which one of the following vulnerabilities injects JavaScript to steal user data? The keyed answer is B — Cross-Site Scripting (XSS).",
+      "B": "✓ CORRECT. XSS injects malicious JavaScript into pages viewed by other users — can steal session cookies and user data.",
+      "C": "✗ Not the answer. 'Spyware' does not fit the scenario: Which one of the following vulnerabilities injects JavaScript to steal user data? The keyed answer is B — Cross-Site Scripting (XSS).",
+      "D": "✗ Not the answer. 'Buffer Overflow' does not fit the scenario: Which one of the following vulnerabilities injects JavaScript to steal user data? The keyed answer is B — Cross-Site Scripting (XSS)."
+    },
+    "studyTip": "Use Saltzer-Schroeder principles and CIA triad vocabulary to eliminate distractors.",
+    "source": "offline-deep"
+  },
+  "72": {
+    "overview": "Suppose you are developing an application that involves real-time data analysis and requires efficient insertion and deletion of data. Which of the following data structures would be best suited for this application?\n\n✅ Answer: D — Hash table",
+    "options": {
+      "A": "✗ Not the answer. A stack is a linear LIFO structure — last in, first out; not hierarchical like a tree.",
+      "B": "✗ Not the answer. A queue is a linear FIFO structure — elements enter at rear and leave at front; not hierarchical like a tree.",
+      "C": "✗ Not the answer. 'Binary tree' means a hierarchical structure with parent-child nodes and one root. That answers a different kind of question. Here, the stem points to 'Hash table' instead.",
+      "D": "✓ CORRECT. Hash tables offer O(1) average lookup/insert/delete — ideal for real-time data with frequent updates."
+    },
+    "studyTip": "Write the algorithm on paper and count dominant terms or trace one small example.",
+    "source": "offline-deep"
+  },
+  "73": {
+    "overview": "Ethiopian Airlines wants to optimize flight scheduling to minimize delays. Which algorithm design approach is BEST suited for this task? The answer hinges on: nodes with arbitrary connections, may contain cycles Eliminate distractors that confuse related AI / ML terms before picking C.\n\n✅ Answer: C — Designing a graph-based algorithm to model flight connections and dependencies",
+    "options": {
+      "A": "✗ Not the answer. 'Sorting flight data by departure time' does not fit the scenario: Ethiopian Airlines wants to optimize flight scheduling to minimize delays. Which algorithm design approach is BEST suite… The keyed answer is C — Designing a graph-based algorithm to model flight connections and dependencies.",
+      "B": "✗ Not the answer. 'Implementing a simple linear search for flight numbers' does not fit the scenario: Ethiopian Airlines wants to optimize flight scheduling to minimize delays. Which algorithm design approach is BEST suite… The keyed answer is C — Designing a graph-based algorithm to model flight connections and dependencies.",
+      "C": "✓ CORRECT. 'Designing a graph-based algorithm to model flight connections and dependencies' is correct because it matches the specific concept tested in this question. Definition: nodes with arbitrary connections, may contain cycles.",
+      "D": "✗ Not the answer. 'Randomly assigning flight departure times' does not fit the scenario: Ethiopian Airlines wants to optimize flight scheduling to minimize delays. Which algorithm design approach is BEST suite… The keyed answer is C — Designing a graph-based algorithm to model flight connections and dependencies."
+    },
+    "studyTip": "Classify learning type or search strategy (informed vs uninformed, optimal vs greedy).",
+    "source": "offline-deep"
+  },
+  "74": {
+    "overview": "Which of the following software architectural styles is typically used in systems where high responsiveness and real-time processing are needed? The answer hinges on: components react to events asynchronously for responsiveness Eliminate distractors that confuse related Software Architecture terms before picking C.\n\n✅ Answer: C — Event-Driven Architecture",
+    "options": {
+      "A": "✗ Not the answer. 'Monolithic Architecture' does not fit the scenario: Which of the following software architectural styles is typically used in systems where high responsiveness and real-tim… The keyed answer is C — Event-Driven Architecture.",
+      "B": "✗ Not the answer. 'Microservices Architecture' does not fit the scenario: Which of the following software architectural styles is typically used in systems where high responsiveness and real-tim… The keyed answer is C — Event-Driven Architecture.",
+      "C": "✓ CORRECT. 'Event-Driven Architecture' is correct because it matches the specific concept tested in this question. Definition: components react to events asynchronously for responsiveness.",
+      "D": "✗ Not the answer. 'Serverless Architecture' does not fit the scenario: Which of the following software architectural styles is typically used in systems where high responsiveness and real-tim… The keyed answer is C — Event-Driven Architecture."
+    },
+    "studyTip": "Think quality attributes and ATAM scenarios — not team size or log files.",
+    "source": "offline-deep"
+  },
+  "75": {
+    "overview": "Operating systems schedule processes, manage memory and I/O, and provide system calls. Compilers translate HLL to machine code—that is a language tool chain function, not a core OS duty. Answer B.\n\n✅ Answer: D — Synchronization",
+    "options": {
+      "A": "✗ Not the answer. Running utilities is part of providing execution environment.",
+      "B": "✗ Not the answer. Compilation is typically done by gcc/javac, not the kernel itself.",
+      "C": "✗ Not the answer. Resource management (CPU, memory, devices) is central OS role.",
+      "D": "✓ CORRECT. Convenience for users (shell, filesystem) is an OS goal."
+    },
+    "studyTip": "NOT an OS function: compiling high-level languages (B).",
+    "source": "offline-deep"
+  },
+  "76": {
+    "overview": "Which one of the following is a security concern in mobile networks where attackers steal session cookies? Eliminate distractors that confuse related Security terms before picking C.\n\n✅ Answer: C — Session hijacking",
+    "options": {
+      "A": "✗ Not the answer. 'Man-in-the-Middle (MitM) attacks' does not fit the scenario: Which one of the following is a security concern in mobile networks where attackers steal session cookies? The keyed answer is C — Session hijacking.",
+      "B": "✗ Not the answer. 'SQL Injection' means attack inserting malicious SQL through unescaped user input. That answers a different kind of question. Here, the stem points to 'Session hijacking' instead.",
+      "C": "✓ CORRECT. 'Session hijacking' is the correct answer — it directly addresses the specific concept tested in this question in Security.",
+      "D": "✗ Not the answer. 'Ransomware' does not fit the scenario: Which one of the following is a security concern in mobile networks where attackers steal session cookies? The keyed answer is C — Session hijacking."
+    },
+    "studyTip": "Use Saltzer-Schroeder principles and CIA triad vocabulary to eliminate distractors.",
+    "source": "offline-deep"
+  },
+  "77": {
+    "overview": "Software defect (bug) is behavior deviating from specified requirements — causes incorrect results or crashes. Features meeting requirements are not defects.\n\n✅ Answer: B — Null reference error in a function",
+    "options": {
+      "A": "✗ Not the answer. 'Repeated code segments in the program' does not fit the scenario: Which one of the following is a type of software defect? The keyed answer is B — Null reference error in a function.",
+      "B": "✓ CORRECT. \"A bug that causes incorrect behavior\" is correct because failure to meet specification — defect.",
+      "C": "✗ Not the answer. 'An unhandled exception in the code' does not fit the scenario: Which one of the following is a type of software defect? The keyed answer is B — Null reference error in a function.",
+      "D": "✗ Not the answer. 'Performance degradation due to excessive memory usage' does not fit the scenario: Which one of the following is a type of software defect? The keyed answer is B — Null reference error in a function."
+    },
+    "studyTip": "Defect = gap between expected (spec) and actual (behavior).",
+    "source": "offline-deep"
+  },
+  "78": {
+    "overview": "Which one of the following core objectives of cryptography verifies the identity of communicating parties? Eliminate distractors that confuse related Security terms before picking B.\n\n✅ Answer: B — Authentication",
+    "options": {
+      "A": "✗ Not the answer. 'Integrity' does not fit the scenario: Which one of the following core objectives of cryptography verifies the identity of communicating parties? The keyed answer is B — Authentication.",
+      "B": "✓ CORRECT. 'Authentication' is the correct answer — it directly addresses the specific concept tested in this question in Security.",
+      "C": "✗ Not the answer. 'Confidentiality' does not fit the scenario: Which one of the following core objectives of cryptography verifies the identity of communicating parties? The keyed answer is B — Authentication.",
+      "D": "✗ Not the answer. 'Non-repudiation' does not fit the scenario: Which one of the following core objectives of cryptography verifies the identity of communicating parties? The keyed answer is B — Authentication."
+    },
+    "studyTip": "Use Saltzer-Schroeder principles and CIA triad vocabulary to eliminate distractors.",
+    "source": "offline-deep"
+  },
+  "79": {
+    "overview": "Which design pattern is used when the algorithm for creating a complex object should be independent of the parts that make up the object and how they are assembled? The answer hinges on: constructs complex objects step by step, separating construction from representation Eliminate distractors that confuse related Software Architecture terms before picking B.\n\n✅ Answer: B — Builder pattern",
+    "options": {
+      "A": "✗ Not the answer. 'Singleton pattern' does not fit the scenario: Which design pattern is used when the algorithm for creating a complex object should be independent of the parts that ma… The keyed answer is B — Builder pattern.",
+      "B": "✓ CORRECT. Builder separates construction of a complex object from its representation — assemble parts step by step independently.",
+      "C": "✗ Not the answer. 'Factory Method pattern' does not fit the scenario: Which design pattern is used when the algorithm for creating a complex object should be independent of the parts that ma… The keyed answer is B — Builder pattern.",
+      "D": "✗ Not the answer. 'Prototype pattern' does not fit the scenario: Which design pattern is used when the algorithm for creating a complex object should be independent of the parts that ma… The keyed answer is B — Builder pattern."
+    },
+    "studyTip": "Think quality attributes and ATAM scenarios — not team size or log files.",
+    "source": "offline-deep"
+  },
+  "80": {
+    "overview": "Which architectural style is most suitable for a large-scale software system with independent, scalable components? Eliminate distractors that confuse related Software Architecture terms before picking A.\n\n✅ Answer: A — Microservices Architecture",
+    "options": {
+      "A": "✓ CORRECT. 'Microservices Architecture' is the correct answer — it directly addresses the specific concept tested in this question in Software Architecture.",
+      "B": "✗ Not the answer. 'Layered Architecture' means separation into layers (presentation, business, data) for modifiability. That answers a different kind of question. Here, the stem points to 'Microservices Architecture' instead.",
+      "C": "✗ Not the answer. 'Client-Server Architecture' does not fit the scenario: Which architectural style is most suitable for a large-scale software system with independent, scalable components? The keyed answer is A — Microservices Architecture.",
+      "D": "✗ Not the answer. 'Monolithic Architecture' does not fit the scenario: Which architectural style is most suitable for a large-scale software system with independent, scalable components? The keyed answer is A — Microservices Architecture."
+    },
+    "studyTip": "Think quality attributes and ATAM scenarios — not team size or log files.",
+    "source": "offline-deep"
+  },
+  "82": {
+    "overview": "What is the primary purpose of an Integrated Development Environment (IDE)? Eliminate distractors that confuse related Software Engineering terms before picking A.\n\n✅ Answer: A — To write and debug code",
+    "options": {
+      "A": "✓ CORRECT. 'To write and debug code' is the correct answer — it directly addresses the specific concept tested in this question in Software Engineering.",
+      "B": "✗ Not the answer. 'To run mobile applications' does not fit the scenario: What is the primary purpose of an Integrated Development Environment (IDE)? The keyed answer is A — To write and debug code.",
+      "C": "✗ Not the answer. 'To store user data' does not fit the scenario: What is the primary purpose of an Integrated Development Environment (IDE)? The keyed answer is A — To write and debug code.",
+      "D": "✗ Not the answer. 'To manage hardware resources' does not fit the scenario: What is the primary purpose of an Integrated Development Environment (IDE)? The keyed answer is A — To write and debug code."
+    },
+    "studyTip": "SRS, requirements, maintenance types, and SDLC phases — match exact definitions.",
+    "source": "offline-deep"
+  },
+  "83": {
+    "overview": "out of question reuous page Software engineering principles like KISS (Keep It Simple, Stupid) focus on achieving which one of the following? Eliminate distractors that confuse related Java / OOP terms before picking B.\n\n✅ Answer: B — Improved code maintainability and reusability",
+    "options": {
+      "A": "✗ Not the answer. 'Faster development speed at the cost of quality' does not fit the scenario: out of question reuous page Software engineering principles like KISS (Keep It Simple, Stupid) focus on achieving which … The keyed answer is B — Improved code maintainability and reusability.",
+      "B": "✓ CORRECT. 'Improved code maintainability and reusability' is the correct answer — it directly addresses the specific concept tested in this question in Java / OOP.",
+      "C": "✗ Not the answer. Increased software complexity does not match the dominant growth rate of the given expression.",
+      "D": "✗ Not the answer. 'More visually appealing user interfaces' does not fit the scenario: out of question reuous page Software engineering principles like KISS (Keep It Simple, Stupid) focus on achieving which … The keyed answer is B — Improved code maintainability and reusability."
+    },
+    "studyTip": "Trace code on paper. Interfaces cannot be instantiated; constructors match class name and types.",
+    "source": "offline-deep"
+  },
+  "84": {
+    "overview": "Which of the followtng sorting algonthms follows the DIVIDE and CONQUER approach? The answer hinges on: divide-and-conquer sorting algorithm splitting arrays recursively Eliminate distractors that confuse related Data Structures terms before picking A.\n\n✅ Answer: A — Merge Sort Bubble Sort",
+    "options": {
+      "A": "✓ CORRECT. 'Merge Sort Bubble Sort' is correct because it matches the specific concept tested in this question. Definition: divide-and-conquer sorting algorithm splitting arrays recursively.",
+      "B": "✗ Not the answer. 'Selection Sort' does not fit the scenario: Which of the followtng sorting algonthms follows the DIVIDE and CONQUER approach? The keyed answer is A — Merge Sort Bubble Sort.",
+      "C": "✗ Not the answer. 'Insertion' does not fit the scenario: Which of the followtng sorting algonthms follows the DIVIDE and CONQUER approach? The keyed answer is A — Merge Sort Bubble Sort.",
+      "D": "✗ Not the answer. 'Sort 29:39 Next' does not fit the scenario: Which of the followtng sorting algonthms follows the DIVIDE and CONQUER approach? The keyed answer is A — Merge Sort Bubble Sort."
+    },
+    "studyTip": "Write the algorithm on paper and count dominant terms or trace one small example.",
+    "source": "offline-deep"
+  },
+  "85": {
+    "overview": "i 85 xxs page Which one of the following Application Layer Protocol used in Web Development Enables real-time, two-way communication between client and server? The answer hinges on: application protocol enabling full-duplex real-time client-server communication Eliminate distractors that confuse related Networking terms before picking B.\n\n✅ Answer: B — WebSocket",
+    "options": {
+      "A": "✗ Not the answer. 'a. b. c REST' does not fit the scenario: i 85 xxs page Which one of the following Application Layer Protocol used in Web Development Enables real-time, two-way c… The keyed answer is B — WebSocket.",
+      "B": "✓ CORRECT. 'WebSocket' is correct because it matches the specific concept tested in this question. Definition: application protocol enabling full-duplex real-time client-server communication.",
+      "C": "✗ Not the answer. 'GraphQL' does not fit the scenario: i 85 xxs page Which one of the following Application Layer Protocol used in Web Development Enables real-time, two-way c… The keyed answer is B — WebSocket.",
+      "D": "✗ Not the answer. 'HTTP Next' refers to Hypertext Transfer Protocol — request/response web protocol. The question asks about the specific concept tested in this question. That requires 'WebSocket' — application protocol enabling full-duplex real-time client-server communication. These are different concepts; do not confuse them on the exam."
+    },
+    "studyTip": "Map the scenario to OSI/TCP layers, protocol behavior, or topology properties.",
+    "source": "offline-deep"
+  },
+  "86": {
+    "overview": "Which one of the following types of machine learning discovers patterns from unlabeled data? The answer hinges on: finding patterns in unlabeled data Eliminate distractors that confuse related AI / ML terms before picking A.\n\n✅ Answer: A — Unsupervised Learning",
+    "options": {
+      "A": "✓ CORRECT. Supervised learning trains on labeled input–output pairs — classification and regression are supervised tasks.",
+      "B": "✗ Not the answer. 'Reinforcement Learning' does not fit the scenario: Which one of the following types of machine learning discovers patterns from unlabeled data? The keyed answer is A — Unsupervised Learning.",
+      "C": "✗ Not the answer. Supervised learning trains on labeled input–output pairs — classification and regression are supervised tasks.",
+      "D": "✗ Not the answer. Supervised learning trains on labeled input–output pairs — classification and regression are supervised tasks."
+    },
+    "studyTip": "Classify learning type or search strategy (informed vs uninformed, optimal vs greedy).",
+    "source": "offline-deep"
+  },
+  "87": {
+    "overview": "Which metric measures the time between two consecutive failures in a system? Eliminate distractors that confuse related Software Testing terms before picking D.\n\n✅ Answer: D — Mean Time Between Failures",
+    "options": {
+      "A": "✗ Not the answer. 'Defect Density' does not fit the scenario: Which metric measures the time between two consecutive failures in a system? The keyed answer is D — Mean Time Between Failures.",
+      "B": "✗ Not the answer. 'Mean Time to Repair' does not fit the scenario: Which metric measures the time between two consecutive failures in a system? The keyed answer is D — Mean Time Between Failures.",
+      "C": "✗ Not the answer. 'Test Coverage' does not fit the scenario: Which metric measures the time between two consecutive failures in a system? The keyed answer is D — Mean Time Between Failures.",
+      "D": "✓ CORRECT. 'Mean Time Between Failures' is the correct answer — it directly addresses the specific concept tested in this question in Software Testing."
+    },
+    "studyTip": "Match the question to test levels, coverage types, or traceability definitions.",
+    "source": "offline-deep"
+  },
+  "88": {
+    "overview": "A software developer has completed coding a new feature for a project. Before integrating it with the main codebase, what is the MOST important step to ensure quality? Eliminate distractors that confuse related Software Engineering terms before picking A.\n\n✅ Answer: A — Reviewing the code for potential errors and adherence to coding standards",
+    "options": {
+      "A": "✓ CORRECT. 'Reviewing the code for potential errors and adherence to coding standards' is the correct answer — it directly addresses the specific concept tested in this question in Software Engineering.",
+      "B": "✗ Not the answer. 'Writing extensive user documentation for the new feature' means C++ operator that allocates memory on the heap. That answers a different kind of question. Here, the stem points to 'Reviewing the code for potential errors and adherence to coding standards' instead.",
+      "C": "✗ Not the answer. 'Deploying the code directly to the production environment for testing' does not fit the scenario: A software developer has completed coding a new feature for a project. Before integrating it with the main codebase, wha… The keyed answer is A — Reviewing the code for potential errors and adherence to coding standards.",
+      "D": "✗ Not the answer. 'Updating marketing materials to showcase the new feature' means C++ operator that allocates memory on the heap. That answers a different kind of question. Here, the stem points to 'Reviewing the code for potential errors and adherence to coding standards' instead."
+    },
+    "studyTip": "SRS, requirements, maintenance types, and SDLC phases — match exact definitions.",
+    "source": "offline-deep"
+  },
+  "89": {
+    "overview": "Which one of the following types of Agile testing ensures new code changes do not break existing functionality? The answer hinges on: re-runs existing tests to ensure new changes did not break prior functionality Eliminate distractors that confuse related Software Testing terms before picking A.\n\n✅ Answer: A — Regression Testing",
+    "options": {
+      "A": "✓ CORRECT. 'Regression Testing' is correct because it matches the specific concept tested in this question. Definition: re-runs existing tests to ensure new changes did not break prior functionality.",
+      "B": "✗ Not the answer. 'Exploratory Testing' does not fit the scenario: Which one of the following types of Agile testing ensures new code changes do not break existing functionality? The keyed answer is A — Regression Testing.",
+      "C": "✗ Not the answer. 'User Acceptance Testing (UAT)' refers to end-user validation of fitness for purpose — after system/integration tests. The question asks about the specific concept tested in this question. That requires 'Regression Testing' — re-runs existing tests to ensure new changes did not break prior functionality. These are different concepts; do not confuse them on the exam.",
+      "D": "✗ Not the answer. 'Smoke Testing' does not fit the scenario: Which one of the following types of Agile testing ensures new code changes do not break existing functionality? The keyed answer is A — Regression Testing."
+    },
+    "studyTip": "Match the question to test levels, coverage types, or traceability definitions.",
+    "source": "offline-deep"
+  },
+  "90": {
+    "overview": "Which one of the following is a key characteristic of a well-written functional requirement? Eliminate distractors that confuse related Software Engineering terms before picking C.\n\n✅ Answer: C — It should be testable and measurable",
+    "options": {
+      "A": "✗ Not the answer. 'It should focus only on performance issues' does not fit the scenario: Which one of the following is a key characteristic of a well-written functional requirement? The keyed answer is C — It should be testable and measurable.",
+      "B": "✗ Not the answer. 'It should be vague to allow flexibility during development' does not fit the scenario: Which one of the following is a key characteristic of a well-written functional requirement? The keyed answer is C — It should be testable and measurable.",
+      "C": "✓ CORRECT. 'It should be testable and measurable' is the correct answer — it directly addresses the specific concept tested in this question in Software Engineering.",
+      "D": "✗ Not the answer. 'It should describe the system architecture' does not fit the scenario: Which one of the following is a key characteristic of a well-written functional requirement? The keyed answer is C — It should be testable and measurable."
+    },
+    "studyTip": "SRS, requirements, maintenance types, and SDLC phases — match exact definitions.",
+    "source": "offline-deep"
+  },
+  "91": {
+    "overview": "Non-functional requirements typically focus on which of the following? The answer hinges on: ability to handle growing load (users, queries, data) Eliminate distractors that confuse related Software Engineering terms before picking B.\n\n✅ Answer: B — Performance, security, usability, and scalability of the system",
+    "options": {
+      "A": "✗ Not the answer. 'Specific programming languages and frameworks to be used' does not fit the scenario: Non-functional requirements typically focus on which of the following? The keyed answer is B — Performance, security, usability, and scalability of the system.",
+      "B": "✓ CORRECT. 'Performance, security, usability, and scalability of the system' is correct because it matches the specific concept tested in this question. Definition: ability to handle growing load (users, queries, data).",
+      "C": "✗ Not the answer. 'System behaviors like authentication and user interactions' does not fit the scenario: Non-functional requirements typically focus on which of the following? The keyed answer is B — Performance, security, usability, and scalability of the system.",
+      "D": "✗ Not the answer. 'Technical specifications for hardware' does not fit the scenario: Non-functional requirements typically focus on which of the following? The keyed answer is B — Performance, security, usability, and scalability of the system."
+    },
+    "studyTip": "SRS, requirements, maintenance types, and SDLC phases — match exact definitions.",
+    "source": "offline-deep"
+  },
+  "92": {
+    "overview": "Which one of the following is the main purpose of conducting interviews in requirements elicitation? Eliminate distractors that confuse related Software Engineering terms before picking B.\n\n✅ Answer: B — To gather in-depth insights from individual stakeholders",
+    "options": {
+      "A": "✗ Not the answer. 'To gather a wide variety of user opinions through surveys' does not fit the scenario: Which one of the following is the main purpose of conducting interviews in requirements elicitation? The keyed answer is B — To gather in-depth insights from individual stakeholders.",
+      "B": "✓ CORRECT. 'To gather in-depth insights from individual stakeholders' is the correct answer — it directly addresses the specific concept tested in this question in Software Engineering.",
+      "C": "✗ Not the answer. 'To develop detailed documentation of the system' does not fit the scenario: Which one of the following is the main purpose of conducting interviews in requirements elicitation? The keyed answer is B — To gather in-depth insights from individual stakeholders.",
+      "D": "✗ Not the answer. 'To design and prototype the software system' does not fit the scenario: Which one of the following is the main purpose of conducting interviews in requirements elicitation? The keyed answer is B — To gather in-depth insights from individual stakeholders."
+    },
+    "studyTip": "SRS, requirements, maintenance types, and SDLC phases — match exact definitions.",
+    "source": "offline-deep"
+  },
+  "93": {
+    "overview": "Which one of the following is the main purpose of conducting interviews in requirements elicitation? Eliminate distractors that confuse related Software Engineering terms before picking B.\n\n✅ Answer: B — To gather in-depth insights from individual stakeholders",
+    "options": {
+      "A": "✗ Not the answer. 'To gather a wide variety of user opinions through surveys' does not fit the scenario: Which one of the following is the main purpose of conducting interviews in requirements elicitation? The keyed answer is B — To gather in-depth insights from individual stakeholders.",
+      "B": "✓ CORRECT. 'To gather in-depth insights from individual stakeholders' is the correct answer — it directly addresses the specific concept tested in this question in Software Engineering.",
+      "C": "✗ Not the answer. 'To develop detailed documentation of the system' does not fit the scenario: Which one of the following is the main purpose of conducting interviews in requirements elicitation? The keyed answer is B — To gather in-depth insights from individual stakeholders.",
+      "D": "✗ Not the answer. 'To design and prototype the software system' does not fit the scenario: Which one of the following is the main purpose of conducting interviews in requirements elicitation? The keyed answer is B — To gather in-depth insights from individual stakeholders."
+    },
+    "studyTip": "SRS, requirements, maintenance types, and SDLC phases — match exact definitions.",
+    "source": "offline-deep"
+  },
+  "94": {
+    "overview": "Which loop is guaranteed to execute at least once, even if the condition is false? Eliminate distractors that confuse related Fundamentals of Programming terms before picking B.\n\n✅ Answer: B — do-while loop",
+    "options": {
+      "A": "✗ Not the answer. while checks the condition before each iteration — if false initially, the body never runs.",
+      "B": "✓ CORRECT. do-while evaluates the condition after the body — guaranteed at least one execution even when the condition is initially false.",
+      "C": "✗ Not the answer. 'For each loop' does not fit the scenario: Which loop is guaranteed to execute at least once, even if the condition is false? The keyed answer is B — do-while loop.",
+      "D": "✗ Not the answer. 'for loop' does not fit the scenario: Which loop is guaranteed to execute at least once, even if the condition is false? The keyed answer is B — do-while loop."
+    },
+    "studyTip": "Review Fundamentals of Programming notes and redo this question in Review mode.",
+    "source": "offline-deep"
+  },
+  "95": {
+    "overview": "question Time I How do you add new department column to Students table? Eliminate distractors that confuse related General terms before picking C.\n\n✅ Answer: C — VARCHAR(255): ALTER TABLE Students ADD COLUMN department",
+    "options": {
+      "A": "✗ Not the answer. 'MODIFY TABLE Students ADD department' does not fit the scenario: question Time I How do you add new department column to Students table? The keyed answer is C — VARCHAR(255): ALTER TABLE Students ADD COLUMN department.",
+      "B": "✗ Not the answer. 'VARCHAR(255); INSERT INTO Students ADD COLUMN department' does not fit the scenario: question Time I How do you add new department column to Students table? The keyed answer is C — VARCHAR(255): ALTER TABLE Students ADD COLUMN department.",
+      "C": "✓ CORRECT. 'VARCHAR(255): ALTER TABLE Students ADD COLUMN department' is the correct answer — it directly addresses the specific concept tested in this question in General.",
+      "D": "✗ Not the answer. 'VARCHAR(255); UPDATE TABLE Students ADD COLUMN department VARCHAR(255);' does not fit the scenario: question Time I How do you add new department column to Students table? The keyed answer is C — VARCHAR(255): ALTER TABLE Students ADD COLUMN department."
+    },
+    "studyTip": "DFD symbols, structured analysis steps, and certification standards (DO-178B, UL 1998).",
+    "source": "offline-deep"
+  },
+  "96": {
+    "overview": "Which one of the followtng Application Layer Protocol is used in Web Development is a Query-based API that allows clients to request only needed data? Eliminate distractors that confuse related Networking terms before picking D.\n\n✅ Answer: D — REST",
+    "options": {
+      "A": "✗ Not the answer. 'b. d' does not fit the scenario: Which one of the followtng Application Layer Protocol is used in Web Development is a Query-based API that allows client… The keyed answer is D — REST.",
+      "B": "✗ Not the answer. 'HTTp' means Hypertext Transfer Protocol — request/response web protocol. That answers a different kind of question. Here, the stem points to 'REST' instead.",
+      "C": "✗ Not the answer. 'GraphQL HTTPS' does not fit the scenario: Which one of the followtng Application Layer Protocol is used in Web Development is a Query-based API that allows client… The keyed answer is D — REST.",
+      "D": "✓ CORRECT. 'REST' is the correct answer — it directly addresses the specific concept tested in this question in Networking."
+    },
+    "studyTip": "Map the scenario to OSI/TCP layers, protocol behavior, or topology properties.",
+    "source": "offline-deep"
+  },
+  "97": {
+    "overview": "Fig quest'on 2:45:43 What is the pnmary goal of requirement engineering in software development? Eliminate distractors that confuse related Java / OOP terms before picking D.\n\n✅ Answer: D — To design the software architecture",
+    "options": {
+      "A": "✗ Not the answer. 'To wnte the' does not fit the scenario: Fig quest'on 2:45:43 What is the pnmary goal of requirement engineering in software development? The keyed answer is D — To design the software architecture.",
+      "B": "✗ Not the answer. 'To create the user interface' means Java contract of abstract methods — implemented by classes. That answers a different kind of question. Here, the stem points to 'To design the software architecture' instead.",
+      "C": "✗ Not the answer. 'To define and manage stakeholder requirements' does not fit the scenario: Fig quest'on 2:45:43 What is the pnmary goal of requirement engineering in software development? The keyed answer is D — To design the software architecture.",
+      "D": "✓ CORRECT. 'To design the software architecture' is the correct answer — it directly addresses the specific concept tested in this question in Java / OOP."
+    },
+    "studyTip": "Trace code on paper. Interfaces cannot be instantiated; constructors match class name and types.",
+    "source": "offline-deep"
+  },
+  "98": {
+    "overview": "Fie question What is the main purpose of debugging? Eliminate distractors that confuse related Software Engineering terms before picking D.\n\n✅ Answer: D — To identify and fix errors in the code",
+    "options": {
+      "A": "✗ Not the answer. 'To remove all comments in the code' does not fit the scenario: Fie question What is the main purpose of debugging? The keyed answer is D — To identify and fix errors in the code.",
+      "B": "✗ Not the answer. 'To add more features without testing' does not fit the scenario: Fie question What is the main purpose of debugging? The keyed answer is D — To identify and fix errors in the code.",
+      "C": "✗ Not the answer. 'To make the ccxie more complex' does not fit the scenario: Fie question What is the main purpose of debugging? The keyed answer is D — To identify and fix errors in the code.",
+      "D": "✓ CORRECT. 'To identify and fix errors in the code' is the correct answer — it directly addresses the specific concept tested in this question in Software Engineering."
+    },
+    "studyTip": "SRS, requirements, maintenance types, and SDLC phases — match exact definitions.",
+    "source": "offline-deep"
+  },
+  "99": {
+    "overview": "Which one of the following Object-Oriented Software Design Principles states that software entities should be open for extension but closed for modification? Eliminate distractors that confuse related Software Engineering terms before picking D.\n\n✅ Answer: D — Open/Closed Principle (OCP)",
+    "options": {
+      "A": "✗ Not the answer. 'Interface Segregation Principle (ISP)' means Java contract of abstract methods — implemented by classes. That answers a different kind of question. Here, the stem points to 'Open/Closed Principle (OCP)' instead.",
+      "B": "✗ Not the answer. 'Single Responsibility Principle (SRP)' does not fit the scenario: Which one of the following Object-Oriented Software Design Principles states that software entities should be open for e… The keyed answer is D — Open/Closed Principle (OCP).",
+      "C": "✗ Not the answer. 'Liskov Substitution Principle (LSP)' does not fit the scenario: Which one of the following Object-Oriented Software Design Principles states that software entities should be open for e… The keyed answer is D — Open/Closed Principle (OCP).",
+      "D": "✓ CORRECT. 'Open/Closed Principle (OCP)' is the correct answer — it directly addresses the specific concept tested in this question in Software Engineering."
+    },
+    "studyTip": "SRS, requirements, maintenance types, and SDLC phases — match exact definitions.",
+    "source": "offline-deep"
+  },
+  "100": {
+    "overview": "Which one of the following authentication methods uses cryptographic certificates for secure authentication? The answer hinges on: Public Key Infrastructure — certificate-based identity and key management Eliminate distractors that confuse related Security terms before picking C.\n\n✅ Answer: C — Public Key Infrastructure (PKI)",
+    "options": {
+      "A": "✗ Not the answer. 'Multi-Factor Authentication (MFA)' does not fit the scenario: Which one of the following authentication methods uses cryptographic certificates for secure authentication? The keyed answer is C — Public Key Infrastructure (PKI).",
+      "B": "✗ Not the answer. 'OTP' does not fit the scenario: Which one of the following authentication methods uses cryptographic certificates for secure authentication? The keyed answer is C — Public Key Infrastructure (PKI).",
+      "C": "✓ CORRECT. PKI uses digital certificates and certificate authorities to bind public keys to identities — certificate-based authentication.",
+      "D": "✗ Not the answer. 'Biometric Authentication' refers to identity verification using fingerprint, iris, or palm scan. The question asks about the specific concept tested in this question. That requires 'Public Key Infrastructure (PKI)' — Public Key Infrastructure — certificate-based identity and key management. These are different concepts; do not confuse them on the exam."
+    },
+    "studyTip": "Use Saltzer-Schroeder principles and CIA triad vocabulary to eliminate distractors.",
+    "source": "offline-deep"
+  }
+}

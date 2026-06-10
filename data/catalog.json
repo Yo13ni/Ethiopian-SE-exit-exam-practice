@@ -5,42 +5,9 @@
       "title": "Exit Exam 2015",
       "questionsPath": "data/exams/2015/questions.json",
       "deepPath": "data/exams/2015/deep_explanations.json",
-      "timeLimitHours": 3
-    },
-    {
-      "id": "aau",
-      "title": "AAU Model Exit Exam",
-      "questionsPath": "data/exams/aau/questions.json",
-      "deepPath": "data/exams/aau/deep_explanations.json",
-      "timeLimitHours": 3
-    },
-    {
-      "id": "bdu",
-      "title": "BDU Model Exit Exam",
-      "questionsPath": "data/exams/bdu/questions.json",
-      "deepPath": "data/exams/bdu/deep_explanations.json",
-      "timeLimitHours": 3
-    },
-    {
-      "id": "astu",
-      "title": "ASTU Software Engineering MCQs",
-      "questionsPath": "data/exams/astu/questions.json",
-      "deepPath": "data/exams/astu/deep_explanations.json",
-      "timeLimitHours": 3
-    },
-    {
-      "id": "model1",
-      "title": "MoEE Model Exam 1",
-      "questionsPath": "data/exams/model1/questions.json",
-      "deepPath": "data/exams/model1/deep_explanations.json",
-      "timeLimitHours": 3
-    },
-    {
-      "id": "moe2025",
-      "title": "2025 MoEE Exit Exam",
-      "questionsPath": "data/exams/moe2025/questions.json",
-      "deepPath": "data/exams/moe2025/deep_explanations.json",
-      "timeLimitHours": 3
+      "timeLimitHours": 3,
+      "questionCount": 93,
+      "year": "2015"
     },
     {
       "id": "2016",
@@ -48,7 +15,64 @@
       "questionsPath": "data/exams/2016/questions.json",
       "deepPath": "data/exams/2016/deep_explanations.json",
       "timeLimitHours": 3,
+      "questionCount": 100,
+      "year": "2016",
       "dataRevision": 1
+    },
+    {
+      "id": "2017",
+      "title": "2017 Software Engineering Exit Exam",
+      "questionsPath": "data/exams/2017/questions.json",
+      "deepPath": "data/exams/2017/deep_explanations.json",
+      "timeLimitHours": 3,
+      "questionCount": 96,
+      "year": "2017",
+      "dataRevision": 2
+    },
+    {
+      "id": "aau",
+      "title": "AAU Model Exit Exam",
+      "questionsPath": "data/exams/aau/questions.json",
+      "deepPath": "data/exams/aau/deep_explanations.json",
+      "timeLimitHours": 3,
+      "questionCount": 100,
+      "source": "AAU"
+    },
+    {
+      "id": "bdu",
+      "title": "BDU Model Exit Exam",
+      "questionsPath": "data/exams/bdu/questions.json",
+      "deepPath": "data/exams/bdu/deep_explanations.json",
+      "timeLimitHours": 3,
+      "questionCount": 99,
+      "source": "BDU"
+    },
+    {
+      "id": "astu",
+      "title": "ASTU Software Engineering MCQs",
+      "questionsPath": "data/exams/astu/questions.json",
+      "deepPath": "data/exams/astu/deep_explanations.json",
+      "timeLimitHours": 3,
+      "questionCount": 60,
+      "source": "ASTU"
+    },
+    {
+      "id": "model1",
+      "title": "MoEE Model Exam 1",
+      "questionsPath": "data/exams/model1/questions.json",
+      "deepPath": "data/exams/model1/deep_explanations.json",
+      "timeLimitHours": 3,
+      "questionCount": 100,
+      "source": "MoEE"
+    },
+    {
+      "id": "moe2025",
+      "title": "2025 MoEE Exit Exam",
+      "questionsPath": "data/exams/moe2025/questions.json",
+      "deepPath": "data/exams/moe2025/deep_explanations.json",
+      "timeLimitHours": 3,
+      "questionCount": 100,
+      "year": "2025"
     }
   ]
 }

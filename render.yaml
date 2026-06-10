@@ -6,11 +6,8 @@ services:
     runtime: python
     plan: free
     buildCommand: ""
-    startCommand: python server.py
+    startCommand: python server/server.py
     healthCheckPath: /api/health
     envVars:
       - key: PYTHON_VERSION
         value: "3.12"
-      # Optional: enable server-side AI without users entering a key in Settings
-      # - key: OPENAI_API_KEY
-      #   sync: false

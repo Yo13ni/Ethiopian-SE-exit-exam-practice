@@ -1,1 +1,1 @@
-# No third-party packages — server.py uses Python standard library only.
+# No third-party packages — server/server.py uses Python standard library only.

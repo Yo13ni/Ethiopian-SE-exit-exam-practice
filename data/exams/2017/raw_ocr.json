@@ -1,0 +1,2414 @@
+[
+  {
+    "page": 1,
+    "file": "photo_1749728855072-df38e86f-2551-4369-be13-22ec4eba26cb.png",
+    "raw": "100 out of Ft.\" quest•on revtous page Time left 2:44:46 Which one of the followjng Authentication Method uses cryptographic certificates for secure authentication? Multi-Factor Authentication (MFA) OTP Public Key Infrastructure (PKI) Biometric Authentication Finish attempt",
+    "parsed": {
+      "fileIndex": 1,
+      "examNumber": 100,
+      "raw": "100 out of Ft.\" quest•on revtous page Time left 2:44:46 Which one of the followjng Authentication Method uses cryptographic certificates for secure authentication? Multi-Factor Authentication (MFA) OTP Public Key Infrastructure (PKI) Biometric Authentication Finish attempt",
+      "text": "?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Multi-Factor Authentication (MFA)"
+        },
+        {
+          "key": "B",
+          "text": "OTP Public Key"
+        },
+        {
+          "key": "C",
+          "text": "Infrastructure (PKI)"
+        },
+        {
+          "key": "D",
+          "text": "Biometric Authentication"
+        }
+      ]
+    }
+  },
+  {
+    "page": 2,
+    "file": "photo_1749728865041-0af1377a-9f35-4721-bfd6-48c210313fab.png",
+    "raw": "Time left 1 Wtv,ch comß).nent of Android Application refers to a reusable Ul component wattun an actmty? C a. d. Broadcast Recetvers Fragments Content Providers",
+    "parsed": {
+      "fileIndex": 2,
+      "examNumber": 2,
+      "raw": "Time left 1 Wtv,ch comß).nent of Android Application refers to a reusable Ul component wattun an actmty? C a. d. Broadcast Recetvers Fragments Content Providers",
+      "text": "1 Wtv,ch comß).nent of Android Application refers to a reusable Ul component wattun an actmty?",
+      "options": [
+        {
+          "key": "A",
+          "text": "C a. d. Broadcast"
+        },
+        {
+          "key": "B",
+          "text": "Recetvers"
+        },
+        {
+          "key": "C",
+          "text": "Fragments Content"
+        },
+        {
+          "key": "D",
+          "text": "Providers"
+        }
+      ]
+    }
+  },
+  {
+    "page": 3,
+    "file": "photo_1749728871101-eb4813c2-ae9f-49ed-9b26-8da0a144a27f.png",
+    "raw": "Back Question 98 Not yet answered Matted out of Fie question Previous page What is the main purpose of debugging? To remove all comments in the code. To add more features without testing. To make the ccxie more complex To identify and fix errors in the code.",
+    "parsed": {
+      "fileIndex": 3,
+      "examNumber": 98,
+      "raw": "Back Question 98 Not yet answered Matted out of Fie question Previous page What is the main purpose of debugging? To remove all comments in the code. To add more features without testing. To make the ccxie more complex To identify and fix errors in the code.",
+      "text": "Fie question What is the main purpose of debugging?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To remove all comments in the code"
+        },
+        {
+          "key": "B",
+          "text": "To add more features without testing"
+        },
+        {
+          "key": "C",
+          "text": "To make the ccxie more complex"
+        },
+        {
+          "key": "D",
+          "text": "To identify and fix errors in the code"
+        }
+      ]
+    }
+  },
+  {
+    "page": 4,
+    "file": "photo_1749728875791-f87dd59b-6ee3-484d-9e69-e028a3282d7e.png",
+    "raw": "Back Question 97 Not yet Maned out of Fig quest'on Time left 2:45:43 What is the pnmary goal of requirement engineering in software development? To wnte the To create the user interface To define and manage stakeholder requirements To design the software architecture",
+    "parsed": {
+      "fileIndex": 4,
+      "examNumber": 97,
+      "raw": "Back Question 97 Not yet Maned out of Fig quest'on Time left 2:45:43 What is the pnmary goal of requirement engineering in software development? To wnte the To create the user interface To define and manage stakeholder requirements To design the software architecture",
+      "text": "Fig quest'on 2:45:43 What is the pnmary goal of requirement engineering in software development?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To wnte the"
+        },
+        {
+          "key": "B",
+          "text": "To create the user interface"
+        },
+        {
+          "key": "C",
+          "text": "To define and manage stakeholder requirements"
+        },
+        {
+          "key": "D",
+          "text": "To design the software architecture"
+        }
+      ]
+    }
+  },
+  {
+    "page": 5,
+    "file": "photo_1749728880907-3b85ae8d-8e22-4b5f-b6b3-26b1c0d45c93.png",
+    "raw": "Time left 2 Wtuch one of follow-tng Object-Onented Software Design Pnnaple refers that software entity should be open extenson but closed for O Interface Pnncrple (ISP) O b. Srngle Pnnople (SRP) O c Uskov Substitution Pnnaple UP) O Pnnaple (XP)",
+    "parsed": {
+      "fileIndex": 5,
+      "examNumber": 5,
+      "raw": "Time left 2 Wtuch one of follow-tng Object-Onented Software Design Pnnaple refers that software entity should be open extenson but closed for O Interface Pnncrple (ISP) O b. Srngle Pnnople (SRP) O c Uskov Substitution Pnnaple UP) O Pnnaple (XP)",
+      "text": "2 Wtuch one of follow-tng Object-Onented Software Design Pnnaple refers that software entity should be open extenson but closed for Interface Pnncrple (ISP)",
+      "options": []
+    }
+  },
+  {
+    "page": 6,
+    "file": "photo_1749728885782-840d9e79-820f-4c01-82a8-9f36e7c5ff26.png",
+    "raw": "Question 95 Not yet Marked out of question Time I How do you add new department column to Students table? MODIFY TABLE Students ADD department VARCHAR(255); INSERT INTO Students ADD COLUMN department VARCHAR(255): ALTER TABLE Students ADD COLUMN department VARCHAR(255); UPDATE TABLE Students ADD COLUMN department VARCHAR(255);",
+    "parsed": {
+      "fileIndex": 6,
+      "examNumber": 95,
+      "raw": "Question 95 Not yet Marked out of question Time I How do you add new department column to Students table? MODIFY TABLE Students ADD department VARCHAR(255); INSERT INTO Students ADD COLUMN department VARCHAR(255): ALTER TABLE Students ADD COLUMN department VARCHAR(255); UPDATE TABLE Students ADD COLUMN department VARCHAR(255);",
+      "text": "question Time I How do you add new department column to Students table?",
+      "options": [
+        {
+          "key": "A",
+          "text": "MODIFY TABLE Students ADD department"
+        },
+        {
+          "key": "B",
+          "text": "VARCHAR(255); INSERT INTO Students ADD COLUMN department"
+        },
+        {
+          "key": "C",
+          "text": "VARCHAR(255): ALTER TABLE Students ADD COLUMN department"
+        },
+        {
+          "key": "D",
+          "text": "VARCHAR(255); UPDATE TABLE Students ADD COLUMN department VARCHAR(255);"
+        }
+      ]
+    }
+  },
+  {
+    "page": 7,
+    "file": "photo_1749728891365-3f05a0f4-cd1d-46cd-a683-efe39ed0c748.png",
+    "raw": "Back Question 94 Not yet •nswered Marked out of question Time I Which loop is guaranteed to execute at least once, even if the condition is false? O O O O a. b. c. d. while loop do-while loop For each loop for loop",
+    "parsed": {
+      "fileIndex": 7,
+      "examNumber": 94,
+      "raw": "Back Question 94 Not yet •nswered Marked out of question Time I Which loop is guaranteed to execute at least once, even if the condition is false? O O O O a. b. c. d. while loop do-while loop For each loop for loop",
+      "text": "•nswered question Time I Which loop is guaranteed to execute at least once, even if the condition is false?",
+      "options": []
+    }
+  },
+  {
+    "page": 8,
+    "file": "photo_1749728896723-b88b0e31-b694-4b26-89fb-46bdf9f7d385.png",
+    "raw": "Time left Which one of the following type of maintenance is used to refer to maintenance for fault repair? Adaptive maintenance Function Points (FP) Corrective maintenance Perfective maintenance Hide Next page",
+    "parsed": {
+      "fileIndex": 8,
+      "examNumber": 8,
+      "raw": "Time left Which one of the following type of maintenance is used to refer to maintenance for fault repair? Adaptive maintenance Function Points (FP) Corrective maintenance Perfective maintenance Hide Next page",
+      "text": "Which one of the following type of maintenance is used to refer to maintenance for fault repair?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Adaptive maintenance"
+        },
+        {
+          "key": "B",
+          "text": "Function Points (FP)"
+        },
+        {
+          "key": "C",
+          "text": "Corrective maintenance"
+        },
+        {
+          "key": "D",
+          "text": "Perfective maintenance"
+        }
+      ]
+    }
+  },
+  {
+    "page": 9,
+    "file": "photo_1749728902441-5142b0b6-cbf3-42b0-8f82-918e02712228.png",
+    "raw": "Time left What method can be used by two computers to ensure that packets are not dropped because too much data is beng sent too quickly? Encapsulation Access method Flow control Response timeout Hid",
+    "parsed": {
+      "fileIndex": 9,
+      "examNumber": 9,
+      "raw": "Time left What method can be used by two computers to ensure that packets are not dropped because too much data is beng sent too quickly? Encapsulation Access method Flow control Response timeout Hid",
+      "text": "What method can be used by two computers to ensure that packets are not dropped because too much data is beng sent too quickly?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Encapsulation"
+        },
+        {
+          "key": "B",
+          "text": "Access method"
+        },
+        {
+          "key": "C",
+          "text": "Flow control"
+        },
+        {
+          "key": "D",
+          "text": "Response timeout Hid"
+        }
+      ]
+    }
+  },
+  {
+    "page": 10,
+    "file": "photo_1749728908033-60b9ff77-45dc-4ed0-8962-0d658959c061.png",
+    "raw": ".02 n 91 Ncwfunct•onal requirements typically focus on which of the following? programming languages and frameworks to be used Performance. secunty, usability. and scalability of the system System like authentication and user interactions Technical for hardware Hide 10 19 28 37 21 Next page 73",
+    "parsed": {
+      "fileIndex": 10,
+      "examNumber": 2,
+      "raw": ".02 n 91 Ncwfunct•onal requirements typically focus on which of the following? programming languages and frameworks to be used Performance. secunty, usability. and scalability of the system System like authentication and user interactions Technical for hardware Hide 10 19 28 37 21 Next page 73",
+      "text": ".02 n 91 Ncwfunct•onal requirements typically focus on which of the following?",
+      "options": [
+        {
+          "key": "A",
+          "text": "programming languages and frameworks to be used"
+        },
+        {
+          "key": "B",
+          "text": "Performance. secunty, usability. and scalability of the system"
+        },
+        {
+          "key": "C",
+          "text": "System like authentication and user interactions"
+        },
+        {
+          "key": "D",
+          "text": "Technical for hardware 10 19 28 37 21 73"
+        }
+      ]
+    }
+  },
+  {
+    "page": 11,
+    "file": "photo_1749728912273-74e6d4ab-db7d-48e8-b296-f9f8cb3d3279.png",
+    "raw": "90 out cf Time Which one of the following is a key characteristic of a well-written functional requirement? It should focus only on performance issues It should be vague to allow flexibility during development It should be testable and measurable It should describe the system architecture",
+    "parsed": {
+      "fileIndex": 11,
+      "examNumber": 90,
+      "raw": "90 out cf Time Which one of the following is a key characteristic of a well-written functional requirement? It should focus only on performance issues It should be vague to allow flexibility during development It should be testable and measurable It should describe the system architecture",
+      "text": "90 out cf Time Which one of the following is a key characteristic of a well-written functional requirement?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It should focus only on performance issues"
+        },
+        {
+          "key": "B",
+          "text": "It should be vague to allow flexibility during development"
+        },
+        {
+          "key": "C",
+          "text": "It should be testable and measurable"
+        },
+        {
+          "key": "D",
+          "text": "It should describe the system architecture"
+        }
+      ]
+    }
+  },
+  {
+    "page": 12,
+    "file": "photo_1749728917959-d22145a6-4747-45cd-b4ba-2d621db8dc0f.png",
+    "raw": "Which one of the following types of machine leaming algorithms is best suited for Email spam detection problem? Clustenng Time-Series Forecasting Regresston Classification Next pagf",
+    "parsed": {
+      "fileIndex": 12,
+      "examNumber": 12,
+      "raw": "Which one of the following types of machine leaming algorithms is best suited for Email spam detection problem? Clustenng Time-Series Forecasting Regresston Classification Next pagf",
+      "text": "Which one of the following types of machine leaming algorithms is best suited for Email spam detection problem?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Clustenng Time-Series"
+        },
+        {
+          "key": "B",
+          "text": "Forecasting Regresston"
+        },
+        {
+          "key": "C",
+          "text": "Classification"
+        },
+        {
+          "key": "D",
+          "text": "Next pagf"
+        }
+      ]
+    }
+  },
+  {
+    "page": 13,
+    "file": "photo_1749728922539-684548e8-645e-403a-a06a-406e61f034f7.png",
+    "raw": "Time left Hide software developer has completed coding a new feature for a project. Before integrating it with the main codebase, 'hat IS the MOST important step to ensure quality? Reviewing the code for potential errors and adherence to coding standards. Writing extensive user documentation for the new feature. Deploying the code directly to the production environment for testing. Updating marketing materials to showcase the new feature.",
+    "parsed": {
+      "fileIndex": 13,
+      "examNumber": 13,
+      "raw": "Time left Hide software developer has completed coding a new feature for a project. Before integrating it with the main codebase, 'hat IS the MOST important step to ensure quality? Reviewing the code for potential errors and adherence to coding standards. Writing extensive user documentation for the new feature. Deploying the code directly to the production environment for testing. Updating marketing materials to showcase the new feature.",
+      "text": "software developer has completed coding a new feature for a project. Before integrating it with the main codebase, 'hat IS the MOST important step to ensure quality?",
+      "options": []
+    }
+  },
+  {
+    "page": 14,
+    "file": "photo_1749728927822-7b882254-1af8-41d5-9112-801245c37b98.png",
+    "raw": "87 yet Prevous page Time left metric measures the time between two consecutive failures in a system? Detect Density Mean Time to Repair Test Coverage Mean Time Between Failures",
+    "parsed": {
+      "fileIndex": 14,
+      "examNumber": 87,
+      "raw": "87 yet Prevous page Time left metric measures the time between two consecutive failures in a system? Detect Density Mean Time to Repair Test Coverage Mean Time Between Failures",
+      "text": "page metric measures the time between two consecutive failures in a system?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Detect Density Mean"
+        },
+        {
+          "key": "B",
+          "text": "Time to Repair Test"
+        },
+        {
+          "key": "C",
+          "text": "Coverage Mean Time"
+        },
+        {
+          "key": "D",
+          "text": "Between Failures"
+        }
+      ]
+    }
+  },
+  {
+    "page": 15,
+    "file": "photo_1749728933080-97e36ca1-3ba5-4100-98ba-c8fd2230ee7c.png",
+    "raw": "Question 86 Not yet answered Mareed out of F l\" question Time left Which one of the following types of Machine Learning Discovers patterns from unlabeled data? Unsupervised Learmng Reinforcement Learning Supervised Learning Semi-Supervised Learning Clear my choice",
+    "parsed": {
+      "fileIndex": 15,
+      "examNumber": 86,
+      "raw": "Question 86 Not yet answered Mareed out of F l\" question Time left Which one of the following types of Machine Learning Discovers patterns from unlabeled data? Unsupervised Learmng Reinforcement Learning Supervised Learning Semi-Supervised Learning Clear my choice",
+      "text": "?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Unsupervised Learmng"
+        },
+        {
+          "key": "B",
+          "text": "Reinforcement Learning Supervised"
+        },
+        {
+          "key": "C",
+          "text": "Learning Semi-Supervised"
+        },
+        {
+          "key": "D",
+          "text": "Learning Clear my choice"
+        }
+      ]
+    }
+  },
+  {
+    "page": 16,
+    "file": "photo_1749728938405-cedfbb83-5493-4c22-ac5e-6863bcf168b2.png",
+    "raw": "Hide i 85 xxs page Time left Which one of the following Application Layer Protocol used in Web Development Enables real-time, two-way communication between client and server? O O O O a. b. c. REST WebSocket GraphQL HTTP Next",
+    "parsed": {
+      "fileIndex": 16,
+      "examNumber": 85,
+      "raw": "Hide i 85 xxs page Time left Which one of the following Application Layer Protocol used in Web Development Enables real-time, two-way communication between client and server? O O O O a. b. c. REST WebSocket GraphQL HTTP Next",
+      "text": "i 85 xxs page Which one of the following Application Layer Protocol used in Web Development Enables real-time, two-way communication between client and server?",
+      "options": [
+        {
+          "key": "A",
+          "text": "a. b. c REST"
+        },
+        {
+          "key": "B",
+          "text": "WebSocket"
+        },
+        {
+          "key": "C",
+          "text": "GraphQL"
+        },
+        {
+          "key": "D",
+          "text": "HTTP Next"
+        }
+      ]
+    }
+  },
+  {
+    "page": 17,
+    "file": "photo_1749728945941-c523aaf1-1c03-4665-88ef-45e33a7d2e6f.png",
+    "raw": "Back Quetion 84 Not yet Marted out of Flag quest'on Previous page Which of the followtng sorting algonthms follows the DIVIDE and CONQUER approach? Merge Sort Bubble Sort Selection Sort Insertion Sort Time left 29:39 Next",
+    "parsed": {
+      "fileIndex": 17,
+      "examNumber": 84,
+      "raw": "Back Quetion 84 Not yet Marted out of Flag quest'on Previous page Which of the followtng sorting algonthms follows the DIVIDE and CONQUER approach? Merge Sort Bubble Sort Selection Sort Insertion Sort Time left 29:39 Next",
+      "text": "Which of the followtng sorting algonthms follows the DIVIDE and CONQUER approach?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Merge Sort Bubble Sort"
+        },
+        {
+          "key": "B",
+          "text": "Selection Sort"
+        },
+        {
+          "key": "C",
+          "text": "Insertion"
+        },
+        {
+          "key": "D",
+          "text": "Sort 29:39 Next"
+        }
+      ]
+    }
+  },
+  {
+    "page": 18,
+    "file": "photo_1749728950473-bdeb96da-b8dd-4b3a-b61e-0c7da53d6858.png",
+    "raw": "83 yet ned out of question reuous page Software engineering principles like KISS (Keep It Simple, Stupid) focus on achieving which one of the following? Faster development speed at the cost of quality Improved code maintainability and reusability Increased software complexity More visually appealing user interfaces Next page",
+    "parsed": {
+      "fileIndex": 18,
+      "examNumber": 83,
+      "raw": "83 yet ned out of question reuous page Software engineering principles like KISS (Keep It Simple, Stupid) focus on achieving which one of the following? Faster development speed at the cost of quality Improved code maintainability and reusability Increased software complexity More visually appealing user interfaces Next page",
+      "text": "out of question reuous page Software engineering principles like KISS (Keep It Simple, Stupid) focus on achieving which one of the following?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Faster development speed at the cost of quality"
+        },
+        {
+          "key": "B",
+          "text": "Improved code maintainability and reusability"
+        },
+        {
+          "key": "C",
+          "text": "Increased software complexity"
+        },
+        {
+          "key": "D",
+          "text": "More visually appealing user interfaces"
+        }
+      ]
+    }
+  },
+  {
+    "page": 19,
+    "file": "photo_1749728955915-818f0b8b-c75c-413c-82b0-6939e4ddc5bb.png",
+    "raw": "Aed out of question 'revtous page Time left What IS the primary purpose of an Integrated Development Environment (IDE)? To write and debug code To run mobile applications To store user data To manage hardware resources",
+    "parsed": {
+      "fileIndex": 19,
+      "examNumber": 19,
+      "raw": "Aed out of question 'revtous page Time left What IS the primary purpose of an Integrated Development Environment (IDE)? To write and debug code To run mobile applications To store user data To manage hardware resources",
+      "text": "?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To write and debug code"
+        },
+        {
+          "key": "B",
+          "text": "To run mobile applications"
+        },
+        {
+          "key": "C",
+          "text": "To store user data"
+        },
+        {
+          "key": "D",
+          "text": "To manage hardware resources"
+        }
+      ]
+    }
+  },
+  {
+    "page": 20,
+    "file": "photo_1749728960072-b5a59a6c-695e-47f8-b8b3-63c7aca179b5.png",
+    "raw": "Time left Hide Suppose you have entity, Samuel. Samuel is a player. his age is 25. his height is 1.98, his club is Manchester, and he lives tn England. Manchester. Which of the following knowledge representation is best to represent it? O O O O a. b. c. d. Logical tepresentation Semantic network Representation Rule based representation Vtarne representation Next page",
+    "parsed": {
+      "fileIndex": 20,
+      "examNumber": 20,
+      "raw": "Time left Hide Suppose you have entity, Samuel. Samuel is a player. his age is 25. his height is 1.98, his club is Manchester, and he lives tn England. Manchester. Which of the following knowledge representation is best to represent it? O O O O a. b. c. d. Logical tepresentation Semantic network Representation Rule based representation Vtarne representation Next page",
+      "text": "Suppose you have entity, Samuel. Samuel is a player. his age is 25. his height is 1.98, his club is Manchester, and he lives tn England. Manchester. Which of the following knowledge representation is best to represent it?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Logical tepresentation"
+        },
+        {
+          "key": "B",
+          "text": "Semantic network Representation"
+        },
+        {
+          "key": "C",
+          "text": "Rule based representation"
+        },
+        {
+          "key": "D",
+          "text": "Vtarne representation"
+        }
+      ]
+    }
+  },
+  {
+    "page": 21,
+    "file": "photo_1749728965472-8c569b30-7aaf-4bd2-bc4a-d62672715522.png",
+    "raw": "Exam navigation Time left 2:52:09 Hide p.' have SarruRl. Samuel ts a player. ts 25, tus hetqht ts 1.98. his club ts Manchester, and he Marv-Feste VVtuch of the knowledge representation ts t2-st to represent it? be,ed Next page",
+    "parsed": {
+      "fileIndex": 21,
+      "examNumber": 21,
+      "raw": "Exam navigation Time left 2:52:09 Hide p.' have SarruRl. Samuel ts a player. ts 25, tus hetqht ts 1.98. his club ts Manchester, and he Marv-Feste VVtuch of the knowledge representation ts t2-st to represent it? be,ed Next page",
+      "text": "2:52:09 p.' have SarruRl. Samuel ts a player. ts 25, tus hetqht ts 1.98. his club ts Manchester, and he Marv-Feste VVtuch of the knowledge representation ts t2-st to represent it?",
+      "options": []
+    }
+  },
+  {
+    "page": 22,
+    "file": "photo_1749728977907-5b55f097-8f65-4131-8530-f88712659634.png",
+    "raw": "Time left 2:52:28 WWCh o' tobmng des•gn pattern ts used when the algonthm for creating a complex obJect should be of the parts that make up the ot»ect and how they are assembled? a. pattern ' pattem Methad pattern d. Prototyc* pattern Hide Next page",
+    "parsed": {
+      "fileIndex": 22,
+      "examNumber": 22,
+      "raw": "Time left 2:52:28 WWCh o' tobmng des•gn pattern ts used when the algonthm for creating a complex obJect should be of the parts that make up the ot»ect and how they are assembled? a. pattern ' pattem Methad pattern d. Prototyc* pattern Hide Next page",
+      "text": "2:52:28 WWCh o' tobmng des•gn pattern ts used when the algonthm for creating a complex obJect should be of the parts that make up the ot»ect and how they are assembled?",
+      "options": []
+    }
+  },
+  {
+    "page": 23,
+    "file": "photo_1749728981922-b0cd9252-99fa-482c-9403-18dc2ebec450.png",
+    "raw": "Time left 2:52:47 Which one ot the following Core Objectives of Cryptography Verifies the identity of communicating parties. ' a. Integrity ) b. Authentication c Confidentiality d. Non-repudiation",
+    "parsed": {
+      "fileIndex": 23,
+      "examNumber": 23,
+      "raw": "Time left 2:52:47 Which one ot the following Core Objectives of Cryptography Verifies the identity of communicating parties. ' a. Integrity ) b. Authentication c Confidentiality d. Non-repudiation",
+      "text": "2:52:47 Which one ot the following Core Objectives of Cryptography Verifies the identity of communicating parties. '",
+      "options": []
+    }
+  },
+  {
+    "page": 24,
+    "file": "photo_1749728988716-08808c4a-cf1a-4fec-82ff-a89c11146d43.png",
+    "raw": "Time left Wt-øch one ot the followtng is a ot software defect? code segments the Nuu reference error jn a function An unhandled exception jn the code Pedormance degt adatton due to excesstve memory usage Hide Next",
+    "parsed": {
+      "fileIndex": 24,
+      "examNumber": 24,
+      "raw": "Time left Wt-øch one ot the followtng is a ot software defect? code segments the Nuu reference error jn a function An unhandled exception jn the code Pedormance degt adatton due to excesstve memory usage Hide Next",
+      "text": "Wt-øch one ot the followtng is a ot software defect?",
+      "options": [
+        {
+          "key": "A",
+          "text": "code segments the Nuu reference error jn a function"
+        },
+        {
+          "key": "B",
+          "text": "An unhandled exception jn the code"
+        },
+        {
+          "key": "C",
+          "text": "Pedormance degt adatton due to excesstve memory usage"
+        },
+        {
+          "key": "D",
+          "text": "Next"
+        }
+      ]
+    }
+  },
+  {
+    "page": 25,
+    "file": "photo_1749728993624-92623801-1836-4a84-b13c-017003f4ce4a.png",
+    "raw": "Q.estion 76 out of Time left 253:31 Which one of the following a Security Concerns •n Mobile Networks where attackers steal sesston cookies Man-in-the-Middle (MItM) attacks SQL Inrctvon Session hijacking Ransomware Next Hide 19",
+    "parsed": {
+      "fileIndex": 25,
+      "examNumber": 76,
+      "raw": "Q.estion 76 out of Time left 253:31 Which one of the following a Security Concerns •n Mobile Networks where attackers steal sesston cookies Man-in-the-Middle (MItM) attacks SQL Inrctvon Session hijacking Ransomware Next Hide 19",
+      "text": "Q.estion 76 out of 253:31 Which one of the following a Security Concerns •n Mobile Networks where attackers steal sesston cookies Man-in-the-Middle (MItM) attacks SQL Inrctvon Session hijacking Ransomware Next 19",
+      "options": []
+    }
+  },
+  {
+    "page": 26,
+    "file": "photo_1749729000743-77f0c1c5-8128-4de7-8064-43a2a5b872eb.png",
+    "raw": "Qu—ti«• 75 Not yet Prevous page Tme left 2:53:50 Which of the followtng is not the function of OSI model presentation layer? Encryption Compresson Translation Synchronization",
+    "parsed": {
+      "fileIndex": 26,
+      "examNumber": 75,
+      "raw": "Qu—ti«• 75 Not yet Prevous page Tme left 2:53:50 Which of the followtng is not the function of OSI model presentation layer? Encryption Compresson Translation Synchronization",
+      "text": "Qu—ti«• 75 Prevous page Tme left 2:53:50 Which of the followtng is not the function of OSI model presentation layer?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Encryption"
+        },
+        {
+          "key": "B",
+          "text": "Compresson"
+        },
+        {
+          "key": "C",
+          "text": "Translation"
+        },
+        {
+          "key": "D",
+          "text": "Synchronization"
+        }
+      ]
+    }
+  },
+  {
+    "page": 27,
+    "file": "photo_1749729006978-c6ebe450-04bb-403a-a0c3-b1c27a18dce1.png",
+    "raw": "Time left 2:54:14 H ide of touomng Software Architectural Styles is typically used in systems where high responsiveness and real- tme procesqr•.g are needed? Monolithic Architectute ) b. Microservsces Architecture Event-Dnven Archltecture d. Serv«tess Agchttecture Next 10 19 28 37",
+    "parsed": {
+      "fileIndex": 27,
+      "examNumber": 27,
+      "raw": "Time left 2:54:14 H ide of touomng Software Architectural Styles is typically used in systems where high responsiveness and real- tme procesqr•.g are needed? Monolithic Architectute ) b. Microservsces Architecture Event-Dnven Archltecture d. Serv«tess Agchttecture Next 10 19 28 37",
+      "text": "2:54:14 H ide of touomng Software Architectural Styles is typically used in systems where high responsiveness and real- tme procesqr•.g are needed?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Monolithic Architectute ) b. Microservsces"
+        },
+        {
+          "key": "B",
+          "text": "Architecture Event-Dnven"
+        },
+        {
+          "key": "C",
+          "text": "Archltecture d. Serv«tess"
+        },
+        {
+          "key": "D",
+          "text": "Agchttecture Next 10 19 28 37"
+        }
+      ]
+    }
+  },
+  {
+    "page": 28,
+    "file": "photo_1749729011242-04b343bc-70bd-4912-bccb-d047daae3a8e.png",
+    "raw": "Time left 2:54:28 ot Scheduling Algonthms Executes processes In order of amval? Conr. (FCFS) Sche•dubng Next (SIN) Hide 1 10 II 19 28 1 46 1",
+    "parsed": {
+      "fileIndex": 28,
+      "examNumber": 28,
+      "raw": "Time left 2:54:28 ot Scheduling Algonthms Executes processes In order of amval? Conr. (FCFS) Sche•dubng Next (SIN) Hide 1 10 II 19 28 1 46 1",
+      "text": "2:54:28 ot Scheduling Algonthms Executes processes In order of amval?",
+      "options": []
+    }
+  },
+  {
+    "page": 29,
+    "file": "photo_1749729018287-4848a103-840e-4c1e-97dc-d09f360fd0c2.png",
+    "raw": "Time lett 2:54:59 Hide you are developing an appbcanon that •nvolves real-ume data analysis and requires efficvent Insertion and O&mn ot data Which of tollow•ng data structures would be suited tor this application? d Stn O*ue Onyy tree Hash table Next page",
+    "parsed": {
+      "fileIndex": 29,
+      "examNumber": 29,
+      "raw": "Time lett 2:54:59 Hide you are developing an appbcanon that •nvolves real-ume data analysis and requires efficvent Insertion and O&mn ot data Which of tollow•ng data structures would be suited tor this application? d Stn O*ue Onyy tree Hash table Next page",
+      "text": "Time lett 2:54:59 you are developing an appbcanon that •nvolves real-ume data analysis and requires efficvent Insertion and O&mn ot data Which of tollow•ng data structures would be suited tor this application?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Stn"
+        },
+        {
+          "key": "B",
+          "text": "O*ue"
+        },
+        {
+          "key": "C",
+          "text": "Onyy tree"
+        },
+        {
+          "key": "D",
+          "text": "Hash table"
+        }
+      ]
+    }
+  },
+  {
+    "page": 30,
+    "file": "photo_1749729023044-feaf9332-19c5-47a7-bcc1-a898abf5a43a.png",
+    "raw": "Time left 2:55:14 Wtv€h one ot the followjng Vulnerability Injects JavaScnpt to steal user data. ) a. Insecure b, Cross-Site Scnpunq (XSS) d- Buttet Overfbw Next Hide",
+    "parsed": {
+      "fileIndex": 30,
+      "examNumber": 30,
+      "raw": "Time left 2:55:14 Wtv€h one ot the followjng Vulnerability Injects JavaScnpt to steal user data. ) a. Insecure b, Cross-Site Scnpunq (XSS) d- Buttet Overfbw Next Hide",
+      "text": "2:55:14 Wtv€h one ot the followjng Vulnerability Injects JavaScnpt to steal user data. )",
+      "options": []
+    }
+  },
+  {
+    "page": 31,
+    "file": "photo_1749729027868-4615d0a2-0f62-44e3-acb0-f051b4d08de1.png",
+    "raw": "Exam na a so-.•es real world",
+    "parsed": {
+      "fileIndex": 31,
+      "examNumber": 31,
+      "raw": "Exam na a so-.•es real world",
+      "text": "Exam na a so-.•es real world",
+      "options": []
+    }
+  },
+  {
+    "page": 32,
+    "file": "photo_1749729032492-a018641d-d7d1-443a-8313-182e5a2dcda0.png",
+    "raw": "Back Tiff Question 69 What is the primary role of CSS in web development? Not yet answered O Ma&ed out of O O Flag question O a. b. c. d. To structure the webpage content To style and layout the webpage elements To add interactivity to the page To interact with the server",
+    "parsed": {
+      "fileIndex": 32,
+      "examNumber": 69,
+      "raw": "Back Tiff Question 69 What is the primary role of CSS in web development? Not yet answered O Ma&ed out of O O Flag question O a. b. c. d. To structure the webpage content To style and layout the webpage elements To add interactivity to the page To interact with the server",
+      "text": "Tiff Question 69 What is the primary role of CSS in web development?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To structure the webpage content"
+        },
+        {
+          "key": "B",
+          "text": "To style and layout the webpage elements"
+        },
+        {
+          "key": "C",
+          "text": "To add interactivity to the page"
+        },
+        {
+          "key": "D",
+          "text": "To interact with the server"
+        }
+      ]
+    }
+  },
+  {
+    "page": 33,
+    "file": "photo_1749729036616-d53e6d4e-7b05-4097-be63-3eb86e46c13a.png",
+    "raw": "68 Prev@us page Which one of the followtng tYJrs of firewall Tracks active connections and allows only legitimate traffic? Proxy firewall Cloud-Based Firewall Stateful Firewall Packet Filtenng firewall Next page",
+    "parsed": {
+      "fileIndex": 33,
+      "examNumber": 33,
+      "raw": "68 Prev@us page Which one of the followtng tYJrs of firewall Tracks active connections and allows only legitimate traffic? Proxy firewall Cloud-Based Firewall Stateful Firewall Packet Filtenng firewall Next page",
+      "text": "68 Prev@us page Which one of the followtng tYJrs of firewall Tracks active connections and allows only legitimate traffic?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Proxy firewall Cloud-Based"
+        },
+        {
+          "key": "B",
+          "text": "Firewall Stateful"
+        },
+        {
+          "key": "C",
+          "text": "Firewall Packet"
+        },
+        {
+          "key": "D",
+          "text": "Filtenng firewall"
+        }
+      ]
+    }
+  },
+  {
+    "page": 34,
+    "file": "photo_1749729042958-82fb7f2a-67ff-477c-bb88-98900908fa48.png",
+    "raw": "Quetion 67 Not Muee•d Out Of quet»on Pre•nous page - Which one of the following incident requires immediate action (e.g., system failure)? High Low Medium Cnucal",
+    "parsed": {
+      "fileIndex": 34,
+      "examNumber": 67,
+      "raw": "Quetion 67 Not Muee•d Out Of quet»on Pre•nous page - Which one of the following incident requires immediate action (e.g., system failure)? High Low Medium Cnucal",
+      "text": "Not Muee•d Out Of quet»on Pre•nous page - Which one of the following incident requires immediate action (e.g., system failure)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "High"
+        },
+        {
+          "key": "B",
+          "text": "Low"
+        },
+        {
+          "key": "C",
+          "text": "Medium"
+        },
+        {
+          "key": "D",
+          "text": "Cnucal"
+        }
+      ]
+    }
+  },
+  {
+    "page": 35,
+    "file": "photo_1749729047482-29326708-9015-430d-b1c9-37bdddc6dbea.png",
+    "raw": "Question 66 Not yet Marted out of question Prevvous page Time left 2:56:55 Which one of the following is the purpose of AJAX in web development? To handle server-side database interactions To create static HTML pages To make asynchronous requests to the server and uvxiate the page dynamically To apply styles to HTML elements Next p",
+    "parsed": {
+      "fileIndex": 35,
+      "examNumber": 66,
+      "raw": "Question 66 Not yet Marted out of question Prevvous page Time left 2:56:55 Which one of the following is the purpose of AJAX in web development? To handle server-side database interactions To create static HTML pages To make asynchronous requests to the server and uvxiate the page dynamically To apply styles to HTML elements Next p",
+      "text": "question Prevvous page 2:56:55 Which one of the following is the purpose of AJAX in web development?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To handle server-side database interactions"
+        },
+        {
+          "key": "B",
+          "text": "To create static HTML pages"
+        },
+        {
+          "key": "C",
+          "text": "To make asynchronous requests to the server and uvxiate the page dynamically"
+        },
+        {
+          "key": "D",
+          "text": "To apply styles to HTML elements Next p"
+        }
+      ]
+    }
+  },
+  {
+    "page": 36,
+    "file": "photo_1749729051947-c3e69241-9217-42b8-b940-b3ca21f5e77c.png",
+    "raw": "Time left 2:57:18 Hide Which one of the following obJect oriented feature restricts direct access to certain details, ensuring data security and integnty? Polymorphism Encapsulation Inheritance Abstraction Next page",
+    "parsed": {
+      "fileIndex": 36,
+      "examNumber": 36,
+      "raw": "Time left 2:57:18 Hide Which one of the following obJect oriented feature restricts direct access to certain details, ensuring data security and integnty? Polymorphism Encapsulation Inheritance Abstraction Next page",
+      "text": "2:57:18 Which one of the following obJect oriented feature restricts direct access to certain details, ensuring data security and integnty?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Polymorphism"
+        },
+        {
+          "key": "B",
+          "text": "Encapsulation"
+        },
+        {
+          "key": "C",
+          "text": "Inheritance"
+        },
+        {
+          "key": "D",
+          "text": "Abstraction"
+        }
+      ]
+    }
+  },
+  {
+    "page": 37,
+    "file": "photo_1749729057305-b83e94eb-1c76-4a95-904d-f916d1f40e2e.png",
+    "raw": "Time left Hide Which of the following activity is not conducted in software planning? Organizational and Resource Planning Managing Stage Boundanes Cost Estimation and Budgeting ProJect Plan Development and Execution Ptev•ou•. Next",
+    "parsed": {
+      "fileIndex": 37,
+      "examNumber": 64,
+      "raw": "Time left Hide Which of the following activity is not conducted in software planning? Organizational and Resource Planning Managing Stage Boundanes Cost Estimation and Budgeting ProJect Plan Development and Execution Ptev•ou•. Next",
+      "text": "Which of the following activity is not conducted in software planning?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Organizational and Resource Planning"
+        },
+        {
+          "key": "B",
+          "text": "Managing Stage Boundanes Cost"
+        },
+        {
+          "key": "C",
+          "text": "Estimation and Budgeting ProJect Plan"
+        },
+        {
+          "key": "D",
+          "text": "Development and Execution Ptev•ou•. Next"
+        }
+      ]
+    }
+  },
+  {
+    "page": 38,
+    "file": "photo_1749729062529-de589ca3-9ca5-406d-b515-e7d8d7758988.png",
+    "raw": "Question 63 Kot yet Myted out of F question Previous page Time left Which of the following project management tool is used for management? Critical path analysis Gantt Chart Net present value Work breakdown structures",
+    "parsed": {
+      "fileIndex": 38,
+      "examNumber": 63,
+      "raw": "Question 63 Kot yet Myted out of F question Previous page Time left Which of the following project management tool is used for management? Critical path analysis Gantt Chart Net present value Work breakdown structures",
+      "text": "Kot yet Myted out of F question Which of the following project management tool is used for management?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Critical path analysis"
+        },
+        {
+          "key": "B",
+          "text": "Gantt Chart"
+        },
+        {
+          "key": "C",
+          "text": "Net present value"
+        },
+        {
+          "key": "D",
+          "text": "Work breakdown structures"
+        }
+      ]
+    }
+  },
+  {
+    "page": 39,
+    "file": "photo_1749729069340-43396b4c-a838-47be-937c-d8f24b3521e3.png",
+    "raw": "MoEEP Question 62 yet MAed Out of Prev•ous page Time left Which of the following is NOT considered as the state-of-the-art software prcxess model? Extreme Programmvng (XP) Waterfall Agile Model Sptral model Hide Next page 19 28 37",
+    "parsed": {
+      "fileIndex": 39,
+      "examNumber": 62,
+      "raw": "MoEEP Question 62 yet MAed Out of Prev•ous page Time left Which of the following is NOT considered as the state-of-the-art software prcxess model? Extreme Programmvng (XP) Waterfall Agile Model Sptral model Hide Next page 19 28 37",
+      "text": "yet MAed Out of Prev•ous page Which of the following is NOT considered as the state-of-the-art software prcxess model?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Extreme"
+        },
+        {
+          "key": "B",
+          "text": "Programmvng (XP)"
+        },
+        {
+          "key": "C",
+          "text": "Waterfall Agile Model"
+        },
+        {
+          "key": "D",
+          "text": "Sptral model 19 28 37"
+        }
+      ]
+    }
+  },
+  {
+    "page": 40,
+    "file": "photo_1749729073431-c921b63d-5e66-4773-87ab-7990102bfb0f.png",
+    "raw": "Time left 2:59:00 Hide WI-uch ore of the following process Synchronization Mechanism Ensures only one process accesses a shared resource at a time? Mutex (Mutual Exclusion Locks) Semaphores Read-Write Locks Monrtors and Condition Variables Next page",
+    "parsed": {
+      "fileIndex": 40,
+      "examNumber": 40,
+      "raw": "Time left 2:59:00 Hide WI-uch ore of the following process Synchronization Mechanism Ensures only one process accesses a shared resource at a time? Mutex (Mutual Exclusion Locks) Semaphores Read-Write Locks Monrtors and Condition Variables Next page",
+      "text": "2:59:00 WI-uch ore of the following process Synchronization Mechanism Ensures only one process accesses a shared resource at a time?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Mutex (Mutual"
+        },
+        {
+          "key": "B",
+          "text": "Exclusion Locks) Semaphores"
+        },
+        {
+          "key": "C",
+          "text": "Read-Write Locks Monrtors and"
+        },
+        {
+          "key": "D",
+          "text": "Condition Variables"
+        }
+      ]
+    }
+  },
+  {
+    "page": 41,
+    "file": "photo_1749729077621-b5660569-61ae-4c2f-8b72-a420ac0b6b99.png",
+    "raw": "59 out of left What ts the pnmary focus of refactonng in software development? Rewnting the entire software to improve its performance Enhancing the external user interface Adding new functionalities Improving internal code structure without changing external behavior Next p",
+    "parsed": {
+      "fileIndex": 41,
+      "examNumber": 59,
+      "raw": "59 out of left What ts the pnmary focus of refactonng in software development? Rewnting the entire software to improve its performance Enhancing the external user interface Adding new functionalities Improving internal code structure without changing external behavior Next p",
+      "text": "?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Rewnting the entire software to improve its performance"
+        },
+        {
+          "key": "B",
+          "text": "Enhancing the external user interface Adding new functionalities"
+        },
+        {
+          "key": "C",
+          "text": "Improving internal code structure without changing external behavior"
+        },
+        {
+          "key": "D",
+          "text": "Next p"
+        }
+      ]
+    }
+  },
+  {
+    "page": 42,
+    "file": "photo_1749729082294-2f4307e7-6dce-4625-b76c-5fd7fb837cdf.png",
+    "raw": "n 58 Time left 2:59:45 Hide Whtch of the following is correct regarding the difference between breadth first search and depth first search? Breadth first search require less memory compare to depth first search. Breadth first search is slower than depth first search Breadth first search is more faster than depth first search Depth first search is useful in finding shortest path, while breadth first search is not. Next page",
+    "parsed": {
+      "fileIndex": 42,
+      "examNumber": 58,
+      "raw": "n 58 Time left 2:59:45 Hide Whtch of the following is correct regarding the difference between breadth first search and depth first search? Breadth first search require less memory compare to depth first search. Breadth first search is slower than depth first search Breadth first search is more faster than depth first search Depth first search is useful in finding shortest path, while breadth first search is not. Next page",
+      "text": "n 58 2:59:45 Whtch of the following is correct regarding the difference between breadth first search and depth first search?",
+      "options": []
+    }
+  },
+  {
+    "page": 43,
+    "file": "photo_1749729090415-1d3c45b7-ac9c-4ebc-8cc1-0ef97b1a9d2d.png",
+    "raw": "57 Which of the following is not user defined data tyrr? Structure Umon Enumeration integer Next page",
+    "parsed": {
+      "fileIndex": 43,
+      "examNumber": 57,
+      "raw": "57 Which of the following is not user defined data tyrr? Structure Umon Enumeration integer Next page",
+      "text": "57 Which of the following is not user defined data tyrr?",
+      "options": []
+    }
+  },
+  {
+    "page": 44,
+    "file": "photo_1749729096115-70cdc629-f14c-44af-95f6-5f43bb7ec4c9.png",
+    "raw": "2 Time left 3m:28 , 56 Write to find the sum of the first n natural numbers (I to n). What is the correct formula to calculate this sum ? 64 3 66 22 67",
+    "parsed": {
+      "fileIndex": 44,
+      "examNumber": 56,
+      "raw": "2 Time left 3m:28 , 56 Write to find the sum of the first n natural numbers (I to n). What is the correct formula to calculate this sum ? 64 3 66 22 67",
+      "text": "2 3m:28 , 56 Write to find the sum of the first n natural numbers (I to n). What is the correct formula to calculate this sum ?",
+      "options": []
+    }
+  },
+  {
+    "page": 45,
+    "file": "photo_1749729100347-9e389e89-67ed-4245-a959-94be849560bc.png",
+    "raw": "Which of the followqng topology. the central server will provide the connectivity for all pair of nodes willing to commumcate with each other? Mesh Star mng Next 28 46",
+    "parsed": {
+      "fileIndex": 45,
+      "examNumber": 45,
+      "raw": "Which of the followqng topology. the central server will provide the connectivity for all pair of nodes willing to commumcate with each other? Mesh Star mng Next 28 46",
+      "text": "Which of the followqng topology. the central server will provide the connectivity for all pair of nodes willing to commumcate with each other?",
+      "options": []
+    }
+  },
+  {
+    "page": 46,
+    "file": "photo_1749729104795-8ef7c707-e402-4a61-8742-d3dba616ef72.png",
+    "raw": "54 Which one of the following a code smell in software? Frequent ccxle renews Consistent narung conventions High code test coverage Long mettx»d length Next page",
+    "parsed": {
+      "fileIndex": 46,
+      "examNumber": 54,
+      "raw": "54 Which one of the following a code smell in software? Frequent ccxle renews Consistent narung conventions High code test coverage Long mettx»d length Next page",
+      "text": "54 Which one of the following a code smell in software?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Frequent ccxle renews"
+        },
+        {
+          "key": "B",
+          "text": "Consistent narung conventions"
+        },
+        {
+          "key": "C",
+          "text": "High code test coverage"
+        },
+        {
+          "key": "D",
+          "text": "Long mettx»d length"
+        }
+      ]
+    }
+  },
+  {
+    "page": 47,
+    "file": "photo_1749729108885-f7c709c0-2a0b-40b2-9683-618880e37a8e.png",
+    "raw": "Time left 3:01:25 Hide Among the listed component of Android Application which one is helps to declare permissions such as accessing sensitive data (GPS. Camera, and Storage)? Views and ViewGroups Content Provider Intents AndroidMamfest.xml Next page 10 19 28 37 46 55",
+    "parsed": {
+      "fileIndex": 47,
+      "examNumber": 47,
+      "raw": "Time left 3:01:25 Hide Among the listed component of Android Application which one is helps to declare permissions such as accessing sensitive data (GPS. Camera, and Storage)? Views and ViewGroups Content Provider Intents AndroidMamfest.xml Next page 10 19 28 37 46 55",
+      "text": "3:01:25 Among the listed component of Android Application which one is helps to declare permissions such as accessing sensitive data (GPS. Camera, and Storage)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Views and ViewGroups"
+        },
+        {
+          "key": "B",
+          "text": "Content Provider"
+        },
+        {
+          "key": "C",
+          "text": "Intents"
+        },
+        {
+          "key": "D",
+          "text": "AndroidMamfest.xml 10 19 28 37 46 55"
+        }
+      ]
+    }
+  },
+  {
+    "page": 48,
+    "file": "photo_1749729113016-49c19288-0b35-4064-8ab3-87eb52d93c1c.png",
+    "raw": "Hide — 52 Which one of the followtng deadlock condition occurs when a process holding at least one resource is waiting to acquire additional resources held by other processes? Hold and Walt No Preemption Mutual Exclusion Circular Walt Next page",
+    "parsed": {
+      "fileIndex": 48,
+      "examNumber": 52,
+      "raw": "Hide — 52 Which one of the followtng deadlock condition occurs when a process holding at least one resource is waiting to acquire additional resources held by other processes? Hold and Walt No Preemption Mutual Exclusion Circular Walt Next page",
+      "text": "— 52 Which one of the followtng deadlock condition occurs when a process holding at least one resource is waiting to acquire additional resources held by other processes?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hold and Walt No"
+        },
+        {
+          "key": "B",
+          "text": "Preemption"
+        },
+        {
+          "key": "C",
+          "text": "Mutual Exclusion"
+        },
+        {
+          "key": "D",
+          "text": "Circular Walt"
+        }
+      ]
+    }
+  },
+  {
+    "page": 49,
+    "file": "photo_1749729121062-a4112484-0031-47a3-a806-ff5e7281ec23.png",
+    "raw": ".51 Time left Which of the following is the correct way to declare a function that takes two integers and returns their sum? sum(tnt a, int b) { return a + b; ) int sum(a, b) ( return a + b: } sum0nt a, b) { return a + b: } int sum0nt a, Int b) { return a + b; ) Next",
+    "parsed": {
+      "fileIndex": 49,
+      "examNumber": 51,
+      "raw": ".51 Time left Which of the following is the correct way to declare a function that takes two integers and returns their sum? sum(tnt a, int b) { return a + b; ) int sum(a, b) ( return a + b: } sum0nt a, b) { return a + b: } int sum0nt a, Int b) { return a + b; ) Next",
+      "text": ".51 Which of the following is the correct way to declare a function that takes two integers and returns their sum?",
+      "options": []
+    }
+  },
+  {
+    "page": 50,
+    "file": "photo_1749729126821-7a8fdcc1-9107-47ab-a87f-3d4bcd2e3d12.png",
+    "raw": "Qrstion 50 hot yet uned out of - Prevoas page Time left Which one of the following is used for State management in web applications development? React Router Redux Axios Content Delivery Network",
+    "parsed": {
+      "fileIndex": 50,
+      "examNumber": 50,
+      "raw": "Qrstion 50 hot yet uned out of - Prevoas page Time left Which one of the following is used for State management in web applications development? React Router Redux Axios Content Delivery Network",
+      "text": "Qrstion 50 hot yet uned out of - Prevoas page Which one of the following is used for State management in web applications development?",
+      "options": [
+        {
+          "key": "A",
+          "text": "React Router"
+        },
+        {
+          "key": "B",
+          "text": "Redux Axios"
+        },
+        {
+          "key": "C",
+          "text": "Content Delivery"
+        },
+        {
+          "key": "D",
+          "text": "Network"
+        }
+      ]
+    }
+  },
+  {
+    "page": 51,
+    "file": "photo_1749729130911-74749e31-f389-46d3-bff8-5bf601da54ab.png",
+    "raw": "49 Why learntng Artifiaal Intelligence is so Important in todays world? Learn•ng A1 once ts enough to know all future developments. At technologies have no Impact on human A1 is a rapidly evolving field. requinng continuous learning to stay A1 has limited applications. so further leaming is necessary. Next",
+    "parsed": {
+      "fileIndex": 51,
+      "examNumber": 49,
+      "raw": "49 Why learntng Artifiaal Intelligence is so Important in todays world? Learn•ng A1 once ts enough to know all future developments. At technologies have no Impact on human A1 is a rapidly evolving field. requinng continuous learning to stay A1 has limited applications. so further leaming is necessary. Next",
+      "text": "49 Why learntng Artifiaal Intelligence is so Important in todays world?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Learn•ng A1 once ts enough to know all future developments. At technologies have no"
+        },
+        {
+          "key": "B",
+          "text": "Impact on human"
+        },
+        {
+          "key": "C",
+          "text": "A1 is a rapidly evolving field. requinng continuous learning to stay"
+        },
+        {
+          "key": "D",
+          "text": "A1 has limited applications. so further leaming is necessary. Next"
+        }
+      ]
+    }
+  },
+  {
+    "page": 52,
+    "file": "photo_1749729134642-2700f226-d8bb-4cf3-941d-4e6a86604bc5.png",
+    "raw": "Time left 303:08 Hide 48 ird wt of Which sorting algorithm has the worst-case time complexity of O (n2)? Merge Sort Bubble Sort Quick Sort Heap Sort Next page",
+    "parsed": {
+      "fileIndex": 52,
+      "examNumber": 48,
+      "raw": "Time left 303:08 Hide 48 ird wt of Which sorting algorithm has the worst-case time complexity of O (n2)? Merge Sort Bubble Sort Quick Sort Heap Sort Next page",
+      "text": "303:08 48 ird wt of Which sorting algorithm has the worst-case time complexity of (n2)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Merge Sort"
+        },
+        {
+          "key": "B",
+          "text": "Bubble Sort"
+        },
+        {
+          "key": "C",
+          "text": "Quick Sort"
+        },
+        {
+          "key": "D",
+          "text": "Heap Sort"
+        }
+      ]
+    }
+  },
+  {
+    "page": 53,
+    "file": "photo_1749729138973-ec1f3865-33cf-4bcb-879f-17d737f92d26.png",
+    "raw": "A software company wants to implements a new data policy for newly developed system. The most effective way to ensure employee awareness and compliance IS to: Rety on employees to read and understand the gx)licy on thetr own time. Delegate responsibility for policy enforcement to IT security personnel. Provide comprehensrve training on the policy and its importance. Dtstnbute the policy document Vla email and require a signature for receipt. Next page 19 28",
+    "parsed": {
+      "fileIndex": 53,
+      "examNumber": 53,
+      "raw": "A software company wants to implements a new data policy for newly developed system. The most effective way to ensure employee awareness and compliance IS to: Rety on employees to read and understand the gx)licy on thetr own time. Delegate responsibility for policy enforcement to IT security personnel. Provide comprehensrve training on the policy and its importance. Dtstnbute the policy document Vla email and require a signature for receipt. Next page 19 28",
+      "text": "A software company wants to implements a new data policy for newly developed system. The most effective way to ensure employee awareness and compliance IS to: Rety on employees to read and understand the gx)licy on thetr own time. Delegate responsibility for policy enforcement to IT security personnel. Provide comprehensrve training on the policy and its importance. Dtstnbute the policy document Vla email and require a signature for receipt. 19 28",
+      "options": []
+    }
+  },
+  {
+    "page": 54,
+    "file": "photo_1749729145559-98de1127-0909-4271-8280-ba946f1d352f.png",
+    "raw": "Time left ion 46 Which of the following is a type of A1 agent that maintains an intemal model of the world, which is updated by percepts as they are received? Simple reflex agent Learning agent Model-based agent Utility-based agent Hide Next page",
+    "parsed": {
+      "fileIndex": 54,
+      "examNumber": 46,
+      "raw": "Time left ion 46 Which of the following is a type of A1 agent that maintains an intemal model of the world, which is updated by percepts as they are received? Simple reflex agent Learning agent Model-based agent Utility-based agent Hide Next page",
+      "text": "ion 46 Which of the following is a type of A1 agent that maintains an intemal model of the world, which is updated by percepts as they are received?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Simple reflex agent"
+        },
+        {
+          "key": "B",
+          "text": "Learning agent"
+        },
+        {
+          "key": "C",
+          "text": "Model-based agent"
+        },
+        {
+          "key": "D",
+          "text": "Utility-based agent"
+        }
+      ]
+    }
+  },
+  {
+    "page": 55,
+    "file": "photo_1749729152970-63edc870-e018-4a59-8b67-71628c90d3df.png",
+    "raw": "45 Which one of the following algonthm would you use to check if a number is even or odd? If-else statement Merge sort Sorting algorithm Binary search",
+    "parsed": {
+      "fileIndex": 55,
+      "examNumber": 45,
+      "raw": "45 Which one of the following algonthm would you use to check if a number is even or odd? If-else statement Merge sort Sorting algorithm Binary search",
+      "text": "45 Which one of the following algonthm would you use to check if a number is even or odd?",
+      "options": [
+        {
+          "key": "A",
+          "text": "If-else statement"
+        },
+        {
+          "key": "B",
+          "text": "Merge sort"
+        },
+        {
+          "key": "C",
+          "text": "Sorting algorithm"
+        },
+        {
+          "key": "D",
+          "text": "Binary search"
+        }
+      ]
+    }
+  },
+  {
+    "page": 56,
+    "file": "photo_1749729157260-194ba9d6-d2b4-49be-b91b-887a276ee9b6.png",
+    "raw": "Time left 3:04:32 Which of the following layer tn the TCP/IP model provides a logical connection between a source host and a destination host? Data link Network Transport Application Hi",
+    "parsed": {
+      "fileIndex": 56,
+      "examNumber": 56,
+      "raw": "Time left 3:04:32 Which of the following layer tn the TCP/IP model provides a logical connection between a source host and a destination host? Data link Network Transport Application Hi",
+      "text": "3:04:32 Which of the following layer tn the TCP/IP model provides a logical connection between a source host and a destination host?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Data link"
+        },
+        {
+          "key": "B",
+          "text": "Network"
+        },
+        {
+          "key": "C",
+          "text": "Transport"
+        },
+        {
+          "key": "D",
+          "text": "Application Hi"
+        }
+      ]
+    }
+  },
+  {
+    "page": 57,
+    "file": "photo_1749729163987-0a806e8f-0975-4f1b-bc9a-af4f46d01846.png",
+    "raw": "tion 43 ced out of Time left What is the purpose of a foreign key in database design? To improve indexing performance. To enforce referential integrity between related tables To store duplicate records. To uniquely identify a record within a table.",
+    "parsed": {
+      "fileIndex": 57,
+      "examNumber": 43,
+      "raw": "tion 43 ced out of Time left What is the purpose of a foreign key in database design? To improve indexing performance. To enforce referential integrity between related tables To store duplicate records. To uniquely identify a record within a table.",
+      "text": "tion 43 ced out of What is the purpose of a foreign key in database design?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To improve indexing performance"
+        },
+        {
+          "key": "B",
+          "text": "To enforce referential integrity between related tables"
+        },
+        {
+          "key": "C",
+          "text": "To store duplicate records"
+        },
+        {
+          "key": "D",
+          "text": "To uniquely identify a record within a table"
+        }
+      ]
+    }
+  },
+  {
+    "page": 58,
+    "file": "photo_1749729169203-655019d5-054d-49a5-a473-7f0bf418acaf.png",
+    "raw": "Question 42 •ret out of Preveous page Time left What IS the pnmary method used to estimate the maintenance effort for software systems? unes of (LOC) Number of security patches required Function Potnts (FP) Annual Maintenance Cost (AMC) Next p",
+    "parsed": {
+      "fileIndex": 58,
+      "examNumber": 42,
+      "raw": "Question 42 •ret out of Preveous page Time left What IS the pnmary method used to estimate the maintenance effort for software systems? unes of (LOC) Number of security patches required Function Potnts (FP) Annual Maintenance Cost (AMC) Next p",
+      "text": "•ret out of Preveous page What IS the pnmary method used to estimate the maintenance effort for software systems?",
+      "options": [
+        {
+          "key": "A",
+          "text": "unes of (LOC)"
+        },
+        {
+          "key": "B",
+          "text": "Number of security patches required"
+        },
+        {
+          "key": "C",
+          "text": "Function Potnts (FP) Annual"
+        },
+        {
+          "key": "D",
+          "text": "Maintenance Cost (AMC) Next p"
+        }
+      ]
+    }
+  },
+  {
+    "page": 59,
+    "file": "photo_1749729178685-f65da75b-0a9c-4ab8-8c93-6615fc0f2f3c.png",
+    "raw": "on 41 Which of the following CSS style properties are inherited, meaning they are transmitted from parent to child elements? Margins style Height style Borders style Colors style Next pa page",
+    "parsed": {
+      "fileIndex": 59,
+      "examNumber": 41,
+      "raw": "on 41 Which of the following CSS style properties are inherited, meaning they are transmitted from parent to child elements? Margins style Height style Borders style Colors style Next pa page",
+      "text": "on 41 Which of the following CSS style properties are inherited, meaning they are transmitted from parent to child elements?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Margins style"
+        },
+        {
+          "key": "B",
+          "text": "Height style"
+        },
+        {
+          "key": "C",
+          "text": "Borders style"
+        },
+        {
+          "key": "D",
+          "text": "Colors style Next pa page"
+        }
+      ]
+    }
+  },
+  {
+    "page": 60,
+    "file": "photo_1749729184344-bee8713a-1450-4dbe-9f6a-4bc5ba94b581.png",
+    "raw": "Time left Which one of the following statement is TRUE? Hide O a. An overnding method can declare that it throws checked exceptions that are not thrown by the method it is overriding. Pnvate methods cannot be overridden in subclasses. The parameter list of an overriding method can be a subset of the parameter list of the method that it is overnding. A subclass can override any method in a superclass.",
+    "parsed": {
+      "fileIndex": 60,
+      "examNumber": 60,
+      "raw": "Time left Which one of the following statement is TRUE? Hide O a. An overnding method can declare that it throws checked exceptions that are not thrown by the method it is overriding. Pnvate methods cannot be overridden in subclasses. The parameter list of an overriding method can be a subset of the parameter list of the method that it is overnding. A subclass can override any method in a superclass.",
+      "text": "Which one of the following statement is TRUE?",
+      "options": []
+    }
+  },
+  {
+    "page": 61,
+    "file": "photo_1749729189418-393e709f-7ecf-4e14-a24a-a812e399dcc9.png",
+    "raw": "Time left Which method IS used In JavaScnpt to change the content of an HTML element dynamically? document.M1teO wtndow.alert0• dcxument.getElementByldO.innerHTML console.logO Hide Next page",
+    "parsed": {
+      "fileIndex": 61,
+      "examNumber": 61,
+      "raw": "Time left Which method IS used In JavaScnpt to change the content of an HTML element dynamically? document.M1teO wtndow.alert0• dcxument.getElementByldO.innerHTML console.logO Hide Next page",
+      "text": "Which method IS used In JavaScnpt to change the content of an HTML element dynamically?",
+      "options": []
+    }
+  },
+  {
+    "page": 62,
+    "file": "photo_1749729194977-2a134ad1-7799-40e0-a5d3-4898da290b59.png",
+    "raw": "Time left Which one of the following types of machine leaming algorithms is best suited for demand forecasting and Predictive maintenance problems? O O O O a. b. d. Time-Series Forecasting Regression Classification Clustering",
+    "parsed": {
+      "fileIndex": 62,
+      "examNumber": 62,
+      "raw": "Time left Which one of the following types of machine leaming algorithms is best suited for demand forecasting and Predictive maintenance problems? O O O O a. b. d. Time-Series Forecasting Regression Classification Clustering",
+      "text": "Which one of the following types of machine leaming algorithms is best suited for demand forecasting and Predictive maintenance problems?",
+      "options": [
+        {
+          "key": "A",
+          "text": "a. b. d. Time-Series"
+        },
+        {
+          "key": "B",
+          "text": "Forecasting Regression"
+        },
+        {
+          "key": "C",
+          "text": "Classification"
+        },
+        {
+          "key": "D",
+          "text": "Clustering"
+        }
+      ]
+    }
+  },
+  {
+    "page": 63,
+    "file": "photo_1749729199175-c86e5b22-8b5b-4cdd-9760-a0df4aa61d17.png",
+    "raw": "37 ut of us page Which one of the followtng Static software Testing type is a formal and well-defined type of static test which was first introduced in 1972 in IBM by Michael Fagan? Inspection Technical review Walk-through Informal review Next page",
+    "parsed": {
+      "fileIndex": 63,
+      "examNumber": 37,
+      "raw": "37 ut of us page Which one of the followtng Static software Testing type is a formal and well-defined type of static test which was first introduced in 1972 in IBM by Michael Fagan? Inspection Technical review Walk-through Informal review Next page",
+      "text": "37 ut of us page Which one of the followtng Static software Testing type is a formal and well-defined type of static test which was first introduced in 1972 in IBM by Michael Fagan?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Inspection"
+        },
+        {
+          "key": "B",
+          "text": "Technical review"
+        },
+        {
+          "key": "C",
+          "text": "Walk-through"
+        },
+        {
+          "key": "D",
+          "text": "Informal review"
+        }
+      ]
+    }
+  },
+  {
+    "page": 64,
+    "file": "photo_1749729205601-63adcfce-83d2-44ee-b853-eb9f3ba15e93.png",
+    "raw": "Suppose you are destgrung a data center network that requires minimal latency and high redundancy. Which topology would best meet the requirement? d. Hybod",
+    "parsed": {
+      "fileIndex": 64,
+      "examNumber": 64,
+      "raw": "Suppose you are destgrung a data center network that requires minimal latency and high redundancy. Which topology would best meet the requirement? d. Hybod",
+      "text": "Suppose you are destgrung a data center network that requires minimal latency and high redundancy. Which topology would best meet the requirement?",
+      "options": []
+    }
+  },
+  {
+    "page": 65,
+    "file": "photo_1749729210434-9da6d2ef-c468-47d3-ba91-b44a63aeea03.png",
+    "raw": "Time left 5 Which one of the following levels of Software Testing test interactions between modules? of System Testing Unit Testing Integration Testing User Acceptance Testing",
+    "parsed": {
+      "fileIndex": 65,
+      "examNumber": 5,
+      "raw": "Time left 5 Which one of the following levels of Software Testing test interactions between modules? of System Testing Unit Testing Integration Testing User Acceptance Testing",
+      "text": "5 Which one of the following levels of Software Testing test interactions between modules?",
+      "options": [
+        {
+          "key": "A",
+          "text": "of System Testing Unit"
+        },
+        {
+          "key": "B",
+          "text": "Testing Integration"
+        },
+        {
+          "key": "C",
+          "text": "Testing User"
+        },
+        {
+          "key": "D",
+          "text": "Acceptance Testing"
+        }
+      ]
+    }
+  },
+  {
+    "page": 66,
+    "file": "photo_1749729215675-d144e0ef-f739-464a-8074-1d685246372a.png",
+    "raw": "Question 34 Not vet Marted out of Time left 3:08 Which one of the following types of Machine Leaming Learns from labeled data? Semi-Supervised Leaming Unsupervised Learning Reinforcement Learning Supemsed Learning",
+    "parsed": {
+      "fileIndex": 66,
+      "examNumber": 34,
+      "raw": "Question 34 Not vet Marted out of Time left 3:08 Which one of the following types of Machine Leaming Learns from labeled data? Semi-Supervised Leaming Unsupervised Learning Reinforcement Learning Supemsed Learning",
+      "text": "Not vet 3:08 Which one of the following types of Machine Leaming Learns from labeled data?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Semi-Supervised"
+        },
+        {
+          "key": "B",
+          "text": "Leaming Unsupervised"
+        },
+        {
+          "key": "C",
+          "text": "Learning Reinforcement"
+        },
+        {
+          "key": "D",
+          "text": "Learning Supemsed Learning"
+        }
+      ]
+    }
+  },
+  {
+    "page": 67,
+    "file": "photo_1749729220224-01523304-ce1a-4e3c-a89d-7528f285fb1c.png",
+    "raw": "Time left Which one of the following Malware Type Encrypts user files and demands payment 33 Jt of s page O O O O a. b. c. d. Viruses Ransomware Rootkits Worms Hide Next page",
+    "parsed": {
+      "fileIndex": 67,
+      "examNumber": 33,
+      "raw": "Time left Which one of the following Malware Type Encrypts user files and demands payment 33 Jt of s page O O O O a. b. c. d. Viruses Ransomware Rootkits Worms Hide Next page",
+      "text": "Which one of the following Malware Type Encrypts user files and demands payment 33 Jt of s page",
+      "options": [
+        {
+          "key": "A",
+          "text": "Viruses"
+        },
+        {
+          "key": "B",
+          "text": "Ransomware"
+        },
+        {
+          "key": "C",
+          "text": "Rootkits"
+        },
+        {
+          "key": "D",
+          "text": "Worms"
+        }
+      ]
+    }
+  },
+  {
+    "page": 68,
+    "file": "photo_1749729224264-a58eabfb-d98b-4082-8fed-fd338e39b748.png",
+    "raw": "Time left 3:08:58 Hide .32 Which one of the following deadlock condition occurs when a resource can only be used by one process at a time? Circular Wait Hold and Walt Mutual Excluston No Preemption Next page",
+    "parsed": {
+      "fileIndex": 68,
+      "examNumber": 32,
+      "raw": "Time left 3:08:58 Hide .32 Which one of the following deadlock condition occurs when a resource can only be used by one process at a time? Circular Wait Hold and Walt Mutual Excluston No Preemption Next page",
+      "text": "3:08:58 .32 Which one of the following deadlock condition occurs when a resource can only be used by one process at a time?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Circular Wait"
+        },
+        {
+          "key": "B",
+          "text": "Hold and Walt Mutual"
+        },
+        {
+          "key": "C",
+          "text": "Excluston No"
+        },
+        {
+          "key": "D",
+          "text": "Preemption"
+        }
+      ]
+    }
+  },
+  {
+    "page": 69,
+    "file": "photo_1749729230473-9dbde587-4968-4853-9364-7024c9068697.png",
+    "raw": "Time left Which of the following is the primary security concern in choosing a web-based solution for a business? yet out of O O O O a. b. c. d. The server of the websites. The choice of JavaScript framework The number of images used on the website Protection against cyber threats like SQL Injection and XSS.",
+    "parsed": {
+      "fileIndex": 69,
+      "examNumber": 30,
+      "raw": "Time left Which of the following is the primary security concern in choosing a web-based solution for a business? yet out of O O O O a. b. c. d. The server of the websites. The choice of JavaScript framework The number of images used on the website Protection against cyber threats like SQL Injection and XSS.",
+      "text": "Which of the following is the primary security concern in choosing a web-based solution for a business?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The server of the websites. The choice of"
+        },
+        {
+          "key": "B",
+          "text": "JavaScript framework"
+        },
+        {
+          "key": "C",
+          "text": "The number of images used on the website"
+        },
+        {
+          "key": "D",
+          "text": "Protection against cyber threats like SQL Injection and XSS"
+        }
+      ]
+    }
+  },
+  {
+    "page": 70,
+    "file": "photo_1749729237008-eb80b3a0-610e-471e-9c75-c7677720ce00.png",
+    "raw": "Time left 3:10:53 Hide Given a complex software development project, how would you design a Work Breakdown Structure (WBS) to ensure efficient task allocation? Focus only on the coding phase while ignoring testing and deployment. Create a hierarchical breakdown of tasks based on project deliverables. Assign all tasks to a single team to ensure consistency. Divide the work into as many random tasks as possible. Next page",
+    "parsed": {
+      "fileIndex": 70,
+      "examNumber": 70,
+      "raw": "Time left 3:10:53 Hide Given a complex software development project, how would you design a Work Breakdown Structure (WBS) to ensure efficient task allocation? Focus only on the coding phase while ignoring testing and deployment. Create a hierarchical breakdown of tasks based on project deliverables. Assign all tasks to a single team to ensure consistency. Divide the work into as many random tasks as possible. Next page",
+      "text": "3:10:53 Given a complex software development project, how would you design a Work Breakdown Structure (WBS) to ensure efficient task allocation?",
+      "options": []
+    }
+  },
+  {
+    "page": 71,
+    "file": "photo_1749729243752-bbb257fe-f9ce-4e35-b96c-f197bde54144.png",
+    "raw": "Time left 3:14:05 Hide Imagtne you have been assigned to schedule a software development project with multiple dependencies. What approach would you take to create an effective timeline? Use a Gantt chart and critical path method to plan dependencies Ignore dependencies and focus only on coding speed Allow developers to choose their own timelines without oversight Assign equal deadlines to all tasks regardless of complexity",
+    "parsed": {
+      "fileIndex": 71,
+      "examNumber": 71,
+      "raw": "Time left 3:14:05 Hide Imagtne you have been assigned to schedule a software development project with multiple dependencies. What approach would you take to create an effective timeline? Use a Gantt chart and critical path method to plan dependencies Ignore dependencies and focus only on coding speed Allow developers to choose their own timelines without oversight Assign equal deadlines to all tasks regardless of complexity",
+      "text": "3:14:05 Imagtne you have been assigned to schedule a software development project with multiple dependencies. What approach would you take to create an effective timeline?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Use a Gantt chart and critical path method to plan dependencies"
+        },
+        {
+          "key": "B",
+          "text": "Ignore dependencies and focus only on coding speed"
+        },
+        {
+          "key": "C",
+          "text": "Allow developers to choose their own timelines without oversight"
+        },
+        {
+          "key": "D",
+          "text": "Assign equal deadlines to all tasks regardless of complexity"
+        }
+      ]
+    }
+  },
+  {
+    "page": 72,
+    "file": "photo_1749729248334-5a6d793b-d94b-4294-8bcc-73c74e811974.png",
+    "raw": "Question yet Mad.ed out Of Previous page Time left Hic Which one of the following is a critical feature when designing for system scalability in a large-scale software system? Using a monolithic codebase for simplicity Limiting API access to avoid traffic Honzontal scaling through independent semces Using a single database for all services Next pag",
+    "parsed": {
+      "fileIndex": 72,
+      "examNumber": 28,
+      "raw": "Question yet Mad.ed out Of Previous page Time left Hic Which one of the following is a critical feature when designing for system scalability in a large-scale software system? Using a monolithic codebase for simplicity Limiting API access to avoid traffic Honzontal scaling through independent semces Using a single database for all services Next pag",
+      "text": "Question yet Mad.ed out Of Hic Which one of the following is a critical feature when designing for system scalability in a large-scale software system?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Using a monolithic codebase for simplicity"
+        },
+        {
+          "key": "B",
+          "text": "Limiting API access to avoid traffic"
+        },
+        {
+          "key": "C",
+          "text": "Honzontal scaling through independent semces"
+        },
+        {
+          "key": "D",
+          "text": "Using a single database for all services Next pag"
+        }
+      ]
+    }
+  },
+  {
+    "page": 73,
+    "file": "photo_1749729253751-2b1d1549-8abb-4b0e-b5d2-efb753b210bc.png",
+    "raw": "Time left 3:16:54 Hide Ethiopian airline wants to optimize flight scheduling to minimize delays. Which algorithm design approach is BEST suited With this task? Sorting flight data by departure time. Implementing a simple linear search for flight numbers. Designing a graph-based algorithm to model flight connections and Randomly assigning flight departure times. Next page",
+    "parsed": {
+      "fileIndex": 73,
+      "examNumber": 73,
+      "raw": "Time left 3:16:54 Hide Ethiopian airline wants to optimize flight scheduling to minimize delays. Which algorithm design approach is BEST suited With this task? Sorting flight data by departure time. Implementing a simple linear search for flight numbers. Designing a graph-based algorithm to model flight connections and Randomly assigning flight departure times. Next page",
+      "text": "3:16:54 Ethiopian airline wants to optimize flight scheduling to minimize delays. Which algorithm design approach is BEST suited With this task?",
+      "options": []
+    }
+  },
+  {
+    "page": 74,
+    "file": "photo_1749729261479-f32c1e16-a8dd-42ac-8fd4-f394bdc3613c.png",
+    "raw": "26 Time left 3:17:07 Which software engtneenng practice focuses on identifying and mitigating potential risks during the development process? Deployment planning Risk management Version control User interface design Next p",
+    "parsed": {
+      "fileIndex": 74,
+      "examNumber": 26,
+      "raw": "26 Time left 3:17:07 Which software engtneenng practice focuses on identifying and mitigating potential risks during the development process? Deployment planning Risk management Version control User interface design Next p",
+      "text": "26 3:17:07 Which software engtneenng practice focuses on identifying and mitigating potential risks during the development process?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Deployment planning"
+        },
+        {
+          "key": "B",
+          "text": "Risk management"
+        },
+        {
+          "key": "C",
+          "text": "Version control"
+        },
+        {
+          "key": "D",
+          "text": "User interface design Next p"
+        }
+      ]
+    }
+  },
+  {
+    "page": 75,
+    "file": "photo_1749729274691-d2296fd8-9f91-4e92-ad9e-b5b973af0fd0.png",
+    "raw": "26 Time left 3:17:07 Which software engtneenng practice focuses on identifying and mitigating potential risks during the development process? Deployment planning Risk management Version control User interface design Next p",
+    "parsed": {
+      "fileIndex": 75,
+      "examNumber": 26,
+      "raw": "26 Time left 3:17:07 Which software engtneenng practice focuses on identifying and mitigating potential risks during the development process? Deployment planning Risk management Version control User interface design Next p",
+      "text": "26 3:17:07 Which software engtneenng practice focuses on identifying and mitigating potential risks during the development process?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Deployment planning"
+        },
+        {
+          "key": "B",
+          "text": "Risk management"
+        },
+        {
+          "key": "C",
+          "text": "Version control"
+        },
+        {
+          "key": "D",
+          "text": "User interface design Next p"
+        }
+      ]
+    }
+  },
+  {
+    "page": 76,
+    "file": "photo_1749729278998-b17174fe-320c-43ff-8bb6-90e7869e1506.png",
+    "raw": "Question 25 Not Mareed out of Time le Which of the following is required by data privacy laws like GDPR and CCPA? O a. Users must be informed about how their data is being used O b. Developers are allowed to collect data without user consent O c. User data must only be stored for 6 months O d. Users must provide anonymous data for app functionality",
+    "parsed": {
+      "fileIndex": 76,
+      "examNumber": 25,
+      "raw": "Question 25 Not Mareed out of Time le Which of the following is required by data privacy laws like GDPR and CCPA? O a. Users must be informed about how their data is being used O b. Developers are allowed to collect data without user consent O c. User data must only be stored for 6 months O d. Users must provide anonymous data for app functionality",
+      "text": "Not Mareed out of Time le Which of the following is required by data privacy laws like GDPR and CCPA?",
+      "options": []
+    }
+  },
+  {
+    "page": 77,
+    "file": "photo_1749729283214-5f63350c-9b03-41b5-bb01-4530dfab1029.png",
+    "raw": "Time left Which of the following is required by data privacy laws like GDPR and CCPA? Users must be informed about how their data is being used Developers are allowed to collect data without user consent User data must only be stored for 6 months Users must provide anonymous data for app functionality Hit Next pag",
+    "parsed": {
+      "fileIndex": 77,
+      "examNumber": 77,
+      "raw": "Time left Which of the following is required by data privacy laws like GDPR and CCPA? Users must be informed about how their data is being used Developers are allowed to collect data without user consent User data must only be stored for 6 months Users must provide anonymous data for app functionality Hit Next pag",
+      "text": "Which of the following is required by data privacy laws like GDPR and CCPA?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Users must be informed about how their data is being used"
+        },
+        {
+          "key": "B",
+          "text": "Developers are allowed to collect data without user consent"
+        },
+        {
+          "key": "C",
+          "text": "User data must only be stored for 6 months"
+        },
+        {
+          "key": "D",
+          "text": "Users must provide anonymous data for app functionality Hit Next pag"
+        }
+      ]
+    }
+  },
+  {
+    "page": 78,
+    "file": "photo_1749729288463-16465f2b-c99c-48be-aa37-274090ea7d37.png",
+    "raw": "Time left 3:18 Which of the following function checks if the end of the file has been reached in C++ file handling? getline0 eof0 close0 seekg0",
+    "parsed": {
+      "fileIndex": 78,
+      "examNumber": 78,
+      "raw": "Time left 3:18 Which of the following function checks if the end of the file has been reached in C++ file handling? getline0 eof0 close0 seekg0",
+      "text": "3:18 Which of the following function checks if the end of the file has been reached in C++ file handling?",
+      "options": []
+    }
+  },
+  {
+    "page": 79,
+    "file": "photo_1749729292386-dcadb176-1480-47d1-9978-93b0f4c5f368.png",
+    "raw": "Time left Imagine you want to design a database to store information about order in online shopping. Which tables and relationships would be most appropriate? One table With all products details (number, name, type, customers. etc.) Muluple tables With redundant data entries for faster searching Separate tables for Products (number, name) and Customers (name), with relationships. Separate tables for Products (number), Customers (name), with no relationships",
+    "parsed": {
+      "fileIndex": 79,
+      "examNumber": 79,
+      "raw": "Time left Imagine you want to design a database to store information about order in online shopping. Which tables and relationships would be most appropriate? One table With all products details (number, name, type, customers. etc.) Muluple tables With redundant data entries for faster searching Separate tables for Products (number, name) and Customers (name), with relationships. Separate tables for Products (number), Customers (name), with no relationships",
+      "text": "Imagine you want to design a database to store information about order in online shopping. Which tables and relationships would be most appropriate?",
+      "options": [
+        {
+          "key": "A",
+          "text": "One table With all products details (number, name, type, customers. etc.)"
+        },
+        {
+          "key": "B",
+          "text": "Muluple tables With redundant data entries for faster searching"
+        },
+        {
+          "key": "C",
+          "text": "Separate tables for Products (number, name) and Customers (name), with relationships. Separate tables for"
+        },
+        {
+          "key": "D",
+          "text": "Products (number), Customers (name), with no relationships"
+        }
+      ]
+    }
+  },
+  {
+    "page": 80,
+    "file": "photo_1749729299513-cd52de4f-a31e-4538-8237-0c2a82c03811.png",
+    "raw": "Time left Among the listed Encryption Technology which one is used to secure database storage? O O O O a. b. c. d. SHA-256 Hashing Algonthm AES RSA",
+    "parsed": {
+      "fileIndex": 80,
+      "examNumber": 80,
+      "raw": "Time left Among the listed Encryption Technology which one is used to secure database storage? O O O O a. b. c. d. SHA-256 Hashing Algonthm AES RSA",
+      "text": "Among the listed Encryption Technology which one is used to secure database storage?",
+      "options": []
+    }
+  },
+  {
+    "page": 81,
+    "file": "photo_1749729304112-692b0749-f42e-4acb-899a-26e316a617aa.png",
+    "raw": "21 ut of uest10•n Tin What should a programmer do when they encounter an error they do not understand? Panic and quit the project. Assume they are not smart enough to fix it. Search for solutions in documentation, forums, or ask for help. Ignore the error and hope it goes away.",
+    "parsed": {
+      "fileIndex": 81,
+      "examNumber": 21,
+      "raw": "21 ut of uest10•n Tin What should a programmer do when they encounter an error they do not understand? Panic and quit the project. Assume they are not smart enough to fix it. Search for solutions in documentation, forums, or ask for help. Ignore the error and hope it goes away.",
+      "text": "21 ut of uest10•n Tin What should a programmer do when they encounter an error they do not understand?",
+      "options": []
+    }
+  },
+  {
+    "page": 82,
+    "file": "photo_1749729308260-962e64c6-ba6e-4cc9-bace-9fd99e0f30f4.png",
+    "raw": "Time left Hil Which architectural style is most suitable for a large-scale software system with independent, scalable components? Microservices Architecture Layered Architecture Client-Server Architecture Monolithic Architecture",
+    "parsed": {
+      "fileIndex": 82,
+      "examNumber": 82,
+      "raw": "Time left Hil Which architectural style is most suitable for a large-scale software system with independent, scalable components? Microservices Architecture Layered Architecture Client-Server Architecture Monolithic Architecture",
+      "text": "Hil Which architectural style is most suitable for a large-scale software system with independent, scalable components?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Microservices Architecture Layered"
+        },
+        {
+          "key": "B",
+          "text": "Architecture Client-Server"
+        },
+        {
+          "key": "C",
+          "text": "Architecture Monolithic"
+        },
+        {
+          "key": "D",
+          "text": "Architecture"
+        }
+      ]
+    }
+  },
+  {
+    "page": 83,
+    "file": "photo_1749729313668-9ebab718-e08b-4fbf-a8ff-f28ceecf9f5d.png",
+    "raw": "Time left 321•.55 Question 19 out ot What will the output of the followtng code? int day switch (day) { case 1: cout \"'•bnday\"; break; case 2: cout \"Tuesday\"; break; case 3: cout \"Wednesday\"; break; default: cout \"Invalid day\" ; break ; Hide 19 28 46 55 64 73 82 20 47 6! O O O O a. b. d. Wednesday T uesday Monday invalid day",
+    "parsed": {
+      "fileIndex": 83,
+      "examNumber": 19,
+      "raw": "Time left 321•.55 Question 19 out ot What will the output of the followtng code? int day switch (day) { case 1: cout \"'•bnday\"; break; case 2: cout \"Tuesday\"; break; case 3: cout \"Wednesday\"; break; default: cout \"Invalid day\" ; break ; Hide 19 28 46 55 64 73 82 20 47 6! O O O O a. b. d. Wednesday T uesday Monday invalid day",
+      "text": "321•.55 Question 19 out ot What will the output of the followtng code?",
+      "options": [
+        {
+          "key": "A",
+          "text": "int day switch (day) { case 1: cout \"'•bnday\""
+        },
+        {
+          "key": "B",
+          "text": "break"
+        },
+        {
+          "key": "C",
+          "text": "case 2: cout \"Tuesday\""
+        },
+        {
+          "key": "D",
+          "text": "break"
+        }
+      ]
+    }
+  },
+  {
+    "page": 84,
+    "file": "photo_1749729317817-d0f7e93e-95ea-4f49-b887-85cdf20407d3.png",
+    "raw": "stim 18 Time Which Normal Form eliminates partial dependencies? Third Normal Form (3NF) Second Normal Form (2NF) First Normal Form (INF) Boyce-Codd Normal Form (BCNF)",
+    "parsed": {
+      "fileIndex": 84,
+      "examNumber": 18,
+      "raw": "stim 18 Time Which Normal Form eliminates partial dependencies? Third Normal Form (3NF) Second Normal Form (2NF) First Normal Form (INF) Boyce-Codd Normal Form (BCNF)",
+      "text": "stim 18 Time Which Normal Form eliminates partial dependencies?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Third Normal Form (3NF) Second Normal"
+        },
+        {
+          "key": "B",
+          "text": "Form (2NF) First Normal"
+        },
+        {
+          "key": "C",
+          "text": "Form (INF) Boyce-Codd Normal"
+        },
+        {
+          "key": "D",
+          "text": "Form (BCNF)"
+        }
+      ]
+    }
+  },
+  {
+    "page": 85,
+    "file": "photo_1749729324501-40ca4e23-2232-4efb-8a12-b0f0909fd5bb.png",
+    "raw": "Time left Hic 17 Which one of the following Performance Optimization Techniques helps to Distributes content across global servers to reduce latency? O a. Load Balancing O b. Content Delivery Network O c. Lazy Loading Caching Clear my choice",
+    "parsed": {
+      "fileIndex": 85,
+      "examNumber": 17,
+      "raw": "Time left Hic 17 Which one of the following Performance Optimization Techniques helps to Distributes content across global servers to reduce latency? O a. Load Balancing O b. Content Delivery Network O c. Lazy Loading Caching Clear my choice",
+      "text": "Hic 17 Which one of the following Performance Optimization Techniques helps to Distributes content across global servers to reduce latency?",
+      "options": [
+        {
+          "key": "A",
+          "text": "a. Load Balancing b. Content"
+        },
+        {
+          "key": "B",
+          "text": "Delivery Network c. Lazy"
+        },
+        {
+          "key": "C",
+          "text": "Loading Caching"
+        },
+        {
+          "key": "D",
+          "text": "Clear my choice"
+        }
+      ]
+    }
+  },
+  {
+    "page": 86,
+    "file": "photo_1749729329518-01c73c77-0947-44d0-bf03-b8cd8db86e49.png",
+    "raw": "Hid 16 Set ret Out Time left 3.04:54 Which one of the following types of operating systems kernel is a Minimalist kernel that delegates resource management to applications? Microkemel Exokernel Hybrid Kernel Monolithic Kernel Next pagi page",
+    "parsed": {
+      "fileIndex": 86,
+      "examNumber": 16,
+      "raw": "Hid 16 Set ret Out Time left 3.04:54 Which one of the following types of operating systems kernel is a Minimalist kernel that delegates resource management to applications? Microkemel Exokernel Hybrid Kernel Monolithic Kernel Next pagi page",
+      "text": "Hid 16 Set ret Out 3.04:54 Which one of the following types of operating systems kernel is a Minimalist kernel that delegates resource management to applications?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Microkemel Exokernel"
+        },
+        {
+          "key": "B",
+          "text": "Hybrid Kernel"
+        },
+        {
+          "key": "C",
+          "text": "Monolithic Kernel"
+        },
+        {
+          "key": "D",
+          "text": "Next pagi page"
+        }
+      ]
+    }
+  },
+  {
+    "page": 87,
+    "file": "photo_1749729334008-023ba338-50af-40a4-8f17-f7ccb42c4782.png",
+    "raw": "Which nsk response strategy involves transferring the impact of a risk to a third party, such as through insurance or outsourcing ? Risk Mitigation Risk Acceptance Risk Transference Risk Avoidance Next pag",
+    "parsed": {
+      "fileIndex": 87,
+      "examNumber": 87,
+      "raw": "Which nsk response strategy involves transferring the impact of a risk to a third party, such as through insurance or outsourcing ? Risk Mitigation Risk Acceptance Risk Transference Risk Avoidance Next pag",
+      "text": "Which nsk response strategy involves transferring the impact of a risk to a third party, such as through insurance or outsourcing ?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Risk Mitigation"
+        },
+        {
+          "key": "B",
+          "text": "Risk Acceptance"
+        },
+        {
+          "key": "C",
+          "text": "Risk Transference"
+        },
+        {
+          "key": "D",
+          "text": "Risk Avoidance Next pag"
+        }
+      ]
+    }
+  },
+  {
+    "page": 88,
+    "file": "photo_1749729338524-ebb24f7a-c983-4989-8d1f-66aa55f3333f.png",
+    "raw": "Question 14 Not yet out of page Time left 3:05:41 Hi Which of the following of software engineering enable tracking changes made to software configuration files during installation and configuration? Version control systems Document generation tools Package managers Installation tcx)ls Next",
+    "parsed": {
+      "fileIndex": 88,
+      "examNumber": 14,
+      "raw": "Question 14 Not yet out of page Time left 3:05:41 Hi Which of the following of software engineering enable tracking changes made to software configuration files during installation and configuration? Version control systems Document generation tools Package managers Installation tcx)ls Next",
+      "text": "out of page 3:05:41 Hi Which of the following of software engineering enable tracking changes made to software configuration files during installation and configuration?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Version control systems"
+        },
+        {
+          "key": "B",
+          "text": "Document generation tools"
+        },
+        {
+          "key": "C",
+          "text": "Package managers"
+        },
+        {
+          "key": "D",
+          "text": "Installation tcx)ls Next"
+        }
+      ]
+    }
+  },
+  {
+    "page": 89,
+    "file": "photo_1749729342379-cbd374dd-20b9-41ac-a6cf-d74b7ebba4bb.png",
+    "raw": "Time left Which one of the following Types of Agile testing Ensures new code changes does not break existing functionality' Regression Testing Exploratory Testing User Acceptance Testing (UAT) Smoke Testing",
+    "parsed": {
+      "fileIndex": 89,
+      "examNumber": 89,
+      "raw": "Time left Which one of the following Types of Agile testing Ensures new code changes does not break existing functionality' Regression Testing Exploratory Testing User Acceptance Testing (UAT) Smoke Testing",
+      "text": "Which one of the following Types of Agile testing Ensures new code changes does not break existing functionality' Regression Testing Exploratory Testing User Acceptance Testing (UAT) Smoke Testing",
+      "options": []
+    }
+  },
+  {
+    "page": 90,
+    "file": "photo_1749729348047-2d50feab-4d95-4ea9-a02c-ae97c4cadd96.png",
+    "raw": "Time left 3:06:2 12 What is the correct declaration of an integer array of 5 elements in C++? into arr = {1. 3.4, 5}; int arr(S); int arr(51 = 1. 2, 3, 4, 5; int arr[5]:",
+    "parsed": {
+      "fileIndex": 90,
+      "examNumber": 12,
+      "raw": "Time left 3:06:2 12 What is the correct declaration of an integer array of 5 elements in C++? into arr = {1. 3.4, 5}; int arr(S); int arr(51 = 1. 2, 3, 4, 5; int arr[5]:",
+      "text": "3:06:2 12 What is the correct declaration of an integer array of 5 elements in C++?",
+      "options": [
+        {
+          "key": "A",
+          "text": "into arr = {1. 3.4, 5}"
+        },
+        {
+          "key": "B",
+          "text": "int arr(S)"
+        },
+        {
+          "key": "C",
+          "text": "int arr(51 = 1. 2, 3, 4, 5"
+        },
+        {
+          "key": "D",
+          "text": "int arr[5]"
+        }
+      ]
+    }
+  },
+  {
+    "page": 91,
+    "file": "photo_1749729358112-7049f2cf-89ec-4da3-b9be-76ce9b1ab157.png",
+    "raw": "Time left 3:06:2 12 What is the correct declaration of an integer array of 5 elements in C++? into arr = {1. 3.4, 5}; int arr(S); int arr(51 = 1. 2, 3, 4, 5; int arr[5]:",
+    "parsed": {
+      "fileIndex": 91,
+      "examNumber": 12,
+      "raw": "Time left 3:06:2 12 What is the correct declaration of an integer array of 5 elements in C++? into arr = {1. 3.4, 5}; int arr(S); int arr(51 = 1. 2, 3, 4, 5; int arr[5]:",
+      "text": "3:06:2 12 What is the correct declaration of an integer array of 5 elements in C++?",
+      "options": [
+        {
+          "key": "A",
+          "text": "into arr = {1. 3.4, 5}"
+        },
+        {
+          "key": "B",
+          "text": "int arr(S)"
+        },
+        {
+          "key": "C",
+          "text": "int arr(51 = 1. 2, 3, 4, 5"
+        },
+        {
+          "key": "D",
+          "text": "int arr[5]"
+        }
+      ]
+    }
+  },
+  {
+    "page": 92,
+    "file": "photo_1749729362561-93055dc8-ee66-4ce9-a3e3-9ccf798fce39.png",
+    "raw": "Time lefl Which one of the following is the main purpose of conducting interviews in requirements elicitation? To gather a Wide variety of user opinions through surveys To gather in-depth insights from individual stakeholders To develop detailed documentation of the system To design and prototype the software system",
+    "parsed": {
+      "fileIndex": 92,
+      "examNumber": 92,
+      "raw": "Time lefl Which one of the following is the main purpose of conducting interviews in requirements elicitation? To gather a Wide variety of user opinions through surveys To gather in-depth insights from individual stakeholders To develop detailed documentation of the system To design and prototype the software system",
+      "text": "Time lefl Which one of the following is the main purpose of conducting interviews in requirements elicitation?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To gather a Wide variety of user opinions through surveys"
+        },
+        {
+          "key": "B",
+          "text": "To gather in-depth insights from individual stakeholders"
+        },
+        {
+          "key": "C",
+          "text": "To develop detailed documentation of the system"
+        },
+        {
+          "key": "D",
+          "text": "To design and prototype the software system"
+        }
+      ]
+    }
+  },
+  {
+    "page": 93,
+    "file": "photo_1749729366517-0cd5dd04-d0bb-4f62-b6aa-e772965b45c9.png",
+    "raw": "10 ed Time left Which one of the following classes represents a top-level window with a title and border decorations? Container Panel Frame Window",
+    "parsed": {
+      "fileIndex": 93,
+      "examNumber": 10,
+      "raw": "10 ed Time left Which one of the following classes represents a top-level window with a title and border decorations? Container Panel Frame Window",
+      "text": "10 ed Which one of the following classes represents a top-level window with a title and border decorations?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Container"
+        },
+        {
+          "key": "B",
+          "text": "Panel"
+        },
+        {
+          "key": "C",
+          "text": "Frame"
+        },
+        {
+          "key": "D",
+          "text": "Window"
+        }
+      ]
+    }
+  },
+  {
+    "page": 94,
+    "file": "photo_1749729385655-97c7bae4-2ab6-41cb-83f5-5f3960036034.png",
+    "raw": "10 ed Time left Which one of the following classes represents a top-level window with a title and border decorations? Container Panel Frame Window",
+    "parsed": {
+      "fileIndex": 94,
+      "examNumber": 10,
+      "raw": "10 ed Time left Which one of the following classes represents a top-level window with a title and border decorations? Container Panel Frame Window",
+      "text": "10 ed Which one of the following classes represents a top-level window with a title and border decorations?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Container"
+        },
+        {
+          "key": "B",
+          "text": "Panel"
+        },
+        {
+          "key": "C",
+          "text": "Frame"
+        },
+        {
+          "key": "D",
+          "text": "Window"
+        }
+      ]
+    }
+  },
+  {
+    "page": 95,
+    "file": "photo_1749729390120-a228d224-d844-45a6-abcf-e1b38bf54e34.png",
+    "raw": "Time left H ide Which of the following OSI model layer handles issues such as network transparency and resource allocation? Transport Network Application Data link Next paqe",
+    "parsed": {
+      "fileIndex": 95,
+      "examNumber": 95,
+      "raw": "Time left H ide Which of the following OSI model layer handles issues such as network transparency and resource allocation? Transport Network Application Data link Next paqe",
+      "text": "H ide Which of the following OSI model layer handles issues such as network transparency and resource allocation?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Transport Network"
+        },
+        {
+          "key": "B",
+          "text": "Application"
+        },
+        {
+          "key": "C",
+          "text": "Data link"
+        },
+        {
+          "key": "D",
+          "text": "Next paqe"
+        }
+      ]
+    }
+  },
+  {
+    "page": 96,
+    "file": "photo_1749729394368-7236136c-ba67-4162-8d17-bf28d5da8f13.png",
+    "raw": "Which one of the followtng Application Layer Protocol is used in Web Development is a Query-based API that allows clients to request only needed data? O O O O b. d. HTTp GraphQL HTTPS REST Next page",
+    "parsed": {
+      "fileIndex": 96,
+      "examNumber": 96,
+      "raw": "Which one of the followtng Application Layer Protocol is used in Web Development is a Query-based API that allows clients to request only needed data? O O O O b. d. HTTp GraphQL HTTPS REST Next page",
+      "text": "Which one of the followtng Application Layer Protocol is used in Web Development is a Query-based API that allows clients to request only needed data?",
+      "options": [
+        {
+          "key": "A",
+          "text": "b. d"
+        },
+        {
+          "key": "B",
+          "text": "HTTp"
+        },
+        {
+          "key": "C",
+          "text": "GraphQL HTTPS"
+        },
+        {
+          "key": "D",
+          "text": "REST"
+        }
+      ]
+    }
+  },
+  {
+    "page": 97,
+    "file": "photo_1749729401729-e8269f13-0ec0-404f-9256-8166b45edf7b.png",
+    "raw": "Time left of the following SQL statements is used to select all columns and records from a table named \"Students\"? b. SELECT ALL FROM Students; SELECT fields FROM Students; SELECT • From Students; SELECT Students:",
+    "parsed": {
+      "fileIndex": 97,
+      "examNumber": 97,
+      "raw": "Time left of the following SQL statements is used to select all columns and records from a table named \"Students\"? b. SELECT ALL FROM Students; SELECT fields FROM Students; SELECT • From Students; SELECT Students:",
+      "text": "of the following SQL statements is used to select all columns and records from a table named \"Students\"?",
+      "options": [
+        {
+          "key": "A",
+          "text": "b. SELECT ALL FROM Students"
+        },
+        {
+          "key": "B",
+          "text": "SELECT fields FROM Students"
+        },
+        {
+          "key": "C",
+          "text": "SELECT • From Students"
+        },
+        {
+          "key": "D",
+          "text": "SELECT Students"
+        }
+      ]
+    }
+  },
+  {
+    "page": 98,
+    "file": "photo_1749729406137-25baeaf0-502a-409d-b83c-9be7696da6ae.png",
+    "raw": "tion2 ed of What IS the first step in managing a change to software requirements? O a. Communicate the change to stakeholders O b. Assess the impact of the change O c. Establish a change management process O d. Implement the change immediately",
+    "parsed": {
+      "fileIndex": 98,
+      "examNumber": 98,
+      "raw": "tion2 ed of What IS the first step in managing a change to software requirements? O a. Communicate the change to stakeholders O b. Assess the impact of the change O c. Establish a change management process O d. Implement the change immediately",
+      "text": "tion2 ed of What IS the first step in managing a change to software requirements?",
+      "options": []
+    }
+  },
+  {
+    "page": 99,
+    "file": "photo_1749729410393-b3c36372-307a-4635-8c52-8393acfd6cb3.png",
+    "raw": "4. *Analyze* - In the context of debugging, what is the purpose of a breakpoint? - A. To indicate the start of a loop - B. To pause the execution of a program - C. To mark the end of a function - D. To indicate an error in the code",
+    "parsed": {
+      "fileIndex": 99,
+      "examNumber": 99,
+      "raw": "4. *Analyze* - In the context of debugging, what is the purpose of a breakpoint? - A. To indicate the start of a loop - B. To pause the execution of a program - C. To mark the end of a function - D. To indicate an error in the code",
+      "text": "4. *Analyze* - In the context of debugging, what is the purpose of a breakpoint?",
+      "options": [
+        {
+          "key": "A",
+          "text": "- A"
+        },
+        {
+          "key": "B",
+          "text": "To indicate the start of a loop - B"
+        },
+        {
+          "key": "C",
+          "text": "To pause the execution of a program - C"
+        },
+        {
+          "key": "D",
+          "text": "To mark the end of a function - D"
+        }
+      ]
+    }
+  }
+]

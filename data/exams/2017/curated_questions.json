@@ -1,0 +1,650 @@
+[
+  {
+    "examNumber": 1,
+    "text": "Which component of Android Application refers to a reusable UI component within an activity?",
+    "options": [
+      {"key": "A", "text": "Broadcast Receivers"},
+      {"key": "B", "text": "Fragments"},
+      {"key": "C", "text": "Activities"},
+      {"key": "D", "text": "Content Providers"}
+    ],
+    "answer": "B",
+    "topic": "Android"
+  },
+  {
+    "examNumber": 2,
+    "text": "Among the listed Encryption Technologies, which one is used to secure database storage?",
+    "options": [
+      {"key": "A", "text": "SHA-256"},
+      {"key": "B", "text": "Hashing Algorithm"},
+      {"key": "C", "text": "AES"},
+      {"key": "D", "text": "RSA"}
+    ],
+    "answer": "C",
+    "topic": "Security"
+  },
+  {
+    "examNumber": 4,
+    "text": "In the context of debugging, what is the purpose of a breakpoint?",
+    "options": [
+      {"key": "A", "text": "To indicate the start of a loop"},
+      {"key": "B", "text": "To pause the execution of a program"},
+      {"key": "C", "text": "To mark the end of a function"},
+      {"key": "D", "text": "To indicate an error in the code"}
+    ],
+    "answer": "B",
+    "topic": "Fundamentals of Programming"
+  },
+  {
+    "examNumber": 7,
+    "text": "Which of the following OSI model layers handles issues such as network transparency and resource allocation?",
+    "options": [
+      {"key": "A", "text": "Transport"},
+      {"key": "B", "text": "Network"},
+      {"key": "C", "text": "Application"},
+      {"key": "D", "text": "Data link"}
+    ],
+    "answer": "C",
+    "topic": "Networking"
+  },
+  {
+    "examNumber": 10,
+    "text": "Which one of the following classes represents a top-level window with a title and border decorations?",
+    "options": [
+      {"key": "A", "text": "Container"},
+      {"key": "B", "text": "Panel"},
+      {"key": "C", "text": "Frame"},
+      {"key": "D", "text": "Window"}
+    ],
+    "answer": "C",
+    "topic": "Java / OOP"
+  },
+  {
+    "examNumber": 12,
+    "text": "What is the correct declaration of an integer array of 5 elements in C++?",
+    "options": [
+      {"key": "A", "text": "int[] arr = {1, 2, 3, 4, 5};"},
+      {"key": "B", "text": "int arr(5);"},
+      {"key": "C", "text": "int arr[5] = 1, 2, 3, 4, 5;"},
+      {"key": "D", "text": "int arr[5];"}
+    ],
+    "answer": "D",
+    "topic": "C++"
+  },
+  {
+    "examNumber": 15,
+    "text": "Which risk response strategy involves transferring the impact of a risk to a third party, such as through insurance or outsourcing?",
+    "options": [
+      {"key": "A", "text": "Risk Mitigation"},
+      {"key": "B", "text": "Risk Acceptance"},
+      {"key": "C", "text": "Risk Transference"},
+      {"key": "D", "text": "Risk Avoidance"}
+    ],
+    "answer": "C",
+    "topic": "Project Management"
+  },
+  {
+    "examNumber": 21,
+    "text": "What should a programmer do when they encounter an error they do not understand?",
+    "options": [
+      {"key": "A", "text": "Panic and quit the project"},
+      {"key": "B", "text": "Assume they are not smart enough to fix it"},
+      {"key": "C", "text": "Search for solutions in documentation, forums, or ask for help"},
+      {"key": "D", "text": "Ignore the error and hope it goes away"}
+    ],
+    "answer": "C",
+    "topic": "Software Engineering"
+  },
+  {
+    "examNumber": 28,
+    "text": "Which one of the following Process Scheduling Algorithms executes processes in order of arrival?",
+    "options": [
+      {"key": "A", "text": "Round Robin (RR)"},
+      {"key": "B", "text": "First-Come, First-Served (FCFS)"},
+      {"key": "C", "text": "Priority Scheduling"},
+      {"key": "D", "text": "Shortest Job Next (SJN)"}
+    ],
+    "answer": "B",
+    "topic": "Operating Systems"
+  },
+  {
+    "examNumber": 30,
+    "text": "Which of the following is the primary security concern in choosing a web-based solution for a business?",
+    "options": [
+      {"key": "A", "text": "The server of the websites"},
+      {"key": "B", "text": "The choice of JavaScript framework"},
+      {"key": "C", "text": "The number of images used on the website"},
+      {"key": "D", "text": "Protection against cyber threats like SQL Injection and XSS"}
+    ],
+    "answer": "D",
+    "topic": "Security"
+  },
+  {
+    "examNumber": 32,
+    "text": "Which one of the following deadlock conditions occurs when a resource can only be used by one process at a time?",
+    "options": [
+      {"key": "A", "text": "Circular Wait"},
+      {"key": "B", "text": "Hold and Wait"},
+      {"key": "C", "text": "Mutual Exclusion"},
+      {"key": "D", "text": "No Preemption"}
+    ],
+    "answer": "C",
+    "topic": "Operating Systems"
+  },
+  {
+    "examNumber": 39,
+    "text": "Which method is used in JavaScript to change the content of an HTML element dynamically?",
+    "options": [
+      {"key": "A", "text": "document.write()"},
+      {"key": "B", "text": "window.alert()"},
+      {"key": "C", "text": "document.getElementById().innerHTML"},
+      {"key": "D", "text": "console.log()"}
+    ],
+    "answer": "C",
+    "topic": "Web Development"
+  },
+  {
+    "examNumber": 41,
+    "text": "Which of the following CSS style properties are inherited, meaning they are transmitted from parent to child elements?",
+    "options": [
+      {"key": "A", "text": "Margins style"},
+      {"key": "B", "text": "Height style"},
+      {"key": "C", "text": "Borders style"},
+      {"key": "D", "text": "Colors style"}
+    ],
+    "answer": "D",
+    "topic": "Web Development"
+  },
+  {
+    "examNumber": 43,
+    "text": "What is the purpose of a foreign key in database design?",
+    "options": [
+      {"key": "A", "text": "To improve indexing performance"},
+      {"key": "B", "text": "To enforce referential integrity between related tables"},
+      {"key": "C", "text": "To store duplicate records"},
+      {"key": "D", "text": "To uniquely identify a record within a table"}
+    ],
+    "answer": "B",
+    "topic": "Database"
+  },
+  {
+    "examNumber": 51,
+    "text": "Which of the following is the correct way to declare a function that takes two integers and returns their sum?",
+    "options": [
+      {"key": "A", "text": "sum(int a, int b) { return a + b; }"},
+      {"key": "B", "text": "int sum(a, b) { return a + b; }"},
+      {"key": "C", "text": "sum(int a, b) { return a + b; }"},
+      {"key": "D", "text": "int sum(int a, int b) { return a + b; }"}
+    ],
+    "answer": "D",
+    "topic": "Fundamentals of Programming"
+  },
+  {
+    "examNumber": 60,
+    "text": "Which one of the following statements is TRUE?",
+    "options": [
+      {"key": "A", "text": "An overriding method can declare checked exceptions not thrown by the method it is overriding"},
+      {"key": "B", "text": "Private methods cannot be overridden in subclasses"},
+      {"key": "C", "text": "The parameter list of an overriding method can be a subset of the overridden method"},
+      {"key": "D", "text": "A subclass can override any method in a superclass"}
+    ],
+    "answer": "B",
+    "topic": "Java / OOP"
+  },
+  {
+    "examNumber": 61,
+    "text": "Which method is used in JavaScript to change the content of an HTML element dynamically?",
+    "options": [
+      {"key": "A", "text": "document.write()"},
+      {"key": "B", "text": "window.alert()"},
+      {"key": "C", "text": "document.getElementById().innerHTML"},
+      {"key": "D", "text": "console.log()"}
+    ],
+    "answer": "C",
+    "topic": "Web Development"
+  },
+  {
+    "examNumber": 73,
+    "text": "Ethiopian Airlines wants to optimize flight scheduling to minimize delays. Which algorithm design approach is BEST suited for this task?",
+    "options": [
+      {"key": "A", "text": "Sorting flight data by departure time"},
+      {"key": "B", "text": "Implementing a simple linear search for flight numbers"},
+      {"key": "C", "text": "Designing a graph-based algorithm to model flight connections and dependencies"},
+      {"key": "D", "text": "Randomly assigning flight departure times"}
+    ],
+    "answer": "C",
+    "topic": "AI / ML"
+  },
+  {
+    "examNumber": 75,
+    "text": "Which of the following is NOT a function of the OSI model presentation layer?",
+    "options": [
+      {"key": "A", "text": "Encryption"},
+      {"key": "B", "text": "Compression"},
+      {"key": "C", "text": "Translation"},
+      {"key": "D", "text": "Synchronization"}
+    ],
+    "answer": "D",
+    "topic": "Networking"
+  },
+  {
+    "examNumber": 78,
+    "text": "Which one of the following core objectives of cryptography verifies the identity of communicating parties?",
+    "options": [
+      {"key": "A", "text": "Integrity"},
+      {"key": "B", "text": "Authentication"},
+      {"key": "C", "text": "Confidentiality"},
+      {"key": "D", "text": "Non-repudiation"}
+    ],
+    "answer": "B",
+    "topic": "Security"
+  },
+  {
+    "examNumber": 79,
+    "text": "Which design pattern is used when the algorithm for creating a complex object should be independent of the parts that make up the object and how they are assembled?",
+    "options": [
+      {"key": "A", "text": "Singleton pattern"},
+      {"key": "B", "text": "Builder pattern"},
+      {"key": "C", "text": "Factory Method pattern"},
+      {"key": "D", "text": "Prototype pattern"}
+    ],
+    "answer": "B",
+    "topic": "Software Architecture"
+  },
+  {
+    "examNumber": 86,
+    "text": "Which one of the following types of machine learning discovers patterns from unlabeled data?",
+    "options": [
+      {"key": "A", "text": "Unsupervised Learning"},
+      {"key": "B", "text": "Reinforcement Learning"},
+      {"key": "C", "text": "Supervised Learning"},
+      {"key": "D", "text": "Semi-Supervised Learning"}
+    ],
+    "answer": "A",
+    "topic": "AI / ML"
+  },
+  {
+    "examNumber": 87,
+    "text": "Which metric measures the time between two consecutive failures in a system?",
+    "options": [
+      {"key": "A", "text": "Defect Density"},
+      {"key": "B", "text": "Mean Time to Repair"},
+      {"key": "C", "text": "Test Coverage"},
+      {"key": "D", "text": "Mean Time Between Failures"}
+    ],
+    "answer": "D",
+    "topic": "Software Testing"
+  },
+  {
+    "examNumber": 88,
+    "text": "A software developer has completed coding a new feature for a project. Before integrating it with the main codebase, what is the MOST important step to ensure quality?",
+    "options": [
+      {"key": "A", "text": "Reviewing the code for potential errors and adherence to coding standards"},
+      {"key": "B", "text": "Writing extensive user documentation for the new feature"},
+      {"key": "C", "text": "Deploying the code directly to the production environment for testing"},
+      {"key": "D", "text": "Updating marketing materials to showcase the new feature"}
+    ],
+    "answer": "A",
+    "topic": "Software Engineering"
+  },
+  {
+    "examNumber": 89,
+    "text": "Which one of the following types of Agile testing ensures new code changes do not break existing functionality?",
+    "options": [
+      {"key": "A", "text": "Regression Testing"},
+      {"key": "B", "text": "Exploratory Testing"},
+      {"key": "C", "text": "User Acceptance Testing (UAT)"},
+      {"key": "D", "text": "Smoke Testing"}
+    ],
+    "answer": "A",
+    "topic": "Software Testing"
+  },
+  {
+    "examNumber": 90,
+    "text": "Which one of the following is a key characteristic of a well-written functional requirement?",
+    "options": [
+      {"key": "A", "text": "It should focus only on performance issues"},
+      {"key": "B", "text": "It should be vague to allow flexibility during development"},
+      {"key": "C", "text": "It should be testable and measurable"},
+      {"key": "D", "text": "It should describe the system architecture"}
+    ],
+    "answer": "C",
+    "topic": "Software Engineering"
+  },
+  {
+    "examNumber": 91,
+    "text": "Non-functional requirements typically focus on which of the following?",
+    "options": [
+      {"key": "A", "text": "Specific programming languages and frameworks to be used"},
+      {"key": "B", "text": "Performance, security, usability, and scalability of the system"},
+      {"key": "C", "text": "System behaviors like authentication and user interactions"},
+      {"key": "D", "text": "Technical specifications for hardware"}
+    ],
+    "answer": "B",
+    "topic": "Software Engineering"
+  },
+  {
+    "examNumber": 99,
+    "text": "Which one of the following Object-Oriented Software Design Principles states that software entities should be open for extension but closed for modification?",
+    "options": [
+      {"key": "A", "text": "Interface Segregation Principle (ISP)"},
+      {"key": "B", "text": "Single Responsibility Principle (SRP)"},
+      {"key": "C", "text": "Liskov Substitution Principle (LSP)"},
+      {"key": "D", "text": "Open/Closed Principle (OCP)"}
+    ],
+    "answer": "D",
+    "topic": "Software Engineering"
+  },
+  {
+    "examNumber": 5,
+    "text": "Which one of the following levels of Software Testing tests interactions between modules?",
+    "options": [
+      {"key": "A", "text": "System Testing"},
+      {"key": "B", "text": "Unit Testing"},
+      {"key": "C", "text": "Integration Testing"},
+      {"key": "D", "text": "User Acceptance Testing"}
+    ],
+    "answer": "C",
+    "topic": "Software Testing"
+  },
+  {
+    "examNumber": 6,
+    "text": "Which of the following SQL statements is used to select all columns and records from a table named \"Students\"?",
+    "options": [
+      {"key": "A", "text": "SELECT ALL FROM Students;"},
+      {"key": "B", "text": "SELECT Fields FROM Students;"},
+      {"key": "C", "text": "SELECT * FROM Students;"},
+      {"key": "D", "text": "SELECT Students;"}
+    ],
+    "answer": "C",
+    "topic": "Database"
+  },
+  {
+    "examNumber": 8,
+    "text": "Which one of the following types of maintenance is used to refer to maintenance for fault repair?",
+    "options": [
+      {"key": "A", "text": "Adaptive maintenance"},
+      {"key": "B", "text": "Function Points (FP)"},
+      {"key": "C", "text": "Corrective maintenance"},
+      {"key": "D", "text": "Perfective maintenance"}
+    ],
+    "answer": "C",
+    "topic": "Software Engineering"
+  },
+  {
+    "examNumber": 9,
+    "text": "What method can be used by two computers to ensure that packets are not dropped because too much data is being sent too quickly?",
+    "options": [
+      {"key": "A", "text": "Encapsulation"},
+      {"key": "B", "text": "Access method"},
+      {"key": "C", "text": "Flow control"},
+      {"key": "D", "text": "Response timeout"}
+    ],
+    "answer": "C",
+    "topic": "Networking"
+  },
+  {
+    "examNumber": 17,
+    "text": "Which one of the following Performance Optimization Techniques helps distribute content across global servers to reduce latency?",
+    "options": [
+      {"key": "A", "text": "Load Balancing"},
+      {"key": "B", "text": "Content Delivery Network"},
+      {"key": "C", "text": "Lazy Loading"},
+      {"key": "D", "text": "Caching"}
+    ],
+    "answer": "B",
+    "topic": "Web Development"
+  },
+  {
+    "examNumber": 34,
+    "text": "Which one of the following types of machine learning learns from labeled data?",
+    "options": [
+      {"key": "A", "text": "Semi-Supervised Learning"},
+      {"key": "B", "text": "Unsupervised Learning"},
+      {"key": "C", "text": "Reinforcement Learning"},
+      {"key": "D", "text": "Supervised Learning"}
+    ],
+    "answer": "D",
+    "topic": "AI / ML"
+  },
+  {
+    "examNumber": 40,
+    "text": "Which one of the following process synchronization mechanisms ensures only one process accesses a shared resource at a time?",
+    "options": [
+      {"key": "A", "text": "Mutex (Mutual Exclusion Locks)"},
+      {"key": "B", "text": "Semaphores"},
+      {"key": "C", "text": "Read-Write Locks"},
+      {"key": "D", "text": "Monitors and Condition Variables"}
+    ],
+    "answer": "A",
+    "topic": "Operating Systems"
+  },
+  {
+    "examNumber": 44,
+    "text": "Which of the following layers in the TCP/IP model provides a logical connection between a source host and a destination host?",
+    "options": [
+      {"key": "A", "text": "Data link"},
+      {"key": "B", "text": "Network"},
+      {"key": "C", "text": "Transport"},
+      {"key": "D", "text": "Application"}
+    ],
+    "answer": "C",
+    "topic": "Networking"
+  },
+  {
+    "examNumber": 65,
+    "text": "Given a complex software development project, how would you design a Work Breakdown Structure (WBS) to ensure efficient task allocation?",
+    "options": [
+      {"key": "A", "text": "Focus only on the coding phase while ignoring testing and deployment"},
+      {"key": "B", "text": "Create a hierarchical breakdown of tasks based on project deliverables"},
+      {"key": "C", "text": "Assign all tasks to a single team to ensure consistency"},
+      {"key": "D", "text": "Divide the work into as many random tasks as possible"}
+    ],
+    "answer": "B",
+    "topic": "Project Management"
+  },
+  {
+    "examNumber": 76,
+    "text": "Which one of the following is a security concern in mobile networks where attackers steal session cookies?",
+    "options": [
+      {"key": "A", "text": "Man-in-the-Middle (MitM) attacks"},
+      {"key": "B", "text": "SQL Injection"},
+      {"key": "C", "text": "Session hijacking"},
+      {"key": "D", "text": "Ransomware"}
+    ],
+    "answer": "C",
+    "topic": "Security"
+  },
+  {
+    "examNumber": 82,
+    "text": "What is the primary purpose of an Integrated Development Environment (IDE)?",
+    "options": [
+      {"key": "A", "text": "To write and debug code"},
+      {"key": "B", "text": "To run mobile applications"},
+      {"key": "C", "text": "To store user data"},
+      {"key": "D", "text": "To manage hardware resources"}
+    ],
+    "answer": "A",
+    "topic": "Software Engineering"
+  },
+  {
+    "examNumber": 24,
+    "text": "Which of the following functions checks if the end of the file has been reached in C++ file handling?",
+    "options": [
+      {"key": "A", "text": "getline()"},
+      {"key": "B", "text": "eof()"},
+      {"key": "C", "text": "close()"},
+      {"key": "D", "text": "seekg()"}
+    ],
+    "answer": "B",
+    "topic": "C++"
+  },
+  {
+    "examNumber": 50,
+    "text": "Which one of the following is used for state management in web application development?",
+    "options": [
+      {"key": "A", "text": "React Router"},
+      {"key": "B", "text": "Redux"},
+      {"key": "C", "text": "Axios"},
+      {"key": "D", "text": "Content Delivery Network"}
+    ],
+    "answer": "B",
+    "topic": "Web Development"
+  },
+  {
+    "examNumber": 77,
+    "text": "Which one of the following is a type of software defect?",
+    "options": [
+      {"key": "A", "text": "Repeated code segments in the program"},
+      {"key": "B", "text": "Null reference error in a function"},
+      {"key": "C", "text": "An unhandled exception in the code"},
+      {"key": "D", "text": "Performance degradation due to excessive memory usage"}
+    ],
+    "answer": "B",
+    "topic": "Software Testing"
+  },
+  {
+    "examNumber": 80,
+    "text": "Which architectural style is most suitable for a large-scale software system with independent, scalable components?",
+    "options": [
+      {"key": "A", "text": "Microservices Architecture"},
+      {"key": "B", "text": "Layered Architecture"},
+      {"key": "C", "text": "Client-Server Architecture"},
+      {"key": "D", "text": "Monolithic Architecture"}
+    ],
+    "answer": "A",
+    "topic": "Software Architecture"
+  },
+  {
+    "examNumber": 92,
+    "text": "Which one of the following is the main purpose of conducting interviews in requirements elicitation?",
+    "options": [
+      {"key": "A", "text": "To gather a wide variety of user opinions through surveys"},
+      {"key": "B", "text": "To gather in-depth insights from individual stakeholders"},
+      {"key": "C", "text": "To develop detailed documentation of the system"},
+      {"key": "D", "text": "To design and prototype the software system"}
+    ],
+    "answer": "B",
+    "topic": "Software Engineering"
+  },
+  {
+    "examNumber": 3,
+    "text": "Which one of the following types of machine learning algorithms is best suited for demand forecasting and predictive maintenance problems?",
+    "options": [
+      {"key": "A", "text": "Time-Series Forecasting"},
+      {"key": "B", "text": "Regression"},
+      {"key": "C", "text": "Classification"},
+      {"key": "D", "text": "Clustering"}
+    ],
+    "answer": "A",
+    "topic": "AI / ML"
+  },
+  {
+    "examNumber": 13,
+    "text": "A software developer has completed coding a new feature for a project. Before integrating it with the main codebase, what is the MOST important step to ensure quality?",
+    "options": [
+      {"key": "A", "text": "Reviewing the code for potential errors and adherence to coding standards"},
+      {"key": "B", "text": "Writing extensive user documentation for the new feature"},
+      {"key": "C", "text": "Deploying the code directly to the production environment for testing"},
+      {"key": "D", "text": "Updating marketing materials to showcase the new feature"}
+    ],
+    "answer": "A",
+    "topic": "Software Engineering"
+  },
+  {
+    "examNumber": 16,
+    "text": "Which one of the following types of operating systems kernel is a minimalist kernel that delegates resource management to applications?",
+    "options": [
+      {"key": "A", "text": "Microkernel"},
+      {"key": "B", "text": "Exokernel"},
+      {"key": "C", "text": "Hybrid Kernel"},
+      {"key": "D", "text": "Monolithic Kernel"}
+    ],
+    "answer": "B",
+    "topic": "Operating Systems"
+  },
+  {
+    "examNumber": 18,
+    "text": "Which Normal Form eliminates partial dependencies?",
+    "options": [
+      {"key": "A", "text": "Third Normal Form (3NF)"},
+      {"key": "B", "text": "Second Normal Form (2NF)"},
+      {"key": "C", "text": "First Normal Form (1NF)"},
+      {"key": "D", "text": "Boyce-Codd Normal Form (BCNF)"}
+    ],
+    "answer": "B",
+    "topic": "Database"
+  },
+  {
+    "examNumber": 25,
+    "text": "Which of the following is required by data privacy laws like GDPR and CCPA?",
+    "options": [
+      {"key": "A", "text": "Users must be informed about how their data is being used"},
+      {"key": "B", "text": "Developers are allowed to collect data without user consent"},
+      {"key": "C", "text": "User data must only be stored for 6 months"},
+      {"key": "D", "text": "Users must provide anonymous data for app functionality"}
+    ],
+    "answer": "A",
+    "topic": "Security"
+  },
+  {
+    "examNumber": 31,
+    "text": "Imagine you have been assigned to schedule a software development project with multiple dependencies. What approach would you take to create an effective timeline?",
+    "options": [
+      {"key": "A", "text": "Use a Gantt chart and critical path method to plan dependencies"},
+      {"key": "B", "text": "Ignore dependencies and focus only on coding speed"},
+      {"key": "C", "text": "Allow developers to choose their own timelines without oversight"},
+      {"key": "D", "text": "Assign equal deadlines to all tasks regardless of complexity"}
+    ],
+    "answer": "A",
+    "topic": "Project Management"
+  },
+  {
+    "examNumber": 35,
+    "text": "Suppose you are designing a data center network that requires minimal latency and high redundancy. Which topology would best meet the requirement?",
+    "options": [
+      {"key": "A", "text": "Bus"},
+      {"key": "B", "text": "Mesh"},
+      {"key": "C", "text": "Star"},
+      {"key": "D", "text": "Hybrid"}
+    ],
+    "answer": "B",
+    "topic": "Networking"
+  },
+  {
+    "examNumber": 38,
+    "text": "Imagine you want to design a database to store information about orders in online shopping. Which tables and relationships would be most appropriate?",
+    "options": [
+      {"key": "A", "text": "One table with all product details (number, name, type, customers, etc.)"},
+      {"key": "B", "text": "Multiple tables with redundant data entries for faster searching"},
+      {"key": "C", "text": "Separate tables for Products (number, name) and Customers (name), with relationships"},
+      {"key": "D", "text": "Separate tables for Products (number) and Customers (name), with no relationships"}
+    ],
+    "answer": "C",
+    "topic": "Database"
+  },
+  {
+    "examNumber": 93,
+    "text": "Which one of the following is the main purpose of conducting interviews in requirements elicitation?",
+    "options": [
+      {"key": "A", "text": "To gather a wide variety of user opinions through surveys"},
+      {"key": "B", "text": "To gather in-depth insights from individual stakeholders"},
+      {"key": "C", "text": "To develop detailed documentation of the system"},
+      {"key": "D", "text": "To design and prototype the software system"}
+    ],
+    "answer": "B",
+    "topic": "Software Engineering"
+  },
+  {
+    "examNumber": 94,
+    "text": "Which loop is guaranteed to execute at least once, even if the condition is false?",
+    "options": [
+      {"key": "A", "text": "while loop"},
+      {"key": "B", "text": "do-while loop"},
+      {"key": "C", "text": "For each loop"},
+      {"key": "D", "text": "for loop"}
+    ],
+    "answer": "B",
+    "topic": "Fundamentals of Programming"
+  }
+]

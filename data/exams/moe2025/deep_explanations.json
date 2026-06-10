@@ -1,1002 +1,1102 @@
 {
   "1": {
-    "overview": "Loops are control-flow structures that repeat a block of code while a condition holds (for/while) or for a fixed count (for). Their primary purpose is iteration — executing the same logic multiple times without duplicating source lines. Variable declaration, function definition, and exception handling are separate language features with different roles.",
+    "overview": "Loops are control-flow structures that repeat a block of code while a condition holds (for/while) or for a fixed count (for). Their primary purpose is iteration — executing the same logic multiple times without duplicating source lines. Variable declaration, function definition, and exception handling are separate language features with different roles.\n\n✅ Answer: B — To execute a block of code repeatedly",
     "options": {
-      "A": "Option A (INCORRECT): \"To declare variables\". \"To declare variables\" sounds plausible but is wrong because variable declaration happens once with assignment or type declarations; loops consume variables but do not create them as their primary purpose.",
-      "B": "Option B (CORRECT): \"To execute a block of code repeatedly\". \"To execute a block of code repeatedly\" is correct because this is the defining behavior of every loop construct — for, while, do-while — in all mainstream languages.",
-      "C": "Option C (INCORRECT): \"To define a function\". \"To define a function\" sounds plausible but is wrong because functions group reusable code; loops call code repeatedly inside an existing block but do not define named callable units.",
-      "D": "Option D (INCORRECT): \"To handle exceptions\". \"To handle exceptions\" sounds plausible but is wrong because try/catch (or try/except) blocks handle runtime errors; loops control repetition, not error recovery."
+      "A": "✗ Not the answer. variable declaration happens once with assignment or type declarations; loops consume variables but do not create them as their primary purpose.",
+      "B": "✓ CORRECT. this is the defining behavior of every loop construct — for, while, do-while — in all mainstream languages.",
+      "C": "✗ Not the answer. functions group reusable code; loops call code repeatedly inside an existing block but do not define named callable units.",
+      "D": "✗ Not the answer. try/catch (or try/except) blocks handle runtime errors; loops control repetition, not error recovery."
     },
-    "studyTip": "Loop = repeat; if = branch; function = reuse; try = errors."
+    "studyTip": "Loop = repeat; if = branch; function = reuse; try = errors.",
+    "source": "offline-deep"
   },
   "2": {
-    "overview": "In C, the `/` operator performs integer division when both operands are integers. 5 / 2 discards the fractional part (truncates toward zero), yielding 2 — not 2.5. To get floating-point division you need at least one operand as float/double (e.g., 5.0 / 2). printf(\"%d\", ...) expects an integer format specifier.",
+    "overview": "In C, the `/` operator performs integer division when both operands are integers. 5 / 2 discards the fractional part (truncates toward zero), yielding 2 — not 2.5. To get floating-point division you need at least one operand as float/double (e.g., 5.0 / 2). printf(\"%d\", ...) expects an integer format specifier.\n\n✅ Answer: B — 2",
     "options": {
-      "A": "Option A (INCORRECT): \"2.5\". \"2.5\" sounds plausible but is wrong because 2.5 is a floating-point result; integer division in C never produces a float without casting or using float literals.",
-      "B": "Option B (CORRECT): \"2\". \"2\" is correct because integer division 5/2 = 2 with remainder 1 discarded; %d prints 2.",
-      "C": "Option C (INCORRECT): \"3\". \"3\" sounds plausible but is wrong because 3 would require rounding up (ceiling), but C integer division truncates down.",
-      "D": "Option D (INCORRECT): \"0\". \"0\" sounds plausible but is wrong because 0 would imply 2/5 or a modulo confusion, not 5/2."
+      "A": "✗ Not the answer. 2.5 is a floating-point result; integer division in C never produces a float without casting or using float literals.",
+      "B": "✓ CORRECT. integer division 5/2 = 2 with remainder 1 discarded; %d prints 2.",
+      "C": "✗ Not the answer. 3 would require rounding up (ceiling), but C integer division truncates down.",
+      "D": "✗ Not the answer. 0 would imply 2/5 or a modulo confusion, not 5/2."
     },
-    "studyTip": "C integer `/` truncates: 5/2=2, 7/2=3. Use 5.0/2 for 2.5."
+    "studyTip": "C integer `/` truncates: 5/2=2, 7/2=3. Use 5.0/2 for 2.5.",
+    "source": "offline-deep"
   },
   "3": {
-    "overview": "Python identifier rules: must start with a letter or underscore; may contain letters, digits, and underscores; cannot start with a digit; hyphens and # are operators/syntax, not name characters. variable_1 satisfies all rules.",
+    "overview": "Python identifier rules: must start with a letter or underscore; may contain letters, digits, and underscores; cannot start with a digit; hyphens and # are operators/syntax, not name characters. variable_1 satisfies all rules.\n\n✅ Answer: B — variable_1",
     "options": {
-      "A": "Option A (INCORRECT): \"1variable\". \"1variable\" sounds plausible but is wrong because identifiers cannot begin with a digit — SyntaxError at parse time.",
-      "B": "Option B (CORRECT): \"variable_1\". \"variable_1\" is correct because starts with letter, contains underscore and digit — fully valid Python name.",
-      "C": "Option C (INCORRECT): \"variable-1\". \"variable-1\" sounds plausible but is wrong because hyphen is the subtraction operator; Python parses this as variable minus 1.",
-      "D": "Option D (INCORRECT): \"variable#1\". \"variable#1\" sounds plausible but is wrong because # starts an inline comment; not part of an identifier."
+      "A": "✗ Not the answer. identifiers cannot begin with a digit — SyntaxError at parse time.",
+      "B": "✓ CORRECT. starts with letter, contains underscore and digit — fully valid Python name.",
+      "C": "✗ Not the answer. hyphen is the subtraction operator; Python parses this as variable minus 1.",
+      "D": "✗ Not the answer. # starts an inline comment; not part of an identifier."
     },
-    "studyTip": "Python names: [a-zA-Z_][a-zA-Z0-9_]* — no hyphens, no leading digits."
+    "studyTip": "Python names: [a-zA-Z_][a-zA-Z0-9_]* — no hyphens, no leading digits.",
+    "source": "offline-deep"
   },
   "4": {
-    "overview": "break immediately terminates the innermost enclosing loop or switch, transferring control to the statement after the loop. continue skips the rest of the current iteration and jumps to the next loop test. They are frequently confused on exams.",
+    "overview": "break immediately terminates the innermost enclosing loop or switch, transferring control to the statement after the loop. continue skips the rest of the current iteration and jumps to the next loop test. They are frequently confused on exams.\n\n✅ Answer: B — Exits the loop entirely",
     "options": {
-      "A": "Option A (INCORRECT): \"Skips the current iteration\". \"Skips the current iteration\" sounds plausible but is wrong because that is continue, not break — continue goes to next iteration while staying inside the loop.",
-      "B": "Option B (CORRECT): \"Exits the loop entirely\". \"Exits the loop entirely\" is correct because break leaves the loop completely; no further iterations run.",
-      "C": "Option C (INCORRECT): \"Restarts the loop\". \"Restarts the loop\" sounds plausible but is wrong because no standard keyword restarts from iteration 1; you'd reassign counter or use a nested loop structure.",
-      "D": "Option D (INCORRECT): \"Continues to the next iteration\". \"Continues to the next iteration\" sounds plausible but is wrong because that describes continue; break exits, not advances."
+      "A": "✗ Not the answer. that is continue, not break — continue goes to next iteration while staying inside the loop.",
+      "B": "✓ CORRECT. break leaves the loop completely; no further iterations run.",
+      "C": "✗ Not the answer. no standard keyword restarts from iteration 1; you'd reassign counter or use a nested loop structure.",
+      "D": "✗ Not the answer. that describes continue; break exits, not advances."
     },
-    "studyTip": "break = exit loop; continue = skip to next iteration."
+    "studyTip": "break = exit loop; continue = skip to next iteration.",
+    "source": "offline-deep"
   },
   "5": {
-    "overview": "Java constants are declared with final — applied to variables, methods (no override), or classes (no subclass). C/C++ use const; Python has no true const keyword; immutable is a general concept, not a Java keyword.",
+    "overview": "Java constants are declared with final — applied to variables, methods (no override), or classes (no subclass). C/C++ use const; Python has no true const keyword; immutable is a general concept, not a Java keyword.\n\n✅ Answer: B — final",
     "options": {
-      "A": "Option A (INCORRECT): \"static\". \"static\" sounds plausible but is wrong because static means class-level membership/shared state, not immutability.",
-      "B": "Option B (CORRECT): \"final\". \"final\" is correct because final variable must be assigned once; reference cannot point to new object (object internals may still mutate unless deeply immutable).",
-      "C": "Option C (INCORRECT): \"const\". \"const\" sounds plausible but is wrong because const is C/C++ keyword; Java uses final instead.",
-      "D": "Option D (INCORRECT): \"immutable\". \"immutable\" sounds plausible but is wrong because not a Java keyword — immutability is achieved via final + design (e.g., String class)."
+      "A": "✗ Not the answer. static means class-level membership/shared state, not immutability.",
+      "B": "✓ CORRECT. final variable must be assigned once; reference cannot point to new object (object internals may still mutate unless deeply immutable).",
+      "C": "✗ Not the answer. const is C/C++ keyword; Java uses final instead.",
+      "D": "✗ Not the answer. not a Java keyword — immutability is achieved via final + design (e.g., String class)."
     },
-    "studyTip": "Java constant field: private static final TYPE NAME = value;"
+    "studyTip": "Java constant field: private static final TYPE NAME = value;",
+    "source": "offline-deep"
   },
   "6": {
-    "overview": "Linear search scans each of n elements once in the worst case, comparing the target with every item until found or exhausted. Time complexity is O(n) — linear in input size. O(1) is direct index access; O(log n) is binary search on sorted data; O(n²) is nested loops.",
+    "overview": "Linear search scans each of n elements once in the worst case, comparing the target with every item until found or exhausted. Time complexity is O(n) — linear in input size. O(1) is direct index access; O(log n) is binary search on sorted data; O(n²) is nested loops.\n\n✅ Answer: B — O(n)",
     "options": {
-      "A": "Option A (INCORRECT): \"O(1)\". \"O(1)\" sounds plausible but is wrong because constant time requires direct addressing (array index, hash lookup average case) — linear search may scan all n elements.",
-      "B": "Option B (CORRECT): \"O(n)\". \"O(n)\" is correct because one pass through up to n elements → linear time.",
-      "C": "Option C (INCORRECT): \"O(log n)\". \"O(log n)\" sounds plausible but is wrong because logarithmic search halves the search space each step (binary search), not sequential scan.",
-      "D": "Option D (INCORRECT): \"O(n²)\". \"O(n²)\" sounds plausible but is wrong because quadratic time implies nested iteration over n — not a single linear scan."
+      "A": "✗ Not the answer. constant time requires direct addressing (array index, hash lookup average case) — linear search may scan all n elements.",
+      "B": "✓ CORRECT. one pass through up to n elements → linear time.",
+      "C": "✗ Not the answer. logarithmic search halves the search space each step (binary search), not sequential scan.",
+      "D": "✗ Not the answer. quadratic time implies nested iteration over n — not a single linear scan."
     },
-    "studyTip": "Unsorted search = O(n); sorted array binary search = O(log n)."
+    "studyTip": "Unsorted search = O(n); sorted array binary search = O(log n).",
+    "source": "offline-deep"
   },
   "7": {
-    "overview": "Conditional execution selects one path based on a Boolean condition. if-else (and switch/match variants) implement branching. Loops repeat; functions organize code; arrays store data.",
+    "overview": "Conditional execution selects one path based on a Boolean condition. if-else (and switch/match variants) implement branching. Loops repeat; functions organize code; arrays store data.\n\n✅ Answer: C — If-else statement",
     "options": {
-      "A": "Option A (INCORRECT): \"Loop\". \"Loop\" sounds plausible but is wrong because loops repeat while/for a condition; they don't choose between alternate single-pass paths like if-else.",
-      "B": "Option B (INCORRECT): \"Function\". \"Function\" sounds plausible but is wrong because functions encapsulate code but don't inherently branch — branching uses if inside functions.",
-      "C": "Option C (CORRECT): \"If-else statement\". \"If-else statement\" is correct because evaluates condition and executes exactly one branch — core conditional construct.",
-      "D": "Option D (INCORRECT): \"Array\". \"Array\" sounds plausible but is wrong because arrays are data structures for storing multiple values, not control flow."
+      "A": "✗ Not the answer. loops repeat while/for a condition; they don't choose between alternate single-pass paths like if-else.",
+      "B": "✗ Not the answer. functions encapsulate code but don't inherently branch — branching uses if inside functions.",
+      "C": "✓ CORRECT. evaluates condition and executes exactly one branch — core conditional construct.",
+      "D": "✗ Not the answer. arrays are data structures for storing multiple values, not control flow."
     },
-    "studyTip": "Selection (if) vs iteration (loop) vs sequence (statements) — classic control-flow trio."
+    "studyTip": "Selection (if) vs iteration (loop) vs sequence (statements) — classic control-flow trio.",
+    "source": "offline-deep"
   },
   "8": {
-    "overview": "Python comparison operators return bool. x > 5 is True (10>5) and x < 15 is True (10<15). and requires both True → print outputs True. It does not print the number 10 or raise an error.",
+    "overview": "Python comparison operators return bool. x > 5 is True (10>5) and x < 15 is True (10<15). and requires both True → print outputs True. It does not print the number 10 or raise an error.\n\n✅ Answer: A — True",
     "options": {
-      "A": "Option A (CORRECT): \"True\". \"True\" is correct because both comparisons hold for x=10, so boolean and is True.",
-      "B": "Option B (INCORRECT): \"False\". \"False\" sounds plausible but is wrong because would require at least one comparison to fail — neither does for x=10.",
-      "C": "Option C (INCORRECT): \"10\". \"10\" sounds plausible but is wrong because print receives a boolean expression result, not the integer x.",
-      "D": "Option D (INCORRECT): \"Error\". \"Error\" sounds plausible but is wrong because syntax and types are valid; no exception raised."
+      "A": "✓ CORRECT. both comparisons hold for x=10, so boolean and is True.",
+      "B": "✗ Not the answer. would require at least one comparison to fail — neither does for x=10.",
+      "C": "✗ Not the answer. print receives a boolean expression result, not the integer x.",
+      "D": "✗ Not the answer. syntax and types are valid; no exception raised."
     },
-    "studyTip": "Python print(bool_expr) prints True/False, not the original integer."
+    "studyTip": "Python print(bool_expr) prints True/False, not the original integer.",
+    "source": "offline-deep"
   },
   "9": {
-    "overview": "C primitive types include int, char, float, double, void, etc. string is NOT a built-in primitive — C uses char arrays or char* for text. stdio.h provides string handling via C strings, not a string type.",
+    "overview": "C primitive types include int, char, float, double, void, etc. string is NOT a built-in primitive — C uses char arrays or char* for text. stdio.h provides string handling via C strings, not a string type.\n\n✅ Answer: C — string",
     "options": {
-      "A": "Option A (INCORRECT): \"int\". \"int\" sounds plausible but is wrong because int is fundamental numeric primitive in C.",
-      "B": "Option B (INCORRECT): \"float\". \"float\" sounds plausible but is wrong because float is standard floating-point primitive.",
-      "C": "Option C (CORRECT): \"string\". \"string\" is correct because C has no string primitive; text is char[] or pointer to char.",
-      "D": "Option D (INCORRECT): \"char\". \"char\" sounds plausible but is wrong because char stores single character — primitive type."
+      "A": "✗ Not the answer. int is fundamental numeric primitive in C.",
+      "B": "✗ Not the answer. float is standard floating-point primitive.",
+      "C": "✓ CORRECT. C has no string primitive; text is char[] or pointer to char.",
+      "D": "✗ Not the answer. char stores single character — primitive type."
     },
-    "studyTip": "C primitives: int, char, float, double. Text = char array."
+    "studyTip": "C primitives: int, char, float, double. Text = char array.",
+    "source": "offline-deep"
   },
   "10": {
-    "overview": "Modular programming decomposes a large program into smaller modules (functions, classes, files) with clear interfaces. Benefits: easier testing, maintenance, team parallel work, and reuse. It does not eliminate debugging or intentionally slow execution.",
+    "overview": "Modular programming decomposes a large program into smaller modules (functions, classes, files) with clear interfaces. Benefits: easier testing, maintenance, team parallel work, and reuse. It does not eliminate debugging or intentionally slow execution.\n\n✅ Answer: B — To break a program into smaller, manageable functions",
     "options": {
-      "A": "Option A (INCORRECT): \"To increase code complexity\". \"To increase code complexity\" sounds plausible but is wrong because modularity reduces perceived complexity by separation of concerns — opposite of this answer.",
-      "B": "Option B (CORRECT): \"To break a program into smaller, manageable functions\". \"To break a program into smaller, manageable functions\" is correct because core definition of modular design — divide and conquer at code level.",
-      "C": "Option C (INCORRECT): \"To eliminate the need for debugging\". \"To eliminate the need for debugging\" sounds plausible but is wrong because bugs still occur; modules make isolation easier but don't remove debugging.",
-      "D": "Option D (INCORRECT): \"To reduce program execution speed\". \"To reduce program execution speed\" sounds plausible but is wrong because modularity may add tiny call overhead but goal is maintainability, not slower execution."
+      "A": "✗ Not the answer. modularity reduces perceived complexity by separation of concerns — opposite of this answer.",
+      "B": "✓ CORRECT. core definition of modular design — divide and conquer at code level.",
+      "C": "✗ Not the answer. bugs still occur; modules make isolation easier but don't remove debugging.",
+      "D": "✗ Not the answer. modularity may add tiny call overhead but goal is maintainability, not slower execution."
     },
-    "studyTip": "Modular = smaller units + interfaces; think functions, packages, layers."
+    "studyTip": "Modular = smaller units + interfaces; think functions, packages, layers.",
+    "source": "offline-deep"
   },
   "11": {
-    "overview": "Python supports tuple unpacking for simultaneous assignment: a, b = b, a swaps without temp variable by evaluating RHS tuple first then binding names. Arithmetic swap works in some languages but is unnecessary in Python. a=b; b=a fails to swap (loses original a). swap() is not built-in.",
+    "overview": "Python supports tuple unpacking for simultaneous assignment: a, b = b, a swaps without temp variable by evaluating RHS tuple first then binding names. Arithmetic swap works in some languages but is unnecessary in Python. a=b; b=a fails to swap (loses original a). swap() is not built-in.\n\n✅ Answer: C — a, b = b, a",
     "options": {
-      "A": "Option A (INCORRECT): \"a = a + b; b = a - b; a = a - b\". \"a = a + b; b = a - b; a = a - b\" sounds plausible but is wrong because arithmetic swap works in languages without tuple unpacking but is error-prone with overflow; Python idiomatic way is C.",
-      "B": "Option B (INCORRECT): \"a = b; b = a\". \"a = b; b = a\" sounds plausible but is wrong because after first line both hold b's old value — original a is lost.",
-      "C": "Option C (CORRECT): \"a, b = b, a\". \"a, b = b, a\" is correct because Python evaluates (b, a) tuple then unpacks — elegant one-line swap.",
-      "D": "Option D (INCORRECT): \"swap(a, b)\". \"swap(a, b)\" sounds plausible but is wrong because no built-in swap(); you'd need a custom function."
+      "A": "✗ Not the answer. arithmetic swap works in languages without tuple unpacking but is error-prone with overflow; Python idiomatic way is C.",
+      "B": "✗ Not the answer. after first line both hold b's old value — original a is lost.",
+      "C": "✓ CORRECT. Python evaluates (b, a) tuple then unpacks — elegant one-line swap.",
+      "D": "✗ Not the answer. no built-in swap(); you'd need a custom function."
     },
-    "studyTip": "Python swap idiom: a, b = b, a — always remember RHS evaluated first."
+    "studyTip": "Python swap idiom: a, b = b, a — always remember RHS evaluated first.",
+    "source": "offline-deep"
   },
   "12": {
-    "overview": "Arrays have fixed size (in many languages) and O(1) random access but costly insert/delete in middle. Linked lists allocate nodes dynamically — grow/shrink at runtime without predeclaring max size. Access is O(n) for linked lists; memory overhead per node exists.",
+    "overview": "Arrays have fixed size (in many languages) and O(1) random access but costly insert/delete in middle. Linked lists allocate nodes dynamically — grow/shrink at runtime without predeclaring max size. Access is O(n) for linked lists; memory overhead per node exists.\n\n✅ Answer: B — Dynamic size adjustment",
     "options": {
-      "A": "Option A (INCORRECT): \"Faster access time\". \"Faster access time\" sounds plausible but is wrong because arrays offer O(1) index access; linked lists require O(n) traversal.",
-      "B": "Option B (CORRECT): \"Dynamic size adjustment\". \"Dynamic size adjustment\" is correct because linked lists allocate nodes as needed — primary advantage over static arrays.",
-      "C": "Option C (INCORRECT): \"Less memory usage\". \"Less memory usage\" sounds plausible but is wrong because linked lists store pointer overhead per node — often MORE memory.",
-      "D": "Option D (INCORRECT): \"Constant-time insertion\". \"Constant-time insertion\" sounds plausible but is wrong because insertion is O(1) only at known position with pointer; searching that position is still O(n)."
+      "A": "✗ Not the answer. arrays offer O(1) index access; linked lists require O(n) traversal.",
+      "B": "✓ CORRECT. linked lists allocate nodes as needed — primary advantage over static arrays.",
+      "C": "✗ Not the answer. linked lists store pointer overhead per node — often MORE memory.",
+      "D": "✗ Not the answer. insertion is O(1) only at known position with pointer; searching that position is still O(n)."
     },
-    "studyTip": "Linked list wins on dynamic size; array wins on random access."
+    "studyTip": "Linked list wins on dynamic size; array wins on random access.",
+    "source": "offline-deep"
   },
   "13": {
-    "overview": "Stack: Last-In-First-Out — push adds to top, pop removes top (like plate stack). Queue: FIFO — first in, first out. Linked list is implementation structure; binary tree is hierarchical.",
+    "overview": "Stack: Last-In-First-Out — push adds to top, pop removes top (like plate stack). Queue: FIFO — first in, first out. Linked list is implementation structure; binary tree is hierarchical.\n\n✅ Answer: B — Stack",
     "options": {
-      "A": "Option A (INCORRECT): \"Queue\". \"Queue\" sounds plausible but is wrong because queue is FIFO — opposite order of LIFO.",
-      "B": "Option B (CORRECT): \"Stack\". \"Stack\" is correct because LIFO defines stack behavior — used in call stacks, undo, parsing.",
-      "C": "Option C (INCORRECT): \"Linked List\". \"Linked List\" sounds plausible but is wrong because linked list is implementation technique; LIFO describes stack ADT.",
-      "D": "Option D (INCORRECT): \"Binary Tree\". \"Binary Tree\" sounds plausible but is wrong because tree organizes hierarchical data with left/right children, not LIFO."
+      "A": "✗ Not the answer. queue is FIFO — opposite order of LIFO.",
+      "B": "✓ CORRECT. LIFO defines stack behavior — used in call stacks, undo, parsing.",
+      "C": "✗ Not the answer. linked list is implementation technique; LIFO describes stack ADT.",
+      "D": "✗ Not the answer. tree organizes hierarchical data with left/right children, not LIFO."
     },
-    "studyTip": "LIFO = Stack; FIFO = Queue — memorize both acronyms."
+    "studyTip": "LIFO = Stack; FIFO = Queue — memorize both acronyms.",
+    "source": "offline-deep"
   },
   "14": {
-    "overview": "QuickSort average O(n log n) but worst case O(n²) when pivots are poorly chosen (already sorted with first-element pivot). MergeSort guarantees O(n log n) worst case. Exam asks worst case.",
+    "overview": "QuickSort average O(n log n) but worst case O(n²) when pivots are poorly chosen (already sorted with first-element pivot). MergeSort guarantees O(n log n) worst case. Exam asks worst case.\n\n✅ Answer: B — O(n²)",
     "options": {
-      "A": "Option A (INCORRECT): \"O(n log n)\". \"O(n log n)\" sounds plausible but is wrong because average/good-case QuickSort, not worst case.",
-      "B": "Option B (CORRECT): \"O(n²)\". \"O(n²)\" is correct because worst case with unbalanced partitions — all elements on one side of pivot.",
-      "C": "Option C (INCORRECT): \"O(n)\". \"O(n)\" sounds plausible but is wrong because linear time is one pass — QuickSort is divide-and-conquer with recursion.",
-      "D": "Option D (INCORRECT): \"O(log n)\". \"O(log n)\" sounds plausible but is wrong because logarithmic is binary search style, not sorting entire array."
+      "A": "✗ Not the answer. average/good-case QuickSort, not worst case.",
+      "B": "✓ CORRECT. worst case with unbalanced partitions — all elements on one side of pivot.",
+      "C": "✗ Not the answer. linear time is one pass — QuickSort is divide-and-conquer with recursion.",
+      "D": "✗ Not the answer. logarithmic is binary search style, not sorting entire array."
     },
-    "studyTip": "QuickSort worst = O(n²); MergeSort worst = O(n log n)."
+    "studyTip": "QuickSort worst = O(n²); MergeSort worst = O(n log n).",
+    "source": "offline-deep"
   },
   "15": {
-    "overview": "Dijkstra's algorithm finds shortest paths from a source to all vertices in weighted graphs with non-negative edge weights. DFS/BFS don't handle weighted shortest path optimally. Merge Sort sorts arrays.",
+    "overview": "Dijkstra's algorithm finds shortest paths from a source to all vertices in weighted graphs with non-negative edge weights. DFS/BFS don't handle weighted shortest path optimally. Merge Sort sorts arrays.\n\n✅ Answer: C — Dijkstra's Algorithm",
     "options": {
-      "A": "Option A (INCORRECT): \"Depth-First Search\". \"Depth-First Search\" sounds plausible but is wrong because DFS explores deeply — doesn't guarantee shortest weighted path.",
-      "B": "Option B (INCORRECT): \"Breadth-First Search\". \"Breadth-First Search\" sounds plausible but is wrong because BFS finds shortest path in unweighted graphs, not weighted.",
-      "C": "Option C (CORRECT): \"Dijkstra's Algorithm\". \"Dijkstra's Algorithm\" is correct because classic greedy algorithm for non-negative weighted shortest paths.",
-      "D": "Option D (INCORRECT): \"Merge Sort\". \"Merge Sort\" sounds plausible but is wrong because sorting algorithm, unrelated to graph pathfinding."
+      "A": "✗ Not the answer. DFS explores deeply — doesn't guarantee shortest weighted path.",
+      "B": "✗ Not the answer. BFS finds shortest path in unweighted graphs, not weighted.",
+      "C": "✓ CORRECT. classic greedy algorithm for non-negative weighted shortest paths.",
+      "D": "✗ Not the answer. sorting algorithm, unrelated to graph pathfinding."
     },
-    "studyTip": "Weighted shortest path (non-negative) → Dijkstra; unweighted → BFS."
+    "studyTip": "Weighted shortest path (non-negative) → Dijkstra; unweighted → BFS.",
+    "source": "offline-deep"
   },
   "16": {
-    "overview": "Binary Search Tree property: for every node, all keys in left subtree are less than node's key; all keys in right subtree are greater (or equal depending on variant). Less-than values go LEFT of root.",
+    "overview": "Binary Search Tree property: for every node, all keys in left subtree are less than node's key; all keys in right subtree are greater (or equal depending on variant). Less-than values go LEFT of root.\n\n✅ Answer: B — Left subtree",
     "options": {
-      "A": "Option A (INCORRECT): \"Right subtree\". \"Right subtree\" sounds plausible but is wrong because right subtree holds values GREATER than root.",
-      "B": "Option B (CORRECT): \"Left subtree\". \"Left subtree\" is correct because BST invariant: left < root < right.",
-      "C": "Option C (INCORRECT): \"Parent node\". \"Parent node\" sounds plausible but is wrong because parent is one level up — not where all smaller values live.",
-      "D": "Option D (INCORRECT): \"Root node\". \"Root node\" sounds plausible but is wrong because root is single comparison point; smaller values descend left."
+      "A": "✗ Not the answer. right subtree holds values GREATER than root.",
+      "B": "✓ CORRECT. BST invariant: left < root < right.",
+      "C": "✗ Not the answer. parent is one level up — not where all smaller values live.",
+      "D": "✗ Not the answer. root is single comparison point; smaller values descend left."
     },
-    "studyTip": "BST: left smaller, right larger — trace insertions on paper."
+    "studyTip": "BST: left smaller, right larger — trace insertions on paper.",
+    "source": "offline-deep"
   },
   "17": {
-    "overview": "Balanced BST (AVL, Red-Black) maintains height O(log n), so insert/search/delete are O(log n). Unbalanced degenerate tree can be O(n). Balanced guarantees logarithmic height.",
+    "overview": "Balanced BST (AVL, Red-Black) maintains height O(log n), so insert/search/delete are O(log n). Unbalanced degenerate tree can be O(n). Balanced guarantees logarithmic height.\n\n✅ Answer: C — O(log n)",
     "options": {
-      "A": "Option A (INCORRECT): \"O(1)\". \"O(1)\" sounds plausible but is wrong because insertion must traverse tree height — cannot be constant for arbitrary size.",
-      "B": "Option B (INCORRECT): \"O(n)\". \"O(n)\" sounds plausible but is wrong because would be skewed/unbalanced tree worst case, not balanced BST.",
-      "C": "Option C (CORRECT): \"O(log n)\". \"O(log n)\" is correct because balanced tree height ~ log n → insert takes proportional steps.",
-      "D": "Option D (INCORRECT): \"O(n²)\". \"O(n²)\" sounds plausible but is wrong because no standard BST operation is quadratic for single insert."
+      "A": "✗ Not the answer. insertion must traverse tree height — cannot be constant for arbitrary size.",
+      "B": "✗ Not the answer. would be skewed/unbalanced tree worst case, not balanced BST.",
+      "C": "✓ CORRECT. balanced tree height ~ log n → insert takes proportional steps.",
+      "D": "✗ Not the answer. no standard BST operation is quadratic for single insert."
     },
-    "studyTip": "Balanced BST operations: O(log n); skewed chain: O(n)."
+    "studyTip": "Balanced BST operations: O(log n); skewed chain: O(n).",
+    "source": "offline-deep"
   },
   "18": {
-    "overview": "Inheritance allows subclass (derived) to acquire fields and methods from superclass (base). Encapsulation hides internals; polymorphism is many forms; abstraction hides complexity.",
+    "overview": "Inheritance allows subclass (derived) to acquire fields and methods from superclass (base). Encapsulation hides internals; polymorphism is many forms; abstraction hides complexity.\n\n✅ Answer: C — Inheritance",
     "options": {
-      "A": "Option A (INCORRECT): \"Encapsulation\". \"Encapsulation\" sounds plausible but is wrong because bundling data + methods with access control — not parent-child sharing.",
-      "B": "Option B (INCORRECT): \"Polymorphism\". \"Polymorphism\" sounds plausible but is wrong because same interface, different behavior — often uses inheritance but is distinct principle.",
-      "C": "Option C (CORRECT): \"Inheritance\". \"Inheritance\" is correct because is-a relationship: Dog extends Animal inherits sound(), etc.",
-      "D": "Option D (INCORRECT): \"Abstraction\". \"Abstraction\" sounds plausible but is wrong because showing essential features while hiding detail — broader design concept."
+      "A": "✗ Not the answer. bundling data + methods with access control — not parent-child sharing.",
+      "B": "✗ Not the answer. same interface, different behavior — often uses inheritance but is distinct principle.",
+      "C": "✓ CORRECT. is-a relationship: Dog extends Animal inherits sound(), etc.",
+      "D": "✗ Not the answer. showing essential features while hiding detail — broader design concept."
     },
-    "studyTip": "Four OOP pillars: Encapsulation, Abstraction, Inheritance, Polymorphism."
+    "studyTip": "Four OOP pillars: Encapsulation, Abstraction, Inheritance, Polymorphism.",
+    "source": "offline-deep"
   },
   "19": {
-    "overview": "Encapsulation restricts direct access to internal state via private fields and public getters/setters. Goal: protect invariants, reduce coupling, allow implementation change without breaking clients.",
+    "overview": "Encapsulation restricts direct access to internal state via private fields and public getters/setters. Goal: protect invariants, reduce coupling, allow implementation change without breaking clients.\n\n✅ Answer: B — To hide data and restrict direct access",
     "options": {
-      "A": "Option A (INCORRECT): \"To allow multiple inheritance\". \"To allow multiple inheritance\" sounds plausible but is wrong because Java allows one class inheritance; multiple inheritance is separate language feature, not encapsulation's purpose.",
-      "B": "Option B (CORRECT): \"To hide data and restrict direct access\". \"To hide data and restrict direct access\" is correct because private/protected modifiers + accessors = encapsulation.",
-      "C": "Option C (INCORRECT): \"To enable method overloading\". \"To enable method overloading\" sounds plausible but is wrong because overloading is compile-time polymorphism — same name, different parameters.",
-      "D": "Option D (INCORRECT): \"To create abstract classes\". \"To create abstract classes\" sounds plausible but is wrong because abstract classes support inheritance/abstraction, not primarily data hiding definition."
+      "A": "✗ Not the answer. Java allows one class inheritance; multiple inheritance is separate language feature, not encapsulation's purpose.",
+      "B": "✓ CORRECT. private/protected modifiers + accessors = encapsulation.",
+      "C": "✗ Not the answer. overloading is compile-time polymorphism — same name, different parameters.",
+      "D": "✗ Not the answer. abstract classes support inheritance/abstraction, not primarily data hiding definition."
     },
-    "studyTip": "Encapsulation = data hiding + controlled access through methods."
+    "studyTip": "Encapsulation = data hiding + controlled access through methods.",
+    "source": "offline-deep"
   },
   "20": {
-    "overview": "Java this refers to current object instance — access instance fields, call other constructors (this()), pass current object. super refers to parent class. self is Python. instance is not keyword.",
+    "overview": "Java this refers to current object instance — access instance fields, call other constructors (this()), pass current object. super refers to parent class. self is Python. instance is not keyword.\n\n✅ Answer: A — this",
     "options": {
-      "A": "Option A (CORRECT): \"this\". \"this\" is correct because this.field, this.method(), this() constructor chaining.",
-      "B": "Option B (INCORRECT): \"super\". \"super\" sounds plausible but is wrong because super accesses superclass members — different from current object reference.",
-      "C": "Option C (INCORRECT): \"self\". \"self\" sounds plausible but is wrong because Python convention for instance reference; Java uses this.",
-      "D": "Option D (INCORRECT): \"instance\". \"instance\" sounds plausible but is wrong because not a Java keyword for current object."
+      "A": "✓ CORRECT. this.field, this.method(), this() constructor chaining.",
+      "B": "✗ Not the answer. super accesses superclass members — different from current object reference.",
+      "C": "✗ Not the answer. Python convention for instance reference; Java uses this.",
+      "D": "✗ Not the answer. not a Java keyword for current object."
     },
-    "studyTip": "Java: this (current), super (parent). Python: self."
+    "studyTip": "Java: this (current), super (parent). Python: self.",
+    "source": "offline-deep"
   },
   "21": {
-    "overview": "Runtime polymorphism: Animal reference holds Dog object; overridden sound() in Dog is invoked via dynamic dispatch (virtual method table). Static type is Animal; dynamic type is Dog — Bark prints.",
+    "overview": "Runtime polymorphism: Animal reference holds Dog object; overridden sound() in Dog is invoked via dynamic dispatch (virtual method table). Static type is Animal; dynamic type is Dog — Bark prints.\n\n✅ Answer: B — Bark",
     "options": {
-      "A": "Option A (INCORRECT): \"Generic sound\". \"Generic sound\" sounds plausible but is wrong because would be result if sound() were not overridden or reference called static binding on non-virtual method.",
-      "B": "Option B (CORRECT): \"Bark\". \"Bark\" is correct because method overriding + dynamic dispatch → Dog.sound() runs.",
-      "C": "Option C (INCORRECT): \"Error\". \"Error\" sounds plausible but is wrong because valid Java — subclass IS-A superclass; assignment legal.",
-      "D": "Option D (INCORRECT): \"No output\". \"No output\" sounds plausible but is wrong because sound() explicitly prints Bark."
+      "A": "✗ Not the answer. would be result if sound() were not overridden or reference called static binding on non-virtual method.",
+      "B": "✓ CORRECT. method overriding + dynamic dispatch → Dog.sound() runs.",
+      "C": "✗ Not the answer. valid Java — subclass IS-A superclass; assignment legal.",
+      "D": "✗ Not the answer. sound() explicitly prints Bark."
     },
-    "studyTip": "Override + parent reference to child object → child method runs (dynamic binding)."
+    "studyTip": "Override + parent reference to child object → child method runs (dynamic binding).",
+    "source": "offline-deep"
   },
   "22": {
-    "overview": "Polymorphism ('many forms'): same method name, different behavior in subclasses via overriding, or overloading at compile time. Overriding subclass method is classic polymorphism example.",
+    "overview": "Polymorphism ('many forms'): same method name, different behavior in subclasses via overriding, or overloading at compile time. Overriding subclass method is classic polymorphism example.\n\n✅ Answer: B — Overriding a method in a subclass",
     "options": {
-      "A": "Option A (INCORRECT): \"Defining a variable\". \"Defining a variable\" sounds plausible but is wrong because basic syntax — not polymorphism.",
-      "B": "Option B (CORRECT): \"Overriding a method in a subclass\". \"Overriding a method in a subclass\" is correct because runtime polymorphism through method override.",
-      "C": "Option C (INCORRECT): \"Declaring a constant\". \"Declaring a constant\" sounds plausible but is wrong because final const declaration — unrelated.",
-      "D": "Option D (INCORRECT): \"Creating a loop\". \"Creating a loop\" sounds plausible but is wrong because control flow — not OOP polymorphism."
+      "A": "✗ Not the answer. basic syntax — not polymorphism.",
+      "B": "✓ CORRECT. runtime polymorphism through method override.",
+      "C": "✗ Not the answer. final const declaration — unrelated.",
+      "D": "✗ Not the answer. control flow — not OOP polymorphism."
     },
-    "studyTip": "Polymorphism types: override (runtime) vs overload (compile-time)."
+    "studyTip": "Polymorphism types: override (runtime) vs overload (compile-time).",
+    "source": "offline-deep"
   },
   "23": {
-    "overview": "HTML anchor element <a href=\"url\"> creates clickable hyperlinks. <link> is for external resources (CSS) in head. <href> and <url> are not valid HTML tags.",
+    "overview": "HTML anchor element <a href=\"url\"> creates clickable hyperlinks. <link> is for external resources (CSS) in head. <href> and <url> are not valid HTML tags.\n\n✅ Answer: B — <a>",
     "options": {
-      "A": "Option A (INCORRECT): \"<link>\". \"<link>\" sounds plausible but is wrong because link associates document with stylesheet/icon — not inline hyperlinks.",
-      "B": "Option B (CORRECT): \"<a>\". \"<a>\" is correct because anchor tag with href attribute defines hyperlinks.",
-      "C": "Option C (INCORRECT): \"<href>\". \"<href>\" sounds plausible but is wrong because not an HTML element — href is an attribute name.",
-      "D": "Option D (INCORRECT): \"<url>\". \"<url>\" sounds plausible but is wrong because not standard HTML tag."
+      "A": "✗ Not the answer. link associates document with stylesheet/icon — not inline hyperlinks.",
+      "B": "✓ CORRECT. anchor tag with href attribute defines hyperlinks.",
+      "C": "✗ Not the answer. not an HTML element — href is an attribute name.",
+      "D": "✗ Not the answer. not standard HTML tag."
     },
-    "studyTip": "Hyperlink = <a href=\"...\">text</a>; stylesheet = <link rel=\"stylesheet\">."
+    "studyTip": "Hyperlink = <a href=\"...\">text</a>; stylesheet = <link rel=\"stylesheet\">.",
+    "source": "offline-deep"
   },
   "24": {
-    "overview": "CSS (Cascading Style Sheets) controls presentation: colors, fonts, layout, spacing, responsive design. HTML structures content; JavaScript adds behavior; server-side code handles business logic.",
+    "overview": "CSS (Cascading Style Sheets) controls presentation: colors, fonts, layout, spacing, responsive design. HTML structures content; JavaScript adds behavior; server-side code handles business logic.\n\n✅ Answer: B — To style and format web pages",
     "options": {
-      "A": "Option A (INCORRECT): \"To handle server-side logic\". \"To handle server-side logic\" sounds plausible but is wrong because PHP, Java servlets, Node handle server logic — not CSS.",
-      "B": "Option B (CORRECT): \"To style and format web pages\". \"To style and format web pages\" is correct because CSS separates presentation from HTML structure.",
-      "C": "Option C (INCORRECT): \"To manage databases\". \"To manage databases\" sounds plausible but is wrong because DBMS/SQL layer — unrelated to CSS.",
-      "D": "Option D (INCORRECT): \"To execute JavaScript code\". \"To execute JavaScript code\" sounds plausible but is wrong because browser executes JS; CSS is declarative styling rules."
+      "A": "✗ Not the answer. PHP, Java servlets, Node handle server logic — not CSS.",
+      "B": "✓ CORRECT. CSS separates presentation from HTML structure.",
+      "C": "✗ Not the answer. DBMS/SQL layer — unrelated to CSS.",
+      "D": "✗ Not the answer. browser executes JS; CSS is declarative styling rules."
     },
-    "studyTip": "HTML=structure, CSS=presentation, JS=behavior — separation of concerns."
+    "studyTip": "HTML=structure, CSS=presentation, JS=behavior — separation of concerns.",
+    "source": "offline-deep"
   },
   "25": {
-    "overview": "JavaScript array methods: push() adds to end; pop() removes from end; shift() removes from front; unshift() adds to front. push/end pair is most commonly tested.",
+    "overview": "JavaScript array methods: push() adds to end; pop() removes from end; shift() removes from front; unshift() adds to front. push/end pair is most commonly tested.\n\n✅ Answer: A — push()",
     "options": {
-      "A": "Option A (CORRECT): \"push()\". \"push()\" is correct because arr.push(item) appends to end, returns new length.",
-      "B": "Option B (INCORRECT): \"pop()\". \"pop()\" sounds plausible but is wrong because removes and returns LAST element — opposite of add.",
-      "C": "Option C (INCORRECT): \"shift()\". \"shift()\" sounds plausible but is wrong because removes FIRST element.",
-      "D": "Option D (INCORRECT): \"unshift()\". \"unshift()\" sounds plausible but is wrong because adds to beginning, not end."
+      "A": "✓ CORRECT. arr.push(item) appends to end, returns new length.",
+      "B": "✗ Not the answer. removes and returns LAST element — opposite of add.",
+      "C": "✗ Not the answer. removes FIRST element.",
+      "D": "✗ Not the answer. adds to beginning, not end."
     },
-    "studyTip": "push/pop = end; shift/unshift = front."
+    "studyTip": "push/pop = end; shift/unshift = front.",
+    "source": "offline-deep"
   },
   "26": {
-    "overview": "AJAX = Asynchronous JavaScript and XML — technique for background server communication without full page reload. Modern apps often use JSON instead of XML but acronym remains.",
+    "overview": "AJAX = Asynchronous JavaScript and XML — technique for background server communication without full page reload. Modern apps often use JSON instead of XML but acronym remains.\n\n✅ Answer: A — Asynchronous JavaScript and XML",
     "options": {
-      "A": "Option A (CORRECT): \"Asynchronous JavaScript and XML\". \"Asynchronous JavaScript and XML\" is correct because correct expansion — async partial updates.",
-      "B": "Option B (INCORRECT): \"Active JavaScript and XML\". \"Active JavaScript and XML\" sounds plausible but is wrong because Active is wrong first word — Asynchronous.",
-      "C": "Option C (INCORRECT): \"Asynchronous JSON and XML\". \"Asynchronous JSON and XML\" sounds plausible but is wrong because JSON not in original acronym expansion.",
-      "D": "Option D (INCORRECT): \"Automated JavaScript and XHTML\". \"Automated JavaScript and XHTML\" sounds plausible but is wrong because Automated and XHTML are incorrect."
+      "A": "✓ CORRECT. correct expansion — async partial updates.",
+      "B": "✗ Not the answer. Active is wrong first word — Asynchronous.",
+      "C": "✗ Not the answer. JSON not in original acronym expansion.",
+      "D": "✗ Not the answer. Automated and XHTML are incorrect."
     },
-    "studyTip": "AJAX enables fetch/XHR calls updating page sections dynamically."
+    "studyTip": "AJAX enables fetch/XHR calls updating page sections dynamically.",
+    "source": "offline-deep"
   },
   "27": {
-    "overview": "HTTP GET requests retrieve/read resources — idempotent, parameters often in URL query string. POST creates/submits data; PUT updates; DELETE removes.",
+    "overview": "HTTP GET requests retrieve/read resources — idempotent, parameters often in URL query string. POST creates/submits data; PUT updates; DELETE removes.\n\n✅ Answer: B — GET",
     "options": {
-      "A": "Option A (INCORRECT): \"POST\". \"POST\" sounds plausible but is wrong because POST submits entity body — typically create or non-idempotent actions.",
-      "B": "Option B (CORRECT): \"GET\". \"GET\" is correct because retrieve data from server — read operation.",
-      "C": "Option C (INCORRECT): \"PUT\". \"PUT\" sounds plausible but is wrong because replace/update resource at URI.",
-      "D": "Option D (INCORRECT): \"DELETE\". \"DELETE\" sounds plausible but is wrong because remove resource."
+      "A": "✗ Not the answer. POST submits entity body — typically create or non-idempotent actions.",
+      "B": "✓ CORRECT. retrieve data from server — read operation.",
+      "C": "✗ Not the answer. replace/update resource at URI.",
+      "D": "✗ Not the answer. remove resource."
     },
-    "studyTip": "GET=read, POST=create/submit, PUT=update, DELETE=remove."
+    "studyTip": "GET=read, POST=create/submit, PUT=update, DELETE=remove.",
+    "source": "offline-deep"
   },
   "28": {
-    "overview": "Classic JavaScript runs in the browser (client-side) interpreting HTML/CSS DOM. Node.js enables server-side JS but exam default context is browser client execution.",
+    "overview": "Classic JavaScript runs in the browser (client-side) interpreting HTML/CSS DOM. Node.js enables server-side JS but exam default context is browser client execution.\n\n✅ Answer: B — Client-side",
     "options": {
-      "A": "Option A (INCORRECT): \"Server-side\". \"Server-side\" sounds plausible but is wrong because server-side JS exists (Node) but traditional web JS is client-side.",
-      "B": "Option B (CORRECT): \"Client-side\". \"Client-side\" is correct because browser executes JS embedded or linked from HTML.",
-      "C": "Option C (INCORRECT): \"Database\". \"Database\" sounds plausible but is wrong because databases run SQL/stored procedures — not JS engine primary role.",
-      "D": "Option D (INCORRECT): \"Middleware\". \"Middleware\" sounds plausible but is wrong because middleware sits between client/server — not primary JS execution context."
+      "A": "✗ Not the answer. server-side JS exists (Node) but traditional web JS is client-side.",
+      "B": "✓ CORRECT. browser executes JS embedded or linked from HTML.",
+      "C": "✗ Not the answer. databases run SQL/stored procedures — not JS engine primary role.",
+      "D": "✗ Not the answer. middleware sits between client/server — not primary JS execution context."
     },
-    "studyTip": "Browser JS manipulates DOM; server logic often PHP/Java/Python/Node."
+    "studyTip": "Browser JS manipulates DOM; server logic often PHP/Java/Python/Node.",
+    "source": "offline-deep"
   },
   "29": {
-    "overview": "Postfix x++ uses 5 then increments to 6. Prefix ++x increments first. Expression: x++ + ++x → 5 + 6 = 11? Wait: after x++ x becomes 6, ++x makes x=7 and uses 7? Trace: x=5; left x++ returns 5, x=6; ++x returns 7, x=7; 5+7=12. Answer is 12.",
+    "overview": "Postfix x++ uses 5 then increments to 6. Prefix ++x increments first. Expression: x++ + ++x → 5 + 6 = 11? Wait: after x++ x becomes 6, ++x makes x=7 and uses 7? Trace: x=5; left x++ returns 5, x=6; ++x returns 7, x=7; 5+7=12. Answer is 12.\n\n✅ Answer: C — 12",
     "options": {
-      "A": "Option A (INCORRECT): \"10\". \"10\" sounds plausible but is wrong because would be 5+5 without prefix increment on second operand.",
-      "B": "Option B (INCORRECT): \"11\". \"11\" sounds plausible but is wrong because common miscalculation ignoring that ++x increments before use.",
-      "C": "Option C (CORRECT): \"12\". \"12\" is correct because x++ yields 5; ++x yields 7; sum = 12.",
-      "D": "Option D (INCORRECT): \"13\". \"13\" sounds plausible but is wrong because over-counts increment steps."
+      "A": "✗ Not the answer. would be 5+5 without prefix increment on second operand.",
+      "B": "✗ Not the answer. common miscalculation ignoring that ++x increments before use.",
+      "C": "✓ CORRECT. x++ yields 5; ++x yields 7; sum = 12.",
+      "D": "✗ Not the answer. over-counts increment steps."
     },
-    "studyTip": "Trace increment operators left-to-right: postfix returns old, prefix returns new."
+    "studyTip": "Trace increment operators left-to-right: postfix returns old, prefix returns new.",
+    "source": "offline-deep"
   },
   "30": {
-    "overview": "PHP is widely taught as server-side scripting for web (WordPress, legacy apps). HTML/CSS are markup/style; JavaScript primarily client (though Node exists).",
+    "overview": "PHP is widely taught as server-side scripting for web (WordPress, legacy apps). HTML/CSS are markup/style; JavaScript primarily client (though Node exists).\n\n✅ Answer: C — PHP",
     "options": {
-      "A": "Option A (INCORRECT): \"HTML\". \"HTML\" sounds plausible but is wrong because markup language — not scripting.",
-      "B": "Option B (INCORRECT): \"CSS\". \"CSS\" sounds plausible but is wrong because stylesheet — not server scripting.",
-      "C": "Option C (CORRECT): \"PHP\". \"PHP\" is correct because runs on server, generates HTML dynamically.",
-      "D": "Option D (INCORRECT): \"JavaScript\". \"JavaScript\" sounds plausible but is wrong because primarily client-side in browser context of exam."
+      "A": "✗ Not the answer. markup language — not scripting.",
+      "B": "✗ Not the answer. stylesheet — not server scripting.",
+      "C": "✓ CORRECT. runs on server, generates HTML dynamically.",
+      "D": "✗ Not the answer. primarily client-side in browser context of exam."
     },
-    "studyTip": "Server-side scripting examples: PHP, Python/Django, Java/JSP, Node.js."
+    "studyTip": "Server-side scripting examples: PHP, Python/Django, Java/JSP, Node.js.",
+    "source": "offline-deep"
   },
   "31": {
-    "overview": "Django is Python web framework providing MVC/MVT structure, ORM, routing, templates, admin — full scaffolding for web apps, not just database or styling.",
+    "overview": "Django is Python web framework providing MVC/MVT structure, ORM, routing, templates, admin — full scaffolding for web apps, not just database or styling.\n\n✅ Answer: B — To provide a structure for developing web applications",
     "options": {
-      "A": "Option A (INCORRECT): \"To manage database connections only\". \"To manage database connections only\" sounds plausible but is wrong because ORM is part of Django but framework scope is broader.",
-      "B": "Option B (CORRECT): \"To provide a structure for developing web applications\". \"To provide a structure for developing web applications\" is correct because routing, views, templates, models.",
-      "C": "Option C (INCORRECT): \"To handle client-side styling\". \"To handle client-side styling\" sounds plausible but is wrong because CSS handles styling; Django is server-side.",
-      "D": "Option D (INCORRECT): \"To execute SQL queries directly\". \"To execute SQL queries directly\" sounds plausible but is wrong because ORM abstracts SQL; not raw query executor only."
+      "A": "✗ Not the answer. ORM is part of Django but framework scope is broader.",
+      "B": "✓ CORRECT. routing, views, templates, models.",
+      "C": "✗ Not the answer. CSS handles styling; Django is server-side.",
+      "D": "✗ Not the answer. ORM abstracts SQL; not raw query executor only."
     },
-    "studyTip": "Frameworks (Django, Spring, Rails) = structure + conventions + built-in tools."
+    "studyTip": "Frameworks (Django, Spring, Rails) = structure + conventions + built-in tools.",
+    "source": "offline-deep"
   },
   "32": {
-    "overview": "Android traditionally used Java (now Kotlin preferred officially). Swift is iOS. Python/C++ are not primary Android app languages.",
+    "overview": "Android traditionally used Java (now Kotlin preferred officially). Swift is iOS. Python/C++ are not primary Android app languages.\n\n✅ Answer: B — Java",
     "options": {
-      "A": "Option A (INCORRECT): \"Swift\". \"Swift\" sounds plausible but is wrong because Apple iOS/macOS language — not Android.",
-      "B": "Option B (CORRECT): \"Java\". \"Java\" is correct because long-standing primary Android SDK language alongside Kotlin.",
-      "C": "Option C (INCORRECT): \"Python\". \"Python\" sounds plausible but is wrong because not native Android UI development language.",
-      "D": "Option D (INCORRECT): \"C++\". \"C++\" sounds plausible but is wrong because used in NDK/native code but not primary app language."
+      "A": "✗ Not the answer. Apple iOS/macOS language — not Android.",
+      "B": "✓ CORRECT. long-standing primary Android SDK language alongside Kotlin.",
+      "C": "✗ Not the answer. not native Android UI development language.",
+      "D": "✗ Not the answer. used in NDK/native code but not primary app language."
     },
-    "studyTip": "Android: Java/Kotlin + XML layouts; iOS: Swift/Objective-C."
+    "studyTip": "Android: Java/Kotlin + XML layouts; iOS: Swift/Objective-C.",
+    "source": "offline-deep"
   },
   "33": {
-    "overview": "Activity represents single screen with UI and lifecycle (onCreate, onPause, etc.). Service runs background; BroadcastReceiver handles events; ContentProvider shares data.",
+    "overview": "Activity represents single screen with UI and lifecycle (onCreate, onPause, etc.). Service runs background; BroadcastReceiver handles events; ContentProvider shares data.\n\n✅ Answer: A — Activity",
     "options": {
-      "A": "Option A (CORRECT): \"Activity\". \"Activity\" is correct because screen + user interaction — defines UI for one focused task.",
-      "B": "Option B (INCORRECT): \"Service\". \"Service\" sounds plausible but is wrong because long-running background work without UI.",
-      "C": "Option C (INCORRECT): \"Broadcast Receiver\". \"Broadcast Receiver\" sounds plausible but is wrong because responds to system/app broadcasts.",
-      "D": "Option D (INCORRECT): \"Content Provider\". \"Content Provider\" sounds plausible but is wrong because structured data sharing between apps."
+      "A": "✓ CORRECT. screen + user interaction — defines UI for one focused task.",
+      "B": "✗ Not the answer. long-running background work without UI.",
+      "C": "✗ Not the answer. responds to system/app broadcasts.",
+      "D": "✗ Not the answer. structured data sharing between apps."
     },
-    "studyTip": "Activity = screen; Service = background; Intent = messaging."
+    "studyTip": "Activity = screen; Service = background; Intent = messaging.",
+    "source": "offline-deep"
   },
   "34": {
-    "overview": "Intent is messaging object for starting activities, services, delivering broadcasts — carries action, data URI, extras between components.",
+    "overview": "Intent is messaging object for starting activities, services, delivering broadcasts — carries action, data URI, extras between components.\n\n✅ Answer: B — To facilitate communication between components",
     "options": {
-      "A": "Option A (INCORRECT): \"To manage database connections\". \"To manage database connections\" sounds plausible but is wrong because Room/SQLite handle persistence — not Intent purpose.",
-      "B": "Option B (CORRECT): \"To facilitate communication between components\". \"To facilitate communication between components\" is correct because explicit/implicit intents link app parts.",
-      "C": "Option C (INCORRECT): \"To handle background services\". \"To handle background services\" sounds plausible but is wrong because Service component handles background; Intent starts it.",
-      "D": "Option D (INCORRECT): \"To secure the application\". \"To secure the application\" sounds plausible but is wrong because permissions/Manifest secure app — not Intent role."
+      "A": "✗ Not the answer. Room/SQLite handle persistence — not Intent purpose.",
+      "B": "✓ CORRECT. explicit/implicit intents link app parts.",
+      "C": "✗ Not the answer. Service component handles background; Intent starts it.",
+      "D": "✗ Not the answer. permissions/Manifest secure app — not Intent role."
     },
-    "studyTip": "Intent = navigation + data passing between Android components."
+    "studyTip": "Intent = navigation + data passing between Android components.",
+    "source": "offline-deep"
   },
   "35": {
-    "overview": "AndroidManifest.xml declares app components, permissions, intent filters, package name, min SDK — required app metadata file.",
+    "overview": "AndroidManifest.xml declares app components, permissions, intent filters, package name, min SDK — required app metadata file.\n\n✅ Answer: A — AndroidManifest.xml",
     "options": {
-      "A": "Option A (CORRECT): \"AndroidManifest.xml\". \"AndroidManifest.xml\" is correct because permissions like INTERNET, CAMERA declared here.",
-      "B": "Option B (INCORRECT): \"build.gradle\". \"build.gradle\" sounds plausible but is wrong because build dependencies and SDK versions — not runtime permissions list.",
-      "C": "Option C (INCORRECT): \"activity_main.xml\". \"activity_main.xml\" sounds plausible but is wrong because layout UI definition for one screen.",
-      "D": "Option D (INCORRECT): \"MainActivity.java\". \"MainActivity.java\" sounds plausible but is wrong because Activity logic source — permissions not declared in Java file."
+      "A": "✓ CORRECT. permissions like INTERNET, CAMERA declared here.",
+      "B": "✗ Not the answer. build dependencies and SDK versions — not runtime permissions list.",
+      "C": "✗ Not the answer. layout UI definition for one screen.",
+      "D": "✗ Not the answer. Activity logic source — permissions not declared in Java file."
     },
-    "studyTip": "Permissions and components → AndroidManifest.xml."
+    "studyTip": "Permissions and components → AndroidManifest.xml.",
+    "source": "offline-deep"
   },
   "36": {
-    "overview": "Mobile security requires encrypting sensitive data at rest (SharedPreferences, SQLite) and in transit (TLS). Storing passwords/API keys plaintext is critical vulnerability.",
+    "overview": "Mobile security requires encrypting sensitive data at rest (SharedPreferences, SQLite) and in transit (TLS). Storing passwords/API keys plaintext is critical vulnerability.\n\n✅ Answer: B — Storing sensitive data unencrypted",
     "options": {
-      "A": "Option A (INCORRECT): \"Using too many colors in the UI\". \"Using too many colors in the UI\" sounds plausible but is wrong because UX choice — not security vulnerability.",
-      "B": "Option B (CORRECT): \"Storing sensitive data unencrypted\". \"Storing sensitive data unencrypted\" is correct because data breach if device compromised — major OWASP mobile risk.",
-      "C": "Option C (INCORRECT): \"Including large images\". \"Including large images\" sounds plausible but is wrong because performance/storage concern — not primary security issue.",
-      "D": "Option D (INCORRECT): \"Using multiple activities\". \"Using multiple activities\" sounds plausible but is wrong because normal architecture — not security flaw."
+      "A": "✗ Not the answer. UX choice — not security vulnerability.",
+      "B": "✓ CORRECT. data breach if device compromised — major OWASP mobile risk.",
+      "C": "✗ Not the answer. performance/storage concern — not primary security issue.",
+      "D": "✗ Not the answer. normal architecture — not security flaw."
     },
-    "studyTip": "Mobile security: encrypt secrets, use KeyStore, HTTPS, certificate pinning."
+    "studyTip": "Mobile security: encrypt secrets, use KeyStore, HTTPS, certificate pinning.",
+    "source": "offline-deep"
   },
   "37": {
-    "overview": "Primary key uniquely identifies each row — NOT NULL + UNIQUE. Enables relationships via foreign keys and efficient indexing.",
+    "overview": "Primary key uniquely identifies each row — NOT NULL + UNIQUE. Enables relationships via foreign keys and efficient indexing.\n\n✅ Answer: B — To uniquely identify each record",
     "options": {
-      "A": "Option A (INCORRECT): \"To allow duplicate records\". \"To allow duplicate records\" sounds plausible but is wrong because primary key FORBIDS duplicates — opposite.",
-      "B": "Option B (CORRECT): \"To uniquely identify each record\". \"To uniquely identify each record\" is correct because exact definition of primary key constraint.",
-      "C": "Option C (INCORRECT): \"To store foreign keys\". \"To store foreign keys\" sounds plausible but is wrong because foreign keys live in child table referencing parent's PK.",
-      "D": "Option D (INCORRECT): \"To index all columns\". \"To index all columns\" sounds plausible but is wrong because PK creates index on key column(s) only — not every column."
+      "A": "✗ Not the answer. primary key FORBIDS duplicates — opposite.",
+      "B": "✓ CORRECT. exact definition of primary key constraint.",
+      "C": "✗ Not the answer. foreign keys live in child table referencing parent's PK.",
+      "D": "✗ Not the answer. PK creates index on key column(s) only — not every column."
     },
-    "studyTip": "PK = unique + not null identifier per row."
+    "studyTip": "PK = unique + not null identifier per row.",
+    "source": "offline-deep"
   },
   "38": {
-    "overview": "SQL DML: INSERT adds rows; UPDATE modifies existing rows; DELETE removes; SELECT queries.",
+    "overview": "SQL DML: INSERT adds rows; UPDATE modifies existing rows; DELETE removes; SELECT queries.\n\n✅ Answer: B — UPDATE",
     "options": {
-      "A": "Option A (INCORRECT): \"INSERT\". \"INSERT\" sounds plausible but is wrong because adds new records — doesn't modify existing.",
-      "B": "Option B (CORRECT): \"UPDATE\". \"UPDATE\" is correct because SET column= value WHERE condition modifies existing data.",
-      "C": "Option C (INCORRECT): \"DELETE\". \"DELETE\" sounds plausible but is wrong because removes rows — doesn't change remaining row values.",
-      "D": "Option D (INCORRECT): \"SELECT\". \"SELECT\" sounds plausible but is wrong because read-only retrieval — no modification."
+      "A": "✗ Not the answer. adds new records — doesn't modify existing.",
+      "B": "✓ CORRECT. SET column= value WHERE condition modifies existing data.",
+      "C": "✗ Not the answer. removes rows — doesn't change remaining row values.",
+      "D": "✗ Not the answer. read-only retrieval — no modification."
     },
-    "studyTip": "INSERT=add, UPDATE=change, DELETE=remove, SELECT=read."
+    "studyTip": "INSERT=add, UPDATE=change, DELETE=remove, SELECT=read.",
+    "source": "offline-deep"
   },
   "39": {
-    "overview": "WHERE Age > 20 filters rows strictly greater than 20 — relational comparison on Age column.",
+    "overview": "WHERE Age > 20 filters rows strictly greater than 20 — relational comparison on Age column.\n\n✅ Answer: B — Records from Students where Age is greater than 20",
     "options": {
-      "A": "Option A (INCORRECT): \"All records from Students\". \"All records from Students\" sounds plausible but is wrong because no filter would need SELECT * FROM Students without WHERE.",
-      "B": "Option B (CORRECT): \"Records from Students where Age is greater than 20\". \"Records from Students where Age is greater than 20\" is correct because matches SQL predicate exactly.",
-      "C": "Option C (INCORRECT): \"Records from Students where Age is less than 20\". \"Records from Students where Age is less than 20\" sounds plausible but is wrong because would be Age < 20 — wrong operator.",
-      "D": "Option D (INCORRECT): \"No records\". \"No records\" sounds plausible but is wrong because returns empty only if no rows satisfy condition — not definition."
+      "A": "✗ Not the answer. no filter would need SELECT * FROM Students without WHERE.",
+      "B": "✓ CORRECT. matches SQL predicate exactly.",
+      "C": "✗ Not the answer. would be Age < 20 — wrong operator.",
+      "D": "✗ Not the answer. returns empty only if no rows satisfy condition — not definition."
     },
-    "studyTip": "Read WHERE clause literally: > means greater than."
+    "studyTip": "Read WHERE clause literally: > means greater than.",
+    "source": "offline-deep"
   },
   "40": {
-    "overview": "Normalization decomposes tables to reduce redundancy and update anomalies (insert/delete/update). Goals: 1NF, 2NF, 3NF, BCNF — organized data without unnecessary duplication.",
+    "overview": "Normalization decomposes tables to reduce redundancy and update anomalies (insert/delete/update). Goals: 1NF, 2NF, 3NF, BCNF — organized data without unnecessary duplication.\n\n✅ Answer: B — Organizing data to eliminate redundancy",
     "options": {
-      "A": "Option A (INCORRECT): \"Adding redundant data to tables\". \"Adding redundant data to tables\" sounds plausible but is wrong because denormalization adds redundancy — opposite of normalization.",
-      "B": "Option B (CORRECT): \"Organizing data to eliminate redundancy\". \"Organizing data to eliminate redundancy\" is correct because core purpose of normalization process.",
-      "C": "Option C (INCORRECT): \"Creating multiple databases\". \"Creating multiple databases\" sounds plausible but is wrong because normalization works within schema design — not multi-DB creation.",
-      "D": "Option D (INCORRECT): \"Deleting unused tables\". \"Deleting unused tables\" sounds plausible but is wrong because may happen during redesign but not definition of normalization."
+      "A": "✗ Not the answer. denormalization adds redundancy — opposite of normalization.",
+      "B": "✓ CORRECT. core purpose of normalization process.",
+      "C": "✗ Not the answer. normalization works within schema design — not multi-DB creation.",
+      "D": "✗ Not the answer. may happen during redesign but not definition of normalization."
     },
-    "studyTip": "Normalization removes redundancy; denormalization adds it for performance."
+    "studyTip": "Normalization removes redundancy; denormalization adds it for performance.",
+    "source": "offline-deep"
   },
   "41": {
-    "overview": "One-to-Many: one parent row relates to many child rows via FK in child table (one Department, many Employees). One-to-One is rare; Many-to-Many needs junction table.",
+    "overview": "One-to-Many: one parent row relates to many child rows via FK in child table (one Department, many Employees). One-to-One is rare; Many-to-Many needs junction table.\n\n✅ Answer: B — One-to-Many",
     "options": {
-      "A": "Option A (INCORRECT): \"One-to-One\". \"One-to-One\" sounds plausible but is wrong because each parent maps to exactly one child — stricter than PK-FK typical pattern.",
-      "B": "Option B (CORRECT): \"One-to-Many\". \"One-to-Many\" is correct because classic PK in parent, FK in child referencing it.",
-      "C": "Option C (INCORRECT): \"Many-to-Many\". \"Many-to-Many\" sounds plausible but is wrong because requires associative/junction table with two FKs.",
-      "D": "Option D (INCORRECT): \"No relationship\". \"No relationship\" sounds plausible but is wrong because FK explicitly defines relationship."
+      "A": "✗ Not the answer. each parent maps to exactly one child — stricter than PK-FK typical pattern.",
+      "B": "✓ CORRECT. classic PK in parent, FK in child referencing it.",
+      "C": "✗ Not the answer. requires associative/junction table with two FKs.",
+      "D": "✗ Not the answer. FK explicitly defines relationship."
     },
-    "studyTip": "PK→FK pattern usually One-to-Many (one customer, many orders)."
+    "studyTip": "PK→FK pattern usually One-to-Many (one customer, many orders).",
+    "source": "offline-deep"
   },
   "42": {
-    "overview": "ACID transaction properties: Atomicity (all or nothing), Consistency (valid state), Isolation (concurrent transactions don't interfere), Durability (committed survives crash).",
+    "overview": "ACID transaction properties: Atomicity (all or nothing), Consistency (valid state), Isolation (concurrent transactions don't interfere), Durability (committed survives crash).\n\n✅ Answer: A — Atomicity, Consistency, Isolation, Durability",
     "options": {
-      "A": "Option A (CORRECT): \"Atomicity, Consistency, Isolation, Durability\". \"Atomicity, Consistency, Isolation, Durability\" is correct because canonical database transaction acronym.",
-      "B": "Option B (INCORRECT): \"Accuracy, Completeness, Integrity, Dependability\". \"Accuracy, Completeness, Integrity, Dependability\" sounds plausible but is wrong because plausible words but not ACID expansion.",
-      "C": "Option C (INCORRECT): \"Adaptability, Connectivity, Isolation, Durability\". \"Adaptability, Connectivity, Isolation, Durability\" sounds plausible but is wrong because wrong first letters — not ACID.",
-      "D": "Option D (INCORRECT): \"Atomicity, Consistency, Integration, Durability\". \"Atomicity, Consistency, Integration, Durability\" sounds plausible but is wrong because Integration is wrong third word."
+      "A": "✓ CORRECT. canonical database transaction acronym.",
+      "B": "✗ Not the answer. plausible words but not ACID expansion.",
+      "C": "✗ Not the answer. wrong first letters — not ACID.",
+      "D": "✗ Not the answer. Integration is wrong third word."
     },
-    "studyTip": "ACID: Atomicity, Consistency, Isolation, Durability — memorize exactly."
+    "studyTip": "ACID: Atomicity, Consistency, Isolation, Durability — memorize exactly.",
+    "source": "offline-deep"
   },
   "43": {
-    "overview": "Operating system manages CPU, memory, I/O devices, file systems; provides abstraction and scheduling for applications. It doesn't write app code or compile programs (compiler tool job).",
+    "overview": "Operating system manages CPU, memory, I/O devices, file systems; provides abstraction and scheduling for applications. It doesn't write app code or compile programs (compiler tool job).\n\n✅ Answer: B — To manage hardware and software resources",
     "options": {
-      "A": "Option A (INCORRECT): \"To write application code\". \"To write application code\" sounds plausible but is wrong because developers write applications; OS provides platform.",
-      "B": "Option B (CORRECT): \"To manage hardware and software resources\". \"To manage hardware and software resources\" is correct because core OS definition — resource manager.",
-      "C": "Option C (INCORRECT): \"To design user interfaces\". \"To design user interfaces\" sounds plausible but is wrong because UI design is application/GUI toolkit layer.",
-      "D": "Option D (INCORRECT): \"To compile programs\". \"To compile programs\" sounds plausible but is wrong because compiler is separate utility (gcc, javac) — OS may invoke it."
+      "A": "✗ Not the answer. developers write applications; OS provides platform.",
+      "B": "✓ CORRECT. core OS definition — resource manager.",
+      "C": "✗ Not the answer. UI design is application/GUI toolkit layer.",
+      "D": "✗ Not the answer. compiler is separate utility (gcc, javac) — OS may invoke it."
     },
-    "studyTip": "OS = resource manager + abstraction layer between hardware and apps."
+    "studyTip": "OS = resource manager + abstraction layer between hardware and apps.",
+    "source": "offline-deep"
   },
   "44": {
-    "overview": "Shortest Job Next (SJN) / Shortest Remaining Time First picks process with smallest next CPU burst. FCFS is arrival order; Round Robin uses time quantum; Priority uses priority field.",
+    "overview": "Shortest Job Next (SJN) / Shortest Remaining Time First picks process with smallest next CPU burst. FCFS is arrival order; Round Robin uses time quantum; Priority uses priority field.\n\n✅ Answer: B — Shortest Job Next",
     "options": {
-      "A": "Option A (INCORRECT): \"First-Come, First-Served\". \"First-Come, First-Served\" sounds plausible but is wrong because FIFO queue — ignores burst length.",
-      "B": "Option B (CORRECT): \"Shortest Job Next\". \"Shortest Job Next\" is correct because selects shortest next CPU burst — minimizes average wait in theory.",
-      "C": "Option C (INCORRECT): \"Round Robin\". \"Round Robin\" sounds plausible but is wrong because time-sliced fair scheduling with quantum.",
-      "D": "Option D (INCORRECT): \"Priority Scheduling\". \"Priority Scheduling\" sounds plausible but is wrong because uses priority values, not strictly shortest burst."
+      "A": "✗ Not the answer. FIFO queue — ignores burst length.",
+      "B": "✓ CORRECT. selects shortest next CPU burst — minimizes average wait in theory.",
+      "C": "✗ Not the answer. time-sliced fair scheduling with quantum.",
+      "D": "✗ Not the answer. uses priority values, not strictly shortest burst."
     },
-    "studyTip": "Shortest burst → SJN/SRTF; time quantum → Round Robin."
+    "studyTip": "Shortest burst → SJN/SRTF; time quantum → Round Robin.",
+    "source": "offline-deep"
   },
   "45": {
-    "overview": "Deadlock: circular wait — each process holds resource another needs, none can proceed. Requires mutual exclusion, hold-and-wait, no preemption, circular wait (Coffman conditions).",
+    "overview": "Deadlock: circular wait — each process holds resource another needs, none can proceed. Requires mutual exclusion, hold-and-wait, no preemption, circular wait (Coffman conditions).\n\n✅ Answer: B — A situation where processes are unable to proceed due to resource conflicts",
     "options": {
-      "A": "Option A (INCORRECT): \"A process running indefinitely\". \"A process running indefinitely\" sounds plausible but is wrong because infinite loop — not deadlock (no resource circular wait).",
-      "B": "Option B (CORRECT): \"A situation where processes are unable to proceed due to resource conflicts\". \"A situation where processes are unable to proceed due to resource conflicts\" is correct because classic deadlock definition.",
-      "C": "Option C (INCORRECT): \"A memory overflow error\". \"A memory overflow error\" sounds plausible but is wrong because may kill process but not mutual blocking deadlock.",
-      "D": "Option D (INCORRECT): \"A hardware failure\". \"A hardware failure\" sounds plausible but is wrong because physical fault — unrelated to resource deadlock."
+      "A": "✗ Not the answer. infinite loop — not deadlock (no resource circular wait).",
+      "B": "✓ CORRECT. classic deadlock definition.",
+      "C": "✗ Not the answer. may kill process but not mutual blocking deadlock.",
+      "D": "✗ Not the answer. physical fault — unrelated to resource deadlock."
     },
-    "studyTip": "Deadlock = circular wait for resources; prevention/avoidance/detection strategies exist."
+    "studyTip": "Deadlock = circular wait for resources; prevention/avoidance/detection strategies exist.",
+    "source": "offline-deep"
   },
   "46": {
-    "overview": "Paging divides physical memory into fixed-size frames; logical memory into same-size pages. Segmentation uses variable-sized logical segments. Swapping moves processes in/out of memory.",
+    "overview": "Paging divides physical memory into fixed-size frames; logical memory into same-size pages. Segmentation uses variable-sized logical segments. Swapping moves processes in/out of memory.\n\n✅ Answer: A — Paging",
     "options": {
-      "A": "Option A (CORRECT): \"Paging\". \"Paging\" is correct because fixed-size partitions (frames/pages) — answer.",
-      "B": "Option B (INCORRECT): \"Segmentation\". \"Segmentation\" sounds plausible but is wrong because variable-sized segments reflecting logical program parts.",
-      "C": "Option C (INCORRECT): \"Swapping\". \"Swapping\" sounds plausible but is wrong because moves entire processes between disk and memory.",
-      "D": "Option D (INCORRECT): \"Fragmentation\". \"Fragmentation\" sounds plausible but is wrong because problem (external/internal), not management technique."
+      "A": "✓ CORRECT. fixed-size partitions (frames/pages) — answer.",
+      "B": "✗ Not the answer. variable-sized segments reflecting logical program parts.",
+      "C": "✗ Not the answer. moves entire processes between disk and memory.",
+      "D": "✗ Not the answer. problem (external/internal), not management technique."
     },
-    "studyTip": "Paging = fixed size; Segmentation = variable size; both map virtual→physical."
+    "studyTip": "Paging = fixed size; Segmentation = variable size; both map virtual→physical.",
+    "source": "offline-deep"
   },
   "47": {
-    "overview": "Mutex (mutual exclusion lock) ensures only one thread/process enters critical section at a time, preventing race conditions on shared data.",
+    "overview": "Mutex (mutual exclusion lock) ensures only one thread/process enters critical section at a time, preventing race conditions on shared data.\n\n✅ Answer: B — To ensure mutual exclusion",
     "options": {
-      "A": "Option A (INCORRECT): \"To allocate memory\". \"To allocate memory\" sounds plausible but is wrong because malloc/allocator handles memory — not mutex.",
-      "B": "Option B (CORRECT): \"To ensure mutual exclusion\". \"To ensure mutual exclusion\" is correct because lock before critical section, unlock after.",
-      "C": "Option C (INCORRECT): \"To schedule processes\". \"To schedule processes\" sounds plausible but is wrong because scheduler picks next process — different subsystem.",
-      "D": "Option D (INCORRECT): \"To manage I/O devices\". \"To manage I/O devices\" sounds plausible but is wrong because device drivers/I/O subsystem — not mutex role."
+      "A": "✗ Not the answer. malloc/allocator handles memory — not mutex.",
+      "B": "✓ CORRECT. lock before critical section, unlock after.",
+      "C": "✗ Not the answer. scheduler picks next process — different subsystem.",
+      "D": "✗ Not the answer. device drivers/I/O subsystem — not mutex role."
     },
-    "studyTip": "Mutex/semaphore = synchronization; scheduler = CPU allocation."
+    "studyTip": "Mutex/semaphore = synchronization; scheduler = CPU allocation.",
+    "source": "offline-deep"
   },
   "48": {
-    "overview": "Modern OS security: user authentication, access control lists, ASLR, DEP, encryption, mandatory access control. Plaintext passwords and disabling firewalls are anti-patterns.",
+    "overview": "Modern OS security: user authentication, access control lists, ASLR, DEP, encryption, mandatory access control. Plaintext passwords and disabling firewalls are anti-patterns.\n\n✅ Answer: B — Implementing user authentication",
     "options": {
-      "A": "Option A (INCORRECT): \"Allowing unrestricted access to all files\". \"Allowing unrestricted access to all files\" sounds plausible but is wrong because violates least privilege — security failure.",
-      "B": "Option B (CORRECT): \"Implementing user authentication\". \"Implementing user authentication\" is correct because verify identity before granting access — valid control.",
-      "C": "Option C (INCORRECT): \"Disabling firewalls\". \"Disabling firewalls\" sounds plausible but is wrong because weakens network protection — bad practice.",
-      "D": "Option D (INCORRECT): \"Storing passwords in plain text\". \"Storing passwords in plain text\" sounds plausible but is wrong because critical vulnerability — never acceptable."
+      "A": "✗ Not the answer. violates least privilege — security failure.",
+      "B": "✓ CORRECT. verify identity before granting access — valid control.",
+      "C": "✗ Not the answer. weakens network protection — bad practice.",
+      "D": "✗ Not the answer. critical vulnerability — never acceptable."
     },
-    "studyTip": "OS security: authentication, authorization, auditing, encryption."
+    "studyTip": "OS security: authentication, authorization, auditing, encryption.",
+    "source": "offline-deep"
   },
   "49": {
-    "overview": "Software engineering applies systematic, disciplined, quantifiable approaches to develop reliable, efficient, maintainable software — not increasing complexity or skipping testing.",
+    "overview": "Software engineering applies systematic, disciplined, quantifiable approaches to develop reliable, efficient, maintainable software — not increasing complexity or skipping testing.\n\n✅ Answer: B — To develop reliable and efficient software systems",
     "options": {
-      "A": "Option A (INCORRECT): \"To increase software complexity\". \"To increase software complexity\" sounds plausible but is wrong because goal is manage complexity, not increase it.",
-      "B": "Option B (CORRECT): \"To develop reliable and efficient software systems\". \"To develop reliable and efficient software systems\" is correct because IEEE/SWEBOK aligned primary goal.",
-      "C": "Option C (INCORRECT): \"To reduce software documentation\". \"To reduce software documentation\" sounds plausible but is wrong because appropriate documentation is essential deliverable.",
-      "D": "Option D (INCORRECT): \"To eliminate testing\". \"To eliminate testing\" sounds plausible but is wrong because testing is integral to quality assurance."
+      "A": "✗ Not the answer. goal is manage complexity, not increase it.",
+      "B": "✓ CORRECT. IEEE/SWEBOK aligned primary goal.",
+      "C": "✗ Not the answer. appropriate documentation is essential deliverable.",
+      "D": "✗ Not the answer. testing is integral to quality assurance."
     },
-    "studyTip": "SE = systematic development of quality software within constraints."
+    "studyTip": "SE = systematic development of quality software within constraints.",
+    "source": "offline-deep"
   },
   "50": {
-    "overview": "Waterfall model: requirements → design → implementation → testing → maintenance in strict sequential phases with phase gates. Agile/Scrum are iterative; Spiral is risk-driven cycles.",
+    "overview": "Waterfall model: requirements → design → implementation → testing → maintenance in strict sequential phases with phase gates. Agile/Scrum are iterative; Spiral is risk-driven cycles.\n\n✅ Answer: B — Waterfall",
     "options": {
-      "A": "Option A (INCORRECT): \"Agile\". \"Agile\" sounds plausible but is wrong because iterative, adaptive — opposite of strict linear sequence.",
-      "B": "Option B (CORRECT): \"Waterfall\". \"Waterfall\" is correct because linear sequential SDLC model.",
-      "C": "Option C (INCORRECT): \"Spiral\". \"Spiral\" sounds plausible but is wrong because iterative with explicit risk analysis loops.",
-      "D": "Option D (INCORRECT): \"Scrum\". \"Scrum\" sounds plausible but is wrong because agile framework with sprints — not linear waterfall."
+      "A": "✗ Not the answer. iterative, adaptive — opposite of strict linear sequence.",
+      "B": "✓ CORRECT. linear sequential SDLC model.",
+      "C": "✗ Not the answer. iterative with explicit risk analysis loops.",
+      "D": "✗ Not the answer. agile framework with sprints — not linear waterfall."
     },
-    "studyTip": "Waterfall = sequential phases; Agile = iterative delivery."
+    "studyTip": "Waterfall = sequential phases; Agile = iterative delivery.",
+    "source": "offline-deep"
   },
   "51": {
-    "overview": "Agile emphasizes iterative/incremental delivery, customer collaboration, responding to change. Fixed requirements and no user involvement contradict Agile Manifesto values.",
+    "overview": "Agile emphasizes iterative/incremental delivery, customer collaboration, responding to change. Fixed requirements and no user involvement contradict Agile Manifesto values.\n\n✅ Answer: B — Iterative and incremental development",
     "options": {
-      "A": "Option A (INCORRECT): \"Fixed requirements throughout the project\". \"Fixed requirements throughout the project\" sounds plausible but is wrong because Agile expects evolving requirements.",
-      "B": "Option B (CORRECT): \"Iterative and incremental development\". \"Iterative and incremental development\" is correct because short cycles delivering working software.",
-      "C": "Option C (INCORRECT): \"No user involvement\". \"No user involvement\" sounds plausible but is wrong because Agile requires continuous stakeholder/customer feedback.",
-      "D": "Option D (INCORRECT): \"Single-phase development\". \"Single-phase development\" sounds plausible but is wrong because multiple iterations/sprints — not one phase."
+      "A": "✗ Not the answer. Agile expects evolving requirements.",
+      "B": "✓ CORRECT. short cycles delivering working software.",
+      "C": "✗ Not the answer. Agile requires continuous stakeholder/customer feedback.",
+      "D": "✗ Not the answer. multiple iterations/sprints — not one phase."
     },
-    "studyTip": "Agile Manifesto: individuals, working software, collaboration, responding to change."
+    "studyTip": "Agile Manifesto: individuals, working software, collaboration, responding to change.",
+    "source": "offline-deep"
   },
   "52": {
-    "overview": "UML dynamic behavior diagrams: Sequence (message order over time), Activity (workflow), State Machine (state transitions). Class/Component are structural.",
+    "overview": "UML dynamic behavior diagrams: Sequence (message order over time), Activity (workflow), State Machine (state transitions). Class/Component are structural.\n\n✅ Answer: C — Sequence Diagram",
     "options": {
-      "A": "Option A (INCORRECT): \"Class Diagram\". \"Class Diagram\" sounds plausible but is wrong because static structure — classes, attributes, relationships.",
-      "B": "Option B (INCORRECT): \"Use Case Diagram\". \"Use Case Diagram\" sounds plausible but is wrong because actor-system interactions — behavioral at use-case level.",
-      "C": "Option C (CORRECT): \"Sequence Diagram\". \"Sequence Diagram\" is correct because shows object interactions over time — dynamic behavior.",
-      "D": "Option D (INCORRECT): \"Component Diagram\". \"Component Diagram\" sounds plausible but is wrong because physical/software components and dependencies — structural."
+      "A": "✗ Not the answer. static structure — classes, attributes, relationships.",
+      "B": "✗ Not the answer. actor-system interactions — behavioral at use-case level.",
+      "C": "✓ CORRECT. shows object interactions over time — dynamic behavior.",
+      "D": "✗ Not the answer. physical/software components and dependencies — structural."
     },
-    "studyTip": "Dynamic: Sequence, Activity, State. Static: Class, Component, Deployment."
+    "studyTip": "Dynamic: Sequence, Activity, State. Static: Class, Component, Deployment.",
+    "source": "offline-deep"
   },
   "53": {
-    "overview": "Feasibility study evaluates technical, economic, operational, schedule viability before committing resources — answers 'should we proceed?' not how to code.",
+    "overview": "Feasibility study evaluates technical, economic, operational, schedule viability before committing resources — answers 'should we proceed?' not how to code.\n\n✅ Answer: B — To assess the viability of a project",
     "options": {
-      "A": "Option A (INCORRECT): \"To write code for the project\". \"To write code for the project\" sounds plausible but is wrong because implementation phase activity.",
-      "B": "Option B (CORRECT): \"To assess the viability of a project\". \"To assess the viability of a project\" is correct because technical/economic/operational feasibility analysis.",
-      "C": "Option C (INCORRECT): \"To deploy the software\". \"To deploy the software\" sounds plausible but is wrong because deployment is late SDLC stage.",
-      "D": "Option D (INCORRECT): \"To test the software\". \"To test the software\" sounds plausible but is wrong because verification/validation — separate phase."
+      "A": "✗ Not the answer. implementation phase activity.",
+      "B": "✓ CORRECT. technical/economic/operational feasibility analysis.",
+      "C": "✗ Not the answer. deployment is late SDLC stage.",
+      "D": "✗ Not the answer. verification/validation — separate phase."
     },
-    "studyTip": "Feasibility = can/should we build it? (TEOS: Technical, Economic, Operational, Schedule)."
+    "studyTip": "Feasibility = can/should we build it? (TEOS: Technical, Economic, Operational, Schedule).",
+    "source": "offline-deep"
   },
   "54": {
-    "overview": "Non-functional requirements (NFRs) specify quality constraints: performance, security, usability, reliability. Login, store data, generate reports are functional capabilities.",
+    "overview": "Non-functional requirements (NFRs) specify quality constraints: performance, security, usability, reliability. Login, store data, generate reports are functional capabilities.\n\n✅ Answer: B — The system must respond within 2 seconds",
     "options": {
-      "A": "Option A (INCORRECT): \"The system must allow users to log in\". \"The system must allow users to log in\" sounds plausible but is wrong because functional — describes a system capability.",
-      "B": "Option B (CORRECT): \"The system must respond within 2 seconds\". \"The system must respond within 2 seconds\" is correct because performance NFR — measurable quality constraint.",
-      "C": "Option C (INCORRECT): \"The system must store user data\". \"The system must store user data\" sounds plausible but is wrong because functional data storage requirement.",
-      "D": "Option D (INCORRECT): \"The system must generate reports\". \"The system must generate reports\" sounds plausible but is wrong because functional feature requirement."
+      "A": "✗ Not the answer. functional — describes a system capability.",
+      "B": "✓ CORRECT. performance NFR — measurable quality constraint.",
+      "C": "✗ Not the answer. functional data storage requirement.",
+      "D": "✗ Not the answer. functional feature requirement."
     },
-    "studyTip": "Functional = what system does; Non-functional = how well (quality attributes)."
+    "studyTip": "Functional = what system does; Non-functional = how well (quality attributes).",
+    "source": "offline-deep"
   },
   "55": {
-    "overview": "Requirements elicitation discovers stakeholder needs through interviews, workshops, observation, prototypes — before design and coding.",
+    "overview": "Requirements elicitation discovers stakeholder needs through interviews, workshops, observation, prototypes — before design and coding.\n\n✅ Answer: B — To gather and document user needs",
     "options": {
-      "A": "Option A (INCORRECT): \"To test the software\". \"To test the software\" sounds plausible but is wrong because testing validates built product — post-implementation.",
-      "B": "Option B (CORRECT): \"To gather and document user needs\". \"To gather and document user needs\" is correct because elicitation = extract and record requirements.",
-      "C": "Option C (INCORRECT): \"To deploy the system\". \"To deploy the system\" sounds plausible but is wrong because release to production — far downstream.",
-      "D": "Option D (INCORRECT): \"To write code\". \"To write code\" sounds plausible but is wrong because implementation follows requirements specification."
+      "A": "✗ Not the answer. testing validates built product — post-implementation.",
+      "B": "✓ CORRECT. elicitation = extract and record requirements.",
+      "C": "✗ Not the answer. release to production — far downstream.",
+      "D": "✗ Not the answer. implementation follows requirements specification."
     },
-    "studyTip": "Elicitation techniques: interviews, surveys, observation, prototyping, document analysis."
+    "studyTip": "Elicitation techniques: interviews, surveys, observation, prototyping, document analysis.",
+    "source": "offline-deep"
   },
   "56": {
-    "overview": "Stakeholder interviews are classic requirements gathering technique — direct conversation to uncover needs, constraints, and priorities.",
+    "overview": "Stakeholder interviews are classic requirements gathering technique — direct conversation to uncover needs, constraints, and priorities.\n\n✅ Answer: B — Conducting interviews",
     "options": {
-      "A": "Option A (INCORRECT): \"Writing code\". \"Writing code\" sounds plausible but is wrong because implementation — not requirements gathering.",
-      "B": "Option B (CORRECT): \"Conducting interviews\". \"Conducting interviews\" is correct because structured/unstructured interviews with stakeholders.",
-      "C": "Option C (INCORRECT): \"Debugging software\". \"Debugging software\" sounds plausible but is wrong because fixing defects in existing code.",
-      "D": "Option D (INCORRECT): \"Deploying the system\". \"Deploying the system\" sounds plausible but is wrong because release activity — not elicitation."
+      "A": "✗ Not the answer. implementation — not requirements gathering.",
+      "B": "✓ CORRECT. structured/unstructured interviews with stakeholders.",
+      "C": "✗ Not the answer. fixing defects in existing code.",
+      "D": "✗ Not the answer. release activity — not elicitation."
     },
-    "studyTip": "Requirements gathering: interviews, JAD sessions, questionnaires, ethnography."
+    "studyTip": "Requirements gathering: interviews, JAD sessions, questionnaires, ethnography.",
+    "source": "offline-deep"
   },
   "57": {
-    "overview": "Testable requirement is unambiguous, measurable, verifiable with clear acceptance criteria. 'System shall respond within 2 seconds under 100 concurrent users' is testable; 'system shall be fast' is not.",
+    "overview": "Testable requirement is unambiguous, measurable, verifiable with clear acceptance criteria. 'System shall respond within 2 seconds under 100 concurrent users' is testable; 'system shall be fast' is not.\n\n✅ Answer: B — It is measurable and verifiable",
     "options": {
-      "A": "Option A (INCORRECT): \"It is vague and ambiguous\". \"It is vague and ambiguous\" sounds plausible but is wrong because vague requirements are NOT testable.",
-      "B": "Option B (CORRECT): \"It is measurable and verifiable\". \"It is measurable and verifiable\" is correct because can write test cases with pass/fail criteria.",
-      "C": "Option C (INCORRECT): \"It lacks clarity\". \"It lacks clarity\" sounds plausible but is wrong because lack of clarity prevents testing.",
-      "D": "Option D (INCORRECT): \"It is incomplete\". \"It is incomplete\" sounds plausible but is wrong because incomplete requirements hinder verification."
+      "A": "✗ Not the answer. vague requirements are NOT testable.",
+      "B": "✓ CORRECT. can write test cases with pass/fail criteria.",
+      "C": "✗ Not the answer. lack of clarity prevents testing.",
+      "D": "✗ Not the answer. incomplete requirements hinder verification."
     },
-    "studyTip": "SMART requirements: Specific, Measurable, Achievable, Relevant, Time-bound."
+    "studyTip": "SMART requirements: Specific, Measurable, Achievable, Relevant, Time-bound.",
+    "source": "offline-deep"
   },
   "58": {
-    "overview": "Software Requirements Specification (SRS) documents functional and non-functional requirements, interfaces, constraints — contract between stakeholders and developers.",
+    "overview": "Software Requirements Specification (SRS) documents functional and non-functional requirements, interfaces, constraints — contract between stakeholders and developers.\n\n✅ Answer: B — Software Requirements Specification (SRS)",
     "options": {
-      "A": "Option A (INCORRECT): \"Software Design Document\". \"Software Design Document\" sounds plausible but is wrong because SDD describes HOW — architecture and design, not full requirements.",
-      "B": "Option B (CORRECT): \"Software Requirements Specification (SRS)\". \"Software Requirements Specification (SRS)\" is correct because WHAT the system must do and quality constraints.",
-      "C": "Option C (INCORRECT): \"Test Plan\". \"Test Plan\" sounds plausible but is wrong because how testing will be conducted — derived from requirements.",
-      "D": "Option D (INCORRECT): \"User Manual\". \"User Manual\" sounds plausible but is wrong because end-user guide for operating finished system."
+      "A": "✗ Not the answer. SDD describes HOW — architecture and design, not full requirements.",
+      "B": "✓ CORRECT. WHAT the system must do and quality constraints.",
+      "C": "✗ Not the answer. how testing will be conducted — derived from requirements.",
+      "D": "✗ Not the answer. end-user guide for operating finished system."
     },
-    "studyTip": "SRS = requirements; SDD = design; Test Plan = verification strategy."
+    "studyTip": "SRS = requirements; SDD = design; Test Plan = verification strategy.",
+    "source": "offline-deep"
   },
   "59": {
-    "overview": "Requirements change during development (scope creep, new regulations, market shifts) is primary management challenge — needs traceability and change control.",
+    "overview": "Requirements change during development (scope creep, new regulations, market shifts) is primary management challenge — needs traceability and change control.\n\n✅ Answer: B — Handling requirement changes during development",
     "options": {
-      "A": "Option A (INCORRECT): \"Writing error-free code\". \"Writing error-free code\" sounds plausible but is wrong because coding challenge — not requirements management focus.",
-      "B": "Option B (CORRECT): \"Handling requirement changes during development\". \"Handling requirement changes during development\" is correct because change impact analysis and version control.",
-      "C": "Option C (INCORRECT): \"Deploying the software\". \"Deploying the software\" sounds plausible but is wrong because deployment challenge — different domain.",
-      "D": "Option D (INCORRECT): \"Testing the user interface\". \"Testing the user interface\" sounds plausible but is wrong because UI testing — not requirements management core issue."
+      "A": "✗ Not the answer. coding challenge — not requirements management focus.",
+      "B": "✓ CORRECT. change impact analysis and version control.",
+      "C": "✗ Not the answer. deployment challenge — different domain.",
+      "D": "✗ Not the answer. UI testing — not requirements management core issue."
     },
-    "studyTip": "Requirements volatility → change control boards, traceability matrices, agile backlogs."
+    "studyTip": "Requirements volatility → change control boards, traceability matrices, agile backlogs.",
+    "source": "offline-deep"
   },
   "60": {
-    "overview": "Software architecture defines high-level structure (components, connectors), behavior, and quality attribute tradeoffs — blueprint before detailed coding.",
+    "overview": "Software architecture defines high-level structure (components, connectors), behavior, and quality attribute tradeoffs — blueprint before detailed coding.\n\n✅ Answer: B — To define the system's structure and behavior",
     "options": {
-      "A": "Option A (INCORRECT): \"To write detailed code\". \"To write detailed code\" sounds plausible but is wrong because implementation follows architecture.",
-      "B": "Option B (CORRECT): \"To define the system's structure and behavior\". \"To define the system's structure and behavior\" is correct because components, interactions, constraints.",
-      "C": "Option C (INCORRECT): \"To test the software\". \"To test the software\" sounds plausible but is wrong because QA activity — separate from architectural definition.",
-      "D": "Option D (INCORRECT): \"To deploy the application\". \"To deploy the application\" sounds plausible but is wrong because operations/release management."
+      "A": "✗ Not the answer. implementation follows architecture.",
+      "B": "✓ CORRECT. components, interactions, constraints.",
+      "C": "✗ Not the answer. QA activity — separate from architectural definition.",
+      "D": "✗ Not the answer. operations/release management."
     },
-    "studyTip": "Architecture = structures + behaviors + quality attribute rationale."
+    "studyTip": "Architecture = structures + behaviors + quality attribute rationale.",
+    "source": "offline-deep"
   },
   "61": {
-    "overview": "Bridge pattern decouples abstraction from implementation so both can vary independently (e.g., Shape abstraction with different Renderer implementations). Singleton ensures one instance; Factory creates objects; Observer notifies dependents.",
+    "overview": "Bridge pattern decouples abstraction from implementation so both can vary independently (e.g., Shape abstraction with different Renderer implementations). Singleton ensures one instance; Factory creates objects; Observer notifies dependents.\n\n✅ Answer: C — Bridge",
     "options": {
-      "A": "Option A (INCORRECT): \"Singleton\". \"Singleton\" sounds plausible but is wrong because ensures single instance — creational pattern, not abstraction/implementation split.",
-      "B": "Option B (INCORRECT): \"Factory\". \"Factory\" sounds plausible but is wrong because creates objects without specifying exact class — creational.",
-      "C": "Option C (CORRECT): \"Bridge\". \"Bridge\" is correct because separates interface/abstraction from implementation hierarchy.",
-      "D": "Option D (INCORRECT): \"Observer\". \"Observer\" sounds plausible but is wrong because publish-subscribe notification — behavioral pattern."
+      "A": "✗ Not the answer. ensures single instance — creational pattern, not abstraction/implementation split.",
+      "B": "✗ Not the answer. creates objects without specifying exact class — creational.",
+      "C": "✓ CORRECT. separates interface/abstraction from implementation hierarchy.",
+      "D": "✗ Not the answer. publish-subscribe notification — behavioral pattern."
     },
-    "studyTip": "Bridge = abstraction vs implementation; Adapter = interface conversion."
+    "studyTip": "Bridge = abstraction vs implementation; Adapter = interface conversion.",
+    "source": "offline-deep"
   },
   "62": {
-    "overview": "Client-Server architecture: clients request services; servers provide resources — fundamental web model (browser/server). Monolithic is single deployable; Pipe-and-Filter streams data; Layered organizes tiers.",
+    "overview": "Client-Server architecture: clients request services; servers provide resources — fundamental web model (browser/server). Monolithic is single deployable; Pipe-and-Filter streams data; Layered organizes tiers.\n\n✅ Answer: B — Client-Server",
     "options": {
-      "A": "Option A (INCORRECT): \"Monolithic\". \"Monolithic\" sounds plausible but is wrong because single unified application — can host web but exam targets distributed web model.",
-      "B": "Option B (CORRECT): \"Client-Server\". \"Client-Server\" is correct because browsers/clients communicate with web servers — standard web architecture.",
-      "C": "Option C (INCORRECT): \"Pipe-and-Filter\". \"Pipe-and-Filter\" sounds plausible but is wrong because data processing pipeline — Unix filters, compilers — not typical web label.",
-      "D": "Option D (INCORRECT): \"Layered\". \"Layered\" sounds plausible but is wrong because organizes tiers (presentation/business/data) — can be inside client-server but Client-Server is the web-appropriate architectural style asked."
+      "A": "✗ Not the answer. single unified application — can host web but exam targets distributed web model.",
+      "B": "✓ CORRECT. browsers/clients communicate with web servers — standard web architecture.",
+      "C": "✗ Not the answer. data processing pipeline — Unix filters, compilers — not typical web label.",
+      "D": "✗ Not the answer. organizes tiers (presentation/business/data) — can be inside client-server but Client-Server is the web-appropriate architectural style asked."
     },
-    "studyTip": "Web apps: Client-Server with possible Layered or MVC inside server."
+    "studyTip": "Web apps: Client-Server with possible Layered or MVC inside server.",
+    "source": "offline-deep"
   },
   "63": {
-    "overview": "Quality attributes (non-functional): performance, scalability, availability, security, modifiability. Programming language and team size are project context, not architecture quality attributes.",
+    "overview": "Quality attributes (non-functional): performance, scalability, availability, security, modifiability. Programming language and team size are project context, not architecture quality attributes.\n\n✅ Answer: B — The system's performance or scalability",
     "options": {
-      "A": "Option A (INCORRECT): \"The programming language used\". \"The programming language used\" sounds plausible but is wrong because technology choice — not ISO 25010 quality attribute.",
-      "B": "Option B (CORRECT): \"The system's performance or scalability\". \"The system's performance or scalability\" is correct because classic architectural quality attribute.",
-      "C": "Option C (INCORRECT): \"The number of developers\". \"The number of developers\" sounds plausible but is wrong because project staffing — not system quality attribute.",
-      "D": "Option D (INCORRECT): \"The project budget\". \"The project budget\" sounds plausible but is wrong because management constraint — not architecture quality attribute."
+      "A": "✗ Not the answer. technology choice — not ISO 25010 quality attribute.",
+      "B": "✓ CORRECT. classic architectural quality attribute.",
+      "C": "✗ Not the answer. project staffing — not system quality attribute.",
+      "D": "✗ Not the answer. management constraint — not architecture quality attribute."
     },
-    "studyTip": "Quality attributes: -ility words (availability, scalability, modifiability, usability)."
+    "studyTip": "Quality attributes: -ility words (availability, scalability, modifiability, usability).",
+    "source": "offline-deep"
   },
   "64": {
-    "overview": "Class Diagram shows static structure: classes, attributes, methods, relationships (inheritance, association). Sequence/Activity are behavioral; Use Case shows actor interactions.",
+    "overview": "Class Diagram shows static structure: classes, attributes, methods, relationships (inheritance, association). Sequence/Activity are behavioral; Use Case shows actor interactions.\n\n✅ Answer: B — Class Diagram",
     "options": {
-      "A": "Option A (INCORRECT): \"Sequence Diagram\". \"Sequence Diagram\" sounds plausible but is wrong because message passing over time — dynamic behavior.",
-      "B": "Option B (CORRECT): \"Class Diagram\". \"Class Diagram\" is correct because structural view of system classes and relationships.",
-      "C": "Option C (INCORRECT): \"Activity Diagram\". \"Activity Diagram\" sounds plausible but is wrong because workflow/process flow — behavioral.",
-      "D": "Option D (INCORRECT): \"Use Case Diagram\". \"Use Case Diagram\" sounds plausible but is wrong because actors and use cases — functional scope, not class structure."
+      "A": "✗ Not the answer. message passing over time — dynamic behavior.",
+      "B": "✓ CORRECT. structural view of system classes and relationships.",
+      "C": "✗ Not the answer. workflow/process flow — behavioral.",
+      "D": "✗ Not the answer. actors and use cases — functional scope, not class structure."
     },
-    "studyTip": "Structure → Class/Component; Behavior → Sequence/Activity/State."
+    "studyTip": "Structure → Class/Component; Behavior → Sequence/Activity/State.",
+    "source": "offline-deep"
   },
   "65": {
-    "overview": "Work Breakdown Structure (WBS) hierarchically decomposes project deliverables into work packages — foundation for scheduling, estimating, assigning responsibility.",
+    "overview": "Work Breakdown Structure (WBS) hierarchically decomposes project deliverables into work packages — foundation for scheduling, estimating, assigning responsibility.\n\n✅ Answer: B — To divide a project into manageable tasks",
     "options": {
-      "A": "Option A (INCORRECT): \"To write code\". \"To write code\" sounds plausible but is wrong because development task — not WBS purpose.",
-      "B": "Option B (CORRECT): \"To divide a project into manageable tasks\". \"To divide a project into manageable tasks\" is correct because decomposition of scope into work packages.",
-      "C": "Option C (INCORRECT): \"To test the software\". \"To test the software\" sounds plausible but is wrong because QA activity.",
-      "D": "Option D (INCORRECT): \"To deploy the system\". \"To deploy the system\" sounds plausible but is wrong because release/operations activity."
+      "A": "✗ Not the answer. development task — not WBS purpose.",
+      "B": "✓ CORRECT. decomposition of scope into work packages.",
+      "C": "✗ Not the answer. QA activity.",
+      "D": "✗ Not the answer. release/operations activity."
     },
-    "studyTip": "WBS: 100% rule — sum of work packages equals total project scope."
+    "studyTip": "WBS: 100% rule — sum of work packages equals total project scope.",
+    "source": "offline-deep"
   },
   "66": {
-    "overview": "Gantt chart visualizes tasks on timeline with bars showing duration and dependencies — standard PM scheduling tool.",
+    "overview": "Gantt chart visualizes tasks on timeline with bars showing duration and dependencies — standard PM scheduling tool.\n\n✅ Answer: A — Gantt Chart",
     "options": {
-      "A": "Option A (CORRECT): \"Gantt Chart\". \"Gantt Chart\" is correct because task bars, milestones, dependencies over calendar time.",
-      "B": "Option B (INCORRECT): \"Pie Chart\". \"Pie Chart\" sounds plausible but is wrong because proportions of whole — not schedule visualization.",
-      "C": "Option C (INCORRECT): \"Histogram\". \"Histogram\" sounds plausible but is wrong because frequency distribution — statistics, not project scheduling.",
-      "D": "Option D (INCORRECT): \"Scatter Plot\". \"Scatter Plot\" sounds plausible but is wrong because correlation between variables — not task dependencies."
+      "A": "✓ CORRECT. task bars, milestones, dependencies over calendar time.",
+      "B": "✗ Not the answer. proportions of whole — not schedule visualization.",
+      "C": "✗ Not the answer. frequency distribution — statistics, not project scheduling.",
+      "D": "✗ Not the answer. correlation between variables — not task dependencies."
     },
-    "studyTip": "Gantt = schedule; PERT = network diagram; both used in project time management."
+    "studyTip": "Gantt = schedule; PERT = network diagram; both used in project time management.",
+    "source": "offline-deep"
   },
   "67": {
-    "overview": "Risk management: identify, analyze, prioritize, plan responses (mitigate, transfer, avoid, accept), monitor throughout project lifecycle.",
+    "overview": "Risk management: identify, analyze, prioritize, plan responses (mitigate, transfer, avoid, accept), monitor throughout project lifecycle.\n\n✅ Answer: B — Identifying and mitigating potential risks",
     "options": {
-      "A": "Option A (INCORRECT): \"Writing code\". \"Writing code\" sounds plausible but is wrong because implementation — not risk management.",
-      "B": "Option B (CORRECT): \"Identifying and mitigating potential risks\". \"Identifying and mitigating potential risks\" is correct because core risk management cycle.",
-      "C": "Option C (INCORRECT): \"Designing the user interface\". \"Designing the user interface\" sounds plausible but is wrong because UX design activity.",
-      "D": "Option D (INCORRECT): \"Testing the database\". \"Testing the database\" sounds plausible but is wrong because QA/data validation activity."
+      "A": "✗ Not the answer. implementation — not risk management.",
+      "B": "✓ CORRECT. core risk management cycle.",
+      "C": "✗ Not the answer. UX design activity.",
+      "D": "✗ Not the answer. QA/data validation activity."
     },
-    "studyTip": "Risk response: avoid, mitigate, transfer, accept (AMTA mnemonic)."
+    "studyTip": "Risk response: avoid, mitigate, transfer, accept (AMTA mnemonic).",
+    "source": "offline-deep"
   },
   "68": {
-    "overview": "Product Owner owns product backlog, prioritizes user stories by business value, represents stakeholders. Scrum Master facilitates process; Dev Team builds; stakeholders advise.",
+    "overview": "Product Owner owns product backlog, prioritizes user stories by business value, represents stakeholders. Scrum Master facilitates process; Dev Team builds; stakeholders advise.\n\n✅ Answer: B — Product Owner",
     "options": {
-      "A": "Option A (INCORRECT): \"Scrum Master\". \"Scrum Master\" sounds plausible but is wrong because removes impediments, coaches process — doesn't prioritize backlog.",
-      "B": "Option B (CORRECT): \"Product Owner\". \"Product Owner\" is correct because single person accountable for backlog ordering and value.",
-      "C": "Option C (INCORRECT): \"Development Team\". \"Development Team\" sounds plausible but is wrong because implements items — may estimate but PO prioritizes.",
-      "D": "Option D (INCORRECT): \"Stakeholders\". \"Stakeholders\" sounds plausible but is wrong because provide input but PO makes prioritization decisions."
+      "A": "✗ Not the answer. removes impediments, coaches process — doesn't prioritize backlog.",
+      "B": "✓ CORRECT. single person accountable for backlog ordering and value.",
+      "C": "✗ Not the answer. implements items — may estimate but PO prioritizes.",
+      "D": "✗ Not the answer. provide input but PO makes prioritization decisions."
     },
-    "studyTip": "Scrum roles: PO=prioritize, SM=process, Team=build."
+    "studyTip": "Scrum roles: PO=prioritize, SM=process, Team=build.",
+    "source": "offline-deep"
   },
   "69": {
-    "overview": "Project schedule plans task start/finish dates, milestones, critical path — tracks progress against baseline timeline.",
+    "overview": "Project schedule plans task start/finish dates, milestones, critical path — tracks progress against baseline timeline.\n\n✅ Answer: B — To plan and track project timelines",
     "options": {
-      "A": "Option A (INCORRECT): \"To document code\". \"To document code\" sounds plausible but is wrong because code documentation — developer activity.",
-      "B": "Option B (CORRECT): \"To plan and track project timelines\". \"To plan and track project timelines\" is correct because schedule management purpose.",
-      "C": "Option C (INCORRECT): \"To test the software\". \"To test the software\" sounds plausible but is wrong because QA — separate from scheduling.",
-      "D": "Option D (INCORRECT): \"To manage hardware resources\". \"To manage hardware resources\" sounds plausible but is wrong because infrastructure — not schedule primary focus."
+      "A": "✗ Not the answer. code documentation — developer activity.",
+      "B": "✓ CORRECT. schedule management purpose.",
+      "C": "✗ Not the answer. QA — separate from scheduling.",
+      "D": "✗ Not the answer. infrastructure — not schedule primary focus."
     },
-    "studyTip": "Schedule baseline + Gantt/PERT + critical path method (CPM)."
+    "studyTip": "Schedule baseline + Gantt/PERT + critical path method (CPM).",
+    "source": "offline-deep"
   },
   "70": {
-    "overview": "Unit testing verifies smallest testable units (functions, methods, classes) in isolation, often with mocks/stubs. Integration/system/UI tests cover broader scope.",
+    "overview": "Unit testing verifies smallest testable units (functions, methods, classes) in isolation, often with mocks/stubs. Integration/system/UI tests cover broader scope.\n\n✅ Answer: B — To test individual components or functions",
     "options": {
-      "A": "Option A (INCORRECT): \"To test the entire system\". \"To test the entire system\" sounds plausible but is wrong because system testing — whole integrated product.",
-      "B": "Option B (CORRECT): \"To test individual components or functions\". \"To test individual components or functions\" is correct because unit test definition.",
-      "C": "Option C (INCORRECT): \"To test the user interface\". \"To test the user interface\" sounds plausible but is wrong because UI/acceptance testing domain.",
-      "D": "Option D (INCORRECT): \"To test the database\". \"To test the database\" sounds plausible but is wrong because database testing specific layer."
+      "A": "✗ Not the answer. system testing — whole integrated product.",
+      "B": "✓ CORRECT. unit test definition.",
+      "C": "✗ Not the answer. UI/acceptance testing domain.",
+      "D": "✗ Not the answer. database testing specific layer."
     },
-    "studyTip": "Test pyramid: many unit tests, fewer integration, fewest E2E/system."
+    "studyTip": "Test pyramid: many unit tests, fewer integration, fewest E2E/system.",
+    "source": "offline-deep"
   },
   "71": {
-    "overview": "White-box (structural) testing uses internal code structure — branches, paths, statements. Black-box tests I/O without knowing internals. Integration/system are levels, not techniques by structure.",
+    "overview": "White-box (structural) testing uses internal code structure — branches, paths, statements. Black-box tests I/O without knowing internals. Integration/system are levels, not techniques by structure.\n\n✅ Answer: B — White-box testing",
     "options": {
-      "A": "Option A (INCORRECT): \"Black-box testing\". \"Black-box testing\" sounds plausible but is wrong because tests external behavior without code knowledge.",
-      "B": "Option B (CORRECT): \"White-box testing\". \"White-box testing\" is correct because uses code structure for coverage (branch, path).",
-      "C": "Option C (INCORRECT): \"Integration testing\". \"Integration testing\" sounds plausible but is wrong because tests combined modules — test level, not structural technique.",
-      "D": "Option D (INCORRECT): \"System testing\". \"System testing\" sounds plausible but is wrong because whole system validation — test level."
+      "A": "✗ Not the answer. tests external behavior without code knowledge.",
+      "B": "✓ CORRECT. uses code structure for coverage (branch, path).",
+      "C": "✗ Not the answer. tests combined modules — test level, not structural technique.",
+      "D": "✗ Not the answer. whole system validation — test level."
     },
-    "studyTip": "White-box = see code (coverage); Black-box = see inputs/outputs only."
+    "studyTip": "White-box = see code (coverage); Black-box = see inputs/outputs only.",
+    "source": "offline-deep"
   },
   "72": {
-    "overview": "Test case specifies inputs, execution conditions, expected results to verify specific requirement or behavior — fundamental QA artifact.",
+    "overview": "Test case specifies inputs, execution conditions, expected results to verify specific requirement or behavior — fundamental QA artifact.\n\n✅ Answer: A — A set of conditions to verify a system's functionality",
     "options": {
-      "A": "Option A (CORRECT): \"A set of conditions to verify a system's functionality\". \"A set of conditions to verify a system's functionality\" is correct because test case definition.",
-      "B": "Option B (INCORRECT): \"A programming script\". \"A programming script\" sounds plausible but is wrong because test script automates cases but case is logical specification.",
-      "C": "Option C (INCORRECT): \"A project plan\". \"A project plan\" sounds plausible but is wrong because PM document — different purpose.",
-      "D": "Option D (INCORRECT): \"A database schema\". \"A database schema\" sounds plausible but is wrong because data model — not test case."
+      "A": "✓ CORRECT. test case definition.",
+      "B": "✗ Not the answer. test script automates cases but case is logical specification.",
+      "C": "✗ Not the answer. PM document — different purpose.",
+      "D": "✗ Not the answer. data model — not test case."
     },
-    "studyTip": "Test case = preconditions + inputs + expected result + postconditions."
+    "studyTip": "Test case = preconditions + inputs + expected result + postconditions.",
+    "source": "offline-deep"
   },
   "73": {
-    "overview": "Quality Assurance ensures processes and products meet specified requirements and standards — prevent defects through process, not just find them (QC/testing).",
+    "overview": "Quality Assurance ensures processes and products meet specified requirements and standards — prevent defects through process, not just find them (QC/testing).\n\n✅ Answer: B — To ensure the software meets specified requirements",
     "options": {
-      "A": "Option A (INCORRECT): \"To increase development time\". \"To increase development time\" sounds plausible but is wrong because QA aims for efficiency with quality — not lengthen arbitrarily.",
-      "B": "Option B (CORRECT): \"To ensure the software meets specified requirements\". \"To ensure the software meets specified requirements\" is correct because conformance to specs and standards.",
-      "C": "Option C (INCORRECT): \"To reduce documentation\". \"To reduce documentation\" sounds plausible but is wrong because QA often requires documented processes (ISO, CMMI).",
-      "D": "Option D (INCORRECT): \"To eliminate user feedback\". \"To eliminate user feedback\" sounds plausible but is wrong because user feedback essential for quality improvement."
+      "A": "✗ Not the answer. QA aims for efficiency with quality — not lengthen arbitrarily.",
+      "B": "✓ CORRECT. conformance to specs and standards.",
+      "C": "✗ Not the answer. QA often requires documented processes (ISO, CMMI).",
+      "D": "✗ Not the answer. user feedback essential for quality improvement."
     },
-    "studyTip": "QA = process focus; QC/Testing = product verification."
+    "studyTip": "QA = process focus; QC/Testing = product verification.",
+    "source": "offline-deep"
   },
   "74": {
-    "overview": "Software defect (bug) is behavior deviating from specified requirements — causes incorrect results or crashes. Features meeting requirements are not defects.",
+    "overview": "Software defect (bug) is behavior deviating from specified requirements — causes incorrect results or crashes. Features meeting requirements are not defects.\n\n✅ Answer: B — A bug that causes incorrect behavior",
     "options": {
-      "A": "Option A (INCORRECT): \"A feature that meets user requirements\". \"A feature that meets user requirements\" sounds plausible but is wrong because correct behavior — not a defect.",
-      "B": "Option B (CORRECT): \"A bug that causes incorrect behavior\". \"A bug that causes incorrect behavior\" is correct because failure to meet specification — defect.",
-      "C": "Option C (INCORRECT): \"A well-documented code\". \"A well-documented code\" sounds plausible but is wrong because good practice — not defect.",
-      "D": "Option D (INCORRECT): \"A user manual\". \"A user manual\" sounds plausible but is wrong because deliverable documentation — not defect."
+      "A": "✗ Not the answer. correct behavior — not a defect.",
+      "B": "✓ CORRECT. failure to meet specification — defect.",
+      "C": "✗ Not the answer. good practice — not defect.",
+      "D": "✗ Not the answer. deliverable documentation — not defect."
     },
-    "studyTip": "Defect = gap between expected (spec) and actual (behavior)."
+    "studyTip": "Defect = gap between expected (spec) and actual (behavior).",
+    "source": "offline-deep"
   },
   "75": {
-    "overview": "Software maintenance modifies deployed software after delivery — corrective, adaptive, perfective, preventive — not greenfield development.",
+    "overview": "Software maintenance modifies deployed software after delivery — corrective, adaptive, perfective, preventive — not greenfield development.\n\n✅ Answer: B — Updating and fixing existing software",
     "options": {
-      "A": "Option A (INCORRECT): \"Writing new code from scratch\". \"Writing new code from scratch\" sounds plausible but is wrong because new development — not maintenance.",
-      "B": "Option B (CORRECT): \"Updating and fixing existing software\". \"Updating and fixing existing software\" is correct because maintenance definition per IEEE.",
-      "C": "Option C (INCORRECT): \"Designing the user interface\". \"Designing the user interface\" sounds plausible but is wrong because could be part of perfective maintenance but too narrow.",
-      "D": "Option D (INCORRECT): \"Deploying the software\". \"Deploying the software\" sounds plausible but is wrong because release activity — maintenance follows deployment."
+      "A": "✗ Not the answer. new development — not maintenance.",
+      "B": "✓ CORRECT. maintenance definition per IEEE.",
+      "C": "✗ Not the answer. could be part of perfective maintenance but too narrow.",
+      "D": "✗ Not the answer. release activity — maintenance follows deployment."
     },
-    "studyTip": "Maintenance types: Corrective, Adaptive, Perfective, Preventive (CAPP)."
+    "studyTip": "Maintenance types: Corrective, Adaptive, Perfective, Preventive (CAPP).",
+    "source": "offline-deep"
   },
   "76": {
-    "overview": "Corrective maintenance fixes reported bugs/errors after release. Adaptive adapts to environment changes; perfective improves performance/features; preventive prevents future issues.",
+    "overview": "Corrective maintenance fixes reported bugs/errors after release. Adaptive adapts to environment changes; perfective improves performance/features; preventive prevents future issues.\n\n✅ Answer: A — Corrective maintenance",
     "options": {
-      "A": "Option A (CORRECT): \"Corrective maintenance\". \"Corrective maintenance\" is correct because fixes user-reported faults — answer.",
-      "B": "Option B (INCORRECT): \"Adaptive maintenance\". \"Adaptive maintenance\" sounds plausible but is wrong because adjusts to OS/hardware/regulatory environment changes.",
-      "C": "Option C (INCORRECT): \"Perfective maintenance\". \"Perfective maintenance\" sounds plausible but is wrong because enhancements and performance improvements.",
-      "D": "Option D (INCORRECT): \"Preventive maintenance\". \"Preventive maintenance\" sounds plausible but is wrong because refactoring to reduce future failure risk."
+      "A": "✓ CORRECT. fixes user-reported faults — answer.",
+      "B": "✗ Not the answer. adjusts to OS/hardware/regulatory environment changes.",
+      "C": "✗ Not the answer. enhancements and performance improvements.",
+      "D": "✗ Not the answer. refactoring to reduce future failure risk."
     },
-    "studyTip": "User bug report → Corrective; OS upgrade compatibility → Adaptive."
+    "studyTip": "User bug report → Corrective; OS upgrade compatibility → Adaptive.",
+    "source": "offline-deep"
   },
   "77": {
-    "overview": "Refactoring improves internal code structure (readability, design patterns) without changing external observable behavior — key maintenance discipline.",
+    "overview": "Refactoring improves internal code structure (readability, design patterns) without changing external observable behavior — key maintenance discipline.\n\n✅ Answer: B — Improving code structure without changing functionality",
     "options": {
-      "A": "Option A (INCORRECT): \"Adding new features\". \"Adding new features\" sounds plausible but is wrong because perfective enhancement — changes functionality.",
-      "B": "Option B (CORRECT): \"Improving code structure without changing functionality\". \"Improving code structure without changing functionality\" is correct because refactoring definition (Fowler).",
-      "C": "Option C (INCORRECT): \"Deleting old code\". \"Deleting old code\" sounds plausible but is wrong because may happen during refactor but not the definition.",
-      "D": "Option D (INCORRECT): \"Testing the software\". \"Testing the software\" sounds plausible but is wrong because verification activity — not refactoring."
+      "A": "✗ Not the answer. perfective enhancement — changes functionality.",
+      "B": "✓ CORRECT. refactoring definition (Fowler).",
+      "C": "✗ Not the answer. may happen during refactor but not the definition.",
+      "D": "✗ Not the answer. verification activity — not refactoring."
     },
-    "studyTip": "Refactor = same behavior, better structure; feature = new behavior."
+    "studyTip": "Refactor = same behavior, better structure; feature = new behavior.",
+    "source": "offline-deep"
   },
   "78": {
-    "overview": "Maintenance cost correlates strongly with system complexity — tangled code, poor documentation, high coupling increase change cost (Lehman's laws).",
+    "overview": "Maintenance cost correlates strongly with system complexity — tangled code, poor documentation, high coupling increase change cost (Lehman's laws).\n\n✅ Answer: C — The complexity of the software",
     "options": {
-      "A": "Option A (INCORRECT): \"The programming language used\". \"The programming language used\" sounds plausible but is wrong because minor factor compared to complexity and design quality.",
-      "B": "Option B (INCORRECT): \"The number of users\". \"The number of users\" sounds plausible but is wrong because may affect adaptive load but not primary cost driver in SE theory.",
-      "C": "Option C (CORRECT): \"The complexity of the software\". \"The complexity of the software\" is correct because complex systems cost more to understand and modify.",
-      "D": "Option D (INCORRECT): \"The project timeline\". \"The project timeline\" sounds plausible but is wrong because schedule pressure affects cost but complexity is structural driver."
+      "A": "✗ Not the answer. minor factor compared to complexity and design quality.",
+      "B": "✗ Not the answer. may affect adaptive load but not primary cost driver in SE theory.",
+      "C": "✓ CORRECT. complex systems cost more to understand and modify.",
+      "D": "✗ Not the answer. schedule pressure affects cost but complexity is structural driver."
     },
-    "studyTip": "Lehman's Law: complexity increases unless work done to reduce it."
+    "studyTip": "Lehman's Law: complexity increases unless work done to reduce it.",
+    "source": "offline-deep"
   },
   "79": {
-    "overview": "Best practices (code reviews, testing, documentation, refactoring) improve reliability and reduce defect rates over system lifetime.",
+    "overview": "Best practices (code reviews, testing, documentation, refactoring) improve reliability and reduce defect rates over system lifetime.\n\n✅ Answer: B — Improved software reliability",
     "options": {
-      "A": "Option A (INCORRECT): \"Increased software bugs\". \"Increased software bugs\" sounds plausible but is wrong because best practices reduce bugs — opposite.",
-      "B": "Option B (CORRECT): \"Improved software reliability\". \"Improved software reliability\" is correct because primary long-term benefit of maintenance discipline.",
-      "C": "Option C (INCORRECT): \"Reduced documentation\". \"Reduced documentation\" sounds plausible but is wrong because good maintenance includes adequate docs.",
-      "D": "Option D (INCORRECT): \"Slower development\". \"Slower development\" sounds plausible but is wrong because initial investment pays off in lower maintenance cost."
+      "A": "✗ Not the answer. best practices reduce bugs — opposite.",
+      "B": "✓ CORRECT. primary long-term benefit of maintenance discipline.",
+      "C": "✗ Not the answer. good maintenance includes adequate docs.",
+      "D": "✗ Not the answer. initial investment pays off in lower maintenance cost."
     },
-    "studyTip": "Invest in maintainability early — majority of cost is post-release maintenance."
+    "studyTip": "Invest in maintainability early — majority of cost is post-release maintenance.",
+    "source": "offline-deep"
   },
   "80": {
-    "overview": "OSI (Open Systems Interconnection) model standardizes networking into 7 layers — interoperability reference model, not a protocol itself or hardware manager.",
+    "overview": "OSI (Open Systems Interconnection) model standardizes networking into 7 layers — interoperability reference model, not a protocol itself or hardware manager.\n\n✅ Answer: B — To standardize network communication layers",
     "options": {
-      "A": "Option A (INCORRECT): \"To write network protocols\". \"To write network protocols\" sounds plausible but is wrong because protocols implement layers — OSI is reference framework.",
-      "B": "Option B (CORRECT): \"To standardize network communication layers\". \"To standardize network communication layers\" is correct because 7-layer conceptual model for teaching/design.",
-      "C": "Option C (INCORRECT): \"To manage hardware resources\". \"To manage hardware resources\" sounds plausible but is wrong because OS role — OSI is network-specific.",
-      "D": "Option D (INCORRECT): \"To secure the network\". \"To secure the network\" sounds plausible but is wrong because security spans layers but OSI primary purpose is layering standard."
+      "A": "✗ Not the answer. protocols implement layers — OSI is reference framework.",
+      "B": "✓ CORRECT. 7-layer conceptual model for teaching/design.",
+      "C": "✗ Not the answer. OS role — OSI is network-specific.",
+      "D": "✗ Not the answer. security spans layers but OSI primary purpose is layering standard."
     },
-    "studyTip": "OSI 7 layers: Physical, Data Link, Network, Transport, Session, Presentation, Application."
+    "studyTip": "OSI 7 layers: Physical, Data Link, Network, Transport, Session, Presentation, Application.",
+    "source": "offline-deep"
   },
   "81": {
-    "overview": "Network layer (Layer 3) handles logical addressing (IP) and routing packets across networks. Data Link (L2) uses MAC/switching; Transport (L4) TCP/UDP; Application (L7) HTTP/DNS.",
+    "overview": "Network layer (Layer 3) handles logical addressing (IP) and routing packets across networks. Data Link (L2) uses MAC/switching; Transport (L4) TCP/UDP; Application (L7) HTTP/DNS.\n\n✅ Answer: B — Network Layer",
     "options": {
-      "A": "Option A (INCORRECT): \"Data Link Layer\". \"Data Link Layer\" sounds plausible but is wrong because MAC addresses, switches, frames — local segment.",
-      "B": "Option B (CORRECT): \"Network Layer\". \"Network Layer\" is correct because IP routing between networks — routers operate here.",
-      "C": "Option C (INCORRECT): \"Transport Layer\". \"Transport Layer\" sounds plausible but is wrong because end-to-end segments, TCP/UDP ports.",
-      "D": "Option D (INCORRECT): \"Application Layer\". \"Application Layer\" sounds plausible but is wrong because user-facing protocols HTTP, FTP, SMTP."
+      "A": "✗ Not the answer. MAC addresses, switches, frames — local segment.",
+      "B": "✓ CORRECT. IP routing between networks — routers operate here.",
+      "C": "✗ Not the answer. end-to-end segments, TCP/UDP ports.",
+      "D": "✗ Not the answer. user-facing protocols HTTP, FTP, SMTP."
     },
-    "studyTip": "Router = Layer 3; Switch = Layer 2; HTTP = Layer 7."
+    "studyTip": "Router = Layer 3; Switch = Layer 2; HTTP = Layer 7.",
+    "source": "offline-deep"
   },
   "82": {
-    "overview": "Router forwards IP packets between different networks using routing tables — connects LANs to WANs. Switch connects devices same LAN; doesn't store packets long-term.",
+    "overview": "Router forwards IP packets between different networks using routing tables — connects LANs to WANs. Switch connects devices same LAN; doesn't store packets long-term.\n\n✅ Answer: B — To forward data packets between networks",
     "options": {
-      "A": "Option A (INCORRECT): \"To connect devices within the same network\". \"To connect devices within the same network\" sounds plausible but is wrong because switch/hub role on same broadcast domain.",
-      "B": "Option B (CORRECT): \"To forward data packets between networks\". \"To forward data packets between networks\" is correct because router interconnects distinct IP networks.",
-      "C": "Option C (INCORRECT): \"To store data packets\". \"To store data packets\" sounds plausible but is wrong because routers forward — buffering temporary, not storage purpose.",
-      "D": "Option D (INCORRECT): \"To encrypt data\". \"To encrypt data\" sounds plausible but is wrong because VPN appliances may encrypt; basic routing doesn't require encryption."
+      "A": "✗ Not the answer. switch/hub role on same broadcast domain.",
+      "B": "✓ CORRECT. router interconnects distinct IP networks.",
+      "C": "✗ Not the answer. routers forward — buffering temporary, not storage purpose.",
+      "D": "✗ Not the answer. VPN appliances may encrypt; basic routing doesn't require encryption."
     },
-    "studyTip": "Switch = same network; Router = between networks; Gateway = protocol translation."
+    "studyTip": "Switch = same network; Router = between networks; Gateway = protocol translation.",
+    "source": "offline-deep"
   },
   "83": {
-    "overview": "HTTPS = HTTP over TLS/SSL — encrypts web traffic, authenticates server via certificates. HTTP is plaintext; FTP file transfer; SMTP email.",
+    "overview": "HTTPS = HTTP over TLS/SSL — encrypts web traffic, authenticates server via certificates. HTTP is plaintext; FTP file transfer; SMTP email.\n\n✅ Answer: C — HTTPS",
     "options": {
-      "A": "Option A (INCORRECT): \"HTTP\". \"HTTP\" sounds plausible but is wrong because unencrypted web protocol — not secure.",
-      "B": "Option B (INCORRECT): \"FTP\". \"FTP\" sounds plausible but is wrong because file transfer protocol — not primary secure web browsing.",
-      "C": "Option C (CORRECT): \"HTTPS\". \"HTTPS\" is correct because HTTP Secure — TLS encryption for web communication.",
-      "D": "Option D (INCORRECT): \"SMTP\". \"SMTP\" sounds plausible but is wrong because Simple Mail Transfer Protocol — email, not web browsing security."
+      "A": "✗ Not the answer. unencrypted web protocol — not secure.",
+      "B": "✗ Not the answer. file transfer protocol — not primary secure web browsing.",
+      "C": "✓ CORRECT. HTTP Secure — TLS encryption for web communication.",
+      "D": "✗ Not the answer. Simple Mail Transfer Protocol — email, not web browsing security."
     },
-    "studyTip": "Secure web = HTTPS (port 443); plain HTTP = port 80."
+    "studyTip": "Secure web = HTTPS (port 443); plain HTTP = port 80.",
+    "source": "offline-deep"
   },
   "84": {
-    "overview": "Subnet mask defines network vs host portion of IP address, enabling subnet division and routing decisions — not encryption or DHCP assignment directly.",
+    "overview": "Subnet mask defines network vs host portion of IP address, enabling subnet division and routing decisions — not encryption or DHCP assignment directly.\n\n✅ Answer: B — To divide a network into smaller subnetworks",
     "options": {
-      "A": "Option A (INCORRECT): \"To encrypt network traffic\". \"To encrypt network traffic\" sounds plausible but is wrong because encryption uses TLS/IPsec — not subnet mask function.",
-      "B": "Option B (CORRECT): \"To divide a network into smaller subnetworks\". \"To divide a network into smaller subnetworks\" is correct because subnetting splits address space logically.",
-      "C": "Option C (INCORRECT): \"To assign IP addresses\". \"To assign IP addresses\" sounds plausible but is wrong because DHCP assigns; mask defines subnet boundaries.",
-      "D": "Option D (INCORRECT): \"To secure the network\". \"To secure the network\" sounds plausible but is wrong because ACLs/firewalls secure; mask defines topology."
+      "A": "✗ Not the answer. encryption uses TLS/IPsec — not subnet mask function.",
+      "B": "✓ CORRECT. subnetting splits address space logically.",
+      "C": "✗ Not the answer. DHCP assigns; mask defines subnet boundaries.",
+      "D": "✗ Not the answer. ACLs/firewalls secure; mask defines topology."
     },
-    "studyTip": "Subnet mask + IP = network address + host address (AND operation)."
+    "studyTip": "Subnet mask + IP = network address + host address (AND operation).",
+    "source": "offline-deep"
   },
   "85": {
-    "overview": "Gateway connects networks using different protocols or architectures — translates between them (e.g., IP to legacy system). Switch/hub same protocol L2; repeater amplifies signal.",
+    "overview": "Gateway connects networks using different protocols or architectures — translates between them (e.g., IP to legacy system). Switch/hub same protocol L2; repeater amplifies signal.\n\n✅ Answer: C — Gateway",
     "options": {
-      "A": "Option A (INCORRECT): \"Switch\". \"Switch\" sounds plausible but is wrong because L2 device forwarding frames within same network technology.",
-      "B": "Option B (INCORRECT): \"Hub\". \"Hub\" sounds plausible but is wrong because L1 broadcast device — deprecated, no intelligence.",
-      "C": "Option C (CORRECT): \"Gateway\". \"Gateway\" is correct because interconnects heterogeneous networks with protocol translation.",
-      "D": "Option D (INCORRECT): \"Repeater\". \"Repeater\" sounds plausible but is wrong because regenerates signal on same segment — extends distance only."
+      "A": "✗ Not the answer. L2 device forwarding frames within same network technology.",
+      "B": "✗ Not the answer. L1 broadcast device — deprecated, no intelligence.",
+      "C": "✓ CORRECT. interconnects heterogeneous networks with protocol translation.",
+      "D": "✗ Not the answer. regenerates signal on same segment — extends distance only."
     },
-    "studyTip": "Gateway = different network types; Router = different IP subnets same stack."
+    "studyTip": "Gateway = different network types; Router = different IP subnets same stack.",
+    "source": "offline-deep"
   },
   "86": {
-    "overview": "Encryption transforms plaintext to ciphertext using keys — protects confidentiality so unauthorized parties cannot read data. Does not primarily speed up or simplify code.",
+    "overview": "Encryption transforms plaintext to ciphertext using keys — protects confidentiality so unauthorized parties cannot read data. Does not primarily speed up or simplify code.\n\n✅ Answer: B — To protect data confidentiality",
     "options": {
-      "A": "Option A (INCORRECT): \"To increase software size\". \"To increase software size\" sounds plausible but is wrong because ciphertext may be larger but that's side effect, not purpose.",
-      "B": "Option B (CORRECT): \"To protect data confidentiality\". \"To protect data confidentiality\" is correct because core goal of encryption in CIA triad.",
-      "C": "Option C (INCORRECT): \"To speed up execution\". \"To speed up execution\" sounds plausible but is wrong because encryption adds computational overhead — slows, not speeds.",
-      "D": "Option D (INCORRECT): \"To simplify code\". \"To simplify code\" sounds plausible but is wrong because crypto adds complexity — libraries help but not simplification goal."
+      "A": "✗ Not the answer. ciphertext may be larger but that's side effect, not purpose.",
+      "B": "✓ CORRECT. core goal of encryption in CIA triad.",
+      "C": "✗ Not the answer. encryption adds computational overhead — slows, not speeds.",
+      "D": "✗ Not the answer. crypto adds complexity — libraries help but not simplification goal."
     },
-    "studyTip": "CIA: Confidentiality (encryption), Integrity (hash/HMAC), Availability (redundancy)."
+    "studyTip": "CIA: Confidentiality (encryption), Integrity (hash/HMAC), Availability (redundancy).",
+    "source": "offline-deep"
   },
   "87": {
-    "overview": "SQL Injection inserts malicious SQL through unsanitized user input in web forms/queries — OWASP Top 10 vulnerability. Phishing is social engineering; DoS floods resources; brute force guesses passwords.",
+    "overview": "SQL Injection inserts malicious SQL through unsanitized user input in web forms/queries — OWASP Top 10 vulnerability. Phishing is social engineering; DoS floods resources; brute force guesses passwords.\n\n✅ Answer: B — SQL Injection",
     "options": {
-      "A": "Option A (INCORRECT): \"Phishing\". \"Phishing\" sounds plausible but is wrong because deceptive emails/sites stealing credentials — social attack.",
-      "B": "Option B (CORRECT): \"SQL Injection\". \"SQL Injection\" is correct because malicious SQL in input fields exploiting dynamic query construction.",
-      "C": "Option C (INCORRECT): \"Denial of Service\". \"Denial of Service\" sounds plausible but is wrong because overwhelms availability — not code injection into DB queries.",
-      "D": "Option D (INCORRECT): \"Brute Force\". \"Brute Force\" sounds plausible but is wrong because systematic password guessing — not SQL code injection."
+      "A": "✗ Not the answer. deceptive emails/sites stealing credentials — social attack.",
+      "B": "✓ CORRECT. malicious SQL in input fields exploiting dynamic query construction.",
+      "C": "✗ Not the answer. overwhelms availability — not code injection into DB queries.",
+      "D": "✗ Not the answer. systematic password guessing — not SQL code injection."
     },
-    "studyTip": "Prevent SQLi: parameterized queries/prepared statements, input validation, least privilege DB accounts."
+    "studyTip": "Prevent SQLi: parameterized queries/prepared statements, input validation, least privilege DB accounts.",
+    "source": "offline-deep"
   },
   "88": {
-    "overview": "Firewall monitors/filters network traffic based on rules (IP, port, protocol) — perimeter defense between trusted/untrusted networks.",
+    "overview": "Firewall monitors/filters network traffic based on rules (IP, port, protocol) — perimeter defense between trusted/untrusted networks.\n\n✅ Answer: B — To monitor and control network traffic",
     "options": {
-      "A": "Option A (INCORRECT): \"To store data\". \"To store data\" sounds plausible but is wrong because storage devices/servers store — firewall filters traffic.",
-      "B": "Option B (CORRECT): \"To monitor and control network traffic\". \"To monitor and control network traffic\" is correct because allow/deny rules at network boundary.",
-      "C": "Option C (INCORRECT): \"To assign IP addresses\". \"To assign IP addresses\" sounds plausible but is wrong because DHCP server assigns IP addresses.",
-      "D": "Option D (INCORRECT): \"To manage databases\". \"To manage databases\" sounds plausible but is wrong because DBMS manages data — unrelated to firewall."
+      "A": "✗ Not the answer. storage devices/servers store — firewall filters traffic.",
+      "B": "✓ CORRECT. allow/deny rules at network boundary.",
+      "C": "✗ Not the answer. DHCP server assigns IP addresses.",
+      "D": "✗ Not the answer. DBMS manages data — unrelated to firewall."
     },
-    "studyTip": "Firewall + IDS/IPS = network security monitoring and control."
+    "studyTip": "Firewall + IDS/IPS = network security monitoring and control.",
+    "source": "offline-deep"
   },
   "89": {
-    "overview": "Multi-Factor Authentication (MFA) requires two or more factors: something you know (password), have (token/phone), are (biometric). SSO is single login for multiple apps — different concept.",
+    "overview": "Multi-Factor Authentication (MFA) requires two or more factors: something you know (password), have (token/phone), are (biometric). SSO is single login for multiple apps — different concept.\n\n✅ Answer: B — Multi-Factor Authentication",
     "options": {
-      "A": "Option A (INCORRECT): \"Single Sign-On\". \"Single Sign-On\" sounds plausible but is wrong because one login accesses multiple services — convenience, not multi-factor.",
-      "B": "Option B (CORRECT): \"Multi-Factor Authentication\". \"Multi-Factor Authentication\" is correct because combines independent authentication factors.",
-      "C": "Option C (INCORRECT): \"Password Authentication\". \"Password Authentication\" sounds plausible but is wrong because single factor only — something you know.",
-      "D": "Option D (INCORRECT): \"Token Authentication\". \"Token Authentication\" sounds plausible but is wrong because one factor (something you have) unless combined with password."
+      "A": "✗ Not the answer. one login accesses multiple services — convenience, not multi-factor.",
+      "B": "✓ CORRECT. combines independent authentication factors.",
+      "C": "✗ Not the answer. single factor only — something you know.",
+      "D": "✗ Not the answer. one factor (something you have) unless combined with password."
     },
-    "studyTip": "MFA = 2+ factors; examples: password + SMS OTP, password + fingerprint."
+    "studyTip": "MFA = 2+ factors; examples: password + SMS OTP, password + fingerprint.",
+    "source": "offline-deep"
   },
   "90": {
-    "overview": "Regular security patches fix known vulnerabilities (CVEs) — critical mitigation. Ignoring feedback, increasing complexity, disabling encryption worsen security posture.",
+    "overview": "Regular security patches fix known vulnerabilities (CVEs) — critical mitigation. Ignoring feedback, increasing complexity, disabling encryption worsen security posture.\n\n✅ Answer: B — Applying regular security patches",
     "options": {
-      "A": "Option A (INCORRECT): \"Ignoring user feedback\". \"Ignoring user feedback\" sounds plausible but is wrong because bad practice — doesn't mitigate vulnerabilities.",
-      "B": "Option B (CORRECT): \"Applying regular security patches\". \"Applying regular security patches\" is correct because closes known exploits — essential hygiene.",
-      "C": "Option C (INCORRECT): \"Increasing code complexity\". \"Increasing code complexity\" sounds plausible but is wrong because more complexity often means more attack surface.",
-      "D": "Option D (INCORRECT): \"Disabling encryption\". \"Disabling encryption\" sounds plausible but is wrong because removes confidentiality protection — dangerous."
+      "A": "✗ Not the answer. bad practice — doesn't mitigate vulnerabilities.",
+      "B": "✓ CORRECT. closes known exploits — essential hygiene.",
+      "C": "✗ Not the answer. more complexity often means more attack surface.",
+      "D": "✗ Not the answer. removes confidentiality protection — dangerous."
     },
-    "studyTip": "Patch management: test patches, deploy promptly, monitor CVE advisories."
+    "studyTip": "Patch management: test patches, deploy promptly, monitor CVE advisories.",
+    "source": "offline-deep"
   },
   "91": {
-    "overview": "Intelligent agent (Russell & Norvig): entity that perceives environment through sensors and acts through actuators to achieve goals — foundational AI concept.",
+    "overview": "Intelligent agent (Russell & Norvig): entity that perceives environment through sensors and acts through actuators to achieve goals — foundational AI concept.\n\n✅ Answer: B — A system that perceives and acts in an environment",
     "options": {
-      "A": "Option A (INCORRECT): \"A program that writes code\". \"A program that writes code\" sounds plausible but is wrong because code generation tool — not agent definition.",
-      "B": "Option B (CORRECT): \"A system that perceives and acts in an environment\". \"A system that perceives and acts in an environment\" is correct because canonical agent definition.",
-      "C": "Option C (INCORRECT): \"A database management system\". \"A database management system\" sounds plausible but is wrong because stores data — no perception/action loop.",
-      "D": "Option D (INCORRECT): \"A user interface\". \"A user interface\" sounds plausible but is wrong because UI presents information — agent includes reasoning/action."
+      "A": "✗ Not the answer. code generation tool — not agent definition.",
+      "B": "✓ CORRECT. canonical agent definition.",
+      "C": "✗ Not the answer. stores data — no perception/action loop.",
+      "D": "✗ Not the answer. UI presents information — agent includes reasoning/action."
     },
-    "studyTip": "Agent = Perceive + Act + (optional) Learn in Environment."
+    "studyTip": "Agent = Perceive + Act + (optional) Learn in Environment.",
+    "source": "offline-deep"
   },
   "92": {
-    "overview": "Breadth-First Search (BFS) explores all nodes at depth d before depth d+1 — level-order, uses queue. DFS goes deep first (stack); A*/Greedy use heuristics.",
+    "overview": "Breadth-First Search (BFS) explores all nodes at depth d before depth d+1 — level-order, uses queue. DFS goes deep first (stack); A*/Greedy use heuristics.\n\n✅ Answer: B — Breadth-First Search",
     "options": {
-      "A": "Option A (INCORRECT): \"Depth-First Search\". \"Depth-First Search\" sounds plausible but is wrong because explores one branch deeply before backtracking — not level-by-level.",
-      "B": "Option B (CORRECT): \"Breadth-First Search\". \"Breadth-First Search\" is correct because expands shallowest nodes first — current depth before deeper.",
-      "C": "Option C (INCORRECT): \"A* Search\". \"A* Search\" sounds plausible but is wrong because informed best-first with f(n)=g(n)+h(n) — not strictly level-order.",
-      "D": "Option D (INCORRECT): \"Greedy Search\". \"Greedy Search\" sounds plausible but is wrong because uses heuristic only — may not explore all nodes at current depth."
+      "A": "✗ Not the answer. explores one branch deeply before backtracking — not level-by-level.",
+      "B": "✓ CORRECT. expands shallowest nodes first — current depth before deeper.",
+      "C": "✗ Not the answer. informed best-first with f(n)=g(n)+h(n) — not strictly level-order.",
+      "D": "✗ Not the answer. uses heuristic only — may not explore all nodes at current depth."
     },
-    "studyTip": "BFS = queue, level-order; DFS = stack, depth-first; BFS finds shortest path unweighted."
+    "studyTip": "BFS = queue, level-order; DFS = stack, depth-first; BFS finds shortest path unweighted.",
+    "source": "offline-deep"
   },
   "93": {
-    "overview": "Expert system knowledge base stores domain facts and IF-THEN rules for inference engine to reason and explain decisions — distinct from user data storage.",
+    "overview": "Expert system knowledge base stores domain facts and IF-THEN rules for inference engine to reason and explain decisions — distinct from user data storage.\n\n✅ Answer: B — To store rules and facts for decision-making",
     "options": {
-      "A": "Option A (INCORRECT): \"To store user data\". \"To store user data\" sounds plausible but is wrong because user profiles are application data — not knowledge base purpose.",
-      "B": "Option B (CORRECT): \"To store rules and facts for decision-making\". \"To store rules and facts for decision-making\" is correct because domain knowledge + production rules.",
-      "C": "Option C (INCORRECT): \"To manage hardware resources\". \"To manage hardware resources\" sounds plausible but is wrong because OS responsibility — not expert system KB.",
-      "D": "Option D (INCORRECT): \"To execute search algorithms\". \"To execute search algorithms\" sounds plausible but is wrong because inference engine uses KB; KB is data, not algorithm executor."
+      "A": "✗ Not the answer. user profiles are application data — not knowledge base purpose.",
+      "B": "✓ CORRECT. domain knowledge + production rules.",
+      "C": "✗ Not the answer. OS responsibility — not expert system KB.",
+      "D": "✗ Not the answer. inference engine uses KB; KB is data, not algorithm executor."
     },
-    "studyTip": "Expert system: Knowledge Base + Inference Engine + Explanation facility."
+    "studyTip": "Expert system: Knowledge Base + Inference Engine + Explanation facility.",
+    "source": "offline-deep"
   },
   "94": {
-    "overview": "Expert systems use rule-based reasoning (if-then production rules) mimicking human expert decision-making in narrow domains. ML learns from data; neural nets use weights; GA evolves solutions.",
+    "overview": "Expert systems use rule-based reasoning (if-then production rules) mimicking human expert decision-making in narrow domains. ML learns from data; neural nets use weights; GA evolves solutions.\n\n✅ Answer: B — Expert Systems",
     "options": {
-      "A": "Option A (INCORRECT): \"Machine Learning\". \"Machine Learning\" sounds plausible but is wrong because learns patterns from data — not primarily explicit if-then rules.",
-      "B": "Option B (CORRECT): \"Expert Systems\". \"Expert Systems\" is correct because rule-based symbolic AI with knowledge base.",
-      "C": "Option C (INCORRECT): \"Neural Networks\". \"Neural Networks\" sounds plausible but is wrong because connectionist learning — weighted nodes, not explicit rule bases.",
-      "D": "Option D (INCORRECT): \"Genetic Algorithms\". \"Genetic Algorithms\" sounds plausible but is wrong because evolutionary optimization — not if-then expert reasoning."
+      "A": "✗ Not the answer. learns patterns from data — not primarily explicit if-then rules.",
+      "B": "✓ CORRECT. rule-based symbolic AI with knowledge base.",
+      "C": "✗ Not the answer. connectionist learning — weighted nodes, not explicit rule bases.",
+      "D": "✗ Not the answer. evolutionary optimization — not if-then expert reasoning."
     },
-    "studyTip": "Symbolic AI (expert systems) vs Subsymbolic (neural networks, deep learning)."
+    "studyTip": "Symbolic AI (expert systems) vs Subsymbolic (neural networks, deep learning).",
+    "source": "offline-deep"
   },
   "95": {
-    "overview": "Lifelong/continual learning enables AI systems to adapt incrementally to new data/tasks without catastrophic forgetting — supports evolving environments.",
+    "overview": "Lifelong/continual learning enables AI systems to adapt incrementally to new data/tasks without catastrophic forgetting — supports evolving environments.\n\n✅ Answer: B — Continuous adaptation to new data",
     "options": {
-      "A": "Option A (INCORRECT): \"Reduced system performance\". \"Reduced system performance\" sounds plausible but is wrong because goal is maintain/improve performance on new data.",
-      "B": "Option B (CORRECT): \"Continuous adaptation to new data\". \"Continuous adaptation to new data\" is correct because learn over time as environment changes.",
-      "C": "Option C (INCORRECT): \"Increased code complexity\". \"Increased code complexity\" sounds plausible but is wrong because possible side effect but not the benefit being tested.",
-      "D": "Option D (INCORRECT): \"Limited application scope\". \"Limited application scope\" sounds plausible but is wrong because lifelong learning expands applicability — opposite."
+      "A": "✗ Not the answer. goal is maintain/improve performance on new data.",
+      "B": "✓ CORRECT. learn over time as environment changes.",
+      "C": "✗ Not the answer. possible side effect but not the benefit being tested.",
+      "D": "✗ Not the answer. lifelong learning expands applicability — opposite."
     },
-    "studyTip": "Lifelong learning: adapt without retraining from scratch on all historical data."
+    "studyTip": "Lifelong learning: adapt without retraining from scratch on all historical data.",
+    "source": "offline-deep"
   },
   "96": {
-    "overview": "Supervised learning trains on labeled examples (input-output pairs). Unsupervised finds structure in unlabeled data (clustering, dimensionality reduction).",
+    "overview": "Supervised learning trains on labeled examples (input-output pairs). Unsupervised finds structure in unlabeled data (clustering, dimensionality reduction).\n\n✅ Answer: A — Supervised learning uses labeled data, unsupervised does not",
     "options": {
-      "A": "Option A (CORRECT): \"Supervised learning uses labeled data, unsupervised does not\". \"Supervised learning uses labeled data, unsupervised does not\" is correct because fundamental ML taxonomy.",
-      "B": "Option B (INCORRECT): \"Unsupervised learning uses labeled data, supervised does not\". \"Unsupervised learning uses labeled data, supervised does not\" sounds plausible but is wrong because reversed — incorrect.",
-      "C": "Option C (INCORRECT): \"Supervised learning is faster than unsupervised\". \"Supervised learning is faster than unsupervised\" sounds plausible but is wrong because speed depends on algorithm/data — not defining difference.",
-      "D": "Option D (INCORRECT): \"Unsupervised learning requires more data\". \"Unsupervised learning requires more data\" sounds plausible but is wrong because data requirements vary — not the core distinction."
+      "A": "✓ CORRECT. fundamental ML taxonomy.",
+      "B": "✗ Not the answer. reversed — incorrect.",
+      "C": "✗ Not the answer. speed depends on algorithm/data — not defining difference.",
+      "D": "✗ Not the answer. data requirements vary — not the core distinction."
     },
-    "studyTip": "Labeled → Supervised (classification/regression); Unlabeled → Unsupervised (clustering)."
+    "studyTip": "Labeled → Supervised (classification/regression); Unlabeled → Unsupervised (clustering).",
+    "source": "offline-deep"
   },
   "97": {
-    "overview": "Decision Trees classify by splitting features on thresholds — interpretable classification algorithm. K-Means clusters unlabeled data; Linear Regression predicts continuous values; PCA reduces dimensions.",
+    "overview": "Decision Trees classify by splitting features on thresholds — interpretable classification algorithm. K-Means clusters unlabeled data; Linear Regression predicts continuous values; PCA reduces dimensions.\n\n✅ Answer: C — Decision Trees",
     "options": {
-      "A": "Option A (INCORRECT): \"K-Means Clustering\". \"K-Means Clustering\" sounds plausible but is wrong because unsupervised clustering — not classification of labeled categories.",
-      "B": "Option B (INCORRECT): \"Linear Regression\". \"Linear Regression\" sounds plausible but is wrong because predicts continuous numeric output — regression, not classification.",
-      "C": "Option C (CORRECT): \"Decision Trees\". \"Decision Trees\" is correct because widely used for classification (also regression trees exist).",
-      "D": "Option D (INCORRECT): \"Principal Component Analysis\". \"Principal Component Analysis\" sounds plausible but is wrong because unsupervised dimensionality reduction technique."
+      "A": "✗ Not the answer. unsupervised clustering — not classification of labeled categories.",
+      "B": "✗ Not the answer. predicts continuous numeric output — regression, not classification.",
+      "C": "✓ CORRECT. widely used for classification (also regression trees exist).",
+      "D": "✗ Not the answer. unsupervised dimensionality reduction technique."
     },
-    "studyTip": "Classification: Decision Trees, SVM, k-NN; Clustering: K-Means; Regression: Linear Regression."
+    "studyTip": "Classification: Decision Trees, SVM, k-NN; Clustering: K-Means; Regression: Linear Regression.",
+    "source": "offline-deep"
   },
   "98": {
-    "overview": "Overfitting: model learns training data too closely including noise — high training accuracy but poor generalization on new test data. Underfitting is too simple; good generalization is goal.",
+    "overview": "Overfitting: model learns training data too closely including noise — high training accuracy but poor generalization on new test data. Underfitting is too simple; good generalization is goal.\n\n✅ Answer: B — When a model is too complex and fits noise in the training data",
     "options": {
-      "A": "Option A (INCORRECT): \"When a model performs well on new data\". \"When a model performs well on new data\" sounds plausible but is wrong because that describes good generalization — opposite of overfitting.",
-      "B": "Option B (CORRECT): \"When a model is too complex and fits noise in the training data\". \"When a model is too complex and fits noise in the training data\" is correct because overfitting definition.",
-      "C": "Option C (INCORRECT): \"When a model is too simple\". \"When a model is too simple\" sounds plausible but is wrong because underfitting — high bias, can't capture pattern.",
-      "D": "Option D (INCORRECT): \"When a model fails to train\". \"When a model fails to train\" sounds plausible but is wrong because training failure/error — different from overfitting."
+      "A": "✗ Not the answer. that describes good generalization — opposite of overfitting.",
+      "B": "✓ CORRECT. overfitting definition.",
+      "C": "✗ Not the answer. underfitting — high bias, can't capture pattern.",
+      "D": "✗ Not the answer. training failure/error — different from overfitting."
     },
-    "studyTip": "Fight overfitting: regularization, dropout, more data, cross-validation, simpler model."
+    "studyTip": "Fight overfitting: regularization, dropout, more data, cross-validation, simpler model.",
+    "source": "offline-deep"
   },
   "99": {
-    "overview": "Predicting house prices from labeled features (size, location) is supervised regression — learns mapping from inputs to known price outputs. Clustering/dimensionality reduction are unsupervised.",
+    "overview": "Predicting house prices from labeled features (size, location) is supervised regression — learns mapping from inputs to known price outputs. Clustering/dimensionality reduction are unsupervised.\n\n✅ Answer: B — Predicting house prices based on features",
     "options": {
-      "A": "Option A (INCORRECT): \"Clustering customer data\". \"Clustering customer data\" sounds plausible but is wrong because unsupervised grouping without predefined labels.",
-      "B": "Option B (CORRECT): \"Predicting house prices based on features\". \"Predicting house prices based on features\" is correct because supervised learning with labeled price targets.",
-      "C": "Option C (INCORRECT): \"Reducing data dimensions\". \"Reducing data dimensions\" sounds plausible but is wrong because unsupervised (PCA) or feature engineering — not supervised task label.",
-      "D": "Option D (INCORRECT): \"Finding patterns in unlabeled data\". \"Finding patterns in unlabeled data\" sounds plausible but is wrong because unsupervised learning definition."
+      "A": "✗ Not the answer. unsupervised grouping without predefined labels.",
+      "B": "✓ CORRECT. supervised learning with labeled price targets.",
+      "C": "✗ Not the answer. unsupervised (PCA) or feature engineering — not supervised task label.",
+      "D": "✗ Not the answer. unsupervised learning definition."
     },
-    "studyTip": "Supervised = labeled targets; Unsupervised = no labels."
+    "studyTip": "Supervised = labeled targets; Unsupervised = no labels.",
+    "source": "offline-deep"
   },
   "100": {
-    "overview": "Training dataset teaches model parameters by presenting labeled/unlabeled examples for learning patterns. Test set evaluates generalization; validation tunes hyperparameters.",
+    "overview": "Training dataset teaches model parameters by presenting labeled/unlabeled examples for learning patterns. Test set evaluates generalization; validation tunes hyperparameters.\n\n✅ Answer: B — To train the model to learn patterns",
     "options": {
-      "A": "Option A (INCORRECT): \"To test the model's performance\". \"To test the model's performance\" sounds plausible but is wrong because test/validation sets evaluate — training set teaches.",
-      "B": "Option B (CORRECT): \"To train the model to learn patterns\". \"To train the model to learn patterns\" is correct because model fits parameters on training data.",
-      "C": "Option C (INCORRECT): \"To validate the model\". \"To validate the model\" sounds plausible but is wrong because validation set used during development for hyperparameter tuning.",
-      "D": "Option D (INCORRECT): \"To deploy the model\". \"To deploy the model\" sounds plausible but is wrong because deployment puts trained model in production — post-training."
+      "A": "✗ Not the answer. test/validation sets evaluate — training set teaches.",
+      "B": "✓ CORRECT. model fits parameters on training data.",
+      "C": "✗ Not the answer. validation set used during development for hyperparameter tuning.",
+      "D": "✗ Not the answer. deployment puts trained model in production — post-training."
     },
-    "studyTip": "Train → learn; Validation → tune; Test → final unbiased evaluation."
+    "studyTip": "Train → learn; Validation → tune; Test → final unbiased evaluation.",
+    "source": "offline-deep"
   }
 }

@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <title>Ethiopian SE Exit Exam — Online Practice</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css?v=28" />
+</head>
+<body class="on-home">
+  <div id="app">
+    <section id="screen-home" class="screen active studio-screen">
+      <header class="studio-topbar">
+        <div class="studio-brand">
+          <span class="studio-logo" aria-hidden="true"></span>
+          <span class="studio-brand-text">Ethiopian SE Exit Exam Practice</span>
+        </div>
+      </header>
+
+      <main class="studio-main">
+        <h1 class="studio-page-title">Exams</h1>
+        <p class="studio-page-lead">Choose an exam set and practice under real 3-hour timed conditions. Clean, fast, and free.</p>
+
+        <div class="studio-toolbar">
+          <p id="exam-count-label" class="studio-count">Loading exams…</p>
+          <label class="studio-search-wrap">
+            <span class="visually-hidden">Search exams</span>
+            <input type="search" id="exam-search" class="studio-search" placeholder="Search exam…" autocomplete="off" />
+          </label>
+        </div>
+
+        <div id="exam-list" class="exam-grid" aria-label="Available exams"></div>
+        <p id="explain-status" class="studio-status">Checking…</p>
+      </main>
+
+      <footer class="studio-footer">
+        <p>Educational practice only — not affiliated with the Ministry of Education or any university.</p>
+      </footer>
+    </section>
+
+    <section id="screen-exam" class="screen exam-screen">
+      <header class="national-header">
+        <div class="national-header-left">
+          <button type="button" class="btn-icon-nav" id="btn-toggle-exam-nav" aria-label="Toggle question panel">☰</button>
+          <div class="national-brand">
+            <span class="national-brand-title" id="exam-title-bar">Exit Exam</span>
+            <span class="national-brand-sub" id="exam-subtitle-bar">Software Engineering</span>
+          </div>
+        </div>
+        <div class="national-timer-block">
+          <span class="timer-label">Time Remaining</span>
+          <span id="timer" class="timer">3:00:00</span>
+        </div>
+        <div class="national-header-right">
+          <span id="counter" class="header-q-counter">Q 1 / 100</span>
+          <button type="button" class="btn-header-flag" id="btn-flag" title="Flag for review">🚩 Flag</button>
+          <button type="button" class="btn-header-submit" id="btn-submit-exam">Submit Exam</button>
+        </div>
+      </header>
+
+      <div class="national-body">
+        <aside class="national-sidebar" id="exam-sidebar">
+          <div class="sidebar-head">
+            <h2>Question Panel</h2>
+            <span id="exam-nav-total" class="sidebar-total">0 Questions</span>
+          </div>
+          <div id="exam-progress-stats" class="progress-panel"></div>
+          <div class="nav-legend" id="exam-nav-legend">
+            <span><i class="dot dot-answered"></i> Answered</span>
+            <span><i class="dot dot-skipped"></i> Skipped</span>
+            <span><i class="dot dot-pending"></i> Not visited</span>
+          </div>
+          <div id="exam-question-nav" class="question-nav-grid" aria-label="Question navigation"></div>
+        </aside>
+        <div class="sidebar-backdrop" id="exam-sidebar-backdrop"></div>
+
+        <main class="national-main">
+          <div class="question-meta-row">
+            <span id="topic-badge" class="badge"></span>
+            <div class="progress-track exam-progress"><div id="bar"></div></div>
+          </div>
+          <p id="q-text" class="q-text exam-q-text"></p>
+          <div id="choices" class="choices"></div>
+          <footer class="exam-footer national-footer">
+            <button class="btn ghost" id="btn-prev">← Previous</button>
+            <button class="btn primary" id="btn-next-exam">Next →</button>
+          </footer>
+        </main>
+      </div>
+    </section>
+
+    <section id="screen-review" class="screen exam-screen review-screen">
+      <header class="national-header review-header">
+        <div class="national-header-left">
+          <button type="button" class="btn-icon-nav" id="btn-toggle-review-nav" aria-label="Toggle question panel">☰</button>
+          <div class="national-brand">
+            <span class="national-brand-title">Feedback Mode</span>
+            <span class="national-brand-sub" id="review-exam-title">Practice with explanations</span>
+          </div>
+        </div>
+        <div class="national-header-right">
+          <span id="review-counter" class="header-q-counter">Q 1 / 100</span>
+        </div>
+      </header>
+
+      <div class="national-body">
+        <aside class="national-sidebar" id="review-sidebar">
+          <div class="sidebar-head">
+            <h2>Question Panel</h2>
+            <span id="review-nav-total" class="sidebar-total">0 Questions</span>
+          </div>
+          <div id="review-progress-stats" class="progress-panel"></div>
+          <div class="nav-legend">
+            <span><i class="dot dot-correct"></i> Correct</span>
+            <span><i class="dot dot-wrong"></i> Incorrect</span>
+            <span><i class="dot dot-pending"></i> Not answered</span>
+          </div>
+          <div id="review-question-nav" class="question-nav-grid" aria-label="Question navigation"></div>
+        </aside>
+        <div class="sidebar-backdrop" id="review-sidebar-backdrop"></div>
+
+        <main class="national-main">
+          <div class="question-meta-row">
+            <span id="review-topic-badge" class="badge"></span>
+            <div class="progress-track exam-progress"><div id="review-bar"></div></div>
+          </div>
+          <p id="review-q-text" class="q-text exam-q-text"></p>
+          <div id="review-choices" class="choices"></div>
+
+          <div id="feedback" class="feedback hidden">
+            <div id="result-banner" class="result-banner"></div>
+            <div id="explain-loading" class="loading hidden">
+              <div class="spinner"></div>
+              <span>Loading detailed explanation…</span>
+            </div>
+            <div id="explain-body" class="hidden">
+              <div id="concept" class="concept"></div>
+              <div id="explanations" class="explanations"></div>
+              <p id="study-tip" class="study-tip"></p>
+            </div>
+          </div>
+
+          <footer class="exam-footer national-footer">
+            <button class="btn ghost" id="btn-prev-review">← Previous</button>
+            <button class="btn primary" id="btn-next-review-footer" disabled>Next →</button>
+          </footer>
+        </main>
+      </div>
+    </section>
+
+    <section id="screen-summary" class="screen studio-screen">
+      <header class="studio-topbar">
+        <div class="studio-brand">
+          <span class="studio-logo" aria-hidden="true"></span>
+          <span class="studio-brand-text">Ethiopian SE Exit Exam Practice</span>
+        </div>
+      </header>
+
+      <main class="studio-main summary-main">
+        <h1 class="studio-page-title">Results</h1>
+        <p class="studio-page-lead" id="final-text"></p>
+
+        <div class="card summary-hero-card">
+          <p class="eyebrow">Exam Complete</p>
+          <div class="big-score" id="final-score">0%</div>
+          <div id="summary-progress-stats" class="progress-panel summary-progress"></div>
+          <div class="nav-legend summary-legend">
+            <span><i class="dot dot-correct"></i> Correct</span>
+            <span><i class="dot dot-wrong"></i> Incorrect</span>
+            <span><i class="dot dot-skipped"></i> Skipped</span>
+          </div>
+          <div id="summary-question-nav" class="question-nav-grid summary-nav" aria-label="Results by question"></div>
+          <p class="summary-nav-hint">Tap a red or grey number to view that missed question and explanation.</p>
+
+          <div id="summary-missed-detail" class="summary-missed-detail hidden" aria-live="polite">
+            <div class="summary-missed-head">
+              <span id="summary-missed-label" class="badge"></span>
+              <button type="button" class="btn ghost summary-missed-close" id="btn-close-summary-detail">Close</button>
+            </div>
+            <p id="summary-missed-q-text" class="q-text exam-q-text"></p>
+            <div id="summary-missed-choices" class="choices"></div>
+            <div id="summary-missed-banner" class="result-banner"></div>
+            <div id="summary-missed-loading" class="loading hidden">
+              <div class="spinner"></div>
+              <span>Loading detailed explanation…</span>
+            </div>
+            <div id="summary-missed-explain-body" class="hidden">
+              <div id="summary-missed-concept" class="concept"></div>
+              <div id="summary-missed-explanations" class="explanations"></div>
+              <p id="summary-missed-study-tip" class="study-tip"></p>
+            </div>
+          </div>
+
+          <p id="summary-date" class="summary-date"></p>
+          <p id="summary-save-warn" class="summary-warn hidden"></p>
+        </div>
+
+        <div class="card">
+          <h2 class="summary-card-title">Score by Topic</h2>
+          <div id="topic-breakdown"></div>
+        </div>
+        <div class="card">
+          <h2 class="summary-card-title">Focus Here Next</h2>
+          <p class="card-hint">Weakest topics first — study the guides below before retaking.</p>
+          <div id="focus-areas"></div>
+        </div>
+        <div class="card">
+          <h2 class="summary-card-title">Questions You Missed</h2>
+          <div id="review-list"></div>
+        </div>
+
+        <div class="summary-actions">
+          <button class="btn primary" id="btn-review-answers">Review All Answers with Explanations</button>
+          <button class="btn ghost" id="btn-review-missed-only">Review Missed Only</button>
+          <button class="btn ghost" id="btn-back-home">Back to Home</button>
+        </div>
+      </main>
+
+      <footer class="studio-footer">
+        <p>Educational practice only — not affiliated with the Ministry of Education or any university.</p>
+      </footer>
+    </section>
+  </div>
+
+  <script src="js/app.js?v=35"></script>
+</body>
+</html>

@@ -415,7 +415,7 @@
     {
       "examNumber": 17,
       "id": 16,
-      "topic": "Web Development",
+      "topic": "Networking",
       "text": "Which one of the following Performance Optimization Techniques helps distribute content across global servers to reduce latency?",
       "options": [
         {
@@ -436,7 +436,7 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Web Development): Content Delivery Network"
+      "concept": "Key idea (Networking): Content Delivery Network"
     },
     {
       "examNumber": 18,
@@ -1637,7 +1637,7 @@
     {
       "examNumber": 66,
       "id": 63,
-      "topic": "Web Development",
+      "topic": "Database",
       "text": "question Prevvous page 2:56:55 Which one of the following is the purpose of AJAX in web development?",
       "options": [
         {
@@ -1658,7 +1658,7 @@
         }
       ],
       "answer": "C",
-      "concept": "Key idea (Web Development): To make asynchronous requests to the server and uvxiate the page dynamically"
+      "concept": "Key idea (Database): To make asynchronous requests to the server and uvxiate the page dynamically"
     },
     {
       "examNumber": 67,

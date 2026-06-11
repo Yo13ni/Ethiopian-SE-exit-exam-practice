@@ -21,7 +21,7 @@ TOPIC_RULES: list[tuple[str, str]] = [
     ("Data Structures", r"binary tree|quad.?tree|hash table|queue|complexity|time complexity|O\("),
     ("Database", r"SQL|foreign key|primary key|CASCADE|relation|schema|HOTEL|ROOM|view|participation|DISTINCT"),
     ("Networking", r"TCP|SSH|port|IPv4|OSI|application layer|encapsulation|switch|MAC|access list|OSPF|PPP|LLC|data link"),
-    ("Web Development", r"HTML|CSS|Javascript|JSON|form|opacity|border-radius|let\b|const\b"),
+    ("Web Development", r"HTML|CSS|Javascript|JSON|\bform\b|<form|opacity|border-radius|let\b|const\b"),
     ("Android", r"android|APK|Dalvik|activity|onCreate|layout|View|Fragment|mobile device"),
     ("Software Testing", r"testing|coverage|integration test|precision|recall|test report|decision coverage|verif"),
     ("Software Architecture", r"architectural|MVC|client server|notation|performance|robustness"),

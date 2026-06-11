@@ -86,4 +86,13 @@ MANUAL_OVERRIDES: dict[int, dict] = {
         ],
         "answer": "C",
     },
+    23: {"topic": "AI / ML"},
+    24: {"topic": "Software Testing"},
+    29: {"topic": "AI / ML"},
+    48: {"topic": "Security"},
+    67: {"topic": "Android"},
+    78: {"topic": "Software Architecture"},
+    79: {"topic": "AI / ML"},
+    82: {"topic": "Software Architecture"},
+    91: {"topic": "AI / ML"},
 }

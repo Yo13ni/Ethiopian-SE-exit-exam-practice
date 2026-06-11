@@ -907,7 +907,7 @@
     {
       "examNumber": 35,
       "id": 35,
-      "topic": "Web Development",
+      "topic": "Database",
       "text": "Which one of the following factors does not affectjoin performance",
       "options": [
         {
@@ -1089,7 +1089,7 @@
     {
       "examNumber": 42,
       "id": 42,
-      "topic": "Web Development",
+      "topic": "Security",
       "text": "A threat is:",
       "options": [
         {
@@ -1479,7 +1479,7 @@
     {
       "examNumber": 57,
       "id": 57,
-      "topic": "Web Development",
+      "topic": "Software Architecture",
       "text": "In the model-view-controller architectural style, the jab of a model component is to",
       "options": [
         {
@@ -1531,7 +1531,7 @@
     {
       "examNumber": 59,
       "id": 59,
-      "topic": "Web Development",
+      "topic": "Security",
       "text": "Palm scan, fingerprint scan, and iris scan are forms of",
       "options": [
         {
@@ -1583,7 +1583,7 @@
     {
       "examNumber": 61,
       "id": 61,
-      "topic": "Web Development",
+      "topic": "AI / ML",
       "text": "Search strategy that paves a way to order the choices so that the most promising are explored first",
       "options": [
         {
@@ -2363,7 +2363,7 @@
     {
       "examNumber": 91,
       "id": 91,
-      "topic": "Web Development",
+      "topic": "AI / ML",
       "text": "Which statement is the best characterization of knowledge representation",
       "options": [
         {

@@ -1973,7 +1973,7 @@
     {
       "examNumber": 76,
       "id": 76,
-      "topic": "Web Development",
+      "topic": "AI / ML",
       "text": "Fiag qüestion One of the fallowing statement is correct about Artificial",
       "options": [
         {
@@ -1994,7 +1994,7 @@
         }
       ],
       "answer": "D",
-      "concept": "Key idea (Web Development): It refers to the development of machines that can perform tasks that typically require human intelligence."
+      "concept": "Key idea (AI / ML): It refers to the development of machines that can perform tasks that typically require human intelligence."
     },
     {
       "examNumber": 77,

@@ -100,7 +100,7 @@
     {
       "examNumber": 4,
       "id": 4,
-      "topic": "Web Development",
+      "topic": "Data Structures",
       "text": "What is the maximum number of swaps that can be performed in the Selection Sort algorithm on n elements?",
       "options": [
         {
@@ -438,7 +438,7 @@
     {
       "examNumber": 17,
       "id": 17,
-      "topic": "Web Development",
+      "topic": "Project Management",
       "text": "Which IS the most impofiant feature ot spiral model? C)",
       "options": [
         {
@@ -1764,7 +1764,7 @@
     {
       "examNumber": 68,
       "id": 68,
-      "topic": "Web Development",
+      "topic": "AI / ML",
       "text": "What is the main disadvantage of uninformed search algorithms?",
       "options": [
         {
@@ -1894,7 +1894,7 @@
     {
       "examNumber": 73,
       "id": 73,
-      "topic": "Web Development",
+      "topic": "AI / ML",
       "text": "What is the main advantage of informed search algorithms?",
       "options": [
         {
@@ -1972,7 +1972,7 @@
     {
       "examNumber": 76,
       "id": 76,
-      "topic": "Web Development",
+      "topic": "AI / ML",
       "text": "What is the difference between Dijkstra's algorithm and Uniform Cost Search (UCS)?",
       "options": [
         {
@@ -2596,7 +2596,7 @@
     {
       "examNumber": 100,
       "id": 100,
-      "topic": "Web Development",
+      "topic": "AI / ML",
       "text": "Which of the following informed search algorithms guarantees optimality when searching for a solution, but has an exponential time complexity in the worst-case scenarioQ o o",
       "options": [
         {

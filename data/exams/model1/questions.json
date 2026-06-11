@@ -595,7 +595,7 @@
     {
       "examNumber": 23,
       "id": 23,
-      "topic": "Web Development",
+      "topic": "AI / ML",
       "text": "An Artificial Intelligence system is composed of:",
       "options": [
         {
@@ -616,12 +616,12 @@
         }
       ],
       "answer": "A",
-      "concept": "Key idea (Web Development): Agent and Environment"
+      "concept": "Key idea (AI / ML): Agent and Environment"
     },
     {
       "examNumber": 24,
       "id": 24,
-      "topic": "Web Development",
+      "topic": "Software Testing",
       "text": "Which of the following is true regarding integration testing?",
       "options": [
         {
@@ -642,7 +642,7 @@
         }
       ],
       "answer": "C",
-      "concept": "Key idea (Web Development): It proves the functioning of different software components when integrated together."
+      "concept": "Key idea (Software Testing): It proves the functioning of different software components when integrated together."
     },
     {
       "examNumber": 25,
@@ -751,7 +751,7 @@
     {
       "examNumber": 29,
       "id": 29,
-      "topic": "Web Development",
+      "topic": "AI / ML",
       "text": "What of the following describes informed search algorithms?",
       "options": [
         {
@@ -772,7 +772,7 @@
         }
       ],
       "answer": "D",
-      "concept": "Key idea (Web Development): They are complete"
+      "concept": "Key idea (AI / ML): They are complete"
     },
     {
       "examNumber": 30,
@@ -1245,7 +1245,7 @@
     {
       "examNumber": 48,
       "id": 48,
-      "topic": "Web Development",
+      "topic": "Security",
       "text": "Which of the following refers to unauthorized disclosure of information?",
       "options": [
         {
@@ -1266,7 +1266,7 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Web Development): Confidentiality"
+      "concept": "Key idea (Security): Confidentiality"
     },
     {
       "examNumber": 49,
@@ -1739,7 +1739,7 @@
     {
       "examNumber": 67,
       "id": 67,
-      "topic": "Web Development",
+      "topic": "Android",
       "text": "APK stands for:",
       "options": [
         {
@@ -1760,7 +1760,7 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Web Development): Android Package Kit"
+      "concept": "Key idea (Android): Android Package Kit"
     },
     {
       "examNumber": 68,
@@ -2025,7 +2025,7 @@
     {
       "examNumber": 78,
       "id": 78,
-      "topic": "Web Development",
+      "topic": "Software Architecture",
       "text": "Identify the one that does not affect architectural decision",
       "options": [
         {
@@ -2046,12 +2046,12 @@
         }
       ],
       "answer": "C",
-      "concept": "Key idea (Web Development): The way the data is stored"
+      "concept": "Key idea (Software Architecture): The way the data is stored"
     },
     {
       "examNumber": 79,
       "id": 79,
-      "topic": "Web Development",
+      "topic": "AI / ML",
       "text": "You fit a model too closely to the particularities of the training set and obtain a model that works well on the training set but works poorly on a new data. This scenario is known as:",
       "options": [
         {
@@ -2072,7 +2072,7 @@
         }
       ],
       "answer": "A",
-      "concept": "Key idea (Web Development): over fitting"
+      "concept": "Key idea (AI / ML): over fitting"
     },
     {
       "examNumber": 80,
@@ -2129,7 +2129,7 @@
     {
       "examNumber": 82,
       "id": 82,
-      "topic": "Web Development",
+      "topic": "Software Architecture",
       "text": "If performance is the critical requirement of your architecture, which architectural approach you apply while architecting your system?",
       "options": [
         {
@@ -2150,7 +2150,7 @@
         }
       ],
       "answer": "C",
-      "concept": "Key idea (Web Development): Localize critical operations"
+      "concept": "Key idea (Software Architecture): Localize critical operations"
     },
     {
       "examNumber": 83,
@@ -2363,7 +2363,7 @@
     {
       "examNumber": 91,
       "id": 91,
-      "topic": "Web Development",
+      "topic": "AI / ML",
       "text": "Which activity is not related to data preprocessing?",
       "options": [
         {
@@ -2384,7 +2384,7 @@
         }
       ],
       "answer": "C",
-      "concept": "Key idea (Web Development): Data optimization"
+      "concept": "Key idea (AI / ML): Data optimization"
     },
     {
       "examNumber": 92,

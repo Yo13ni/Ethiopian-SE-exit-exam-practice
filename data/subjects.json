@@ -3188,7 +3188,7 @@
     {
       "name": "Data Structures",
       "slug": "data-structures",
-      "count": 29,
+      "count": 30,
       "guide": "Analyze time complexity and linear vs non-linear structures.",
       "questions": [
         {
@@ -3499,6 +3499,33 @@
           ],
           "answer": "A",
           "concept": "Key idea (Data Structures): Merge Sort Bubble Sort"
+        },
+        {
+          "examId": "aau",
+          "examTitle": "AAU Model Exit Exam",
+          "examNumber": 4,
+          "topic": "Data Structures",
+          "text": "What is the maximum number of swaps that can be performed in the Selection Sort algorithm on n elements?",
+          "options": [
+            {
+              "key": "A",
+              "text": "n - 2"
+            },
+            {
+              "key": "B",
+              "text": "n - 1"
+            },
+            {
+              "key": "C",
+              "text": "n"
+            },
+            {
+              "key": "D",
+              "text": "n / 2"
+            }
+          ],
+          "answer": "B",
+          "concept": "Key idea (Data Structures): n - 1"
         },
         {
           "examId": "bdu",
@@ -3991,7 +4018,7 @@
     {
       "name": "Database",
       "slug": "database",
-      "count": 63,
+      "count": 65,
       "guide": "Practice normalization (1NF–3NF), SQL INSERT/FOREIGN KEY, and ER-to-relational mapping.",
       "questions": [
         {
@@ -4745,6 +4772,33 @@
           "concept": "Key idea (Database): To enforce referential integrity between related tables"
         },
         {
+          "examId": "2017",
+          "examTitle": "2017 Software Engineering Exit Exam",
+          "examNumber": 66,
+          "topic": "Database",
+          "text": "question Prevvous page 2:56:55 Which one of the following is the purpose of AJAX in web development?",
+          "options": [
+            {
+              "key": "A",
+              "text": "To handle server-side database interactions"
+            },
+            {
+              "key": "B",
+              "text": "To create static HTML pages"
+            },
+            {
+              "key": "C",
+              "text": "To make asynchronous requests to the server and uvxiate the page dynamically"
+            },
+            {
+              "key": "D",
+              "text": "To apply styles to HTML elements Next p"
+            }
+          ],
+          "answer": "C",
+          "concept": "Key idea (Database): To make asynchronous requests to the server and uvxiate the page dynamically"
+        },
+        {
           "examId": "aau",
           "examTitle": "AAU Model Exit Exam",
           "examNumber": 1,
@@ -5202,6 +5256,33 @@
           ],
           "answer": "A",
           "concept": "Key idea (Database): PHP is ane of the client-side scripting language, like JavaScript"
+        },
+        {
+          "examId": "bdu",
+          "examTitle": "BDU Model Exit Exam",
+          "examNumber": 35,
+          "topic": "Database",
+          "text": "Which one of the following factors does not affectjoin performance",
+          "options": [
+            {
+              "key": "A",
+              "text": "None of the above"
+            },
+            {
+              "key": "B",
+              "text": "Available buffer space"
+            },
+            {
+              "key": "C",
+              "text": "Choice of inner VS outer relation"
+            },
+            {
+              "key": "D",
+              "text": "Join selection factor"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (General): None of the above"
         },
         {
           "examId": "bdu",
@@ -5748,7 +5829,7 @@
     {
       "name": "Networking",
       "slug": "networking",
-      "count": 80,
+      "count": 81,
       "guide": "Review OSI model, subnetting, switches vs hubs, and security protocols.",
       "questions": [
         {
@@ -6690,6 +6771,33 @@
           ],
           "answer": "C",
           "concept": "Key idea (Networking): Package managers"
+        },
+        {
+          "examId": "2017",
+          "examTitle": "2017 Software Engineering Exit Exam",
+          "examNumber": 17,
+          "topic": "Networking",
+          "text": "Which one of the following Performance Optimization Techniques helps distribute content across global servers to reduce latency?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Load Balancing"
+            },
+            {
+              "key": "B",
+              "text": "Content Delivery Network"
+            },
+            {
+              "key": "C",
+              "text": "Lazy Loading"
+            },
+            {
+              "key": "D",
+              "text": "Caching"
+            }
+          ],
+          "answer": "B",
+          "concept": "Key idea (Networking): Content Delivery Network"
         },
         {
           "examId": "2017",
@@ -7992,7 +8100,7 @@
     {
       "name": "Web Development",
       "slug": "web-development",
-      "count": 72,
+      "count": 40,
       "guide": "Review HTML/CSS selectors, HTTP methods (GET/POST), and JavaScript fundamentals.",
       "questions": [
         {
@@ -8029,37 +8137,6 @@
         {
           "examId": "2015",
           "examTitle": "Exit Exam 2015 — Interactive Practice",
-          "examNumber": 10,
-          "topic": "Web Development",
-          "text": "Which of the following shows the five stages in Tuckman’s model of team development, in sequential order?",
-          "options": [
-            {
-              "key": "A",
-              "text": "forming, storming, performing, norming and adjourning",
-              "explanation": "Incorrect. forming, storming, performing, norming and adjourning — This option does not satisfy what the question is asking. The correct choice is D."
-            },
-            {
-              "key": "B",
-              "text": "norming ,forming, storming, performing and adjourning",
-              "explanation": "Incorrect. norming ,forming, storming, performing and adjourning — This option does not satisfy what the question is asking. The correct choice is D."
-            },
-            {
-              "key": "C",
-              "text": "storming, forming, norming, performing and adjourning",
-              "explanation": "Incorrect. storming, forming, norming, performing and adjourning — This option does not satisfy what the question is asking. The correct choice is D."
-            },
-            {
-              "key": "D",
-              "text": "forming, storming, norming, performing and adjourning",
-              "explanation": "Correct. forming, storming, norming, performing and adjourning — this directly answers the question. In Web / CSS / JS, this is the standard/principle being tested."
-            }
-          ],
-          "answer": "D",
-          "concept": "Key idea (Web / CSS / JS): forming, storming, norming, performing and adjourning"
-        },
-        {
-          "examId": "2015",
-          "examTitle": "Exit Exam 2015 — Interactive Practice",
           "examNumber": 22,
           "topic": "Web Development",
           "text": "An HTTP request message always contains_________?",
@@ -8087,130 +8164,6 @@
           ],
           "answer": "D",
           "concept": "Key idea (Web / CSS / JS): a request line and a header"
-        },
-        {
-          "examId": "2015",
-          "examTitle": "Exit Exam 2015 — Interactive Practice",
-          "examNumber": 23,
-          "topic": "Web Development",
-          "text": "Which of the following is refers to unauthorized disclosure of information?",
-          "options": [
-            {
-              "key": "A",
-              "text": "authorization",
-              "explanation": "Incorrect. authorization — Unauthorized disclosure violates confidentiality, not this property. The correct choice is D."
-            },
-            {
-              "key": "B",
-              "text": "authentication",
-              "explanation": "Incorrect. authentication — This option does not satisfy what the question is asking. The correct choice is D."
-            },
-            {
-              "key": "C",
-              "text": "integrity",
-              "explanation": "Incorrect. integrity — Unauthorized disclosure violates confidentiality, not this property. The correct choice is D."
-            },
-            {
-              "key": "D",
-              "text": "confidentiality",
-              "explanation": "Correct. confidentiality — this directly answers the question. In Web / CSS / JS, this is the standard/principle being tested."
-            }
-          ],
-          "answer": "D",
-          "concept": "Key idea (Web / CSS / JS): confidentiality"
-        },
-        {
-          "examId": "2015",
-          "examTitle": "Exit Exam 2015 — Interactive Practice",
-          "examNumber": 27,
-          "topic": "Web Development",
-          "text": "An informed search algorithm that provides exponential time complexity in the worst-case scenarios and guarantees optimality when searching a solution refers to:",
-          "options": [
-            {
-              "key": "A",
-              "text": "A* search",
-              "explanation": "Correct. A* search — this directly answers the question. In Web / CSS / JS, this is the standard/principle being tested."
-            },
-            {
-              "key": "B",
-              "text": "greedy best-first search",
-              "explanation": "Incorrect. greedy best-first search — This option does not satisfy what the question is asking. The correct choice is A."
-            },
-            {
-              "key": "C",
-              "text": "uniform cost search",
-              "explanation": "Incorrect. uniform cost search — This option does not satisfy what the question is asking. The correct choice is A."
-            },
-            {
-              "key": "D",
-              "text": "Iterative deepening A*search",
-              "explanation": "Incorrect. Iterative deepening A*search — This option does not satisfy what the question is asking. The correct choice is A."
-            }
-          ],
-          "answer": "A",
-          "concept": "Key idea (Web / CSS / JS): A* search"
-        },
-        {
-          "examId": "2015",
-          "examTitle": "Exit Exam 2015 — Interactive Practice",
-          "examNumber": 44,
-          "topic": "Web Development",
-          "text": "Which of the following is not true regarding algorithm development during problem solving?",
-          "options": [
-            {
-              "key": "A",
-              "text": "should be developed by considering the platforms on which it runs",
-              "explanation": "Incorrect. should be developed by considering the platforms on which it runs — This statement is generally true, but the question asks for the wrong/not case. The correct choice is D."
-            },
-            {
-              "key": "B",
-              "text": "Is step wise logical description of how to solve the problem",
-              "explanation": "Incorrect. Is step wise logical description of how to solve the problem — This statement is generally true, but the question asks for the wrong/not case. The correct choice is D."
-            },
-            {
-              "key": "C",
-              "text": "Is developing considering the details of the programming language",
-              "explanation": "Incorrect. Is developing considering the details of the programming language — This statement is generally true, but the question asks for the wrong/not case. The correct choice is D."
-            },
-            {
-              "key": "D",
-              "text": "Is equivalent to the programming language code",
-              "explanation": "Correct. Is equivalent to the programming language code — this directly answers the question. In Web / CSS / JS, this is the standard/principle being tested."
-            }
-          ],
-          "answer": "D",
-          "concept": "Key idea (Web / CSS / JS): Is equivalent to the programming language code"
-        },
-        {
-          "examId": "2015",
-          "examTitle": "Exit Exam 2015 — Interactive Practice",
-          "examNumber": 46,
-          "topic": "Web Development",
-          "text": "Which of the following is true regarding model development in machine learning?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Much focus should be given to test data than training data",
-              "explanation": "Incorrect. Much focus should be given to test data than training data — This option does not satisfy what the question is asking. The correct choice is B."
-            },
-            {
-              "key": "B",
-              "text": "Training with large dataset boosts model performance",
-              "explanation": "Correct. Training with large dataset boosts model performance — this directly answers the question. In Web / CSS / JS, this is the standard/principle being tested."
-            },
-            {
-              "key": "C",
-              "text": "Test set and Training set should have fifty-fifty overlap",
-              "explanation": "Incorrect. Test set and Training set should have fifty-fifty overlap — This option does not satisfy what the question is asking. The correct choice is B."
-            },
-            {
-              "key": "D",
-              "text": "proportion of data set for training should be less than the test set",
-              "explanation": "Incorrect. proportion of data set for training should be less than the test set — This option does not satisfy what the question is asking. The correct choice is B."
-            }
-          ],
-          "answer": "B",
-          "concept": "Key idea (Web / CSS / JS): Training with large dataset boosts model performance"
         },
         {
           "examId": "2015",
@@ -8306,99 +8259,6 @@
           "concept": "Key idea (Java / OOP): ."
         },
         {
-          "examId": "2015",
-          "examTitle": "Exit Exam 2015 — Interactive Practice",
-          "examNumber": 84,
-          "topic": "Web Development",
-          "text": "Which learning algorithm is usually applied to data that does not contain any label information, so we do not know what the right output should be?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Transfer learning",
-              "explanation": "Incorrect. Transfer learning — This statement is generally true, but the question asks for the wrong/not case. The correct choice is C."
-            },
-            {
-              "key": "B",
-              "text": "Supervised learning",
-              "explanation": "Incorrect. Supervised learning — This statement is generally true, but the question asks for the wrong/not case. The correct choice is C."
-            },
-            {
-              "key": "C",
-              "text": "Unsupervised learning",
-              "explanation": "Correct. Unsupervised learning — this directly answers the question. In Web / CSS / JS, this is the standard/principle being tested."
-            },
-            {
-              "key": "D",
-              "text": "Reinforcement learning",
-              "explanation": "Incorrect. Reinforcement learning — This statement is generally true, but the question asks for the wrong/not case. The correct choice is C."
-            }
-          ],
-          "answer": "C",
-          "concept": "Key idea (Web / CSS / JS): Unsupervised learning"
-        },
-        {
-          "examId": "2015",
-          "examTitle": "Exit Exam 2015 — Interactive Practice",
-          "examNumber": 88,
-          "topic": "Web Development",
-          "text": "One of the following statement is correct about Artificial Intelligence (AI)?",
-          "options": [
-            {
-              "key": "A",
-              "text": "It refers to the development of machine that can only perform physical tasks.",
-              "explanation": "Incorrect. It refers to the development of machine that can only perform physical tasks. — This option does not satisfy what the question is asking. The correct choice is D."
-            },
-            {
-              "key": "B",
-              "text": "It refers to the development of machine that can only perform simple, repetitive tasks.",
-              "explanation": "Incorrect. It refers to the development of machine that can only perform simple, repetitive tasks. — This option does not satisfy what the question is asking. The correct choice is D."
-            },
-            {
-              "key": "C",
-              "text": "It refers to the development of machine that can perform tasks only in a controlled laboratory setting.",
-              "explanation": "Incorrect. It refers to the development of machine that can perform tasks only in a controlled laboratory setting. — This option does not satisfy what the question is asking. The correct choice is D."
-            },
-            {
-              "key": "D",
-              "text": "It refers to the development of machine that can perform tasks that typically require human intelligence.",
-              "explanation": "Correct. It refers to the development of machine that can perform tasks that typically require human intelligence. — this directly answers the question. In Web / CSS / JS, this is the standard/principle being tested."
-            }
-          ],
-          "answer": "D",
-          "concept": "Key idea (Web / CSS / JS): It refers to the development of machine that can perform tasks that typically require human intelligence."
-        },
-        {
-          "examId": "2015",
-          "examTitle": "Exit Exam 2015 — Interactive Practice",
-          "examNumber": 92,
-          "topic": "Web Development",
-          "text": "Identify the design principle that does not apply to software system",
-          "options": [
-            {
-              "key": "A",
-              "text": "design should be traceable to the analysis model",
-              "explanation": "Incorrect. design should be traceable to the analysis model — This statement is generally true, but the question asks for the wrong/not case. The correct choice is D."
-            },
-            {
-              "key": "B",
-              "text": "design should be structured to accommodate change",
-              "explanation": "Incorrect. design should be structured to accommodate change — This statement is generally true, but the question asks for the wrong/not case. The correct choice is D."
-            },
-            {
-              "key": "C",
-              "text": "design should exhibit uniformity and integration",
-              "explanation": "Incorrect. design should exhibit uniformity and integration — This statement is generally true, but the question asks for the wrong/not case. The correct choice is D."
-            },
-            {
-              "key": "D",
-              "text": "design should be reinventing the wheel from scratch",
-              "explanation": "Correct. design should be reinventing the wheel from scratch — this directly answers the question. In Web / CSS / JS, this is the standard/principle being tested."
-            }
-          ],
-          "answer": "D",
-          "concept": "Key idea (Web / CSS / JS): design should be reinventing the wheel from scratch"
-        },
-        {
           "examId": "2016",
           "examTitle": "2016 Software Engineering Exit Exam",
           "examNumber": 2,
@@ -8455,33 +8315,6 @@
         {
           "examId": "2016",
           "examTitle": "2016 Software Engineering Exit Exam",
-          "examNumber": 76,
-          "topic": "Web Development",
-          "text": "Fiag qüestion One of the fallowing statement is correct about Artificial",
-          "options": [
-            {
-              "key": "A",
-              "text": "Intelligence (A)? It refers to the development of machines that can pet-form tasks only in -a controlled laboratory setting."
-            },
-            {
-              "key": "B",
-              "text": "It refers to the development of machines that can only perform simple, repetitive tasks."
-            },
-            {
-              "key": "C",
-              "text": "It refers to the development of machines that can only perform physical tasks."
-            },
-            {
-              "key": "D",
-              "text": "It refers to the development of machines that can perform tasks that typically require human intelligence."
-            }
-          ],
-          "answer": "D",
-          "concept": "Key idea (Web Development): It refers to the development of machines that can perform tasks that typically require human intelligence."
-        },
-        {
-          "examId": "2016",
-          "examTitle": "2016 Software Engineering Exit Exam",
           "examNumber": 82,
           "topic": "Web Development",
           "text": "Rot yet answered V' Default method while submitting a form is o a. d.",
@@ -8532,33 +8365,6 @@
           ],
           "answer": "A",
           "concept": "Key idea (Web Development): Get method"
-        },
-        {
-          "examId": "2017",
-          "examTitle": "2017 Software Engineering Exit Exam",
-          "examNumber": 17,
-          "topic": "Web Development",
-          "text": "Which one of the following Performance Optimization Techniques helps distribute content across global servers to reduce latency?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Load Balancing"
-            },
-            {
-              "key": "B",
-              "text": "Content Delivery Network"
-            },
-            {
-              "key": "C",
-              "text": "Lazy Loading"
-            },
-            {
-              "key": "D",
-              "text": "Caching"
-            }
-          ],
-          "answer": "B",
-          "concept": "Key idea (Web Development): Content Delivery Network"
         },
         {
           "examId": "2017",
@@ -8667,87 +8473,6 @@
           ],
           "answer": "C",
           "concept": "Key idea (Web Development): document.getElementById().innerHTML"
-        },
-        {
-          "examId": "2017",
-          "examTitle": "2017 Software Engineering Exit Exam",
-          "examNumber": 66,
-          "topic": "Web Development",
-          "text": "question Prevvous page 2:56:55 Which one of the following is the purpose of AJAX in web development?",
-          "options": [
-            {
-              "key": "A",
-              "text": "To handle server-side database interactions"
-            },
-            {
-              "key": "B",
-              "text": "To create static HTML pages"
-            },
-            {
-              "key": "C",
-              "text": "To make asynchronous requests to the server and uvxiate the page dynamically"
-            },
-            {
-              "key": "D",
-              "text": "To apply styles to HTML elements Next p"
-            }
-          ],
-          "answer": "C",
-          "concept": "Key idea (Web Development): To make asynchronous requests to the server and uvxiate the page dynamically"
-        },
-        {
-          "examId": "aau",
-          "examTitle": "AAU Model Exit Exam",
-          "examNumber": 4,
-          "topic": "Web Development",
-          "text": "What is the maximum number of swaps that can be performed in the Selection Sort algorithm on n elements?",
-          "options": [
-            {
-              "key": "A",
-              "text": "n - 2"
-            },
-            {
-              "key": "B",
-              "text": "n - 1"
-            },
-            {
-              "key": "C",
-              "text": "n"
-            },
-            {
-              "key": "D",
-              "text": "n / 2"
-            }
-          ],
-          "answer": "B",
-          "concept": "Key idea (Data Structures): n - 1"
-        },
-        {
-          "examId": "aau",
-          "examTitle": "AAU Model Exit Exam",
-          "examNumber": 17,
-          "topic": "Web Development",
-          "text": "Which IS the most impofiant feature ot spiral model? C)",
-          "options": [
-            {
-              "key": "A",
-              "text": "performance management o"
-            },
-            {
-              "key": "B",
-              "text": "efficiency management"
-            },
-            {
-              "key": "C",
-              "text": "risk management"
-            },
-            {
-              "key": "D",
-              "text": "Quality management"
-            }
-          ],
-          "answer": "C",
-          "concept": "Key idea (Security): risk management"
         },
         {
           "examId": "aau",
@@ -8860,87 +8585,6 @@
         {
           "examId": "aau",
           "examTitle": "AAU Model Exit Exam",
-          "examNumber": 68,
-          "topic": "Web Development",
-          "text": "What is the main disadvantage of uninformed search algorithms?",
-          "options": [
-            {
-              "key": "A",
-              "text": "They are not optimal"
-            },
-            {
-              "key": "B",
-              "text": "They are not consistent"
-            },
-            {
-              "key": "C",
-              "text": "They are not complete"
-            },
-            {
-              "key": "D",
-              "text": "They are not admissible"
-            }
-          ],
-          "answer": "C",
-          "concept": "Key idea (AI/ML): They are not complete"
-        },
-        {
-          "examId": "aau",
-          "examTitle": "AAU Model Exit Exam",
-          "examNumber": 73,
-          "topic": "Web Development",
-          "text": "What is the main advantage of informed search algorithms?",
-          "options": [
-            {
-              "key": "A",
-              "text": "They are admissible when the heuristic is admissible"
-            },
-            {
-              "key": "B",
-              "text": "They are always optimal without conditions"
-            },
-            {
-              "key": "C",
-              "text": "They are always complete in finite graphs"
-            },
-            {
-              "key": "D",
-              "text": "They never use heuristics"
-            }
-          ],
-          "answer": "A",
-          "concept": "Key idea (AI/ML): They are admissible when the heuristic is admissible"
-        },
-        {
-          "examId": "aau",
-          "examTitle": "AAU Model Exit Exam",
-          "examNumber": 76,
-          "topic": "Web Development",
-          "text": "What is the difference between Dijkstra's algorithm and Uniform Cost Search (UCS)?",
-          "options": [
-            {
-              "key": "A",
-              "text": "UCS is optimal but Dijkstra is not"
-            },
-            {
-              "key": "B",
-              "text": "They are essentially the same for non-negative edge costs"
-            },
-            {
-              "key": "C",
-              "text": "Dijkstra uses a queue while UCS does not"
-            },
-            {
-              "key": "D",
-              "text": "UCS uses a stack while Dijkstra uses a queue"
-            }
-          ],
-          "answer": "B",
-          "concept": "Key idea (AI/ML): They are essentially the same for non-negative edge costs"
-        },
-        {
-          "examId": "aau",
-          "examTitle": "AAU Model Exit Exam",
           "examNumber": 89,
           "topic": "Web Development",
           "text": "Which method is used to access HTML elements using JavaScript?",
@@ -8991,33 +8635,6 @@
           ],
           "answer": "A",
           "concept": "Key idea (Networking): Estimation by analogy"
-        },
-        {
-          "examId": "aau",
-          "examTitle": "AAU Model Exit Exam",
-          "examNumber": 100,
-          "topic": "Web Development",
-          "text": "Which of the following informed search algorithms guarantees optimality when searching for a solution, but has an exponential time complexity in the worst-case scenarioQ o o",
-          "options": [
-            {
-              "key": "A",
-              "text": "A* Search"
-            },
-            {
-              "key": "B",
-              "text": "Uniform Cost Search"
-            },
-            {
-              "key": "C",
-              "text": "Iterative Deepening Search"
-            },
-            {
-              "key": "D",
-              "text": "Greedy Best-First Search"
-            }
-          ],
-          "answer": "A",
-          "concept": "Key idea (AI/ML): A* Search"
         },
         {
           "examId": "bdu",
@@ -9184,141 +8801,6 @@
         {
           "examId": "bdu",
           "examTitle": "BDU Model Exit Exam",
-          "examNumber": 35,
-          "topic": "Web Development",
-          "text": "Which one of the following factors does not affectjoin performance",
-          "options": [
-            {
-              "key": "A",
-              "text": "None of the above"
-            },
-            {
-              "key": "B",
-              "text": "Available buffer space"
-            },
-            {
-              "key": "C",
-              "text": "Choice of inner VS outer relation"
-            },
-            {
-              "key": "D",
-              "text": "Join selection factor"
-            }
-          ],
-          "answer": "A",
-          "concept": "Key idea (General): None of the above"
-        },
-        {
-          "examId": "bdu",
-          "examTitle": "BDU Model Exit Exam",
-          "examNumber": 42,
-          "topic": "Web Development",
-          "text": "A threat is:",
-          "options": [
-            {
-              "key": "A",
-              "text": "All of the above"
-            },
-            {
-              "key": "B",
-              "text": "The potential danger to information or systems"
-            },
-            {
-              "key": "C",
-              "text": "Illegal access to electronic data"
-            },
-            {
-              "key": "D",
-              "text": "Flaws that weaken security of a system"
-            }
-          ],
-          "answer": "B",
-          "concept": "Key idea (Security): The potential danger to information or systems"
-        },
-        {
-          "examId": "bdu",
-          "examTitle": "BDU Model Exit Exam",
-          "examNumber": 57,
-          "topic": "Web Development",
-          "text": "In the model-view-controller architectural style, the jab of a model component is to",
-          "options": [
-            {
-              "key": "A",
-              "text": "Change the way a view responds to user input"
-            },
-            {
-              "key": "B",
-              "text": "Store information about the state of the program o"
-            },
-            {
-              "key": "C",
-              "text": "Present information to the user"
-            },
-            {
-              "key": "D",
-              "text": "Make requests of the server"
-            }
-          ],
-          "answer": "B",
-          "concept": "Key idea (General): Store information about the state of the program o"
-        },
-        {
-          "examId": "bdu",
-          "examTitle": "BDU Model Exit Exam",
-          "examNumber": 59,
-          "topic": "Web Development",
-          "text": "Palm scan, fingerprint scan, and iris scan are forms of",
-          "options": [
-            {
-              "key": "A",
-              "text": "Two-factor authenticatibn"
-            },
-            {
-              "key": "B",
-              "text": "Strong authentication"
-            },
-            {
-              "key": "C",
-              "text": "Biometric authentication"
-            },
-            {
-              "key": "D",
-              "text": "Single sign-on"
-            }
-          ],
-          "answer": "C",
-          "concept": "Key idea (Security): Biometric authentication"
-        },
-        {
-          "examId": "bdu",
-          "examTitle": "BDU Model Exit Exam",
-          "examNumber": 61,
-          "topic": "Web Development",
-          "text": "Search strategy that paves a way to order the choices so that the most promising are explored first",
-          "options": [
-            {
-              "key": "A",
-              "text": "Breadth First search"
-            },
-            {
-              "key": "B",
-              "text": "Uninformed search"
-            },
-            {
-              "key": "C",
-              "text": "Informed search"
-            },
-            {
-              "key": "D",
-              "text": "Blind search PR EVIOUS PAGE"
-            }
-          ],
-          "answer": "C",
-          "concept": "Key idea (General): Informed search"
-        },
-        {
-          "examId": "bdu",
-          "examTitle": "BDU Model Exit Exam",
           "examNumber": 62,
           "topic": "Web Development",
           "text": "Software requirement specification document should avoid discussing which one of the following",
@@ -9369,33 +8851,6 @@
           ],
           "answer": "B",
           "concept": "Key idea (Web Development): Channel partitioning protocol"
-        },
-        {
-          "examId": "bdu",
-          "examTitle": "BDU Model Exit Exam",
-          "examNumber": 91,
-          "topic": "Web Development",
-          "text": "Which statement is the best characterization of knowledge representation",
-          "options": [
-            {
-              "key": "A",
-              "text": "It describes methods and procedures for drawing conclusions on the basis af existing knowledge"
-            },
-            {
-              "key": "B",
-              "text": "It is concerned With methods and techniques for the storage of knowledge and information in a format that is suitable for treatment by computers"
-            },
-            {
-              "key": "C",
-              "text": "It relies on the storage of relations between individual items according to a fixed scheme applied to a large collection of elementary items"
-            },
-            {
-              "key": "D",
-              "text": "It requires a set of formal inference methods and clearly specified syntax and semantics sofeng-2015: Modem"
-            }
-          ],
-          "answer": "B",
-          "concept": "Key idea (General): It is concerned With methods and techniques for the storage of knowledge and information in a format that is suitable for treatment by computers"
         },
         {
           "examId": "model1",
@@ -9454,87 +8909,6 @@
         {
           "examId": "model1",
           "examTitle": "MoEE Software Engineering Model Exam 1",
-          "examNumber": 23,
-          "topic": "Web Development",
-          "text": "An Artificial Intelligence system is composed of:",
-          "options": [
-            {
-              "key": "A",
-              "text": "Agent and Environment"
-            },
-            {
-              "key": "B",
-              "text": "Data and Information"
-            },
-            {
-              "key": "C",
-              "text": "Device and Network"
-            },
-            {
-              "key": "D",
-              "text": "Technology and Evolution"
-            }
-          ],
-          "answer": "A",
-          "concept": "Key idea (Web Development): Agent and Environment"
-        },
-        {
-          "examId": "model1",
-          "examTitle": "MoEE Software Engineering Model Exam 1",
-          "examNumber": 24,
-          "topic": "Web Development",
-          "text": "Which of the following is true regarding integration testing?",
-          "options": [
-            {
-              "key": "A",
-              "text": "It uses test data that simulates ideal scenarios."
-            },
-            {
-              "key": "B",
-              "text": "It emphases on testing individual software components in isolation."
-            },
-            {
-              "key": "C",
-              "text": "It proves the functioning of different software components when integrated together."
-            },
-            {
-              "key": "D",
-              "text": "It is only performed after system testing is completed."
-            }
-          ],
-          "answer": "C",
-          "concept": "Key idea (Web Development): It proves the functioning of different software components when integrated together."
-        },
-        {
-          "examId": "model1",
-          "examTitle": "MoEE Software Engineering Model Exam 1",
-          "examNumber": 29,
-          "topic": "Web Development",
-          "text": "What of the following describes informed search algorithms?",
-          "options": [
-            {
-              "key": "A",
-              "text": "They are optimal"
-            },
-            {
-              "key": "B",
-              "text": "They are admissible"
-            },
-            {
-              "key": "C",
-              "text": "They are consistent"
-            },
-            {
-              "key": "D",
-              "text": "They are complete"
-            }
-          ],
-          "answer": "D",
-          "concept": "Key idea (Web Development): They are complete"
-        },
-        {
-          "examId": "model1",
-          "examTitle": "MoEE Software Engineering Model Exam 1",
           "examNumber": 46,
           "topic": "Web Development",
           "text": "Which CSS element is used to make rounded borders around elements?",
@@ -9562,60 +8936,6 @@
         {
           "examId": "model1",
           "examTitle": "MoEE Software Engineering Model Exam 1",
-          "examNumber": 48,
-          "topic": "Web Development",
-          "text": "Which of the following refers to unauthorized disclosure of information?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Integrity"
-            },
-            {
-              "key": "B",
-              "text": "Confidentiality"
-            },
-            {
-              "key": "C",
-              "text": "Authentication"
-            },
-            {
-              "key": "D",
-              "text": "Authorization"
-            }
-          ],
-          "answer": "B",
-          "concept": "Key idea (Web Development): Confidentiality"
-        },
-        {
-          "examId": "model1",
-          "examTitle": "MoEE Software Engineering Model Exam 1",
-          "examNumber": 67,
-          "topic": "Web Development",
-          "text": "APK stands for:",
-          "options": [
-            {
-              "key": "A",
-              "text": "Android Phone Kit"
-            },
-            {
-              "key": "B",
-              "text": "Android Package Kit"
-            },
-            {
-              "key": "C",
-              "text": "Android Page Kit"
-            },
-            {
-              "key": "D",
-              "text": "Android Platform Kit"
-            }
-          ],
-          "answer": "B",
-          "concept": "Key idea (Web Development): Android Package Kit"
-        },
-        {
-          "examId": "model1",
-          "examTitle": "MoEE Software Engineering Model Exam 1",
           "examNumber": 70,
           "topic": "Web Development",
           "text": "Action attribute in HTML forms specifies",
@@ -9639,114 +8959,6 @@
           ],
           "answer": "D",
           "concept": "Key idea (Web Development): Where to submit form"
-        },
-        {
-          "examId": "model1",
-          "examTitle": "MoEE Software Engineering Model Exam 1",
-          "examNumber": 78,
-          "topic": "Web Development",
-          "text": "Identify the one that does not affect architectural decision",
-          "options": [
-            {
-              "key": "A",
-              "text": "Architectural style to be used"
-            },
-            {
-              "key": "B",
-              "text": "Type of the application to be developed"
-            },
-            {
-              "key": "C",
-              "text": "The way the data is stored"
-            },
-            {
-              "key": "D",
-              "text": "Expected performance of the system"
-            }
-          ],
-          "answer": "C",
-          "concept": "Key idea (Web Development): The way the data is stored"
-        },
-        {
-          "examId": "model1",
-          "examTitle": "MoEE Software Engineering Model Exam 1",
-          "examNumber": 79,
-          "topic": "Web Development",
-          "text": "You fit a model too closely to the particularities of the training set and obtain a model that works well on the training set but works poorly on a new data. This scenario is known as:",
-          "options": [
-            {
-              "key": "A",
-              "text": "over fitting"
-            },
-            {
-              "key": "B",
-              "text": "sweet spot"
-            },
-            {
-              "key": "C",
-              "text": "under performing"
-            },
-            {
-              "key": "D",
-              "text": "under fitting"
-            }
-          ],
-          "answer": "A",
-          "concept": "Key idea (Web Development): over fitting"
-        },
-        {
-          "examId": "model1",
-          "examTitle": "MoEE Software Engineering Model Exam 1",
-          "examNumber": 82,
-          "topic": "Web Development",
-          "text": "If performance is the critical requirement of your architecture, which architectural approach you apply while architecting your system?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Increase number of component communication"
-            },
-            {
-              "key": "B",
-              "text": "Increase number of components"
-            },
-            {
-              "key": "C",
-              "text": "Localize critical operations"
-            },
-            {
-              "key": "D",
-              "text": "Distribute operations across network"
-            }
-          ],
-          "answer": "C",
-          "concept": "Key idea (Web Development): Localize critical operations"
-        },
-        {
-          "examId": "model1",
-          "examTitle": "MoEE Software Engineering Model Exam 1",
-          "examNumber": 91,
-          "topic": "Web Development",
-          "text": "Which activity is not related to data preprocessing?",
-          "options": [
-            {
-              "key": "A",
-              "text": "Data transformation"
-            },
-            {
-              "key": "B",
-              "text": "Data cleaning"
-            },
-            {
-              "key": "C",
-              "text": "Data optimization"
-            },
-            {
-              "key": "D",
-              "text": "Data reduction"
-            }
-          ],
-          "answer": "C",
-          "concept": "Key idea (Web Development): Data optimization"
         },
         {
           "examId": "moe2025",
@@ -9996,7 +9208,7 @@
     {
       "name": "Android",
       "slug": "android",
-      "count": 44,
+      "count": 45,
       "guide": "Review Activity lifecycle, Intent, Manifest, layout hierarchy, and APK.",
       "questions": [
         {
@@ -11056,6 +10268,33 @@
         {
           "examId": "model1",
           "examTitle": "MoEE Software Engineering Model Exam 1",
+          "examNumber": 67,
+          "topic": "Android",
+          "text": "APK stands for:",
+          "options": [
+            {
+              "key": "A",
+              "text": "Android Phone Kit"
+            },
+            {
+              "key": "B",
+              "text": "Android Package Kit"
+            },
+            {
+              "key": "C",
+              "text": "Android Page Kit"
+            },
+            {
+              "key": "D",
+              "text": "Android Platform Kit"
+            }
+          ],
+          "answer": "B",
+          "concept": "Key idea (Android): Android Package Kit"
+        },
+        {
+          "examId": "model1",
+          "examTitle": "MoEE Software Engineering Model Exam 1",
           "examNumber": 90,
           "topic": "Android",
           "text": "For which of the following Android is mainly developed?",
@@ -11220,7 +10459,7 @@
     {
       "name": "Software Testing",
       "slug": "software-testing",
-      "count": 40,
+      "count": 41,
       "guide": "Review test process, coverage criteria, and traceability rules.",
       "questions": [
         {
@@ -12010,6 +11249,33 @@
           ],
           "answer": "B",
           "concept": "Key idea (Software Testing): 6"
+        },
+        {
+          "examId": "model1",
+          "examTitle": "MoEE Software Engineering Model Exam 1",
+          "examNumber": 24,
+          "topic": "Software Testing",
+          "text": "Which of the following is true regarding integration testing?",
+          "options": [
+            {
+              "key": "A",
+              "text": "It uses test data that simulates ideal scenarios."
+            },
+            {
+              "key": "B",
+              "text": "It emphases on testing individual software components in isolation."
+            },
+            {
+              "key": "C",
+              "text": "It proves the functioning of different software components when integrated together."
+            },
+            {
+              "key": "D",
+              "text": "It is only performed after system testing is completed."
+            }
+          ],
+          "answer": "C",
+          "concept": "Key idea (Software Testing): It proves the functioning of different software components when integrated together."
         },
         {
           "examId": "model1",
@@ -14932,7 +14198,7 @@
     {
       "name": "Software Architecture",
       "slug": "software-architecture",
-      "count": 32,
+      "count": 35,
       "guide": "Study quality attributes, architectural patterns, and documentation purposes.",
       "questions": [
         {
@@ -15363,6 +14629,33 @@
         {
           "examId": "bdu",
           "examTitle": "BDU Model Exit Exam",
+          "examNumber": 57,
+          "topic": "Software Architecture",
+          "text": "In the model-view-controller architectural style, the jab of a model component is to",
+          "options": [
+            {
+              "key": "A",
+              "text": "Change the way a view responds to user input"
+            },
+            {
+              "key": "B",
+              "text": "Store information about the state of the program o"
+            },
+            {
+              "key": "C",
+              "text": "Present information to the user"
+            },
+            {
+              "key": "D",
+              "text": "Make requests of the server"
+            }
+          ],
+          "answer": "B",
+          "concept": "Key idea (General): Store information about the state of the program o"
+        },
+        {
+          "examId": "bdu",
+          "examTitle": "BDU Model Exit Exam",
           "examNumber": 60,
           "topic": "Software Architecture",
           "text": "Predicts future trends & behaviors, allowing business managers to make proactive,knowledge-driven decisions",
@@ -15652,6 +14945,33 @@
         {
           "examId": "model1",
           "examTitle": "MoEE Software Engineering Model Exam 1",
+          "examNumber": 78,
+          "topic": "Software Architecture",
+          "text": "Identify the one that does not affect architectural decision",
+          "options": [
+            {
+              "key": "A",
+              "text": "Architectural style to be used"
+            },
+            {
+              "key": "B",
+              "text": "Type of the application to be developed"
+            },
+            {
+              "key": "C",
+              "text": "The way the data is stored"
+            },
+            {
+              "key": "D",
+              "text": "Expected performance of the system"
+            }
+          ],
+          "answer": "C",
+          "concept": "Key idea (Software Architecture): The way the data is stored"
+        },
+        {
+          "examId": "model1",
+          "examTitle": "MoEE Software Engineering Model Exam 1",
           "examNumber": 80,
           "topic": "Software Architecture",
           "text": "For the software architecture to be easily understood by other design experts for later maintenance and scalability, there should be",
@@ -15675,6 +14995,33 @@
           ],
           "answer": "B",
           "concept": "Key idea (Software Architecture): Architectural notation and semantic description"
+        },
+        {
+          "examId": "model1",
+          "examTitle": "MoEE Software Engineering Model Exam 1",
+          "examNumber": 82,
+          "topic": "Software Architecture",
+          "text": "If performance is the critical requirement of your architecture, which architectural approach you apply while architecting your system?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Increase number of component communication"
+            },
+            {
+              "key": "B",
+              "text": "Increase number of components"
+            },
+            {
+              "key": "C",
+              "text": "Localize critical operations"
+            },
+            {
+              "key": "D",
+              "text": "Distribute operations across network"
+            }
+          ],
+          "answer": "C",
+          "concept": "Key idea (Software Architecture): Localize critical operations"
         },
         {
           "examId": "moe2025",
@@ -15816,9 +15163,40 @@
     {
       "name": "Project Management",
       "slug": "project-management",
-      "count": 48,
+      "count": 50,
       "guide": "Learn agile principles, Tuckman stages, ROI, and lifecycle models.",
       "questions": [
+        {
+          "examId": "2015",
+          "examTitle": "Exit Exam 2015 — Interactive Practice",
+          "examNumber": 10,
+          "topic": "Project Management",
+          "text": "Which of the following shows the five stages in Tuckman’s model of team development, in sequential order?",
+          "options": [
+            {
+              "key": "A",
+              "text": "forming, storming, performing, norming and adjourning",
+              "explanation": "Incorrect. forming, storming, performing, norming and adjourning — This option does not satisfy what the question is asking. The correct choice is D."
+            },
+            {
+              "key": "B",
+              "text": "norming ,forming, storming, performing and adjourning",
+              "explanation": "Incorrect. norming ,forming, storming, performing and adjourning — This option does not satisfy what the question is asking. The correct choice is D."
+            },
+            {
+              "key": "C",
+              "text": "storming, forming, norming, performing and adjourning",
+              "explanation": "Incorrect. storming, forming, norming, performing and adjourning — This option does not satisfy what the question is asking. The correct choice is D."
+            },
+            {
+              "key": "D",
+              "text": "forming, storming, norming, performing and adjourning",
+              "explanation": "Correct. forming, storming, norming, performing and adjourning — this directly answers the question. In Web / CSS / JS, this is the standard/principle being tested."
+            }
+          ],
+          "answer": "D",
+          "concept": "Key idea (Web / CSS / JS): forming, storming, norming, performing and adjourning"
+        },
         {
           "examId": "2015",
           "examTitle": "Exit Exam 2015 — Interactive Practice",
@@ -16289,6 +15667,33 @@
           ],
           "answer": "B",
           "concept": "Key idea (Project Management): Create a hierarchical breakdown of tasks based on project deliverables"
+        },
+        {
+          "examId": "aau",
+          "examTitle": "AAU Model Exit Exam",
+          "examNumber": 17,
+          "topic": "Project Management",
+          "text": "Which IS the most impofiant feature ot spiral model? C)",
+          "options": [
+            {
+              "key": "A",
+              "text": "performance management o"
+            },
+            {
+              "key": "B",
+              "text": "efficiency management"
+            },
+            {
+              "key": "C",
+              "text": "risk management"
+            },
+            {
+              "key": "D",
+              "text": "Quality management"
+            }
+          ],
+          "answer": "C",
+          "concept": "Key idea (Security): risk management"
         },
         {
           "examId": "aau",
@@ -17132,9 +16537,40 @@
     {
       "name": "AI / ML",
       "slug": "ai-ml",
-      "count": 37,
+      "count": 53,
       "guide": "Study search algorithms (A*, UCS), agent types, and data mining CRISP-DM phases.",
       "questions": [
+        {
+          "examId": "2015",
+          "examTitle": "Exit Exam 2015 — Interactive Practice",
+          "examNumber": 27,
+          "topic": "AI / ML",
+          "text": "An informed search algorithm that provides exponential time complexity in the worst-case scenarios and guarantees optimality when searching a solution refers to:",
+          "options": [
+            {
+              "key": "A",
+              "text": "A* search",
+              "explanation": "Correct. A* search — this directly answers the question. In Web / CSS / JS, this is the standard/principle being tested."
+            },
+            {
+              "key": "B",
+              "text": "greedy best-first search",
+              "explanation": "Incorrect. greedy best-first search — This option does not satisfy what the question is asking. The correct choice is A."
+            },
+            {
+              "key": "C",
+              "text": "uniform cost search",
+              "explanation": "Incorrect. uniform cost search — This option does not satisfy what the question is asking. The correct choice is A."
+            },
+            {
+              "key": "D",
+              "text": "Iterative deepening A*search",
+              "explanation": "Incorrect. Iterative deepening A*search — This option does not satisfy what the question is asking. The correct choice is A."
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Web / CSS / JS): A* search"
+        },
         {
           "examId": "2015",
           "examTitle": "Exit Exam 2015 — Interactive Practice",
@@ -17165,6 +16601,68 @@
           ],
           "answer": "A",
           "concept": "Key idea (Operating Systems): Model training, Model Testing, Model Evaluation, Model Deployment"
+        },
+        {
+          "examId": "2015",
+          "examTitle": "Exit Exam 2015 — Interactive Practice",
+          "examNumber": 44,
+          "topic": "AI / ML",
+          "text": "Which of the following is not true regarding algorithm development during problem solving?",
+          "options": [
+            {
+              "key": "A",
+              "text": "should be developed by considering the platforms on which it runs",
+              "explanation": "Incorrect. should be developed by considering the platforms on which it runs — This statement is generally true, but the question asks for the wrong/not case. The correct choice is D."
+            },
+            {
+              "key": "B",
+              "text": "Is step wise logical description of how to solve the problem",
+              "explanation": "Incorrect. Is step wise logical description of how to solve the problem — This statement is generally true, but the question asks for the wrong/not case. The correct choice is D."
+            },
+            {
+              "key": "C",
+              "text": "Is developing considering the details of the programming language",
+              "explanation": "Incorrect. Is developing considering the details of the programming language — This statement is generally true, but the question asks for the wrong/not case. The correct choice is D."
+            },
+            {
+              "key": "D",
+              "text": "Is equivalent to the programming language code",
+              "explanation": "Correct. Is equivalent to the programming language code — this directly answers the question. In Web / CSS / JS, this is the standard/principle being tested."
+            }
+          ],
+          "answer": "D",
+          "concept": "Key idea (Web / CSS / JS): Is equivalent to the programming language code"
+        },
+        {
+          "examId": "2015",
+          "examTitle": "Exit Exam 2015 — Interactive Practice",
+          "examNumber": 46,
+          "topic": "AI / ML",
+          "text": "Which of the following is true regarding model development in machine learning?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Much focus should be given to test data than training data",
+              "explanation": "Incorrect. Much focus should be given to test data than training data — This option does not satisfy what the question is asking. The correct choice is B."
+            },
+            {
+              "key": "B",
+              "text": "Training with large dataset boosts model performance",
+              "explanation": "Correct. Training with large dataset boosts model performance — this directly answers the question. In Web / CSS / JS, this is the standard/principle being tested."
+            },
+            {
+              "key": "C",
+              "text": "Test set and Training set should have fifty-fifty overlap",
+              "explanation": "Incorrect. Test set and Training set should have fifty-fifty overlap — This option does not satisfy what the question is asking. The correct choice is B."
+            },
+            {
+              "key": "D",
+              "text": "proportion of data set for training should be less than the test set",
+              "explanation": "Incorrect. proportion of data set for training should be less than the test set — This option does not satisfy what the question is asking. The correct choice is B."
+            }
+          ],
+          "answer": "B",
+          "concept": "Key idea (Web / CSS / JS): Training with large dataset boosts model performance"
         },
         {
           "examId": "2015",
@@ -17229,6 +16727,68 @@
           "concept": "Key idea (Operating Systems): Business understanding"
         },
         {
+          "examId": "2015",
+          "examTitle": "Exit Exam 2015 — Interactive Practice",
+          "examNumber": 84,
+          "topic": "AI / ML",
+          "text": "Which learning algorithm is usually applied to data that does not contain any label information, so we do not know what the right output should be?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Transfer learning",
+              "explanation": "Incorrect. Transfer learning — This statement is generally true, but the question asks for the wrong/not case. The correct choice is C."
+            },
+            {
+              "key": "B",
+              "text": "Supervised learning",
+              "explanation": "Incorrect. Supervised learning — This statement is generally true, but the question asks for the wrong/not case. The correct choice is C."
+            },
+            {
+              "key": "C",
+              "text": "Unsupervised learning",
+              "explanation": "Correct. Unsupervised learning — this directly answers the question. In Web / CSS / JS, this is the standard/principle being tested."
+            },
+            {
+              "key": "D",
+              "text": "Reinforcement learning",
+              "explanation": "Incorrect. Reinforcement learning — This statement is generally true, but the question asks for the wrong/not case. The correct choice is C."
+            }
+          ],
+          "answer": "C",
+          "concept": "Key idea (Web / CSS / JS): Unsupervised learning"
+        },
+        {
+          "examId": "2015",
+          "examTitle": "Exit Exam 2015 — Interactive Practice",
+          "examNumber": 88,
+          "topic": "AI / ML",
+          "text": "One of the following statement is correct about Artificial Intelligence (AI)?",
+          "options": [
+            {
+              "key": "A",
+              "text": "It refers to the development of machine that can only perform physical tasks.",
+              "explanation": "Incorrect. It refers to the development of machine that can only perform physical tasks. — This option does not satisfy what the question is asking. The correct choice is D."
+            },
+            {
+              "key": "B",
+              "text": "It refers to the development of machine that can only perform simple, repetitive tasks.",
+              "explanation": "Incorrect. It refers to the development of machine that can only perform simple, repetitive tasks. — This option does not satisfy what the question is asking. The correct choice is D."
+            },
+            {
+              "key": "C",
+              "text": "It refers to the development of machine that can perform tasks only in a controlled laboratory setting.",
+              "explanation": "Incorrect. It refers to the development of machine that can perform tasks only in a controlled laboratory setting. — This option does not satisfy what the question is asking. The correct choice is D."
+            },
+            {
+              "key": "D",
+              "text": "It refers to the development of machine that can perform tasks that typically require human intelligence.",
+              "explanation": "Correct. It refers to the development of machine that can perform tasks that typically require human intelligence. — this directly answers the question. In Web / CSS / JS, this is the standard/principle being tested."
+            }
+          ],
+          "answer": "D",
+          "concept": "Key idea (Web / CSS / JS): It refers to the development of machine that can perform tasks that typically require human intelligence."
+        },
+        {
           "examId": "2016",
           "examTitle": "2016 Software Engineering Exit Exam",
           "examNumber": 7,
@@ -17281,6 +16841,33 @@
           ],
           "answer": "A",
           "concept": "Key idea (AI / ML): Which big data analytics technique could this salesperson could employ? Association rule"
+        },
+        {
+          "examId": "2016",
+          "examTitle": "2016 Software Engineering Exit Exam",
+          "examNumber": 76,
+          "topic": "AI / ML",
+          "text": "Fiag qüestion One of the fallowing statement is correct about Artificial",
+          "options": [
+            {
+              "key": "A",
+              "text": "Intelligence (A)? It refers to the development of machines that can pet-form tasks only in -a controlled laboratory setting."
+            },
+            {
+              "key": "B",
+              "text": "It refers to the development of machines that can only perform simple, repetitive tasks."
+            },
+            {
+              "key": "C",
+              "text": "It refers to the development of machines that can only perform physical tasks."
+            },
+            {
+              "key": "D",
+              "text": "It refers to the development of machines that can perform tasks that typically require human intelligence."
+            }
+          ],
+          "answer": "D",
+          "concept": "Key idea (AI / ML): It refers to the development of machines that can perform tasks that typically require human intelligence."
         },
         {
           "examId": "2016",
@@ -17607,6 +17194,114 @@
           "concept": "Key idea (AI/ML): The quality of the solution found by local search algorithms depends heavily on the staffing point and the choice af the neighborhood functiam"
         },
         {
+          "examId": "aau",
+          "examTitle": "AAU Model Exit Exam",
+          "examNumber": 68,
+          "topic": "AI / ML",
+          "text": "What is the main disadvantage of uninformed search algorithms?",
+          "options": [
+            {
+              "key": "A",
+              "text": "They are not optimal"
+            },
+            {
+              "key": "B",
+              "text": "They are not consistent"
+            },
+            {
+              "key": "C",
+              "text": "They are not complete"
+            },
+            {
+              "key": "D",
+              "text": "They are not admissible"
+            }
+          ],
+          "answer": "C",
+          "concept": "Key idea (AI/ML): They are not complete"
+        },
+        {
+          "examId": "aau",
+          "examTitle": "AAU Model Exit Exam",
+          "examNumber": 73,
+          "topic": "AI / ML",
+          "text": "What is the main advantage of informed search algorithms?",
+          "options": [
+            {
+              "key": "A",
+              "text": "They are admissible when the heuristic is admissible"
+            },
+            {
+              "key": "B",
+              "text": "They are always optimal without conditions"
+            },
+            {
+              "key": "C",
+              "text": "They are always complete in finite graphs"
+            },
+            {
+              "key": "D",
+              "text": "They never use heuristics"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (AI/ML): They are admissible when the heuristic is admissible"
+        },
+        {
+          "examId": "aau",
+          "examTitle": "AAU Model Exit Exam",
+          "examNumber": 76,
+          "topic": "AI / ML",
+          "text": "What is the difference between Dijkstra's algorithm and Uniform Cost Search (UCS)?",
+          "options": [
+            {
+              "key": "A",
+              "text": "UCS is optimal but Dijkstra is not"
+            },
+            {
+              "key": "B",
+              "text": "They are essentially the same for non-negative edge costs"
+            },
+            {
+              "key": "C",
+              "text": "Dijkstra uses a queue while UCS does not"
+            },
+            {
+              "key": "D",
+              "text": "UCS uses a stack while Dijkstra uses a queue"
+            }
+          ],
+          "answer": "B",
+          "concept": "Key idea (AI/ML): They are essentially the same for non-negative edge costs"
+        },
+        {
+          "examId": "aau",
+          "examTitle": "AAU Model Exit Exam",
+          "examNumber": 100,
+          "topic": "AI / ML",
+          "text": "Which of the following informed search algorithms guarantees optimality when searching for a solution, but has an exponential time complexity in the worst-case scenarioQ o o",
+          "options": [
+            {
+              "key": "A",
+              "text": "A* Search"
+            },
+            {
+              "key": "B",
+              "text": "Uniform Cost Search"
+            },
+            {
+              "key": "C",
+              "text": "Iterative Deepening Search"
+            },
+            {
+              "key": "D",
+              "text": "Greedy Best-First Search"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (AI/ML): A* Search"
+        },
+        {
           "examId": "bdu",
           "examTitle": "BDU Model Exit Exam",
           "examNumber": 2,
@@ -17690,6 +17385,33 @@
         {
           "examId": "bdu",
           "examTitle": "BDU Model Exit Exam",
+          "examNumber": 61,
+          "topic": "AI / ML",
+          "text": "Search strategy that paves a way to order the choices so that the most promising are explored first",
+          "options": [
+            {
+              "key": "A",
+              "text": "Breadth First search"
+            },
+            {
+              "key": "B",
+              "text": "Uninformed search"
+            },
+            {
+              "key": "C",
+              "text": "Informed search"
+            },
+            {
+              "key": "D",
+              "text": "Blind search PR EVIOUS PAGE"
+            }
+          ],
+          "answer": "C",
+          "concept": "Key idea (General): Informed search"
+        },
+        {
+          "examId": "bdu",
+          "examTitle": "BDU Model Exit Exam",
           "examNumber": 88,
           "topic": "AI / ML",
           "text": "Which one of the following is a subject- oriented, integrated, time-variant, nonvolatile collection of data in support of management decisions",
@@ -17742,6 +17464,33 @@
           "concept": "Key idea (AI / ML): Greedy search"
         },
         {
+          "examId": "bdu",
+          "examTitle": "BDU Model Exit Exam",
+          "examNumber": 91,
+          "topic": "AI / ML",
+          "text": "Which statement is the best characterization of knowledge representation",
+          "options": [
+            {
+              "key": "A",
+              "text": "It describes methods and procedures for drawing conclusions on the basis af existing knowledge"
+            },
+            {
+              "key": "B",
+              "text": "It is concerned With methods and techniques for the storage of knowledge and information in a format that is suitable for treatment by computers"
+            },
+            {
+              "key": "C",
+              "text": "It relies on the storage of relations between individual items according to a fixed scheme applied to a large collection of elementary items"
+            },
+            {
+              "key": "D",
+              "text": "It requires a set of formal inference methods and clearly specified syntax and semantics sofeng-2015: Modem"
+            }
+          ],
+          "answer": "B",
+          "concept": "Key idea (General): It is concerned With methods and techniques for the storage of knowledge and information in a format that is suitable for treatment by computers"
+        },
+        {
           "examId": "model1",
           "examTitle": "MoEE Software Engineering Model Exam 1",
           "examNumber": 5,
@@ -17767,6 +17516,60 @@
           ],
           "answer": "A",
           "concept": "Key idea (AI / ML): Lasso"
+        },
+        {
+          "examId": "model1",
+          "examTitle": "MoEE Software Engineering Model Exam 1",
+          "examNumber": 23,
+          "topic": "AI / ML",
+          "text": "An Artificial Intelligence system is composed of:",
+          "options": [
+            {
+              "key": "A",
+              "text": "Agent and Environment"
+            },
+            {
+              "key": "B",
+              "text": "Data and Information"
+            },
+            {
+              "key": "C",
+              "text": "Device and Network"
+            },
+            {
+              "key": "D",
+              "text": "Technology and Evolution"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (AI / ML): Agent and Environment"
+        },
+        {
+          "examId": "model1",
+          "examTitle": "MoEE Software Engineering Model Exam 1",
+          "examNumber": 29,
+          "topic": "AI / ML",
+          "text": "What of the following describes informed search algorithms?",
+          "options": [
+            {
+              "key": "A",
+              "text": "They are optimal"
+            },
+            {
+              "key": "B",
+              "text": "They are admissible"
+            },
+            {
+              "key": "C",
+              "text": "They are consistent"
+            },
+            {
+              "key": "D",
+              "text": "They are complete"
+            }
+          ],
+          "answer": "D",
+          "concept": "Key idea (AI / ML): They are complete"
         },
         {
           "examId": "model1",
@@ -17875,6 +17678,60 @@
           ],
           "answer": "A",
           "concept": "Key idea (AI / ML): An agent perceives its environment through effectors."
+        },
+        {
+          "examId": "model1",
+          "examTitle": "MoEE Software Engineering Model Exam 1",
+          "examNumber": 79,
+          "topic": "AI / ML",
+          "text": "You fit a model too closely to the particularities of the training set and obtain a model that works well on the training set but works poorly on a new data. This scenario is known as:",
+          "options": [
+            {
+              "key": "A",
+              "text": "over fitting"
+            },
+            {
+              "key": "B",
+              "text": "sweet spot"
+            },
+            {
+              "key": "C",
+              "text": "under performing"
+            },
+            {
+              "key": "D",
+              "text": "under fitting"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (AI / ML): over fitting"
+        },
+        {
+          "examId": "model1",
+          "examTitle": "MoEE Software Engineering Model Exam 1",
+          "examNumber": 91,
+          "topic": "AI / ML",
+          "text": "Which activity is not related to data preprocessing?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Data transformation"
+            },
+            {
+              "key": "B",
+              "text": "Data cleaning"
+            },
+            {
+              "key": "C",
+              "text": "Data optimization"
+            },
+            {
+              "key": "D",
+              "text": "Data reduction"
+            }
+          ],
+          "answer": "C",
+          "concept": "Key idea (AI / ML): Data optimization"
         },
         {
           "examId": "moe2025",
@@ -18151,9 +18008,40 @@
     {
       "name": "Security",
       "slug": "security",
-      "count": 30,
+      "count": 35,
       "guide": "Focus on CIA triad, risk strategies, and network security controls.",
       "questions": [
+        {
+          "examId": "2015",
+          "examTitle": "Exit Exam 2015 — Interactive Practice",
+          "examNumber": 23,
+          "topic": "Security",
+          "text": "Which of the following is refers to unauthorized disclosure of information?",
+          "options": [
+            {
+              "key": "A",
+              "text": "authorization",
+              "explanation": "Incorrect. authorization — Unauthorized disclosure violates confidentiality, not this property. The correct choice is D."
+            },
+            {
+              "key": "B",
+              "text": "authentication",
+              "explanation": "Incorrect. authentication — This option does not satisfy what the question is asking. The correct choice is D."
+            },
+            {
+              "key": "C",
+              "text": "integrity",
+              "explanation": "Incorrect. integrity — Unauthorized disclosure violates confidentiality, not this property. The correct choice is D."
+            },
+            {
+              "key": "D",
+              "text": "confidentiality",
+              "explanation": "Correct. confidentiality — this directly answers the question. In Web / CSS / JS, this is the standard/principle being tested."
+            }
+          ],
+          "answer": "D",
+          "concept": "Key idea (Web / CSS / JS): confidentiality"
+        },
         {
           "examId": "2015",
           "examTitle": "Exit Exam 2015 — Interactive Practice",
@@ -18184,6 +18072,37 @@
           ],
           "answer": "B",
           "concept": "Key idea (Security): risk retention"
+        },
+        {
+          "examId": "2015",
+          "examTitle": "Exit Exam 2015 — Interactive Practice",
+          "examNumber": 92,
+          "topic": "Security",
+          "text": "Identify the design principle that does not apply to software system",
+          "options": [
+            {
+              "key": "A",
+              "text": "design should be traceable to the analysis model",
+              "explanation": "Incorrect. design should be traceable to the analysis model — This statement is generally true, but the question asks for the wrong/not case. The correct choice is D."
+            },
+            {
+              "key": "B",
+              "text": "design should be structured to accommodate change",
+              "explanation": "Incorrect. design should be structured to accommodate change — This statement is generally true, but the question asks for the wrong/not case. The correct choice is D."
+            },
+            {
+              "key": "C",
+              "text": "design should exhibit uniformity and integration",
+              "explanation": "Incorrect. design should exhibit uniformity and integration — This statement is generally true, but the question asks for the wrong/not case. The correct choice is D."
+            },
+            {
+              "key": "D",
+              "text": "design should be reinventing the wheel from scratch",
+              "explanation": "Correct. design should be reinventing the wheel from scratch — this directly answers the question. In Web / CSS / JS, this is the standard/principle being tested."
+            }
+          ],
+          "answer": "D",
+          "concept": "Key idea (Web / CSS / JS): design should be reinventing the wheel from scratch"
         },
         {
           "examId": "2016",
@@ -18728,6 +18647,33 @@
         {
           "examId": "bdu",
           "examTitle": "BDU Model Exit Exam",
+          "examNumber": 42,
+          "topic": "Security",
+          "text": "A threat is:",
+          "options": [
+            {
+              "key": "A",
+              "text": "All of the above"
+            },
+            {
+              "key": "B",
+              "text": "The potential danger to information or systems"
+            },
+            {
+              "key": "C",
+              "text": "Illegal access to electronic data"
+            },
+            {
+              "key": "D",
+              "text": "Flaws that weaken security of a system"
+            }
+          ],
+          "answer": "B",
+          "concept": "Key idea (Security): The potential danger to information or systems"
+        },
+        {
+          "examId": "bdu",
+          "examTitle": "BDU Model Exit Exam",
           "examNumber": 49,
           "topic": "Security",
           "text": "Decryption and encryption of data are the responsibility of which Layer",
@@ -18751,6 +18697,33 @@
           ],
           "answer": "A",
           "concept": "Key idea (Security): Presentation"
+        },
+        {
+          "examId": "bdu",
+          "examTitle": "BDU Model Exit Exam",
+          "examNumber": 59,
+          "topic": "Security",
+          "text": "Palm scan, fingerprint scan, and iris scan are forms of",
+          "options": [
+            {
+              "key": "A",
+              "text": "Two-factor authenticatibn"
+            },
+            {
+              "key": "B",
+              "text": "Strong authentication"
+            },
+            {
+              "key": "C",
+              "text": "Biometric authentication"
+            },
+            {
+              "key": "D",
+              "text": "Single sign-on"
+            }
+          ],
+          "answer": "C",
+          "concept": "Key idea (Security): Biometric authentication"
         },
         {
           "examId": "model1",
@@ -18778,6 +18751,33 @@
           ],
           "answer": "D",
           "concept": "Key idea (Security): Risk management"
+        },
+        {
+          "examId": "model1",
+          "examTitle": "MoEE Software Engineering Model Exam 1",
+          "examNumber": 48,
+          "topic": "Security",
+          "text": "Which of the following refers to unauthorized disclosure of information?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Integrity"
+            },
+            {
+              "key": "B",
+              "text": "Confidentiality"
+            },
+            {
+              "key": "C",
+              "text": "Authentication"
+            },
+            {
+              "key": "D",
+              "text": "Authorization"
+            }
+          ],
+          "answer": "B",
+          "concept": "Key idea (Security): Confidentiality"
         },
         {
           "examId": "model1",

@@ -23,7 +23,7 @@
     {
       "examNumber": 1,
       "id": 1,
-      "topic": "General",
+      "topic": "Data Structures",
       "text": "Which asymptotic notation is used to represent algorithm complexity in the worst possible set of inputs?",
       "options": [
         {
@@ -283,7 +283,7 @@
     {
       "examNumber": 11,
       "id": 11,
-      "topic": "General",
+      "topic": "C++",
       "text": "What will be the output of the following code with a reference parameter multiplying by 5?",
       "options": [
         {
@@ -335,7 +335,7 @@
     {
       "examNumber": 13,
       "id": 13,
-      "topic": "General",
+      "topic": "Data Structures",
       "text": "Which one of the following is true about array",
       "options": [
         {
@@ -356,12 +356,12 @@
         }
       ],
       "answer": "C",
-      "concept": "Key idea (General): It is illegal to refer an element of array outside of the array bounds"
+      "concept": "Key idea (Data Structures): It is illegal to refer an element of array outside of the array bounds"
     },
     {
       "examNumber": 14,
       "id": 14,
-      "topic": "General",
+      "topic": "Data Structures",
       "text": "Which one is true for accessing and processing of array elements",
       "options": [
         {
@@ -382,7 +382,7 @@
         }
       ],
       "answer": "C",
-      "concept": "Key idea (General): All . Arrayname[index];"
+      "concept": "Key idea (Data Structures): All . Arrayname[index];"
     },
     {
       "examNumber": 15,
@@ -491,7 +491,7 @@
     {
       "examNumber": 19,
       "id": 19,
-      "topic": "General",
+      "topic": "Java / OOP",
       "text": "Which is unique from the following given options",
       "options": [
         {
@@ -512,7 +512,7 @@
         }
       ],
       "answer": "A",
-      "concept": "Key idea (General): Overloading"
+      "concept": "Key idea (Java / OOP): Overloading"
     },
     {
       "examNumber": 20,
@@ -595,7 +595,7 @@
     {
       "examNumber": 23,
       "id": 23,
-      "topic": "General",
+      "topic": "Web Development",
       "text": "Text that, when clicked, sends you to another piece af text or location is called",
       "options": [
         {
@@ -616,7 +616,7 @@
         }
       ],
       "answer": "D",
-      "concept": "Key idea (General): Hypertext"
+      "concept": "Key idea (Web Development): Hypertext"
     },
     {
       "examNumber": 24,
@@ -881,7 +881,7 @@
     {
       "examNumber": 34,
       "id": 34,
-      "topic": "General",
+      "topic": "Database",
       "text": "Which of the following schedule is nat recoverable schedule",
       "options": [
         {
@@ -902,7 +902,7 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (General): schedule D:rl"
+      "concept": "Key idea (Database): schedule D:rl"
     },
     {
       "examNumber": 35,
@@ -985,7 +985,7 @@
     {
       "examNumber": 38,
       "id": 38,
-      "topic": "General",
+      "topic": "Database",
       "text": "Concurrency problem that occurs when ane transaction is allowed to see the intermediate results of another transaction before it has committed, which will be failed for some reason is called",
       "options": [
         {
@@ -1006,7 +1006,7 @@
         }
       ],
       "answer": "C",
-      "concept": "Key idea (General): Oilty Read Problem"
+      "concept": "Key idea (Database): Oilty Read Problem"
     },
     {
       "examNumber": 39,
@@ -1167,7 +1167,7 @@
     {
       "examNumber": 45,
       "id": 45,
-      "topic": "General",
+      "topic": "AI / ML",
       "text": "Which option best defines Artificial Intelligence?",
       "options": [
         {
@@ -1219,7 +1219,7 @@
     {
       "examNumber": 47,
       "id": 47,
-      "topic": "General",
+      "topic": "Software Testing",
       "text": "Boundary value analysis belong to",
       "options": [
         {
@@ -1240,7 +1240,7 @@
         }
       ],
       "answer": "C",
-      "concept": "Key idea (General): Black Box Testing"
+      "concept": "Key idea (Software Testing): Black Box Testing"
     },
     {
       "examNumber": 48,
@@ -1349,7 +1349,7 @@
     {
       "examNumber": 52,
       "id": 52,
-      "topic": "General",
+      "topic": "Software Testing",
       "text": "Generally, which testing is used when shrink- wrapped software products are being established and part of an integration testing",
       "options": [
         {
@@ -1453,7 +1453,7 @@
     {
       "examNumber": 56,
       "id": 56,
-      "topic": "General",
+      "topic": "AI / ML",
       "text": "In Big Data environments, Velocity refers",
       "options": [
         {
@@ -1474,7 +1474,7 @@
         }
       ],
       "answer": "C",
-      "concept": "Key idea (General): Data can arrive at fast speed"
+      "concept": "Key idea (AI / ML): Data can arrive at fast speed"
     },
     {
       "examNumber": 57,
@@ -1635,7 +1635,7 @@
     {
       "examNumber": 63,
       "id": 63,
-      "topic": "General",
+      "topic": "Security",
       "text": "The absence or weakness af a safeguard that could be exploited is called",
       "options": [
         {
@@ -1656,7 +1656,7 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (General): Vulnerability"
+      "concept": "Key idea (Security): Vulnerability"
     },
     {
       "examNumber": 64,
@@ -1739,7 +1739,7 @@
     {
       "examNumber": 67,
       "id": 67,
-      "topic": "General",
+      "topic": "Software Engineering",
       "text": "What does RAD stand for",
       "options": [
         {
@@ -1760,7 +1760,7 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (General): Rapid Application Development"
+      "concept": "Key idea (Software Engineering): Rapid Application Development"
     },
     {
       "examNumber": 68,
@@ -1947,7 +1947,7 @@
     {
       "examNumber": 75,
       "id": 75,
-      "topic": "General",
+      "topic": "AI / ML",
       "text": "Which group of the following environment is more complex than the other for the agent to act appropriately",
       "options": [
         {
@@ -1968,12 +1968,12 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (General): Partially Observable, Episodic, non- deterministic, dynamic, continuous o"
+      "concept": "Key idea (AI / ML): Partially Observable, Episodic, non- deterministic, dynamic, continuous o"
     },
     {
       "examNumber": 76,
       "id": 76,
-      "topic": "General",
+      "topic": "Software Testing",
       "text": "Which of the below statement is true about the Equivalence Partitioning technique",
       "options": [
         {
@@ -1994,7 +1994,7 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (General): A black box testing technique appropriate to all levels of testing."
+      "concept": "Key idea (Software Testing): A black box testing technique appropriate to all levels of testing."
     },
     {
       "examNumber": 77,
@@ -2025,7 +2025,7 @@
     {
       "examNumber": 78,
       "id": 78,
-      "topic": "General",
+      "topic": "AI / ML",
       "text": "Which of the following are Benefits of Big Data Processing",
       "options": [
         {
@@ -2046,7 +2046,7 @@
         }
       ],
       "answer": "C",
-      "concept": "Key idea (General): All of the mentioned above"
+      "concept": "Key idea (AI / ML): All of the mentioned above"
     },
     {
       "examNumber": 79,
@@ -2103,7 +2103,7 @@
     {
       "examNumber": 81,
       "id": 81,
-      "topic": "General",
+      "topic": "Software Engineering",
       "text": "Which of the following is not a structural diagrams",
       "options": [
         {
@@ -2124,7 +2124,7 @@
         }
       ],
       "answer": "D",
-      "concept": "Key idea (General): Llse case diagram"
+      "concept": "Key idea (Software Engineering): Llse case diagram"
     },
     {
       "examNumber": 82,
@@ -2181,7 +2181,7 @@
     {
       "examNumber": 84,
       "id": 84,
-      "topic": "General",
+      "topic": "Software Engineering",
       "text": "Which of the following is related to the overall functionality of the delivered software",
       "options": [
         {
@@ -2202,7 +2202,7 @@
         }
       ],
       "answer": "D",
-      "concept": "Key idea (General): Function-related metrics"
+      "concept": "Key idea (Software Engineering): Function-related metrics"
     },
     {
       "examNumber": 85,
@@ -2311,7 +2311,7 @@
     {
       "examNumber": 89,
       "id": 89,
-      "topic": "General",
+      "topic": "Software Engineering",
       "text": "Which one of the following structures is odd",
       "options": [
         {
@@ -2332,7 +2332,7 @@
         }
       ],
       "answer": "C",
-      "concept": "Key idea (General): Client server"
+      "concept": "Key idea (Software Engineering): Client server"
     },
     {
       "examNumber": 90,
@@ -2467,7 +2467,7 @@
     {
       "examNumber": 95,
       "id": 95,
-      "topic": "General",
+      "topic": "C++",
       "text": "Which are not correct primitive system data types",
       "options": [
         {
@@ -2488,12 +2488,12 @@
         }
       ],
       "answer": "D",
-      "concept": "Key idea (General): ssize t"
+      "concept": "Key idea (C++): ssize t"
     },
     {
       "examNumber": 96,
       "id": 96,
-      "topic": "General",
+      "topic": "Operating Systems",
       "text": "How to use [seek function",
       "options": [
         {
@@ -2514,7 +2514,7 @@
         }
       ],
       "answer": "A",
-      "concept": "Key idea (General): off_t Iseek(int fdr offset int"
+      "concept": "Key idea (Operating Systems): off_t Iseek(int fdr offset int"
     },
     {
       "examNumber": 97,
@@ -2545,7 +2545,7 @@
     {
       "examNumber": 98,
       "id": 98,
-      "topic": "General",
+      "topic": "Operating Systems",
       "text": "Which is not true about the times 0 system call which retrieves the process time af the running process and its children, in clock ticks? Struct tms{ l; clock-t times (struct tms*bu0;",
       "options": [
         {
@@ -2566,12 +2566,12 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (General): clock_t tms_xtrtime; //user time consumed by children"
+      "concept": "Key idea (Operating Systems): clock_t tms_xtrtime; //user time consumed by children"
     },
     {
       "examNumber": 99,
       "id": 99,
-      "topic": "General",
+      "topic": "C++",
       "text": "If the start-up routine were coded in C the call to main could look like",
       "options": [
         {
@@ -2592,7 +2592,7 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (General): main(exit(argc, argv));"
+      "concept": "Key idea (C++): main(exit(argc, argv));"
     }
   ]
 }

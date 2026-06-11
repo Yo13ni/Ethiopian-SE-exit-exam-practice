@@ -21,6 +21,9 @@ Thumbs.db
 # Logs
 *.log
 
+# Vercel build output (generated from data/ by scripts/vercel_build.py)
+public/data/
+
 # Local OCR / build artifacts (optional — keep if not needed in repo)
 # data/exams/*/raw_*.json
 # data/exams/*/preview_*.json

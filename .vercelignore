@@ -1,0 +1,8 @@
+# OCR / PDF artifacts — not needed at runtime
+data/exams/**/exitexam_pages
+data/exams/**/pdf_samples
+**/*.png
+
+# Docs and git metadata
+docs/
+.git/

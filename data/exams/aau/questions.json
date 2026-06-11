@@ -490,7 +490,7 @@
     {
       "examNumber": 19,
       "id": 19,
-      "topic": "General",
+      "topic": "Data Structures",
       "text": "An algorithm that calls itself directly or indirectly is known as:",
       "options": [
         {
@@ -511,7 +511,7 @@
         }
       ],
       "answer": "A",
-      "concept": "Key idea (General): Recursion"
+      "concept": "Key idea (Data Structures): Recursion"
     },
     {
       "examNumber": 20,
@@ -568,7 +568,7 @@
     {
       "examNumber": 22,
       "id": 22,
-      "topic": "General",
+      "topic": "Networking",
       "text": "The ______ must be looked up in order to deliver a message to the appropriate application software running on a host.",
       "options": [
         {
@@ -594,7 +594,7 @@
     {
       "examNumber": 23,
       "id": 23,
-      "topic": "General",
+      "topic": "Operating Systems",
       "text": "What is inter-process communication (IPC)?",
       "options": [
         {
@@ -1192,7 +1192,7 @@
     {
       "examNumber": 46,
       "id": 46,
-      "topic": "General",
+      "topic": "AI / ML",
       "text": "Ilhich of the following is not the contribution of the big data analysis",
       "options": [
         {
@@ -1213,7 +1213,7 @@
         }
       ],
       "answer": "D",
-      "concept": "Key idea (General): None"
+      "concept": "Key idea (AI / ML): None"
     },
     {
       "examNumber": 47,
@@ -2024,7 +2024,7 @@
     {
       "examNumber": 78,
       "id": 78,
-      "topic": "General",
+      "topic": "Security",
       "text": "A public-key cryptosystem is useful because:",
       "options": [
         {
@@ -2045,7 +2045,7 @@
         }
       ],
       "answer": "A",
-      "concept": "Key idea (General): It uses two different keys (public and private)"
+      "concept": "Key idea (Security): It uses two different keys (public and private)"
     },
     {
       "examNumber": 79,
@@ -2076,7 +2076,7 @@
     {
       "examNumber": 80,
       "id": 80,
-      "topic": "General",
+      "topic": "AI / ML",
       "text": "What are some benefits of big data applications?",
       "options": [
         {
@@ -2097,7 +2097,7 @@
         }
       ],
       "answer": "D",
-      "concept": "Key idea (General): All of the above"
+      "concept": "Key idea (AI / ML): All of the above"
     },
     {
       "examNumber": 81,
@@ -2466,7 +2466,7 @@
     {
       "examNumber": 95,
       "id": 95,
-      "topic": "General",
+      "topic": "Operating Systems",
       "text": "The CPU fetches the next instruction from memory according to the value of the:",
       "options": [
         {
@@ -2492,7 +2492,7 @@
     {
       "examNumber": 96,
       "id": 96,
-      "topic": "General",
+      "topic": "AI / ML",
       "text": "What is the first step in the data-driven decision-making process?",
       "options": [
         {
@@ -2570,7 +2570,7 @@
     {
       "examNumber": 99,
       "id": 99,
-      "topic": "General",
+      "topic": "Operating Systems",
       "text": "Which is a FALSE assumption when solving the critical-region problem to avoid race conditions?",
       "options": [
         {

@@ -1,0 +1,816 @@
+[
+  {
+    "examNumber": 1,
+    "page": 1,
+    "text": "Question Notyet answerd Which of the following is wrong regarding interface? Interface abstract methods are accessed using interface instances 0",
+    "options": [
+      {
+        "key": "B",
+        "text": "Like a class, an interface is & reference data type Interface includes abstract methods One class can implement multiple interfaces Marked out of 1,00 Flag = question"
+      }
+    ]
+  },
+  {
+    "examNumber": 2,
+    "page": 2,
+    "text": "",
+    "options": []
+  },
+  {
+    "examNumber": 3,
+    "page": 3,
+    "text": "Question 3 Notyet answered The process that generates activities such as project schedule; cost estimations and work breakdown structures is described a5: Project Executing",
+    "options": [
+      {
+        "key": "B",
+        "text": "Project Initiating Project Closing Project Planning Marked outof 1C0 Fag question"
+      }
+    ]
+  },
+  {
+    "examNumber": 4,
+    "page": 4,
+    "text": "The following UML design shows Student class Assume that the attributes have declared a5 private and the methods a5 public The get methods retum the value of the attributes and the calculateAgel returns the Student age. Which of the following would not raise an error when you run this program? Student hname : String kdepartment : String phone : String Jge : int [Student(String, String; String, int) [SetDept(String) ggetNameO : String pgerDepto : String IgetYearOfBirtho : int kolculateAgeO:int Student st1 =new Student (\"John' 'CS\" \"0913222222' ,\"25\"};",
+    "options": [
+      {
+        "key": "B",
+        "text": "Student st1 =new Student (\"John' SE\" ,\"0913222222\",20}; st1 Student = new Student (\" John' \"CS\" ,\" 02085332455\", 23}; Student st1 new Student (\"John' \"T \"2000\"};"
+      }
+    ]
+  },
+  {
+    "examNumber": 5,
+    "page": 5,
+    "text": "",
+    "options": []
+  },
+  {
+    "examNumber": 6,
+    "page": 6,
+    "text": "",
+    "options": [
+      {
+        "key": "D",
+        "text": "766"
+      }
+    ]
+  },
+  {
+    "examNumber": 7,
+    "page": 7,
+    "text": "Time left 2.2: Question An informed search algorithm that provides exponential time complexity in the worst-case scenario and guarantees optimality when searching a solution refers to: Notye: answered Marked out of 1,C0 Iterative Deepening A Search Greedy Best-First Search Uniform Cost Search Search Fiag question",
+    "options": []
+  },
+  {
+    "examNumber": 8,
+    "page": 8,
+    "text": "",
+    "options": []
+  },
+  {
+    "examNumber": 9,
+    "page": 9,
+    "text": "",
+    "options": []
+  },
+  {
+    "examNumber": 10,
+    "page": 10,
+    "text": "",
+    "options": [
+      {
+        "key": "D",
+        "text": "Customer collaboration over contract negotiation"
+      }
+    ]
+  },
+  {
+    "examNumber": 11,
+    "page": 11,
+    "text": "Question 11 Not ye answered What we use to pass the data between activities in Android? 0 a Broadcast receiver 0",
+    "options": [
+      {
+        "key": "B",
+        "text": "PostgreSQL Database Marked out of 1C0 C Intent Fiag question Content Provider"
+      }
+    ]
+  },
+  {
+    "examNumber": 12,
+    "page": 12,
+    "text": "",
+    "options": []
+  },
+  {
+    "examNumber": 13,
+    "page": 13,
+    "text": "Question 13 Notyet ans ered When a process is in a \"Blocked\" state waiting for some Input-Output services and afterthe service is completed, it will goes to a state known &5 0 Terminated Suspended Ready Running Marked out of 1,C0 Flag questicn",
+    "options": []
+  },
+  {
+    "examNumber": 14,
+    "page": 14,
+    "text": "",
+    "options": []
+  },
+  {
+    "examNumber": 15,
+    "page": 15,
+    "text": "",
+    "options": []
+  },
+  {
+    "examNumber": 16,
+    "page": 16,
+    "text": "public abtract class Invoice implements Payablef public double getPaymentAmount O{ Tetumn getQuantity0 * getPricePerltemo; public class Invoice implements Payable{ public double getPaymentAmount 0{ return getQuantity0 * getPricePerltemO; Funtsh allempl 0 < public class Invoice impl ements Payablel public getPayment-mount 0( retum gerQuantityl) getPricePerltemo;",
+    "options": []
+  },
+  {
+    "examNumber": 17,
+    "page": 17,
+    "text": "0 d public class Invoice extends Payable{ public double getPaymentAmount O{ return getQuantityo getPricePerltem;",
+    "options": []
+  },
+  {
+    "examNumber": 17,
+    "page": 18,
+    "text": "Question 17 Not ye: answered A firewall is used in a system connected to a wide area network to Stop unauthorized access by hackers 0 b Scanning for viruses in various files Avoid spreading of fire in the network",
+    "options": [
+      {
+        "key": "D",
+        "text": "Fire spreading via network through cables Marked out 0f 1C0 Fiag question"
+      }
+    ]
+  },
+  {
+    "examNumber": 18,
+    "page": 19,
+    "text": "",
+    "options": []
+  },
+  {
+    "examNumber": 19,
+    "page": 20,
+    "text": "d Browser",
+    "options": []
+  },
+  {
+    "examNumber": 20,
+    "page": 21,
+    "text": "",
+    "options": []
+  },
+  {
+    "examNumber": 21,
+    "page": 22,
+    "text": "",
+    "options": [
+      {
+        "key": "A",
+        "text": "(AC)"
+      },
+      {
+        "key": "B",
+        "text": "(DA) (A,B)"
+      },
+      {
+        "key": "D",
+        "text": "(C,B)"
+      }
+    ]
+  },
+  {
+    "examNumber": 22,
+    "page": 23,
+    "text": "",
+    "options": []
+  },
+  {
+    "examNumber": 23,
+    "page": 24,
+    "text": "for (nt k = O;k < j;k--) printf \" 0 a 0 (n5) 0",
+    "options": [
+      {
+        "key": "B",
+        "text": "0 (n\") 0( nlogn) 0"
+      },
+      {
+        "key": "D",
+        "text": "0 (n?)"
+      }
+    ]
+  },
+  {
+    "examNumber": 24,
+    "page": 25,
+    "text": "Question 24 Notye: answered Which one of the following statements is wrong regarding try_.catch construct? 0 a The execution control is moved to catch block after exception occur in try block 0",
+    "options": [
+      {
+        "key": "B",
+        "text": "When exception occurs, the execution of try block is interrupted The catch block is executed once regardless of exceptions in try block The catch block is used to handle exceptions that occur in try block Marked ouf of 1,C0 17 Flag - question"
+      }
+    ]
+  },
+  {
+    "examNumber": 26,
+    "page": 26,
+    "text": "Srr Engicgering Zolo Mocel Bxam (03g: 25 0\" I00) - Gopgta Chrone exitexam ethernet ecueunico ttempt php?attempt= 1 100s58cmid=7488page-24 MoEEE Mnf Time len 2.16,54 Qucstion 25 Not yet aaswered Assume there Is Class_^ which is extended by Class_B and Class_C Class_A i5 declared as abstract and also contains an abstract method called welcome this method takes no parameters ana (-iums String_ Which of the folloving definitions 0f Class_B will NOT cause compiler error based on above scenario? Maned outof I0 public class Class_B extends Class {6g quaston public ~String whatObjectAmlo return am a class B object ; public class Class_B extends Class_A public int welcomed 1001 inlx = 10; Fintsh attempt retumn X public class Class_B extends Class_A",
+    "options": []
+  },
+  {
+    "examNumber": 27,
+    "page": 27,
+    "text": "public String whatObjectAmlO return \"Iam a class D object' public String welcomel return \"|am a class C object\" public int welcomelint y) intx = 2*%; return X",
+    "options": [
+      {
+        "key": "D",
+        "text": "public class Class_B extends Class_A public void welcome String str)"
+      }
+    ]
+  },
+  {
+    "examNumber": 26,
+    "page": 28,
+    "text": "",
+    "options": []
+  },
+  {
+    "examNumber": 27,
+    "page": 29,
+    "text": "Question 27 Notyet answvered Which one of the following is not true regarding algorithm development during problem solving? 0 a Is step wise logical description of how to solve the problem 0",
+    "options": [
+      {
+        "key": "B",
+        "text": "Is equivalent to the programming language code C Should be Ceveloped by considering the platforms on which it runs"
+      },
+      {
+        "key": "D",
+        "text": "Is developed considering the details of the programming language Marked out of 1,C0 Flag : quesjion"
+      }
+    ]
+  },
+  {
+    "examNumber": 28,
+    "page": 30,
+    "text": "",
+    "options": []
+  },
+  {
+    "examNumber": 29,
+    "page": 31,
+    "text": "",
+    "options": []
+  },
+  {
+    "examNumber": 30,
+    "page": 32,
+    "text": "",
+    "options": [
+      {
+        "key": "B",
+        "text": "Clustering algorithm Predictive modeling Regression modeling"
+      }
+    ]
+  },
+  {
+    "examNumber": 31,
+    "page": 33,
+    "text": "",
+    "options": []
+  },
+  {
+    "examNumber": 32,
+    "page": 34,
+    "text": "",
+    "options": []
+  },
+  {
+    "examNumber": 33,
+    "page": 35,
+    "text": "",
+    "options": []
+  },
+  {
+    "examNumber": 34,
+    "page": 36,
+    "text": "Question 34 Notyet answered Select the one that is not correct related to generalization in system modeling: 0 a In generalization; the attributes and operations associated with higher-level classes are also associated with the lower-level classes Facilitate easy modification of data The higher-level classes are more specific than the lower-level classes by adding specific attributes and operations Common information will be maintained in one place Marked out of IC0 Flag questicn",
+    "options": []
+  },
+  {
+    "examNumber": 35,
+    "page": 37,
+    "text": "",
+    "options": []
+  },
+  {
+    "examNumber": 36,
+    "page": 38,
+    "text": "",
+    "options": []
+  },
+  {
+    "examNumber": 37,
+    "page": 39,
+    "text": "Question 37 Not yet ansivered Which one of the following is an appropriate sequence that depicts the model development process in data mining Model Training; Model Evaluation; Model Testing; Model Deployment b: Model Training; Model Testing, Model Deployment; Model Evaluation Model Training; Model Testing, Model Evaluation; Model Deployment Model Evaluation; Model Training Model Testing; Model Deployment Marked out of 1C0 Fiag \" question",
+    "options": []
+  },
+  {
+    "examNumber": 38,
+    "page": 40,
+    "text": "var result = a substring(2, 6); document write(result); <Jscript >",
+    "options": [
+      {
+        "key": "A",
+        "text": "xitex"
+      },
+      {
+        "key": "B",
+        "text": "texam itex"
+      },
+      {
+        "key": "D",
+        "text": "xite"
+      }
+    ]
+  },
+  {
+    "examNumber": 39,
+    "page": 41,
+    "text": "Question 39 Notyet answered Marked out of 1C0 What is the time complexity for the following code snippets? function someFunction (n) for (var i=O;j<n*10;+-) { console log (n) }; Flag questicn 0 a 0 (n) 0 b 0 (n2) Ollogn):",
+    "options": [
+      {
+        "key": "D",
+        "text": "Ollog2n)"
+      }
+    ]
+  },
+  {
+    "examNumber": 40,
+    "page": 42,
+    "text": "4NF b 2NF INF 3NF",
+    "options": []
+  },
+  {
+    "examNumber": 41,
+    "page": 43,
+    "text": "Question 41 Which of the following is true regarding the use of switches and hubs for network connectivity in the network? Notye: ansiered 0 a Switches increase the number of collision domains in the network 0",
+    "options": [
+      {
+        "key": "B",
+        "text": "Switches take less time to process frames than hubs take Switches do not forward broadcasts Marked ou: of 1C0 Fiag 5 question d; Hubs can filter frames"
+      }
+    ]
+  },
+  {
+    "examNumber": 42,
+    "page": 44,
+    "text": "Question 42 Notyer answvered Which statement describes the main goal of software testing as part of the quality assurance process? a; To achieve project timelines and deadlines: To monitor the entire SDLC To generate software requirement and design documentation:",
+    "options": [
+      {
+        "key": "D",
+        "text": "To guarantee that the software meets the specified requirements_ Marked ou: 0f 1,C0 Flag = question"
+      }
+    ]
+  },
+  {
+    "examNumber": 43,
+    "page": 45,
+    "text": "Question 43 Notyet answered Which of the following describes & set of standards and an associated network protocol that allow establishing a secure channel between a local and & remote computer? Marked out of 1,00 0 a Authentication; Authorization and Accounting (AAA} b: Simple Network Management Protocol (SNMP) Secure Shell (SSH) Secure socket layer (SSL) ~Flag \" ques-ion",
+    "options": []
+  },
+  {
+    "examNumber": 44,
+    "page": 46,
+    "text": "",
+    "options": []
+  },
+  {
+    "examNumber": 45,
+    "page": 47,
+    "text": "",
+    "options": []
+  },
+  {
+    "examNumber": 46,
+    "page": 48,
+    "text": "",
+    "options": []
+  },
+  {
+    "examNumber": 47,
+    "page": 49,
+    "text": "Question 47 Notyet answered Assume that there is a Pet family from which Pets like Dog and Cat share behavior from E Every Pet family has a name: However; the pet families have some specific behaviors that are exhibited by only particular Pets. For instance; only Dogs can fetch something while both cats and dogs can speak: Which of the following object oriented designprinciple would be suitable for this case? Marked oui 0f 1C0 a Polymorphism Encapsulation Inheritance Information hiding Flag: question",
+    "options": []
+  },
+  {
+    "examNumber": 48,
+    "page": 50,
+    "text": "Best case",
+    "options": []
+  },
+  {
+    "examNumber": 49,
+    "page": 51,
+    "text": "Question 49 Not yer answered Which one of the following is not among the characterizing features of database approach? 0 a Sharing of data",
+    "options": [
+      {
+        "key": "B",
+        "text": "Application-data dependency Self-describing Data abstraction Marked our of TCO Flag quesion"
+      }
+    ]
+  },
+  {
+    "examNumber": 50,
+    "page": 52,
+    "text": "Agent",
+    "options": []
+  },
+  {
+    "examNumber": 51,
+    "page": 53,
+    "text": "d To easily figure out the source code flow",
+    "options": []
+  },
+  {
+    "examNumber": 52,
+    "page": 54,
+    "text": "Question 52 Not yet answered A TCP/IP layer which is responsible for adcressing, path selection and routing refers: a Transport Layer",
+    "options": [
+      {
+        "key": "B",
+        "text": "Network Access Layer Application Layer"
+      },
+      {
+        "key": "D",
+        "text": "Internet Layer Marked out of 1C0 Flag 'question"
+      }
+    ]
+  },
+  {
+    "examNumber": 53,
+    "page": 55,
+    "text": "Question 53 Notye: answered 'Database is & logically coherent collection of data with some inherent meaning\" describes that a; the entity should be physical object b; number of attributes should be limited Marked out of 1CQ C there should be one primary key attribute",
+    "options": [
+      {
+        "key": "D",
+        "text": "all attributes of the entity should be related Flag: question"
+      }
+    ]
+  },
+  {
+    "examNumber": 54,
+    "page": 56,
+    "text": "then biggest_dimension height end_if else biggest_dimension length if height > length then biggest_dimension height end_if end_if",
+    "options": [
+      {
+        "key": "A",
+        "text": "4 0"
+      },
+      {
+        "key": "B",
+        "text": "6 0 < 2 0 d 3"
+      }
+    ]
+  },
+  {
+    "examNumber": 55,
+    "page": 57,
+    "text": "Question 55 Notyet answered Which of the following statement is not true statement regarding project life cycle? In a waterfall life cycle; the project scope; time; and cost are determined in the early phases of the life cycle In agile life cycle the project scope is generally determined early in the project life cycle; but time and cost estimates are routinely modified In an incremental life cycle; the deliverable is produced through a series of iterations that successively add functionality within a predetermined time frame In agile life cycles, the project scope cannot be outlined and agreed before the start of iteration: Marked ourof 1C0 Fiag question",
+    "options": []
+  },
+  {
+    "examNumber": 56,
+    "page": 58,
+    "text": "",
+    "options": []
+  },
+  {
+    "examNumber": 57,
+    "page": 59,
+    "text": "Question 57 Not yer answered Which of the following refers to unauthorized disclosure of information?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Integrity"
+      },
+      {
+        "key": "B",
+        "text": "Authorization Conficentiality d Authentication Marked out of 1,C0 Flag \" question"
+      }
+    ]
+  },
+  {
+    "examNumber": 58,
+    "page": 60,
+    "text": "",
+    "options": []
+  },
+  {
+    "examNumber": 59,
+    "page": 61,
+    "text": "Question 59 Notye: answered Which of the following is among benefits provided with access control lists (ACLs) implementation for software security based applications? Virus detection; b: ACLs classify and organize network traffic ACLs provide high network availability: d_ ACLs monitor the number of bytes and packets. Marked out of 1C0 Flag questicn",
+    "options": []
+  },
+  {
+    "examNumber": 60,
+    "page": 62,
+    "text": "",
+    "options": []
+  },
+  {
+    "examNumber": 61,
+    "page": 63,
+    "text": "",
+    "options": []
+  },
+  {
+    "examNumber": 62,
+    "page": 64,
+    "text": "",
+    "options": []
+  },
+  {
+    "examNumber": 63,
+    "page": 65,
+    "text": "",
+    "options": []
+  },
+  {
+    "examNumber": 64,
+    "page": 66,
+    "text": "Question 64 Notyet ansivered For the schema HOTEL (Hotel_id :integer; Hotel_Name: string; Sub_city: string} which SQL statement correctly inserts tuples to HOTEL relation: (Assume Hotel_id is primary key } Marked Quf of 1,C0 0 INSERT INTO HOTEL(Hotel_id,Hotel_Name Sub_city) Values( Hilton', Yeka )",
+    "options": [
+      {
+        "key": "B",
+        "text": "INSERT INTO HOTEL(Hotel_id Hotel_Name Sub_city) Values (1, 'Hilton' , 'Yeka INSERT INTO HOTEL(1;'Hilton' , Yeka' ) d INSERT Values INTO HOTEL(Hotel_id,Hotel_Name Sub_city) Values(1 ,'Hilton', Yeka ) Fiag - question"
+      }
+    ]
+  },
+  {
+    "examNumber": 65,
+    "page": 67,
+    "text": "",
+    "options": []
+  },
+  {
+    "examNumber": 66,
+    "page": 68,
+    "text": "",
+    "options": []
+  },
+  {
+    "examNumber": 67,
+    "page": 69,
+    "text": "int b,e;r=1; count< < Enter b and e\" cin>>b> >e; forfint i=I;i<=e;i-+) rarb; cout<<r; return O; 81",
+    "options": [
+      {
+        "key": "B",
+        "text": "256 12 d 64"
+      }
+    ]
+  },
+  {
+    "examNumber": 68,
+    "page": 70,
+    "text": "Question 68 Not ye: ansi ered Which of the following is the correct sequence that will be followed during software evolution process?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Change request; release planning; change implementation, impact analysis, system release b: Change request; impact analysis, release planning, change implementation, system release Impact analysis; Change request; change implementation, release planning; system release d Change request; impact analysis, change implementation, release planning, system release Marked out of 1,00 F Flag questicn"
+      }
+    ]
+  },
+  {
+    "examNumber": 69,
+    "page": 71,
+    "text": "",
+    "options": []
+  },
+  {
+    "examNumber": 70,
+    "page": 72,
+    "text": "",
+    "options": []
+  },
+  {
+    "examNumber": 71,
+    "page": 73,
+    "text": "",
+    "options": []
+  },
+  {
+    "examNumber": 72,
+    "page": 74,
+    "text": "finalize",
+    "options": []
+  },
+  {
+    "examNumber": 73,
+    "page": 75,
+    "text": "",
+    "options": []
+  },
+  {
+    "examNumber": 74,
+    "page": 76,
+    "text": "Question 74 Not yet ansuered You are required to write a program that iteratively takes 50 numbers from user input and adds them Up only if the numbers are positive and skips if not; Which control structure best fits this scenario? Marked out of 1C0 Flag \" question for b break jump d continue",
+    "options": []
+  },
+  {
+    "examNumber": 75,
+    "page": 77,
+    "text": "Question 75 Notyet ansiered Which statement is correct about the differences between functional and non-functional requirements? Functional requirements are the services the system provide while non-functional requirements are constraints on the services or functions offered by the system b: Functional requirements are decided by the customer while non-functional requirements are decided by developers Both are the same most of the time and only vary under certain contexts",
+    "options": [
+      {
+        "key": "D",
+        "text": "Unlike functional requirement; nonfunctional requirements are stable Marked our of 1.00 Fiag question"
+      }
+    ]
+  },
+  {
+    "examNumber": 76,
+    "page": 78,
+    "text": "Question 76 Not yet answered Select an activity that suits in the fundamental test process which includes evaluation of the testability of the requirements and system? 0",
+    "options": [
+      {
+        "key": "A",
+        "text": "Test analysis and recuirements b Test analysis and design Test analysis and planning d Test analysis and Implementation Maiked out of 1,00 Flag ques-ion"
+      }
+    ]
+  },
+  {
+    "examNumber": 77,
+    "page": 79,
+    "text": "Question 77 Notyet ansiered Which of the following is the correct order of packet data unit 2s data moved in the OSI reference model from bottom to top? Segment; packet; frame; bit 0",
+    "options": [
+      {
+        "key": "B",
+        "text": "Segment; frame; packet; bit Bit packet; frame; segment d; Bit; frame; packet; segment Marked out of 1,C0 Flag quesjion"
+      }
+    ]
+  },
+  {
+    "examNumber": 78,
+    "page": 80,
+    "text": "",
+    "options": []
+  },
+  {
+    "examNumber": 79,
+    "page": 81,
+    "text": "0 FOREIGN KEY (DorID} REFERENCED BY DORMDDormID)",
+    "options": [
+      {
+        "key": "B",
+        "text": "DORM table is a referencing relation FOREIGN KEY (DorID} REFERENCES DORM(DormID) )"
+      },
+      {
+        "key": "D",
+        "text": "STUDENT table is a referenced relation"
+      }
+    ]
+  },
+  {
+    "examNumber": 80,
+    "page": 82,
+    "text": "Question 80 The result of the following program after running will be: class PrintResult Notye: ansiered Marked oui of 1C0 Fiag question public static void moin(String orgs[ ]) int arr[ ] {3, 4, 5, 6, 7} ; for (int { 0; 1 Grr length 2; t+i) System.out println(arr[i] 0 a 3 45 6 7 0 b 345 6 0 & 3 4 0 d 3 4 5",
+    "options": []
+  },
+  {
+    "examNumber": 81,
+    "page": 83,
+    "text": "Question 81 Notyet ansivered Which parameter is used to assess and evaluate software architectures? 0 a Number of components in the architecture 0",
+    "options": [
+      {
+        "key": "B",
+        "text": "Durability of the architecture Responsiveness of the architectures Architectural quality attributes Marked out of 1,00 Flag . question"
+      }
+    ]
+  },
+  {
+    "examNumber": 82,
+    "page": 84,
+    "text": "",
+    "options": []
+  },
+  {
+    "examNumber": 83,
+    "page": 85,
+    "text": "Question 83 In software risk management; accepting risk happening but don not co anything is known a: Not yet answered 0 a Risk transfer 0",
+    "options": [
+      {
+        "key": "B",
+        "text": "Risk Retention C, Risk Reduction Marked out of 1,00 ~Flag: question d, Risk avoidance"
+      }
+    ]
+  },
+  {
+    "examNumber": 84,
+    "page": 86,
+    "text": "",
+    "options": []
+  },
+  {
+    "examNumber": 85,
+    "page": 87,
+    "text": "Scanner scanner = new Scanner( System.in }; System out println(\"enter choice\"}; int choice= scanner nextInto; switch (choice) case 1: Systemout printin( Hello\"}; case 2: System out println( you\" }; break; default: System Outprintln( welcome\" }; System out println( \" Goodbye\"}; If you run the above program and enter 1 as your choice; what will be the output?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hello You welcome b: Hello Vou"
+      }
+    ]
+  },
+  {
+    "examNumber": 88,
+    "page": 88,
+    "text": "Ifyou run the above program and enter 1 asyour choice; What will be the output? a Hello You welcome b Hello You Welcome Goodbye Hello Goodbye d Hello You Goodbye",
+    "options": []
+  },
+  {
+    "examNumber": 86,
+    "page": 89,
+    "text": "",
+    "options": [
+      {
+        "key": "D",
+        "text": "for(initialization; condition; incrementfdecrement)"
+      }
+    ]
+  },
+  {
+    "examNumber": 87,
+    "page": 90,
+    "text": "Question 87 Which one of the following is the correct identifier in €-+? Not ye answered 0 a Zvariable Marked out of 1,C0 b ZVARIABLE C Svariable Flag questicn d variable_1234",
+    "options": []
+  },
+  {
+    "examNumber": 88,
+    "page": 91,
+    "text": "Question 88 Not yer ansivered Default method while submitting a form is 0 a Get method b Set method Marked out of 1,C0 Post method Flag\" question d Put method",
+    "options": []
+  },
+  {
+    "examNumber": 89,
+    "page": 92,
+    "text": "",
+    "options": []
+  },
+  {
+    "examNumber": 90,
+    "page": 93,
+    "text": "",
+    "options": []
+  },
+  {
+    "examNumber": 91,
+    "page": 94,
+    "text": "",
+    "options": []
+  },
+  {
+    "examNumber": 92,
+    "page": 95,
+    "text": "",
+    "options": []
+  },
+  {
+    "examNumber": 93,
+    "page": 96,
+    "text": "",
+    "options": []
+  },
+  {
+    "examNumber": 94,
+    "page": 97,
+    "text": "",
+    "options": []
+  },
+  {
+    "examNumber": 95,
+    "page": 98,
+    "text": "",
+    "options": []
+  },
+  {
+    "examNumber": 96,
+    "page": 99,
+    "text": "",
+    "options": []
+  },
+  {
+    "examNumber": 97,
+    "page": 100,
+    "text": "Question 97 Not yet answered Marked out of 1C0 Identify the design principle that does not apply to software systems",
+    "options": [
+      {
+        "key": "A",
+        "text": "design should be structured to accommodate change"
+      },
+      {
+        "key": "B",
+        "text": "design should exhibit uniformity and integration design should be reinventing the wheel from scratch design should be traceable to the analysis model Flag = question"
+      }
+    ]
+  }
+]

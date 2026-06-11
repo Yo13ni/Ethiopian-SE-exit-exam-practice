@@ -39,7 +39,7 @@
     {
       "examNumber": 2,
       "id": 2,
-      "topic": "General",
+      "topic": "Software Engineering",
       "text": "What does the study of an existing system refer to?",
       "options": [
         {
@@ -60,7 +60,7 @@
         }
       ],
       "answer": "C",
-      "concept": "Key idea (General): System Analysis"
+      "concept": "Key idea (Software Engineering): System Analysis"
     },
     {
       "examNumber": 3,
@@ -647,7 +647,7 @@
     {
       "examNumber": 26,
       "id": 26,
-      "topic": "General",
+      "topic": "Software Engineering",
       "text": "Which one of the following activities is not recommended for software processes in software engineering?",
       "options": [
         {
@@ -668,7 +668,7 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (General): Software Verification"
+      "concept": "Key idea (Software Engineering): Software Verification"
     },
     {
       "examNumber": 27,
@@ -925,7 +925,7 @@
     {
       "examNumber": 37,
       "id": 37,
-      "topic": "General",
+      "topic": "Software Engineering",
       "text": "What is the name of the approach that follows step-by-step instructions for solving a problem?",
       "options": [
         {
@@ -946,12 +946,12 @@
         }
       ],
       "answer": "A",
-      "concept": "Key idea (General): An Algorithm"
+      "concept": "Key idea (Software Engineering): An Algorithm"
     },
     {
       "examNumber": 38,
       "id": 38,
-      "topic": "General",
+      "topic": "Software Engineering",
       "text": "Which of the following word correctly summarized the importance of software design?",
       "options": [
         {
@@ -972,7 +972,7 @@
         }
       ],
       "answer": "A",
-      "concept": "Key idea (General): Quality"
+      "concept": "Key idea (Software Engineering): Quality"
     },
     {
       "examNumber": 39,
@@ -1029,7 +1029,7 @@
     {
       "examNumber": 41,
       "id": 41,
-      "topic": "General",
+      "topic": "Software Engineering",
       "text": "What does a directed arc or line signify?",
       "options": [
         {
@@ -1050,12 +1050,12 @@
         }
       ],
       "answer": "A",
-      "concept": "Key idea (General): Data Flow"
+      "concept": "Key idea (Software Engineering): Data Flow"
     },
     {
       "examNumber": 42,
       "id": 42,
-      "topic": "General",
+      "topic": "Software Engineering",
       "text": "What does a data store symbol in the Data Flow Diagram signify?",
       "options": [
         {
@@ -1076,7 +1076,7 @@
         }
       ],
       "answer": "D",
-      "concept": "Key idea (General): All of the above"
+      "concept": "Key idea (Software Engineering): All of the above"
     },
     {
       "examNumber": 43,
@@ -1523,7 +1523,7 @@
     {
       "examNumber": 60,
       "id": 60,
-      "topic": "General",
+      "topic": "Software Engineering",
       "text": "Third-Party Certification for software standards is based on __________.",
       "options": [
         {
@@ -1544,7 +1544,7 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (General): Ul 1998, Second Edition"
+      "concept": "Key idea (Software Engineering): Ul 1998, Second Edition"
     }
   ]
 }

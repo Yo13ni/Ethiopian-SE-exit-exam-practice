@@ -352,7 +352,7 @@
     {
       "examNumber": 18,
       "id": 12,
-      "topic": "General",
+      "topic": "Security",
       "text": "The permission –rwxr-r- represented in octal expression will be:",
       "options": [
         {
@@ -502,7 +502,7 @@
     {
       "examNumber": 24,
       "id": 17,
-      "topic": "General",
+      "topic": "AI / ML",
       "text": "Anything that can perceive its environment through sensory and act as upon environment through effectors",
       "options": [
         {
@@ -622,7 +622,7 @@
     {
       "examNumber": 28,
       "id": 21,
-      "topic": "General",
+      "topic": "Project Management",
       "text": "Which principles state that 80% of the problem can be fixed with 20% of the entire effort?",
       "options": [
         {
@@ -742,7 +742,7 @@
     {
       "examNumber": 32,
       "id": 25,
-      "topic": "General",
+      "topic": "Java / OOP",
       "text": "The result of the following program after running will be Class PrintResult { Public static void main (String arg [ ]) { int arr{ }={3,4,5,6,7}; for(int i=0; i<=arr.length-2; ++i){ system.out.println(arr[i]+ ”,”) } }}",
       "options": [
         {
@@ -1252,7 +1252,7 @@
     {
       "examNumber": 49,
       "id": 42,
-      "topic": "General",
+      "topic": "Networking",
       "text": "Which of the following is not a valid host address within the network 172.17.128.0/21?",
       "options": [
         {
@@ -1277,7 +1277,7 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (General): 172.17.135.255/21"
+      "concept": "Key idea (Networking): 172.17.135.255/21"
     },
     {
       "examNumber": 50,
@@ -2272,7 +2272,7 @@
     {
       "examNumber": 83,
       "id": 76,
-      "topic": "General",
+      "topic": "Data Structures",
       "text": "Which of the following analysis mechanism defines the input for which the algorithm takes the least time (fastest time to complete)?",
       "options": [
         {

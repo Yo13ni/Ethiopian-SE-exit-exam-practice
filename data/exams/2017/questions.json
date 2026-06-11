@@ -1663,7 +1663,7 @@
     {
       "examNumber": 67,
       "id": 64,
-      "topic": "General",
+      "topic": "Security",
       "text": "Not Muee•d Out Of quet»on Pre•nous page - Which one of the following incident requires immediate action (e.g., system failure)?",
       "options": [
         {
@@ -1684,7 +1684,7 @@
         }
       ],
       "answer": "D",
-      "concept": "Key idea (General): Cnucal"
+      "concept": "Key idea (Security): Cnucal"
     },
     {
       "examNumber": 68,
@@ -2365,7 +2365,7 @@
     {
       "examNumber": 95,
       "id": 91,
-      "topic": "General",
+      "topic": "Database",
       "text": "question Time I How do you add new department column to Students table?",
       "options": [
         {
@@ -2386,7 +2386,7 @@
         }
       ],
       "answer": "C",
-      "concept": "Key idea (General): VARCHAR(255): ALTER TABLE Students ADD COLUMN department"
+      "concept": "Key idea (Database): VARCHAR(255): ALTER TABLE Students ADD COLUMN department"
     },
     {
       "examNumber": 96,

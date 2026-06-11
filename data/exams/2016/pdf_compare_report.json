@@ -1,0 +1,821 @@
+{
+  "pdfPages": 10,
+  "webQuestions": 100,
+  "strongMatch": 30,
+  "partialMatch": 37,
+  "missingInPdf": 33,
+  "ocrQuestionNumbersSeen": [
+    1,
+    2,
+    10,
+    11,
+    20,
+    21,
+    34,
+    52,
+    91
+  ],
+  "results": [
+    {
+      "examNumber": 1,
+      "topic": "Java / OOP",
+      "webStem": "Which of the following is wrong regarding interface?",
+      "score": 0.83,
+      "method": "words",
+      "status": "match"
+    },
+    {
+      "examNumber": 2,
+      "topic": "Web Development",
+      "webStem": "How can we select an element with a specific class in CSS?",
+      "score": 0.5,
+      "method": "words",
+      "status": "partial"
+    },
+    {
+      "examNumber": 3,
+      "topic": "Project Management",
+      "webStem": "The process that generates activities such as project schedule, cost estimations and work breakdown structures is descri",
+      "score": 0.42,
+      "method": "words",
+      "status": "partial"
+    },
+    {
+      "examNumber": 4,
+      "topic": "Java / OOP",
+      "webStem": "The following UML design shows a Student class. Assume that the attributes are declared as private and the methods as pu",
+      "score": 0.45,
+      "method": "words",
+      "status": "partial"
+    },
+    {
+      "examNumber": 5,
+      "topic": "Networking",
+      "webStem": "Which of the following is not a valid host address within the network 172.17.128.0/21?",
+      "score": 0.36,
+      "method": "words",
+      "status": "partial"
+    },
+    {
+      "examNumber": 6,
+      "topic": "Operating Systems",
+      "webStem": "The permission -rwxr-xr-x represented in octal expression will be:",
+      "score": 0.29,
+      "method": "words",
+      "status": "missing"
+    },
+    {
+      "examNumber": 7,
+      "topic": "AI / ML",
+      "webStem": "2•.2! An informed search algorithm that provides exponential time complexity in the worst-case scenalio and guarantees o",
+      "score": 0.33,
+      "method": "words",
+      "status": "missing"
+    },
+    {
+      "examNumber": 8,
+      "topic": "Networking",
+      "webStem": "An HTTP request message always contains:",
+      "score": 0.4,
+      "method": "words",
+      "status": "partial"
+    },
+    {
+      "examNumber": 9,
+      "topic": "Database",
+      "webStem": "Rot yet .nswered Marked out oi 1.00 Which one of the following can be among possible sources of unstructured data? o a. ",
+      "score": 0.67,
+      "method": "words",
+      "status": "match"
+    },
+    {
+      "examNumber": 10,
+      "topic": "Project Management",
+      "webStem": "r•ot yet , zoswered 1.00 Which slogan is against the agile method philosophy? o a. d.",
+      "score": 0.44,
+      "method": "words",
+      "status": "partial"
+    },
+    {
+      "examNumber": 11,
+      "topic": "Database",
+      "webStem": "' What we use to pass the data between activities in Android? a. b. Broadcast receiver",
+      "score": 0.2,
+      "method": "words",
+      "status": "missing"
+    },
+    {
+      "examNumber": 12,
+      "topic": "Project Management",
+      "webStem": "What would be the most likely consequence if every software stakeholder were rushing to be approved for their requiremen",
+      "score": 0.33,
+      "method": "words",
+      "status": "missing"
+    },
+    {
+      "examNumber": 13,
+      "topic": "Operating Systems",
+      "webStem": "1.00 V When a process is in a \"Blocked\" state waiting for some Input-Output services and afterthe service is completed, ",
+      "score": 0.25,
+      "method": "words",
+      "status": "missing"
+    },
+    {
+      "examNumber": 14,
+      "topic": "Operating Systems",
+      "webStem": "A memory management policy in which decisions must be made as to which page or pages are to be replaced when memory is f",
+      "score": 0.18,
+      "method": "words",
+      "status": "missing"
+    },
+    {
+      "examNumber": 15,
+      "topic": "Android",
+      "webStem": "1.00 What is Manifest.xml in android? b. d.",
+      "score": 0.0,
+      "method": "words",
+      "status": "missing"
+    },
+    {
+      "examNumber": 16,
+      "topic": "Java / OOP",
+      "webStem": "S-oftar•:• Engir.e-erirrq • MoEEE Question 16 Assume you have an interface Payable as follows Not yet public interface P",
+      "score": 0.17,
+      "method": "words",
+      "status": "missing"
+    },
+    {
+      "examNumber": 17,
+      "topic": "Networking",
+      "webStem": "Met-ked out A firewall is used in a system connected to a wide area network to o c. d.",
+      "score": 0.3,
+      "method": "words",
+      "status": "missing"
+    },
+    {
+      "examNumber": 18,
+      "topic": "Networking",
+      "webStem": "Msrked out, of 100 Which of the fallowing is not the function of Crass-over IJTP cable? cu",
+      "score": 0.45,
+      "method": "words",
+      "status": "partial"
+    },
+    {
+      "examNumber": 19,
+      "topic": "Security",
+      "webStem": "Within OAuth, what component validates the user's identity?",
+      "score": 0.25,
+      "method": "words",
+      "status": "missing"
+    },
+    {
+      "examNumber": 20,
+      "topic": "Project Management",
+      "webStem": "If the estimate for total discounted benefits for a project is Birr 120,000 and total discounted cost is Birr 100,000, w",
+      "score": 0.27,
+      "method": "words",
+      "status": "missing"
+    },
+    {
+      "examNumber": 21,
+      "topic": "Software Engineering",
+      "webStem": "Given the following layered architecture, which ordering relation is correct and does not encounter architectural erosio",
+      "score": 0.5,
+      "method": "words",
+      "status": "partial"
+    },
+    {
+      "examNumber": 22,
+      "topic": "Data Structures",
+      "webStem": "answered 1.00 Depending an the organization of the elements which cf the following approach is a non-linear data structu",
+      "score": 0.4,
+      "method": "words",
+      "status": "partial"
+    },
+    {
+      "examNumber": 23,
+      "topic": "Data Structures",
+      "webStem": "What is the time complexity of the following function?\n\npublic void function(int n) {\n    for (int i = 0; i < n; i++)\n  ",
+      "score": 0.4,
+      "method": "words",
+      "status": "partial"
+    },
+    {
+      "examNumber": 24,
+      "topic": "Java / OOP",
+      "webStem": "Ncit yet answered of l.co Which one of the following statements is wrong regarding try..v.catch construct? o d. The exec",
+      "score": 0.67,
+      "method": "words",
+      "status": "match"
+    },
+    {
+      "examNumber": 25,
+      "topic": "Java / OOP",
+      "webStem": "S-oftar•:• Engir.e-erirrq • MoEEE Question 25 Not yet question 2:16:54 Assume there is Class_A which is extended by Clas",
+      "score": 0.36,
+      "method": "words",
+      "status": "partial"
+    },
+    {
+      "examNumber": 26,
+      "topic": "Android",
+      "webStem": "All layout classes are subclasses of which of the following?",
+      "score": 0.38,
+      "method": "words",
+      "status": "partial"
+    },
+    {
+      "examNumber": 27,
+      "topic": "Data Structures",
+      "webStem": "Which one of the following is not true regarding algorithm development during problem solving?",
+      "score": 1.0,
+      "method": "prefix",
+      "status": "match"
+    },
+    {
+      "examNumber": 28,
+      "topic": "AI / ML",
+      "webStem": "1.00 Business people always remodel their business by closely studying their customers' purchasing habits over the cours",
+      "score": 1.0,
+      "method": "words",
+      "status": "match"
+    },
+    {
+      "examNumber": 29,
+      "topic": "Networking",
+      "webStem": "1.00 V Given a situation two hosts attempt on a half-duplex",
+      "score": 0.14,
+      "method": "words",
+      "status": "missing"
+    },
+    {
+      "examNumber": 30,
+      "topic": "Software Engineering",
+      "webStem": "1.00 Select the one that is not correct related to generalization in system modeling.",
+      "score": 0.8,
+      "method": "words",
+      "status": "match"
+    },
+    {
+      "examNumber": 31,
+      "topic": "Operating Systems",
+      "webStem": "1.00 V Which of the following specifies divergence between Dijkstra's Algorithm (DA) and Uniform",
+      "score": 0.5,
+      "method": "words",
+      "status": "partial"
+    },
+    {
+      "examNumber": 32,
+      "topic": "Android",
+      "webStem": "What is an activity in Android?",
+      "score": 0.33,
+      "method": "words",
+      "status": "missing"
+    },
+    {
+      "examNumber": 33,
+      "topic": "Operating Systems",
+      "webStem": "1,00 Which one of the following is an appropriate sequence that depicts the model development process in data mining ? M",
+      "score": 0.64,
+      "method": "words",
+      "status": "match"
+    },
+    {
+      "examNumber": 34,
+      "topic": "Web Development",
+      "webStem": "What will be the output of the following code snippet?\n\n<script type=\"text/javascript\">\n  var a = \"exitexam\";\n  var resu",
+      "score": 0.36,
+      "method": "words",
+      "status": "partial"
+    },
+    {
+      "examNumber": 35,
+      "topic": "Data Structures",
+      "webStem": "What is the time complexity for the following code snippet?\n\nfunction someFunction(n) {\n  for (var i = n; i >= 1; i = i ",
+      "score": 0.5,
+      "method": "words",
+      "status": "partial"
+    },
+    {
+      "examNumber": 36,
+      "topic": "Database",
+      "webStem": "While optimizing our relation, if we found that no multivalued attributes and no partial dependencies exist in a relatio",
+      "score": 0.25,
+      "method": "words",
+      "status": "missing"
+    },
+    {
+      "examNumber": 37,
+      "topic": "Networking",
+      "webStem": "Notyet answered V' question Which of the following is true regarding the use of switches and hubs far network connectivi",
+      "score": 0.73,
+      "method": "words",
+      "status": "match"
+    },
+    {
+      "examNumber": 38,
+      "topic": "Networking",
+      "webStem": "1.00 Which of the following describes a set of standards and an associated network protocol that allow establishing a se",
+      "score": 0.5,
+      "method": "words",
+      "status": "partial"
+    },
+    {
+      "examNumber": 39,
+      "topic": "Software Engineering",
+      "webStem": "Not yet -nswerecl of Eag qvestion What cornponent hides the distinction or boundaries between various m•croservices from",
+      "score": 0.25,
+      "method": "words",
+      "status": "missing"
+    },
+    {
+      "examNumber": 40,
+      "topic": "Operating Systems",
+      "webStem": "1,00 fig question A set of processes management which is waiting for a resource that is owned by another process refers ",
+      "score": 0.42,
+      "method": "words",
+      "status": "partial"
+    },
+    {
+      "examNumber": 41,
+      "topic": "Software Engineering",
+      "webStem": "Select the fundamental issue that must be considered by software architects during the architectural design process.",
+      "score": 0.45,
+      "method": "words",
+      "status": "partial"
+    },
+    {
+      "examNumber": 42,
+      "topic": "Java / OOP",
+      "webStem": "1.00 Assume that there is a Pet family from which Pets like Dog and Cat share behavior from.Every Pet family has a name,",
+      "score": 0.33,
+      "method": "words",
+      "status": "missing"
+    },
+    {
+      "examNumber": 43,
+      "topic": "Java / OOP",
+      "webStem": "Assume that there is a Pet family from which pets like Dog and Cat share behavior. Every pet family has a name. However,",
+      "score": 0.33,
+      "method": "words",
+      "status": "missing"
+    },
+    {
+      "examNumber": 44,
+      "topic": "Database",
+      "webStem": "Rot yet enswared 1.00 V Which one of the fallowing is not among the characterizing features of database approach? o d.",
+      "score": 0.55,
+      "method": "words",
+      "status": "partial"
+    },
+    {
+      "examNumber": 45,
+      "topic": "Software Engineering",
+      "webStem": "Not yet inswerecl W arked out of ILOO f Anyth&ng that can perceive its environment through sensory and acts upon environ",
+      "score": 0.42,
+      "method": "words",
+      "status": "partial"
+    },
+    {
+      "examNumber": 46,
+      "topic": "Project Management",
+      "webStem": "1.00 Select the one that is not related with the purpose of properly documenting software architectures b. d. to Know ha",
+      "score": 0.64,
+      "method": "words",
+      "status": "match"
+    },
+    {
+      "examNumber": 47,
+      "topic": "Networking",
+      "webStem": "1.00 Fieg question A TCP/IP layer which is responsible for addressing, path selection and routing refers: o c. Transport",
+      "score": 0.42,
+      "method": "words",
+      "status": "partial"
+    },
+    {
+      "examNumber": 48,
+      "topic": "Networking",
+      "webStem": "A TCP/IP layer which is responsible for addressing, path selection, and routing refers to:",
+      "score": 0.36,
+      "method": "words",
+      "status": "partial"
+    },
+    {
+      "examNumber": 49,
+      "topic": "Database",
+      "webStem": "\"Database is a logically coherent collection of data with some inherent meaning\" describes that:",
+      "score": 0.27,
+      "method": "words",
+      "status": "missing"
+    },
+    {
+      "examNumber": 50,
+      "topic": "Software Engineering",
+      "webStem": "Given the following fragment of code, how many tests are required for 100% decision coverage?\n\nif width > length then\n  ",
+      "score": 0.42,
+      "method": "words",
+      "status": "partial"
+    },
+    {
+      "examNumber": 51,
+      "topic": "Project Management",
+      "webStem": "Which of the following statements is not true regarding project life cycle?",
+      "score": 0.6,
+      "method": "words",
+      "status": "match"
+    },
+    {
+      "examNumber": 52,
+      "topic": "Software Engineering",
+      "webStem": "Nat vet answered 1.00 Ftag question Which of the following refers to unauthorized disclosure of information? o",
+      "score": 0.42,
+      "method": "words",
+      "status": "partial"
+    },
+    {
+      "examNumber": 53,
+      "topic": "Software Engineering",
+      "webStem": "Merkad out of •1.00 Which design pattern is used to restore the state of an object to its previous state? o b. d.",
+      "score": 0.92,
+      "method": "words",
+      "status": "match"
+    },
+    {
+      "examNumber": 54,
+      "topic": "Security",
+      "webStem": "Which of the following is among benefits provided with access control lists (ACLs) implementation for software security ",
+      "score": 0.42,
+      "method": "words",
+      "status": "partial"
+    },
+    {
+      "examNumber": 55,
+      "topic": "Project Management",
+      "webStem": "Which of the following shows the five stages in Tuckman's model of team development, in sequential order?",
+      "score": 1.0,
+      "method": "prefix",
+      "status": "match"
+    },
+    {
+      "examNumber": 56,
+      "topic": "Software Engineering",
+      "webStem": "l.co Which one of the following is not among the purposes af software testing?",
+      "score": 0.78,
+      "method": "words",
+      "status": "match"
+    },
+    {
+      "examNumber": 57,
+      "topic": "Software Engineering",
+      "webStem": "Rot yet answered Metked out As a software tester, when do you implement configuration management procedures? o",
+      "score": 0.33,
+      "method": "words",
+      "status": "missing"
+    },
+    {
+      "examNumber": 58,
+      "topic": "Software Engineering",
+      "webStem": "1.00 V \"The system architecture should be designed using fine-grain, self-contained components. Producers of data should",
+      "score": 0.25,
+      "method": "words",
+      "status": "missing"
+    },
+    {
+      "examNumber": 59,
+      "topic": "Software Engineering",
+      "webStem": "\"The system architecture should be designed using fine-grain, self-contained components. Producers of data should be sep",
+      "score": 0.25,
+      "method": "words",
+      "status": "missing"
+    },
+    {
+      "examNumber": 60,
+      "topic": "Database",
+      "webStem": "For the schema HOTEL (Hotel_id: integer, Hotel_Name: string, Sub_city: string), which SQL statement correctly inserts tu",
+      "score": 0.22,
+      "method": "words",
+      "status": "missing"
+    },
+    {
+      "examNumber": 61,
+      "topic": "Operating Systems",
+      "webStem": "1.00 Which of the following is a process of selecting program paths in such a manner that certain branches (i.e., outgoi",
+      "score": 0.33,
+      "method": "words",
+      "status": "missing"
+    },
+    {
+      "examNumber": 62,
+      "topic": "Software Engineering",
+      "webStem": "Which of the following is a process of selecting program paths in such a manner that certain branches (i.e., outgoing ed",
+      "score": 0.33,
+      "method": "words",
+      "status": "missing"
+    },
+    {
+      "examNumber": 63,
+      "topic": "Operating Systems",
+      "webStem": "Not yet snswered Msrked out of Fig question",
+      "score": 0.57,
+      "method": "words",
+      "status": "match"
+    },
+    {
+      "examNumber": 64,
+      "topic": "Software Engineering",
+      "webStem": "of question Which of the following LIML element is wrongly applied? o",
+      "score": 0.62,
+      "method": "words",
+      "status": "match"
+    },
+    {
+      "examNumber": 65,
+      "topic": "Project Management",
+      "webStem": "Rot yet ansavvered f 1.00 FEag quction Select the wrang statement regarding traceability in software development project",
+      "score": 0.58,
+      "method": "words",
+      "status": "match"
+    },
+    {
+      "examNumber": 66,
+      "topic": "Software Engineering",
+      "webStem": "Not yet answereci IMöCked out FPag question Which principle states that 80% of the problems can be fixed with 20% afthe ",
+      "score": 0.58,
+      "method": "words",
+      "status": "match"
+    },
+    {
+      "examNumber": 67,
+      "topic": "Java / OOP",
+      "webStem": "Which method has the same name as that of its class?",
+      "score": 0.67,
+      "method": "words",
+      "status": "match"
+    },
+    {
+      "examNumber": 68,
+      "topic": "Software Engineering",
+      "webStem": "You are required to write a program that iteratively takes 50 numbers from user input and adds them up only if the numbe",
+      "score": 0.17,
+      "method": "words",
+      "status": "missing"
+    },
+    {
+      "examNumber": 69,
+      "topic": "Software Engineering",
+      "webStem": "1.00 Which statement is correct about the differences between functional and non-functional requirements?",
+      "score": 0.55,
+      "method": "words",
+      "status": "partial"
+    },
+    {
+      "examNumber": 70,
+      "topic": "Android",
+      "webStem": "76 Question Not yet enswered of Select an activity that suits in the fundamental test process which includes evaluation ",
+      "score": 0.58,
+      "method": "words",
+      "status": "match"
+    },
+    {
+      "examNumber": 71,
+      "topic": "Networking",
+      "webStem": "question Which of the following is the correct order of packet data unit as data moved in the OSI reference model from b",
+      "score": 1.0,
+      "method": "prefix",
+      "status": "match"
+    },
+    {
+      "examNumber": 72,
+      "topic": "Software Engineering",
+      "webStem": "1.00 V Which learning algorithm is usually applied to data that does not contain any label information, so we do not kno",
+      "score": 0.58,
+      "method": "words",
+      "status": "match"
+    },
+    {
+      "examNumber": 73,
+      "topic": "Database",
+      "webStem": "1.00 Assume that you are assigned to design a dormitory management database. A dormitory is located on some building and",
+      "score": 0.18,
+      "method": "words",
+      "status": "missing"
+    },
+    {
+      "examNumber": 74,
+      "topic": "Java / OOP",
+      "webStem": "The result of the following program after running will be:\n\nclass PrintResult {\n    public static void main(String[] arg",
+      "score": 0.27,
+      "method": "words",
+      "status": "missing"
+    },
+    {
+      "examNumber": 75,
+      "topic": "Software Engineering",
+      "webStem": "Not answered of question",
+      "score": 1.0,
+      "method": "words",
+      "status": "match"
+    },
+    {
+      "examNumber": 76,
+      "topic": "AI / ML",
+      "webStem": "Fiag qüestion One of the fallowing statement is correct about Artificial",
+      "score": 0.56,
+      "method": "words",
+      "status": "match"
+    },
+    {
+      "examNumber": 77,
+      "topic": "Security",
+      "webStem": "In Software risk management, accepting risk happening but don not do anything is known as: 1.00 Fkag question b. Risk tr",
+      "score": 0.18,
+      "method": "words",
+      "status": "missing"
+    },
+    {
+      "examNumber": 78,
+      "topic": "Android",
+      "webStem": "Msrked out Which activity comes last in fundamental program development in c++ 7 a.",
+      "score": 0.44,
+      "method": "words",
+      "status": "partial"
+    },
+    {
+      "examNumber": 79,
+      "topic": "Java / OOP",
+      "webStem": "Consider the following program:\n\nimport java.util.Scanner;\npublic class Test {\n    public static void main(String[] args",
+      "score": 0.18,
+      "method": "words",
+      "status": "missing"
+    },
+    {
+      "examNumber": 80,
+      "topic": "C++",
+      "webStem": "The correct structure of the for loop statement in C++ is:",
+      "score": 0.67,
+      "method": "words",
+      "status": "match"
+    },
+    {
+      "examNumber": 81,
+      "topic": "C++",
+      "webStem": "Which one of the following is the correct identifier in C++?",
+      "score": 0.83,
+      "method": "words",
+      "status": "match"
+    },
+    {
+      "examNumber": 82,
+      "topic": "Web Development",
+      "webStem": "Rot yet answered V' Default method while submitting a form is o a. d.",
+      "score": 0.88,
+      "method": "words",
+      "status": "match"
+    },
+    {
+      "examNumber": 83,
+      "topic": "Operating Systems",
+      "webStem": "1.00 Which software process model will you use if you want to deliver different functionalities (modules) of the softwar",
+      "score": 0.36,
+      "method": "words",
+      "status": "partial"
+    },
+    {
+      "examNumber": 84,
+      "topic": "Android",
+      "webStem": "1.00 Identify the lowest layer of Android architecture.",
+      "score": 0.17,
+      "method": "words",
+      "status": "missing"
+    },
+    {
+      "examNumber": 85,
+      "topic": "Security",
+      "webStem": "Notyet enswered Marked dut of l,co Flag questicn Which of the following is not an approach used by IT security specialis",
+      "score": 0.58,
+      "method": "words",
+      "status": "match"
+    },
+    {
+      "examNumber": 86,
+      "topic": "Android",
+      "webStem": "yet answered APK stands tort o o",
+      "score": 0.4,
+      "method": "words",
+      "status": "partial"
+    },
+    {
+      "examNumber": 87,
+      "topic": "Software Engineering",
+      "webStem": "1,00 A techniques for generating plans with conditionals and loops are almost identical to those for generating programs",
+      "score": 0.25,
+      "method": "words",
+      "status": "missing"
+    },
+    {
+      "examNumber": 88,
+      "topic": "Operating Systems",
+      "webStem": "of l.co question Identify the one that comes first in data mining process o o",
+      "score": 0.5,
+      "method": "words",
+      "status": "partial"
+    },
+    {
+      "examNumber": 89,
+      "topic": "Database",
+      "webStem": "1.00 question Which one of the following is an appropriate sequence of database design processes? o b. Logical database ",
+      "score": 0.64,
+      "method": "words",
+      "status": "match"
+    },
+    {
+      "examNumber": 90,
+      "topic": "Software Engineering",
+      "webStem": "Identify the design principle that does not apply to software systems.",
+      "score": 0.5,
+      "method": "words",
+      "status": "partial"
+    },
+    {
+      "examNumber": 91,
+      "topic": "Web Development",
+      "webStem": "Default method while submitting a form is:",
+      "score": 1.0,
+      "method": "prefix",
+      "status": "match"
+    },
+    {
+      "examNumber": 92,
+      "topic": "Software Engineering",
+      "webStem": "Which software process model will you use if you want to deliver different functionalities (modules) of the software pro",
+      "score": 0.36,
+      "method": "words",
+      "status": "partial"
+    },
+    {
+      "examNumber": 93,
+      "topic": "Android",
+      "webStem": "Identify the lowest layer of Android architecture.",
+      "score": 0.17,
+      "method": "words",
+      "status": "missing"
+    },
+    {
+      "examNumber": 94,
+      "topic": "Project Management",
+      "webStem": "Which of the following is a resource optimization technique in which start and finish dates are adjusted based on resour",
+      "score": 0.45,
+      "method": "words",
+      "status": "partial"
+    },
+    {
+      "examNumber": 95,
+      "topic": "Security",
+      "webStem": "Which of the following is not an approach used by IT security specialists to enhance the security level of the network?",
+      "score": 0.5,
+      "method": "words",
+      "status": "partial"
+    },
+    {
+      "examNumber": 96,
+      "topic": "Android",
+      "webStem": "APK stands for:",
+      "score": 0.33,
+      "method": "words",
+      "status": "missing"
+    },
+    {
+      "examNumber": 97,
+      "topic": "AI / ML",
+      "webStem": "A technique for generating plans with conditionals and loops that is almost identical to those for generating programs f",
+      "score": 0.42,
+      "method": "words",
+      "status": "partial"
+    },
+    {
+      "examNumber": 98,
+      "topic": "AI / ML",
+      "webStem": "Identify the one that comes first in the data mining process.",
+      "score": 0.44,
+      "method": "words",
+      "status": "partial"
+    },
+    {
+      "examNumber": 99,
+      "topic": "Database",
+      "webStem": "Which one of the following is an appropriate sequence of database design processes?",
+      "score": 0.56,
+      "method": "words",
+      "status": "match"
+    },
+    {
+      "examNumber": 100,
+      "topic": "Software Engineering",
+      "webStem": "Identify the design principle that does not apply to software systems.",
+      "score": 0.5,
+      "method": "words",
+      "status": "partial"
+    }
+  ],
+  "ocrSample": "10.57 AM 40 P\n\"ul.l '@\nFeb 08,.2024 PM 11.41\nQuestion 42\nNot yet answered\nMarked out of 1,.00\nFlag question\nWhich of the following statement demonstrates supervised learning in artificial intelligence?\na. Reinforcing learning with a reward- based system b: Unlabeled data used t0 train a machine learning model C Learning by observing human behavior D d. Labeled data used to train a machine learning model Clear my choice\nPrevious page\nNext page\nQuiz navigation\n2\n3\n4\n5\n6\n8\nShare\nEdit\nDelete\nMore\n11.59 PM P\nul @2\nQuestion 62\nNot yet answered\nMarked out of 1.00\nFlag question\nDefault method while submitting a form is\na\nSet method\nb_\nPost method\nC\nPut method\nd. Get method\nD\nClear my choice\nPrevious page\nNext page\nQuiz navigation\n2\n3\n4\n5\n6\n7\n8\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n32\n33\n34\n35\n36\n37\n38\n39\n40\n11.12 PM P\nWD\nQuestion 29\nNot yet answered\nMarked out of 1.00\nFlag question\nBusiness people always remodel their business by closely studying their customers' purchasing habits over the course of their purchase history: Accordingly; a salesperson at Markato shop noticed that people who always buy shoes will also buy socks with probability of 0.75 and hence decided to put shoes and socks side by side for ease of accessibility: Which big data analytics technique could this salesperson could employ?\na. Clustering algorithm\nb_\nRegression modeling C Predictive modeling\nd\nAssociation rule\nClear my choice\nPrevious page\nNext page\nQuiz navigation\n2\n3\n4\n5\n7\n8\n10.46 AM a0 P\na\nFeb 08,.2024 PM 11.52\nTime left 1.20.03\nQuestion 56\nNot yet answered\nMarked out of 1.00\nFlag question\nWhich of the following shows the five stages in Tuckman's model of team development, in sequential order?\na\nforming, storming, performing; norming, and adjourning b. norming; forming, storming; performing; and adjourning C storming, forming; norming; performing; and adjourning d forming, storming; norming; performing; and adjourning Clear my choice\nPrevious page\nNext page\nShare\nEdit\nDelete\nMore\n11.20 PM P@\nIlI Gz\nTime left 1.52.03\nQuestion 32\nNot yet answered\nMarked out of 1.00\nFlag question\nWhich one of the following is not true regarding algorithm development during problem solving?\na. Is developed considering the details of the programming language b. Is step ` wise logical description how to solve the problem A C. Is equivalent to the programmirig language code d. Should be developed by considering the platforms on which it runs Clear my choice\nPrevious page\nNext page\nQuiz navigation\n2\n3\n4\n5\n6\n7\n8\n10\n12\n13\n14\n15\n16\nO\n2.01 AM @ P\nT91.l\nFeb 08,.2024 PM 10.50\nTime left 2.21.35\nQuestion 9\nNot yet answered\nMarked out of 1.00\nFlag question\nWhich of the following is the correct order of packet data unit as data moved in the OSI reference model from bottom to top?\na. Segment; frame; packet; bit\nR b. Bit; frame; packet, segment C Bit, packet, frame, segment d. Segment; packet, frame; bit\nClear my choice\nPrevious page\nNext page\nQuiz navigation\n2\n3\n4\n5\n6\n8\nShare\nEdit\nDe"
+}

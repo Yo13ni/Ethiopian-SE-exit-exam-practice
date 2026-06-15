@@ -10,7 +10,7 @@ ROOT = Path(__file__).resolve().parent.parent
 CATALOG = ROOT / "data" / "catalog.json"
 OUT = ROOT / "data" / "subjects.json"
 
-EXAM_ORDER = ["2015", "2016", "2017", "aau", "bdu", "astu", "model1", "moe2025"]
+EXAM_ORDER = ["2015", "2016", "2017", "2018", "aau", "bdu", "astu", "model1", "moe2025"]
 
 SUBJECT_ORDER = [
     "Operating Systems",

@@ -1,8 +1,8 @@
 const EXAM_HOURS_DEFAULT = 3;
 const EXPLAIN_CACHE_VERSION = 11;
 const EXPLAIN_CACHE_VERSION_KEY = "practice_explain_cache_version";
-const CATALOG_VERSION = 23;
-const SUBJECTS_VERSION = 4;
+const CATALOG_VERSION = 24;
+const SUBJECTS_VERSION = 5;
 
 let catalog = null;
 let currentExam = null;

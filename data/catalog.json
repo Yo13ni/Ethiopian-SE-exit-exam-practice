@@ -30,6 +30,17 @@
       "dataRevision": 2
     },
     {
+      "id": "2018",
+      "title": "2018 Software Engineering Exit Exam (Predicted)",
+      "questionsPath": "data/exams/2018/questions.json",
+      "deepPath": "data/exams/2018/deep_explanations.json",
+      "timeLimitHours": 3,
+      "questionCount": 100,
+      "year": "2018",
+      "dataRevision": 1,
+      "predicted": true
+    },
+    {
       "id": "aau",
       "title": "AAU Model Exit Exam",
       "questionsPath": "data/exams/aau/questions.json",

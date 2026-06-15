@@ -1,0 +1,2627 @@
+{
+  "title": "2018 Software Engineering Exit Exam (Predicted)",
+  "source": "Pattern-based prediction from 2015–2017 exams + MoEE blueprint / Exit Notes",
+  "total": 100,
+  "timeLimitHours": 3,
+  "dataRevision": 1,
+  "predicted": true,
+  "focusGuide": {
+    "Fundamentals of Programming": "Loops, operators, debugging, paradigms, and basic programming concepts.",
+    "C++": "Syntax, loops, identifiers, headers, and memory operators.",
+    "Data Structures": "Stacks, queues, trees, graphs, BFS/DFS, hash tables, and Big-O reasoning.",
+    "Java / OOP": "Inheritance, interfaces, encapsulation, polymorphism, and Java keywords.",
+    "Web Development": "HTML/CSS/JS, HTTP methods, status codes, AJAX, and HTTPS.",
+    "Android": "Activity, Intent, Manifest, ViewGroup, and APK components.",
+    "Database": "Keys, normalization, SQL, ER mapping, and ACID properties.",
+    "Operating Systems": "Process states, deadlock, scheduling, paging, and virtual memory.",
+    "Software Engineering": "SDLC, requirements, refactoring, code smells, maintenance, and coupling.",
+    "Software Architecture": "Microservices, API gateway, quality attributes, and design patterns.",
+    "Project Management": "WBS, Gantt, critical path, agile values, and Tuckman stages.",
+    "Software Testing": "Test levels, V&V, black/white box, equivalence partitioning, regression.",
+    "Networking": "OSI layers, TCP/UDP, topologies, DNS, switches vs routers.",
+    "Security": "CIA triad, AES, XSS, firewalls, MFA, malware, and hashing.",
+    "AI / ML": "Supervised vs unsupervised, A*/BFS/UCS, agents, K-means, decision trees."
+  },
+  "questions": [
+    {
+      "topic": "Fundamentals of Programming",
+      "text": "Which of the following is a valid C++ identifier?",
+      "options": [
+        {
+          "key": "A",
+          "text": "2variable"
+        },
+        {
+          "key": "B",
+          "text": "variable-2"
+        },
+        {
+          "key": "C",
+          "text": "_count123"
+        },
+        {
+          "key": "D",
+          "text": "class"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Fundamentals of Programming): Valid identifiers start with letter or underscore",
+      "examNumber": 1,
+      "id": 1
+    },
+    {
+      "topic": "Fundamentals of Programming",
+      "text": "What is the primary purpose of a breakpoint in debugging?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To mark the start of a loop"
+        },
+        {
+          "key": "B",
+          "text": "To pause program execution at a chosen line"
+        },
+        {
+          "key": "C",
+          "text": "To end a function"
+        },
+        {
+          "key": "D",
+          "text": "To indicate a syntax error"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Fundamentals of Programming): Breakpoint pauses execution for inspection",
+      "examNumber": 2,
+      "id": 2
+    },
+    {
+      "topic": "Fundamentals of Programming",
+      "text": "Which programming paradigm focuses on step-by-step instructions and mutable state?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Object-oriented"
+        },
+        {
+          "key": "B",
+          "text": "Procedural"
+        },
+        {
+          "key": "C",
+          "text": "Declarative"
+        },
+        {
+          "key": "D",
+          "text": "Logic"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Fundamentals of Programming): Procedural paradigm",
+      "examNumber": 3,
+      "id": 3
+    },
+    {
+      "topic": "Fundamentals of Programming",
+      "text": "A compiler differs from an interpreter because a compiler:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Executes code line by line at runtime"
+        },
+        {
+          "key": "B",
+          "text": "Translates the entire program before execution"
+        },
+        {
+          "key": "C",
+          "text": "Only checks syntax without producing output"
+        },
+        {
+          "key": "D",
+          "text": "Runs only on web browsers"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Fundamentals of Programming): Compiler translates whole program first",
+      "examNumber": 4,
+      "id": 4
+    },
+    {
+      "topic": "Fundamentals of Programming",
+      "text": "Which type of error is detected by the compiler before the program runs?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Runtime error"
+        },
+        {
+          "key": "B",
+          "text": "Logic error"
+        },
+        {
+          "key": "C",
+          "text": "Syntax error"
+        },
+        {
+          "key": "D",
+          "text": "Semantic error in business rules"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Fundamentals of Programming): Syntax errors caught at compile time",
+      "examNumber": 5,
+      "id": 5
+    },
+    {
+      "topic": "C++",
+      "text": "What is the output of: for(int i=0; i<3; i++) cout << i;",
+      "options": [
+        {
+          "key": "A",
+          "text": "012"
+        },
+        {
+          "key": "B",
+          "text": "123"
+        },
+        {
+          "key": "C",
+          "text": "0123"
+        },
+        {
+          "key": "D",
+          "text": "001"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (C++): Loop prints 0, 1, 2",
+      "examNumber": 6,
+      "id": 6
+    },
+    {
+      "topic": "C++",
+      "text": "Which of the following is NOT a valid C++ variable name?",
+      "options": [
+        {
+          "key": "A",
+          "text": "variable_1234"
+        },
+        {
+          "key": "B",
+          "text": "myVar"
+        },
+        {
+          "key": "C",
+          "text": "64bit"
+        },
+        {
+          "key": "D",
+          "text": "totalScore"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (C++): Identifiers cannot start with a digit",
+      "examNumber": 7,
+      "id": 7
+    },
+    {
+      "topic": "C++",
+      "text": "In C++, which operator is used for dynamic memory allocation?",
+      "options": [
+        {
+          "key": "A",
+          "text": "malloc"
+        },
+        {
+          "key": "B",
+          "text": "new"
+        },
+        {
+          "key": "C",
+          "text": "alloc"
+        },
+        {
+          "key": "D",
+          "text": "create"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (C++): new operator in C++",
+      "examNumber": 8,
+      "id": 8
+    },
+    {
+      "topic": "C++",
+      "text": "Which header file is typically required for cout in C++?",
+      "options": [
+        {
+          "key": "A",
+          "text": "<stdio.h>"
+        },
+        {
+          "key": "B",
+          "text": "<iostream>"
+        },
+        {
+          "key": "C",
+          "text": "<conio.h>"
+        },
+        {
+          "key": "D",
+          "text": "<string.h>"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (C++): iostream for cout",
+      "examNumber": 9,
+      "id": 9
+    },
+    {
+      "topic": "Data Structures",
+      "text": "Which data structure uses LIFO (Last In, First Out) ordering?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Queue"
+        },
+        {
+          "key": "B",
+          "text": "Stack"
+        },
+        {
+          "key": "C",
+          "text": "Binary tree"
+        },
+        {
+          "key": "D",
+          "text": "Graph"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Data Structures): Stack is LIFO",
+      "examNumber": 10,
+      "id": 10
+    },
+    {
+      "topic": "Data Structures",
+      "text": "What is the average time complexity of lookup in a hash table?",
+      "options": [
+        {
+          "key": "A",
+          "text": "O(1)"
+        },
+        {
+          "key": "B",
+          "text": "O(log n)"
+        },
+        {
+          "key": "C",
+          "text": "O(n)"
+        },
+        {
+          "key": "D",
+          "text": "O(n log n)"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Data Structures): Hash table average O(1) lookup",
+      "examNumber": 11,
+      "id": 11
+    },
+    {
+      "topic": "Data Structures",
+      "text": "Suppose you need efficient insertion and deletion with fast average lookup. Which structure fits best?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Stack"
+        },
+        {
+          "key": "B",
+          "text": "Queue"
+        },
+        {
+          "key": "C",
+          "text": "Hash table"
+        },
+        {
+          "key": "D",
+          "text": "Sorted array only"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Data Structures): Hash table for insert/delete/lookup",
+      "examNumber": 12,
+      "id": 12
+    },
+    {
+      "topic": "Data Structures",
+      "text": "Breadth-First Search (BFS) on a graph typically uses which auxiliary structure?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Stack"
+        },
+        {
+          "key": "B",
+          "text": "Queue"
+        },
+        {
+          "key": "C",
+          "text": "Priority queue only"
+        },
+        {
+          "key": "D",
+          "text": "Hash set only"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Data Structures): BFS uses a queue",
+      "examNumber": 13,
+      "id": 13
+    },
+    {
+      "topic": "Data Structures",
+      "text": "What is the time complexity of binary search on a sorted array of n elements?",
+      "options": [
+        {
+          "key": "A",
+          "text": "O(1)"
+        },
+        {
+          "key": "B",
+          "text": "O(log n)"
+        },
+        {
+          "key": "C",
+          "text": "O(n)"
+        },
+        {
+          "key": "D",
+          "text": "O(n²)"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Data Structures): Binary search O(log n)",
+      "examNumber": 14,
+      "id": 14
+    },
+    {
+      "topic": "Data Structures",
+      "text": "Which sorting algorithm has worst-case O(n²) but is simple to implement?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Merge sort"
+        },
+        {
+          "key": "B",
+          "text": "Quick sort (worst case)"
+        },
+        {
+          "key": "C",
+          "text": "Bubble sort"
+        },
+        {
+          "key": "D",
+          "text": "Heap sort"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Data Structures): Bubble sort O(n²)",
+      "examNumber": 15,
+      "id": 15
+    },
+    {
+      "topic": "Java / OOP",
+      "text": "Which OOP principle hides internal object state and exposes controlled access?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Inheritance"
+        },
+        {
+          "key": "B",
+          "text": "Encapsulation"
+        },
+        {
+          "key": "C",
+          "text": "Polymorphism"
+        },
+        {
+          "key": "D",
+          "text": "Abstraction only in interfaces"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Java / OOP): Encapsulation hides state",
+      "examNumber": 16,
+      "id": 16
+    },
+    {
+      "topic": "Java / OOP",
+      "text": "In Java, a class that provides a partial implementation and cannot be instantiated directly is:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Interface"
+        },
+        {
+          "key": "B",
+          "text": "Abstract class"
+        },
+        {
+          "key": "C",
+          "text": "Final class"
+        },
+        {
+          "key": "D",
+          "text": "Static class"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Java / OOP): Abstract class",
+      "examNumber": 17,
+      "id": 17
+    },
+    {
+      "topic": "Java / OOP",
+      "text": "Which keyword in Java prevents a method from being overridden in a subclass?",
+      "options": [
+        {
+          "key": "A",
+          "text": "static"
+        },
+        {
+          "key": "B",
+          "text": "final"
+        },
+        {
+          "key": "C",
+          "text": "abstract"
+        },
+        {
+          "key": "D",
+          "text": "private"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Java / OOP): final methods cannot be overridden",
+      "examNumber": 18,
+      "id": 18
+    },
+    {
+      "topic": "Java / OOP",
+      "text": "Polymorphism allows:",
+      "options": [
+        {
+          "key": "A",
+          "text": "One name, many forms — same interface, different behavior"
+        },
+        {
+          "key": "B",
+          "text": "Only single inheritance"
+        },
+        {
+          "key": "C",
+          "text": "No method overriding"
+        },
+        {
+          "key": "D",
+          "text": "Only compile-time binding"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Java / OOP): Polymorphism — one interface many forms",
+      "examNumber": 19,
+      "id": 19
+    },
+    {
+      "topic": "Java / OOP",
+      "text": "How many times is the catch block executed when multiple exceptions could occur in one try?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Once for each exception"
+        },
+        {
+          "key": "B",
+          "text": "Once regardless of how many exceptions occur"
+        },
+        {
+          "key": "C",
+          "text": "Never if finally exists"
+        },
+        {
+          "key": "D",
+          "text": "Only for checked exceptions"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Java / OOP): Single catch execution per try",
+      "examNumber": 20,
+      "id": 20
+    },
+    {
+      "topic": "Java / OOP",
+      "text": "Which statement about Java interfaces is TRUE?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A class can implement multiple interfaces"
+        },
+        {
+          "key": "B",
+          "text": "A class can extend multiple classes"
+        },
+        {
+          "key": "C",
+          "text": "Interfaces can be instantiated directly"
+        },
+        {
+          "key": "D",
+          "text": "All interface methods must have bodies in Java 8+"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Java / OOP): Multiple interface implementation",
+      "examNumber": 21,
+      "id": 21
+    },
+    {
+      "topic": "Web Development",
+      "text": "Which HTTP method is most appropriate for submitting login credentials?",
+      "options": [
+        {
+          "key": "A",
+          "text": "GET"
+        },
+        {
+          "key": "B",
+          "text": "POST"
+        },
+        {
+          "key": "C",
+          "text": "HEAD"
+        },
+        {
+          "key": "D",
+          "text": "DELETE"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Web Development): POST for form/credential submission",
+      "examNumber": 22,
+      "id": 22
+    },
+    {
+      "topic": "Web Development",
+      "text": "What does HTTP status code 404 indicate?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Server error"
+        },
+        {
+          "key": "B",
+          "text": "Resource not found"
+        },
+        {
+          "key": "C",
+          "text": "Successful creation"
+        },
+        {
+          "key": "D",
+          "text": "Redirect"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Web Development): 404 Not Found",
+      "examNumber": 23,
+      "id": 23
+    },
+    {
+      "topic": "Web Development",
+      "text": "Which technology adds interactivity and dynamic behavior to web pages in the browser?",
+      "options": [
+        {
+          "key": "A",
+          "text": "HTML only"
+        },
+        {
+          "key": "B",
+          "text": "CSS only"
+        },
+        {
+          "key": "C",
+          "text": "JavaScript"
+        },
+        {
+          "key": "D",
+          "text": "FTP"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Web Development): JavaScript for interactivity",
+      "examNumber": 24,
+      "id": 24
+    },
+    {
+      "topic": "Web Development",
+      "text": "AJAX allows a web page to:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Reload entirely for every user action"
+        },
+        {
+          "key": "B",
+          "text": "Update parts of a page asynchronously without full reload"
+        },
+        {
+          "key": "C",
+          "text": "Replace HTML with CSS"
+        },
+        {
+          "key": "D",
+          "text": "Disable HTTP"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Web Development): AJAX asynchronous partial updates",
+      "examNumber": 25,
+      "id": 25
+    },
+    {
+      "topic": "Web Development",
+      "text": "In CSS, which selector targets an element with id=\"header\"?",
+      "options": [
+        {
+          "key": "A",
+          "text": ".header"
+        },
+        {
+          "key": "B",
+          "text": "#header"
+        },
+        {
+          "key": "C",
+          "text": "header:"
+        },
+        {
+          "key": "D",
+          "text": "element.header"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Web Development): # for id selector",
+      "examNumber": 26,
+      "id": 26
+    },
+    {
+      "topic": "Web Development",
+      "text": "HTTPS differs from HTTP primarily because HTTPS:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Uses port 21"
+        },
+        {
+          "key": "B",
+          "text": "Encrypts communication with TLS/SSL"
+        },
+        {
+          "key": "C",
+          "text": "Is stateful by default"
+        },
+        {
+          "key": "D",
+          "text": "Only supports GET"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Web Development): HTTPS adds TLS encryption",
+      "examNumber": 27,
+      "id": 27
+    },
+    {
+      "topic": "Web Development",
+      "text": "Which HTML tag defines the largest heading level?",
+      "options": [
+        {
+          "key": "A",
+          "text": "<h6>"
+        },
+        {
+          "key": "B",
+          "text": "<h1>"
+        },
+        {
+          "key": "C",
+          "text": "<head>"
+        },
+        {
+          "key": "D",
+          "text": "<header>"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Web Development): h1 is largest heading",
+      "examNumber": 28,
+      "id": 28
+    },
+    {
+      "topic": "Android",
+      "text": "Which Android component handles a single screen with a user interface?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Service"
+        },
+        {
+          "key": "B",
+          "text": "Activity"
+        },
+        {
+          "key": "C",
+          "text": "Broadcast Receiver"
+        },
+        {
+          "key": "D",
+          "text": "Content Provider"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Android): Activity = screen UI",
+      "examNumber": 29,
+      "id": 29
+    },
+    {
+      "topic": "Android",
+      "text": "What is an Intent used for in Android?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To encrypt APK files"
+        },
+        {
+          "key": "B",
+          "text": "To request an action from another component"
+        },
+        {
+          "key": "C",
+          "text": "To compile Java to Dalvik"
+        },
+        {
+          "key": "D",
+          "text": "To define CSS layouts"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Android): Intent requests actions",
+      "examNumber": 30,
+      "id": 30
+    },
+    {
+      "topic": "Android",
+      "text": "Which file declares app components, permissions, and package name?",
+      "options": [
+        {
+          "key": "A",
+          "text": "build.gradle"
+        },
+        {
+          "key": "B",
+          "text": "AndroidManifest.xml"
+        },
+        {
+          "key": "C",
+          "text": "activity_main.xml"
+        },
+        {
+          "key": "D",
+          "text": "R.java"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Android): AndroidManifest.xml",
+      "examNumber": 31,
+      "id": 31
+    },
+    {
+      "topic": "Android",
+      "text": "APK stands for:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Android Package Kit"
+        },
+        {
+          "key": "B",
+          "text": "Application Process Kernel"
+        },
+        {
+          "key": "C",
+          "text": "Automated Program Key"
+        },
+        {
+          "key": "D",
+          "text": "Android Protocol Knowledge"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Android): Android Package Kit",
+      "examNumber": 32,
+      "id": 32
+    },
+    {
+      "topic": "Android",
+      "text": "Which class is the base for all UI layout containers in Android?",
+      "options": [
+        {
+          "key": "A",
+          "text": "View"
+        },
+        {
+          "key": "B",
+          "text": "ViewGroup"
+        },
+        {
+          "key": "C",
+          "text": "Fragment only"
+        },
+        {
+          "key": "D",
+          "text": "Service"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Android): ViewGroup for layouts",
+      "examNumber": 33,
+      "id": 33
+    },
+    {
+      "topic": "Database",
+      "text": "Which normal form eliminates partial dependency on a composite primary key?",
+      "options": [
+        {
+          "key": "A",
+          "text": "1NF"
+        },
+        {
+          "key": "B",
+          "text": "2NF"
+        },
+        {
+          "key": "C",
+          "text": "3NF"
+        },
+        {
+          "key": "D",
+          "text": "BCNF only"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Database): 2NF removes partial dependencies",
+      "examNumber": 34,
+      "id": 34
+    },
+    {
+      "topic": "Database",
+      "text": "Which SQL clause filters rows after grouping?",
+      "options": [
+        {
+          "key": "A",
+          "text": "WHERE"
+        },
+        {
+          "key": "B",
+          "text": "HAVING"
+        },
+        {
+          "key": "C",
+          "text": "ORDER BY"
+        },
+        {
+          "key": "D",
+          "text": "GROUP BY"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Database): HAVING filters groups",
+      "examNumber": 35,
+      "id": 35
+    },
+    {
+      "topic": "Database",
+      "text": "A primary key must be:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Nullable and duplicate"
+        },
+        {
+          "key": "B",
+          "text": "Unique and not null"
+        },
+        {
+          "key": "C",
+          "text": "Only composite"
+        },
+        {
+          "key": "D",
+          "text": "Always an integer"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Database): Primary key unique and NOT NULL",
+      "examNumber": 36,
+      "id": 36
+    },
+    {
+      "topic": "Database",
+      "text": "Which property of ACID ensures all operations complete or none do?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Atomicity"
+        },
+        {
+          "key": "B",
+          "text": "Consistency"
+        },
+        {
+          "key": "C",
+          "text": "Isolation"
+        },
+        {
+          "key": "D",
+          "text": "Durability"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Database): Atomicity all-or-nothing",
+      "examNumber": 37,
+      "id": 37
+    },
+    {
+      "topic": "Database",
+      "text": "Which SQL statement retrieves all columns from table Students?",
+      "options": [
+        {
+          "key": "A",
+          "text": "GET * FROM Students"
+        },
+        {
+          "key": "B",
+          "text": "SELECT ALL Students"
+        },
+        {
+          "key": "C",
+          "text": "SELECT * FROM Students"
+        },
+        {
+          "key": "D",
+          "text": "FETCH Students"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Database): SELECT * FROM Students",
+      "examNumber": 38,
+      "id": 38
+    },
+    {
+      "topic": "Database",
+      "text": "In ER modeling, a relationship between Student and Course typically represents:",
+      "options": [
+        {
+          "key": "A",
+          "text": "A weak entity only"
+        },
+        {
+          "key": "B",
+          "text": "Enrollment or association between entities"
+        },
+        {
+          "key": "C",
+          "text": "A derived attribute"
+        },
+        {
+          "key": "D",
+          "text": "A surrogate key only"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Database): Relationship models association",
+      "examNumber": 39,
+      "id": 39
+    },
+    {
+      "topic": "Operating Systems",
+      "text": "Which process state means the process is ready to run but waiting for the CPU?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Running"
+        },
+        {
+          "key": "B",
+          "text": "Ready"
+        },
+        {
+          "key": "C",
+          "text": "Blocked"
+        },
+        {
+          "key": "D",
+          "text": "Terminated"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Operating Systems): Ready state waits for CPU",
+      "examNumber": 40,
+      "id": 40
+    },
+    {
+      "topic": "Operating Systems",
+      "text": "Which condition for deadlock means a resource can be held by only one process at a time?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hold and wait"
+        },
+        {
+          "key": "B",
+          "text": "Mutual exclusion"
+        },
+        {
+          "key": "C",
+          "text": "Circular wait"
+        },
+        {
+          "key": "D",
+          "text": "No preemption"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Operating Systems): Mutual exclusion",
+      "examNumber": 41,
+      "id": 41
+    },
+    {
+      "topic": "Operating Systems",
+      "text": "Which page replacement algorithm may suffer from Belady's anomaly?",
+      "options": [
+        {
+          "key": "A",
+          "text": "FIFO"
+        },
+        {
+          "key": "B",
+          "text": "LRU"
+        },
+        {
+          "key": "C",
+          "text": "Optimal"
+        },
+        {
+          "key": "D",
+          "text": "LFU"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Operating Systems): FIFO Belady anomaly",
+      "examNumber": 42,
+      "id": 42
+    },
+    {
+      "topic": "Operating Systems",
+      "text": "Virtual memory primarily allows:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Faster CPU clock speed"
+        },
+        {
+          "key": "B",
+          "text": "Programs larger than physical RAM to run"
+        },
+        {
+          "key": "C",
+          "text": "Elimination of all I/O"
+        },
+        {
+          "key": "D",
+          "text": "Single-user systems only"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Operating Systems): Virtual memory extends address space",
+      "examNumber": 43,
+      "id": 43
+    },
+    {
+      "topic": "Operating Systems",
+      "text": "Which scheduling algorithm can cause starvation for low-priority processes?",
+      "options": [
+        {
+          "key": "A",
+          "text": "FCFS"
+        },
+        {
+          "key": "B",
+          "text": "Round Robin"
+        },
+        {
+          "key": "C",
+          "text": "Priority scheduling"
+        },
+        {
+          "key": "D",
+          "text": "First-fit memory allocation"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Operating Systems): Priority scheduling starvation",
+      "examNumber": 44,
+      "id": 44
+    },
+    {
+      "topic": "Operating Systems",
+      "text": "A deadlock can be prevented by breaking which condition?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Any one of the four necessary conditions"
+        },
+        {
+          "key": "B",
+          "text": "Only mutual exclusion always"
+        },
+        {
+          "key": "C",
+          "text": "Only circular wait never"
+        },
+        {
+          "key": "D",
+          "text": "Hold and wait cannot be broken"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Operating Systems): Break any deadlock condition",
+      "examNumber": 45,
+      "id": 45
+    },
+    {
+      "topic": "Software Engineering",
+      "text": "Which SDLC model delivers working software in short iterative cycles with frequent feedback?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Waterfall"
+        },
+        {
+          "key": "B",
+          "text": "Agile"
+        },
+        {
+          "key": "C",
+          "text": "Big Bang"
+        },
+        {
+          "key": "D",
+          "text": "Code-and-fix only"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Engineering): Agile iterative delivery",
+      "examNumber": 46,
+      "id": 46
+    },
+    {
+      "topic": "Software Engineering",
+      "text": "Requirements that describe system qualities like performance and security are:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Functional requirements"
+        },
+        {
+          "key": "B",
+          "text": "Non-functional requirements"
+        },
+        {
+          "key": "C",
+          "text": "Use cases only"
+        },
+        {
+          "key": "D",
+          "text": "Design patterns"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Engineering): Non-functional requirements",
+      "examNumber": 47,
+      "id": 47
+    },
+    {
+      "topic": "Software Engineering",
+      "text": "Which maintenance type fixes faults discovered after deployment?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Adaptive"
+        },
+        {
+          "key": "B",
+          "text": "Perfective"
+        },
+        {
+          "key": "C",
+          "text": "Corrective"
+        },
+        {
+          "key": "D",
+          "text": "Preventive only"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Software Engineering): Corrective maintenance",
+      "examNumber": 48,
+      "id": 48
+    },
+    {
+      "topic": "Software Engineering",
+      "text": "A code smell indicates:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Syntax error caught by compiler"
+        },
+        {
+          "key": "B",
+          "text": "A surface symptom of deeper design problem"
+        },
+        {
+          "key": "C",
+          "text": "Successful refactoring"
+        },
+        {
+          "key": "D",
+          "text": "Completed unit test"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Engineering): Code smell signals design issue",
+      "examNumber": 49,
+      "id": 49
+    },
+    {
+      "topic": "Software Engineering",
+      "text": "Refactoring means changing code structure without:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Changing external behavior"
+        },
+        {
+          "key": "B",
+          "text": "Using version control"
+        },
+        {
+          "key": "C",
+          "text": "Writing tests"
+        },
+        {
+          "key": "D",
+          "text": "Reading requirements"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Software Engineering): Refactoring preserves behavior",
+      "examNumber": 50,
+      "id": 50
+    },
+    {
+      "topic": "Software Engineering",
+      "text": "Which SRS quality means requirements can be verified by test or analysis?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ambiguous"
+        },
+        {
+          "key": "B",
+          "text": "Testable"
+        },
+        {
+          "key": "C",
+          "text": "Incomplete"
+        },
+        {
+          "key": "D",
+          "text": "Inconsistent"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Engineering): Testable requirement",
+      "examNumber": 51,
+      "id": 51
+    },
+    {
+      "topic": "Software Engineering",
+      "text": "The spiral model emphasizes:",
+      "options": [
+        {
+          "key": "A",
+          "text": "No risk analysis"
+        },
+        {
+          "key": "B",
+          "text": "Risk-driven iterative development"
+        },
+        {
+          "key": "C",
+          "text": "Single release only"
+        },
+        {
+          "key": "D",
+          "text": "No prototyping"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Engineering): Spiral model risk-driven",
+      "examNumber": 52,
+      "id": 52
+    },
+    {
+      "topic": "Software Engineering",
+      "text": "Which activity belongs to requirements elicitation?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Writing machine code"
+        },
+        {
+          "key": "B",
+          "text": "Interviewing stakeholders to discover needs"
+        },
+        {
+          "key": "C",
+          "text": "Deploying to production"
+        },
+        {
+          "key": "D",
+          "text": "Replacing hardware"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Engineering): Elicitation discovers needs",
+      "examNumber": 53,
+      "id": 53
+    },
+    {
+      "topic": "Software Engineering",
+      "text": "Change control in requirements management ensures:",
+      "options": [
+        {
+          "key": "A",
+          "text": "All changes are ignored"
+        },
+        {
+          "key": "B",
+          "text": "Changes are evaluated, approved, and tracked"
+        },
+        {
+          "key": "C",
+          "text": "Only developers change scope freely"
+        },
+        {
+          "key": "D",
+          "text": "Testing is skipped"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Engineering): Controlled change management",
+      "examNumber": 54,
+      "id": 54
+    },
+    {
+      "topic": "Software Engineering",
+      "text": "Technical debt refers to:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Money owed to cloud providers"
+        },
+        {
+          "key": "B",
+          "text": "Future cost of expedient shortcuts in design/code"
+        },
+        {
+          "key": "C",
+          "text": "Hardware loan agreements"
+        },
+        {
+          "key": "D",
+          "text": "Open-source licensing fees"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Engineering): Technical debt future rework cost",
+      "examNumber": 55,
+      "id": 55
+    },
+    {
+      "topic": "Software Engineering",
+      "text": "Which document describes WHAT the system should do from the user's perspective?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Source code"
+        },
+        {
+          "key": "B",
+          "text": "Requirements specification"
+        },
+        {
+          "key": "C",
+          "text": "Machine binary"
+        },
+        {
+          "key": "D",
+          "text": "Network topology diagram"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Engineering): Requirements specify what",
+      "examNumber": 56,
+      "id": 56
+    },
+    {
+      "topic": "Software Engineering",
+      "text": "Preventive maintenance aims to:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Fix user-reported bugs only"
+        },
+        {
+          "key": "B",
+          "text": "Prevent future problems through proactive changes"
+        },
+        {
+          "key": "C",
+          "text": "Add unrelated features"
+        },
+        {
+          "key": "D",
+          "text": "Remove all documentation"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Engineering): Preventive maintenance proactive",
+      "examNumber": 57,
+      "id": 57
+    },
+    {
+      "topic": "Software Engineering",
+      "text": "Coupling measures:",
+      "options": [
+        {
+          "key": "A",
+          "text": "How strongly modules depend on each other"
+        },
+        {
+          "key": "B",
+          "text": "Lines of code only"
+        },
+        {
+          "key": "C",
+          "text": "CPU utilization"
+        },
+        {
+          "key": "D",
+          "text": "Screen resolution"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Software Engineering): Coupling inter-module dependency",
+      "examNumber": 58,
+      "id": 58
+    },
+    {
+      "topic": "Software Engineering",
+      "text": "Cohesion measures:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Degree to which elements within a module belong together"
+        },
+        {
+          "key": "B",
+          "text": "Network bandwidth"
+        },
+        {
+          "key": "C",
+          "text": "Number of programmers"
+        },
+        {
+          "key": "D",
+          "text": "Database size"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Software Engineering): Cohesion intra-module unity",
+      "examNumber": 59,
+      "id": 59
+    },
+    {
+      "topic": "Software Engineering",
+      "text": "Which is a functional requirement example?",
+      "options": [
+        {
+          "key": "A",
+          "text": "System shall respond within 2 seconds"
+        },
+        {
+          "key": "B",
+          "text": "System shall allow users to reset password"
+        },
+        {
+          "key": "C",
+          "text": "System shall use AES-256"
+        },
+        {
+          "key": "D",
+          "text": "System shall run on Linux"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Engineering): Password reset is functional",
+      "examNumber": 60,
+      "id": 60
+    },
+    {
+      "topic": "Software Engineering",
+      "text": "Software reengineering differs from replacement because reengineering:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Starts from scratch always"
+        },
+        {
+          "key": "B",
+          "text": "Improves existing system while preserving essential behavior"
+        },
+        {
+          "key": "C",
+          "text": "Eliminates all testing"
+        },
+        {
+          "key": "D",
+          "text": "Removes all users"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Engineering): Reengineering improves existing system",
+      "examNumber": 61,
+      "id": 61
+    },
+    {
+      "topic": "Software Architecture",
+      "text": "Which architectural style splits a system into independent deployable services?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Monolithic"
+        },
+        {
+          "key": "B",
+          "text": "Microservices"
+        },
+        {
+          "key": "C",
+          "text": "Single-tier only"
+        },
+        {
+          "key": "D",
+          "text": "Flat file system"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Architecture): Microservices architecture",
+      "examNumber": 62,
+      "id": 62
+    },
+    {
+      "topic": "Software Architecture",
+      "text": "An API gateway in microservices primarily:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Stores all database records"
+        },
+        {
+          "key": "B",
+          "text": "Routes and aggregates client requests to backend services"
+        },
+        {
+          "key": "C",
+          "text": "Replaces the OS kernel"
+        },
+        {
+          "key": "D",
+          "text": "Compiles Java source"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Architecture): API gateway routes requests",
+      "examNumber": 63,
+      "id": 63
+    },
+    {
+      "topic": "Software Architecture",
+      "text": "Which quality attribute measures ability to handle increased load?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Scalability"
+        },
+        {
+          "key": "B",
+          "text": "Portability only"
+        },
+        {
+          "key": "C",
+          "text": "Usability only"
+        },
+        {
+          "key": "D",
+          "text": "Localization"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Software Architecture): Scalability under load",
+      "examNumber": 64,
+      "id": 64
+    },
+    {
+      "topic": "Software Architecture",
+      "text": "Layered architecture organizes the system into:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Random modules"
+        },
+        {
+          "key": "B",
+          "text": "Hierarchical layers with defined dependencies"
+        },
+        {
+          "key": "C",
+          "text": "No interfaces"
+        },
+        {
+          "key": "D",
+          "text": "Only hardware layers"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Architecture): Layered hierarchical structure",
+      "examNumber": 65,
+      "id": 65
+    },
+    {
+      "topic": "Software Architecture",
+      "text": "The Singleton design pattern ensures:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Many instances of a class"
+        },
+        {
+          "key": "B",
+          "text": "Exactly one instance of a class"
+        },
+        {
+          "key": "C",
+          "text": "No constructors"
+        },
+        {
+          "key": "D",
+          "text": "Only static methods forbidden"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Architecture): Singleton one instance",
+      "examNumber": 66,
+      "id": 66
+    },
+    {
+      "topic": "Project Management",
+      "text": "Work Breakdown Structure (WBS) is used to:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Decompose project work into manageable components"
+        },
+        {
+          "key": "B",
+          "text": "Replace all testing"
+        },
+        {
+          "key": "C",
+          "text": "Encrypt project files"
+        },
+        {
+          "key": "D",
+          "text": "Define network protocols"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Project Management): WBS decomposes work",
+      "examNumber": 67,
+      "id": 67
+    },
+    {
+      "topic": "Project Management",
+      "text": "Critical Path Method (CPM) identifies:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Longest sequence of dependent tasks determining minimum project duration"
+        },
+        {
+          "key": "B",
+          "text": "Shortest unrelated tasks"
+        },
+        {
+          "key": "C",
+          "text": "Only optional tasks"
+        },
+        {
+          "key": "D",
+          "text": "Hardware failures"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Project Management): Critical path minimum duration",
+      "examNumber": 68,
+      "id": 68
+    },
+    {
+      "topic": "Project Management",
+      "text": "In agile, which value is preferred over following a fixed plan?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Processes over people"
+        },
+        {
+          "key": "B",
+          "text": "Responding to change"
+        },
+        {
+          "key": "C",
+          "text": "Contract negotiation over collaboration"
+        },
+        {
+          "key": "D",
+          "text": "Documentation over software"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Project Management): Agile values responding to change",
+      "examNumber": 69,
+      "id": 69
+    },
+    {
+      "topic": "Project Management",
+      "text": "Resource leveling in project scheduling aims to:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Eliminate all resources"
+        },
+        {
+          "key": "B",
+          "text": "Resolve over-allocation by adjusting task timing"
+        },
+        {
+          "key": "C",
+          "text": "Skip the critical path"
+        },
+        {
+          "key": "D",
+          "text": "Remove the WBS"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Project Management): Resource leveling resolves over-allocation",
+      "examNumber": 70,
+      "id": 70
+    },
+    {
+      "topic": "Project Management",
+      "text": "ROI (Return on Investment) measures:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Network latency"
+        },
+        {
+          "key": "B",
+          "text": "Financial gain relative to cost"
+        },
+        {
+          "key": "C",
+          "text": "Lines of code"
+        },
+        {
+          "key": "D",
+          "text": "Number of meetings"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Project Management): ROI financial return vs cost",
+      "examNumber": 71,
+      "id": 71
+    },
+    {
+      "topic": "Project Management",
+      "text": "Tuckman's team development stages include:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Design, code, test, deploy only"
+        },
+        {
+          "key": "B",
+          "text": "Forming, storming, norming, performing"
+        },
+        {
+          "key": "C",
+          "text": "Compile, link, run only"
+        },
+        {
+          "key": "D",
+          "text": "TCP, UDP, IP only"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Project Management): Tuckman team stages",
+      "examNumber": 72,
+      "id": 72
+    },
+    {
+      "topic": "Software Testing",
+      "text": "Which test level verifies interactions between integrated modules?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Unit testing"
+        },
+        {
+          "key": "B",
+          "text": "Integration testing"
+        },
+        {
+          "key": "C",
+          "text": "Acceptance testing only"
+        },
+        {
+          "key": "D",
+          "text": "Hardware testing"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Testing): Integration testing module interactions",
+      "examNumber": 73,
+      "id": 73
+    },
+    {
+      "topic": "Software Testing",
+      "text": "Black-box testing focuses on:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Internal code structure only"
+        },
+        {
+          "key": "B",
+          "text": "Inputs and expected outputs without knowing implementation"
+        },
+        {
+          "key": "C",
+          "text": "Compiler internals"
+        },
+        {
+          "key": "D",
+          "text": "CPU registers only"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Testing): Black-box I/O behavior",
+      "examNumber": 74,
+      "id": 74
+    },
+    {
+      "topic": "Software Testing",
+      "text": "Equivalence partitioning divides:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Project budget"
+        },
+        {
+          "key": "B",
+          "text": "Input domain into classes expected to behave similarly"
+        },
+        {
+          "key": "C",
+          "text": "Network cables"
+        },
+        {
+          "key": "D",
+          "text": "Team members"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Testing): Equivalence partitioning input classes",
+      "examNumber": 75,
+      "id": 75
+    },
+    {
+      "topic": "Software Testing",
+      "text": "Verification asks: 'Are we building the product right?' Validation asks:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Are we building the right product?"
+        },
+        {
+          "key": "B",
+          "text": "Are we using Java?"
+        },
+        {
+          "key": "C",
+          "text": "Is the network fast?"
+        },
+        {
+          "key": "D",
+          "text": "Is HTML valid?"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Software Testing): Validation — right product",
+      "examNumber": 76,
+      "id": 76
+    },
+    {
+      "topic": "Software Testing",
+      "text": "Regression testing ensures:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Old bugs never fixed"
+        },
+        {
+          "key": "B",
+          "text": "New changes have not broken existing functionality"
+        },
+        {
+          "key": "C",
+          "text": "Only new features work once"
+        },
+        {
+          "key": "D",
+          "text": "Users never test"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Testing): Regression detects new breakage",
+      "examNumber": 77,
+      "id": 77
+    },
+    {
+      "topic": "Networking",
+      "text": "Which OSI layer handles routing and logical addressing?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Physical"
+        },
+        {
+          "key": "B",
+          "text": "Data Link"
+        },
+        {
+          "key": "C",
+          "text": "Network"
+        },
+        {
+          "key": "D",
+          "text": "Application"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Networking): Network layer routing",
+      "examNumber": 78,
+      "id": 78
+    },
+    {
+      "topic": "Networking",
+      "text": "A switch operates primarily at which OSI layer?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Layer 1 only"
+        },
+        {
+          "key": "B",
+          "text": "Layer 2 (Data Link)"
+        },
+        {
+          "key": "C",
+          "text": "Layer 7 only"
+        },
+        {
+          "key": "D",
+          "text": "Layer 5 only"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Networking): Switch at Layer 2",
+      "examNumber": 79,
+      "id": 79
+    },
+    {
+      "topic": "Networking",
+      "text": "Which topology provides the highest redundancy through multiple paths?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Bus"
+        },
+        {
+          "key": "B",
+          "text": "Star"
+        },
+        {
+          "key": "C",
+          "text": "Mesh"
+        },
+        {
+          "key": "D",
+          "text": "Linear"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Networking): Mesh high redundancy",
+      "examNumber": 80,
+      "id": 80
+    },
+    {
+      "topic": "Networking",
+      "text": "TCP is connection-oriented and reliable; UDP is:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Connectionless and best-effort"
+        },
+        {
+          "key": "B",
+          "text": "Always encrypted"
+        },
+        {
+          "key": "C",
+          "text": "Used only for email"
+        },
+        {
+          "key": "D",
+          "text": "Layer 1 protocol"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Networking): UDP connectionless best-effort",
+      "examNumber": 81,
+      "id": 81
+    },
+    {
+      "topic": "Networking",
+      "text": "The three-way handshake (SYN, SYN-ACK, ACK) establishes:",
+      "options": [
+        {
+          "key": "A",
+          "text": "DNS resolution"
+        },
+        {
+          "key": "B",
+          "text": "TCP connection"
+        },
+        {
+          "key": "C",
+          "text": "UDP session"
+        },
+        {
+          "key": "D",
+          "text": "HTTP cookie"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Networking): TCP three-way handshake",
+      "examNumber": 82,
+      "id": 82
+    },
+    {
+      "topic": "Networking",
+      "text": "DNS primarily translates:",
+      "options": [
+        {
+          "key": "A",
+          "text": "MAC addresses to IP"
+        },
+        {
+          "key": "B",
+          "text": "Domain names to IP addresses"
+        },
+        {
+          "key": "C",
+          "text": "IP to port numbers"
+        },
+        {
+          "key": "D",
+          "text": "HTML to CSS"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Networking): DNS name to IP",
+      "examNumber": 83,
+      "id": 83
+    },
+    {
+      "topic": "Networking",
+      "text": "Which device connects different networks and uses IP addresses for forwarding?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hub"
+        },
+        {
+          "key": "B",
+          "text": "Repeater"
+        },
+        {
+          "key": "C",
+          "text": "Router"
+        },
+        {
+          "key": "D",
+          "text": "Bridge only within same network"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Networking): Router connects networks",
+      "examNumber": 84,
+      "id": 84
+    },
+    {
+      "topic": "Security",
+      "text": "The CIA triad stands for Confidentiality, Integrity, and:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Availability"
+        },
+        {
+          "key": "B",
+          "text": "Authentication only"
+        },
+        {
+          "key": "C",
+          "text": "Anonymity"
+        },
+        {
+          "key": "D",
+          "text": "Accounting"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Security): CIA — Availability",
+      "examNumber": 85,
+      "id": 85
+    },
+    {
+      "topic": "Security",
+      "text": "Which encryption algorithm is commonly used to secure data at rest in databases?",
+      "options": [
+        {
+          "key": "A",
+          "text": "AES"
+        },
+        {
+          "key": "B",
+          "text": "ICMP"
+        },
+        {
+          "key": "C",
+          "text": "ARP"
+        },
+        {
+          "key": "D",
+          "text": "HTTP"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Security): AES for data at rest",
+      "examNumber": 86,
+      "id": 86
+    },
+    {
+      "topic": "Security",
+      "text": "Cross-Site Scripting (XSS) allows an attacker to:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Inject malicious scripts into web pages viewed by others"
+        },
+        {
+          "key": "B",
+          "text": "Physically steal servers"
+        },
+        {
+          "key": "C",
+          "text": "Replace CPU firmware only"
+        },
+        {
+          "key": "D",
+          "text": "Disable DNS permanently"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Security): XSS injects scripts",
+      "examNumber": 87,
+      "id": 87
+    },
+    {
+      "topic": "Security",
+      "text": "A firewall primarily:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Compiles source code"
+        },
+        {
+          "key": "B",
+          "text": "Filters network traffic based on rules"
+        },
+        {
+          "key": "C",
+          "text": "Formats hard drives"
+        },
+        {
+          "key": "D",
+          "text": "Runs unit tests"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Security): Firewall filters traffic",
+      "examNumber": 88,
+      "id": 88
+    },
+    {
+      "topic": "Security",
+      "text": "Multi-Factor Authentication (MFA) requires:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Only one factor"
+        },
+        {
+          "key": "B",
+          "text": "Two or more independent verification factors"
+        },
+        {
+          "key": "C",
+          "text": "No passwords ever"
+        },
+        {
+          "key": "D",
+          "text": "Only biometric data"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Security): MFA multiple factors",
+      "examNumber": 89,
+      "id": 89
+    },
+    {
+      "topic": "Security",
+      "text": "Malware that encrypts files and demands payment is typically:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Ransomware"
+        },
+        {
+          "key": "B",
+          "text": "Adware only"
+        },
+        {
+          "key": "C",
+          "text": "Browser cache"
+        },
+        {
+          "key": "D",
+          "text": "Open-source license"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Security): Ransomware encryption extortion",
+      "examNumber": 90,
+      "id": 90
+    },
+    {
+      "topic": "Security",
+      "text": "Hashing (e.g., SHA-256) is primarily used for:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Reversible encryption of bulk data"
+        },
+        {
+          "key": "B",
+          "text": "Integrity verification — detecting tampering"
+        },
+        {
+          "key": "C",
+          "text": "Routing packets"
+        },
+        {
+          "key": "D",
+          "text": "DNS lookup"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Security): Hashing for integrity",
+      "examNumber": 91,
+      "id": 91
+    },
+    {
+      "topic": "AI / ML",
+      "text": "Which type of machine learning uses labeled training data?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Unsupervised learning"
+        },
+        {
+          "key": "B",
+          "text": "Supervised learning"
+        },
+        {
+          "key": "C",
+          "text": "Clustering only"
+        },
+        {
+          "key": "D",
+          "text": "Expert system inference only"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (AI / ML): Supervised learning labeled data",
+      "examNumber": 92,
+      "id": 92
+    },
+    {
+      "topic": "AI / ML",
+      "text": "A* search is considered informed because it uses:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Random choices only"
+        },
+        {
+          "key": "B",
+          "text": "A heuristic estimate toward the goal"
+        },
+        {
+          "key": "C",
+          "text": "No cost function"
+        },
+        {
+          "key": "D",
+          "text": "Only depth-first expansion"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (AI / ML): A* uses heuristic",
+      "examNumber": 93,
+      "id": 93
+    },
+    {
+      "topic": "AI / ML",
+      "text": "K-means is an example of:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Supervised classification"
+        },
+        {
+          "key": "B",
+          "text": "Unsupervised clustering"
+        },
+        {
+          "key": "C",
+          "text": "Reinforcement learning"
+        },
+        {
+          "key": "D",
+          "text": "Logic programming"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (AI / ML): K-means clustering",
+      "examNumber": 94,
+      "id": 94
+    },
+    {
+      "topic": "AI / ML",
+      "text": "Which search strategy explores the shallowest nodes first?",
+      "options": [
+        {
+          "key": "A",
+          "text": "DFS"
+        },
+        {
+          "key": "B",
+          "text": "BFS"
+        },
+        {
+          "key": "C",
+          "text": "Greedy best-first only"
+        },
+        {
+          "key": "D",
+          "text": "Hill climbing only"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (AI / ML): BFS shallowest first",
+      "examNumber": 95,
+      "id": 95
+    },
+    {
+      "topic": "AI / ML",
+      "text": "An intelligent agent perceives its environment through:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Sensors and acts through actuators"
+        },
+        {
+          "key": "B",
+          "text": "Only human operators"
+        },
+        {
+          "key": "C",
+          "text": "Compilers"
+        },
+        {
+          "key": "D",
+          "text": "CSS selectors"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (AI / ML): Agent sensors and actuators",
+      "examNumber": 96,
+      "id": 96
+    },
+    {
+      "topic": "AI / ML",
+      "text": "Decision trees are commonly used for:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Classification and regression"
+        },
+        {
+          "key": "B",
+          "text": "Network routing only"
+        },
+        {
+          "key": "C",
+          "text": "Memory paging"
+        },
+        {
+          "key": "D",
+          "text": "HTML parsing only"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (AI / ML): Decision trees classification/regression",
+      "examNumber": 97,
+      "id": 97
+    },
+    {
+      "topic": "AI / ML",
+      "text": "Overfitting occurs when a model:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Performs well on training data but poorly on new data"
+        },
+        {
+          "key": "B",
+          "text": "Never learns training data"
+        },
+        {
+          "key": "C",
+          "text": "Has no parameters"
+        },
+        {
+          "key": "D",
+          "text": "Uses no training data"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (AI / ML): Overfitting poor generalization",
+      "examNumber": 98,
+      "id": 98
+    },
+    {
+      "topic": "AI / ML",
+      "text": "Expert systems often represent knowledge using:",
+      "options": [
+        {
+          "key": "A",
+          "text": "If-then rules"
+        },
+        {
+          "key": "B",
+          "text": "Only binary images"
+        },
+        {
+          "key": "C",
+          "text": "TCP headers"
+        },
+        {
+          "key": "D",
+          "text": "SQL joins only"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (AI / ML): Expert systems rule bases",
+      "examNumber": 99,
+      "id": 99
+    },
+    {
+      "topic": "AI / ML",
+      "text": "Uniform Cost Search expands nodes in order of:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Heuristic estimate only"
+        },
+        {
+          "key": "B",
+          "text": "Path cost from the start"
+        },
+        {
+          "key": "C",
+          "text": "Random order"
+        },
+        {
+          "key": "D",
+          "text": "Alphabetical node names"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (AI / ML): UCS by path cost",
+      "examNumber": 100,
+      "id": 100
+    }
+  ]
+}

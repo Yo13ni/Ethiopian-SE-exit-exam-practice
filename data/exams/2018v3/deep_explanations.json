@@ -1,0 +1,1102 @@
+{
+  "1": {
+    "overview": "Which concept means solving a problem by breaking it into smaller subproblems with clear steps? Eliminate distractors that confuse related Fundamentals of Programming terms before picking A.\n\n✅ Answer: A — Algorithmic decomposition",
+    "options": {
+      "A": "✓ CORRECT. 'Algorithmic decomposition' is the correct answer — it directly addresses the specific concept tested in this question in Fundamentals of Programming.",
+      "B": "✗ Not the answer. 'Memory paging' does not fit the scenario: Which concept means solving a problem by breaking it into smaller subproblems with clear steps? The keyed answer is A — Algorithmic decomposition.",
+      "C": "✗ Not the answer. 'Socket tunneling' does not fit the scenario: Which concept means solving a problem by breaking it into smaller subproblems with clear steps? The keyed answer is A — Algorithmic decomposition.",
+      "D": "✗ Not the answer. 'UI theming' does not fit the scenario: Which concept means solving a problem by breaking it into smaller subproblems with clear steps? The keyed answer is A — Algorithmic decomposition."
+    },
+    "studyTip": "Review Fundamentals of Programming notes and redo this question in Review mode.",
+    "source": "offline-deep"
+  },
+  "2": {
+    "overview": "Why does modular programming improve teamwork in large projects? Eliminate distractors that confuse related Fundamentals of Programming terms before picking A.\n\n✅ Answer: A — Different members can own and test independent modules",
+    "options": {
+      "A": "✓ CORRECT. 'Different members can own and test independent modules' is the correct answer — it directly addresses the specific concept tested in this question in Fundamentals of Programming.",
+      "B": "✗ Not the answer. 'It removes need for interfaces' does not fit the scenario: Why does modular programming improve teamwork in large projects? The keyed answer is A — Different members can own and test independent modules.",
+      "C": "✗ Not the answer. 'It forces one person to edit all files' does not fit the scenario: Why does modular programming improve teamwork in large projects? The keyed answer is A — Different members can own and test independent modules.",
+      "D": "✗ Not the answer. 'It prevents integration' does not fit the scenario: Why does modular programming improve teamwork in large projects? The keyed answer is A — Different members can own and test independent modules."
+    },
+    "studyTip": "Review Fundamentals of Programming notes and redo this question in Review mode.",
+    "source": "offline-deep"
+  },
+  "3": {
+    "overview": "Why should sentinel values be chosen carefully in input loops? Eliminate distractors that confuse related Fundamentals of Programming terms before picking A.\n\n✅ Answer: A — A sentinel conflicting with valid data can terminate processing incorrectly",
+    "options": {
+      "A": "✓ CORRECT. 'A sentinel conflicting with valid data can terminate processing incorrectly' is the correct answer — it directly addresses the specific concept tested in this question in Fundamentals of Programming.",
+      "B": "✗ Not the answer. 'Sentinels speed CPU clock' does not fit the scenario: Why should sentinel values be chosen carefully in input loops? The keyed answer is A — A sentinel conflicting with valid data can terminate processing incorrectly.",
+      "C": "✗ Not the answer. 'Sentinels replace error handling' does not fit the scenario: Why should sentinel values be chosen carefully in input loops? The keyed answer is A — A sentinel conflicting with valid data can terminate processing incorrectly.",
+      "D": "✗ Not the answer. 'Sentinels are required only in recursion' does not fit the scenario: Why should sentinel values be chosen carefully in input loops? The keyed answer is A — A sentinel conflicting with valid data can terminate processing incorrectly."
+    },
+    "studyTip": "Review Fundamentals of Programming notes and redo this question in Review mode.",
+    "source": "offline-deep"
+  },
+  "4": {
+    "overview": "Given n=4 and loop for(i=1;i<=n;i++) sum+=i*i, what is final sum? Eliminate distractors that confuse related Fundamentals of Programming terms before picking C.\n\n✅ Answer: C — 30",
+    "options": {
+      "A": "✗ Not the answer. '16' does not fit the scenario: Given n=4 and loop for(i=1;i<=n;i++) sum+=i*i, what is final sum? The keyed answer is C — 30.",
+      "B": "✗ Not the answer. '20' does not fit the scenario: Given n=4 and loop for(i=1;i<=n;i++) sum+=i*i, what is final sum? The keyed answer is C — 30.",
+      "C": "✓ CORRECT. '30' is the correct answer — it directly addresses the specific concept tested in this question in Fundamentals of Programming.",
+      "D": "✗ Not the answer. '40' does not fit the scenario: Given n=4 and loop for(i=1;i<=n;i++) sum+=i*i, what is final sum? The keyed answer is C — 30."
+    },
+    "studyTip": "Review Fundamentals of Programming notes and redo this question in Review mode.",
+    "source": "offline-deep"
+  },
+  "5": {
+    "overview": "An algorithm needs to process each student's mark once and compute average. Which complexity target is most appropriate? Eliminate distractors that confuse related Fundamentals of Programming terms before picking C.\n\n✅ Answer: C — O(n)",
+    "options": {
+      "A": "✗ Not the answer. O(1) means constant time — impossible when the expression contains n and n² terms.",
+      "B": "✗ Not the answer. O(log n) describes logarithmic growth — the slowest class among typical terms. In this expression, higher-order terms like n² dominate, so the order is not logarithmic.",
+      "C": "✓ CORRECT. 'O(n)' matches the dominant growth rate of the expression. Identify the fastest-growing term, drop constants, and express in Big-O notation.",
+      "D": "✗ Not the answer. O(n^2) would be correct only if n² were absent or not dominant. Compare growth rates: n² overtakes n and n log n for large n."
+    },
+    "studyTip": "Review Fundamentals of Programming notes and redo this question in Review mode.",
+    "source": "offline-deep"
+  },
+  "6": {
+    "overview": "A town internet bill formula changed often due to policy updates. Which program structure best supports this? Eliminate distractors that confuse related Fundamentals of Programming terms before picking A.\n\n✅ Answer: A — Externalize rules into configurable policy module",
+    "options": {
+      "A": "✓ CORRECT. 'Externalize rules into configurable policy module' is the correct answer — it directly addresses the specific concept tested in this question in Fundamentals of Programming.",
+      "B": "✗ Not the answer. 'Hardcode values in multiple functions' does not fit the scenario: A town internet bill formula changed often due to policy updates. Which program structure best supports this? The keyed answer is A — Externalize rules into configurable policy module.",
+      "C": "✗ Not the answer. 'Use only global variables' does not fit the scenario: A town internet bill formula changed often due to policy updates. Which program structure best supports this? The keyed answer is A — Externalize rules into configurable policy module.",
+      "D": "✗ Not the answer. 'Duplicate billing logic per screen' does not fit the scenario: A town internet bill formula changed often due to policy updates. Which program structure best supports this? The keyed answer is A — Externalize rules into configurable policy module."
+    },
+    "studyTip": "Review Fundamentals of Programming notes and redo this question in Review mode.",
+    "source": "offline-deep"
+  },
+  "7": {
+    "overview": "Create the best input-validation flow for exam marks entered by operators. Eliminate distractors that confuse related Fundamentals of Programming terms before picking A.\n\n✅ Answer: A — Validate range/type, show specific errors, and reject invalid submissions",
+    "options": {
+      "A": "✓ CORRECT. 'Validate range/type, show specific errors, and reject invalid submissions' is the correct answer — it directly addresses the specific concept tested in this question in Fundamentals of Programming.",
+      "B": "✗ Not the answer. 'Accept all values including text and negatives' does not fit the scenario: Create the best input-validation flow for exam marks entered by operators. The keyed answer is A — Validate range/type, show specific errors, and reject invalid submissions.",
+      "C": "✗ Not the answer. 'Crash on first invalid record' does not fit the scenario: Create the best input-validation flow for exam marks entered by operators. The keyed answer is A — Validate range/type, show specific errors, and reject invalid submissions.",
+      "D": "✗ Not the answer. 'Silently round all marks to nearest pass' does not fit the scenario: Create the best input-validation flow for exam marks entered by operators. The keyed answer is A — Validate range/type, show specific errors, and reject invalid submissions."
+    },
+    "studyTip": "Review Fundamentals of Programming notes and redo this question in Review mode.",
+    "source": "offline-deep"
+  },
+  "8": {
+    "overview": "Which header is needed for `std::vector`? Eliminate distractors that confuse related C++ terms before picking B.\n\n✅ Answer: B — <vector>",
+    "options": {
+      "A": "✗ Not the answer. '<map>' does not fit the scenario: Which header is needed for `std::vector`? The keyed answer is B — <vector>.",
+      "B": "✓ CORRECT. '<vector>' is the correct answer — it directly addresses the specific concept tested in this question in C++.",
+      "C": "✗ Not the answer. '<array>' does not fit the scenario: Which header is needed for `std::vector`? The keyed answer is B — <vector>.",
+      "D": "✗ Not the answer. '<cstring>' does not fit the scenario: Which header is needed for `std::vector`? The keyed answer is B — <vector>."
+    },
+    "studyTip": "Trace small code fragments and validate syntax against C++ compilation rules.",
+    "source": "offline-deep"
+  },
+  "9": {
+    "overview": "Why does RAII reduce memory leaks in C++ applications? Eliminate distractors that confuse related C++ terms before picking A.\n\n✅ Answer: A — Resources are tied to object lifetime and released automatically",
+    "options": {
+      "A": "✓ CORRECT. 'Resources are tied to object lifetime and released automatically' is the correct answer — it directly addresses the specific concept tested in this question in C++.",
+      "B": "✗ Not the answer. 'It disables destructors' does not fit the scenario: Why does RAII reduce memory leaks in C++ applications? The keyed answer is A — Resources are tied to object lifetime and released automatically.",
+      "C": "✗ Not the answer. 'It requires manual free() everywhere' does not fit the scenario: Why does RAII reduce memory leaks in C++ applications? The keyed answer is A — Resources are tied to object lifetime and released automatically.",
+      "D": "✗ Not the answer. 'It avoids constructors' does not fit the scenario: Why does RAII reduce memory leaks in C++ applications? The keyed answer is A — Resources are tied to object lifetime and released automatically."
+    },
+    "studyTip": "Trace small code fragments and validate syntax against C++ compilation rules.",
+    "source": "offline-deep"
+  },
+  "10": {
+    "overview": "This C++ question tests tracing code execution to determine printed output. The correct choice is C — 9.\n\n✅ Answer: C — 9",
+    "options": {
+      "A": "✗ Not the answer. If the program printed 5, a different branch or calculation would execute. Trace the code line-by-line with the given inputs to verify the output is 9.",
+      "B": "✗ Not the answer. If the program printed 6, a different branch or calculation would execute. Trace the code line-by-line with the given inputs to verify the output is 9.",
+      "C": "✓ CORRECT. '9' is the correct answer — it directly addresses tracing code execution to determine printed output in C++.",
+      "D": "✗ Not the answer. If the program printed 12, a different branch or calculation would execute. Trace the code line-by-line with the given inputs to verify the output is 9."
+    },
+    "studyTip": "Trace small code fragments and validate syntax against C++ compilation rules.",
+    "source": "offline-deep"
+  },
+  "11": {
+    "overview": "A codebase has many if/else branches to choose payment processor and grows every semester. What redesign is best? Eliminate distractors that confuse related C++ terms before picking A.\n\n✅ Answer: A — Use polymorphic strategy classes selected at runtime",
+    "options": {
+      "A": "✓ CORRECT. 'Use polymorphic strategy classes selected at runtime' is the correct answer — it directly addresses the specific concept tested in this question in C++.",
+      "B": "✗ Not the answer. 'Keep adding nested if/else blocks' does not fit the scenario: A codebase has many if/else branches to choose payment processor and grows every semester. What redesign is best? The keyed answer is A — Use polymorphic strategy classes selected at runtime.",
+      "C": "✗ Not the answer. 'Use macros for all business logic' does not fit the scenario: A codebase has many if/else branches to choose payment processor and grows every semester. What redesign is best? The keyed answer is A — Use polymorphic strategy classes selected at runtime.",
+      "D": "✗ Not the answer. 'Duplicate function for every campus' does not fit the scenario: A codebase has many if/else branches to choose payment processor and grows every semester. What redesign is best? The keyed answer is A — Use polymorphic strategy classes selected at runtime."
+    },
+    "studyTip": "Trace small code fragments and validate syntax against C++ compilation rules.",
+    "source": "offline-deep"
+  },
+  "12": {
+    "overview": "Why is a hash table preferred for checking whether a student ID already exists during batch import? Eliminate distractors that confuse related Data Structures terms before picking A.\n\n✅ Answer: A — Average-case lookup is near O(1)",
+    "options": {
+      "A": "✓ CORRECT. 'Average-case lookup is near O(1)' matches the dominant growth rate of the expression. Identify the fastest-growing term, drop constants, and express in Big-O notation.",
+      "B": "✗ Not the answer. 'It guarantees sorted traversal' does not fit the scenario: Why is a hash table preferred for checking whether a student ID already exists during batch import? The keyed answer is A — Average-case lookup is near O(1).",
+      "C": "✗ Not the answer. 'It stores duplicate keys better than sets' does not fit the scenario: Why is a hash table preferred for checking whether a student ID already exists during batch import? The keyed answer is A — Average-case lookup is near O(1).",
+      "D": "✗ Not the answer. 'It avoids collisions completely' does not fit the scenario: Why is a hash table preferred for checking whether a student ID already exists during batch import? The keyed answer is A — Average-case lookup is near O(1)."
+    },
+    "studyTip": "Write the algorithm on paper and count dominant terms or trace one small example.",
+    "source": "offline-deep"
+  },
+  "13": {
+    "overview": "A scheduler must always execute the highest-priority task first. Which structure fits? The answer hinges on: a FIFO structure used for BFS, job scheduling, and buffering Eliminate distractors that confuse related Data Structures terms before picking B.\n\n✅ Answer: B — Priority queue (heap)",
+    "options": {
+      "A": "✗ Not the answer. 'Array list' does not fit the scenario: A scheduler must always execute the highest-priority task first. Which structure fits? The keyed answer is B — Priority queue (heap).",
+      "B": "✓ CORRECT. 'Priority queue (heap)' is correct because it matches the specific concept tested in this question. Definition: a FIFO structure used for BFS, job scheduling, and buffering.",
+      "C": "✗ Not the answer. A stack is a linear LIFO structure — last in, first out; not hierarchical like a tree.",
+      "D": "✗ Not the answer. A linked list is a linear sequence of nodes — each node points to the next; trees branch into children."
+    },
+    "studyTip": "Write the algorithm on paper and count dominant terms or trace one small example.",
+    "source": "offline-deep"
+  },
+  "14": {
+    "overview": "For an undirected graph with edges A-B, B-C, C-D, starting at A, what is DFS order with alphabetical neighbors? Eliminate distractors that confuse related Data Structures terms before picking A.\n\n✅ Answer: A — A, B, C, D",
+    "options": {
+      "A": "✓ CORRECT. 'A, B, C, D' is the correct answer — it directly addresses the specific concept tested in this question in Data Structures.",
+      "B": "✗ Not the answer. 'A, C, B, D' does not fit the scenario: For an undirected graph with edges A-B, B-C, C-D, starting at A, what is DFS order with alphabetical neighbors? The keyed answer is A — A, B, C, D.",
+      "C": "✗ Not the answer. 'A, B, D, C' does not fit the scenario: For an undirected graph with edges A-B, B-C, C-D, starting at A, what is DFS order with alphabetical neighbors? The keyed answer is A — A, B, C, D.",
+      "D": "✗ Not the answer. 'A, D, C, B' does not fit the scenario: For an undirected graph with edges A-B, B-C, C-D, starting at A, what is DFS order with alphabetical neighbors? The keyed answer is A — A, B, C, D."
+    },
+    "studyTip": "Write the algorithm on paper and count dominant terms or trace one small example.",
+    "source": "offline-deep"
+  },
+  "15": {
+    "overview": "A BFS over a sparse graph is implemented with adjacency matrix and is slower than expected. Why? Eliminate distractors that confuse related Data Structures terms before picking A.\n\n✅ Answer: A — Matrix representation causes O(V^2) neighbor scanning",
+    "options": {
+      "A": "✓ CORRECT. 'Matrix representation causes O(V^2) neighbor scanning' matches the dominant growth rate of the expression. Identify the fastest-growing term, drop constants, and express in Big-O notation.",
+      "B": "✗ Not the answer. 'BFS cannot run on sparse graphs' does not fit the scenario: A BFS over a sparse graph is implemented with adjacency matrix and is slower than expected. Why? The keyed answer is A — Matrix representation causes O(V^2) neighbor scanning.",
+      "C": "✗ Not the answer. 'Queue operations are exponential' represents a FIFO structure used for BFS, job scheduling, and buffering. This question tests the specific concept tested in this question. That requires 'Matrix representation causes O(V^2) neighbor scanning', not 'Queue operations are exponential'.",
+      "D": "✗ Not the answer. 'Visited flags are unnecessary' does not fit the scenario: A BFS over a sparse graph is implemented with adjacency matrix and is slower than expected. Why? The keyed answer is A — Matrix representation causes O(V^2) neighbor scanning."
+    },
+    "studyTip": "Write the algorithm on paper and count dominant terms or trace one small example.",
+    "source": "offline-deep"
+  },
+  "16": {
+    "overview": "Which algorithm is more suitable for finding shortest paths in weighted graphs with non-negative weights? Eliminate distractors that confuse related Data Structures terms before picking C.\n\n✅ Answer: C — Dijkstra",
+    "options": {
+      "A": "✗ Not the answer. 'DFS' does not fit the scenario: Which algorithm is more suitable for finding shortest paths in weighted graphs with non-negative weights? The keyed answer is C — Dijkstra.",
+      "B": "✗ Not the answer. 'BFS' does not fit the scenario: Which algorithm is more suitable for finding shortest paths in weighted graphs with non-negative weights? The keyed answer is C — Dijkstra.",
+      "C": "✓ CORRECT. 'Dijkstra' is the correct answer — it directly addresses the specific concept tested in this question in Data Structures.",
+      "D": "✗ Not the answer. 'Topological sort' does not fit the scenario: Which algorithm is more suitable for finding shortest paths in weighted graphs with non-negative weights? The keyed answer is C — Dijkstra."
+    },
+    "studyTip": "Write the algorithm on paper and count dominant terms or trace one small example.",
+    "source": "offline-deep"
+  },
+  "17": {
+    "overview": "This Data Structures question tests tracing code execution to determine printed output. The correct choice is A — Use inverted index plus hash-based candidate retrieval.\n\n✅ Answer: A — Use inverted index plus hash-based candidate retrieval",
+    "options": {
+      "A": "✓ CORRECT. 'Use inverted index plus hash-based candidate retrieval' is the correct answer — it directly addresses tracing code execution to determine printed output in Data Structures.",
+      "B": "✗ Not the answer. If the program printed Use stack-only storage, a different branch or calculation would execute. Trace the code line-by-line with the given inputs to verify the output is Use inverted index plus hash-based candidate retrieval.",
+      "C": "✗ Not the answer. If the program printed Sort files once and never update index, a different branch or calculation would execute. Trace the code line-by-line with the given inputs to verify the output is Use inverted index plus hash-based candidate retrieval.",
+      "D": "✗ Not the answer. If the program printed Use random sampling only, a different branch or calculation would execute. Trace the code line-by-line with the given inputs to verify the output is Use inverted index plus hash-based candidate retrieval."
+    },
+    "studyTip": "Write the algorithm on paper and count dominant terms or trace one small example.",
+    "source": "offline-deep"
+  },
+  "18": {
+    "overview": "Why is interface-based design preferred in large Java systems? Eliminate distractors that confuse related Java / OOP terms before picking A.\n\n✅ Answer: A — It decouples clients from implementations and eases testing",
+    "options": {
+      "A": "✓ CORRECT. 'It decouples clients from implementations and eases testing' is the correct answer — it directly addresses the specific concept tested in this question in Java / OOP.",
+      "B": "✗ Not the answer. 'It prevents polymorphism' does not fit the scenario: Why is interface-based design preferred in large Java systems? The keyed answer is A — It decouples clients from implementations and eases testing.",
+      "C": "✗ Not the answer. 'It requires concrete class references everywhere' does not fit the scenario: Why is interface-based design preferred in large Java systems? The keyed answer is A — It decouples clients from implementations and eases testing.",
+      "D": "✗ Not the answer. 'It disables dependency injection' does not fit the scenario: Why is interface-based design preferred in large Java systems? The keyed answer is A — It decouples clients from implementations and eases testing."
+    },
+    "studyTip": "Trace code on paper. Interfaces cannot be instantiated; constructors match class name and types.",
+    "source": "offline-deep"
+  },
+  "19": {
+    "overview": "A method throws IOException. Which handling is valid in caller? Eliminate distractors that confuse related Java / OOP terms before picking A.\n\n✅ Answer: A — Catch IOException or declare throws IOException",
+    "options": {
+      "A": "✓ CORRECT. 'Catch IOException or declare throws IOException' is the correct answer — it directly addresses the specific concept tested in this question in Java / OOP.",
+      "B": "✗ Not the answer. 'Ignore it because JVM handles all checked exceptions' does not fit the scenario: A method throws IOException. Which handling is valid in caller? The keyed answer is A — Catch IOException or declare throws IOException.",
+      "C": "✗ Not the answer. 'Catch only Error' does not fit the scenario: A method throws IOException. Which handling is valid in caller? The keyed answer is A — Catch IOException or declare throws IOException.",
+      "D": "✗ Not the answer. 'Replace with finally only' does not fit the scenario: A method throws IOException. Which handling is valid in caller? The keyed answer is A — Catch IOException or declare throws IOException."
+    },
+    "studyTip": "Trace code on paper. Interfaces cannot be instantiated; constructors match class name and types.",
+    "source": "offline-deep"
+  },
+  "20": {
+    "overview": "This Java / OOP question tests tracing code execution to determine printed output. The correct choice is C — 4.\n\n✅ Answer: C — 4",
+    "options": {
+      "A": "✗ Not the answer. If the program printed 2, a different branch or calculation would execute. Trace the code line-by-line with the given inputs to verify the output is 4.",
+      "B": "✗ Not the answer. If the program printed 3, a different branch or calculation would execute. Trace the code line-by-line with the given inputs to verify the output is 4.",
+      "C": "✓ CORRECT. '4' is the correct answer — it directly addresses tracing code execution to determine printed output in Java / OOP.",
+      "D": "✗ Not the answer. If the program printed 5, a different branch or calculation would execute. Trace the code line-by-line with the given inputs to verify the output is 4."
+    },
+    "studyTip": "Trace code on paper. Interfaces cannot be instantiated; constructors match class name and types.",
+    "source": "offline-deep"
+  },
+  "21": {
+    "overview": "A subclass field hides a superclass field with same name. Access through superclass reference gives unexpected value. Why? Eliminate distractors that confuse related Java / OOP terms before picking A.\n\n✅ Answer: A — Field access is resolved by reference type, not runtime object type",
+    "options": {
+      "A": "✓ CORRECT. 'Field access is resolved by reference type, not runtime object type' is the correct answer — it directly addresses the specific concept tested in this question in Java / OOP.",
+      "B": "✗ Not the answer. 'JVM forbids inheritance' represents subclass inherits fields and methods from superclass. This question tests the specific concept tested in this question. That requires 'Field access is resolved by reference type, not runtime object type', not 'JVM forbids inheritance'.",
+      "C": "✗ Not the answer. 'Method overloading controls field access' represents same method name, different parameters — compile-time polymorphism. This question tests the specific concept tested in this question. That requires 'Field access is resolved by reference type, not runtime object type', not 'Method overloading controls field access'.",
+      "D": "✗ Not the answer. 'Constructors are skipped' does not fit the scenario: A subclass field hides a superclass field with same name. Access through superclass reference gives unexpected value. Wh… The keyed answer is A — Field access is resolved by reference type, not runtime object type."
+    },
+    "studyTip": "Trace code on paper. Interfaces cannot be instantiated; constructors match class name and types.",
+    "source": "offline-deep"
+  },
+  "22": {
+    "overview": "Create a maintainable architecture for a Java admissions system integrating payment, notifications, and reporting. The answer hinges on: separation into layers (presentation, business, data) for modifiability Eliminate distractors that confuse related Java / OOP terms before picking A.\n\n✅ Answer: A — Use layered architecture with service interfaces and dependency injection",
+    "options": {
+      "A": "✓ CORRECT. 'Use layered architecture with service interfaces and dependency injection' is correct because it matches the specific concept tested in this question. Definition: separation into layers (presentation, business, data) for modifiability.",
+      "B": "✗ Not the answer. 'Put everything in one main class' does not fit the scenario: Create a maintainable architecture for a Java admissions system integrating payment, notifications, and reporting. The keyed answer is A — Use layered architecture with service interfaces and dependency injection.",
+      "C": "✗ Not the answer. 'Use static global state for all modules' does not fit the scenario: Create a maintainable architecture for a Java admissions system integrating payment, notifications, and reporting. The keyed answer is A — Use layered architecture with service interfaces and dependency injection.",
+      "D": "✗ Not the answer. 'Implement each feature as copy-paste package' does not fit the scenario: Create a maintainable architecture for a Java admissions system integrating payment, notifications, and reporting. The keyed answer is A — Use layered architecture with service interfaces and dependency injection."
+    },
+    "studyTip": "Trace code on paper. Interfaces cannot be instantiated; constructors match class name and types.",
+    "source": "offline-deep"
+  },
+  "23": {
+    "overview": "Why are semantic HTML tags (header, nav, main) recommended? Eliminate distractors that confuse related Web Development terms before picking A.\n\n✅ Answer: A — They improve accessibility and document structure meaning",
+    "options": {
+      "A": "✓ CORRECT. 'They improve accessibility and document structure meaning' is the correct answer — it directly addresses the specific concept tested in this question in Web Development.",
+      "B": "✗ Not the answer. 'They reduce need for CSS files' represents Cascading Style Sheets — controls visual presentation of HTML. This question tests the specific concept tested in this question. That requires 'They improve accessibility and document structure meaning', not 'They reduce need for CSS files'.",
+      "C": "✗ Not the answer. 'They replace backend APIs' does not fit the scenario: Why are semantic HTML tags (header, nav, main) recommended? The keyed answer is A — They improve accessibility and document structure meaning.",
+      "D": "✗ Not the answer. 'They encrypt content' does not fit the scenario: Why are semantic HTML tags (header, nav, main) recommended? The keyed answer is A — They improve accessibility and document structure meaning."
+    },
+    "studyTip": "Check HTTP methods, CSS selectors, DOM APIs, and client-server roles.",
+    "source": "offline-deep"
+  },
+  "24": {
+    "overview": "Why should CSRF tokens be used for state-changing requests in web apps? Eliminate distractors that confuse related Web Development terms before picking A.\n\n✅ Answer: A — They help verify the request came from the trusted user session context",
+    "options": {
+      "A": "✓ CORRECT. 'They help verify the request came from the trusted user session context' is the correct answer — it directly addresses the specific concept tested in this question in Web Development.",
+      "B": "✗ Not the answer. 'They compress payload size' does not fit the scenario: Why should CSRF tokens be used for state-changing requests in web apps? The keyed answer is A — They help verify the request came from the trusted user session context.",
+      "C": "✗ Not the answer. 'They replace authentication completely' does not fit the scenario: Why should CSRF tokens be used for state-changing requests in web apps? The keyed answer is A — They help verify the request came from the trusted user session context.",
+      "D": "✗ Not the answer. XSS injects malicious JavaScript into pages viewed by other users — can steal session cookies and user data."
+    },
+    "studyTip": "Check HTTP methods, CSS selectors, DOM APIs, and client-server roles.",
+    "source": "offline-deep"
+  },
+  "25": {
+    "overview": "A browser requests an API from another origin and receives blocked response. Which header is usually required? Eliminate distractors that confuse related Web Development terms before picking B.\n\n✅ Answer: B — Access-Control-Allow-Origin",
+    "options": {
+      "A": "✗ Not the answer. 'Content-Type' does not fit the scenario: A browser requests an API from another origin and receives blocked response. Which header is usually required? The keyed answer is B — Access-Control-Allow-Origin.",
+      "B": "✓ CORRECT. 'Access-Control-Allow-Origin' is the correct answer — it directly addresses the specific concept tested in this question in Web Development.",
+      "C": "✗ Not the answer. 'Cache-Control' does not fit the scenario: A browser requests an API from another origin and receives blocked response. Which header is usually required? The keyed answer is B — Access-Control-Allow-Origin.",
+      "D": "✗ Not the answer. 'User-Agent' does not fit the scenario: A browser requests an API from another origin and receives blocked response. Which header is usually required? The keyed answer is B — Access-Control-Allow-Origin."
+    },
+    "studyTip": "Check HTTP methods, CSS selectors, DOM APIs, and client-server roles.",
+    "source": "offline-deep"
+  },
+  "26": {
+    "overview": "A page must cache static assets for one month but always fetch latest exam schedule JSON. Which approach fits? Eliminate distractors that confuse related Web Development terms before picking A.\n\n✅ Answer: A — Long cache for static files, no-cache/etag strategy for schedule endpoint",
+    "options": {
+      "A": "✓ CORRECT. 'Long cache for static files, no-cache/etag strategy for schedule endpoint' is the correct answer — it directly addresses the specific concept tested in this question in Web Development.",
+      "B": "✗ Not the answer. 'Disable all caching globally' does not fit the scenario: A page must cache static assets for one month but always fetch latest exam schedule JSON. Which approach fits? The keyed answer is A — Long cache for static files, no-cache/etag strategy for schedule endpoint.",
+      "C": "✗ Not the answer. 'Store schedule only in localStorage forever' does not fit the scenario: A page must cache static assets for one month but always fetch latest exam schedule JSON. Which approach fits? The keyed answer is A — Long cache for static files, no-cache/etag strategy for schedule endpoint.",
+      "D": "✗ Not the answer. 'Use FTP refresh' does not fit the scenario: A page must cache static assets for one month but always fetch latest exam schedule JSON. Which approach fits? The keyed answer is A — Long cache for static files, no-cache/etag strategy for schedule endpoint."
+    },
+    "studyTip": "Check HTTP methods, CSS selectors, DOM APIs, and client-server roles.",
+    "source": "offline-deep"
+  },
+  "27": {
+    "overview": "A REST API returns 409 on duplicate registration attempts. What does this indicate? Eliminate distractors that confuse related Web Development terms before picking A.\n\n✅ Answer: A — Conflict with current resource state",
+    "options": {
+      "A": "✓ CORRECT. 'Conflict with current resource state' is the correct answer — it directly addresses the specific concept tested in this question in Web Development.",
+      "B": "✗ Not the answer. 'Authentication success' does not fit the scenario: A REST API returns 409 on duplicate registration attempts. What does this indicate? The keyed answer is A — Conflict with current resource state.",
+      "C": "✗ Not the answer. 'Server crash' does not fit the scenario: A REST API returns 409 on duplicate registration attempts. What does this indicate? The keyed answer is A — Conflict with current resource state.",
+      "D": "✗ Not the answer. 'Permanent redirect' does not fit the scenario: A REST API returns 409 on duplicate registration attempts. What does this indicate? The keyed answer is A — Conflict with current resource state."
+    },
+    "studyTip": "Check HTTP methods, CSS selectors, DOM APIs, and client-server roles.",
+    "source": "offline-deep"
+  },
+  "28": {
+    "overview": "Choose the best architecture for a school portal expecting seasonal traffic spikes and limited ops staff. Eliminate distractors that confuse related Web Development terms before picking A.\n\n✅ Answer: A — Stateless backend behind load balancer with managed database and autoscaling",
+    "options": {
+      "A": "✓ CORRECT. 'Stateless backend behind load balancer with managed database and autoscaling' is the correct answer — it directly addresses the specific concept tested in this question in Web Development.",
+      "B": "✗ Not the answer. 'Single server with manual restart plan' does not fit the scenario: Choose the best architecture for a school portal expecting seasonal traffic spikes and limited ops staff. The keyed answer is A — Stateless backend behind load balancer with managed database and autoscaling.",
+      "C": "✗ Not the answer. 'Browser-only app with no backend' does not fit the scenario: Choose the best architecture for a school portal expecting seasonal traffic spikes and limited ops staff. The keyed answer is A — Stateless backend behind load balancer with managed database and autoscaling.",
+      "D": "✗ Not the answer. 'One process per student session' represents program in execution with its own address space. This question tests the specific concept tested in this question. That requires 'Stateless backend behind load balancer with managed database and autoscaling', not 'One process per student session'."
+    },
+    "studyTip": "Check HTTP methods, CSS selectors, DOM APIs, and client-server roles.",
+    "source": "offline-deep"
+  },
+  "29": {
+    "overview": "Create URL and error-response standards for a public education API. Eliminate distractors that confuse related Web Development terms before picking A.\n\n✅ Answer: A — Consistent resource paths, versioning, and structured JSON errors",
+    "options": {
+      "A": "✓ CORRECT. 'Consistent resource paths, versioning, and structured JSON errors' is the correct answer — it directly addresses the specific concept tested in this question in Web Development.",
+      "B": "✗ Not the answer. 'Different format per endpoint' does not fit the scenario: Create URL and error-response standards for a public education API. The keyed answer is A — Consistent resource paths, versioning, and structured JSON errors.",
+      "C": "✗ Not the answer. 'Return plain text stack trace to users' represents a LIFO structure used for recursion, undo operations, and DFS. This question tests the specific concept tested in this question. That requires 'Consistent resource paths, versioning, and structured JSON errors', not 'Return plain text stack trace to users'.",
+      "D": "✗ Not the answer. 'Hide all error codes' does not fit the scenario: Create URL and error-response standards for a public education API. The keyed answer is A — Consistent resource paths, versioning, and structured JSON errors."
+    },
+    "studyTip": "Check HTTP methods, CSS selectors, DOM APIs, and client-server roles.",
+    "source": "offline-deep"
+  },
+  "30": {
+    "overview": "Design the best approach to protect uploaded assignment files from malware. Eliminate distractors that confuse related Web Development terms before picking A.\n\n✅ Answer: A — Virus-scan uploads asynchronously and quarantine suspicious files",
+    "options": {
+      "A": "✓ CORRECT. 'Virus-scan uploads asynchronously and quarantine suspicious files' is the correct answer — it directly addresses the specific concept tested in this question in Web Development.",
+      "B": "✗ Not the answer. 'Trust file extension only' does not fit the scenario: Design the best approach to protect uploaded assignment files from malware. The keyed answer is A — Virus-scan uploads asynchronously and quarantine suspicious files.",
+      "C": "✗ Not the answer. 'Execute uploaded files to test safety' does not fit the scenario: Design the best approach to protect uploaded assignment files from malware. The keyed answer is A — Virus-scan uploads asynchronously and quarantine suspicious files.",
+      "D": "✗ Not the answer. 'Store files in public web root directly' does not fit the scenario: Design the best approach to protect uploaded assignment files from malware. The keyed answer is A — Virus-scan uploads asynchronously and quarantine suspicious files."
+    },
+    "studyTip": "Check HTTP methods, CSS selectors, DOM APIs, and client-server roles.",
+    "source": "offline-deep"
+  },
+  "31": {
+    "overview": "Create a frontend performance plan for low-bandwidth users in regional campuses. Eliminate distractors that confuse related Web Development terms before picking A.\n\n✅ Answer: A — Code-split bundles, optimize images, lazy-load noncritical components",
+    "options": {
+      "A": "✓ CORRECT. 'Code-split bundles, optimize images, lazy-load noncritical components' is the correct answer — it directly addresses the specific concept tested in this question in Web Development.",
+      "B": "✗ Not the answer. 'Embed all media at full resolution' does not fit the scenario: Create a frontend performance plan for low-bandwidth users in regional campuses. The keyed answer is A — Code-split bundles, optimize images, lazy-load noncritical components.",
+      "C": "✗ Not the answer. 'Disable compression' does not fit the scenario: Create a frontend performance plan for low-bandwidth users in regional campuses. The keyed answer is A — Code-split bundles, optimize images, lazy-load noncritical components.",
+      "D": "✗ Not the answer. 'Load every script synchronously' does not fit the scenario: Create a frontend performance plan for low-bandwidth users in regional campuses. The keyed answer is A — Code-split bundles, optimize images, lazy-load noncritical components."
+    },
+    "studyTip": "Check HTTP methods, CSS selectors, DOM APIs, and client-server roles.",
+    "source": "offline-deep"
+  },
+  "32": {
+    "overview": "Why should ViewModel be used with configuration changes like screen rotation? The answer hinges on: Android screen component with lifecycle callbacks (onCreate, onPause, etc.) Eliminate distractors that confuse related Android terms before picking A.\n\n✅ Answer: A — It preserves UI-related state outside Activity recreation",
+    "options": {
+      "A": "✓ CORRECT. Activities represent full screens with their own lifecycle — broader than a reusable UI portion inside one screen.",
+      "B": "✗ Not the answer. 'It replaces repositories' does not fit the scenario: Why should ViewModel be used with configuration changes like screen rotation? The keyed answer is A — It preserves UI-related state outside Activity recreation.",
+      "C": "✗ Not the answer. 'It removes lifecycle awareness' does not fit the scenario: Why should ViewModel be used with configuration changes like screen rotation? The keyed answer is A — It preserves UI-related state outside Activity recreation.",
+      "D": "✗ Not the answer. 'It stores data in manifest' represents AndroidManifest.xml — declares app components, permissions, and metadata. This question tests the specific concept tested in this question. That requires 'It preserves UI-related state outside Activity recreation' (Android screen component with lifecycle callbacks (onCreate, onPause, etc.)), not 'It stores data in manifest'."
+    },
+    "studyTip": "Activity/Intent/Service/Manifest rules are high-frequency on Ethiopian exit exams.",
+    "source": "offline-deep"
+  },
+  "33": {
+    "overview": "A feature must trigger local notification at 7:00 AM daily even after reboot. Which approach is appropriate? Eliminate distractors that confuse related Android terms before picking A.\n\n✅ Answer: A — Schedule with WorkManager/AlarmManager and reschedule on boot",
+    "options": {
+      "A": "✓ CORRECT. 'Schedule with WorkManager/AlarmManager and reschedule on boot' is the correct answer — it directly addresses the specific concept tested in this question in Android.",
+      "B": "✗ Not the answer. Activities represent full screens with their own lifecycle — broader than a reusable UI portion inside one screen.",
+      "C": "✗ Not the answer. 'Use Toast in onCreate only' does not fit the scenario: A feature must trigger local notification at 7:00 AM daily even after reboot. Which approach is appropriate? The keyed answer is A — Schedule with WorkManager/AlarmManager and reschedule on boot.",
+      "D": "✗ Not the answer. 'Depend on user opening app at 7:00' does not fit the scenario: A feature must trigger local notification at 7:00 AM daily even after reboot. Which approach is appropriate? The keyed answer is A — Schedule with WorkManager/AlarmManager and reschedule on boot."
+    },
+    "studyTip": "Activity/Intent/Service/Manifest rules are high-frequency on Ethiopian exit exams.",
+    "source": "offline-deep"
+  },
+  "34": {
+    "overview": "A team can collect precise location continuously for analytics or request coarse location only when feature is active. Which is the better privacy decision? Eliminate distractors that confuse related Android terms before picking A.\n\n✅ Answer: A — Request coarse/on-demand location with clear consent",
+    "options": {
+      "A": "✓ CORRECT. 'Request coarse/on-demand location with clear consent' is the correct answer — it directly addresses the specific concept tested in this question in Android.",
+      "B": "✗ Not the answer. 'Track precise location all day by default' does not fit the scenario: A team can collect precise location continuously for analytics or request coarse location only when feature is active. W… The keyed answer is A — Request coarse/on-demand location with clear consent.",
+      "C": "✗ Not the answer. 'Bypass permission prompts' does not fit the scenario: A team can collect precise location continuously for analytics or request coarse location only when feature is active. W… The keyed answer is A — Request coarse/on-demand location with clear consent.",
+      "D": "✗ Not the answer. 'Store location forever without retention policy' does not fit the scenario: A team can collect precise location continuously for analytics or request coarse location only when feature is active. W… The keyed answer is A — Request coarse/on-demand location with clear consent."
+    },
+    "studyTip": "Activity/Intent/Service/Manifest rules are high-frequency on Ethiopian exit exams.",
+    "source": "offline-deep"
+  },
+  "35": {
+    "overview": "Create an Android architecture for exam proctoring app with camera checks and intermittent connectivity. The answer hinges on: a FIFO structure used for BFS, job scheduling, and buffering Eliminate distractors that confuse related Android terms before picking A.\n\n✅ Answer: A — Use modular features, local queue, and secure sync retries",
+    "options": {
+      "A": "✓ CORRECT. 'Use modular features, local queue, and secure sync retries' is correct because it matches the specific concept tested in this question. Definition: a FIFO structure used for BFS, job scheduling, and buffering.",
+      "B": "✗ Not the answer. 'Upload only in real time and drop failures' does not fit the scenario: Create an Android architecture for exam proctoring app with camera checks and intermittent connectivity. The keyed answer is A — Use modular features, local queue, and secure sync retries.",
+      "C": "✗ Not the answer. 'Keep camera stream in plain logs' does not fit the scenario: Create an Android architecture for exam proctoring app with camera checks and intermittent connectivity. The keyed answer is A — Use modular features, local queue, and secure sync retries.",
+      "D": "✗ Not the answer. Activities represent full screens with their own lifecycle — broader than a reusable UI portion inside one screen."
+    },
+    "studyTip": "Activity/Intent/Service/Manifest rules are high-frequency on Ethiopian exit exams.",
+    "source": "offline-deep"
+  },
+  "36": {
+    "overview": "Design the best release strategy for an app used by 200+ schools. Eliminate distractors that confuse related Android terms before picking A.\n\n✅ Answer: A — Staged rollout with crash monitoring and rollback readiness",
+    "options": {
+      "A": "✓ CORRECT. 'Staged rollout with crash monitoring and rollback readiness' is the correct answer — it directly addresses the specific concept tested in this question in Android.",
+      "B": "✗ Not the answer. 'Release to all users at once without telemetry' does not fit the scenario: Design the best release strategy for an app used by 200+ schools. The keyed answer is A — Staged rollout with crash monitoring and rollback readiness.",
+      "C": "✗ Not the answer. 'Skip QA after beta' does not fit the scenario: Design the best release strategy for an app used by 200+ schools. The keyed answer is A — Staged rollout with crash monitoring and rollback readiness.",
+      "D": "✗ Not the answer. 'Disable update mechanism' does not fit the scenario: Design the best release strategy for an app used by 200+ schools. The keyed answer is A — Staged rollout with crash monitoring and rollback readiness."
+    },
+    "studyTip": "Activity/Intent/Service/Manifest rules are high-frequency on Ethiopian exit exams.",
+    "source": "offline-deep"
+  },
+  "37": {
+    "overview": "Why are foreign keys important in student-course enrollment tables? Eliminate distractors that confuse related Database terms before picking A.\n\n✅ Answer: A — They enforce referential integrity between related records",
+    "options": {
+      "A": "✓ CORRECT. Foreign keys enforce referential integrity — child rows must reference an existing parent primary key (or NULL if allowed).",
+      "B": "✗ Not the answer. 'They improve UI color themes' does not fit the scenario: Why are foreign keys important in student-course enrollment tables? The keyed answer is A — They enforce referential integrity between related records.",
+      "C": "✗ Not the answer. 'They replace indexes' does not fit the scenario: Why are foreign keys important in student-course enrollment tables? The keyed answer is A — They enforce referential integrity between related records.",
+      "D": "✗ Not the answer. 'They remove need for transactions' does not fit the scenario: Why are foreign keys important in student-course enrollment tables? The keyed answer is A — They enforce referential integrity between related records."
+    },
+    "studyTip": "Normalize step-by-step, check keys and FDs, and verify SQL syntax against schema.",
+    "source": "offline-deep"
+  },
+  "38": {
+    "overview": "Given Employee(emp_id, dept_id, salary), which query returns each department's highest salary? Eliminate distractors that confuse related Database terms before picking A.\n\n✅ Answer: A — SELECT dept_id, MAX(salary) FROM Employee GROUP BY dept_id",
+    "options": {
+      "A": "✓ CORRECT. 'SELECT dept_id, MAX(salary) FROM Employee GROUP BY dept_id' is the correct answer — it directly addresses the specific concept tested in this question in Database.",
+      "B": "✗ Not the answer. 'SELECT MAX(dept_id) FROM Employee' does not fit the scenario: Given Employee(emp_id, dept_id, salary), which query returns each department's highest salary? The keyed answer is A — SELECT dept_id, MAX(salary) FROM Employee GROUP BY dept_id.",
+      "C": "✗ Not the answer. 'SELECT salary FROM Employee WHERE MAX(salary)' does not fit the scenario: Given Employee(emp_id, dept_id, salary), which query returns each department's highest salary? The keyed answer is A — SELECT dept_id, MAX(salary) FROM Employee GROUP BY dept_id.",
+      "D": "✗ Not the answer. 'UPDATE Employee SET salary=MAX(salary)' does not fit the scenario: Given Employee(emp_id, dept_id, salary), which query returns each department's highest salary? The keyed answer is A — SELECT dept_id, MAX(salary) FROM Employee GROUP BY dept_id."
+    },
+    "studyTip": "Normalize step-by-step, check keys and FDs, and verify SQL syntax against schema.",
+    "source": "offline-deep"
+  },
+  "39": {
+    "overview": "In table ExamResult(student_id, course_id, grade), which SQL finds students who failed at least one course (grade < 50)? Eliminate distractors that confuse related Database terms before picking A.\n\n✅ Answer: A — SELECT DISTINCT student_id FROM ExamResult WHERE grade < 50",
+    "options": {
+      "A": "✓ CORRECT. 'SELECT DISTINCT student_id FROM ExamResult WHERE grade < 50' is the correct answer — it directly addresses the specific concept tested in this question in Database.",
+      "B": "✗ Not the answer. 'SELECT student_id FROM ExamResult GROUP BY grade' does not fit the scenario: In table ExamResult(student_id, course_id, grade), which SQL finds students who failed at least one course (grade < 50)? The keyed answer is A — SELECT DISTINCT student_id FROM ExamResult WHERE grade < 50.",
+      "C": "✗ Not the answer. 'DELETE FROM ExamResult WHERE grade < 50' means C++ operator that frees heap memory allocated by new. That answers a different kind of question. Here, the stem points to 'SELECT DISTINCT student_id FROM ExamResult WHERE grade < 50' instead.",
+      "D": "✗ Not the answer. SELECT * retrieves all columns from the named table — standard SQL syntax for full-row projection."
+    },
+    "studyTip": "Normalize step-by-step, check keys and FDs, and verify SQL syntax against schema.",
+    "source": "offline-deep"
+  },
+  "40": {
+    "overview": "A relation stores advisor_name repeatedly for each student and advisor phone update needs many row changes. What issue is this? Eliminate distractors that confuse related Database terms before picking A.\n\n✅ Answer: A — Update anomaly due to redundancy",
+    "options": {
+      "A": "✓ CORRECT. 'Update anomaly due to redundancy' is the correct answer — it directly addresses the specific concept tested in this question in Database.",
+      "B": "✗ Not the answer. 'Index fragmentation only' does not fit the scenario: A relation stores advisor_name repeatedly for each student and advisor phone update needs many row changes. What issue i… The keyed answer is A — Update anomaly due to redundancy.",
+      "C": "✗ Not the answer. 'Deadlock from two-phase locking' means circular wait preventing progress. That answers a different kind of question. Here, the stem points to 'Update anomaly due to redundancy' instead.",
+      "D": "✗ Not the answer. 'Foreign key cascade' means attribute referencing primary key of another relation. That answers a different kind of question. Here, the stem points to 'Update anomaly due to redundancy' instead."
+    },
+    "studyTip": "Normalize step-by-step, check keys and FDs, and verify SQL syntax against schema.",
+    "source": "offline-deep"
+  },
+  "41": {
+    "overview": "A team debates UUID primary keys everywhere vs numeric surrogate keys with unique business constraints. For high-write transactional tables, what is usually better default? Eliminate distractors that confuse related Database terms before picking A.\n\n✅ Answer: A — Numeric surrogate keys plus business unique constraints",
+    "options": {
+      "A": "✓ CORRECT. 'Numeric surrogate keys plus business unique constraints' is the correct answer — it directly addresses the specific concept tested in this question in Database.",
+      "B": "✗ Not the answer. 'Random text keys without indexes' does not fit the scenario: A team debates UUID primary keys everywhere vs numeric surrogate keys with unique business constraints. For high-write t… The keyed answer is A — Numeric surrogate keys plus business unique constraints.",
+      "C": "✗ Not the answer. 'No primary keys' does not fit the scenario: A team debates UUID primary keys everywhere vs numeric surrogate keys with unique business constraints. For high-write t… The keyed answer is A — Numeric surrogate keys plus business unique constraints.",
+      "D": "✗ Not the answer. 'Composite keys with 10+ columns always' does not fit the scenario: A team debates UUID primary keys everywhere vs numeric surrogate keys with unique business constraints. For high-write t… The keyed answer is A — Numeric surrogate keys plus business unique constraints."
+    },
+    "studyTip": "Normalize step-by-step, check keys and FDs, and verify SQL syntax against schema.",
+    "source": "offline-deep"
+  },
+  "42": {
+    "overview": "Create a schema and retention model for security audit logs that must be queryable and tamper-evident. Eliminate distractors that confuse related Database terms before picking A.\n\n✅ Answer: A — Append-only audit table, partitioning, signed hash chain, retention policy",
+    "options": {
+      "A": "✓ CORRECT. 'Append-only audit table, partitioning, signed hash chain, retention policy' is the correct answer — it directly addresses the specific concept tested in this question in Database.",
+      "B": "✗ Not the answer. 'Overwrite latest log row each day' does not fit the scenario: Create a schema and retention model for security audit logs that must be queryable and tamper-evident. The keyed answer is A — Append-only audit table, partitioning, signed hash chain, retention policy.",
+      "C": "✗ Not the answer. 'Store logs in client browser' does not fit the scenario: Create a schema and retention model for security audit logs that must be queryable and tamper-evident. The keyed answer is A — Append-only audit table, partitioning, signed hash chain, retention policy.",
+      "D": "✗ Not the answer. 'Disable timestamp fields' does not fit the scenario: Create a schema and retention model for security audit logs that must be queryable and tamper-evident. The keyed answer is A — Append-only audit table, partitioning, signed hash chain, retention policy."
+    },
+    "studyTip": "Normalize step-by-step, check keys and FDs, and verify SQL syntax against schema.",
+    "source": "offline-deep"
+  },
+  "43": {
+    "overview": "Why does mutual exclusion matter when multiple threads update shared counters? Eliminate distractors that confuse related Operating Systems terms before picking A.\n\n✅ Answer: A — Without it, race conditions can produce incorrect values",
+    "options": {
+      "A": "✓ CORRECT. 'Without it, race conditions can produce incorrect values' is the correct answer — it directly addresses the specific concept tested in this question in Operating Systems.",
+      "B": "✗ Not the answer. 'It makes threads run in parallel faster always' does not fit the scenario: Why does mutual exclusion matter when multiple threads update shared counters? The keyed answer is A — Without it, race conditions can produce incorrect values.",
+      "C": "✗ Not the answer. 'It avoids deadlock by itself' represents circular wait preventing progress. This question tests the specific concept tested in this question. That requires 'Without it, race conditions can produce incorrect values', not 'It avoids deadlock by itself'.",
+      "D": "✗ Not the answer. 'It removes need for atomic operations' does not fit the scenario: Why does mutual exclusion matter when multiple threads update shared counters? The keyed answer is A — Without it, race conditions can produce incorrect values."
+    },
+    "studyTip": "Relate to process states, scheduling, memory policies, or deadlock conditions.",
+    "source": "offline-deep"
+  },
+  "44": {
+    "overview": "A process has arrival 0 and burst 5; another arrival 1 burst 2. Under preemptive SJF (SRTF), which runs at time 1? The answer hinges on: program in execution with its own address space Eliminate distractors that confuse related Operating Systems terms before picking B.\n\n✅ Answer: B — Process with burst 2",
+    "options": {
+      "A": "✗ Not the answer. 'Process with remaining 4' refers to program in execution with its own address space. The question asks about the specific concept tested in this question. That requires 'Process with burst 2' — program in execution with its own address space. These are different concepts; do not confuse them on the exam.",
+      "B": "✓ CORRECT. 'Process with burst 2' is correct because it matches the specific concept tested in this question. Definition: program in execution with its own address space.",
+      "C": "✗ Not the answer. 'Both simultaneously' does not fit the scenario: A process has arrival 0 and burst 5; another arrival 1 burst 2. Under preemptive SJF (SRTF), which runs at time 1? The keyed answer is B — Process with burst 2.",
+      "D": "✗ Not the answer. 'Idle' does not fit the scenario: A process has arrival 0 and burst 5; another arrival 1 burst 2. Under preemptive SJF (SRTF), which runs at time 1? The keyed answer is B — Process with burst 2."
+    },
+    "studyTip": "Relate to process states, scheduling, memory policies, or deadlock conditions.",
+    "source": "offline-deep"
+  },
+  "45": {
+    "overview": "A /26 subnet has 64 addresses. In OS network stack configuration, how many are typically usable for hosts? Eliminate distractors that confuse related Operating Systems terms before picking A.\n\n✅ Answer: A — 62",
+    "options": {
+      "A": "✓ CORRECT. '62' is the correct answer — it directly addresses the specific concept tested in this question in Operating Systems.",
+      "B": "✗ Not the answer. '64' does not fit the scenario: A /26 subnet has 64 addresses. In OS network stack configuration, how many are typically usable for hosts? The keyed answer is A — 62.",
+      "C": "✗ Not the answer. '60' does not fit the scenario: A /26 subnet has 64 addresses. In OS network stack configuration, how many are typically usable for hosts? The keyed answer is A — 62.",
+      "D": "✗ Not the answer. '30' does not fit the scenario: A /26 subnet has 64 addresses. In OS network stack configuration, how many are typically usable for hosts? The keyed answer is A — 62."
+    },
+    "studyTip": "Relate to process states, scheduling, memory policies, or deadlock conditions.",
+    "source": "offline-deep"
+  },
+  "46": {
+    "overview": "Four processes each hold one resource and request the next in a cycle. Which deadlock prevention action directly breaks this pattern? Eliminate distractors that confuse related Operating Systems terms before picking A.\n\n✅ Answer: A — Impose global resource ordering",
+    "options": {
+      "A": "✓ CORRECT. 'Impose global resource ordering' is the correct answer — it directly addresses the specific concept tested in this question in Operating Systems.",
+      "B": "✗ Not the answer. 'Increase CPU frequency' does not fit the scenario: Four processes each hold one resource and request the next in a cycle. Which deadlock prevention action directly breaks … The keyed answer is A — Impose global resource ordering.",
+      "C": "✗ Not the answer. 'Use shorter variable names' does not fit the scenario: Four processes each hold one resource and request the next in a cycle. Which deadlock prevention action directly breaks … The keyed answer is A — Impose global resource ordering.",
+      "D": "✗ Not the answer. 'Disable interrupts permanently' does not fit the scenario: Four processes each hold one resource and request the next in a cycle. Which deadlock prevention action directly breaks … The keyed answer is A — Impose global resource ordering."
+    },
+    "studyTip": "Relate to process states, scheduling, memory policies, or deadlock conditions.",
+    "source": "offline-deep"
+  },
+  "47": {
+    "overview": "A machine spends most time swapping pages in/out and little time executing user code. What diagnosis fits? Eliminate distractors that confuse related Operating Systems terms before picking A.\n\n✅ Answer: A — Thrashing due to insufficient resident working set",
+    "options": {
+      "A": "✓ CORRECT. 'Thrashing due to insufficient resident working set' is the correct answer — it directly addresses the specific concept tested in this question in Operating Systems.",
+      "B": "✗ Not the answer. 'CPU starvation from priority inversion only' does not fit the scenario: A machine spends most time swapping pages in/out and little time executing user code. What diagnosis fits? The keyed answer is A — Thrashing due to insufficient resident working set.",
+      "C": "✗ Not the answer. 'Kernel panic' does not fit the scenario: A machine spends most time swapping pages in/out and little time executing user code. What diagnosis fits? The keyed answer is A — Thrashing due to insufficient resident working set.",
+      "D": "✗ Not the answer. 'Disk defragmentation' does not fit the scenario: A machine spends most time swapping pages in/out and little time executing user code. What diagnosis fits? The keyed answer is A — Thrashing due to insufficient resident working set."
+    },
+    "studyTip": "Relate to process states, scheduling, memory policies, or deadlock conditions.",
+    "source": "offline-deep"
+  },
+  "48": {
+    "overview": "A lab can either run one huge process per student session or use process pool with controlled concurrency. Which is better? The answer hinges on: program in execution with its own address space Eliminate distractors that confuse related Operating Systems terms before picking A.\n\n✅ Answer: A — Use process/thread pool with controlled concurrency",
+    "options": {
+      "A": "✓ CORRECT. 'Use process/thread pool with controlled concurrency' is correct because it matches the specific concept tested in this question. Definition: program in execution with its own address space.",
+      "B": "✗ Not the answer. 'Launch unbounded processes' does not fit the scenario: A lab can either run one huge process per student session or use process pool with controlled concurrency. Which is bett… The keyed answer is A — Use process/thread pool with controlled concurrency.",
+      "C": "✗ Not the answer. 'Disable scheduler timeslicing' does not fit the scenario: A lab can either run one huge process per student session or use process pool with controlled concurrency. Which is bett… The keyed answer is A — Use process/thread pool with controlled concurrency.",
+      "D": "✗ Not the answer. 'Use busy waiting for I/O' does not fit the scenario: A lab can either run one huge process per student session or use process pool with controlled concurrency. Which is bett… The keyed answer is A — Use process/thread pool with controlled concurrency."
+    },
+    "studyTip": "Relate to process states, scheduling, memory policies, or deadlock conditions.",
+    "source": "offline-deep"
+  },
+  "49": {
+    "overview": "Why should acceptance criteria be written per user story before implementation starts? Eliminate distractors that confuse related Software Engineering terms before picking A.\n\n✅ Answer: A — They align expectations and provide testable completion conditions",
+    "options": {
+      "A": "✓ CORRECT. 'They align expectations and provide testable completion conditions' is the correct answer — it directly addresses the specific concept tested in this question in Software Engineering.",
+      "B": "✗ Not the answer. 'They replace backlog prioritization' does not fit the scenario: Why should acceptance criteria be written per user story before implementation starts? The keyed answer is A — They align expectations and provide testable completion conditions.",
+      "C": "✗ Not the answer. 'They are only for auditors after release' does not fit the scenario: Why should acceptance criteria be written per user story before implementation starts? The keyed answer is A — They align expectations and provide testable completion conditions.",
+      "D": "✗ Not the answer. 'They prevent requirement changes forever' does not fit the scenario: Why should acceptance criteria be written per user story before implementation starts? The keyed answer is A — They align expectations and provide testable completion conditions."
+    },
+    "studyTip": "SRS, requirements, maintenance types, and SDLC phases — match exact definitions.",
+    "source": "offline-deep"
+  },
+  "50": {
+    "overview": "Why is backlog refinement important in agile projects? Eliminate distractors that confuse related Software Engineering terms before picking A.\n\n✅ Answer: A — It keeps work items clear, sized, and prioritized",
+    "options": {
+      "A": "✓ CORRECT. 'It keeps work items clear, sized, and prioritized' is the correct answer — it directly addresses the specific concept tested in this question in Software Engineering.",
+      "B": "✗ Not the answer. 'It removes sprint planning need' does not fit the scenario: Why is backlog refinement important in agile projects? The keyed answer is A — It keeps work items clear, sized, and prioritized.",
+      "C": "✗ Not the answer. 'It eliminates stakeholder feedback' does not fit the scenario: Why is backlog refinement important in agile projects? The keyed answer is A — It keeps work items clear, sized, and prioritized.",
+      "D": "✗ Not the answer. 'It prevents technical debt by definition' does not fit the scenario: Why is backlog refinement important in agile projects? The keyed answer is A — It keeps work items clear, sized, and prioritized."
+    },
+    "studyTip": "SRS, requirements, maintenance types, and SDLC phases — match exact definitions.",
+    "source": "offline-deep"
+  },
+  "51": {
+    "overview": "Why is root-cause analysis done after repeated production incidents? Eliminate distractors that confuse related Software Engineering terms before picking A.\n\n✅ Answer: A — To identify systemic causes and prevent recurrence",
+    "options": {
+      "A": "✓ CORRECT. 'To identify systemic causes and prevent recurrence' is the correct answer — it directly addresses the specific concept tested in this question in Software Engineering.",
+      "B": "✗ Not the answer. 'To assign blame quickly' does not fit the scenario: Why is root-cause analysis done after repeated production incidents? The keyed answer is A — To identify systemic causes and prevent recurrence.",
+      "C": "✗ Not the answer. 'To avoid creating action items' does not fit the scenario: Why is root-cause analysis done after repeated production incidents? The keyed answer is A — To identify systemic causes and prevent recurrence.",
+      "D": "✗ Not the answer. 'To increase ticket volume' does not fit the scenario: Why is root-cause analysis done after repeated production incidents? The keyed answer is A — To identify systemic causes and prevent recurrence."
+    },
+    "studyTip": "SRS, requirements, maintenance types, and SDLC phases — match exact definitions.",
+    "source": "offline-deep"
+  },
+  "52": {
+    "overview": "Why should architecture decisions be documented as ADRs? Eliminate distractors that confuse related Software Engineering terms before picking A.\n\n✅ Answer: A — They capture context, options, and consequences for future teams",
+    "options": {
+      "A": "✓ CORRECT. 'They capture context, options, and consequences for future teams' is the correct answer — it directly addresses the specific concept tested in this question in Software Engineering.",
+      "B": "✗ Not the answer. 'They replace all code comments' does not fit the scenario: Why should architecture decisions be documented as ADRs? The keyed answer is A — They capture context, options, and consequences for future teams.",
+      "C": "✗ Not the answer. 'They are required only for AI projects' does not fit the scenario: Why should architecture decisions be documented as ADRs? The keyed answer is A — They capture context, options, and consequences for future teams.",
+      "D": "✗ Not the answer. 'They prevent refactoring' represents improves internal code structure without changing external behavior. This question tests the specific concept tested in this question. That requires 'They capture context, options, and consequences for future teams', not 'They prevent refactoring'."
+    },
+    "studyTip": "SRS, requirements, maintenance types, and SDLC phases — match exact definitions.",
+    "source": "offline-deep"
+  },
+  "53": {
+    "overview": "A requirement says, 'Portal uptime must be 99.5% monthly.' This is an example of: Eliminate distractors that confuse related Software Engineering terms before picking B.\n\n✅ Answer: B — Non-functional reliability requirement",
+    "options": {
+      "A": "✗ Not the answer. 'Functional requirement' does not fit the scenario: A requirement says, 'Portal uptime must be 99.5% monthly.' This is an example of: The keyed answer is B — Non-functional reliability requirement.",
+      "B": "✓ CORRECT. 'Non-functional reliability requirement' is the correct answer — it directly addresses the specific concept tested in this question in Software Engineering.",
+      "C": "✗ Not the answer. 'User story estimate' does not fit the scenario: A requirement says, 'Portal uptime must be 99.5% monthly.' This is an example of: The keyed answer is B — Non-functional reliability requirement.",
+      "D": "✗ Not the answer. 'Implementation detail' does not fit the scenario: A requirement says, 'Portal uptime must be 99.5% monthly.' This is an example of: The keyed answer is B — Non-functional reliability requirement."
+    },
+    "studyTip": "SRS, requirements, maintenance types, and SDLC phases — match exact definitions.",
+    "source": "offline-deep"
+  },
+  "54": {
+    "overview": "A release introduces bug in payment feature. Which metric best reflects customer-facing quality impact? Eliminate distractors that confuse related Software Engineering terms before picking A.\n\n✅ Answer: A — Defect escape rate",
+    "options": {
+      "A": "✓ CORRECT. 'Defect escape rate' is the correct answer — it directly addresses the specific concept tested in this question in Software Engineering.",
+      "B": "✗ Not the answer. 'Lines of code changed' does not fit the scenario: A release introduces bug in payment feature. Which metric best reflects customer-facing quality impact? The keyed answer is A — Defect escape rate.",
+      "C": "✗ Not the answer. 'Number of standups' does not fit the scenario: A release introduces bug in payment feature. Which metric best reflects customer-facing quality impact? The keyed answer is A — Defect escape rate.",
+      "D": "✗ Not the answer. 'Repository size' does not fit the scenario: A release introduces bug in payment feature. Which metric best reflects customer-facing quality impact? The keyed answer is A — Defect escape rate."
+    },
+    "studyTip": "SRS, requirements, maintenance types, and SDLC phases — match exact definitions.",
+    "source": "offline-deep"
+  },
+  "55": {
+    "overview": "A team closes many tickets but lead time keeps increasing and rework grows. What is likely happening? Eliminate distractors that confuse related Software Engineering terms before picking A.\n\n✅ Answer: A — Work-in-progress is too high causing flow inefficiency",
+    "options": {
+      "A": "✓ CORRECT. 'Work-in-progress is too high causing flow inefficiency' is the correct answer — it directly addresses the specific concept tested in this question in Software Engineering.",
+      "B": "✗ Not the answer. 'Automation coverage is too high' does not fit the scenario: A team closes many tickets but lead time keeps increasing and rework grows. What is likely happening? The keyed answer is A — Work-in-progress is too high causing flow inefficiency.",
+      "C": "✗ Not the answer. 'Requirements are too stable' does not fit the scenario: A team closes many tickets but lead time keeps increasing and rework grows. What is likely happening? The keyed answer is A — Work-in-progress is too high causing flow inefficiency.",
+      "D": "✗ Not the answer. 'Team has too few meetings' does not fit the scenario: A team closes many tickets but lead time keeps increasing and rework grows. What is likely happening? The keyed answer is A — Work-in-progress is too high causing flow inefficiency."
+    },
+    "studyTip": "SRS, requirements, maintenance types, and SDLC phases — match exact definitions.",
+    "source": "offline-deep"
+  },
+  "56": {
+    "overview": "A project can meet deadline by skipping penetration testing or by reducing low-value analytics scope. Which choice is better? Eliminate distractors that confuse related Software Engineering terms before picking A.\n\n✅ Answer: A — Reduce low-value scope and keep security testing",
+    "options": {
+      "A": "✓ CORRECT. 'Reduce low-value scope and keep security testing' is the correct answer — it directly addresses the specific concept tested in this question in Software Engineering.",
+      "B": "✗ Not the answer. 'Skip security testing' does not fit the scenario: A project can meet deadline by skipping penetration testing or by reducing low-value analytics scope. Which choice is be… The keyed answer is A — Reduce low-value scope and keep security testing.",
+      "C": "✗ Not the answer. 'Delay all bug fixes' does not fit the scenario: A project can meet deadline by skipping penetration testing or by reducing low-value analytics scope. Which choice is be… The keyed answer is A — Reduce low-value scope and keep security testing.",
+      "D": "✗ Not the answer. 'Freeze stakeholder communication' does not fit the scenario: A project can meet deadline by skipping penetration testing or by reducing low-value analytics scope. Which choice is be… The keyed answer is A — Reduce low-value scope and keep security testing."
+    },
+    "studyTip": "SRS, requirements, maintenance types, and SDLC phases — match exact definitions.",
+    "source": "offline-deep"
+  },
+  "57": {
+    "overview": "Create a release readiness checklist for a government-facing education service. Eliminate distractors that confuse related Software Engineering terms before picking A.\n\n✅ Answer: A — Security scan, test pass, rollback plan, data migration check, approvals",
+    "options": {
+      "A": "✓ CORRECT. 'Security scan, test pass, rollback plan, data migration check, approvals' is the correct answer — it directly addresses the specific concept tested in this question in Software Engineering.",
+      "B": "✗ Not the answer. 'Only ensure app starts once' does not fit the scenario: Create a release readiness checklist for a government-facing education service. The keyed answer is A — Security scan, test pass, rollback plan, data migration check, approvals.",
+      "C": "✗ Not the answer. 'Release when one developer says done' does not fit the scenario: Create a release readiness checklist for a government-facing education service. The keyed answer is A — Security scan, test pass, rollback plan, data migration check, approvals.",
+      "D": "✗ Not the answer. 'Skip backup verification' does not fit the scenario: Create a release readiness checklist for a government-facing education service. The keyed answer is A — Security scan, test pass, rollback plan, data migration check, approvals."
+    },
+    "studyTip": "SRS, requirements, maintenance types, and SDLC phases — match exact definitions.",
+    "source": "offline-deep"
+  },
+  "58": {
+    "overview": "Create a dependency-management policy for third-party libraries. The answer hinges on: weakness in safeguards that can be exploited Eliminate distractors that confuse related Software Engineering terms before picking A.\n\n✅ Answer: A — Track versions, vulnerability scans, update cadence, and approval gates",
+    "options": {
+      "A": "✓ CORRECT. 'Track versions, vulnerability scans, update cadence, and approval gates' is correct because it matches the specific concept tested in this question. Definition: weakness in safeguards that can be exploited.",
+      "B": "✗ Not the answer. 'Install latest packages directly in production' does not fit the scenario: Create a dependency-management policy for third-party libraries. The keyed answer is A — Track versions, vulnerability scans, update cadence, and approval gates.",
+      "C": "✗ Not the answer. 'Ignore CVE reports' does not fit the scenario: Create a dependency-management policy for third-party libraries. The keyed answer is A — Track versions, vulnerability scans, update cadence, and approval gates.",
+      "D": "✗ Not the answer. 'Use unpinned transitive dependencies blindly' does not fit the scenario: Create a dependency-management policy for third-party libraries. The keyed answer is A — Track versions, vulnerability scans, update cadence, and approval gates."
+    },
+    "studyTip": "SRS, requirements, maintenance types, and SDLC phases — match exact definitions.",
+    "source": "offline-deep"
+  },
+  "59": {
+    "overview": "Create a practical onboarding plan for new graduate developers joining the team. Eliminate distractors that confuse related Software Engineering terms before picking A.\n\n✅ Answer: A — Structured ramp-up with mentor, starter tasks, coding standards, and feedback checkpoints",
+    "options": {
+      "A": "✓ CORRECT. 'Structured ramp-up with mentor, starter tasks, coding standards, and feedback checkpoints' is the correct answer — it directly addresses the specific concept tested in this question in Software Engineering.",
+      "B": "✗ Not the answer. 'Assign critical production ownership on day one' does not fit the scenario: Create a practical onboarding plan for new graduate developers joining the team. The keyed answer is A — Structured ramp-up with mentor, starter tasks, coding standards, and feedback checkpoints.",
+      "C": "✗ Not the answer. 'No documentation access' does not fit the scenario: Create a practical onboarding plan for new graduate developers joining the team. The keyed answer is A — Structured ramp-up with mentor, starter tasks, coding standards, and feedback checkpoints.",
+      "D": "✗ Not the answer. 'Skip code review for newcomers' does not fit the scenario: Create a practical onboarding plan for new graduate developers joining the team. The keyed answer is A — Structured ramp-up with mentor, starter tasks, coding standards, and feedback checkpoints."
+    },
+    "studyTip": "SRS, requirements, maintenance types, and SDLC phases — match exact definitions.",
+    "source": "offline-deep"
+  },
+  "60": {
+    "overview": "Create a rollback strategy for schema changes during high-stakes exam season. Eliminate distractors that confuse related Software Engineering terms before picking A.\n\n✅ Answer: A — Use backward-compatible migrations, backups, and tested rollback scripts",
+    "options": {
+      "A": "✓ CORRECT. 'Use backward-compatible migrations, backups, and tested rollback scripts' is the correct answer — it directly addresses the specific concept tested in this question in Software Engineering.",
+      "B": "✗ Not the answer. 'Apply destructive migration directly in production' does not fit the scenario: Create a rollback strategy for schema changes during high-stakes exam season. The keyed answer is A — Use backward-compatible migrations, backups, and tested rollback scripts.",
+      "C": "✗ Not the answer. 'Disable transactions for speed' does not fit the scenario: Create a rollback strategy for schema changes during high-stakes exam season. The keyed answer is A — Use backward-compatible migrations, backups, and tested rollback scripts.",
+      "D": "✗ Not the answer. 'Drop old columns before app update' does not fit the scenario: Create a rollback strategy for schema changes during high-stakes exam season. The keyed answer is A — Use backward-compatible migrations, backups, and tested rollback scripts."
+    },
+    "studyTip": "SRS, requirements, maintenance types, and SDLC phases — match exact definitions.",
+    "source": "offline-deep"
+  },
+  "61": {
+    "overview": "Design a cross-team incident communication protocol. Eliminate distractors that confuse related Software Engineering terms before picking A.\n\n✅ Answer: A — Define severity levels, single incident commander, update cadence, and postmortem",
+    "options": {
+      "A": "✓ CORRECT. 'Define severity levels, single incident commander, update cadence, and postmortem' is the correct answer — it directly addresses the specific concept tested in this question in Software Engineering.",
+      "B": "✗ Not the answer. 'Allow everyone to post conflicting updates' does not fit the scenario: Design a cross-team incident communication protocol. The keyed answer is A — Define severity levels, single incident commander, update cadence, and postmortem.",
+      "C": "✗ Not the answer. 'Hide outages until resolved' does not fit the scenario: Design a cross-team incident communication protocol. The keyed answer is A — Define severity levels, single incident commander, update cadence, and postmortem.",
+      "D": "✗ Not the answer. 'Use private messages only' does not fit the scenario: Design a cross-team incident communication protocol. The keyed answer is A — Define severity levels, single incident commander, update cadence, and postmortem."
+    },
+    "studyTip": "SRS, requirements, maintenance types, and SDLC phases — match exact definitions.",
+    "source": "offline-deep"
+  },
+  "62": {
+    "overview": "Create a quality gate for merge requests in CI. Eliminate distractors that confuse related Software Engineering terms before picking A.\n\n✅ Answer: A — Require passing tests, lint checks, and code review approval",
+    "options": {
+      "A": "✓ CORRECT. 'Require passing tests, lint checks, and code review approval' is the correct answer — it directly addresses the specific concept tested in this question in Software Engineering.",
+      "B": "✗ Not the answer. 'Allow direct merges during busy weeks' does not fit the scenario: Create a quality gate for merge requests in CI. The keyed answer is A — Require passing tests, lint checks, and code review approval.",
+      "C": "✗ Not the answer. 'Run checks monthly only' does not fit the scenario: Create a quality gate for merge requests in CI. The keyed answer is A — Require passing tests, lint checks, and code review approval.",
+      "D": "✗ Not the answer. 'Ignore flaky tests permanently' does not fit the scenario: Create a quality gate for merge requests in CI. The keyed answer is A — Require passing tests, lint checks, and code review approval."
+    },
+    "studyTip": "SRS, requirements, maintenance types, and SDLC phases — match exact definitions.",
+    "source": "offline-deep"
+  },
+  "63": {
+    "overview": "A stakeholder asks to hide a known fairness issue in automated scholarship ranking. What is the best professional response? Eliminate distractors that confuse related Software Engineering terms before picking A.\n\n✅ Answer: A — Refuse concealment, escalate concern, and address fairness transparently",
+    "options": {
+      "A": "✓ CORRECT. 'Refuse concealment, escalate concern, and address fairness transparently' is the correct answer — it directly addresses the specific concept tested in this question in Software Engineering.",
+      "B": "✗ Not the answer. 'Comply silently to avoid conflict' does not fit the scenario: A stakeholder asks to hide a known fairness issue in automated scholarship ranking. What is the best professional respon… The keyed answer is A — Refuse concealment, escalate concern, and address fairness transparently.",
+      "C": "✗ Not the answer. 'Delete evidence from reports' means C++ operator that frees heap memory allocated by new. That answers a different kind of question. Here, the stem points to 'Refuse concealment, escalate concern, and address fairness transparently' instead.",
+      "D": "✗ Not the answer. 'Disable audit logs' does not fit the scenario: A stakeholder asks to hide a known fairness issue in automated scholarship ranking. What is the best professional respon… The keyed answer is A — Refuse concealment, escalate concern, and address fairness transparently."
+    },
+    "studyTip": "SRS, requirements, maintenance types, and SDLC phases — match exact definitions.",
+    "source": "offline-deep"
+  },
+  "64": {
+    "overview": "A teammate from another region struggles with communication due to language nuance. What behavior best supports collaboration? Eliminate distractors that confuse related Software Engineering terms before picking A.\n\n✅ Answer: A — Use clear written summaries, confirm understanding, and invite questions",
+    "options": {
+      "A": "✓ CORRECT. 'Use clear written summaries, confirm understanding, and invite questions' is the correct answer — it directly addresses the specific concept tested in this question in Software Engineering.",
+      "B": "✗ Not the answer. 'Avoid including them in design discussions' does not fit the scenario: A teammate from another region struggles with communication due to language nuance. What behavior best supports collabor… The keyed answer is A — Use clear written summaries, confirm understanding, and invite questions.",
+      "C": "✗ Not the answer. 'Assume misunderstanding is incompetence' does not fit the scenario: A teammate from another region struggles with communication due to language nuance. What behavior best supports collabor… The keyed answer is A — Use clear written summaries, confirm understanding, and invite questions.",
+      "D": "✗ Not the answer. 'Force only verbal updates' does not fit the scenario: A teammate from another region struggles with communication due to language nuance. What behavior best supports collabor… The keyed answer is A — Use clear written summaries, confirm understanding, and invite questions."
+    },
+    "studyTip": "SRS, requirements, maintenance types, and SDLC phases — match exact definitions.",
+    "source": "offline-deep"
+  },
+  "65": {
+    "overview": "Why is explicit API contract versioning useful in distributed systems? Eliminate distractors that confuse related Software Architecture terms before picking A.\n\n✅ Answer: A — It enables backward compatibility and controlled evolution",
+    "options": {
+      "A": "✓ CORRECT. 'It enables backward compatibility and controlled evolution' is the correct answer — it directly addresses the specific concept tested in this question in Software Architecture.",
+      "B": "✗ Not the answer. 'It removes need for testing' does not fit the scenario: Why is explicit API contract versioning useful in distributed systems? The keyed answer is A — It enables backward compatibility and controlled evolution.",
+      "C": "✗ Not the answer. 'It prevents deployment automation' does not fit the scenario: Why is explicit API contract versioning useful in distributed systems? The keyed answer is A — It enables backward compatibility and controlled evolution.",
+      "D": "✗ Not the answer. 'It replaces authentication' does not fit the scenario: Why is explicit API contract versioning useful in distributed systems? The keyed answer is A — It enables backward compatibility and controlled evolution."
+    },
+    "studyTip": "Think quality attributes and ATAM scenarios — not team size or log files.",
+    "source": "offline-deep"
+  },
+  "66": {
+    "overview": "An exam platform needs strict consistency for scores and eventual consistency for analytics. Which architecture decision is best? Eliminate distractors that confuse related Software Architecture terms before picking A.\n\n✅ Answer: A — Use transactional core services and asynchronous analytics pipeline",
+    "options": {
+      "A": "✓ CORRECT. 'Use transactional core services and asynchronous analytics pipeline' is the correct answer — it directly addresses the specific concept tested in this question in Software Architecture.",
+      "B": "✗ Not the answer. 'Use eventual consistency for score submission and ranking' does not fit the scenario: An exam platform needs strict consistency for scores and eventual consistency for analytics. Which architecture decision… The keyed answer is A — Use transactional core services and asynchronous analytics pipeline.",
+      "C": "✗ Not the answer. 'Store all data in browser cache' does not fit the scenario: An exam platform needs strict consistency for scores and eventual consistency for analytics. Which architecture decision… The keyed answer is A — Use transactional core services and asynchronous analytics pipeline.",
+      "D": "✗ Not the answer. 'Avoid message queues' does not fit the scenario: An exam platform needs strict consistency for scores and eventual consistency for analytics. Which architecture decision… The keyed answer is A — Use transactional core services and asynchronous analytics pipeline."
+    },
+    "studyTip": "Think quality attributes and ATAM scenarios — not team size or log files.",
+    "source": "offline-deep"
+  },
+  "67": {
+    "overview": "Create a microservices decomposition for digital library platform. Eliminate distractors that confuse related Software Architecture terms before picking A.\n\n✅ Answer: A — Catalog, Borrowing, Identity, Recommendation, and Notification services",
+    "options": {
+      "A": "✓ CORRECT. 'Catalog, Borrowing, Identity, Recommendation, and Notification services' is the correct answer — it directly addresses the specific concept tested in this question in Software Architecture.",
+      "B": "✗ Not the answer. 'Single service with shared mutable globals' does not fit the scenario: Create a microservices decomposition for digital library platform. The keyed answer is A — Catalog, Borrowing, Identity, Recommendation, and Notification services.",
+      "C": "✗ Not the answer. 'Service per database table' does not fit the scenario: Create a microservices decomposition for digital library platform. The keyed answer is A — Catalog, Borrowing, Identity, Recommendation, and Notification services.",
+      "D": "✗ Not the answer. 'No service boundaries' does not fit the scenario: Create a microservices decomposition for digital library platform. The keyed answer is A — Catalog, Borrowing, Identity, Recommendation, and Notification services."
+    },
+    "studyTip": "Think quality attributes and ATAM scenarios — not team size or log files.",
+    "source": "offline-deep"
+  },
+  "68": {
+    "overview": "Design architecture for multi-tenant schools with isolated data and shared operations. Eliminate distractors that confuse related Software Architecture terms before picking A.\n\n✅ Answer: A — Tenant-aware service layer with row-level isolation and per-tenant controls",
+    "options": {
+      "A": "✓ CORRECT. 'Tenant-aware service layer with row-level isolation and per-tenant controls' is the correct answer — it directly addresses the specific concept tested in this question in Software Architecture.",
+      "B": "✗ Not the answer. 'One shared admin account and shared schema without tenant keys' does not fit the scenario: Design architecture for multi-tenant schools with isolated data and shared operations. The keyed answer is A — Tenant-aware service layer with row-level isolation and per-tenant controls.",
+      "C": "✗ Not the answer. 'Separate codebase per student' does not fit the scenario: Design architecture for multi-tenant schools with isolated data and shared operations. The keyed answer is A — Tenant-aware service layer with row-level isolation and per-tenant controls.",
+      "D": "✗ Not the answer. 'Local file storage only' does not fit the scenario: Design architecture for multi-tenant schools with isolated data and shared operations. The keyed answer is A — Tenant-aware service layer with row-level isolation and per-tenant controls."
+    },
+    "studyTip": "Think quality attributes and ATAM scenarios — not team size or log files.",
+    "source": "offline-deep"
+  },
+  "69": {
+    "overview": "Create resilience strategy for downstream payment outages. The answer hinges on: a FIFO structure used for BFS, job scheduling, and buffering Eliminate distractors that confuse related Software Architecture terms before picking A.\n\n✅ Answer: A — Circuit breakers, retries with backoff, idempotency keys, and fallback queue",
+    "options": {
+      "A": "✓ CORRECT. 'Circuit breakers, retries with backoff, idempotency keys, and fallback queue' is correct because it matches the specific concept tested in this question. Definition: a FIFO structure used for BFS, job scheduling, and buffering.",
+      "B": "✗ Not the answer. 'Infinite tight-loop retries' does not fit the scenario: Create resilience strategy for downstream payment outages. The keyed answer is A — Circuit breakers, retries with backoff, idempotency keys, and fallback queue.",
+      "C": "✗ Not the answer. 'Synchronous blocking calls everywhere' does not fit the scenario: Create resilience strategy for downstream payment outages. The keyed answer is A — Circuit breakers, retries with backoff, idempotency keys, and fallback queue.",
+      "D": "✗ Not the answer. 'Manual restart as only control' does not fit the scenario: Create resilience strategy for downstream payment outages. The keyed answer is A — Circuit breakers, retries with backoff, idempotency keys, and fallback queue."
+    },
+    "studyTip": "Think quality attributes and ATAM scenarios — not team size or log files.",
+    "source": "offline-deep"
+  },
+  "70": {
+    "overview": "Why are stakeholder influence and interest mapped at project start? Eliminate distractors that confuse related Project Management terms before picking A.\n\n✅ Answer: A — To tailor communication and decision engagement plans",
+    "options": {
+      "A": "✓ CORRECT. 'To tailor communication and decision engagement plans' is the correct answer — it directly addresses the specific concept tested in this question in Project Management.",
+      "B": "✗ Not the answer. 'To avoid documenting requirements' does not fit the scenario: Why are stakeholder influence and interest mapped at project start? The keyed answer is A — To tailor communication and decision engagement plans.",
+      "C": "✗ Not the answer. 'To replace schedule baselines' does not fit the scenario: Why are stakeholder influence and interest mapped at project start? The keyed answer is A — To tailor communication and decision engagement plans.",
+      "D": "✗ Not the answer. 'To estimate CPU usage' does not fit the scenario: Why are stakeholder influence and interest mapped at project start? The keyed answer is A — To tailor communication and decision engagement plans."
+    },
+    "studyTip": "Identify lifecycle model, risk strategy, or WBS/critical-path terminology.",
+    "source": "offline-deep"
+  },
+  "71": {
+    "overview": "A project has tasks: A(3d) then B(2d) and C(4d) in parallel, then D(2d) after both. What is total duration? Eliminate distractors that confuse related Project Management terms before picking C.\n\n✅ Answer: C — 9 days",
+    "options": {
+      "A": "✗ Not the answer. '7 days' does not fit the scenario: A project has tasks: A(3d) then B(2d) and C(4d) in parallel, then D(2d) after both. What is total duration? The keyed answer is C — 9 days.",
+      "B": "✗ Not the answer. '8 days' does not fit the scenario: A project has tasks: A(3d) then B(2d) and C(4d) in parallel, then D(2d) after both. What is total duration? The keyed answer is C — 9 days.",
+      "C": "✓ CORRECT. '9 days' is the correct answer — it directly addresses the specific concept tested in this question in Project Management.",
+      "D": "✗ Not the answer. '11 days' does not fit the scenario: A project has tasks: A(3d) then B(2d) and C(4d) in parallel, then D(2d) after both. What is total duration? The keyed answer is C — 9 days."
+    },
+    "studyTip": "Identify lifecycle model, risk strategy, or WBS/critical-path terminology.",
+    "source": "offline-deep"
+  },
+  "72": {
+    "overview": "This Project Management question tests tracing code execution to determine printed output. The correct choice is A — Assess impact and negotiate scope/time/cost trade-off formally.\n\n✅ Answer: A — Assess impact and negotiate scope/time/cost trade-off formally",
+    "options": {
+      "A": "✓ CORRECT. 'Assess impact and negotiate scope/time/cost trade-off formally' is the correct answer — it directly addresses tracing code execution to determine printed output in Project Management.",
+      "B": "✗ Not the answer. If the program printed Accept immediately and hide risk, a different branch or calculation would execute. Trace the code line-by-line with the given inputs to verify the output is Assess impact and negotiate scope/time/cost trade-off formally.",
+      "C": "✗ Not the answer. If the program printed Cut testing silently, a different branch or calculation would execute. Trace the code line-by-line with the given inputs to verify the output is Assess impact and negotiate scope/time/cost trade-off formally.",
+      "D": "✗ Not the answer. If the program printed Ignore sponsor request, a different branch or calculation would execute. Trace the code line-by-line with the given inputs to verify the output is Assess impact and negotiate scope/time/cost trade-off formally."
+    },
+    "studyTip": "Identify lifecycle model, risk strategy, or WBS/critical-path terminology.",
+    "source": "offline-deep"
+  },
+  "73": {
+    "overview": "Create a communication plan for a project spanning universities in multiple time zones. Eliminate distractors that confuse related Project Management terms before picking A.\n\n✅ Answer: A — Define cadence, channels, escalation paths, and artifact owners",
+    "options": {
+      "A": "✓ CORRECT. 'Define cadence, channels, escalation paths, and artifact owners' is the correct answer — it directly addresses the specific concept tested in this question in Project Management.",
+      "B": "✗ Not the answer. 'Hold ad-hoc meetings only' does not fit the scenario: Create a communication plan for a project spanning universities in multiple time zones. The keyed answer is A — Define cadence, channels, escalation paths, and artifact owners.",
+      "C": "✗ Not the answer. 'Send updates only at project end' does not fit the scenario: Create a communication plan for a project spanning universities in multiple time zones. The keyed answer is A — Define cadence, channels, escalation paths, and artifact owners.",
+      "D": "✗ Not the answer. 'Avoid written records' does not fit the scenario: Create a communication plan for a project spanning universities in multiple time zones. The keyed answer is A — Define cadence, channels, escalation paths, and artifact owners."
+    },
+    "studyTip": "Identify lifecycle model, risk strategy, or WBS/critical-path terminology.",
+    "source": "offline-deep"
+  },
+  "74": {
+    "overview": "This Project Management question tests tracing code execution to determine printed output. The correct choice is A — Set sprint goal, estimate collaboratively, identify risks, and pair juniors with mentors.\n\n✅ Answer: A — Set sprint goal, estimate collaboratively, identify risks, and pair juniors with mentors",
+    "options": {
+      "A": "✓ CORRECT. 'Set sprint goal, estimate collaboratively, identify risks, and pair juniors with mentors' is the correct answer — it directly addresses tracing code execution to determine printed output in Project Management.",
+      "B": "✗ Not the answer. If the program printed Assign tasks unilaterally without discussion, a different branch or calculation would execute. Trace the code line-by-line with the given inputs to verify the output is Set sprint goal, estimate collaboratively, identify risks, and pair juniors with mentors.",
+      "C": "✗ Not the answer. If the program printed Skip retrospectives always, a different branch or calculation would execute. Trace the code line-by-line with the given inputs to verify the output is Set sprint goal, estimate collaboratively, identify risks, and pair juniors with mentors.",
+      "D": "✗ Not the answer. If the program printed Plan by intuition only, a different branch or calculation would execute. Trace the code line-by-line with the given inputs to verify the output is Set sprint goal, estimate collaboratively, identify risks, and pair juniors with mentors."
+    },
+    "studyTip": "Identify lifecycle model, risk strategy, or WBS/critical-path terminology.",
+    "source": "offline-deep"
+  },
+  "75": {
+    "overview": "Why is test data management important in integration testing? Eliminate distractors that confuse related Software Testing terms before picking A.\n\n✅ Answer: A — Realistic and controlled data improves defect detection reliability",
+    "options": {
+      "A": "✓ CORRECT. 'Realistic and controlled data improves defect detection reliability' is the correct answer — it directly addresses the specific concept tested in this question in Software Testing.",
+      "B": "✗ Not the answer. 'Any random data is always sufficient' does not fit the scenario: Why is test data management important in integration testing? The keyed answer is A — Realistic and controlled data improves defect detection reliability.",
+      "C": "✗ Not the answer. 'It only affects UI color testing' does not fit the scenario: Why is test data management important in integration testing? The keyed answer is A — Realistic and controlled data improves defect detection reliability.",
+      "D": "✗ Not the answer. 'It replaces environment setup' does not fit the scenario: Why is test data management important in integration testing? The keyed answer is A — Realistic and controlled data improves defect detection reliability."
+    },
+    "studyTip": "Match the question to test levels, coverage types, or traceability definitions.",
+    "source": "offline-deep"
+  },
+  "76": {
+    "overview": "A login allows 5 attempts before lockout. Which test is most relevant? Eliminate distractors that confuse related Software Testing terms before picking A.\n\n✅ Answer: A — Attempt 5 success then 6th fails/locks",
+    "options": {
+      "A": "✓ CORRECT. 'Attempt 5 success then 6th fails/locks' is the correct answer — it directly addresses the specific concept tested in this question in Software Testing.",
+      "B": "✗ Not the answer. 'Only valid username once' does not fit the scenario: A login allows 5 attempts before lockout. Which test is most relevant? The keyed answer is A — Attempt 5 success then 6th fails/locks.",
+      "C": "✗ Not the answer. 'Check homepage title' does not fit the scenario: A login allows 5 attempts before lockout. Which test is most relevant? The keyed answer is A — Attempt 5 success then 6th fails/locks.",
+      "D": "✗ Not the answer. 'Delete user table' means C++ operator that frees heap memory allocated by new. That answers a different kind of question. Here, the stem points to 'Attempt 5 success then 6th fails/locks' instead."
+    },
+    "studyTip": "Match the question to test levels, coverage types, or traceability definitions.",
+    "source": "offline-deep"
+  },
+  "77": {
+    "overview": "Production issue occurs only when two services update same record concurrently. Which missing test type is indicated? Eliminate distractors that confuse related Software Testing terms before picking A.\n\n✅ Answer: A — Concurrency/integration scenario testing",
+    "options": {
+      "A": "✓ CORRECT. 'Concurrency/integration scenario testing' is the correct answer — it directly addresses the specific concept tested in this question in Software Testing.",
+      "B": "✗ Not the answer. 'Spelling test' does not fit the scenario: Production issue occurs only when two services update same record concurrently. Which missing test type is indicated? The keyed answer is A — Concurrency/integration scenario testing.",
+      "C": "✗ Not the answer. 'Screenshot testing only' does not fit the scenario: Production issue occurs only when two services update same record concurrently. Which missing test type is indicated? The keyed answer is A — Concurrency/integration scenario testing.",
+      "D": "✗ Not the answer. 'Static code formatting' does not fit the scenario: Production issue occurs only when two services update same record concurrently. Which missing test type is indicated? The keyed answer is A — Concurrency/integration scenario testing."
+    },
+    "studyTip": "Match the question to test levels, coverage types, or traceability definitions.",
+    "source": "offline-deep"
+  },
+  "78": {
+    "overview": "Create a regression selection strategy for daily CI runs. Eliminate distractors that confuse related Software Testing terms before picking A.\n\n✅ Answer: A — Run risk-based core suite daily and full suite nightly",
+    "options": {
+      "A": "✓ CORRECT. 'Run risk-based core suite daily and full suite nightly' is the correct answer — it directly addresses the specific concept tested in this question in Software Testing.",
+      "B": "✗ Not the answer. 'Run full manual suite after each commit' does not fit the scenario: Create a regression selection strategy for daily CI runs. The keyed answer is A — Run risk-based core suite daily and full suite nightly.",
+      "C": "✗ Not the answer. 'Skip regression unless users complain' represents supervised learning predicting continuous values — not sequential time-series forecasting. This question tests the specific concept tested in this question. That requires 'Run risk-based core suite daily and full suite nightly', not 'Skip regression unless users complain'.",
+      "D": "✗ Not the answer. 'Run only newly written tests' does not fit the scenario: Create a regression selection strategy for daily CI runs. The keyed answer is A — Run risk-based core suite daily and full suite nightly."
+    },
+    "studyTip": "Match the question to test levels, coverage types, or traceability definitions.",
+    "source": "offline-deep"
+  },
+  "79": {
+    "overview": "Create a quality dashboard for release decision meetings. Eliminate distractors that confuse related Software Testing terms before picking A.\n\n✅ Answer: A — Track pass rate, defect severity trend, escaped defects, and coverage",
+    "options": {
+      "A": "✓ CORRECT. 'Track pass rate, defect severity trend, escaped defects, and coverage' is the correct answer — it directly addresses the specific concept tested in this question in Software Testing.",
+      "B": "✗ Not the answer. 'Count only test cases written' does not fit the scenario: Create a quality dashboard for release decision meetings. The keyed answer is A — Track pass rate, defect severity trend, escaped defects, and coverage.",
+      "C": "✗ Not the answer. 'Use build duration only' does not fit the scenario: Create a quality dashboard for release decision meetings. The keyed answer is A — Track pass rate, defect severity trend, escaped defects, and coverage.",
+      "D": "✗ Not the answer. 'Display random KPI each week' does not fit the scenario: Create a quality dashboard for release decision meetings. The keyed answer is A — Track pass rate, defect severity trend, escaped defects, and coverage."
+    },
+    "studyTip": "Match the question to test levels, coverage types, or traceability definitions.",
+    "source": "offline-deep"
+  },
+  "80": {
+    "overview": "Why is CIDR used instead of old classful addressing? Eliminate distractors that confuse related Networking terms before picking A.\n\n✅ Answer: A — It allows flexible allocation and efficient route aggregation",
+    "options": {
+      "A": "✓ CORRECT. 'It allows flexible allocation and efficient route aggregation' is the correct answer — it directly addresses the specific concept tested in this question in Networking.",
+      "B": "✗ Not the answer. 'It disables subnetting' does not fit the scenario: Why is CIDR used instead of old classful addressing? The keyed answer is A — It allows flexible allocation and efficient route aggregation.",
+      "C": "✗ Not the answer. 'It guarantees no routing loops' does not fit the scenario: Why is CIDR used instead of old classful addressing? The keyed answer is A — It allows flexible allocation and efficient route aggregation.",
+      "D": "✗ Not the answer. 'It removes need for gateways' does not fit the scenario: Why is CIDR used instead of old classful addressing? The keyed answer is A — It allows flexible allocation and efficient route aggregation."
+    },
+    "studyTip": "Map the scenario to OSI/TCP layers, protocol behavior, or topology properties.",
+    "source": "offline-deep"
+  },
+  "81": {
+    "overview": "A /24 network is split into 4 equal subnets. What is each new prefix? Eliminate distractors that confuse related Networking terms before picking B.\n\n✅ Answer: B — /26",
+    "options": {
+      "A": "✗ Not the answer. '/25' does not fit the scenario: A /24 network is split into 4 equal subnets. What is each new prefix? The keyed answer is B — /26.",
+      "B": "✓ CORRECT. '/26' is the correct answer — it directly addresses the specific concept tested in this question in Networking.",
+      "C": "✗ Not the answer. '/27' does not fit the scenario: A /24 network is split into 4 equal subnets. What is each new prefix? The keyed answer is B — /26.",
+      "D": "✗ Not the answer. '/28' does not fit the scenario: A /24 network is split into 4 equal subnets. What is each new prefix? The keyed answer is B — /26."
+    },
+    "studyTip": "Map the scenario to OSI/TCP layers, protocol behavior, or topology properties.",
+    "source": "offline-deep"
+  },
+  "82": {
+    "overview": "A /26 subnet has how many usable host addresses? Eliminate distractors that confuse related Networking terms before picking A.\n\n✅ Answer: A — 62",
+    "options": {
+      "A": "✓ CORRECT. '62' is the correct answer — it directly addresses the specific concept tested in this question in Networking.",
+      "B": "✗ Not the answer. '64' does not fit the scenario: A /26 subnet has how many usable host addresses? The keyed answer is A — 62.",
+      "C": "✗ Not the answer. '30' does not fit the scenario: A /26 subnet has how many usable host addresses? The keyed answer is A — 62.",
+      "D": "✗ Not the answer. '126' does not fit the scenario: A /26 subnet has how many usable host addresses? The keyed answer is A — 62."
+    },
+    "studyTip": "Map the scenario to OSI/TCP layers, protocol behavior, or topology properties.",
+    "source": "offline-deep"
+  },
+  "83": {
+    "overview": "Traffic captures show repeated ARP replies mapping gateway IP to attacker MAC. What is this? Eliminate distractors that confuse related Networking terms before picking A.\n\n✅ Answer: A — ARP spoofing/poisoning",
+    "options": {
+      "A": "✓ CORRECT. 'ARP spoofing/poisoning' is the correct answer — it directly addresses the specific concept tested in this question in Networking.",
+      "B": "✗ Not the answer. 'DNS amplification' means Domain Name System — resolves names to IP addresses. That answers a different kind of question. Here, the stem points to 'ARP spoofing/poisoning' instead.",
+      "C": "✗ Not the answer. 'BGP hijack' does not fit the scenario: Traffic captures show repeated ARP replies mapping gateway IP to attacker MAC. What is this? The keyed answer is A — ARP spoofing/poisoning.",
+      "D": "✗ Not the answer. 'Port mirroring' does not fit the scenario: Traffic captures show repeated ARP replies mapping gateway IP to attacker MAC. What is this? The keyed answer is A — ARP spoofing/poisoning."
+    },
+    "studyTip": "Map the scenario to OSI/TCP layers, protocol behavior, or topology properties.",
+    "source": "offline-deep"
+  },
+  "84": {
+    "overview": "Create a campus network design that isolates lab, admin, and guest traffic while allowing controlled access. Eliminate distractors that confuse related Networking terms before picking A.\n\n✅ Answer: A — Use VLAN segmentation, inter-VLAN firewall rules, and NAC",
+    "options": {
+      "A": "✓ CORRECT. 'Use VLAN segmentation, inter-VLAN firewall rules, and NAC' is the correct answer — it directly addresses the specific concept tested in this question in Networking.",
+      "B": "✗ Not the answer. 'Use one flat subnet for all users' does not fit the scenario: Create a campus network design that isolates lab, admin, and guest traffic while allowing controlled access. The keyed answer is A — Use VLAN segmentation, inter-VLAN firewall rules, and NAC.",
+      "C": "✗ Not the answer. 'Disable ACLs to simplify routing' does not fit the scenario: Create a campus network design that isolates lab, admin, and guest traffic while allowing controlled access. The keyed answer is A — Use VLAN segmentation, inter-VLAN firewall rules, and NAC.",
+      "D": "✗ Not the answer. 'Allow guest access to admin DB' does not fit the scenario: Create a campus network design that isolates lab, admin, and guest traffic while allowing controlled access. The keyed answer is A — Use VLAN segmentation, inter-VLAN firewall rules, and NAC."
+    },
+    "studyTip": "Map the scenario to OSI/TCP layers, protocol behavior, or topology properties.",
+    "source": "offline-deep"
+  },
+  "85": {
+    "overview": "A regional office can choose static routes everywhere or dynamic routing with OSPF for expanding branches. Which is better? The answer hinges on: ability to handle growing load (users, queries, data) Eliminate distractors that confuse related Networking terms before picking A.\n\n✅ Answer: A — Dynamic routing with OSPF for scalability and resilience",
+    "options": {
+      "A": "✓ CORRECT. 'Dynamic routing with OSPF for scalability and resilience' is correct because it matches the specific concept tested in this question. Definition: ability to handle growing load (users, queries, data).",
+      "B": "✗ Not the answer. 'Static routes only forever' does not fit the scenario: A regional office can choose static routes everywhere or dynamic routing with OSPF for expanding branches. Which is bett… The keyed answer is A — Dynamic routing with OSPF for scalability and resilience.",
+      "C": "✗ Not the answer. 'No routing protocol plus NAT only' does not fit the scenario: A regional office can choose static routes everywhere or dynamic routing with OSPF for expanding branches. Which is bett… The keyed answer is A — Dynamic routing with OSPF for scalability and resilience.",
+      "D": "✗ Not the answer. 'Use hubs to avoid L3' does not fit the scenario: A regional office can choose static routes everywhere or dynamic routing with OSPF for expanding branches. Which is bett… The keyed answer is A — Dynamic routing with OSPF for scalability and resilience."
+    },
+    "studyTip": "Map the scenario to OSI/TCP layers, protocol behavior, or topology properties.",
+    "source": "offline-deep"
+  },
+  "86": {
+    "overview": "Why is principle of least privilege central to secure system design? Eliminate distractors that confuse related Security terms before picking A.\n\n✅ Answer: A — It limits damage if an account is compromised",
+    "options": {
+      "A": "✓ CORRECT. 'It limits damage if an account is compromised' is the correct answer — it directly addresses the specific concept tested in this question in Security.",
+      "B": "✗ Not the answer. 'It grants faster admin access to all users' does not fit the scenario: Why is principle of least privilege central to secure system design? The keyed answer is A — It limits damage if an account is compromised.",
+      "C": "✗ Not the answer. 'It removes need for authentication' does not fit the scenario: Why is principle of least privilege central to secure system design? The keyed answer is A — It limits damage if an account is compromised.",
+      "D": "✗ Not the answer. 'It requires shared root accounts' does not fit the scenario: Why is principle of least privilege central to secure system design? The keyed answer is A — It limits damage if an account is compromised."
+    },
+    "studyTip": "Use Saltzer-Schroeder principles and CIA triad vocabulary to eliminate distractors.",
+    "source": "offline-deep"
+  },
+  "87": {
+    "overview": "A web app stores session ID in URL and logs it in proxies. Which secure fix is best? Eliminate distractors that confuse related Security terms before picking A.\n\n✅ Answer: A — Use secure HttpOnly cookies and rotate session IDs",
+    "options": {
+      "A": "✓ CORRECT. 'Use secure HttpOnly cookies and rotate session IDs' is the correct answer — it directly addresses the specific concept tested in this question in Security.",
+      "B": "✗ Not the answer. 'Keep URL session and hide logs' does not fit the scenario: A web app stores session ID in URL and logs it in proxies. Which secure fix is best? The keyed answer is A — Use secure HttpOnly cookies and rotate session IDs.",
+      "C": "✗ Not the answer. 'Disable logout endpoints' does not fit the scenario: A web app stores session ID in URL and logs it in proxies. Which secure fix is best? The keyed answer is A — Use secure HttpOnly cookies and rotate session IDs.",
+      "D": "✗ Not the answer. 'Store passwords in cookies' does not fit the scenario: A web app stores session ID in URL and logs it in proxies. Which secure fix is best? The keyed answer is A — Use secure HttpOnly cookies and rotate session IDs."
+    },
+    "studyTip": "Use Saltzer-Schroeder principles and CIA triad vocabulary to eliminate distractors.",
+    "source": "offline-deep"
+  },
+  "88": {
+    "overview": "A server certificate expires during exam week. Which immediate action is best? Eliminate distractors that confuse related Security terms before picking A.\n\n✅ Answer: A — Renew certificate and automate renewal monitoring",
+    "options": {
+      "A": "✓ CORRECT. 'Renew certificate and automate renewal monitoring' is the correct answer — it directly addresses the specific concept tested in this question in Security.",
+      "B": "✗ Not the answer. 'Switch to HTTP temporarily' means Hypertext Transfer Protocol — request/response web protocol. That answers a different kind of question. Here, the stem points to 'Renew certificate and automate renewal monitoring' instead.",
+      "C": "✗ Not the answer. 'Ignore warning dialogs' does not fit the scenario: A server certificate expires during exam week. Which immediate action is best? The keyed answer is A — Renew certificate and automate renewal monitoring.",
+      "D": "✗ Not the answer. 'Disable browser certificate checks' does not fit the scenario: A server certificate expires during exam week. Which immediate action is best? The keyed answer is A — Renew certificate and automate renewal monitoring."
+    },
+    "studyTip": "Use Saltzer-Schroeder principles and CIA triad vocabulary to eliminate distractors.",
+    "source": "offline-deep"
+  },
+  "89": {
+    "overview": "A municipality must choose between SMS OTP only and phishing-resistant MFA using authenticator app or FIDO key for admin accounts. Which is best? Eliminate distractors that confuse related Security terms before picking A.\n\n✅ Answer: A — Phishing-resistant MFA for admin accounts",
+    "options": {
+      "A": "✓ CORRECT. 'Phishing-resistant MFA for admin accounts' is the correct answer — it directly addresses the specific concept tested in this question in Security.",
+      "B": "✗ Not the answer. 'SMS OTP only for all high-risk accounts' does not fit the scenario: A municipality must choose between SMS OTP only and phishing-resistant MFA using authenticator app or FIDO key for admin… The keyed answer is A — Phishing-resistant MFA for admin accounts.",
+      "C": "✗ Not the answer. 'No MFA for internal users' does not fit the scenario: A municipality must choose between SMS OTP only and phishing-resistant MFA using authenticator app or FIDO key for admin… The keyed answer is A — Phishing-resistant MFA for admin accounts.",
+      "D": "✗ Not the answer. 'Shared password vault login' does not fit the scenario: A municipality must choose between SMS OTP only and phishing-resistant MFA using authenticator app or FIDO key for admin… The keyed answer is A — Phishing-resistant MFA for admin accounts."
+    },
+    "studyTip": "Use Saltzer-Schroeder principles and CIA triad vocabulary to eliminate distractors.",
+    "source": "offline-deep"
+  },
+  "90": {
+    "overview": "A penetration tester discovers exposed student data API in staging. What team behavior is most appropriate? Eliminate distractors that confuse related Security terms before picking A.\n\n✅ Answer: A — Coordinate responsible disclosure, fix quickly, and share lessons learned",
+    "options": {
+      "A": "✓ CORRECT. 'Coordinate responsible disclosure, fix quickly, and share lessons learned' is the correct answer — it directly addresses the specific concept tested in this question in Security.",
+      "B": "✗ Not the answer. 'Publish exploit publicly before notifying team' does not fit the scenario: A penetration tester discovers exposed student data API in staging. What team behavior is most appropriate? The keyed answer is A — Coordinate responsible disclosure, fix quickly, and share lessons learned.",
+      "C": "✗ Not the answer. 'Ignore because environment is staging' does not fit the scenario: A penetration tester discovers exposed student data API in staging. What team behavior is most appropriate? The keyed answer is A — Coordinate responsible disclosure, fix quickly, and share lessons learned.",
+      "D": "✗ Not the answer. 'Delete test report' represents C++ operator that frees heap memory allocated by new. This question tests the specific concept tested in this question. That requires 'Coordinate responsible disclosure, fix quickly, and share lessons learned', not 'Delete test report'."
+    },
+    "studyTip": "Use Saltzer-Schroeder principles and CIA triad vocabulary to eliminate distractors.",
+    "source": "offline-deep"
+  },
+  "91": {
+    "overview": "Why is cross-validation useful when dataset size is limited? Eliminate distractors that confuse related AI / ML terms before picking A.\n\n✅ Answer: A — It estimates model generalization more reliably across folds",
+    "options": {
+      "A": "✓ CORRECT. 'It estimates model generalization more reliably across folds' is the correct answer — it directly addresses the specific concept tested in this question in AI / ML.",
+      "B": "✗ Not the answer. 'It guarantees best hyperparameters always' does not fit the scenario: Why is cross-validation useful when dataset size is limited? The keyed answer is A — It estimates model generalization more reliably across folds.",
+      "C": "✗ Not the answer. 'It removes need for holdout data' does not fit the scenario: Why is cross-validation useful when dataset size is limited? The keyed answer is A — It estimates model generalization more reliably across folds.",
+      "D": "✗ Not the answer. 'It works only for deep learning' does not fit the scenario: Why is cross-validation useful when dataset size is limited? The keyed answer is A — It estimates model generalization more reliably across folds."
+    },
+    "studyTip": "Classify learning type or search strategy (informed vs uninformed, optimal vs greedy).",
+    "source": "offline-deep"
+  },
+  "92": {
+    "overview": "Why should fairness metrics be monitored for scholarship ranking models? Eliminate distractors that confuse related AI / ML terms before picking A.\n\n✅ Answer: A — Model performance can differ across demographic groups",
+    "options": {
+      "A": "✓ CORRECT. 'Model performance can differ across demographic groups' is the correct answer — it directly addresses the specific concept tested in this question in AI / ML.",
+      "B": "✗ Not the answer. 'Fairness checks reduce all accuracy to zero' does not fit the scenario: Why should fairness metrics be monitored for scholarship ranking models? The keyed answer is A — Model performance can differ across demographic groups.",
+      "C": "✗ Not the answer. 'Fairness is only legal issue, not technical' does not fit the scenario: Why should fairness metrics be monitored for scholarship ranking models? The keyed answer is A — Model performance can differ across demographic groups.",
+      "D": "✗ Not the answer. 'Bias disappears after normalization' represents organizing relations to reduce redundancy using FDs and keys. This question tests the specific concept tested in this question. That requires 'Model performance can differ across demographic groups', not 'Bias disappears after normalization'."
+    },
+    "studyTip": "Classify learning type or search strategy (informed vs uninformed, optimal vs greedy).",
+    "source": "offline-deep"
+  },
+  "93": {
+    "overview": "A binary classifier has TP=90, FP=30, FN=10, TN=70. What is recall? Eliminate distractors that confuse related AI / ML terms before picking C.\n\n✅ Answer: C — 0.90",
+    "options": {
+      "A": "✗ Not the answer. '0.75' does not fit the scenario: A binary classifier has TP=90, FP=30, FN=10, TN=70. What is recall? The keyed answer is C — 0.90.",
+      "B": "✗ Not the answer. '0.80' does not fit the scenario: A binary classifier has TP=90, FP=30, FN=10, TN=70. What is recall? The keyed answer is C — 0.90.",
+      "C": "✓ CORRECT. '0.90' is the correct answer — it directly addresses the specific concept tested in this question in AI / ML.",
+      "D": "✗ Not the answer. '0.97' does not fit the scenario: A binary classifier has TP=90, FP=30, FN=10, TN=70. What is recall? The keyed answer is C — 0.90."
+    },
+    "studyTip": "Classify learning type or search strategy (informed vs uninformed, optimal vs greedy).",
+    "source": "offline-deep"
+  },
+  "94": {
+    "overview": "For multiclass image classification, which evaluation summary handles class imbalance better than plain accuracy? Eliminate distractors that confuse related AI / ML terms before picking A.\n\n✅ Answer: A — Macro-averaged F1 score",
+    "options": {
+      "A": "✓ CORRECT. 'Macro-averaged F1 score' is the correct answer — it directly addresses the specific concept tested in this question in AI / ML.",
+      "B": "✗ Not the answer. 'Training loss after first epoch' does not fit the scenario: For multiclass image classification, which evaluation summary handles class imbalance better than plain accuracy? The keyed answer is A — Macro-averaged F1 score.",
+      "C": "✗ Not the answer. 'Model file size' does not fit the scenario: For multiclass image classification, which evaluation summary handles class imbalance better than plain accuracy? The keyed answer is A — Macro-averaged F1 score.",
+      "D": "✗ Not the answer. 'GPU temperature' does not fit the scenario: For multiclass image classification, which evaluation summary handles class imbalance better than plain accuracy? The keyed answer is A — Macro-averaged F1 score."
+    },
+    "studyTip": "Classify learning type or search strategy (informed vs uninformed, optimal vs greedy).",
+    "source": "offline-deep"
+  },
+  "95": {
+    "overview": "A model's training loss decreases steadily but validation loss increases after epoch 12. What does this indicate? Eliminate distractors that confuse related AI / ML terms before picking A.\n\n✅ Answer: A — Overfitting after epoch 12",
+    "options": {
+      "A": "✓ CORRECT. 'Overfitting after epoch 12' is the correct answer — it directly addresses the specific concept tested in this question in AI / ML.",
+      "B": "✗ Not the answer. 'Underfitting improving' does not fit the scenario: A model's training loss decreases steadily but validation loss increases after epoch 12. What does this indicate? The keyed answer is A — Overfitting after epoch 12.",
+      "C": "✗ Not the answer. 'Data leakage resolved' does not fit the scenario: A model's training loss decreases steadily but validation loss increases after epoch 12. What does this indicate? The keyed answer is A — Overfitting after epoch 12.",
+      "D": "✗ Not the answer. 'Optimizer failure to update' does not fit the scenario: A model's training loss decreases steadily but validation loss increases after epoch 12. What does this indicate? The keyed answer is A — Overfitting after epoch 12."
+    },
+    "studyTip": "Classify learning type or search strategy (informed vs uninformed, optimal vs greedy).",
+    "source": "offline-deep"
+  },
+  "96": {
+    "overview": "Create a human-in-the-loop review workflow for high-stakes automated decisions. Eliminate distractors that confuse related AI / ML terms before picking A.\n\n✅ Answer: A — Route low-confidence cases to human reviewers with rationale logs",
+    "options": {
+      "A": "✓ CORRECT. 'Route low-confidence cases to human reviewers with rationale logs' is the correct answer — it directly addresses the specific concept tested in this question in AI / ML.",
+      "B": "✗ Not the answer. 'Auto-approve all low-confidence outputs' does not fit the scenario: Create a human-in-the-loop review workflow for high-stakes automated decisions. The keyed answer is A — Route low-confidence cases to human reviewers with rationale logs.",
+      "C": "✗ Not the answer. 'Hide confidence scores from operators' does not fit the scenario: Create a human-in-the-loop review workflow for high-stakes automated decisions. The keyed answer is A — Route low-confidence cases to human reviewers with rationale logs.",
+      "D": "✗ Not the answer. 'Disable audit trail' does not fit the scenario: Create a human-in-the-loop review workflow for high-stakes automated decisions. The keyed answer is A — Route low-confidence cases to human reviewers with rationale logs."
+    },
+    "studyTip": "Classify learning type or search strategy (informed vs uninformed, optimal vs greedy).",
+    "source": "offline-deep"
+  },
+  "97": {
+    "overview": "Create a deployment architecture for low-latency speech scoring in exam centers with unstable connectivity. The answer hinges on: a FIFO structure used for BFS, job scheduling, and buffering Eliminate distractors that confuse related AI / ML terms before picking A.\n\n✅ Answer: A — Edge inference with periodic cloud sync and fallback queue",
+    "options": {
+      "A": "✓ CORRECT. 'Edge inference with periodic cloud sync and fallback queue' is correct because it matches the specific concept tested in this question. Definition: a FIFO structure used for BFS, job scheduling, and buffering.",
+      "B": "✗ Not the answer. 'Cloud-only inference with no retry' does not fit the scenario: Create a deployment architecture for low-latency speech scoring in exam centers with unstable connectivity. The keyed answer is A — Edge inference with periodic cloud sync and fallback queue.",
+      "C": "✗ Not the answer. 'Manual scoring from raw waveform dumps' does not fit the scenario: Create a deployment architecture for low-latency speech scoring in exam centers with unstable connectivity. The keyed answer is A — Edge inference with periodic cloud sync and fallback queue.",
+      "D": "✗ Not the answer. 'Single-threaded batch mode only' does not fit the scenario: Create a deployment architecture for low-latency speech scoring in exam centers with unstable connectivity. The keyed answer is A — Edge inference with periodic cloud sync and fallback queue."
+    },
+    "studyTip": "Classify learning type or search strategy (informed vs uninformed, optimal vs greedy).",
+    "source": "offline-deep"
+  },
+  "98": {
+    "overview": "Create a data labeling quality plan for large Amharic text corpus. Eliminate distractors that confuse related AI / ML terms before picking A.\n\n✅ Answer: A — Guidelines, overlap labeling, adjudication, and inter-annotator agreement tracking",
+    "options": {
+      "A": "✓ CORRECT. 'Guidelines, overlap labeling, adjudication, and inter-annotator agreement tracking' is the correct answer — it directly addresses the specific concept tested in this question in AI / ML.",
+      "B": "✗ Not the answer. 'One annotator with no review' does not fit the scenario: Create a data labeling quality plan for large Amharic text corpus. The keyed answer is A — Guidelines, overlap labeling, adjudication, and inter-annotator agreement tracking.",
+      "C": "✗ Not the answer. 'Accept labels without consistency checks' does not fit the scenario: Create a data labeling quality plan for large Amharic text corpus. The keyed answer is A — Guidelines, overlap labeling, adjudication, and inter-annotator agreement tracking.",
+      "D": "✗ Not the answer. 'Skip documentation' does not fit the scenario: Create a data labeling quality plan for large Amharic text corpus. The keyed answer is A — Guidelines, overlap labeling, adjudication, and inter-annotator agreement tracking."
+    },
+    "studyTip": "Classify learning type or search strategy (informed vs uninformed, optimal vs greedy).",
+    "source": "offline-deep"
+  },
+  "99": {
+    "overview": "Design the best monitoring set for a production recommendation model. Eliminate distractors that confuse related AI / ML terms before picking A.\n\n✅ Answer: A — Latency, error rate, drift metrics, CTR, and fairness slices",
+    "options": {
+      "A": "✓ CORRECT. 'Latency, error rate, drift metrics, CTR, and fairness slices' is the correct answer — it directly addresses the specific concept tested in this question in AI / ML.",
+      "B": "✗ Not the answer. 'Only model file timestamp' does not fit the scenario: Design the best monitoring set for a production recommendation model. The keyed answer is A — Latency, error rate, drift metrics, CTR, and fairness slices.",
+      "C": "✗ Not the answer. 'GPU fan speed only' does not fit the scenario: Design the best monitoring set for a production recommendation model. The keyed answer is A — Latency, error rate, drift metrics, CTR, and fairness slices.",
+      "D": "✗ Not the answer. 'Random KPI rotation' does not fit the scenario: Design the best monitoring set for a production recommendation model. The keyed answer is A — Latency, error rate, drift metrics, CTR, and fairness slices."
+    },
+    "studyTip": "Classify learning type or search strategy (informed vs uninformed, optimal vs greedy).",
+    "source": "offline-deep"
+  },
+  "100": {
+    "overview": "Create an experimentation protocol for comparing two ranking models online safely. Eliminate distractors that confuse related AI / ML terms before picking A.\n\n✅ Answer: A — Use A/B test with guardrail metrics and rollback criteria",
+    "options": {
+      "A": "✓ CORRECT. 'Use A/B test with guardrail metrics and rollback criteria' is the correct answer — it directly addresses the specific concept tested in this question in AI / ML.",
+      "B": "✗ Not the answer. 'Deploy both globally without measurement' does not fit the scenario: Create an experimentation protocol for comparing two ranking models online safely. The keyed answer is A — Use A/B test with guardrail metrics and rollback criteria.",
+      "C": "✗ Not the answer. 'Pick model by intuition' does not fit the scenario: Create an experimentation protocol for comparing two ranking models online safely. The keyed answer is A — Use A/B test with guardrail metrics and rollback criteria.",
+      "D": "✗ Not the answer. 'Run experiment without ethics review' does not fit the scenario: Create an experimentation protocol for comparing two ranking models online safely. The keyed answer is A — Use A/B test with guardrail metrics and rollback criteria."
+    },
+    "studyTip": "Classify learning type or search strategy (informed vs uninformed, optimal vs greedy).",
+    "source": "offline-deep"
+  }
+}

@@ -143,23 +143,23 @@
     "source": "offline-deep"
   },
   "14": {
-    "overview": "This General question tests true statements about arrays in C/Java. The correct choice is C — All . Arrayname[index];.\n\n✅ Answer: C — All . Arrayname[index];",
+    "overview": "This Data Structures question tests true statements about arrays in C/Java. The correct choice is C — All . Arrayname[index];.\n\n✅ Answer: C — All . Arrayname[index];",
     "options": {
-      "A": "✗ Not the answer. 'DataTypename arrayname [array size]:' is not the standard term for true statements about arrays in C/Java. The curriculum answer is 'All . Arrayname[index];'.",
-      "B": "✗ Not the answer. 'DataTypename arrayname [index];' is not the standard term for true statements about arrays in C/Java. The curriculum answer is 'All . Arrayname[index];'.",
-      "C": "✓ CORRECT. 'All . Arrayname[index];' is the correct answer — it directly addresses true statements about arrays in C/Java in General.",
+      "A": "✗ Not the answer. 'DataTypename arrayname [array size]:' does not fit the scenario: Which one is true for accessing and processing of array elements The keyed answer is C — All . Arrayname[index];.",
+      "B": "✗ Not the answer. 'DataTypename arrayname [index];' does not fit the scenario: Which one is true for accessing and processing of array elements The keyed answer is C — All . Arrayname[index];.",
+      "C": "✓ CORRECT. 'All . Arrayname[index];' is the correct answer — it directly addresses true statements about arrays in C/Java in Data Structures.",
       "D": "✗ Not the answer. This option text was damaged during OCR and cannot be read clearly. Focus on why 'All . Arrayname[index];' is correct for true statements about arrays in C/Java."
     },
-    "studyTip": "DFD symbols, structured analysis steps, and certification standards (DO-178B, UL 1998).",
+    "studyTip": "Write the algorithm on paper and count dominant terms or trace one small example.",
     "source": "offline-deep"
   },
   "15": {
     "overview": "This Java / OOP question tests what fully describes runtime (dynamic) polymorphism. The correct choice is A — It can achieved by virtual functions and pointers o.\n\n✅ Answer: A — It can achieved by virtual functions and pointers o",
     "options": {
       "A": "✓ CORRECT. 'It can achieved by virtual functions and pointers o' is the correct answer — it directly addresses what fully describes runtime (dynamic) polymorphism in Java / OOP.",
-      "B": "✗ Not the answer. 'It proVides fest execution because the method that needs to be executed is at the compile time' is not the standard term for what fully describes runtime (dynamic) polymorphism. The curriculum answer is 'It can achieved by virtual functions and pointers o'.",
-      "C": "✗ Not the answer. 'It can have more than one methods share the same name with different parameters or signature and different return type' is not the standard term for what fully describes runtime (dynamic) polymorphism. The curriculum answer is 'It can achieved by virtual functions and pointers o'.",
-      "D": "✗ Not the answer. 'It is less flexible as all things execute at' is not the standard term for what fully describes runtime (dynamic) polymorphism. The curriculum answer is 'It can achieved by virtual functions and pointers o'."
+      "B": "✗ Not the answer. 'It proVides fest execution because the method that needs to be executed is at the compile time' does not fit the scenario: From the following which can be fully describe about Run time polymorphism The keyed answer is A — It can achieved by virtual functions and pointers o.",
+      "C": "✗ Not the answer. 'It can have more than one methods share the same name with different parameters or signature and different return type' does not fit the scenario: From the following which can be fully describe about Run time polymorphism The keyed answer is A — It can achieved by virtual functions and pointers o.",
+      "D": "✗ Not the answer. 'It is less flexible as all things execute at' does not fit the scenario: From the following which can be fully describe about Run time polymorphism The keyed answer is A — It can achieved by virtual functions and pointers o."
     },
     "studyTip": "Trace code on paper. Interfaces cannot be instantiated; constructors match class name and types.",
     "source": "offline-deep"
@@ -178,16 +178,16 @@
   "17": {
     "overview": "This Java / OOP question tests consequences of class inheritance coupling. The correct choice is B — Changes to the superclass can have far- reaching effects on the subclasses C).\n\n✅ Answer: B — Changes to the superclass can have far- reaching effects on the subclasses C)",
     "options": {
-      "A": "✗ Not the answer. 'The relationship between objects is clear and well-defined' is not the standard term for consequences of class inheritance coupling. The curriculum answer is 'Changes to the superclass can have far- reaching effects on the subclasses C)'.",
+      "A": "✗ Not the answer. 'The relationship between objects is clear and well-defined' does not fit the scenario: Which is among the consequences of inheritance The keyed answer is B — Changes to the superclass can have far- reaching effects on the subclasses C).",
       "B": "✓ CORRECT. 'Changes to the superclass can have far- reaching effects on the subclasses C)' is the correct answer — it directly addresses consequences of class inheritance coupling in Java / OOP.",
-      "C": "✗ Not the answer. 'Changes to one object do not affect other objects in the aggregate o' is not the standard term for consequences of class inheritance coupling. The curriculum answer is 'Changes to the superclass can have far- reaching effects on the subclasses C)'.",
-      "D": "✗ Not the answer. 'Easy to add or remove objects from the supper class' is not the standard term for consequences of class inheritance coupling. The curriculum answer is 'Changes to the superclass can have far- reaching effects on the subclasses C)'."
+      "C": "✗ Not the answer. 'Changes to one object do not affect other objects in the aggregate o' does not fit the scenario: Which is among the consequences of inheritance The keyed answer is B — Changes to the superclass can have far- reaching effects on the subclasses C).",
+      "D": "✗ Not the answer. 'Easy to add or remove objects from the supper class' does not fit the scenario: Which is among the consequences of inheritance The keyed answer is B — Changes to the superclass can have far- reaching effects on the subclasses C)."
     },
     "studyTip": "Trace code on paper. Interfaces cannot be instantiated; constructors match class name and types.",
     "source": "offline-deep"
   },
   "18": {
-    "overview": "Of the following one cannot be describe about the difference between Abstract class and Interface in java Key concept: class that may have abstract methods — can have state and constructors.\n\n✅ Answer: B — Interfaces help define the identity of a classe whereas an abstract class defines a class's peripheral abilities (D",
+    "overview": "Of the following one cannot be describe about the difference between Abstract class and Interface in java The answer hinges on: class that may have abstract methods — can have state and constructors Eliminate distractors that confuse related Database terms before picking B.\n\n✅ Answer: B — Interfaces help define the identity of a classe whereas an abstract class defines a class's peripheral abilities (D",
     "options": {
       "A": "✗ Not the answer. This option text was damaged during OCR and cannot be read clearly. Focus on why 'Interfaces help define the identity of a classe whereas an abstract class defines a class's peripheral abilities (D' is correct for the specific concept tested in this question.",
       "B": "✓ CORRECT. 'Interfaces help define the identity of a classe whereas an abstract class defines a class's peripheral abilities (D' is correct because it matches the specific concept tested in this question. Definition: class that may have abstract methods — can have state and constructors.",
@@ -198,23 +198,23 @@
     "source": "offline-deep"
   },
   "19": {
-    "overview": "Which is unique from the following given options Key concept: same method name, different parameters — compile-time polymorphism.\n\n✅ Answer: A — Overloading",
+    "overview": "Which is unique from the following given options The answer hinges on: same method name, different parameters — compile-time polymorphism Eliminate distractors that confuse related Java / OOP terms before picking A.\n\n✅ Answer: A — Overloading",
     "options": {
       "A": "✓ CORRECT. 'Overloading' is correct because it matches the specific concept tested in this question. Definition: same method name, different parameters — compile-time polymorphism.",
-      "B": "✗ Not the answer. 'Late binding' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Overloading'.",
-      "C": "✗ Not the answer. 'Early binding' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Overloading'.",
-      "D": "✗ Not the answer. 'Static binding' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Overloading'."
+      "B": "✗ Not the answer. 'Late binding' does not fit the scenario: Which is unique from the following given options The keyed answer is A — Overloading.",
+      "C": "✗ Not the answer. 'Early binding' does not fit the scenario: Which is unique from the following given options The keyed answer is A — Overloading.",
+      "D": "✗ Not the answer. 'Static binding' does not fit the scenario: Which is unique from the following given options The keyed answer is A — Overloading."
     },
-    "studyTip": "DFD symbols, structured analysis steps, and certification standards (DO-178B, UL 1998).",
+    "studyTip": "Trace code on paper. Interfaces cannot be instantiated; constructors match class name and types.",
     "source": "offline-deep"
   },
   "20": {
-    "overview": "Which HTML tag is used to create a hyperlink? The correct choice is B — <a>.\n\n✅ Answer: B — <a>",
+    "overview": "Which HTML tag is used to create a hyperlink? Eliminate distractors that confuse related Web Development terms before picking B.\n\n✅ Answer: B — <a>",
     "options": {
-      "A": "✗ Not the answer. '<link>' is not the standard term for the specific concept tested in this question. The curriculum answer is '<a>'.",
+      "A": "✗ Not the answer. '<link>' does not fit the scenario: Which HTML tag is used to create a hyperlink? The keyed answer is B — <a>.",
       "B": "✓ CORRECT. '<a>' is the correct answer — it directly addresses the specific concept tested in this question in Web Development.",
-      "C": "✗ Not the answer. '<href>' is not the standard term for the specific concept tested in this question. The curriculum answer is '<a>'.",
-      "D": "✗ Not the answer. '<url>' is not the standard term for the specific concept tested in this question. The curriculum answer is '<a>'."
+      "C": "✗ Not the answer. '<href>' does not fit the scenario: Which HTML tag is used to create a hyperlink? The keyed answer is B — <a>.",
+      "D": "✗ Not the answer. '<url>' does not fit the scenario: Which HTML tag is used to create a hyperlink? The keyed answer is B — <a>."
     },
     "studyTip": "Check HTTP methods, CSS selectors, DOM APIs, and client-server roles.",
     "source": "offline-deep"
@@ -224,39 +224,39 @@
     "options": {
       "A": "✓ CORRECT. 'body {color: black}' is the correct answer — it directly addresses valid CSS rule syntax: selector { property: value; } in Web Development.",
       "B": "✗ Not the answer. This option text was damaged during OCR and cannot be read clearly. Focus on why 'body {color: black}' is correct for valid CSS rule syntax: selector { property: value; }.",
-      "C": "✗ Not the answer. 'body.calor=black' is not the standard term for valid CSS rule syntax: selector { property: value; }. The curriculum answer is 'body {color: black}'.",
+      "C": "✗ Not the answer. 'body.calor=black' is a plausible Web Development term but not what this stem requires. Compare carefully with A: body {color: black}.",
       "D": "✗ Not the answer. This option text was damaged during OCR and cannot be read clearly. Focus on why 'body {color: black}' is correct for valid CSS rule syntax: selector { property: value; }."
     },
     "studyTip": "Check HTTP methods, CSS selectors, DOM APIs, and client-server roles.",
     "source": "offline-deep"
   },
   "22": {
-    "overview": "eeeeæ eæee 25 Hide all YeneTube YeneTube Key concept: client-side scripting language for web interactivity.\n\n✅ Answer: A — PHP is ane of the client-side scripting language, like JavaScript",
+    "overview": "eeeeæ eæee 25 Hide all YeneTube YeneTube The answer hinges on: client-side scripting language for web interactivity Eliminate distractors that confuse related Database terms before picking A.\n\n✅ Answer: A — PHP is ane of the client-side scripting language, like JavaScript",
     "options": {
       "A": "✓ CORRECT. 'PHP is ane of the client-side scripting language, like JavaScript' is correct because it matches the specific concept tested in this question. Definition: client-side scripting language for web interactivity.",
       "B": "✗ Not the answer. 'PHP files are returned to the browser as plain HTML text' represents server-side scripting language — runs on server, not in browser. This question tests the specific concept tested in this question. That requires 'PHP is ane of the client-side scripting language, like JavaScript' (client-side scripting language for web interactivity), not 'PHP files are returned to the browser as plain HTML text'.",
       "C": "✗ Not the answer. 'PHP is one of an open-source software that supports only MYSQL databases' represents server-side scripting language — runs on server, not in browser. This question tests the specific concept tested in this question. That requires 'PHP is ane of the client-side scripting language, like JavaScript' (client-side scripting language for web interactivity), not 'PHP is one of an open-source software that supports only MYSQL databases'.",
-      "D": "✗ Not the answer. 'can have a file extension of \".pph\", \".pph3\". or \",phmtl\"' is related to Database vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with A: PHP is ane of the client-side scripting language, like JavaScript."
+      "D": "✗ Not the answer. 'can have a file extension of \".pph\", \".pph3\". or \",phmtl\"' is a plausible Database term but not what this stem requires. Compare carefully with A: PHP is ane of the client-side scripting language, like JavaScript."
     },
     "studyTip": "Normalize step-by-step, check keys and FDs, and verify SQL syntax against schema.",
     "source": "offline-deep"
   },
   "23": {
-    "overview": "Text that, when clicked, sends you to another piece af text or location is called Key concept: clickable text linking to other documents or locations.\n\n✅ Answer: D — Hypertext",
+    "overview": "Text that, when clicked, sends you to another piece af text or location is called The answer hinges on: clickable text linking to other documents or locations Eliminate distractors that confuse related Web Development terms before picking D.\n\n✅ Answer: D — Hypertext",
     "options": {
-      "A": "✗ Not the answer. 'URL' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Hypertext'.",
-      "B": "✗ Not the answer. 'WWW' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Hypertext'.",
-      "C": "✗ Not the answer. 'Web sewer' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Hypertext'.",
+      "A": "✗ Not the answer. 'URL' does not fit the scenario: Text that, when clicked, sends you to another piece af text or location is called The keyed answer is D — Hypertext.",
+      "B": "✗ Not the answer. 'WWW' does not fit the scenario: Text that, when clicked, sends you to another piece af text or location is called The keyed answer is D — Hypertext.",
+      "C": "✗ Not the answer. 'Web sewer' does not fit the scenario: Text that, when clicked, sends you to another piece af text or location is called The keyed answer is D — Hypertext.",
       "D": "✓ CORRECT. 'Hypertext' is correct because it matches the specific concept tested in this question. Definition: clickable text linking to other documents or locations."
     },
-    "studyTip": "DFD symbols, structured analysis steps, and certification standards (DO-178B, UL 1998).",
+    "studyTip": "Check HTTP methods, CSS selectors, DOM APIs, and client-server roles.",
     "source": "offline-deep"
   },
   "24": {
     "overview": "This Web Development question tests which component accepts HTTP requests and serves responses. Key concept: program accepting HTTP requests and returning HTTP responses.\n\n✅ Answer: C — Web Server",
     "options": {
-      "A": "✗ Not the answer. 'Communication network' is not the standard term for which component accepts HTTP requests and serves responses. The curriculum answer is 'Web Server'.",
-      "B": "✗ Not the answer. 'Web browsers' is not the standard term for which component accepts HTTP requests and serves responses. The curriculum answer is 'Web Server'.",
+      "A": "✗ Not the answer. 'Communication network' does not fit the scenario: which one is a computer program that is responsible for accepting HTTP requests from clients, and serving them HTTP resp… The keyed answer is C — Web Server.",
+      "B": "✗ Not the answer. 'Web browsers' does not fit the scenario: which one is a computer program that is responsible for accepting HTTP requests from clients, and serving them HTTP resp… The keyed answer is C — Web Server.",
       "C": "✓ CORRECT. 'Web Server' correctly answers which component accepts HTTP requests and serves responses. Concept: program accepting HTTP requests and returning HTTP responses.",
       "D": "✗ Not the answer. 'DNS Server' refers to Domain Name System — resolves names to IP addresses. The question asks about which component accepts HTTP requests and serves responses. That requires 'Web Server' — program accepting HTTP requests and returning HTTP responses. These are different concepts; do not confuse them on the exam."
     },
@@ -269,7 +269,7 @@
       "A": "✗ Not the answer. This option text was damaged during OCR and cannot be read clearly. Focus on why '<strong> o' is correct for which HTML tag renders bold text.",
       "B": "✗ Not the answer. This option text was damaged during OCR and cannot be read clearly. Focus on why '<strong> o' is correct for which HTML tag renders bold text.",
       "C": "✓ CORRECT. '<strong> o' is the correct answer — it directly addresses which HTML tag renders bold text in Web Development.",
-      "D": "✗ Not the answer. '<pre> ...r.„ </strong> </pre>' is not the standard term for which HTML tag renders bold text. The curriculum answer is '<strong> o'."
+      "D": "✗ Not the answer. '<pre> ...r.„ </strong> </pre>' does not fit the scenario: Which of the following HTML tag displays the enclosed text in bold The keyed answer is C — <strong> o."
     },
     "studyTip": "Check HTTP methods, CSS selectors, DOM APIs, and client-server roles.",
     "source": "offline-deep"
@@ -277,32 +277,32 @@
   "26": {
     "overview": "This Web Development question tests which HTML input type clears form fields. Key concept: HTML form button that clears all fields to default values.\n\n✅ Answer: D — RESET PR EVIOUS PAGE",
     "options": {
-      "A": "✗ Not the answer. 'HIDDEN' is not the standard term for which HTML input type clears form fields. The curriculum answer is 'RESET PR EVIOUS PAGE'.",
-      "B": "✗ Not the answer. 'CLEAR' is not the standard term for which HTML input type clears form fields. The curriculum answer is 'RESET PR EVIOUS PAGE'.",
-      "C": "✗ Not the answer. 'SUBMIT' is not the standard term for which HTML input type clears form fields. The curriculum answer is 'RESET PR EVIOUS PAGE'.",
+      "A": "✗ Not the answer. 'HIDDEN' does not fit the scenario: Which of the following is a type of an input HTML form element, if clicked, clears a form's contents The keyed answer is D — RESET PR EVIOUS PAGE.",
+      "B": "✗ Not the answer. 'CLEAR' does not fit the scenario: Which of the following is a type of an input HTML form element, if clicked, clears a form's contents The keyed answer is D — RESET PR EVIOUS PAGE.",
+      "C": "✗ Not the answer. 'SUBMIT' does not fit the scenario: Which of the following is a type of an input HTML form element, if clicked, clears a form's contents The keyed answer is D — RESET PR EVIOUS PAGE.",
       "D": "✓ CORRECT. 'RESET PR EVIOUS PAGE' correctly answers which HTML input type clears form fields. Concept: HTML form button that clears all fields to default values."
     },
     "studyTip": "Check HTTP methods, CSS selectors, DOM APIs, and client-server roles.",
     "source": "offline-deep"
   },
   "27": {
-    "overview": "Which JavaScript syntax is used to enclose multi-line comments? The correct choice is D — /* comment */.\n\n✅ Answer: D — /* comment */",
+    "overview": "Which JavaScript syntax is used to enclose multi-line comments? Eliminate distractors that confuse related Web Development terms before picking D.\n\n✅ Answer: D — /* comment */",
     "options": {
-      "A": "✗ Not the answer. '// comment' is not the standard term for the specific concept tested in this question. The curriculum answer is '/* comment */'.",
-      "B": "✗ Not the answer. '# comment' is not the standard term for the specific concept tested in this question. The curriculum answer is '/* comment */'.",
-      "C": "✗ Not the answer. '<!-- comment -->' is not the standard term for the specific concept tested in this question. The curriculum answer is '/* comment */'.",
+      "A": "✗ Not the answer. '// comment' does not fit the scenario: Which JavaScript syntax is used to enclose multi-line comments? The keyed answer is D — /* comment */.",
+      "B": "✗ Not the answer. '# comment' does not fit the scenario: Which JavaScript syntax is used to enclose multi-line comments? The keyed answer is D — /* comment */.",
+      "C": "✗ Not the answer. '<!-- comment -->' does not fit the scenario: Which JavaScript syntax is used to enclose multi-line comments? The keyed answer is D — /* comment */.",
       "D": "✓ CORRECT. '/* comment */' is the correct answer — it directly addresses the specific concept tested in this question in Web Development."
     },
     "studyTip": "Check HTTP methods, CSS selectors, DOM APIs, and client-server roles.",
     "source": "offline-deep"
   },
   "28": {
-    "overview": "What is the life cycle of services in android The correct choice is A — onCreate0?>anStartCommand0? >anDestoryO.\n\n✅ Answer: A — onCreate0?>anStartCommand0? >anDestoryO",
+    "overview": "What is the life cycle of services in android Eliminate distractors that confuse related Android terms before picking A.\n\n✅ Answer: A — onCreate0?>anStartCommand0? >anDestoryO",
     "options": {
       "A": "✓ CORRECT. 'onCreate0?>anStartCommand0? >anDestoryO' is the correct answer — it directly addresses the specific concept tested in this question in Android.",
-      "B": "✗ Not the answer. 'finalO C' Service life cycle is same as activity life cycle' is not the standard term for the specific concept tested in this question. The curriculum answer is 'onCreate0?>anStartCommand0? >anDestoryO'.",
+      "B": "✗ Not the answer. Activities represent full screens with their own lifecycle — broader than a reusable UI portion inside one screen.",
       "C": "✗ Not the answer. This option text was damaged during OCR and cannot be read clearly. Focus on why 'onCreate0?>anStartCommand0? >anDestoryO' is correct for the specific concept tested in this question.",
-      "D": "✗ Not the answer. 'onRecieve0 PR EVIOUS PAGE' is not the standard term for the specific concept tested in this question. The curriculum answer is 'onCreate0?>anStartCommand0? >anDestoryO'."
+      "D": "✗ Not the answer. 'onRecieve0 PR EVIOUS PAGE' does not fit the scenario: What is the life cycle of services in android The keyed answer is A — onCreate0?>anStartCommand0? >anDestoryO."
     },
     "studyTip": "Activity/Intent/Service/Manifest rules are high-frequency on Ethiopian exit exams.",
     "source": "offline-deep"
@@ -310,21 +310,21 @@
   "29": {
     "overview": "This Android question tests where Android XML layout files are stored. The correct choice is B — /res/layout.\n\n✅ Answer: B — /res/layout",
     "options": {
-      "A": "✗ Not the answer. ''assets' is not the standard term for where Android XML layout files are stored. The curriculum answer is '/res/layout'.",
+      "A": "✗ Not the answer. ''assets' does not fit the scenario: In which direct01Y XML layout files are stored The keyed answer is B — /res/layout.",
       "B": "✓ CORRECT. '/res/layout' is the correct answer — it directly addresses where Android XML layout files are stored in Android.",
-      "C": "✗ Not the answer. '/res/values' is not the standard term for where Android XML layout files are stored. The curriculum answer is '/res/layout'.",
-      "D": "✗ Not the answer. '/src' is not the standard term for where Android XML layout files are stored. The curriculum answer is '/res/layout'."
+      "C": "✗ Not the answer. '/res/values' does not fit the scenario: In which direct01Y XML layout files are stored The keyed answer is B — /res/layout.",
+      "D": "✗ Not the answer. '/src' does not fit the scenario: In which direct01Y XML layout files are stored The keyed answer is B — /res/layout."
     },
     "studyTip": "Activity/Intent/Service/Manifest rules are high-frequency on Ethiopian exit exams.",
     "source": "offline-deep"
   },
   "30": {
-    "overview": "All layout classes are the subclasses of The correct choice is C — android,view.view.\n\n✅ Answer: C — android,view.view",
+    "overview": "All layout classes are the subclasses of Eliminate distractors that confuse related Android terms before picking C.\n\n✅ Answer: C — android,view.view",
     "options": {
-      "A": "✗ Not the answer. 'android-widget' is related to Android vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with C: android,view.view.",
-      "B": "✗ Not the answer. 'None' is related to Android vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with C: android,view.view.",
+      "A": "✗ Not the answer. 'android-widget' is a plausible Android term but not what this stem requires. Compare carefully with C: android,view.view.",
+      "B": "✗ Not the answer. 'None' is a plausible Android term but not what this stem requires. Compare carefully with C: android,view.view.",
       "C": "✓ CORRECT. 'android,view.view' is the correct answer — it directly addresses the specific concept tested in this question in Android.",
-      "D": "✗ Not the answer. 'android.viewSfiewGroup' is related to Android vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with C: android,view.view."
+      "D": "✗ Not the answer. 'android.viewSfiewGroup' is a plausible Android term but not what this stem requires. Compare carefully with C: android,view.view."
     },
     "studyTip": "Activity/Intent/Service/Manifest rules are high-frequency on Ethiopian exit exams.",
     "source": "offline-deep"
@@ -332,8 +332,8 @@
   "31": {
     "overview": "This Android question tests purpose of AndroidManifest.xml. The correct choice is D — (option unclear in OCR).\n\n✅ Answer: D — (option unclear in OCR)",
     "options": {
-      "A": "✗ Not the answer. 'It has all the information about an application' is not the standard term for purpose of AndroidManifest.xml. The curriculum answer is '(option unclear in OCR)'.",
-      "B": "✗ Not the answer. 'It has information about layout in an application C' It has the information about activities in an application . None' is not the standard term for purpose of AndroidManifest.xml. The curriculum answer is '(option unclear in OCR)'.",
+      "A": "✗ Not the answer. 'It has all the information about an application' is a plausible Android term but not what this stem requires. Compare carefully with D: (option unclear in OCR).",
+      "B": "✗ Not the answer. Activities represent full screens with their own lifecycle — broader than a reusable UI portion inside one screen.",
       "C": "✗ Not the answer. This option text was damaged during OCR and cannot be read clearly. Focus on why '(option unclear in OCR)' is correct for purpose of AndroidManifest.xml.",
       "D": "✓ CORRECT. '(option unclear in OCR)' is the correct answer — it directly addresses purpose of AndroidManifest.xml in Android."
     },
@@ -343,18 +343,18 @@
   "32": {
     "overview": "This Android question tests which method handles button click events. The correct choice is C — onClick.\n\n✅ Answer: C — onClick",
     "options": {
-      "A": "✗ Not the answer. 'onCreate' is not the standard term for which method handles button click events. The curriculum answer is 'onClick'.",
+      "A": "✗ Not the answer. 'onCreate' does not fit the scenario: Which of the following method is used to handle what happens after clicking a button The keyed answer is C — onClick.",
       "B": "✗ Not the answer. 'All of the above' is only correct when EVERY other option is true. Verify each choice A, B, C individually — if any is false, 'All' is wrong. Here, 'onClick' is the specific correct answer.",
       "C": "✓ CORRECT. 'onClick' is the correct answer — it directly addresses which method handles button click events in Android.",
-      "D": "✗ Not the answer. 'onSelect' is not the standard term for which method handles button click events. The curriculum answer is 'onClick'."
+      "D": "✗ Not the answer. 'onSelect' does not fit the scenario: Which of the following method is used to handle what happens after clicking a button The keyed answer is C — onClick."
     },
     "studyTip": "Activity/Intent/Service/Manifest rules are high-frequency on Ethiopian exit exams.",
     "source": "offline-deep"
   },
   "33": {
-    "overview": "Android is based on which Kernal The correct choice is C — MAC . Linux.\n\n✅ Answer: C — MAC . Linux",
+    "overview": "Android is based on which Kernal Eliminate distractors that confuse related Android terms before picking C.\n\n✅ Answer: C — MAC . Linux",
     "options": {
-      "A": "✗ Not the answer. 'Redhat . Windows' is not the standard term for the specific concept tested in this question. The curriculum answer is 'MAC . Linux'.",
+      "A": "✗ Not the answer. 'Redhat . Windows' is a plausible Android term but not what this stem requires. Compare carefully with C: MAC . Linux.",
       "B": "✗ Not the answer. This option text was damaged during OCR and cannot be read clearly. Focus on why 'MAC . Linux' is correct for the specific concept tested in this question.",
       "C": "✓ CORRECT. 'MAC . Linux' is the correct answer — it directly addresses the specific concept tested in this question in Android.",
       "D": "✗ Not the answer. This option text was damaged during OCR and cannot be read clearly. Focus on why 'MAC . Linux' is correct for the specific concept tested in this question."
@@ -363,34 +363,34 @@
     "source": "offline-deep"
   },
   "34": {
-    "overview": "Which of the following schedule is nat recoverable schedule The correct choice is B — schedule D:rl.\n\n✅ Answer: B — schedule D:rl",
+    "overview": "Which of the following schedule is nat recoverable schedule Eliminate distractors that confuse related Database terms before picking B.\n\n✅ Answer: B — schedule D:rl",
     "options": {
-      "A": "✗ Not the answer. 'schedule C:rl 1 „•a2 o' is not the standard term for the specific concept tested in this question. The curriculum answer is 'schedule D:rl'.",
-      "B": "✓ CORRECT. 'schedule D:rl' is the correct answer — it directly addresses the specific concept tested in this question in General.",
-      "C": "✗ Not the answer. 'schedule B: rl 1;c2' is not the standard term for the specific concept tested in this question. The curriculum answer is 'schedule D:rl'.",
-      "D": "✗ Not the answer. 'schedule A:' is not the standard term for the specific concept tested in this question. The curriculum answer is 'schedule D:rl'."
+      "A": "✗ Not the answer. 'schedule C:rl 1 „•a2 o' does not fit the scenario: Which of the following schedule is nat recoverable schedule The keyed answer is B — schedule D:rl.",
+      "B": "✓ CORRECT. 'schedule D:rl' is the correct answer — it directly addresses the specific concept tested in this question in Database.",
+      "C": "✗ Not the answer. 'schedule B: rl 1;c2' does not fit the scenario: Which of the following schedule is nat recoverable schedule The keyed answer is B — schedule D:rl.",
+      "D": "✗ Not the answer. 'schedule A:' does not fit the scenario: Which of the following schedule is nat recoverable schedule The keyed answer is B — schedule D:rl."
     },
-    "studyTip": "DFD symbols, structured analysis steps, and certification standards (DO-178B, UL 1998).",
+    "studyTip": "Normalize step-by-step, check keys and FDs, and verify SQL syntax against schema.",
     "source": "offline-deep"
   },
   "35": {
-    "overview": "Which one of the following factors does not affectjoin performance The correct choice is A — None of the above.\n\n✅ Answer: A — None of the above",
+    "overview": "Which one of the following factors does not affectjoin performance Eliminate distractors that confuse related Database terms before picking A.\n\n✅ Answer: A — None of the above",
     "options": {
-      "A": "✓ CORRECT. 'None of the above' is the correct answer — it directly addresses the specific concept tested in this question in Web Development.",
-      "B": "✗ Not the answer. 'Available buffer space' is not the standard term for the specific concept tested in this question. The curriculum answer is 'None of the above'.",
-      "C": "✗ Not the answer. 'Choice of inner VS outer relation' is not the standard term for the specific concept tested in this question. The curriculum answer is 'None of the above'.",
-      "D": "✗ Not the answer. 'Join selection factor' is not the standard term for the specific concept tested in this question. The curriculum answer is 'None of the above'."
+      "A": "✓ CORRECT. 'None of the above' is the correct answer — it directly addresses the specific concept tested in this question in Database.",
+      "B": "✗ Not the answer. 'Available buffer space' does not fit the scenario: Which one of the following factors does not affectjoin performance The keyed answer is A — None of the above.",
+      "C": "✗ Not the answer. 'Choice of inner VS outer relation' does not fit the scenario: Which one of the following factors does not affectjoin performance The keyed answer is A — None of the above.",
+      "D": "✗ Not the answer. 'Join selection factor' does not fit the scenario: Which one of the following factors does not affectjoin performance The keyed answer is A — None of the above."
     },
-    "studyTip": "Check HTTP methods, CSS selectors, DOM APIs, and client-server roles.",
+    "studyTip": "Normalize step-by-step, check keys and FDs, and verify SQL syntax against schema.",
     "source": "offline-deep"
   },
   "36": {
-    "overview": "Which of the following statement is false Key concept: program in execution with its own address space.\n\n✅ Answer: C — Disjunctive selection conditions are much harder to process and optimize than conjunctive selection conditions",
+    "overview": "Which of the following statement is false The answer hinges on: program in execution with its own address space Eliminate distractors that confuse related AI / ML terms before picking C.\n\n✅ Answer: C — Disjunctive selection conditions are much harder to process and optimize than conjunctive selection conditions",
     "options": {
       "A": "✗ Not the answer. 'If the file is ordered implementing a select operation using linear search algorithm is more efficient than Binary search' refers to search on sorted data by halving the range — O(log n). The question asks about the specific concept tested in this question. That requires 'Disjunctive selection conditions are much harder to process and optimize than conjunctive selection conditions' — program in execution with its own address space. These are different concepts; do not confuse them on the exam.",
       "B": "✗ Not the answer. 'All of the above' is only correct when EVERY other option is true. Verify each choice A, B, C individually — if any is false, 'All' is wrong. Here, 'Disjunctive selection conditions are much harder to process and optimize than conjunctive selection conditions' is the specific correct answer.",
       "C": "✓ CORRECT. 'Disjunctive selection conditions are much harder to process and optimize than conjunctive selection conditions' is correct because it matches the specific concept tested in this question. Definition: program in execution with its own address space.",
-      "D": "✗ Not the answer. 'Join operation is one of the most time consuming operations in query processing' refers to program in execution with its own address space. The question asks about the specific concept tested in this question. That requires 'Disjunctive selection conditions are much harder to process and optimize than conjunctive selection conditions' — program in execution with its own address space. These are different concepts; do not confuse them on the exam."
+      "D": "✗ Not the answer. 'Join operation is one of the most time consuming operations in query processing' does not fit the scenario: Which of the following statement is false The keyed answer is C — Disjunctive selection conditions are much harder to process and optimize than conjunctive selection conditions."
     },
     "studyTip": "Classify learning type or search strategy (informed vs uninformed, optimal vs greedy).",
     "source": "offline-deep"
@@ -399,40 +399,40 @@
     "overview": "This Operating Systems question tests two-phase locking — growing vs shrinking phase. The correct choice is C — Shrinking phase o.\n\n✅ Answer: C — Shrinking phase o",
     "options": {
       "A": "✗ Not the answer. 'Deadlock phase o' means circular wait preventing progress. That answers a different kind of question. Here, the stem points to 'Shrinking phase o' instead.",
-      "B": "✗ Not the answer. 'Growing phase' is not the standard term for two-phase locking — growing vs shrinking phase. The curriculum answer is 'Shrinking phase o'.",
+      "B": "✗ Not the answer. 'Growing phase' does not fit the scenario: If a transaction may release locks but may not obtain locks then it is in which phase The keyed answer is C — Shrinking phase o.",
       "C": "✓ CORRECT. 'Shrinking phase o' is the correct answer — it directly addresses two-phase locking — growing vs shrinking phase in Operating Systems.",
-      "D": "✗ Not the answer. 'Starved phase' is not the standard term for two-phase locking — growing vs shrinking phase. The curriculum answer is 'Shrinking phase o'."
+      "D": "✗ Not the answer. 'Starved phase' does not fit the scenario: If a transaction may release locks but may not obtain locks then it is in which phase The keyed answer is C — Shrinking phase o."
     },
     "studyTip": "Relate to process states, scheduling, memory policies, or deadlock conditions.",
     "source": "offline-deep"
   },
   "38": {
-    "overview": "This General question tests when database writes occur relative to commit. The correct choice is C — Oilty Read Problem.\n\n✅ Answer: C — Oilty Read Problem",
+    "overview": "This Database question tests when database writes occur relative to commit. The correct choice is C — Oilty Read Problem.\n\n✅ Answer: C — Oilty Read Problem",
     "options": {
       "A": "✗ Not the answer. This option text was damaged during OCR and cannot be read clearly. Focus on why 'Oilty Read Problem' is correct for when database writes occur relative to commit.",
-      "B": "✗ Not the answer. 'Lost update problem' is not the standard term for when database writes occur relative to commit. The curriculum answer is 'Oilty Read Problem'.",
-      "C": "✓ CORRECT. 'Oilty Read Problem' is the correct answer — it directly addresses when database writes occur relative to commit in General.",
-      "D": "✗ Not the answer. 'Incorrect summery Problem' is not the standard term for when database writes occur relative to commit. The curriculum answer is 'Oilty Read Problem'."
+      "B": "✗ Not the answer. 'Lost update problem' does not fit the scenario: Concurrency problem that occurs when ane transaction is allowed to see the intermediate results of another transaction b… The keyed answer is C — Oilty Read Problem.",
+      "C": "✓ CORRECT. 'Oilty Read Problem' is the correct answer — it directly addresses when database writes occur relative to commit in Database.",
+      "D": "✗ Not the answer. 'Incorrect summery Problem' does not fit the scenario: Concurrency problem that occurs when ane transaction is allowed to see the intermediate results of another transaction b… The keyed answer is C — Oilty Read Problem."
     },
-    "studyTip": "DFD symbols, structured analysis steps, and certification standards (DO-178B, UL 1998).",
+    "studyTip": "Normalize step-by-step, check keys and FDs, and verify SQL syntax against schema.",
     "source": "offline-deep"
   },
   "39": {
     "overview": "This Database question tests when database writes occur relative to commit. Key concept: database changes written only after transaction commits.\n\n✅ Answer: B — Deferred modification",
     "options": {
-      "A": "✗ Not the answer. 'Undo' is not the standard term for when database writes occur relative to commit. The curriculum answer is 'Deferred modification'.",
+      "A": "✗ Not the answer. 'Undo' does not fit the scenario: If a transaction does not modify the database until it has committed, it is said to use which technique The keyed answer is B — Deferred modification.",
       "B": "✓ CORRECT. 'Deferred modification' correctly answers when database writes occur relative to commit. Concept: database changes written only after transaction commits.",
-      "C": "✗ Not the answer. 'Late modification' is not the standard term for when database writes occur relative to commit. The curriculum answer is 'Deferred modification'.",
-      "D": "✗ Not the answer. 'Immediate modification PR EVIOUS PAGE' is not the standard term for when database writes occur relative to commit. The curriculum answer is 'Deferred modification'."
+      "C": "✗ Not the answer. 'Late modification' does not fit the scenario: If a transaction does not modify the database until it has committed, it is said to use which technique The keyed answer is B — Deferred modification.",
+      "D": "✗ Not the answer. 'Immediate modification PR EVIOUS PAGE' does not fit the scenario: If a transaction does not modify the database until it has committed, it is said to use which technique The keyed answer is B — Deferred modification."
     },
     "studyTip": "Normalize step-by-step, check keys and FDs, and verify SQL syntax against schema.",
     "source": "offline-deep"
   },
   "40": {
-    "overview": "What is the prefix length notation for the subnet mask 255.25±255.248 The correct choice is D — 3/29.\n\n✅ Answer: D — 3/29",
+    "overview": "What is the prefix length notation for the subnet mask 255.25±255.248 Eliminate distractors that confuse related Networking terms before picking D.\n\n✅ Answer: D — 3/29",
     "options": {
       "A": "✗ Not the answer. This option text was damaged during OCR and cannot be read clearly. Focus on why '3/29' is correct for the specific concept tested in this question.",
-      "B": "✗ Not the answer. 'a/28 C.a/30' is not the standard term for the specific concept tested in this question. The curriculum answer is '3/29'.",
+      "B": "✗ Not the answer. 'a/28 C.a/30' does not fit the scenario: What is the prefix length notation for the subnet mask 255.25±255.248 The keyed answer is D — 3/29.",
       "C": "✗ Not the answer. This option text was damaged during OCR and cannot be read clearly. Focus on why '3/29' is correct for the specific concept tested in this question.",
       "D": "✓ CORRECT. '3/29' is the correct answer — it directly addresses the specific concept tested in this question in Networking."
     },
@@ -440,33 +440,33 @@
     "source": "offline-deep"
   },
   "41": {
-    "overview": "Which IPv4 address class does this address belong to: 6.142.3.5? The correct choice is A — Class A.\n\n✅ Answer: A — Class A",
+    "overview": "Which IPv4 address class does this address belong to: 6.142.3.5? Eliminate distractors that confuse related Networking terms before picking A.\n\n✅ Answer: A — Class A",
     "options": {
       "A": "✓ CORRECT. 'Class A' is the correct answer — it directly addresses the specific concept tested in this question in Networking.",
-      "B": "✗ Not the answer. 'Class B' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Class A'.",
-      "C": "✗ Not the answer. 'Class C' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Class A'.",
-      "D": "✗ Not the answer. 'Class D' means UML structural diagram showing classes and relationships. That answers a different kind of question. Here, the stem points to 'Class A' instead."
+      "B": "✗ Not the answer. 'Class B' does not fit the scenario: Which IPv4 address class does this address belong to: 6.142.3.5? The keyed answer is A — Class A.",
+      "C": "✗ Not the answer. 'Class C' does not fit the scenario: Which IPv4 address class does this address belong to: 6.142.3.5? The keyed answer is A — Class A.",
+      "D": "✗ Not the answer. 'Class D' does not fit the scenario: Which IPv4 address class does this address belong to: 6.142.3.5? The keyed answer is A — Class A."
     },
     "studyTip": "Map the scenario to OSI/TCP layers, protocol behavior, or topology properties.",
     "source": "offline-deep"
   },
   "42": {
-    "overview": "This Web Development question tests definition of a security threat. The correct choice is B — The potential danger to information or systems.\n\n✅ Answer: B — The potential danger to information or systems",
+    "overview": "This Security question tests definition of a security threat. The correct choice is B — The potential danger to information or systems.\n\n✅ Answer: B — The potential danger to information or systems",
     "options": {
       "A": "✗ Not the answer. 'All of the above' is only correct when EVERY other option is true. Verify each choice A, B, C individually — if any is false, 'All' is wrong. Here, 'The potential danger to information or systems' is the specific correct answer.",
-      "B": "✓ CORRECT. 'The potential danger to information or systems' is the correct answer — it directly addresses definition of a security threat in Web Development.",
+      "B": "✓ CORRECT. 'The potential danger to information or systems' is the correct answer — it directly addresses definition of a security threat in Security.",
       "C": "✗ Not the answer. That describes an attack or intrusion event, not the definition of 'threat' (potential danger).",
       "D": "✗ Not the answer. Vulnerability is a weakness in the system. Threat is the potential danger itself — different security terms."
     },
-    "studyTip": "Check HTTP methods, CSS selectors, DOM APIs, and client-server roles.",
+    "studyTip": "Use Saltzer-Schroeder principles and CIA triad vocabulary to eliminate distractors.",
     "source": "offline-deep"
   },
   "43": {
-    "overview": "o o a. Heuristic processing b. Pattern matching c, Cognitive science d Relative symbolism PR EVIOUS PAGE The correct choice is B — Pattern matching.\n\n✅ Answer: B — Pattern matching",
+    "overview": "o o a. Heuristic processing b. Pattern matching c, Cognitive science d Relative symbolism PR EVIOUS PAGE Eliminate distractors that confuse related AI / ML terms before picking B.\n\n✅ Answer: B — Pattern matching",
     "options": {
-      "A": "✗ Not the answer. 'Heuristic processing' represents program in execution with its own address space. This question tests the specific concept tested in this question. That requires 'Pattern matching', not 'Heuristic processing'.",
+      "A": "✗ Not the answer. 'Heuristic processing' does not fit the scenario: o o a. Heuristic processing b. Pattern matching c, Cognitive science d Relative symbolism PR EVIOUS PAGE The keyed answer is B — Pattern matching.",
       "B": "✓ CORRECT. 'Pattern matching' is the correct answer — it directly addresses the specific concept tested in this question in AI / ML.",
-      "C": "✗ Not the answer. 'Cognitive science d Relative symbolism PR EVIOUS PAGE' is related to AI / ML vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with B: Pattern matching.",
+      "C": "✗ Not the answer. 'Cognitive science d Relative symbolism PR EVIOUS PAGE' does not fit the scenario: o o a. Heuristic processing b. Pattern matching c, Cognitive science d Relative symbolism PR EVIOUS PAGE The keyed answer is B — Pattern matching.",
       "D": "✗ Not the answer. This option text was damaged during OCR and cannot be read clearly. Focus on why 'Pattern matching' is correct for the specific concept tested in this question."
     },
     "studyTip": "Classify learning type or search strategy (informed vs uninformed, optimal vs greedy).",
@@ -475,53 +475,53 @@
   "44": {
     "overview": "This Software Architecture question tests abstract domain model vs concrete architecture. Key concept: abstract elements and relationships for a domain (e.g. OSI).\n\n✅ Answer: D — Reference model",
     "options": {
-      "A": "✗ Not the answer. 'Reference Architecture' is not the standard term for abstract domain model vs concrete architecture. The curriculum answer is 'Reference model'.",
-      "B": "✗ Not the answer. 'Software architecture' is not the standard term for abstract domain model vs concrete architecture. The curriculum answer is 'Reference model'.",
-      "C": "✗ Not the answer. 'Architectural pattern' is not the standard term for abstract domain model vs concrete architecture. The curriculum answer is 'Reference model'.",
+      "A": "✗ Not the answer. 'Reference Architecture' does not fit the scenario: Which of the following describes a set of elements and relationships among them for a domain? The keyed answer is D — Reference model.",
+      "B": "✗ Not the answer. 'Software architecture' does not fit the scenario: Which of the following describes a set of elements and relationships among them for a domain? The keyed answer is D — Reference model.",
+      "C": "✗ Not the answer. 'Architectural pattern' does not fit the scenario: Which of the following describes a set of elements and relationships among them for a domain? The keyed answer is D — Reference model.",
       "D": "✓ CORRECT. 'Reference model' correctly answers abstract domain model vs concrete architecture. Concept: abstract elements and relationships for a domain (e.g. OSI)."
     },
     "studyTip": "Think quality attributes and ATAM scenarios — not team size or log files.",
     "source": "offline-deep"
   },
   "45": {
-    "overview": "Which option best defines Artificial Intelligence? The correct choice is A — All of the above.\n\n✅ Answer: A — All of the above",
+    "overview": "Which option best defines Artificial Intelligence? Eliminate distractors that confuse related AI / ML terms before picking A.\n\n✅ Answer: A — All of the above",
     "options": {
-      "A": "✓ CORRECT. 'All of the above' is the correct answer — it directly addresses the specific concept tested in this question in General.",
-      "B": "✗ Not the answer. 'Programs producing output reflecting human-like intelligence' is not the standard term for the specific concept tested in this question. The curriculum answer is 'All of the above'.",
-      "C": "✗ Not the answer. 'Embodiment of human intellectual capabilities in a computer' is not the standard term for the specific concept tested in this question. The curriculum answer is 'All of the above'.",
-      "D": "✗ Not the answer. 'Study of mental faculties with computer models' is not the standard term for the specific concept tested in this question. The curriculum answer is 'All of the above'."
+      "A": "✓ CORRECT. 'All of the above' is the correct answer — it directly addresses the specific concept tested in this question in AI / ML.",
+      "B": "✗ Not the answer. 'Programs producing output reflecting human-like intelligence' does not fit the scenario: Which option best defines Artificial Intelligence? The keyed answer is A — All of the above.",
+      "C": "✗ Not the answer. 'Embodiment of human intellectual capabilities in a computer' does not fit the scenario: Which option best defines Artificial Intelligence? The keyed answer is A — All of the above.",
+      "D": "✗ Not the answer. 'Study of mental faculties with computer models' does not fit the scenario: Which option best defines Artificial Intelligence? The keyed answer is A — All of the above."
     },
-    "studyTip": "DFD symbols, structured analysis steps, and certification standards (DO-178B, UL 1998).",
+    "studyTip": "Classify learning type or search strategy (informed vs uninformed, optimal vs greedy).",
     "source": "offline-deep"
   },
   "46": {
-    "overview": "Which project management phase includes defining project scope and obtaining authorization to start? The correct choice is C — Initiation.\n\n✅ Answer: C — Initiation",
+    "overview": "Which project management phase includes defining project scope and obtaining authorization to start? Eliminate distractors that confuse related Networking terms before picking C.\n\n✅ Answer: C — Initiation",
     "options": {
-      "A": "✗ Not the answer. 'Planning' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Initiation'.",
-      "B": "✗ Not the answer. 'Execution' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Initiation'.",
+      "A": "✗ Not the answer. 'Planning' does not fit the scenario: Which project management phase includes defining project scope and obtaining authorization to start? The keyed answer is C — Initiation.",
+      "B": "✗ Not the answer. 'Execution' does not fit the scenario: Which project management phase includes defining project scope and obtaining authorization to start? The keyed answer is C — Initiation.",
       "C": "✓ CORRECT. 'Initiation' is the correct answer — it directly addresses the specific concept tested in this question in Networking.",
-      "D": "✗ Not the answer. 'Closure' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Initiation'."
+      "D": "✗ Not the answer. 'Closure' does not fit the scenario: Which project management phase includes defining project scope and obtaining authorization to start? The keyed answer is C — Initiation."
     },
     "studyTip": "Map the scenario to OSI/TCP layers, protocol behavior, or topology properties.",
     "source": "offline-deep"
   },
   "47": {
-    "overview": "This General question tests which testing technique boundary value analysis belongs to. Key concept: testing without seeing internal code — based on inputs/outputs.\n\n✅ Answer: C — Black Box Testing",
+    "overview": "This Software Testing question tests which testing technique boundary value analysis belongs to. Key concept: testing without seeing internal code — based on inputs/outputs.\n\n✅ Answer: C — Black Box Testing",
     "options": {
       "A": "✗ Not the answer. This option text was damaged during OCR and cannot be read clearly. Focus on why 'Black Box Testing' is correct for which testing technique boundary value analysis belongs to.",
-      "B": "✗ Not the answer. 'White dox Testing' is related to General vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with C: Black Box Testing.",
+      "B": "✗ Not the answer. 'White dox Testing' is a plausible Software Testing term but not what this stem requires. Compare carefully with C: Black Box Testing.",
       "C": "✓ CORRECT. 'Black Box Testing' correctly answers which testing technique boundary value analysis belongs to. Concept: testing without seeing internal code — based on inputs/outputs.",
-      "D": "✗ Not the answer. 'Nane of the mentioned' is related to General vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with C: Black Box Testing."
+      "D": "✗ Not the answer. 'Nane of the mentioned' is a plausible Software Testing term but not what this stem requires. Compare carefully with C: Black Box Testing."
     },
-    "studyTip": "DFD symbols, structured analysis steps, and certification standards (DO-178B, UL 1998).",
+    "studyTip": "Match the question to test levels, coverage types, or traceability definitions.",
     "source": "offline-deep"
   },
   "48": {
     "overview": "This Database question tests which non-functional requirement handles growing load. Key concept: ability to handle growing load (users, queries, data).\n\n✅ Answer: D — Scalability PR EVIOUS PAGE",
     "options": {
-      "A": "✗ Not the answer. 'Maintainability' is related to Database vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with D: Scalability PR EVIOUS PAGE.",
-      "B": "✗ Not the answer. 'Portability' is related to Database vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with D: Scalability PR EVIOUS PAGE.",
-      "C": "✗ Not the answer. 'Reliability' is related to Database vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with D: Scalability PR EVIOUS PAGE.",
+      "A": "✗ Not the answer. 'Maintainability' does not fit the scenario: Consider a system where its database withstands growing numbers of queries\" What kind of NFR the system is providing The keyed answer is D — Scalability PR EVIOUS PAGE.",
+      "B": "✗ Not the answer. 'Portability' does not fit the scenario: Consider a system where its database withstands growing numbers of queries\" What kind of NFR the system is providing The keyed answer is D — Scalability PR EVIOUS PAGE.",
+      "C": "✗ Not the answer. 'Reliability' does not fit the scenario: Consider a system where its database withstands growing numbers of queries\" What kind of NFR the system is providing The keyed answer is D — Scalability PR EVIOUS PAGE.",
       "D": "✓ CORRECT. 'Scalability PR EVIOUS PAGE' correctly answers which non-functional requirement handles growing load. Concept: ability to handle growing load (users, queries, data)."
     },
     "studyTip": "Normalize step-by-step, check keys and FDs, and verify SQL syntax against schema.",
@@ -531,9 +531,9 @@
     "overview": "This Security question tests which OSI layer handles encryption/decryption. The correct choice is A — Presentation.\n\n✅ Answer: A — Presentation",
     "options": {
       "A": "✓ CORRECT. 'Presentation' is the correct answer — it directly addresses which OSI layer handles encryption/decryption in Security.",
-      "B": "✗ Not the answer. 'Data Link' is not the standard term for which OSI layer handles encryption/decryption. The curriculum answer is 'Presentation'.",
-      "C": "✗ Not the answer. 'Network' is not the standard term for which OSI layer handles encryption/decryption. The curriculum answer is 'Presentation'.",
-      "D": "✗ Not the answer. 'Transport' is not the standard term for which OSI layer handles encryption/decryption. The curriculum answer is 'Presentation'."
+      "B": "✗ Not the answer. 'Data Link' does not fit the scenario: Decryption and encryption of data are the responsibility of which Layer The keyed answer is A — Presentation.",
+      "C": "✗ Not the answer. 'Network' does not fit the scenario: Decryption and encryption of data are the responsibility of which Layer The keyed answer is A — Presentation.",
+      "D": "✗ Not the answer. 'Transport' does not fit the scenario: Decryption and encryption of data are the responsibility of which Layer The keyed answer is A — Presentation."
     },
     "studyTip": "Use Saltzer-Schroeder principles and CIA triad vocabulary to eliminate distractors.",
     "source": "offline-deep"
@@ -552,23 +552,23 @@
   "51": {
     "overview": "This Android question tests which document contains detailed work package descriptions. Key concept: Work Breakdown Structure — decomposes project into work packages.\n\n✅ Answer: C — WBS",
     "options": {
-      "A": "✗ Not the answer. 'Project scope statement' is not the standard term for which document contains detailed work package descriptions. The curriculum answer is 'WBS'.",
-      "B": "✗ Not the answer. 'Activity list' is not the standard term for which document contains detailed work package descriptions. The curriculum answer is 'WBS'.",
+      "A": "✗ Not the answer. 'Project scope statement' does not fit the scenario: During project execution, a team member is not sure of what work to accomplish. Which document contains detailed descrip… The keyed answer is C — WBS.",
+      "B": "✗ Not the answer. Activities represent full screens with their own lifecycle — broader than a reusable UI portion inside one screen.",
       "C": "✓ CORRECT. 'WBS' correctly answers which document contains detailed work package descriptions. Concept: Work Breakdown Structure — decomposes project into work packages.",
-      "D": "✗ Not the answer. 'Scope management plan' is not the standard term for which document contains detailed work package descriptions. The curriculum answer is 'WBS'."
+      "D": "✗ Not the answer. 'Scope management plan' does not fit the scenario: During project execution, a team member is not sure of what work to accomplish. Which document contains detailed descrip… The keyed answer is C — WBS."
     },
     "studyTip": "Activity/Intent/Service/Manifest rules are high-frequency on Ethiopian exit exams.",
     "source": "offline-deep"
   },
   "52": {
-    "overview": "Generally, which testing is used when shrink- wrapped software products are being established and part of an integration testing The correct choice is C — Smoke testing d Validation testing PR EVIOUS PAGE.\n\n✅ Answer: C — Smoke testing d Validation testing PR EVIOUS PAGE",
+    "overview": "Generally, which testing is used when shrink- wrapped software products are being established and part of an integration testing Eliminate distractors that confuse related Software Testing terms before picking C.\n\n✅ Answer: C — Smoke testing d Validation testing PR EVIOUS PAGE",
     "options": {
-      "A": "✗ Not the answer. 'Integration Testing' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Smoke testing d Validation testing PR EVIOUS PAGE'.",
-      "B": "✗ Not the answer. 'Regression Testing' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Smoke testing d Validation testing PR EVIOUS PAGE'.",
-      "C": "✓ CORRECT. 'Smoke testing d Validation testing PR EVIOUS PAGE' is the correct answer — it directly addresses the specific concept tested in this question in General.",
+      "A": "✗ Not the answer. Integration testing verifies interfaces and interactions between combined modules — after unit tests pass.",
+      "B": "✗ Not the answer. 'Regression Testing' means re-runs existing tests to ensure new changes did not break prior functionality. That answers a different kind of question. Here, the stem points to 'Smoke testing d Validation testing PR EVIOUS PAGE' instead.",
+      "C": "✓ CORRECT. 'Smoke testing d Validation testing PR EVIOUS PAGE' is the correct answer — it directly addresses the specific concept tested in this question in Software Testing.",
       "D": "✗ Not the answer. This option text was damaged during OCR and cannot be read clearly. Focus on why 'Smoke testing d Validation testing PR EVIOUS PAGE' is correct for the specific concept tested in this question."
     },
-    "studyTip": "DFD symbols, structured analysis steps, and certification standards (DO-178B, UL 1998).",
+    "studyTip": "Match the question to test levels, coverage types, or traceability definitions.",
     "source": "offline-deep"
   },
   "53": {
@@ -585,45 +585,45 @@
   "54": {
     "overview": "This Networking question tests bit length of IPv6 addresses. The correct choice is B — 128 bits.\n\n✅ Answer: B — 128 bits",
     "options": {
-      "A": "✗ Not the answer. '48 bits' is related to Networking vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with B: 128 bits.",
+      "A": "✗ Not the answer. '48 bits' is a plausible Networking term but not what this stem requires. Compare carefully with B: 128 bits.",
       "B": "✓ CORRECT. '128 bits' is the correct answer — it directly addresses bit length of IPv6 addresses in Networking.",
-      "C": "✗ Not the answer. '16 bits' is related to Networking vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with B: 128 bits.",
-      "D": "✗ Not the answer. '32 bits' is related to Networking vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with B: 128 bits."
+      "C": "✗ Not the answer. '16 bits' is a plausible Networking term but not what this stem requires. Compare carefully with B: 128 bits.",
+      "D": "✗ Not the answer. '32 bits' is a plausible Networking term but not what this stem requires. Compare carefully with B: 128 bits."
     },
     "studyTip": "Map the scenario to OSI/TCP layers, protocol behavior, or topology properties.",
     "source": "offline-deep"
   },
   "55": {
-    "overview": "magne a you re crea Inga e or app, In addition to simple text editing, your editor can format text, insert inline imagese etc. At some point, you decided to let users undo any operations carried out on the text. This feature has become so common over the years that nowadays people expect every app t… The correct choice is A — Mediator . Memento.\n\n✅ Answer: A — Mediator . Memento",
+    "overview": "magne a you re crea Inga e or app, In addition to simple text editing, your editor can format text, insert inline imagese etc. At some point, you decided to let users undo any operations carried out on the text. This feature has become so common over the years that nowadays peopl…\n\n✅ Answer: A — Mediator . Memento",
     "options": {
       "A": "✓ CORRECT. 'Mediator . Memento' is the correct answer — it directly addresses the specific concept tested in this question in Database.",
       "B": "✗ Not the answer. This option text was damaged during OCR and cannot be read clearly. Focus on why 'Mediator . Memento' is correct for the specific concept tested in this question.",
-      "C": "✗ Not the answer. 'Observer d Iterator eeeæ eeeee eeeeg sofeng-2015: Modem 7' is related to Database vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with A: Mediator . Memento.",
+      "C": "✗ Not the answer. 'Observer d Iterator eeeæ eeeee eeeeg sofeng-2015: Modem 7' does not fit the scenario: magne a you re crea Inga e or app, In addition to simple text editing, your editor can format text, insert inline images… The keyed answer is A — Mediator . Memento.",
       "D": "✗ Not the answer. This option text was damaged during OCR and cannot be read clearly. Focus on why 'Mediator . Memento' is correct for the specific concept tested in this question."
     },
     "studyTip": "Normalize step-by-step, check keys and FDs, and verify SQL syntax against schema.",
     "source": "offline-deep"
   },
   "56": {
-    "overview": "In Big Data environments, Velocity refers The correct choice is C — Data can arrive at fast speed.\n\n✅ Answer: C — Data can arrive at fast speed",
+    "overview": "In Big Data environments, Velocity refers Eliminate distractors that confuse related AI / ML terms before picking C.\n\n✅ Answer: C — Data can arrive at fast speed",
     "options": {
-      "A": "✗ Not the answer. 'Enormous datasets can accumulate within very short periods of time' is related to General vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with C: Data can arrive at fast speed.",
-      "B": "✗ Not the answer. 'Velocity of data translates into the amount of time it takes for the data to be processed o' represents program in execution with its own address space. This question tests the specific concept tested in this question. That requires 'Data can arrive at fast speed', not 'Velocity of data translates into the amount of time it takes for the data to be processed o'.",
-      "C": "✓ CORRECT. 'Data can arrive at fast speed' is the correct answer — it directly addresses the specific concept tested in this question in General.",
-      "D": "✗ Not the answer. 'All of the mentioned above' is related to General vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with C: Data can arrive at fast speed."
+      "A": "✗ Not the answer. 'Enormous datasets can accumulate within very short periods of time' does not fit the scenario: In Big Data environments, Velocity refers The keyed answer is C — Data can arrive at fast speed.",
+      "B": "✗ Not the answer. 'Velocity of data translates into the amount of time it takes for the data to be processed o' does not fit the scenario: In Big Data environments, Velocity refers The keyed answer is C — Data can arrive at fast speed.",
+      "C": "✓ CORRECT. 'Data can arrive at fast speed' is the correct answer — it directly addresses the specific concept tested in this question in AI / ML.",
+      "D": "✗ Not the answer. 'All of the mentioned above' does not fit the scenario: In Big Data environments, Velocity refers The keyed answer is C — Data can arrive at fast speed."
     },
-    "studyTip": "DFD symbols, structured analysis steps, and certification standards (DO-178B, UL 1998).",
+    "studyTip": "Classify learning type or search strategy (informed vs uninformed, optimal vs greedy).",
     "source": "offline-deep"
   },
   "57": {
-    "overview": "In the model-view-controller architectural style, the jab of a model component is to The correct choice is B — Store information about the state of the program o.\n\n✅ Answer: B — Store information about the state of the program o",
+    "overview": "In the model-view-controller architectural style, the jab of a model component is to Eliminate distractors that confuse related Software Architecture terms before picking B.\n\n✅ Answer: B — Store information about the state of the program o",
     "options": {
-      "A": "✗ Not the answer. 'Change the way a view responds to user input' is related to Web Development vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with B: Store information about the state of the program o.",
-      "B": "✓ CORRECT. 'Store information about the state of the program o' is the correct answer — it directly addresses the specific concept tested in this question in Web Development.",
-      "C": "✗ Not the answer. 'Present information to the user' is related to Web Development vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with B: Store information about the state of the program o.",
-      "D": "✗ Not the answer. 'Make requests of the server' is related to Web Development vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with B: Store information about the state of the program o."
+      "A": "✗ Not the answer. 'Change the way a view responds to user input' does not fit the scenario: In the model-view-controller architectural style, the jab of a model component is to The keyed answer is B — Store information about the state of the program o.",
+      "B": "✓ CORRECT. 'Store information about the state of the program o' is the correct answer — it directly addresses the specific concept tested in this question in Software Architecture.",
+      "C": "✗ Not the answer. 'Present information to the user' does not fit the scenario: In the model-view-controller architectural style, the jab of a model component is to The keyed answer is B — Store information about the state of the program o.",
+      "D": "✗ Not the answer. 'Make requests of the server' does not fit the scenario: In the model-view-controller architectural style, the jab of a model component is to The keyed answer is B — Store information about the state of the program o."
     },
-    "studyTip": "Check HTTP methods, CSS selectors, DOM APIs, and client-server roles.",
+    "studyTip": "Think quality attributes and ATAM scenarios — not team size or log files.",
     "source": "offline-deep"
   },
   "58": {
@@ -631,28 +631,28 @@
     "options": {
       "A": "✗ Not the answer. 'Avoid using JavaScript in your site' represents client-side scripting language for web interactivity. This question tests definition of a vulnerability. That requires 'Escape user's input is valid as soon as possible', not 'Avoid using JavaScript in your site'.",
       "B": "✓ CORRECT. 'Escape user's input is valid as soon as possible' is the correct answer — it directly addresses definition of a vulnerability in Java / OOP.",
-      "C": "✗ Not the answer. 'use an interpreted programming language such as Java' is related to Java / OOP vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with B: Escape user's input is valid as soon as possible.",
-      "D": "✗ Not the answer. 'Educate your users to recognize safe vs. unsafe web pages PR EVIOUS PAGE' is related to Java / OOP vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with B: Escape user's input is valid as soon as possible."
+      "C": "✗ Not the answer. 'use an interpreted programming language such as Java' does not fit the scenario: One common strategy to prevent XSS vulnerabilities is to The keyed answer is B — Escape user's input is valid as soon as possible.",
+      "D": "✗ Not the answer. 'Educate your users to recognize safe vs. unsafe web pages PR EVIOUS PAGE' does not fit the scenario: One common strategy to prevent XSS vulnerabilities is to The keyed answer is B — Escape user's input is valid as soon as possible."
     },
     "studyTip": "Trace code on paper. Interfaces cannot be instantiated; constructors match class name and types.",
     "source": "offline-deep"
   },
   "59": {
-    "overview": "This Web Development question tests tracing code execution to determine printed output. Key concept: identity verification using fingerprint, iris, or palm scan.\n\n✅ Answer: C — Biometric authentication",
+    "overview": "This Security question tests tracing code execution to determine printed output. Key concept: identity verification using fingerprint, iris, or palm scan.\n\n✅ Answer: C — Biometric authentication",
     "options": {
       "A": "✗ Not the answer. If the program printed Two-factor authenticatibn, a different branch or calculation would execute. Trace the code line-by-line with the given inputs to verify the output is Biometric authentication.",
       "B": "✗ Not the answer. If the program printed Strong authentication, a different branch or calculation would execute. Trace the code line-by-line with the given inputs to verify the output is Biometric authentication.",
       "C": "✓ CORRECT. 'Biometric authentication' correctly answers tracing code execution to determine printed output. Concept: identity verification using fingerprint, iris, or palm scan.",
       "D": "✗ Not the answer. If the program printed Single sign-on, a different branch or calculation would execute. Trace the code line-by-line with the given inputs to verify the output is Biometric authentication."
     },
-    "studyTip": "Check HTTP methods, CSS selectors, DOM APIs, and client-server roles.",
+    "studyTip": "Use Saltzer-Schroeder principles and CIA triad vocabulary to eliminate distractors.",
     "source": "offline-deep"
   },
   "60": {
     "overview": "This Software Architecture question tests which technique predicts trends from data. Key concept: discovering patterns and predicting trends from large datasets.\n\n✅ Answer: C — Data mining d Datamarts PR EVIOUS PAGE",
     "options": {
-      "A": "✗ Not the answer. 'Metadata' is related to Software Architecture vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with C: Data mining d Datamarts PR EVIOUS PAGE.",
-      "B": "✗ Not the answer. 'Data warehouse' is related to Software Architecture vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with C: Data mining d Datamarts PR EVIOUS PAGE.",
+      "A": "✗ Not the answer. 'Metadata' does not fit the scenario: Predicts future trends & behaviors, allowing business managers to make proactive,knowledge-driven decisions The keyed answer is C — Data mining d Datamarts PR EVIOUS PAGE.",
+      "B": "✗ Not the answer. 'Data warehouse' does not fit the scenario: Predicts future trends & behaviors, allowing business managers to make proactive,knowledge-driven decisions The keyed answer is C — Data mining d Datamarts PR EVIOUS PAGE.",
       "C": "✓ CORRECT. 'Data mining d Datamarts PR EVIOUS PAGE' correctly answers which technique predicts trends from data. Concept: discovering patterns and predicting trends from large datasets.",
       "D": "✗ Not the answer. This option text was damaged during OCR and cannot be read clearly. Focus on why 'Data mining d Datamarts PR EVIOUS PAGE' is correct for which technique predicts trends from data."
     },
@@ -660,53 +660,53 @@
     "source": "offline-deep"
   },
   "61": {
-    "overview": "This Web Development question tests search strategy using heuristics. Key concept: search using heuristics to explore promising paths first.\n\n✅ Answer: C — Informed search",
+    "overview": "This AI / ML question tests search strategy using heuristics. Key concept: search using heuristics to explore promising paths first.\n\n✅ Answer: C — Informed search",
     "options": {
-      "A": "✗ Not the answer. 'Breadth First search' is related to Web Development vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with C: Informed search.",
-      "B": "✗ Not the answer. 'Uninformed search' represents search using heuristics to explore promising paths first. This question tests search strategy using heuristics. That requires 'Informed search' (search using heuristics to explore promising paths first), not 'Uninformed search'.",
+      "A": "✗ Not the answer. 'Breadth First search' does not fit the scenario: Search strategy that paves a way to order the choices so that the most promising are explored first The keyed answer is C — Informed search.",
+      "B": "✗ Not the answer. 'Uninformed search' does not fit the scenario: Search strategy that paves a way to order the choices so that the most promising are explored first The keyed answer is C — Informed search.",
       "C": "✓ CORRECT. 'Informed search' correctly answers search strategy using heuristics. Concept: search using heuristics to explore promising paths first.",
-      "D": "✗ Not the answer. 'Blind search PR EVIOUS PAGE' is related to Web Development vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with C: Informed search."
+      "D": "✗ Not the answer. 'Blind search PR EVIOUS PAGE' does not fit the scenario: Search strategy that paves a way to order the choices so that the most promising are explored first The keyed answer is C — Informed search."
     },
-    "studyTip": "Check HTTP methods, CSS selectors, DOM APIs, and client-server roles.",
+    "studyTip": "Classify learning type or search strategy (informed vs uninformed, optimal vs greedy).",
     "source": "offline-deep"
   },
   "62": {
-    "overview": "Software requirement specification document should avoid discussing which one of the following The correct choice is C — Algorithm far software implementation.\n\n✅ Answer: C — Algorithm far software implementation",
+    "overview": "Software requirement specification document should avoid discussing which one of the following Eliminate distractors that confuse related Web Development terms before picking C.\n\n✅ Answer: C — Algorithm far software implementation",
     "options": {
-      "A": "✗ Not the answer. 'Definition of other systems which the system must integrate with' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Algorithm far software implementation'.",
-      "B": "✗ Not the answer. 'Information about the application domain of the system' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Algorithm far software implementation'.",
+      "A": "✗ Not the answer. 'Definition of other systems which the system must integrate with' does not fit the scenario: Software requirement specification document should avoid discussing which one of the following The keyed answer is C — Algorithm far software implementation.",
+      "B": "✗ Not the answer. 'Information about the application domain of the system' does not fit the scenario: Software requirement specification document should avoid discussing which one of the following The keyed answer is C — Algorithm far software implementation.",
       "C": "✓ CORRECT. 'Algorithm far software implementation' is the correct answer — it directly addresses the specific concept tested in this question in Web Development.",
-      "D": "✗ Not the answer. 'Constraints on the processes used to develop the system' means program in execution with its own address space. That answers a different kind of question. Here, the stem points to 'Algorithm far software implementation' instead."
+      "D": "✗ Not the answer. 'Constraints on the processes used to develop the system' does not fit the scenario: Software requirement specification document should avoid discussing which one of the following The keyed answer is C — Algorithm far software implementation."
     },
     "studyTip": "Check HTTP methods, CSS selectors, DOM APIs, and client-server roles.",
     "source": "offline-deep"
   },
   "63": {
-    "overview": "This General question tests definition of a vulnerability. Key concept: weakness in safeguards that can be exploited.\n\n✅ Answer: B — Vulnerability",
+    "overview": "This Security question tests definition of a vulnerability. Key concept: weakness in safeguards that can be exploited.\n\n✅ Answer: B — Vulnerability",
     "options": {
       "A": "✗ Not the answer. 'Threat' refers to potential danger to information or systems. The question asks about definition of a vulnerability. That requires 'Vulnerability' — weakness in safeguards that can be exploited. These are different concepts; do not confuse them on the exam.",
       "B": "✓ CORRECT. 'Vulnerability' correctly answers definition of a vulnerability. Concept: weakness in safeguards that can be exploited.",
-      "C": "✗ Not the answer. 'Possibility' is not the standard term for definition of a vulnerability. The curriculum answer is 'Vulnerability'.",
-      "D": "✗ Not the answer. 'Attack' is not the standard term for definition of a vulnerability. The curriculum answer is 'Vulnerability'."
+      "C": "✗ Not the answer. 'Possibility' does not fit the scenario: The absence or weakness af a safeguard that could be exploited is called The keyed answer is B — Vulnerability.",
+      "D": "✗ Not the answer. 'Attack' does not fit the scenario: The absence or weakness af a safeguard that could be exploited is called The keyed answer is B — Vulnerability."
     },
-    "studyTip": "DFD symbols, structured analysis steps, and certification standards (DO-178B, UL 1998).",
+    "studyTip": "Use Saltzer-Schroeder principles and CIA triad vocabulary to eliminate distractors.",
     "source": "offline-deep"
   },
   "64": {
-    "overview": "The PERT in project management means program evaluation and which technique The correct choice is A — Review.\n\n✅ Answer: A — Review",
+    "overview": "The PERT in project management means program evaluation and which technique Eliminate distractors that confuse related Project Management terms before picking A.\n\n✅ Answer: A — Review",
     "options": {
       "A": "✓ CORRECT. 'Review' is the correct answer — it directly addresses the specific concept tested in this question in Project Management.",
-      "B": "✗ Not the answer. 'Reconsideration' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Review'.",
-      "C": "✗ Not the answer. 'Reconciliation' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Review'.",
-      "D": "✗ Not the answer. 'Resource' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Review'."
+      "B": "✗ Not the answer. 'Reconsideration' does not fit the scenario: The PERT in project management means program evaluation and which technique The keyed answer is A — Review.",
+      "C": "✗ Not the answer. 'Reconciliation' does not fit the scenario: The PERT in project management means program evaluation and which technique The keyed answer is A — Review.",
+      "D": "✗ Not the answer. 'Resource' does not fit the scenario: The PERT in project management means program evaluation and which technique The keyed answer is A — Review."
     },
     "studyTip": "Identify lifecycle model, risk strategy, or WBS/critical-path terminology.",
     "source": "offline-deep"
   },
   "65": {
-    "overview": "The process of transmitting two or more different signals simultaneously on the same medium is called Key concept: transmitting multiple signals simultaneously on one medium.\n\n✅ Answer: B — Multiplexing cv Segmentation d Layering PR EVIOUS PAGE",
+    "overview": "The process of transmitting two or more different signals simultaneously on the same medium is called The answer hinges on: transmitting multiple signals simultaneously on one medium Eliminate distractors that confuse related Networking terms before picking B.\n\n✅ Answer: B — Multiplexing cv Segmentation d Layering PR EVIOUS PAGE",
     "options": {
-      "A": "✗ Not the answer. 'Switching' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Multiplexing cv Segmentation d Layering PR EVIOUS PAGE'.",
+      "A": "✗ Not the answer. 'Switching' does not fit the scenario: The process of transmitting two or more different signals simultaneously on the same medium is called The keyed answer is B — Multiplexing cv Segmentation d Layering PR EVIOUS PAGE.",
       "B": "✓ CORRECT. 'Multiplexing cv Segmentation d Layering PR EVIOUS PAGE' is correct because it matches the specific concept tested in this question. Definition: transmitting multiple signals simultaneously on one medium.",
       "C": "✗ Not the answer. This option text was damaged during OCR and cannot be read clearly. Focus on why 'Multiplexing cv Segmentation d Layering PR EVIOUS PAGE' is correct for the specific concept tested in this question.",
       "D": "✗ Not the answer. This option text was damaged during OCR and cannot be read clearly. Focus on why 'Multiplexing cv Segmentation d Layering PR EVIOUS PAGE' is correct for the specific concept tested in this question."
@@ -715,32 +715,32 @@
     "source": "offline-deep"
   },
   "66": {
-    "overview": "Time Division Multiple access is: The correct choice is B — Channel partitioning protocol.\n\n✅ Answer: B — Channel partitioning protocol",
+    "overview": "Time Division Multiple access is: Eliminate distractors that confuse related Web Development terms before picking B.\n\n✅ Answer: B — Channel partitioning protocol",
     "options": {
-      "A": "✗ Not the answer. 'Taking tums' is related to Web Development vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with B: Channel partitioning protocol.",
+      "A": "✗ Not the answer. 'Taking tums' is a plausible Web Development term but not what this stem requires. Compare carefully with B: Channel partitioning protocol.",
       "B": "✓ CORRECT. 'Channel partitioning protocol' is the correct answer — it directly addresses the specific concept tested in this question in Web Development.",
-      "C": "✗ Not the answer. 'Random access protocol' is related to Web Development vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with B: Channel partitioning protocol.",
-      "D": "✗ Not the answer. 'Paint-to-point protocol' is related to Web Development vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with B: Channel partitioning protocol."
+      "C": "✗ Not the answer. 'Random access protocol' is a plausible Web Development term but not what this stem requires. Compare carefully with B: Channel partitioning protocol.",
+      "D": "✗ Not the answer. 'Paint-to-point protocol' is a plausible Web Development term but not what this stem requires. Compare carefully with B: Channel partitioning protocol."
     },
     "studyTip": "Check HTTP methods, CSS selectors, DOM APIs, and client-server roles.",
     "source": "offline-deep"
   },
   "67": {
-    "overview": "What does RAD stand for Key concept: RAD — iterative prototyping with fast user feedback.\n\n✅ Answer: B — Rapid Application Development",
+    "overview": "What does RAD stand for The answer hinges on: RAD — iterative prototyping with fast user feedback Eliminate distractors that confuse related Software Engineering terms before picking B.\n\n✅ Answer: B — Rapid Application Development",
     "options": {
-      "A": "✗ Not the answer. 'None of the above' is related to General vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with B: Rapid Application Development.",
+      "A": "✗ Not the answer. 'None of the above' is a plausible Software Engineering term but not what this stem requires. Compare carefully with B: Rapid Application Development.",
       "B": "✓ CORRECT. 'Rapid Application Development' is correct because it matches the specific concept tested in this question. Definition: RAD — iterative prototyping with fast user feedback.",
-      "C": "✗ Not the answer. 'Relative Application Development' is related to General vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with B: Rapid Application Development.",
-      "D": "✗ Not the answer. 'Rapid Application Document' is related to General vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with B: Rapid Application Development."
+      "C": "✗ Not the answer. 'Relative Application Development' is a plausible Software Engineering term but not what this stem requires. Compare carefully with B: Rapid Application Development.",
+      "D": "✗ Not the answer. 'Rapid Application Document' is a plausible Software Engineering term but not what this stem requires. Compare carefully with B: Rapid Application Development."
     },
-    "studyTip": "DFD symbols, structured analysis steps, and certification standards (DO-178B, UL 1998).",
+    "studyTip": "SRS, requirements, maintenance types, and SDLC phases — match exact definitions.",
     "source": "offline-deep"
   },
   "68": {
     "overview": "This Software Testing question tests formula for decision coverage percentage. The correct choice is C — DeciSion coverage=Number of decision outcomes/total number of outcomes *100 PR EVIOUS PAGE.\n\n✅ Answer: C — DeciSion coverage=Number of decision outcomes/total number of outcomes *100 PR EVIOUS PAGE",
     "options": {
-      "A": "✗ Not the answer. 'Decision coverage=Number of all the loops outcomes/total number of outcomes *100' is related to Software Testing vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with C: DeciSion coverage=Number of decision outcomes/total number of outcomes *100 PR EVIOUS PAGE.",
-      "B": "✗ Not the answer. 'Decision coverage-Number of nodes and edges/total number of outcome* 100' is related to Software Testing vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with C: DeciSion coverage=Number of decision outcomes/total number of outcomes *100 PR EVIOUS PAGE.",
+      "A": "✗ Not the answer. 'Decision coverage=Number of all the loops outcomes/total number of outcomes *100' does not fit the scenario: What formula do you use to find the percentage of decision coverage af the code The keyed answer is C — DeciSion coverage=Number of decision outcomes/total number of outcomes *100 PR EVIOUS PAGE.",
+      "B": "✗ Not the answer. 'Decision coverage-Number of nodes and edges/total number of outcome* 100' does not fit the scenario: What formula do you use to find the percentage of decision coverage af the code The keyed answer is C — DeciSion coverage=Number of decision outcomes/total number of outcomes *100 PR EVIOUS PAGE.",
       "C": "✓ CORRECT. 'DeciSion coverage=Number of decision outcomes/total number of outcomes *100 PR EVIOUS PAGE' is the correct answer — it directly addresses formula for decision coverage percentage in Software Testing.",
       "D": "✗ Not the answer. This option text was damaged during OCR and cannot be read clearly. Focus on why 'DeciSion coverage=Number of decision outcomes/total number of outcomes *100 PR EVIOUS PAGE' is correct for formula for decision coverage percentage."
     },
@@ -748,7 +748,7 @@
     "source": "offline-deep"
   },
   "69": {
-    "overview": "What is the aim of nasql Key concept: databases for unstructured/semi-structured data at scale.\n\n✅ Answer: B — NoSQL databases allow staring non- structured data o",
+    "overview": "What is the aim of nasql The answer hinges on: databases for unstructured/semi-structured data at scale Eliminate distractors that confuse related Database terms before picking B.\n\n✅ Answer: B — NoSQL databases allow staring non- structured data o",
     "options": {
       "A": "✗ Not the answer. 'NoSQL is not suitable for storing structured data' refers to databases for unstructured/semi-structured data at scale. The question asks about the specific concept tested in this question. That requires 'NoSQL databases allow staring non- structured data o' — databases for unstructured/semi-structured data at scale. These are different concepts; do not confuse them on the exam.",
       "B": "✓ CORRECT. 'NoSQL databases allow staring non- structured data o' is correct because it matches the specific concept tested in this question. Definition: databases for unstructured/semi-structured data at scale.",
@@ -762,28 +762,28 @@
     "overview": "This Software Testing question tests main task of the test planning phase. The correct choice is A — Determining the test approach.\n\n✅ Answer: A — Determining the test approach",
     "options": {
       "A": "✓ CORRECT. 'Determining the test approach' is the correct answer — it directly addresses main task of the test planning phase in Software Testing.",
-      "B": "✗ Not the answer. 'Measuring and analyzing results' is not the standard term for main task of the test planning phase. The curriculum answer is 'Determining the test approach'.",
-      "C": "✗ Not the answer. 'Preparing the test specification' is not the standard term for main task of the test planning phase. The curriculum answer is 'Determining the test approach'.",
-      "D": "✗ Not the answer. 'Evaluating exit criteria and reporting' is not the standard term for main task of the test planning phase. The curriculum answer is 'Determining the test approach'."
+      "B": "✗ Not the answer. 'Measuring and analyzing results' is a plausible Software Testing term but not what this stem requires. Compare carefully with A: Determining the test approach.",
+      "C": "✗ Not the answer. 'Preparing the test specification' is a plausible Software Testing term but not what this stem requires. Compare carefully with A: Determining the test approach.",
+      "D": "✗ Not the answer. 'Evaluating exit criteria and reporting' is a plausible Software Testing term but not what this stem requires. Compare carefully with A: Determining the test approach."
     },
     "studyTip": "Match the question to test levels, coverage types, or traceability definitions.",
     "source": "offline-deep"
   },
   "71": {
-    "overview": "What is the research-oriented software development The correct choice is D — Technology-related problems.\n\n✅ Answer: D — Technology-related problems",
+    "overview": "What is the research-oriented software development Eliminate distractors that confuse related Software Engineering terms before picking D.\n\n✅ Answer: D — Technology-related problems",
     "options": {
       "A": "✗ Not the answer. 'Process-related problems' means program in execution with its own address space. That answers a different kind of question. Here, the stem points to 'Technology-related problems' instead.",
-      "B": "✗ Not the answer. 'Product-related problems' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Technology-related problems'.",
-      "C": "✗ Not the answer. 'People-related problems' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Technology-related problems'.",
+      "B": "✗ Not the answer. 'Product-related problems' does not fit the scenario: What is the research-oriented software development The keyed answer is D — Technology-related problems.",
+      "C": "✗ Not the answer. 'People-related problems' does not fit the scenario: What is the research-oriented software development The keyed answer is D — Technology-related problems.",
       "D": "✓ CORRECT. 'Technology-related problems' is the correct answer — it directly addresses the specific concept tested in this question in Software Engineering."
     },
     "studyTip": "SRS, requirements, maintenance types, and SDLC phases — match exact definitions.",
     "source": "offline-deep"
   },
   "72": {
-    "overview": "What refers to the value associated with a specific attribute of an object and to any actions or side The correct choice is C — (option unclear in OCR).\n\n✅ Answer: C — (option unclear in OCR)",
+    "overview": "What refers to the value associated with a specific attribute of an object and to any actions or side Eliminate distractors that confuse related Database terms before picking C.\n\n✅ Answer: C — (option unclear in OCR)",
     "options": {
-      "A": "✗ Not the answer. 'Object' is related to Database vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with C: (option unclear in OCR).",
+      "A": "✗ Not the answer. 'Object' does not fit the scenario: What refers to the value associated with a specific attribute of an object and to any actions or side The keyed answer is C — (option unclear in OCR).",
       "B": "✗ Not the answer. 'None cv State d Interface PR EVIOUS PAGE' represents Java contract of abstract methods — implemented by classes. This question tests the specific concept tested in this question. That requires '(option unclear in OCR)', not 'None cv State d Interface PR EVIOUS PAGE'.",
       "C": "✓ CORRECT. '(option unclear in OCR)' is the correct answer — it directly addresses the specific concept tested in this question in Database.",
       "D": "✗ Not the answer. This option text was damaged during OCR and cannot be read clearly. Focus on why '(option unclear in OCR)' is correct for the specific concept tested in this question."
@@ -792,21 +792,21 @@
     "source": "offline-deep"
   },
   "73": {
-    "overview": "What type of core-relationship is represented by the symbol in the figure below The correct choice is B — Composition cv Association.\n\n✅ Answer: B — Composition cv Association",
+    "overview": "What type of core-relationship is represented by the symbol in the figure below Eliminate distractors that confuse related Networking terms before picking B.\n\n✅ Answer: B — Composition cv Association",
     "options": {
-      "A": "✗ Not the answer. 'Dependency' represents α → β: same α values force same β values in all legal relations. This question tests the specific concept tested in this question. That requires 'Composition cv Association', not 'Dependency'.",
+      "A": "✗ Not the answer. 'Dependency' does not fit the scenario: What type of core-relationship is represented by the symbol in the figure below The keyed answer is B — Composition cv Association.",
       "B": "✓ CORRECT. 'Composition cv Association' is the correct answer — it directly addresses the specific concept tested in this question in Networking.",
       "C": "✗ Not the answer. This option text was damaged during OCR and cannot be read clearly. Focus on why 'Composition cv Association' is correct for the specific concept tested in this question.",
-      "D": "✗ Not the answer. 'Aggregation' is related to Networking vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with B: Composition cv Association."
+      "D": "✗ Not the answer. 'Aggregation' does not fit the scenario: What type of core-relationship is represented by the symbol in the figure below The keyed answer is B — Composition cv Association."
     },
     "studyTip": "Map the scenario to OSI/TCP layers, protocol behavior, or topology properties.",
     "source": "offline-deep"
   },
   "74": {
-    "overview": "Which design model depicts how the software communicates with the system that interoperate with it and with the end users Key concept: Java contract of abstract methods — implemented by classes.\n\n✅ Answer: D — Interface design PR EVIOUS PAGE",
+    "overview": "Which design model depicts how the software communicates with the system that interoperate with it and with the end users The answer hinges on: Java contract of abstract methods — implemented by classes Eliminate distractors that confuse related Java / OOP terms before picking D.\n\n✅ Answer: D — Interface design PR EVIOUS PAGE",
     "options": {
-      "A": "✗ Not the answer. 'Data design' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Interface design PR EVIOUS PAGE'.",
-      "B": "✗ Not the answer. 'Component design Architectural design' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Interface design PR EVIOUS PAGE'.",
+      "A": "✗ Not the answer. 'Data design' does not fit the scenario: Which design model depicts how the software communicates with the system that interoperate with it and with the end user… The keyed answer is D — Interface design PR EVIOUS PAGE.",
+      "B": "✗ Not the answer. 'Component design Architectural design' does not fit the scenario: Which design model depicts how the software communicates with the system that interoperate with it and with the end user… The keyed answer is D — Interface design PR EVIOUS PAGE.",
       "C": "✗ Not the answer. This option text was damaged during OCR and cannot be read clearly. Focus on why 'Interface design PR EVIOUS PAGE' is correct for the specific concept tested in this question.",
       "D": "✓ CORRECT. 'Interface design PR EVIOUS PAGE' is correct because it matches the specific concept tested in this question. Definition: Java contract of abstract methods — implemented by classes."
     },
@@ -814,56 +814,56 @@
     "source": "offline-deep"
   },
   "75": {
-    "overview": "Which group of the following environment is more complex than the other for the agent to act appropriately The correct choice is B — Partially Observable, Episodic, non- deterministic, dynamic, continuous o.\n\n✅ Answer: B — Partially Observable, Episodic, non- deterministic, dynamic, continuous o",
+    "overview": "Which group of the following environment is more complex than the other for the agent to act appropriately Eliminate distractors that confuse related AI / ML terms before picking B.\n\n✅ Answer: B — Partially Observable, Episodic, non- deterministic, dynamic, continuous o",
     "options": {
-      "A": "✗ Not the answer. 'Fully Observable, Deterministic, Episodic, Static, Discrete' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Partially Observable, Episodic, non- deterministic, dynamic, continuous o'.",
-      "B": "✓ CORRECT. 'Partially Observable, Episodic, non- deterministic, dynamic, continuous o' is the correct answer — it directly addresses the specific concept tested in this question in General.",
-      "C": "✗ Not the answer. 'Partially observable, Deterministic, Sequential, Dynamic. Continuous o d Partially Observable, sequentialr non- deterministic, dynamic continuous sofeng-2015: Modem 7' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Partially Observable, Episodic, non- deterministic, dynamic, continuous o'.",
+      "A": "✗ Not the answer. 'Fully Observable, Deterministic, Episodic, Static, Discrete' does not fit the scenario: Which group of the following environment is more complex than the other for the agent to act appropriately The keyed answer is B — Partially Observable, Episodic, non- deterministic, dynamic, continuous o.",
+      "B": "✓ CORRECT. 'Partially Observable, Episodic, non- deterministic, dynamic, continuous o' is the correct answer — it directly addresses the specific concept tested in this question in AI / ML.",
+      "C": "✗ Not the answer. 'Partially observable, Deterministic, Sequential, Dynamic. Continuous o d Partially Observable, sequentialr non- deterministic, dynamic continuous sofeng-2015: Modem 7' does not fit the scenario: Which group of the following environment is more complex than the other for the agent to act appropriately The keyed answer is B — Partially Observable, Episodic, non- deterministic, dynamic, continuous o.",
       "D": "✗ Not the answer. This option text was damaged during OCR and cannot be read clearly. Focus on why 'Partially Observable, Episodic, non- deterministic, dynamic, continuous o' is correct for the specific concept tested in this question."
     },
-    "studyTip": "DFD symbols, structured analysis steps, and certification standards (DO-178B, UL 1998).",
+    "studyTip": "Classify learning type or search strategy (informed vs uninformed, optimal vs greedy).",
     "source": "offline-deep"
   },
   "76": {
-    "overview": "This General question tests properties of equivalence partitioning as a test technique. Key concept: testing without seeing internal code — based on inputs/outputs.\n\n✅ Answer: B — A black box testing technique appropriate to all levels of testing.",
+    "overview": "This Software Testing question tests properties of equivalence partitioning as a test technique. Key concept: testing without seeing internal code — based on inputs/outputs.\n\n✅ Answer: B — A black box testing technique appropriate to all levels of testing.",
     "options": {
       "A": "✗ Not the answer. 'A black box testing technique that can only be used during system testing.' refers to testing without seeing internal code — based on inputs/outputs. The question asks about properties of equivalence partitioning as a test technique. That requires 'A black box testing technique appropriate to all levels of testing.' — testing without seeing internal code — based on inputs/outputs. These are different concepts; do not confuse them on the exam.",
       "B": "✓ CORRECT. 'A black box testing technique appropriate to all levels of testing.' correctly answers properties of equivalence partitioning as a test technique. Concept: testing without seeing internal code — based on inputs/outputs.",
       "C": "✗ Not the answer. 'The black box testing technique is used only by developers.' refers to testing without seeing internal code — based on inputs/outputs. The question asks about properties of equivalence partitioning as a test technique. That requires 'A black box testing technique appropriate to all levels of testing.' — testing without seeing internal code — based on inputs/outputs. These are different concepts; do not confuse them on the exam.",
       "D": "✗ Not the answer. 'A white box testing technique appropriate far component testingr' refers to testing based on internal code structure and paths. The question asks about properties of equivalence partitioning as a test technique. That requires 'A black box testing technique appropriate to all levels of testing.' — testing without seeing internal code — based on inputs/outputs. These are different concepts; do not confuse them on the exam."
     },
-    "studyTip": "DFD symbols, structured analysis steps, and certification standards (DO-178B, UL 1998).",
+    "studyTip": "Match the question to test levels, coverage types, or traceability definitions.",
     "source": "offline-deep"
   },
   "77": {
-    "overview": "Which of the following activity is undertaken immediately after feasibility study and before the requirement analysis and specification phase The correct choice is D — Project Planning.\n\n✅ Answer: D — Project Planning",
+    "overview": "Which of the following activity is undertaken immediately after feasibility study and before the requirement analysis and specification phase Eliminate distractors that confuse related Android terms before picking D.\n\n✅ Answer: D — Project Planning",
     "options": {
-      "A": "✗ Not the answer. 'Project Control' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Project Planning'.",
-      "B": "✗ Not the answer. 'Project Monitoring o' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Project Planning'.",
-      "C": "✗ Not the answer. 'Project Scheduling' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Project Planning'.",
+      "A": "✗ Not the answer. 'Project Control' does not fit the scenario: Which of the following activity is undertaken immediately after feasibility study and before the requirement analysis an… The keyed answer is D — Project Planning.",
+      "B": "✗ Not the answer. 'Project Monitoring o' does not fit the scenario: Which of the following activity is undertaken immediately after feasibility study and before the requirement analysis an… The keyed answer is D — Project Planning.",
+      "C": "✗ Not the answer. 'Project Scheduling' does not fit the scenario: Which of the following activity is undertaken immediately after feasibility study and before the requirement analysis an… The keyed answer is D — Project Planning.",
       "D": "✓ CORRECT. Planning produces WBS, schedule, and cost estimates — the outputs asked for in planning-phase questions."
     },
     "studyTip": "Activity/Intent/Service/Manifest rules are high-frequency on Ethiopian exit exams.",
     "source": "offline-deep"
   },
   "78": {
-    "overview": "Which of the following are Benefits of Big Data Processing The correct choice is C — All of the mentioned above.\n\n✅ Answer: C — All of the mentioned above",
+    "overview": "Which of the following are Benefits of Big Data Processing Eliminate distractors that confuse related AI / ML terms before picking C.\n\n✅ Answer: C — All of the mentioned above",
     "options": {
-      "A": "✗ Not the answer. 'Time Reductions' is not the standard term for the specific concept tested in this question. The curriculum answer is 'All of the mentioned above'.",
-      "B": "✗ Not the answer. 'Cost Reduction' is not the standard term for the specific concept tested in this question. The curriculum answer is 'All of the mentioned above'.",
-      "C": "✓ CORRECT. 'All of the mentioned above' is the correct answer — it directly addresses the specific concept tested in this question in General.",
-      "D": "✗ Not the answer. 'Smarter Business Decisions' is not the standard term for the specific concept tested in this question. The curriculum answer is 'All of the mentioned above'."
+      "A": "✗ Not the answer. 'Time Reductions' does not fit the scenario: Which of the following are Benefits of Big Data Processing The keyed answer is C — All of the mentioned above.",
+      "B": "✗ Not the answer. 'Cost Reduction' does not fit the scenario: Which of the following are Benefits of Big Data Processing The keyed answer is C — All of the mentioned above.",
+      "C": "✓ CORRECT. 'All of the mentioned above' is the correct answer — it directly addresses the specific concept tested in this question in AI / ML.",
+      "D": "✗ Not the answer. 'Smarter Business Decisions' does not fit the scenario: Which of the following are Benefits of Big Data Processing The keyed answer is C — All of the mentioned above."
     },
-    "studyTip": "DFD symbols, structured analysis steps, and certification standards (DO-178B, UL 1998).",
+    "studyTip": "Classify learning type or search strategy (informed vs uninformed, optimal vs greedy).",
     "source": "offline-deep"
   },
   "79": {
-    "overview": "Which of the following does not relate to Evolutionary Process Model The correct choice is A — All of the above.\n\n✅ Answer: A — All of the above",
+    "overview": "Which of the following does not relate to Evolutionary Process Model Eliminate distractors that confuse related Project Management terms before picking A.\n\n✅ Answer: A — All of the above",
     "options": {
       "A": "✓ CORRECT. 'All of the above' is the correct answer — it directly addresses the specific concept tested in this question in Project Management.",
-      "B": "✗ Not the answer. 'Incremental Model' is not the standard term for the specific concept tested in this question. The curriculum answer is 'All of the above'.",
-      "C": "✗ Not the answer. 'WINWIN spiral Model' is not the standard term for the specific concept tested in this question. The curriculum answer is 'All of the above'.",
-      "D": "✗ Not the answer. 'Concurrent Development Model' is not the standard term for the specific concept tested in this question. The curriculum answer is 'All of the above'."
+      "B": "✗ Not the answer. 'Incremental Model' does not fit the scenario: Which of the following does not relate to Evolutionary Process Model The keyed answer is A — All of the above.",
+      "C": "✗ Not the answer. 'WINWIN spiral Model' does not fit the scenario: Which of the following does not relate to Evolutionary Process Model The keyed answer is A — All of the above.",
+      "D": "✗ Not the answer. 'Concurrent Development Model' does not fit the scenario: Which of the following does not relate to Evolutionary Process Model The keyed answer is A — All of the above."
     },
     "studyTip": "Identify lifecycle model, risk strategy, or WBS/critical-path terminology.",
     "source": "offline-deep"
@@ -871,56 +871,56 @@
   "80": {
     "overview": "This Database question tests identifying which database is NOT NoSQL. The correct choice is D — None of the above.\n\n✅ Answer: D — None of the above",
     "options": {
-      "A": "✗ Not the answer. 'SQL Server' is not the standard term for identifying which database is NOT NoSQL. The curriculum answer is 'None of the above'.",
-      "B": "✗ Not the answer. 'Cassandra' is not the standard term for identifying which database is NOT NoSQL. The curriculum answer is 'None of the above'.",
-      "C": "✗ Not the answer. 'MongoDB' is not the standard term for identifying which database is NOT NoSQL. The curriculum answer is 'None of the above'.",
+      "A": "✗ Not the answer. 'SQL Server' does not fit the scenario: Which of the following is not a NoSQL database The keyed answer is D — None of the above.",
+      "B": "✗ Not the answer. 'Cassandra' does not fit the scenario: Which of the following is not a NoSQL database The keyed answer is D — None of the above.",
+      "C": "✗ Not the answer. 'MongoDB' does not fit the scenario: Which of the following is not a NoSQL database The keyed answer is D — None of the above.",
       "D": "✓ CORRECT. 'None of the above' is the correct answer — it directly addresses identifying which database is NOT NoSQL in Database."
     },
     "studyTip": "Normalize step-by-step, check keys and FDs, and verify SQL syntax against schema.",
     "source": "offline-deep"
   },
   "81": {
-    "overview": "This General question tests which UML diagram is NOT structural. The correct choice is D — Llse case diagram.\n\n✅ Answer: D — Llse case diagram",
+    "overview": "This Software Engineering question tests which UML diagram is NOT structural. The correct choice is D — Llse case diagram.\n\n✅ Answer: D — Llse case diagram",
     "options": {
-      "A": "✗ Not the answer. 'Profile diagram' is not the standard term for which UML diagram is NOT structural. The curriculum answer is 'Llse case diagram'.",
-      "B": "✗ Not the answer. 'Object diagram' is not the standard term for which UML diagram is NOT structural. The curriculum answer is 'Llse case diagram'.",
+      "A": "✗ Not the answer. 'Profile diagram' does not fit the scenario: Which of the following is not a structural diagrams The keyed answer is D — Llse case diagram.",
+      "B": "✗ Not the answer. 'Object diagram' does not fit the scenario: Which of the following is not a structural diagrams The keyed answer is D — Llse case diagram.",
       "C": "✗ Not the answer. 'Class diagram' means UML structural diagram showing classes and relationships. That answers a different kind of question. Here, the stem points to 'Llse case diagram' instead.",
-      "D": "✓ CORRECT. 'Llse case diagram' is the correct answer — it directly addresses which UML diagram is NOT structural in General."
+      "D": "✓ CORRECT. 'Llse case diagram' is the correct answer — it directly addresses which UML diagram is NOT structural in Software Engineering."
     },
-    "studyTip": "DFD symbols, structured analysis steps, and certification standards (DO-178B, UL 1998).",
+    "studyTip": "SRS, requirements, maintenance types, and SDLC phases — match exact definitions.",
     "source": "offline-deep"
   },
   "82": {
-    "overview": "Which of the following is not among the guidelines to keep in mind as we document better software requirements The correct choice is B — Specifry requirements qualitatively.\n\n✅ Answer: B — Specifry requirements qualitatively",
+    "overview": "Which of the following is not among the guidelines to keep in mind as we document better software requirements Eliminate distractors that confuse related Software Engineering terms before picking B.\n\n✅ Answer: B — Specifry requirements qualitatively",
     "options": {
-      "A": "✗ Not the answer. 'Use diagrams appropriately' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Specifry requirements qualitatively'.",
+      "A": "✗ Not the answer. 'Use diagrams appropriately' does not fit the scenario: Which of the following is not among the guidelines to keep in mind as we document better software requirements The keyed answer is B — Specifry requirements qualitatively.",
       "B": "✓ CORRECT. 'Specifry requirements qualitatively' is the correct answer — it directly addresses the specific concept tested in this question in Software Engineering.",
-      "C": "✗ Not the answer. 'Keep sentences and paragraphs short' means nodes with arbitrary connections, may contain cycles. That answers a different kind of question. Here, the stem points to 'Specifry requirements qualitatively' instead.",
-      "D": "✗ Not the answer. 'Avoid stating requirements redundantly PR EVIOUS PAGE' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Specifry requirements qualitatively'."
+      "C": "✗ Not the answer. 'Keep sentences and paragraphs short' does not fit the scenario: Which of the following is not among the guidelines to keep in mind as we document better software requirements The keyed answer is B — Specifry requirements qualitatively.",
+      "D": "✗ Not the answer. 'Avoid stating requirements redundantly PR EVIOUS PAGE' does not fit the scenario: Which of the following is not among the guidelines to keep in mind as we document better software requirements The keyed answer is B — Specifry requirements qualitatively."
     },
     "studyTip": "SRS, requirements, maintenance types, and SDLC phases — match exact definitions.",
     "source": "offline-deep"
   },
   "83": {
-    "overview": "Which of the following is not test coverage metrics The correct choice is A — The number of test cases by requirement.\n\n✅ Answer: A — The number of test cases by requirement",
+    "overview": "Which of the following is not test coverage metrics Eliminate distractors that confuse related Software Testing terms before picking A.\n\n✅ Answer: A — The number of test cases by requirement",
     "options": {
       "A": "✓ CORRECT. 'The number of test cases by requirement' is the correct answer — it directly addresses the specific concept tested in this question in Software Testing.",
-      "B": "✗ Not the answer. 'Nane' is not the standard term for the specific concept tested in this question. The curriculum answer is 'The number of test cases by requirement'.",
-      "C": "✗ Not the answer. 'Requirements coverage' is not the standard term for the specific concept tested in this question. The curriculum answer is 'The number of test cases by requirement'.",
-      "D": "✗ Not the answer. 'The percentage of test execution coverage.' is not the standard term for the specific concept tested in this question. The curriculum answer is 'The number of test cases by requirement'."
+      "B": "✗ Not the answer. 'Nane' does not fit the scenario: Which of the following is not test coverage metrics The keyed answer is A — The number of test cases by requirement.",
+      "C": "✗ Not the answer. 'Requirements coverage' does not fit the scenario: Which of the following is not test coverage metrics The keyed answer is A — The number of test cases by requirement.",
+      "D": "✗ Not the answer. 'The percentage of test execution coverage.' does not fit the scenario: Which of the following is not test coverage metrics The keyed answer is A — The number of test cases by requirement."
     },
     "studyTip": "Match the question to test levels, coverage types, or traceability definitions.",
     "source": "offline-deep"
   },
   "84": {
-    "overview": "Which of the following is related to the overall functionality of the delivered software The correct choice is D — Function-related metrics.\n\n✅ Answer: D — Function-related metrics",
+    "overview": "Which of the following is related to the overall functionality of the delivered software Eliminate distractors that confuse related Software Engineering terms before picking D.\n\n✅ Answer: D — Function-related metrics",
     "options": {
-      "A": "✗ Not the answer. 'None of the mentioned' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Function-related metrics'.",
-      "B": "✗ Not the answer. 'Size-related metrics' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Function-related metrics'.",
-      "C": "✗ Not the answer. 'Product-related metrics' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Function-related metrics'.",
-      "D": "✓ CORRECT. 'Function-related metrics' is the correct answer — it directly addresses the specific concept tested in this question in General."
+      "A": "✗ Not the answer. 'None of the mentioned' does not fit the scenario: Which of the following is related to the overall functionality of the delivered software The keyed answer is D — Function-related metrics.",
+      "B": "✗ Not the answer. 'Size-related metrics' does not fit the scenario: Which of the following is related to the overall functionality of the delivered software The keyed answer is D — Function-related metrics.",
+      "C": "✗ Not the answer. 'Product-related metrics' does not fit the scenario: Which of the following is related to the overall functionality of the delivered software The keyed answer is D — Function-related metrics.",
+      "D": "✓ CORRECT. 'Function-related metrics' is the correct answer — it directly addresses the specific concept tested in this question in Software Engineering."
     },
-    "studyTip": "DFD symbols, structured analysis steps, and certification standards (DO-178B, UL 1998).",
+    "studyTip": "SRS, requirements, maintenance types, and SDLC phases — match exact definitions.",
     "source": "offline-deep"
   },
   "85": {
@@ -935,11 +935,11 @@
     "source": "offline-deep"
   },
   "86": {
-    "overview": "Which of the following term describes testing The correct choice is D — Evaluating deliverable to find errors.\n\n✅ Answer: D — Evaluating deliverable to find errors",
+    "overview": "Which of the following term describes testing Eliminate distractors that confuse related Networking terms before picking D.\n\n✅ Answer: D — Evaluating deliverable to find errors",
     "options": {
-      "A": "✗ Not the answer. 'A stage of all projects b None of the mentioned' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Evaluating deliverable to find errors'.",
+      "A": "✗ Not the answer. 'A stage of all projects b None of the mentioned' does not fit the scenario: Which of the following term describes testing The keyed answer is D — Evaluating deliverable to find errors.",
       "B": "✗ Not the answer. This option text was damaged during OCR and cannot be read clearly. Focus on why 'Evaluating deliverable to find errors' is correct for the specific concept tested in this question.",
-      "C": "✗ Not the answer. 'Finding broken code' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Evaluating deliverable to find errors'.",
+      "C": "✗ Not the answer. 'Finding broken code' does not fit the scenario: Which of the following term describes testing The keyed answer is D — Evaluating deliverable to find errors.",
       "D": "✓ CORRECT. 'Evaluating deliverable to find errors' is the correct answer — it directly addresses the specific concept tested in this question in Networking."
     },
     "studyTip": "Map the scenario to OSI/TCP layers, protocol behavior, or topology properties.",
@@ -949,73 +949,73 @@
     "overview": "This Android question tests services provided by the OSI transport layer. Key concept: program in execution with its own address space.\n\n✅ Answer: A — Process addressing",
     "options": {
       "A": "✓ CORRECT. 'Process addressing' correctly answers services provided by the OSI transport layer. Concept: program in execution with its own address space.",
-      "B": "✗ Not the answer. 'Physical addressing' is not the standard term for services provided by the OSI transport layer. The curriculum answer is 'Process addressing'.",
-      "C": "✗ Not the answer. 'Host addressing' is not the standard term for services provided by the OSI transport layer. The curriculum answer is 'Process addressing'.",
-      "D": "✗ Not the answer. 'Network addressing' is not the standard term for services provided by the OSI transport layer. The curriculum answer is 'Process addressing'."
+      "B": "✗ Not the answer. 'Physical addressing' does not fit the scenario: Which one of the following is a service provided by the transport layer The keyed answer is A — Process addressing.",
+      "C": "✗ Not the answer. 'Host addressing' does not fit the scenario: Which one of the following is a service provided by the transport layer The keyed answer is A — Process addressing.",
+      "D": "✗ Not the answer. 'Network addressing' does not fit the scenario: Which one of the following is a service provided by the transport layer The keyed answer is A — Process addressing."
     },
     "studyTip": "Activity/Intent/Service/Manifest rules are high-frequency on Ethiopian exit exams.",
     "source": "offline-deep"
   },
   "88": {
-    "overview": "Which one of the following is a subject- oriented, integrated, time-variant, nonvolatile collection of data in support of management decisions The correct choice is B — Data Warehousing o.\n\n✅ Answer: B — Data Warehousing o",
+    "overview": "Which one of the following is a subject- oriented, integrated, time-variant, nonvolatile collection of data in support of management decisions Eliminate distractors that confuse related AI / ML terms before picking B.\n\n✅ Answer: B — Data Warehousing o",
     "options": {
-      "A": "✗ Not the answer. 'Web Mining' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Data Warehousing o'.",
+      "A": "✗ Not the answer. 'Web Mining' does not fit the scenario: Which one of the following is a subject- oriented, integrated, time-variant, nonvolatile collection of data in support o… The keyed answer is B — Data Warehousing o.",
       "B": "✓ CORRECT. 'Data Warehousing o' is the correct answer — it directly addresses the specific concept tested in this question in AI / ML.",
-      "C": "✗ Not the answer. 'Text Mining' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Data Warehousing o'.",
+      "C": "✗ Not the answer. 'Text Mining' does not fit the scenario: Which one of the following is a subject- oriented, integrated, time-variant, nonvolatile collection of data in support o… The keyed answer is B — Data Warehousing o.",
       "D": "✗ Not the answer. 'Data Mining' means discovering patterns and predicting trends from large datasets. That answers a different kind of question. Here, the stem points to 'Data Warehousing o' instead."
     },
     "studyTip": "Classify learning type or search strategy (informed vs uninformed, optimal vs greedy).",
     "source": "offline-deep"
   },
   "89": {
-    "overview": "Which one of the following structures is odd The correct choice is C — Client server.\n\n✅ Answer: C — Client server",
+    "overview": "Which one of the following structures is odd Eliminate distractors that confuse related Software Engineering terms before picking C.\n\n✅ Answer: C — Client server",
     "options": {
-      "A": "✗ Not the answer. 'Shared data' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Client server'.",
-      "B": "✗ Not the answer. 'Work assignment' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Client server'.",
-      "C": "✓ CORRECT. 'Client server' is the correct answer — it directly addresses the specific concept tested in this question in General.",
-      "D": "✗ Not the answer. 'Concurrency' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Client server'."
+      "A": "✗ Not the answer. 'Shared data' does not fit the scenario: Which one of the following structures is odd The keyed answer is C — Client server.",
+      "B": "✗ Not the answer. 'Work assignment' does not fit the scenario: Which one of the following structures is odd The keyed answer is C — Client server.",
+      "C": "✓ CORRECT. 'Client server' is the correct answer — it directly addresses the specific concept tested in this question in Software Engineering.",
+      "D": "✗ Not the answer. 'Concurrency' does not fit the scenario: Which one of the following structures is odd The keyed answer is C — Client server."
     },
-    "studyTip": "DFD symbols, structured analysis steps, and certification standards (DO-178B, UL 1998).",
+    "studyTip": "SRS, requirements, maintenance types, and SDLC phases — match exact definitions.",
     "source": "offline-deep"
   },
   "90": {
-    "overview": "Which search algorithm aims at achieving to minimize the total path cost The correct choice is A — Greedy search.\n\n✅ Answer: A — Greedy search",
+    "overview": "Which search algorithm aims at achieving to minimize the total path cost Eliminate distractors that confuse related AI / ML terms before picking A.\n\n✅ Answer: A — Greedy search",
     "options": {
       "A": "✓ CORRECT. 'Greedy search' is the correct answer — it directly addresses the specific concept tested in this question in AI / ML.",
-      "B": "✗ Not the answer. 'Depth-first search' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Greedy search'.",
-      "C": "✗ Not the answer. 'search' means search using heuristics to explore promising paths first. That answers a different kind of question. Here, the stem points to 'Greedy search' instead.",
-      "D": "✗ Not the answer. 'Breadth-first search' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Greedy search'."
+      "B": "✗ Not the answer. 'Depth-first search' does not fit the scenario: Which search algorithm aims at achieving to minimize the total path cost The keyed answer is A — Greedy search.",
+      "C": "✗ Not the answer. 'search' does not fit the scenario: Which search algorithm aims at achieving to minimize the total path cost The keyed answer is A — Greedy search.",
+      "D": "✗ Not the answer. 'Breadth-first search' does not fit the scenario: Which search algorithm aims at achieving to minimize the total path cost The keyed answer is A — Greedy search."
     },
     "studyTip": "Classify learning type or search strategy (informed vs uninformed, optimal vs greedy).",
     "source": "offline-deep"
   },
   "91": {
-    "overview": "Which statement is the best characterization of knowledge representation The correct choice is B — It is concerned With methods and techniques for the storage of knowledge and information in a format that is suitable for treatment by computers.\n\n✅ Answer: B — It is concerned With methods and techniques for the storage of knowledge and information in a format that is suitable for treatment by computers",
+    "overview": "Which statement is the best characterization of knowledge representation Eliminate distractors that confuse related AI / ML terms before picking B.\n\n✅ Answer: B — It is concerned With methods and techniques for the storage of knowledge and information in a format that is suitable for treatment by computers",
     "options": {
-      "A": "✗ Not the answer. 'It describes methods and procedures for drawing conclusions on the basis af existing knowledge' is not the standard term for the specific concept tested in this question. The curriculum answer is 'It is concerned With methods and techniques for the storage of knowledge and information in a format that is suitable for treatment by computers'.",
-      "B": "✓ CORRECT. 'It is concerned With methods and techniques for the storage of knowledge and information in a format that is suitable for treatment by computers' is the correct answer — it directly addresses the specific concept tested in this question in Web Development.",
-      "C": "✗ Not the answer. 'It relies on the storage of relations between individual items according to a fixed scheme applied to a large collection of elementary items' is not the standard term for the specific concept tested in this question. The curriculum answer is 'It is concerned With methods and techniques for the storage of knowledge and information in a format that is suitable for treatment by computers'.",
-      "D": "✗ Not the answer. 'It requires a set of formal inference methods and clearly specified syntax and semantics sofeng-2015: Modem' is not the standard term for the specific concept tested in this question. The curriculum answer is 'It is concerned With methods and techniques for the storage of knowledge and information in a format that is suitable for treatment by computers'."
+      "A": "✗ Not the answer. 'It describes methods and procedures for drawing conclusions on the basis af existing knowledge' does not fit the scenario: Which statement is the best characterization of knowledge representation The keyed answer is B — It is concerned With methods and techniques for the storage of knowledge and information in a format that is suitable for treatment by computers.",
+      "B": "✓ CORRECT. 'It is concerned With methods and techniques for the storage of knowledge and information in a format that is suitable for treatment by computers' is the correct answer — it directly addresses the specific concept tested in this question in AI / ML.",
+      "C": "✗ Not the answer. 'It relies on the storage of relations between individual items according to a fixed scheme applied to a large collection of elementary items' does not fit the scenario: Which statement is the best characterization of knowledge representation The keyed answer is B — It is concerned With methods and techniques for the storage of knowledge and information in a format that is suitable for treatment by computers.",
+      "D": "✗ Not the answer. 'It requires a set of formal inference methods and clearly specified syntax and semantics sofeng-2015: Modem' does not fit the scenario: Which statement is the best characterization of knowledge representation The keyed answer is B — It is concerned With methods and techniques for the storage of knowledge and information in a format that is suitable for treatment by computers."
     },
-    "studyTip": "Check HTTP methods, CSS selectors, DOM APIs, and client-server roles.",
+    "studyTip": "Classify learning type or search strategy (informed vs uninformed, optimal vs greedy).",
     "source": "offline-deep"
   },
   "92": {
-    "overview": "Which testing technique is used to design the cases af the white box The correct choice is A — Data flow testing technique.\n\n✅ Answer: A — Data flow testing technique",
+    "overview": "Which testing technique is used to design the cases af the white box Eliminate distractors that confuse related Software Testing terms before picking A.\n\n✅ Answer: A — Data flow testing technique",
     "options": {
       "A": "✓ CORRECT. 'Data flow testing technique' is the correct answer — it directly addresses the specific concept tested in this question in Software Testing.",
-      "B": "✗ Not the answer. 'Statement coverage testing technique' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Data flow testing technique'.",
-      "C": "✗ Not the answer. 'Branch coverage testing technique' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Data flow testing technique'.",
+      "B": "✗ Not the answer. 'Statement coverage testing technique' does not fit the scenario: Which testing technique is used to design the cases af the white box The keyed answer is A — Data flow testing technique.",
+      "C": "✗ Not the answer. 'Branch coverage testing technique' does not fit the scenario: Which testing technique is used to design the cases af the white box The keyed answer is A — Data flow testing technique.",
       "D": "✗ Not the answer. This option text was damaged during OCR and cannot be read clearly. Focus on why 'Data flow testing technique' is correct for the specific concept tested in this question."
     },
     "studyTip": "Match the question to test levels, coverage types, or traceability definitions.",
     "source": "offline-deep"
   },
   "93": {
-    "overview": "Which types of traceability information links design and implementation components backs to requirements The correct choice is C — Backward to traceability d Forward to traceability PR EVIOUS PAGE.\n\n✅ Answer: C — Backward to traceability d Forward to traceability PR EVIOUS PAGE",
+    "overview": "Which types of traceability information links design and implementation components backs to requirements Eliminate distractors that confuse related Software Testing terms before picking C.\n\n✅ Answer: C — Backward to traceability d Forward to traceability PR EVIOUS PAGE",
     "options": {
-      "A": "✗ Not the answer. 'Forward from traceability' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Backward to traceability d Forward to traceability PR EVIOUS PAGE'.",
-      "B": "✗ Not the answer. 'Backward from traceability' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Backward to traceability d Forward to traceability PR EVIOUS PAGE'.",
+      "A": "✗ Not the answer. 'Forward from traceability' does not fit the scenario: Which types of traceability information links design and implementation components backs to requirements The keyed answer is C — Backward to traceability d Forward to traceability PR EVIOUS PAGE.",
+      "B": "✗ Not the answer. 'Backward from traceability' does not fit the scenario: Which types of traceability information links design and implementation components backs to requirements The keyed answer is C — Backward to traceability d Forward to traceability PR EVIOUS PAGE.",
       "C": "✓ CORRECT. 'Backward to traceability d Forward to traceability PR EVIOUS PAGE' is the correct answer — it directly addresses the specific concept tested in this question in Software Testing.",
       "D": "✗ Not the answer. This option text was damaged during OCR and cannot be read clearly. Focus on why 'Backward to traceability d Forward to traceability PR EVIOUS PAGE' is correct for the specific concept tested in this question."
     },
@@ -1023,10 +1023,10 @@
     "source": "offline-deep"
   },
   "94": {
-    "overview": "Which is the correct signature to exit thread? #include<pthread.h> Key concept: terminates the calling thread, optionally returning a void* value.\n\n✅ Answer: D — void pthread_exit(void*rval_ptr);",
+    "overview": "Which is the correct signature to exit thread? #include<pthread.h> The answer hinges on: terminates the calling thread, optionally returning a void* value Eliminate distractors that confuse related Operating Systems terms before picking D.\n\n✅ Answer: D — void pthread_exit(void*rval_ptr);",
     "options": {
-      "A": "✗ Not the answer. 'void' is not the standard term for the specific concept tested in this question. The curriculum answer is 'void pthread_exit(void*rval_ptr);'.",
-      "B": "✗ Not the answer. 'int pthread_exit_();' refers to terminates the calling thread, optionally returning a void* value. The question asks about the specific concept tested in this question. That requires 'void pthread_exit(void*rval_ptr);' — terminates the calling thread, optionally returning a void* value. These are different concepts; do not confuse them on the exam.",
+      "A": "✗ Not the answer. 'void' does not fit the scenario: Which is the correct signature to exit thread? #include<pthread.h> The keyed answer is D — void pthread_exit(void*rval_ptr);.",
+      "B": "✗ Not the answer. 'int pthread_exit_();' does not fit the scenario: Which is the correct signature to exit thread? #include<pthread.h> The keyed answer is D — void pthread_exit(void*rval_ptr);.",
       "C": "✗ Not the answer. 'int pthread_exit(0);' refers to terminates the calling thread, optionally returning a void* value. The question asks about the specific concept tested in this question. That requires 'void pthread_exit(void*rval_ptr);' — terminates the calling thread, optionally returning a void* value. These are different concepts; do not confuse them on the exam.",
       "D": "✓ CORRECT. 'void pthread_exit(void*rval_ptr);' is correct because it matches the specific concept tested in this question. Definition: terminates the calling thread, optionally returning a void* value."
     },
@@ -1034,58 +1034,58 @@
     "source": "offline-deep"
   },
   "95": {
-    "overview": "Which are not correct primitive system data types The correct choice is D — ssize t.\n\n✅ Answer: D — ssize t",
+    "overview": "Which are not correct primitive system data types Eliminate distractors that confuse related C++ terms before picking D.\n\n✅ Answer: D — ssize t",
     "options": {
-      "A": "✗ Not the answer. 'cclock t' is not the standard term for the specific concept tested in this question. The curriculum answer is 'ssize t'.",
-      "B": "✗ Not the answer. 'size t' is not the standard term for the specific concept tested in this question. The curriculum answer is 'ssize t'.",
-      "C": "✗ Not the answer. 'mode t' is not the standard term for the specific concept tested in this question. The curriculum answer is 'ssize t'.",
-      "D": "✓ CORRECT. 'ssize t' is the correct answer — it directly addresses the specific concept tested in this question in General."
+      "A": "✗ Not the answer. 'cclock t' does not fit the scenario: Which are not correct primitive system data types The keyed answer is D — ssize t.",
+      "B": "✗ Not the answer. 'size t' does not fit the scenario: Which are not correct primitive system data types The keyed answer is D — ssize t.",
+      "C": "✗ Not the answer. 'mode t' does not fit the scenario: Which are not correct primitive system data types The keyed answer is D — ssize t.",
+      "D": "✓ CORRECT. 'ssize t' is the correct answer — it directly addresses the specific concept tested in this question in C++."
     },
-    "studyTip": "DFD symbols, structured analysis steps, and certification standards (DO-178B, UL 1998).",
+    "studyTip": "Trace small code fragments and validate syntax against C++ compilation rules.",
     "source": "offline-deep"
   },
   "96": {
-    "overview": "How to use [seek function The correct choice is A — off_t Iseek(int fdr offset int.\n\n✅ Answer: A — off_t Iseek(int fdr offset int",
+    "overview": "How to use [seek function Eliminate distractors that confuse related Operating Systems terms before picking A.\n\n✅ Answer: A — off_t Iseek(int fdr offset int",
     "options": {
-      "A": "✓ CORRECT. 'off_t Iseek(int fdr offset int' is the correct answer — it directly addresses the specific concept tested in this question in General.",
-      "B": "✗ Not the answer. '<apue.h> offset int offset int o offset, int whence); offset:t 'seek(int fd, whence); int Iseek(int fdr int whence); offset_t Iseek(int fd, whence); off t off t off t' is related to General vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with A: off_t Iseek(int fdr offset int.",
+      "A": "✓ CORRECT. 'off_t Iseek(int fdr offset int' is the correct answer — it directly addresses the specific concept tested in this question in Operating Systems.",
+      "B": "✗ Not the answer. '<apue.h> offset int offset int o offset, int whence); offset:t 'seek(int fd, whence); int Iseek(int fdr int whence); offset_t Iseek(int fd, whence); off t off t off t' is a plausible Operating Systems term but not what this stem requires. Compare carefully with A: off_t Iseek(int fdr offset int.",
       "C": "✗ Not the answer. This option text was damaged during OCR and cannot be read clearly. Focus on why 'off_t Iseek(int fdr offset int' is correct for the specific concept tested in this question.",
       "D": "✗ Not the answer. This option text was damaged during OCR and cannot be read clearly. Focus on why 'off_t Iseek(int fdr offset int' is correct for the specific concept tested in this question."
     },
-    "studyTip": "DFD symbols, structured analysis steps, and certification standards (DO-178B, UL 1998).",
+    "studyTip": "Relate to process states, scheduling, memory policies, or deadlock conditions.",
     "source": "offline-deep"
   },
   "97": {
-    "overview": "Which is not true about closing the opened file? *include <fcntl.h> int close(int fd); The correct choice is B — NULL : on error.\n\n✅ Answer: B — NULL : on error",
+    "overview": "Which is not true about closing the opened file? *include <fcntl.h> int close(int fd); Eliminate distractors that confuse related Networking terms before picking B.\n\n✅ Answer: B — NULL : on error",
     "options": {
-      "A": "✗ Not the answer. 'I : on error' is not the standard term for the specific concept tested in this question. The curriculum answer is 'NULL : on error'.",
+      "A": "✗ Not the answer. 'I : on error' does not fit the scenario: Which is not true about closing the opened file? *include <fcntl.h> int close(int fd); The keyed answer is B — NULL : on error.",
       "B": "✓ CORRECT. 'NULL : on error' is the correct answer — it directly addresses the specific concept tested in this question in Networking.",
-      "C": "✗ Not the answer. 'fdt file descriptor' is not the standard term for the specific concept tested in this question. The curriculum answer is 'NULL : on error'.",
-      "D": "✗ Not the answer. '0 success' is not the standard term for the specific concept tested in this question. The curriculum answer is 'NULL : on error'."
+      "C": "✗ Not the answer. 'fdt file descriptor' does not fit the scenario: Which is not true about closing the opened file? *include <fcntl.h> int close(int fd); The keyed answer is B — NULL : on error.",
+      "D": "✗ Not the answer. '0 success' does not fit the scenario: Which is not true about closing the opened file? *include <fcntl.h> int close(int fd); The keyed answer is B — NULL : on error."
     },
     "studyTip": "Map the scenario to OSI/TCP layers, protocol behavior, or topology properties.",
     "source": "offline-deep"
   },
   "98": {
-    "overview": "Which is not true about the times 0 system call which retrieves the process time af the running process and its children, in clock ticks? Struct tms{ l; clock-t times (struct tms*bu0; The correct choice is B — clock_t tms_xtrtime; //user time consumed by children.\n\n✅ Answer: B — clock_t tms_xtrtime; //user time consumed by children",
+    "overview": "Which is not true about the times 0 system call which retrieves the process time af the running process and its children, in clock ticks? Struct tms{ l; clock-t times (struct tms*bu0; Eliminate distractors that confuse related Operating Systems terms before picking B.\n\n✅ Answer: B — clock_t tms_xtrtime; //user time consumed by children",
     "options": {
-      "A": "✗ Not the answer. 'clock_t tms=cutime: //system time consumed by children' is not the standard term for the specific concept tested in this question. The curriculum answer is 'clock_t tms_xtrtime; //user time consumed by children'.",
-      "B": "✓ CORRECT. 'clock_t tms_xtrtime; //user time consumed by children' is the correct answer — it directly addresses the specific concept tested in this question in General.",
-      "C": "✗ Not the answer. 'clack t consumed o' is not the standard term for the specific concept tested in this question. The curriculum answer is 'clock_t tms_xtrtime; //user time consumed by children'.",
-      "D": "✗ Not the answer. 'clock t consumed tms_stime; // system time tms_utime; // user time PR EVIOUS PAGE' is not the standard term for the specific concept tested in this question. The curriculum answer is 'clock_t tms_xtrtime; //user time consumed by children'."
+      "A": "✗ Not the answer. 'clock_t tms=cutime: //system time consumed by children' does not fit the scenario: Which is not true about the times 0 system call which retrieves the process time af the running process and its children… The keyed answer is B — clock_t tms_xtrtime; //user time consumed by children.",
+      "B": "✓ CORRECT. 'clock_t tms_xtrtime; //user time consumed by children' is the correct answer — it directly addresses the specific concept tested in this question in Operating Systems.",
+      "C": "✗ Not the answer. 'clack t consumed o' does not fit the scenario: Which is not true about the times 0 system call which retrieves the process time af the running process and its children… The keyed answer is B — clock_t tms_xtrtime; //user time consumed by children.",
+      "D": "✗ Not the answer. 'clock t consumed tms_stime; // system time tms_utime; // user time PR EVIOUS PAGE' does not fit the scenario: Which is not true about the times 0 system call which retrieves the process time af the running process and its children… The keyed answer is B — clock_t tms_xtrtime; //user time consumed by children."
     },
-    "studyTip": "DFD symbols, structured analysis steps, and certification standards (DO-178B, UL 1998).",
+    "studyTip": "Relate to process states, scheduling, memory policies, or deadlock conditions.",
     "source": "offline-deep"
   },
   "99": {
-    "overview": "If the start-up routine were coded in C the call to main could look like The correct choice is B — main(exit(argc, argv));.\n\n✅ Answer: B — main(exit(argc, argv));",
+    "overview": "If the start-up routine were coded in C the call to main could look like Eliminate distractors that confuse related C++ terms before picking B.\n\n✅ Answer: B — main(exit(argc, argv));",
     "options": {
-      "A": "✗ Not the answer. 'exit(argc, argv): o' is related to General vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with B: main(exit(argc, argv));.",
-      "B": "✓ CORRECT. 'main(exit(argc, argv));' is the correct answer — it directly addresses the specific concept tested in this question in General.",
-      "C": "✗ Not the answer. 'exit(main) o' is related to General vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with B: main(exit(argc, argv));.",
-      "D": "✗ Not the answer. 'argv»;' is related to General vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with B: main(exit(argc, argv));."
+      "A": "✗ Not the answer. 'exit(argc, argv): o' does not fit the scenario: If the start-up routine were coded in C the call to main could look like The keyed answer is B — main(exit(argc, argv));.",
+      "B": "✓ CORRECT. 'main(exit(argc, argv));' is the correct answer — it directly addresses the specific concept tested in this question in C++.",
+      "C": "✗ Not the answer. 'exit(main) o' does not fit the scenario: If the start-up routine were coded in C the call to main could look like The keyed answer is B — main(exit(argc, argv));.",
+      "D": "✗ Not the answer. 'argv»;' does not fit the scenario: If the start-up routine were coded in C the call to main could look like The keyed answer is B — main(exit(argc, argv));."
     },
-    "studyTip": "DFD symbols, structured analysis steps, and certification standards (DO-178B, UL 1998).",
+    "studyTip": "Trace small code fragments and validate syntax against C++ compilation rules.",
     "source": "offline-deep"
   }
 }

@@ -3,7 +3,7 @@
     "overview": "Software architectures are evaluated using quality attributes (non-functional properties) such as performance, availability, security, and modifiability. The ISO/IEC 25010 and architecture tradeoff analysis methods treat these attributes as the primary yardstick—not raw component counts or vague labels. Architectural quality attributes let stakeholders compare design alternatives before implementation. Therefore the assessment parameter is architectural quality in attribute (option C).\n\n✅ Answer: C — Architectural quality in attribute",
     "options": {
       "A": "✗ Not the answer. Responsiveness can be one concrete quality attribute (e.g., latency under load), but it is only a single dimension. Exam questions ask for the umbrella concept used to assess architectures holistically. Choosing responsiveness confuses one metric with the full evaluation framework.",
-      "B": "✗ Not the answer. Durability might sound plausible for long-lived systems, but it is not the standard term for architecture evaluation in SE curricula. Maintainability, availability, and reliability are the kinds of named attributes you should memorize instead.",
+      "B": "✗ Not the answer. 'Durability of Architectures' does not fit the scenario: Which parameter is used to assess and evaluate software architectures? The keyed answer is C — Architectural quality in attribute.",
       "C": "✓ CORRECT. This is the intended answer: architects document and score quality attributes to reason about tradeoffs. For example, adding a cache improves performance but may hurt security or consistency—attributes make that discussion precise.",
       "D": "✗ Not the answer. Counting components says nothing about whether the architecture meets performance or modifiability goals. A microservice system with 200 tiny services can still be unmaintainable; quantity ≠ quality."
     },
@@ -71,7 +71,7 @@
       "A": "✗ Not the answer. Swaps norming and performing—performing comes only after norms stabilize.",
       "B": "✗ Not the answer. Starts with norming before forming—impossible for brand-new teams.",
       "C": "✗ Not the answer. Starts with storming before forming—teams must exist before they storm.",
-      "D": "✓ CORRECT. Exact canonical sequence—correct answer."
+      "D": "✓ CORRECT. 'forming, storming, norming, performing and adjourning' is the correct answer — it directly addresses the specific concept tested in this question in Project Management."
     },
     "studyTip": "Mnemonic: Frequent Storms Need Practice And Adjournment.",
     "source": "offline-deep"
@@ -90,7 +90,7 @@
   "13": {
     "overview": "ROI% = (Discounted Benefits − Discounted Costs) / Costs × 100. =(120000−100000)/100000×100 = 20%. Use cost as denominator per standard project financial exam formula.\n\n✅ Answer: A — 20%",
     "options": {
-      "A": "✓ CORRECT. 20% matches the calculation—correct.",
+      "A": "✓ CORRECT. '20%' is the correct answer — it directly addresses the specific concept tested in this question in Project Management.",
       "B": "✗ Not the answer. 12% might come from dividing benefit by cost incorrectly (120/1000).",
       "C": "✗ Not the answer. 30% has no basis in given numbers.",
       "D": "✗ Not the answer. 10% might confuse net profit rate with ROI denominator."
@@ -136,7 +136,7 @@
     "options": {
       "A": "✗ Not the answer. Top-down order reversed—starts at transport.",
       "B": "✗ Not the answer. Swaps frame and packet layers.",
-      "C": "✓ CORRECT. Correct bottom-to-top PDU sequence.",
+      "C": "✓ CORRECT. 'Bit, Frame, Packet, Segment' correctly answers abstract domain model vs concrete architecture. Concept: Java AWT/Swing top-level window with title bar and border decorations.",
       "D": "✗ Not the answer. Places packet before frame—layers 3 and 2 swapped."
     },
     "studyTip": "PDU ladder: Bits → Frames → Packets → Segments (1→4).",
@@ -178,7 +178,7 @@
   "24": {
     "overview": "An AI agent perceives via sensors and acts via effectors in an environment. Russell/Norvig define agents as anything that perceives and acts.\n\n✅ Answer: A — Agent",
     "options": {
-      "A": "✓ CORRECT. Agent—correct definition match.",
+      "A": "✓ CORRECT. 'Agent' is the correct answer — it directly addresses the specific concept tested in this question in AI / ML.",
       "B": "✗ Not the answer. Expert systems reason in narrow domains but are not defined by sensors/effectors.",
       "C": "✗ Not the answer. Intelligence is abstract; agent is the concrete architecture term.",
       "D": "✗ Not the answer. API is a programming interface, not an autonomous entity."
@@ -211,7 +211,7 @@
   "27": {
     "overview": "A* combines path cost g(n) and heuristic h(n) with admissibility/consistency yielding optimal paths. Worst-case can explore exponentially many nodes in pathological graphs.\n\n✅ Answer: A — A* search",
     "options": {
-      "A": "✓ CORRECT. A*—correct description in stem.",
+      "A": "✓ CORRECT. 'A* search' matches the dominant growth rate of the expression. Identify the fastest-growing term, drop constants, and express in Big-O notation.",
       "B": "✗ Not the answer. Greedy best-first ignores path cost—not optimal.",
       "C": "✗ Not the answer. Uniform-cost is optimal but lacks heuristic focus of A* wording.",
       "D": "✗ Not the answer. IDA* limits memory but stem points to classic A* characteristics."
@@ -222,10 +222,10 @@
   "28": {
     "overview": "Pareto principle: roughly 80% effects from 20% causes—used in defect prioritization and effort focusing.\n\n✅ Answer: A — Pareto principle",
     "options": {
-      "A": "✓ CORRECT. Pareto principle—correct.",
+      "A": "✓ CORRECT. 'Pareto principle' is the correct answer — it directly addresses the specific concept tested in this question in Project Management.",
       "B": "✗ Not the answer. Parametric estimation uses parameters for cost—unrelated.",
-      "C": "✗ Not the answer. Pairwise testing combines inputs—unrelated.",
-      "D": "✗ Not the answer. Partitioning divides data—unrelated."
+      "C": "✗ Not the answer. 'Pairwise principle' does not fit the scenario: Which principles state that 80% of the problem can be fixed with 20% of the entire effort? The keyed answer is A — Pareto principle.",
+      "D": "✗ Not the answer. 'Partition principle' does not fit the scenario: Which principles state that 80% of the problem can be fixed with 20% of the entire effort? The keyed answer is A — Pareto principle."
     },
     "studyTip": "80/20 → Pareto; don't confuse with parametric estimating.",
     "source": "offline-deep"
@@ -234,7 +234,7 @@
     "overview": "CRISP-DM / ML lifecycle: train model on training data, test on holdout, evaluate metrics, then deploy. Evaluation before testing or deployment before evaluation reverses quality gates.\n\n✅ Answer: A — Model training, Model Testing, Model Evaluation, Model Deployment",
     "options": {
       "A": "✓ CORRECT. Training → Testing → Evaluation → Deployment is logical pipeline—correct.",
-      "B": "✗ Not the answer. Evaluation before training impossible.",
+      "B": "✗ Not the answer. 'Model Evaluation, Model training, Model Testing, Model Deployment' does not fit the scenario: Which one of the following is an appropriate sequence that depicts the model development process in data mining? The keyed answer is A — Model training, Model Testing, Model Evaluation, Model Deployment.",
       "C": "✗ Not the answer. Deployment before evaluation risks shipping untested models.",
       "D": "✗ Not the answer. Evaluation after testing but order still wrong vs A."
     },
@@ -267,7 +267,7 @@
     "overview": "Loop: for(i=0; i<=arr.length-2; ++i) with arr length 5 → i=0..3 prints indices 0-3 → 3,4,5,6. i<=length-2 means last i is 3 when length=5.\n\n✅ Answer: D — 3,4,5,6",
     "options": {
       "A": "✗ Not the answer. Stops too early—only two elements.",
-      "B": "✗ Not the answer. Three elements—still short.",
+      "B": "✗ Not the answer. If the program printed 3,4,5, a different branch or calculation would execute. Trace the code line-by-line with the given inputs to verify the output is 3,4,5,6.",
       "C": "✗ Not the answer. All five would need i<=length-1.",
       "D": "✓ CORRECT. Four elements 3,4,5,6—matches inclusive bound length-2."
     },
@@ -288,9 +288,9 @@
   "34": {
     "overview": "Automatic programming synthesizes executable code from formal/logical specifications, including control structures. Distinct from monitoring, learning, or vague recursive label.\n\n✅ Answer: A — Automatic programming",
     "options": {
-      "A": "✓ CORRECT. Automatic programming—correct AI/SE term.",
+      "A": "✓ CORRECT. 'Automatic programming' is the correct answer — it directly addresses the specific concept tested in this question in Java / OOP.",
       "B": "✗ Not the answer. Monitoring observes runtime behavior, not code generation from specs.",
-      "C": "✗ Not the answer. Not standard terminology.",
+      "C": "✗ Not the answer. 'Automatic recursive' does not fit the scenario: A Techniques for generating plans with conditionals and loops are almost identical to those for generating programs from… The keyed answer is A — Automatic programming.",
       "D": "✗ Not the answer. Automatic learning is ML, not spec-to-code generation."
     },
     "studyTip": "Spec + loops/conditionals → code synthesis = automatic programming.",
@@ -299,10 +299,10 @@
   "35": {
     "overview": "C++ identifiers: letters/underscore start; may contain digits; cannot start with digit; $ not allowed.\n\n✅ Answer: D — variable_1234",
     "options": {
-      "A": "✗ Not the answer. Starts with digit—illegal.",
+      "A": "✗ Not the answer. '7variable' does not fit the scenario: Which one of the following is the correct identifier in c++? The keyed answer is D — variable_1234.",
       "B": "✗ Not the answer. Still starts with digit even if uppercase letters follow.",
       "C": "✗ Not the answer. $ not valid in standard C++ identifiers.",
-      "D": "✓ CORRECT. variable_1234 legal—correct."
+      "D": "✓ CORRECT. 'variable_1234' is the correct answer — it directly addresses the specific concept tested in this question in C++."
     },
     "studyTip": "C++ id rules: [letter|_][letter|digit|_]*",
     "source": "offline-deep"
@@ -321,10 +321,10 @@
   "37": {
     "overview": "Risk retention (acceptance) means acknowledging risk without active mitigation/transfer. Transfer shifts to third party; avoidance removes exposure; reduction mitigates.\n\n✅ Answer: B — risk retention",
     "options": {
-      "A": "✗ Not the answer. Transfer = insurance/outsourcing risk.",
-      "B": "✓ CORRECT. Retention = accept—correct.",
+      "A": "✗ Not the answer. Risk transfer shifts liability to another party (e.g., insurance) — different from accepting the risk yourself.",
+      "B": "✓ CORRECT. Risk retention means accepting the risk and budgeting for potential loss — the strategy when you keep the exposure.",
       "C": "✗ Not the answer. Avoidance eliminates activity causing risk.",
-      "D": "✗ Not the answer. Reduction lessens probability/impact."
+      "D": "✗ Not the answer. Risk reduction (mitigation) lowers probability or impact through controls — not the same as retaining/accepting risk."
     },
     "studyTip": "Accept risk passively → risk retention.",
     "source": "offline-deep"
@@ -333,7 +333,7 @@
     "overview": "Blocked (waiting) process after I/O completion moves to Ready queue awaiting CPU, not Running immediately. Running implies currently executing on a core.\n\n✅ Answer: D — Ready",
     "options": {
       "A": "✗ Not the answer. Suspended is different power/state model.",
-      "B": "✗ Not the answer. Terminated ends process life.",
+      "B": "✗ Not the answer. If the program printed Terminated, a different branch or calculation would execute. Trace the code line-by-line with the given inputs to verify the output is Ready.",
       "C": "✗ Not the answer. Running would skip ready queue dispatch.",
       "D": "✓ CORRECT. Ready—correct post-I/O state before scheduler picks it."
     },
@@ -367,8 +367,8 @@
     "options": {
       "A": "✓ CORRECT. Android Package Kit—exam canonical answer.",
       "B": "✗ Not the answer. Platform Kit confuses SDK with distributable package.",
-      "C": "✗ Not the answer. Phone Kit invented distractor.",
-      "D": "✗ Not the answer. Page Kit nonsense distractor."
+      "C": "✗ Not the answer. 'Android Phone Kit' is a plausible Android term but not what this stem requires. Compare carefully with A: Android Package Kit.",
+      "D": "✗ Not the answer. 'Android Page Kit' is a plausible Android term but not what this stem requires. Compare carefully with A: Android Package Kit."
     },
     "studyTip": "APK packages app resources, manifest, dex for installation.",
     "source": "offline-deep"
@@ -376,7 +376,7 @@
   "42": {
     "overview": "Software testing verifies the product against requirements to expose defects—core QA goal. Not scheduling, doc generation, or monitoring entire SDLC alone.\n\n✅ Answer: C — to guarantee that the software meets the specified requirement",
     "options": {
-      "A": "✗ Not the answer. Schedules are PM concern.",
+      "A": "✗ Not the answer. 'to achieve project timelines and deadlines' does not fit the scenario: Which statement describe the main goal of software testing as a part of the quality assurance process? The keyed answer is C — to guarantee that the software meets the specified requirement.",
       "B": "✗ Not the answer. Requirements docs precede test design but are not testing's main goal.",
       "C": "✓ CORRECT. Testing validates conformance to requirements—correct.",
       "D": "✗ Not the answer. SDLC monitoring is broader governance."
@@ -385,12 +385,12 @@
     "source": "offline-deep"
   },
   "43": {
-    "overview": "The correct structure of the for loop statement is: The correct choice is D — for(initialization; condition; increment/decrement).\n\n✅ Answer: D — for(initialization; condition; increment/decrement)",
+    "overview": "The correct structure of the for loop statement is: Eliminate distractors that confuse related Java / OOP terms before picking D.\n\n✅ Answer: D — for(initialization; condition; increment/decrement)",
     "options": {
       "A": "✗ Not the answer. Missing increment/third expression—syntax incomplete.",
-      "B": "✗ Not the answer. Wrong clause order.",
-      "C": "✗ Not the answer. Comma-separated wrong structure.",
-      "D": "✓ CORRECT. for(init; condition; increment)—correct."
+      "B": "✗ Not the answer. 'for(increment/decrement; initialization; condition)' does not fit the scenario: The correct structure of the for loop statement is: The keyed answer is D — for(initialization; condition; increment/decrement).",
+      "C": "✗ Not the answer. 'for(condition, initialization, increment/decrement)' does not fit the scenario: The correct structure of the for loop statement is: The keyed answer is D — for(initialization; condition; increment/decrement).",
+      "D": "✓ CORRECT. 'for(initialization; condition; increment/decrement)' is the correct answer — it directly addresses the specific concept tested in this question in Java / OOP."
     },
     "studyTip": "for (init; cond; step) — three expressions separated by semicolons.",
     "source": "offline-deep"
@@ -422,7 +422,7 @@
     "options": {
       "A": "✗ Not the answer. Test data important but not more focus than training for building model.",
       "B": "✓ CORRECT. Large training sets typically boost performance—correct.",
-      "C": "✗ Not the answer. Fifty-fifty overlap leaks labels—invalid.",
+      "C": "✗ Not the answer. 'Test set and Training set should have fifty-fifty overlap' does not fit the scenario: Which of the following is true regarding model development in machine learning? The keyed answer is B — Training with large dataset boosts model performance.",
       "D": "✗ Not the answer. Training set usually larger than test (e.g., 70/30)."
     },
     "studyTip": "Train big & clean; keep test set separate for unbiased evaluation.",
@@ -432,7 +432,7 @@
     "overview": "Android layouts (LinearLayout, RelativeLayout, etc.) extend ViewGroup which extends View. Not Layout or Widget standalone classes.\n\n✅ Answer: C — android.view.ViewGroup",
     "options": {
       "A": "✗ Not the answer. RelativeLayout is subclass, not parent of all layouts.",
-      "B": "✗ Not the answer. No android.view.Layout base class.",
+      "B": "✗ Not the answer. 'android.view.Layout' does not fit the scenario: All layout classes are subclasses of which of the following? The keyed answer is C — android.view.ViewGroup.",
       "C": "✓ CORRECT. ViewGroup is common superclass for layouts—correct.",
       "D": "✗ Not the answer. Widget not universal layout parent."
     },
@@ -444,8 +444,8 @@
     "options": {
       "A": "✗ Not the answer. 81 would be 4^4 or 3^4 confusion.",
       "B": "✗ Not the answer. 12 might be 4+3+... wrong operation.",
-      "C": "✓ CORRECT. 64 = 4*4*4—correct.",
-      "D": "✗ Not the answer. 256 = 4^4."
+      "C": "✓ CORRECT. '64' is the correct answer — it directly addresses tracing code execution to determine printed output in C++.",
+      "D": "✗ Not the answer. If the program printed 256, a different branch or calculation would execute. Trace the code line-by-line with the given inputs to verify the output is 64."
     },
     "studyTip": "Exponentiation loop: multiply r by base e times.",
     "source": "offline-deep"
@@ -453,10 +453,10 @@
   "49": {
     "overview": "/21 network 172.17.128.0 spans 172.17.128.0–172.17.135.255. 172.17.135.255 is broadcast—invalid host address.\n\n✅ Answer: B — 172.17.135.255/21",
     "options": {
-      "A": "✗ Not the answer. Valid host .1.",
+      "A": "✗ Not the answer. '172.17.128.1/21' does not fit the scenario: Which of the following is not a valid host address within the network 172.17.128.0/21? The keyed answer is B — 172.17.135.255/21.",
       "B": "✓ CORRECT. Broadcast address—not valid host—correct NOT host choice.",
       "C": "✗ Not the answer. Valid host .128.255 subnet edge depending—often valid host before broadcast.",
-      "D": "✗ Not the answer. Valid host .135.0."
+      "D": "✗ Not the answer. '172.17.135.0/21' does not fit the scenario: Which of the following is not a valid host address within the network 172.17.128.0/21? The keyed answer is B — 172.17.135.255/21."
     },
     "studyTip": "Host range excludes network and broadcast addresses.",
     "source": "offline-deep"
@@ -475,10 +475,10 @@
   "51": {
     "overview": "Android stack bottom layer is Linux kernel (drivers, power). Apps sit top; framework above kernel.\n\n✅ Answer: A — Linux kernel",
     "options": {
-      "A": "✓ CORRECT. Linux kernel lowest—correct.",
-      "B": "✗ Not the answer. Database not OS layer.",
-      "C": "✗ Not the answer. Application Framework above kernel.",
-      "D": "✗ Not the answer. Applications topmost user layer."
+      "A": "✓ CORRECT. 'Linux kernel' is correct because it matches the specific concept tested in this question. Definition: Android is built on the Linux kernel.",
+      "B": "✗ Not the answer. 'Database' does not fit the scenario: Identify the lowest layer of android architecture The keyed answer is A — Linux kernel.",
+      "C": "✗ Not the answer. 'Application Framework' does not fit the scenario: Identify the lowest layer of android architecture The keyed answer is A — Linux kernel.",
+      "D": "✗ Not the answer. 'Application' does not fit the scenario: Identify the lowest layer of android architecture The keyed answer is A — Linux kernel."
     },
     "studyTip": "Android layers bottom-up: Linux kernel → HAL → native → framework → apps.",
     "source": "offline-deep"
@@ -498,8 +498,8 @@
     "overview": "Generalization: parent class more general, child more specific—higher level is LESS specific, not more. D statement reverses generalization direction.\n\n✅ Answer: D — The higher level classes are more specific than the lower-level classes by adding specific attributes and operation",
     "options": {
       "A": "✗ Not the answer. Attributes/operations inherited downward—true.",
-      "B": "✗ Not the answer. Common info in superclass—true.",
-      "C": "✗ Not the answer. Centralized change aids modification—true.",
+      "B": "✗ Not the answer. 'Common information will be maintained in one place' does not fit the scenario: Select the one that is not correct related to generalization in system modeling. The keyed answer is D — The higher level classes are more specific than the lower-level classes by adding specific attributes and operation.",
+      "C": "✗ Not the answer. 'Facilitate easy modification of data' does not fit the scenario: Select the one that is not correct related to generalization in system modeling. The keyed answer is D — The higher level classes are more specific than the lower-level classes by adding specific attributes and operation.",
       "D": "✓ CORRECT. Higher level more specific is false—inverted—answer."
     },
     "studyTip": "Generalization: general at top, specific subclasses below.",
@@ -508,7 +508,7 @@
   "54": {
     "overview": "Deadlock: processes waiting for resources held by each other in circular wait.\n\n✅ Answer: A — deadlock",
     "options": {
-      "A": "✓ CORRECT. Deadlock definition—correct.",
+      "A": "✓ CORRECT. 'deadlock' is correct because it matches the specific concept tested in this question. Definition: circular wait preventing progress.",
       "B": "✗ Not the answer. Preemption forcibly takes CPU—different concept.",
       "C": "✗ Not the answer. Overloading not standard deadlock term.",
       "D": "✗ Not the answer. Queuing is normal scheduling, not deadlock."
@@ -519,10 +519,10 @@
   "55": {
     "overview": "Same as 54—set of processes waiting on resources owned by others = deadlock.\n\n✅ Answer: A — Deadlock",
     "options": {
-      "A": "✓ CORRECT. Deadlock—correct.",
-      "B": "✗ Not the answer. Preemption unrelated.",
-      "C": "✗ Not the answer. Overloading unrelated.",
-      "D": "✗ Not the answer. Queuing normal behavior."
+      "A": "✓ CORRECT. 'Deadlock' is correct because it matches the specific concept tested in this question. Definition: circular wait preventing progress.",
+      "B": "✗ Not the answer. 'Preemption' does not fit the scenario: A set of processes management which is waiting for a resource that I owned by another process refers to: The keyed answer is A — Deadlock.",
+      "C": "✗ Not the answer. 'Overloading' refers to same method name, different parameters — compile-time polymorphism. The question asks about the specific concept tested in this question. That requires 'Deadlock' — circular wait preventing progress. These are different concepts; do not confuse them on the exam.",
+      "D": "✗ Not the answer. 'Queuing' does not fit the scenario: A set of processes management which is waiting for a resource that I owned by another process refers to: The keyed answer is A — Deadlock."
     },
     "studyTip": "Duplicate concept: resource circular wait = deadlock.",
     "source": "offline-deep"
@@ -541,7 +541,7 @@
   "57": {
     "overview": "Resource leveling adjusts schedule start/finish dates to balance demand vs availability without changing critical path float logic like smoothing might.\n\n✅ Answer: C — Resource leveling",
     "options": {
-      "A": "✗ Not the answer. RAM matrix assigns responsibilities.",
+      "A": "✗ Not the answer. 'Responsibility assignment matrix' does not fit the scenario: Which of the following is a resource optimization techniques in which start and finish dates are adjusted based on resou… The keyed answer is C — Resource leveling.",
       "B": "✗ Not the answer. Smoothing uses float without changing critical path end.",
       "C": "✓ CORRECT. Resource leveling balances constrained resources—correct.",
       "D": "✗ Not the answer. Resource grouping not standard PMBOK term here."
@@ -552,8 +552,8 @@
   "58": {
     "overview": "Market-basket analysis discovering beer→diapers style rules is association rule mining. Regression predicts numeric; clustering groups; predictive is broad.\n\n✅ Answer: D — Association rule",
     "options": {
-      "A": "✗ Not the answer. Regression predicts continuous targets.",
-      "B": "✗ Not the answer. Clustering unsupervised grouping.",
+      "A": "✗ Not the answer. 'Regression Modeling' means supervised learning predicting continuous values — not sequential time-series forecasting. That answers a different kind of question. Here, the stem points to 'Association rule' instead.",
+      "B": "✗ Not the answer. 'Clustering algorithm' means unsupervised grouping of unlabeled data — not demand forecasting over time. That answers a different kind of question. Here, the stem points to 'Association rule' instead.",
       "C": "✗ Not the answer. Predictive broad—less specific than association rules.",
       "D": "✓ CORRECT. Association rules find item co-occurrence—correct."
     },
@@ -564,8 +564,8 @@
     "overview": "Layered architecture allows calls downward only: upper may use lower, not reverse. With layers A(top) B C D(bottom), valid relation (C,B) means C uses B below—no erosion.\n\n✅ Answer: D — (C,B)",
     "options": {
       "A": "✗ Not the answer. (A,B) may skip layers depending rules—often erosion.",
-      "B": "✗ Not the answer. (D,A) upward violation.",
-      "C": "✗ Not the answer. (A,C) skip layers.",
+      "B": "✗ Not the answer. '(D,A)' does not fit the scenario: Given the following layered architecture which ordering relation is correct and didn’t encountered any architectural ero… The keyed answer is D — (C,B).",
+      "C": "✗ Not the answer. '(A,C)' does not fit the scenario: Given the following layered architecture which ordering relation is correct and didn’t encountered any architectural ero… The keyed answer is D — (C,B).",
       "D": "✓ CORRECT. (C,B) adjacent lower layer call—correct."
     },
     "studyTip": "Layering rule: call downward only; avoid skip-layer upward deps.",
@@ -586,9 +586,9 @@
     "overview": "HTML form default method is GET (values appended to URL). POST must be explicit for body submission.\n\n✅ Answer: B — Get Method",
     "options": {
       "A": "✗ Not the answer. POST common but not default.",
-      "B": "✓ CORRECT. GET default—correct.",
+      "B": "✓ CORRECT. 'Get Method' is the correct answer — it directly addresses the specific concept tested in this question in Web Development.",
       "C": "✗ Not the answer. PUT not HTML form default.",
-      "D": "✗ Not the answer. Set not HTTP method."
+      "D": "✗ Not the answer. 'Set Method' does not fit the scenario: Default method while Submitting a form is The keyed answer is B — Get Method."
     },
     "studyTip": "Form default method=GET unless method=\"post\" specified.",
     "source": "offline-deep"
@@ -596,9 +596,9 @@
   "62": {
     "overview": "Project Planning produces schedule, cost estimates, WBS. Initiating charters project; executing does work; closing ends.\n\n✅ Answer: D — Project Planning",
     "options": {
-      "A": "✗ Not the answer. Initiating authorizes project.",
-      "B": "✗ Not the answer. Executing carries out plan.",
-      "C": "✗ Not the answer. Closing archives deliverables.",
+      "A": "✗ Not the answer. Initiating authorizes the project and defines the charter — that phase comes before detailed planning.",
+      "B": "✗ Not the answer. Executing carries out the work defined in the plan — after planning is complete.",
+      "C": "✗ Not the answer. Closing archives deliverables and closes contracts — the final lifecycle phase.",
       "D": "✓ CORRECT. Planning generates WBS/schedule/cost—correct."
     },
     "studyTip": "Planning outputs: WBS, schedule, cost baseline.",
@@ -607,7 +607,7 @@
   "63": {
     "overview": "Decision coverage needs each decision outcome true/false at least once. Nested ifs on width/length and height/width → 4 decision outcomes minimum for 100% decision coverage.\n\n✅ Answer: B — 4",
     "options": {
-      "A": "✗ Not the answer. 6 overshoots minimum.",
+      "A": "✗ Not the answer. '6' does not fit the scenario: Given the following fragment of code, how many tests are required for 100% decision coverage? if width > length then big… The keyed answer is B — 4.",
       "B": "✓ CORRECT. 4 tests cover both independent decisions—correct.",
       "C": "✗ Not the answer. 2 insufficient for both predicates.",
       "D": "✗ Not the answer. 1 cannot cover all branches."
@@ -618,10 +618,10 @@
   "64": {
     "overview": "CSS class selector prefix is dot: .classname selects elements with class=\"classname\". # is id; ^ not standard alone.\n\n✅ Answer: D — .",
     "options": {
-      "A": "✗ Not the answer. ^ not class selector.",
-      "B": "✗ Not the answer. Wrong symbol.",
-      "C": "✗ Not the answer. # targets id attribute.",
-      "D": "✓ CORRECT. . is class selector—correct."
+      "A": "✗ Not the answer. '^' does not fit the scenario: How can we select an element with a specific class in CSS? The keyed answer is D — ..",
+      "B": "✗ Not the answer. '–' does not fit the scenario: How can we select an element with a specific class in CSS? The keyed answer is D — ..",
+      "C": "✗ Not the answer. '#' uses the ID selector (#). IDs are unique per page; the question asks how to select by class name, which uses a dot prefix (.classname), not a hash.",
+      "D": "✓ CORRECT. '.' is the CSS class selector — a dot followed by the class name selects all elements with class=\"\". This is the standard answer for class-based selection."
     },
     "studyTip": "CSS: .class, #id, element selectors.",
     "source": "offline-deep"
@@ -629,9 +629,9 @@
   "65": {
     "overview": "Fundamental test process: planning includes assessing testability of requirements/system early.\n\n✅ Answer: D — Test analysis and planning",
     "options": {
-      "A": "✗ Not the answer. Analysis/design follows planning.",
-      "B": "✗ Not the answer. Nonstandard naming.",
-      "C": "✗ Not the answer. Implementation later.",
+      "A": "✗ Not the answer. 'Test analysis and design' does not fit the scenario: Select an activity that suits in the fundamental test process which includes evaluation of the testability of the requir… The keyed answer is D — Test analysis and planning.",
+      "B": "✗ Not the answer. 'Test analysis and requirements' does not fit the scenario: Select an activity that suits in the fundamental test process which includes evaluation of the testability of the requir… The keyed answer is D — Test analysis and planning.",
+      "C": "✗ Not the answer. 'Test analysis and implementation' does not fit the scenario: Select an activity that suits in the fundamental test process which includes evaluation of the testability of the requir… The keyed answer is D — Test analysis and planning.",
       "D": "✓ CORRECT. Test analysis and planning evaluates testability—correct."
     },
     "studyTip": "ISTQB: Planning → analysis/design → implementation → execution → closure.",
@@ -640,10 +640,10 @@
   "66": {
     "overview": "Database design: enterprise data modeling (conceptual) → logical design → physical design → implementation.\n\n✅ Answer: C — Enterprise data modeling, Logical design database, Physical database design, Database implementation",
     "options": {
-      "A": "✗ Not the answer. Logical before enterprise wrong.",
-      "B": "✗ Not the answer. Implementation before physical wrong.",
+      "A": "✗ Not the answer. 'Logical design database, Enterprise data modeling, Physical database design, Database implementation' does not fit the scenario: Which of the following is an appropriate sequence of database design processes? The keyed answer is C — Enterprise data modeling, Logical design database, Physical database design, Database implementation.",
+      "B": "✗ Not the answer. 'Enterprise data modeling, Logical design database, Database implementation, Physical database design' does not fit the scenario: Which of the following is an appropriate sequence of database design processes? The keyed answer is C — Enterprise data modeling, Logical design database, Physical database design, Database implementation.",
       "C": "✓ CORRECT. Enterprise → logical → physical → implementation—correct.",
-      "D": "✗ Not the answer. Duplicates wrong ordering."
+      "D": "✗ Not the answer. 'Logical design database, Enterprise data modeling, Physical database design, Database implementation' does not fit the scenario: Which of the following is an appropriate sequence of database design processes? The keyed answer is C — Enterprise data modeling, Logical design database, Physical database design, Database implementation."
     },
     "studyTip": "DB design flow: conceptual → logical → physical → build.",
     "source": "offline-deep"
@@ -651,9 +651,9 @@
   "67": {
     "overview": "Testing purposes: find defects, improve acceptance, reliability—not to delay project requesting more time.\n\n✅ Answer: D — Requesting more design and implementation time",
     "options": {
-      "A": "✗ Not the answer. Identifying shortcomings valid purpose.",
-      "B": "✗ Not the answer. Improving acceptance valid.",
-      "C": "✗ Not the answer. Enhancing reliability valid.",
+      "A": "✗ Not the answer. 'Identify shortcomings' does not fit the scenario: Which of the following is not among the purposes of software testing? The keyed answer is D — Requesting more design and implementation time.",
+      "B": "✗ Not the answer. 'Improving product acceptance' does not fit the scenario: Which of the following is not among the purposes of software testing? The keyed answer is D — Requesting more design and implementation time.",
+      "C": "✗ Not the answer. 'Enhancing reliability' does not fit the scenario: Which of the following is not among the purposes of software testing? The keyed answer is D — Requesting more design and implementation time.",
       "D": "✓ CORRECT. Requesting more design time is NOT a purpose—answer."
     },
     "studyTip": "Testing improves quality; it is not an excuse for schedule padding.",
@@ -662,9 +662,9 @@
   "68": {
     "overview": "Incremental model delivers prioritized modules in successive releases. Waterfall/spiral/linear less suited for staggered priority delivery.\n\n✅ Answer: A — Incremental model",
     "options": {
-      "A": "✓ CORRECT. Incremental—correct.",
+      "A": "✓ CORRECT. 'Incremental model' is the correct answer — it directly addresses the specific concept tested in this question in Networking.",
       "B": "✗ Not the answer. Spiral risk-driven iterations—not priority stagger focus.",
-      "C": "✗ Not the answer. Waterfall single delivery.",
+      "C": "✗ Not the answer. 'Waterfall model' does not fit the scenario: Which software process model will you use if you want to deliver different functionalities (modules) of the software pro… The keyed answer is A — Incremental model.",
       "D": "✗ Not the answer. Linear synonymous with waterfall style."
     },
     "studyTip": "Different priorities over time → incremental delivery model.",
@@ -675,8 +675,8 @@
     "options": {
       "A": "✗ Not the answer. O(n^2) would need nested loop over n.",
       "B": "✗ Not the answer. O(log n) requires halving problem.",
-      "C": "✗ Not the answer. O(log2 n) same issue.",
-      "D": "✓ CORRECT. O(n) linear—correct."
+      "C": "✗ Not the answer. If the program printed O(log2n), a different branch or calculation would execute. Trace the code line-by-line with the given inputs to verify the output is O(n).",
+      "D": "✓ CORRECT. 'O(n)' matches the dominant growth rate of the expression. Identify the fastest-growing term, drop constants, and express in Big-O notation."
     },
     "studyTip": "Single loop proportional to n → O(n).",
     "source": "offline-deep"
@@ -684,8 +684,8 @@
   "70": {
     "overview": "Traceability links requirements↔design↔tests; NOT full cost/schedule tracking of every activity. D overstates traceability scope.\n\n✅ Answer: D — Traceability traces the overall cost and schedule of every activity in the requirements",
     "options": {
-      "A": "✗ Not the answer. Requirement dependencies—valid traceability.",
-      "B": "✗ Not the answer. Link to stakeholders—valid.",
+      "A": "✗ Not the answer. 'Traceability shows the dependency among two or more requirements if any' does not fit the scenario: Select the wrong statement regarding traceability in software development projects The keyed answer is D — Traceability traces the overall cost and schedule of every activity in the requirements.",
+      "B": "✗ Not the answer. 'Requirements should be linked to the respective stakeholders who generated them' does not fit the scenario: Select the wrong statement regarding traceability in software development projects The keyed answer is D — Traceability traces the overall cost and schedule of every activity in the requirements.",
       "C": "✗ Not the answer. Design elements back to requirements—valid.",
       "D": "✓ CORRECT. Cost/schedule of every activity is PM metric, not traceability—wrong statement."
     },
@@ -695,10 +695,10 @@
   "71": {
     "overview": "C++ build order: write source → compile to object → link executable. Linking comes last among listed activities.\n\n✅ Answer: B — Linking",
     "options": {
-      "A": "✗ Not the answer. Memory allocation runtime detail.",
+      "A": "✗ Not the answer. 'Memory allocation for variables' does not fit the scenario: Which activity comes last in fundamental program development in c++? The keyed answer is B — Linking.",
       "B": "✓ CORRECT. Linking combines object files—last step—correct.",
-      "C": "✗ Not the answer. Compiling precedes linking.",
-      "D": "✗ Not the answer. Writing program is first."
+      "C": "✗ Not the answer. 'Compiling program' does not fit the scenario: Which activity comes last in fundamental program development in c++? The keyed answer is B — Linking.",
+      "D": "✗ Not the answer. 'Writing program' does not fit the scenario: Which activity comes last in fundamental program development in c++? The keyed answer is B — Linking."
     },
     "studyTip": "Compile then link; editing source is first.",
     "source": "offline-deep"
@@ -706,10 +706,10 @@
   "72": {
     "overview": "Memento pattern captures and restores object state without exposing internals. Visitor adds ops; Observer notifies; Iterator traverses.\n\n✅ Answer: B — Momento pattern",
     "options": {
-      "A": "✗ Not the answer. Visitor pattern different intent.",
+      "A": "✗ Not the answer. 'Visitor pattern' does not fit the scenario: Which design pattern is used to restore the state of an object to its previous state? The keyed answer is B — Momento pattern.",
       "B": "✓ CORRECT. Memento restores previous state—correct (exam spelling Momento).",
-      "C": "✗ Not the answer. Observer event subscription.",
-      "D": "✗ Not the answer. Iterator collection traversal."
+      "C": "✗ Not the answer. 'Observer pattern' does not fit the scenario: Which design pattern is used to restore the state of an object to its previous state? The keyed answer is B — Momento pattern.",
+      "D": "✗ Not the answer. 'Iterator pattern' does not fit the scenario: Which design pattern is used to restore the state of an object to its previous state? The keyed answer is B — Momento pattern."
     },
     "studyTip": "Undo/state rollback → Memento pattern.",
     "source": "offline-deep"
@@ -719,8 +719,8 @@
     "options": {
       "A": "✗ Not the answer. SSL secures sockets generally; stem matches SSH remote channel.",
       "B": "✓ CORRECT. SSH secure shell remote access—correct.",
-      "C": "✗ Not the answer. AAA framework broader policy.",
-      "D": "✗ Not the answer. SNMP manages network devices."
+      "C": "✗ Not the answer. 'Authentication, Authorization and Accounting(AAA)' does not fit the scenario: Which of the following describes a set of standards and an associated network protocol that allow establishing a secure … The keyed answer is B — Secure shell(SSH).",
+      "D": "✗ Not the answer. 'Simple network management protocol(SNMP)' does not fit the scenario: Which of the following describes a set of standards and an associated network protocol that allow establishing a secure … The keyed answer is B — Secure shell(SSH)."
     },
     "studyTip": "Remote secure terminal → SSH; HTTPS uses TLS/SSL.",
     "source": "offline-deep"
@@ -731,7 +731,7 @@
       "A": "✗ Not the answer. Layered REST style not microservice gateway role.",
       "B": "✓ CORRECT. API gateway aggregates routes and hides services—correct.",
       "C": "✗ Not the answer. Proxy alone lacks gateway features (auth, aggregation).",
-      "D": "✗ Not the answer. Logging not boundary hiding."
+      "D": "✗ Not the answer. 'API logging' does not fit the scenario: What components hides the distinctions or boundaries between various micro services from end client application? The keyed answer is B — API gateway."
     },
     "studyTip": "Microservices: clients talk to API Gateway, not each service directly.",
     "source": "offline-deep"
@@ -742,7 +742,7 @@
       "A": "✓ CORRECT. Choosing best organizational structure for functions may not be architect task—answer.",
       "B": "✗ Not the answer. Decomposition is core architectural design.",
       "C": "✗ Not the answer. Distribution across cores is architectural.",
-      "D": "✗ Not the answer. Selecting patterns/styles is architectural."
+      "D": "✗ Not the answer. 'Which architectural patterns or styles to use' does not fit the scenario: Select a fundamental issue that may not be considered by the software architects during the architectural design process… The keyed answer is A — Which architectural organization is best for delivering the functional requirements."
     },
     "studyTip": "Architecture = structures + behaviors; pure functional allocation starts earlier.",
     "source": "offline-deep"
@@ -751,9 +751,9 @@
     "overview": "Agile life cycles embrace changing scope; scope not fully fixed upfront. Statement C claiming scope cannot be outlined before iteration is incorrect wording—exam answer C as NOT correct: actually agile CAN outline scope early but evolves. Per answer key C is NOT correct statement.\n\n✅ Answer: C — In agile life cycles, the project scope cannot be outlined and agreed before the start of iteration.",
     "options": {
       "A": "✗ Not the answer. Agile determines scope early iteration—acceptable agile planning.",
-      "B": "✗ Not the answer. Waterfall fixes scope/time/cost early—true.",
+      "B": "✗ Not the answer. 'In waterfall life cycle, the project scope, time and cost are determined in the early phase of the life cycle.' does not fit the scenario: Which of the following statement is not correct statement regarding of project life cycle? The keyed answer is C — In agile life cycles, the project scope cannot be outlined and agreed before the start of iteration..",
       "C": "✓ CORRECT. Says scope cannot be outlined before iteration—false overstatement—not correct statement—answer.",
-      "D": "✗ Not the answer. Incremental delivers in iterations—true."
+      "D": "✗ Not the answer. 'In an incremental life cycle, the deliverable is produced through a series of iterations that successively add functionality within a predetermined time frame.' means Java AWT/Swing top-level window with title bar and border decorations. That answers a different kind of question. Here, the stem points to 'In agile life cycles, the project scope cannot be outlined and agreed before the start of iteration.' instead."
     },
     "studyTip": "Agile fixes vision early but expects scope evolution; not zero initial scope.",
     "source": "offline-deep"
@@ -773,8 +773,8 @@
     "overview": "Android Activity represents single screen with UI and Java/Kotlin logic. Not manifest config class, Intent, or APK container alone.\n\n✅ Answer: D — A single screen in an application with supporting java code",
     "options": {
       "A": "✗ Not the answer. Application class configures app globally—not Activity.",
-      "B": "✗ Not the answer. Intent messaging object.",
-      "C": "✗ Not the answer. APK packaging format.",
+      "B": "✗ Not the answer. Intents are messaging objects for navigation and data passing — not a UI component type.",
+      "C": "✗ Not the answer. 'android package file holding all the package used' is a plausible Android term but not what this stem requires. Compare carefully with D: A single screen in an application with supporting java code.",
       "D": "✓ CORRECT. Single screen + code—Activity definition—correct."
     },
     "studyTip": "Activity = one screen lifecycle (onCreate, onPause, ...).",
@@ -783,10 +783,10 @@
   "79": {
     "overview": "WannaCry was ransomware attack, not security enhancement protocol. IDS/IPS and physical security are valid controls.\n\n✅ Answer: B — Use of Wana cry protocol",
     "options": {
-      "A": "✗ Not the answer. IDS detects intrusions—valid approach.",
+      "A": "✗ Not the answer. 'Use of Intrusion detection system' does not fit the scenario: Which of the following is not an approach used by IT security specialists to enhance the security level of the network? The keyed answer is B — Use of Wana cry protocol.",
       "B": "✓ CORRECT. WannaCry is malware exploit—not defensive protocol—answer.",
-      "C": "✗ Not the answer. Physical security valid layer.",
-      "D": "✗ Not the answer. IPS prevents/detects attacks—valid."
+      "C": "✗ Not the answer. 'Use of physical security' does not fit the scenario: Which of the following is not an approach used by IT security specialists to enhance the security level of the network? The keyed answer is B — Use of Wana cry protocol.",
+      "D": "✗ Not the answer. 'Use of intrusion prevention system' does not fit the scenario: Which of the following is not an approach used by IT security specialists to enhance the security level of the network? The keyed answer is B — Use of Wana cry protocol."
     },
     "studyTip": "Never pick malware names as security protocols on exams.",
     "source": "offline-deep"
@@ -795,7 +795,7 @@
     "overview": "Configuration management (versions, baselines, traceability) is established during test planning so tests map to defined builds.\n\n✅ Answer: A — During test planning",
     "options": {
       "A": "✓ CORRECT. Test planning defines CM for test objects—correct.",
-      "B": "✗ Not the answer. Closing archives results later.",
+      "B": "✗ Not the answer. 'During test closing' does not fit the scenario: As a software tester, when do you implement configuration management procedures? The keyed answer is A — During test planning.",
       "C": "✗ Not the answer. Execution uses CM already set.",
       "D": "✗ Not the answer. Initiation too early project-wide only."
     },
@@ -805,10 +805,10 @@
   "81": {
     "overview": "CRISP-DM first phase Business Understanding before data cleaning/integration.\n\n✅ Answer: C — Business understanding",
     "options": {
-      "A": "✗ Not the answer. Data cleaning later.",
+      "A": "✗ Not the answer. 'Data cleaning' does not fit the scenario: Identify the one that comes first in data mining process The keyed answer is C — Business understanding.",
       "B": "✗ Not the answer. Integration after understanding data needs.",
-      "C": "✓ CORRECT. Business understanding first—correct.",
-      "D": "✗ Not the answer. Selection follows understanding."
+      "C": "✓ CORRECT. 'Business understanding' is the correct answer — it directly addresses which technique predicts trends from data in AI / ML.",
+      "D": "✗ Not the answer. 'Data selection' does not fit the scenario: Identify the one that comes first in data mining process The keyed answer is C — Business understanding."
     },
     "studyTip": "CRISP-DM starts with business objectives, not algorithms.",
     "source": "offline-deep"
@@ -816,10 +816,10 @@
   "82": {
     "overview": "TCP/IP Internet layer handles logical addressing and routing (IP). Transport = TCP/UDP; Network access = link.\n\n✅ Answer: B — Internet layer",
     "options": {
-      "A": "✗ Not the answer. Application layer HTTP/DNS.",
-      "B": "✓ CORRECT. Internet layer routing—correct.",
-      "C": "✗ Not the answer. Transport end-to-end segments.",
-      "D": "✗ Not the answer. Network access physical/link."
+      "A": "✗ Not the answer. 'Application layer' means OSI layer 7 — network transparency, resource allocation, user services (HTTP, DNS). That answers a different kind of question. Here, the stem points to 'Internet layer' instead.",
+      "B": "✓ CORRECT. 'Internet layer' is the correct answer — it directly addresses the specific concept tested in this question in Networking.",
+      "C": "✗ Not the answer. 'Transport layer' means OSI layer 4 — end-to-end delivery, segmentation, flow and error control. That answers a different kind of question. Here, the stem points to 'Internet layer' instead.",
+      "D": "✗ Not the answer. 'Network Access layer' does not fit the scenario: A TCP/IP layer which is responsible for addressing, path selection and routing refers: The keyed answer is B — Internet layer."
     },
     "studyTip": "IP routing lives in Internet layer (OSI network).",
     "source": "offline-deep"
@@ -828,8 +828,8 @@
     "overview": "Best-case analysis measures minimum time over all inputs of size n (fastest completion).\n\n✅ Answer: B — Best case",
     "options": {
       "A": "✗ Not the answer. Worst case is maximum time.",
-      "B": "✓ CORRECT. Best case minimum time—correct.",
-      "C": "✗ Not the answer. Standard case informal.",
+      "B": "✓ CORRECT. 'Best case' is the correct answer — it directly addresses the specific concept tested in this question in Data Structures.",
+      "C": "✗ Not the answer. 'Standard case' does not fit the scenario: Which of the following analysis mechanism defines the input for which the algorithm takes the least time (fastest time t… The keyed answer is B — Best case.",
       "D": "✗ Not the answer. Average case expected over distribution."
     },
     "studyTip": "Best/worst/average case: min/max/expected running time.",
@@ -838,10 +838,10 @@
   "84": {
     "overview": "Unsupervised learning uses unlabeled data (clustering, dimensionality reduction).\n\n✅ Answer: C — Unsupervised learning",
     "options": {
-      "A": "✗ Not the answer. Transfer uses pretrained models.",
-      "B": "✗ Not the answer. Supervised needs labels.",
-      "C": "✓ CORRECT. Unsupervised no labels—correct.",
-      "D": "✗ Not the answer. Reinforcement uses rewards."
+      "A": "✗ Not the answer. If the program printed Transfer learning, a different branch or calculation would execute. Trace the code line-by-line with the given inputs to verify the output is Unsupervised learning.",
+      "B": "✗ Not the answer. If the program printed Supervised learning, a different branch or calculation would execute. Trace the code line-by-line with the given inputs to verify the output is Unsupervised learning.",
+      "C": "✓ CORRECT. 'Unsupervised learning' correctly answers tracing code execution to determine printed output. Concept: finding patterns in unlabeled data.",
+      "D": "✗ Not the answer. If the program printed Reinforcement learning, a different branch or calculation would execute. Trace the code line-by-line with the given inputs to verify the output is Unsupervised learning."
     },
     "studyTip": "No labels → unsupervised; labeled → supervised.",
     "source": "offline-deep"
@@ -849,10 +849,10 @@
   "85": {
     "overview": "Non-linear data structure: tree has hierarchical non-sequential organization. Queue/stack/linked list linear.\n\n✅ Answer: C — Tree",
     "options": {
-      "A": "✗ Not the answer. Queue linear.",
-      "B": "✗ Not the answer. Stack linear.",
-      "C": "✓ CORRECT. Tree non-linear—correct.",
-      "D": "✗ Not the answer. Linked list linear chain."
+      "A": "✗ Not the answer. A queue is a linear FIFO structure — elements enter at rear and leave at front; not hierarchical like a tree.",
+      "B": "✗ Not the answer. A stack is a linear LIFO structure — last in, first out; not hierarchical like a tree.",
+      "C": "✓ CORRECT. A tree is a non-linear hierarchical structure — nodes have parent-child relationships, unlike linear lists.",
+      "D": "✗ Not the answer. A linked list is a linear sequence of nodes — each node points to the next; trees branch into children."
     },
     "studyTip": "Linear = single sequence; Tree/Branching = non-linear.",
     "source": "offline-deep"
@@ -860,9 +860,9 @@
   "86": {
     "overview": "Unstructured data lacks rigid schema—web search logs, text, media. Employee/registrar RDBMS are structured.\n\n✅ Answer: D — Google search engine",
     "options": {
-      "A": "✗ Not the answer. Employee DB structured.",
-      "B": "✗ Not the answer. RDBMS structured by definition.",
-      "C": "✗ Not the answer. Registrar DB structured.",
+      "A": "✗ Not the answer. 'Apple employee database' does not fit the scenario: Which one of the following can be among possible source of unstructured data? The keyed answer is D — Google search engine.",
+      "B": "✗ Not the answer. 'RDBMS systems' does not fit the scenario: Which one of the following can be among possible source of unstructured data? The keyed answer is D — Google search engine.",
+      "C": "✗ Not the answer. 'Registrar student database' does not fit the scenario: Which one of the following can be among possible source of unstructured data? The keyed answer is D — Google search engine.",
       "D": "✓ CORRECT. Search engine indexes heterogeneous unstructured content—correct."
     },
     "studyTip": "Unstructured: text/HTML/logs; Structured: SQL tables.",
@@ -871,10 +871,10 @@
   "87": {
     "overview": "Architecture documentation communicates decisions to stakeholders, records rationale, shows organization. Source code flow is implementation detail, not primary arch doc purpose.\n\n✅ Answer: B — To easily figure out the source code flow",
     "options": {
-      "A": "✗ Not the answer. Stakeholder communication valid purpose.",
+      "A": "✗ Not the answer. 'For Stakeholder communication' does not fit the scenario: Select the one that is not related with the purpose of properly documenting software architecture The keyed answer is B — To easily figure out the source code flow.",
       "B": "✓ CORRECT. Source code flow not architecture doc goal—answer.",
-      "C": "✗ Not the answer. Critical design decisions recorded—valid.",
-      "D": "✗ Not the answer. System organization/interop—valid."
+      "C": "✗ Not the answer. 'For critical system design decisions' does not fit the scenario: Select the one that is not related with the purpose of properly documenting software architecture The keyed answer is B — To easily figure out the source code flow.",
+      "D": "✗ Not the answer. 'To know how the system is organized and interoperate' does not fit the scenario: Select the one that is not related with the purpose of properly documenting software architecture The keyed answer is B — To easily figure out the source code flow."
     },
     "studyTip": "Arch docs = views + rationale, not line-by-line code navigation.",
     "source": "offline-deep"
@@ -884,8 +884,8 @@
     "options": {
       "A": "✗ Not the answer. Not only physical tasks—also cognitive.",
       "B": "✗ Not the answer. Not only simple repetitive tasks.",
-      "C": "✗ Not the answer. Not only controlled environments.",
-      "D": "✓ CORRECT. Broad human-like intelligent tasks—correct."
+      "C": "✗ Not the answer. 'It refers to the development of machine that can perform tasks only in a controlled laboratory setting.' does not fit the scenario: One of the following statement is correct about Artificial Intelligence (AI)? The keyed answer is D — It refers to the development of machine that can perform tasks that typically require human intelligence..",
+      "D": "✓ CORRECT. 'It refers to the development of machine that can perform tasks that typically require human intelligence.' is the correct answer — it directly addresses the specific concept tested in this question in AI / ML."
     },
     "studyTip": "AI = perception, reasoning, learning, language, robotics combined.",
     "source": "offline-deep"
@@ -893,10 +893,10 @@
   "89": {
     "overview": "Branch coverage selects paths to execute each decision branch (true/false) at least once.\n\n✅ Answer: A — Branch coverage",
     "options": {
-      "A": "✓ CORRECT. Branch coverage—correct.",
-      "B": "✗ Not the answer. Branch expansion not standard.",
-      "C": "✗ Not the answer. Branch control vague.",
-      "D": "✗ Not the answer. Branch boundary invented."
+      "A": "✓ CORRECT. 'Branch coverage' is the correct answer — it directly addresses the specific concept tested in this question in Software Testing.",
+      "B": "✗ Not the answer. 'Branch expansion' does not fit the scenario: Which of the following is a process of selecting program paths in such a manner that certain branches (i.e, outgoing edg… The keyed answer is A — Branch coverage.",
+      "C": "✗ Not the answer. 'Branch control' does not fit the scenario: Which of the following is a process of selecting program paths in such a manner that certain branches (i.e, outgoing edg… The keyed answer is A — Branch coverage.",
+      "D": "✗ Not the answer. 'Branch boundary' does not fit the scenario: Which of the following is a process of selecting program paths in such a manner that certain branches (i.e, outgoing edg… The keyed answer is A — Branch coverage."
     },
     "studyTip": "Coverage criteria: statement < branch < path (generally stricter).",
     "source": "offline-deep"
@@ -906,7 +906,7 @@
     "options": {
       "A": "✗ Not the answer. Jam signals collision, does not clear it alone.",
       "B": "✗ Not the answer. Electrical pulse not clearing mechanism description.",
-      "C": "✓ CORRECT. Backoff then retransmit—correct.",
+      "C": "✓ CORRECT. 'The hosts will attempt to resume transmission after a time delay has expired' is the correct answer — it directly addresses the specific concept tested in this question in Networking.",
       "D": "✗ Not the answer. Router not involved in legacy shared Ethernet collision domain."
     },
     "studyTip": "Ethernet collision: jam, exponential backoff, retry.",
@@ -917,7 +917,7 @@
     "options": {
       "A": "✗ Not the answer. O(n^2) underestimates inner j*i*i and k loops.",
       "B": "✗ Not the answer. O(n log n) too low.",
-      "C": "✗ Not the answer. O(n^7) too high.",
+      "C": "✗ Not the answer. If the program printed O(n^7), a different branch or calculation would execute. Trace the code line-by-line with the given inputs to verify the output is O(n^5).",
       "D": "✓ CORRECT. O(n^5) matches exam official answer."
     },
     "studyTip": "On complexity questions, match exam key derivation even if approximate.",
@@ -927,8 +927,8 @@
     "overview": "Good design reuses proven solutions (avoid reinventing wheel). Reinventing everything from scratch violates design principle.\n\n✅ Answer: D — design should be reinventing the wheel from scratch",
     "options": {
       "A": "✗ Not the answer. Traceability to analysis model good practice.",
-      "B": "✗ Not the answer. Accommodate change good.",
-      "C": "✗ Not the answer. Uniformity/integration good.",
+      "B": "✗ Not the answer. 'design should be structured to accommodate change' does not fit the scenario: Identify the design principle that does not apply to software system The keyed answer is D — design should be reinventing the wheel from scratch.",
+      "C": "✗ Not the answer. 'design should exhibit uniformity and integration' does not fit the scenario: Identify the design principle that does not apply to software system The keyed answer is D — design should be reinventing the wheel from scratch.",
       "D": "✓ CORRECT. Reinventing wheel from scratch NOT recommended—answer."
     },
     "studyTip": "Design principle: reuse libraries/patterns; don't rebuild basics.",
@@ -960,8 +960,8 @@
     "overview": "Page replacement policy decides which page frame to evict when memory full.\n\n✅ Answer: C — Replacement policy",
     "options": {
       "A": "✗ Not the answer. Cleaning writes dirty pages out.",
-      "B": "✗ Not the answer. Load/fetch brings pages in.",
-      "C": "✓ CORRECT. Replacement chooses victim page—correct.",
+      "B": "✗ Not the answer. 'Load policy' does not fit the scenario: A memory management policy that that decisions must be made as to which page or pages are to be supplanted when a memory… The keyed answer is C — Replacement policy.",
+      "C": "✓ CORRECT. 'Replacement policy' is the correct answer — it directly addresses the specific concept tested in this question in Networking.",
       "D": "✗ Not the answer. Fetch policy groups loading strategy."
     },
     "studyTip": "Replacement = which page to swap out on page fault with full RAM.",
@@ -970,9 +970,9 @@
   "96": {
     "overview": "Changing requirements in dynamic business environments suit Agile methods. Waterfall resists late change; spiral risk-focused; code-and-run ad hoc.\n\n✅ Answer: A — Agile development method",
     "options": {
-      "A": "✓ CORRECT. Agile embraces change—correct.",
+      "A": "✓ CORRECT. 'Agile development method' is the correct answer — it directly addresses the specific concept tested in this question in Project Management.",
       "B": "✗ Not the answer. Spiral risk cycles—not primary change-friendly pick here.",
-      "C": "✗ Not the answer. Waterfall fixed requirements phase.",
+      "C": "✗ Not the answer. 'Water fall model' does not fit the scenario: Which software model would you apply for business operating in a changing environment where the initial requirements in … The keyed answer is A — Agile development method.",
       "D": "✗ Not the answer. Code and run lacks engineering discipline."
     },
     "studyTip": "Volatile requirements → Agile iterative feedback.",
@@ -993,8 +993,8 @@
     "overview": "catch runs only when matching exception thrown in try—not unconditionally always. D says catch executes once regardless of exceptions—false.\n\n✅ Answer: D — The catch block is executed once regardless of exceptions in try block",
     "options": {
       "A": "✗ Not the answer. Execution leaves try on exception—true.",
-      "B": "✗ Not the answer. Control transfers to catch—true.",
-      "C": "✗ Not the answer. catch handles exceptions—true.",
+      "B": "✗ Not the answer. 'The execution control is moved to catch block after exception occur in try block.' does not fit the scenario: Which one of the following statements is wrong regarding try…catch construct? The keyed answer is D — The catch block is executed once regardless of exceptions in try block.",
+      "C": "✗ Not the answer. 'The catch block is used to handle exceptions that occur in try block.' does not fit the scenario: Which one of the following statements is wrong regarding try…catch construct? The keyed answer is D — The catch block is executed once regardless of exceptions in try block.",
       "D": "✓ CORRECT. catch not run if no exception—statement wrong—answer."
     },
     "studyTip": "try/catch: catch runs only on thrown exception type match.",
@@ -1003,10 +1003,10 @@
   "99": {
     "overview": "Crossover cable used like device: switch-switch, pc-pc historically. Router to PC typically straight-through; exam says NOT function.\n\n✅ Answer: C — To connect router to pc",
     "options": {
-      "A": "✗ Not the answer. Switch-switch can use crossover.",
-      "B": "✗ Not the answer. PC-PC crossover use case.",
+      "A": "✗ Not the answer. 'To connect switch to switch' does not fit the scenario: Which of the following is not the function of Cross-over UTP cable? The keyed answer is C — To connect router to pc.",
+      "B": "✗ Not the answer. 'To connect pc to pc' does not fit the scenario: Which of the following is not the function of Cross-over UTP cable? The keyed answer is C — To connect router to pc.",
       "C": "✓ CORRECT. Router to PC usually straight cable—not crossover function—answer.",
-      "D": "✗ Not the answer. Switch-PC straight typically."
+      "D": "✗ Not the answer. 'To connect switch to pc' does not fit the scenario: Which of the following is not the function of Cross-over UTP cable? The keyed answer is C — To connect router to pc."
     },
     "studyTip": "Crossover: connect similar devices; straight: switch to host/router.",
     "source": "offline-deep"
@@ -1014,10 +1014,10 @@
   "100": {
     "overview": "Testers document defects found during testing for tracking and resolution.\n\n✅ Answer: A — Tester",
     "options": {
-      "A": "✓ CORRECT. Tester logs faults—correct.",
+      "A": "✓ CORRECT. 'Tester' is the correct answer — it directly addresses the specific concept tested in this question in Software Testing.",
       "B": "✗ Not the answer. Developer fixes but tester reports.",
       "C": "✗ Not the answer. Scrum master facilitates, not primary fault documenter.",
-      "D": "✗ Not the answer. Requirement engineer elicits requirements."
+      "D": "✗ Not the answer. 'Requirement engineer' does not fit the scenario: Who is responsible for documenting faults found during the software development process? The keyed answer is A — Tester."
     },
     "studyTip": "Defect life cycle: tester reports, developer fixes, tester verifies.",
     "source": "offline-deep"

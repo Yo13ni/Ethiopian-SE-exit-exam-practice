@@ -1,0 +1,1226 @@
+{
+  "generatedOn": "2026-06-17",
+  "blueprint": "MoEE Feb 2024 — Software Engineering & Computing Technology",
+  "cognitiveLevels": [
+    "Remembering",
+    "Understanding",
+    "Application",
+    "Analysis",
+    "Evaluation",
+    "Creation/Synthesis"
+  ],
+  "totalQuestions": 1345,
+  "examCount": 14,
+  "overallDistribution": {
+    "Creation/Synthesis": 226,
+    "Application": 133,
+    "Remembering": 476,
+    "Understanding": 356,
+    "Analysis": 65,
+    "Evaluation": 89
+  },
+  "exams": [
+    {
+      "examId": "2015",
+      "path": "data/exams/2015/questions.json",
+      "total": 93,
+      "changed": 93,
+      "levels": {
+        "Creation/Synthesis": 20,
+        "Application": 14,
+        "Remembering": 35,
+        "Understanding": 19,
+        "Analysis": 4,
+        "Evaluation": 1
+      },
+      "byTopic": {
+        "AI / ML": {
+          "Understanding": 2,
+          "Analysis": 1,
+          "Remembering": 5,
+          "Application": 1
+        },
+        "Android": {
+          "Analysis": 1,
+          "Application": 1,
+          "Remembering": 5
+        },
+        "C++": {
+          "Remembering": 1,
+          "Application": 1
+        },
+        "Data Structures": {
+          "Analysis": 2,
+          "Understanding": 1,
+          "Remembering": 1
+        },
+        "Database": {
+          "Application": 1,
+          "Creation/Synthesis": 4,
+          "Understanding": 4,
+          "Remembering": 3
+        },
+        "Java / OOP": {
+          "Remembering": 3,
+          "Creation/Synthesis": 2,
+          "Application": 1,
+          "Understanding": 2
+        },
+        "Networking": {
+          "Understanding": 4,
+          "Remembering": 6,
+          "Application": 5,
+          "Creation/Synthesis": 5
+        },
+        "Operating Systems": {
+          "Remembering": 4
+        },
+        "Project Management": {
+          "Remembering": 2,
+          "Understanding": 1,
+          "Evaluation": 1,
+          "Application": 1
+        },
+        "Security": {
+          "Understanding": 2,
+          "Remembering": 1,
+          "Creation/Synthesis": 1
+        },
+        "Software Architecture": {
+          "Creation/Synthesis": 5
+        },
+        "Software Testing": {
+          "Understanding": 2,
+          "Application": 1,
+          "Creation/Synthesis": 3,
+          "Remembering": 2
+        },
+        "Web Development": {
+          "Application": 2,
+          "Remembering": 2,
+          "Understanding": 1
+        }
+      }
+    },
+    {
+      "examId": "2016",
+      "path": "data/exams/2016/questions.json",
+      "total": 97,
+      "changed": 97,
+      "levels": {
+        "Remembering": 43,
+        "Creation/Synthesis": 19,
+        "Understanding": 20,
+        "Analysis": 3,
+        "Evaluation": 1,
+        "Application": 11
+      },
+      "byTopic": {
+        "AI / ML": {
+          "Analysis": 1,
+          "Understanding": 3,
+          "Remembering": 5
+        },
+        "Android": {
+          "Remembering": 5,
+          "Creation/Synthesis": 1
+        },
+        "C++": {
+          "Application": 2,
+          "Remembering": 2,
+          "Understanding": 1
+        },
+        "Data Structures": {
+          "Remembering": 5,
+          "Analysis": 2
+        },
+        "Database": {
+          "Remembering": 2,
+          "Understanding": 3,
+          "Creation/Synthesis": 2
+        },
+        "Java / OOP": {
+          "Remembering": 4,
+          "Creation/Synthesis": 2,
+          "Understanding": 2,
+          "Application": 2
+        },
+        "Networking": {
+          "Remembering": 4,
+          "Understanding": 1,
+          "Application": 2
+        },
+        "Operating Systems": {
+          "Understanding": 2,
+          "Application": 1,
+          "Remembering": 3
+        },
+        "Project Management": {
+          "Creation/Synthesis": 2,
+          "Evaluation": 1,
+          "Understanding": 1,
+          "Remembering": 5
+        },
+        "Security": {
+          "Understanding": 3,
+          "Remembering": 3,
+          "Application": 1
+        },
+        "Software Architecture": {
+          "Creation/Synthesis": 4
+        },
+        "Software Engineering": {
+          "Creation/Synthesis": 5,
+          "Understanding": 2,
+          "Application": 2,
+          "Remembering": 3
+        },
+        "Software Testing": {
+          "Remembering": 1,
+          "Understanding": 1,
+          "Creation/Synthesis": 3
+        },
+        "Web Development": {
+          "Remembering": 1,
+          "Application": 1,
+          "Understanding": 1
+        }
+      }
+    },
+    {
+      "examId": "2017",
+      "path": "data/exams/2017/questions.json",
+      "total": 96,
+      "changed": 96,
+      "levels": {
+        "Remembering": 47,
+        "Application": 8,
+        "Evaluation": 5,
+        "Understanding": 17,
+        "Analysis": 3,
+        "Creation/Synthesis": 16
+      },
+      "byTopic": {
+        "AI / ML": {
+          "Evaluation": 1,
+          "Remembering": 3,
+          "Analysis": 1,
+          "Creation/Synthesis": 1
+        },
+        "Android": {
+          "Remembering": 1,
+          "Understanding": 2
+        },
+        "C++": {
+          "Remembering": 2,
+          "Application": 1,
+          "Understanding": 1
+        },
+        "Data Structures": {
+          "Creation/Synthesis": 1,
+          "Application": 1,
+          "Analysis": 1,
+          "Remembering": 1
+        },
+        "Database": {
+          "Application": 1,
+          "Remembering": 1,
+          "Understanding": 1,
+          "Creation/Synthesis": 2
+        },
+        "Fundamentals of Programming": {
+          "Understanding": 2,
+          "Application": 2
+        },
+        "General": {
+          "Remembering": 1,
+          "Understanding": 1
+        },
+        "Java / OOP": {
+          "Remembering": 4,
+          "Creation/Synthesis": 1
+        },
+        "Networking": {
+          "Remembering": 5,
+          "Understanding": 4,
+          "Creation/Synthesis": 1
+        },
+        "Operating Systems": {
+          "Remembering": 5
+        },
+        "Project Management": {
+          "Analysis": 1,
+          "Creation/Synthesis": 3,
+          "Remembering": 1
+        },
+        "Security": {
+          "Application": 1,
+          "Remembering": 8,
+          "Understanding": 1,
+          "Evaluation": 1
+        },
+        "Software Architecture": {
+          "Creation/Synthesis": 5
+        },
+        "Software Engineering": {
+          "Remembering": 8,
+          "Evaluation": 3,
+          "Creation/Synthesis": 2,
+          "Understanding": 4
+        },
+        "Software Testing": {
+          "Remembering": 4
+        },
+        "Web Development": {
+          "Remembering": 3,
+          "Application": 2,
+          "Understanding": 1
+        }
+      }
+    },
+    {
+      "examId": "2018",
+      "path": "data/exams/2018/questions.json",
+      "total": 100,
+      "changed": 100,
+      "levels": {
+        "Understanding": 41,
+        "Evaluation": 2,
+        "Application": 2,
+        "Remembering": 45,
+        "Analysis": 3,
+        "Creation/Synthesis": 7
+      },
+      "byTopic": {
+        "AI / ML": {
+          "Remembering": 2,
+          "Understanding": 7
+        },
+        "Android": {
+          "Remembering": 5
+        },
+        "C++": {
+          "Application": 1,
+          "Remembering": 3
+        },
+        "Data Structures": {
+          "Remembering": 3,
+          "Analysis": 2,
+          "Application": 1
+        },
+        "Database": {
+          "Remembering": 4,
+          "Understanding": 1,
+          "Analysis": 1
+        },
+        "Fundamentals of Programming": {
+          "Understanding": 4,
+          "Evaluation": 1
+        },
+        "Java / OOP": {
+          "Remembering": 4,
+          "Understanding": 2
+        },
+        "Networking": {
+          "Remembering": 5,
+          "Understanding": 2
+        },
+        "Operating Systems": {
+          "Remembering": 5,
+          "Understanding": 1
+        },
+        "Project Management": {
+          "Understanding": 5,
+          "Creation/Synthesis": 1
+        },
+        "Security": {
+          "Remembering": 2,
+          "Understanding": 5
+        },
+        "Software Architecture": {
+          "Creation/Synthesis": 5
+        },
+        "Software Engineering": {
+          "Remembering": 6,
+          "Understanding": 9,
+          "Creation/Synthesis": 1
+        },
+        "Software Testing": {
+          "Remembering": 2,
+          "Understanding": 3
+        },
+        "Web Development": {
+          "Evaluation": 1,
+          "Remembering": 4,
+          "Understanding": 2
+        }
+      }
+    },
+    {
+      "examId": "2018v2",
+      "path": "data/exams/2018v2/questions.json",
+      "total": 100,
+      "changed": 100,
+      "levels": {
+        "Remembering": 3,
+        "Understanding": 21,
+        "Application": 22,
+        "Creation/Synthesis": 33,
+        "Analysis": 10,
+        "Evaluation": 11
+      },
+      "byTopic": {
+        "AI / ML": {
+          "Understanding": 2,
+          "Application": 2,
+          "Analysis": 1,
+          "Creation/Synthesis": 4
+        },
+        "Android": {
+          "Understanding": 1,
+          "Application": 1,
+          "Evaluation": 1,
+          "Creation/Synthesis": 2
+        },
+        "C++": {
+          "Remembering": 1,
+          "Understanding": 1,
+          "Application": 1,
+          "Creation/Synthesis": 1
+        },
+        "Data Structures": {
+          "Creation/Synthesis": 2,
+          "Application": 2,
+          "Analysis": 2
+        },
+        "Database": {
+          "Creation/Synthesis": 2,
+          "Application": 2,
+          "Analysis": 1,
+          "Evaluation": 1
+        },
+        "Fundamentals of Programming": {
+          "Remembering": 1,
+          "Understanding": 2,
+          "Application": 2
+        },
+        "Java / OOP": {
+          "Remembering": 1,
+          "Understanding": 1,
+          "Application": 2,
+          "Analysis": 1,
+          "Creation/Synthesis": 1
+        },
+        "Networking": {
+          "Understanding": 2,
+          "Application": 2,
+          "Creation/Synthesis": 3
+        },
+        "Operating Systems": {
+          "Understanding": 1,
+          "Application": 2,
+          "Analysis": 2,
+          "Creation/Synthesis": 1
+        },
+        "Project Management": {
+          "Understanding": 1,
+          "Application": 1,
+          "Evaluation": 2,
+          "Creation/Synthesis": 2
+        },
+        "Security": {
+          "Understanding": 1,
+          "Application": 2,
+          "Analysis": 1,
+          "Evaluation": 2,
+          "Creation/Synthesis": 1
+        },
+        "Software Architecture": {
+          "Understanding": 1,
+          "Evaluation": 1,
+          "Creation/Synthesis": 3
+        },
+        "Software Engineering": {
+          "Understanding": 4,
+          "Creation/Synthesis": 7,
+          "Application": 2,
+          "Evaluation": 3
+        },
+        "Software Testing": {
+          "Understanding": 2,
+          "Analysis": 1,
+          "Creation/Synthesis": 2
+        },
+        "Web Development": {
+          "Creation/Synthesis": 2,
+          "Understanding": 2,
+          "Application": 1,
+          "Analysis": 1,
+          "Evaluation": 1
+        }
+      }
+    },
+    {
+      "examId": "2018v3",
+      "path": "data/exams/2018v3/questions.json",
+      "total": 100,
+      "changed": 100,
+      "levels": {
+        "Remembering": 3,
+        "Understanding": 21,
+        "Application": 22,
+        "Creation/Synthesis": 33,
+        "Analysis": 10,
+        "Evaluation": 11
+      },
+      "byTopic": {
+        "AI / ML": {
+          "Understanding": 2,
+          "Application": 2,
+          "Analysis": 1,
+          "Creation/Synthesis": 5
+        },
+        "Android": {
+          "Understanding": 1,
+          "Application": 1,
+          "Creation/Synthesis": 3
+        },
+        "C++": {
+          "Remembering": 1,
+          "Understanding": 1,
+          "Application": 1,
+          "Creation/Synthesis": 1
+        },
+        "Data Structures": {
+          "Understanding": 1,
+          "Application": 2,
+          "Analysis": 2,
+          "Creation/Synthesis": 1
+        },
+        "Database": {
+          "Understanding": 1,
+          "Application": 2,
+          "Analysis": 1,
+          "Evaluation": 1,
+          "Creation/Synthesis": 1
+        },
+        "Fundamentals of Programming": {
+          "Remembering": 1,
+          "Understanding": 2,
+          "Application": 2,
+          "Creation/Synthesis": 2
+        },
+        "Java / OOP": {
+          "Understanding": 1,
+          "Application": 2,
+          "Analysis": 1,
+          "Creation/Synthesis": 1
+        },
+        "Networking": {
+          "Understanding": 1,
+          "Application": 2,
+          "Remembering": 1,
+          "Creation/Synthesis": 1,
+          "Evaluation": 1
+        },
+        "Operating Systems": {
+          "Understanding": 1,
+          "Application": 2,
+          "Analysis": 2,
+          "Evaluation": 1
+        },
+        "Project Management": {
+          "Understanding": 1,
+          "Application": 1,
+          "Creation/Synthesis": 3
+        },
+        "Security": {
+          "Understanding": 1,
+          "Application": 2,
+          "Evaluation": 2
+        },
+        "Software Architecture": {
+          "Understanding": 1,
+          "Evaluation": 1,
+          "Creation/Synthesis": 3
+        },
+        "Software Engineering": {
+          "Understanding": 4,
+          "Application": 2,
+          "Analysis": 1,
+          "Evaluation": 3,
+          "Creation/Synthesis": 6
+        },
+        "Software Testing": {
+          "Understanding": 1,
+          "Analysis": 1,
+          "Evaluation": 1,
+          "Creation/Synthesis": 2
+        },
+        "Web Development": {
+          "Understanding": 2,
+          "Evaluation": 1,
+          "Application": 1,
+          "Analysis": 1,
+          "Creation/Synthesis": 4
+        }
+      }
+    },
+    {
+      "examId": "aau",
+      "path": "data/exams/aau/questions.json",
+      "total": 100,
+      "changed": 100,
+      "levels": {
+        "Evaluation": 5,
+        "Remembering": 38,
+        "Creation/Synthesis": 11,
+        "Understanding": 30,
+        "Analysis": 8,
+        "Application": 8
+      },
+      "byTopic": {
+        "AI / ML": {
+          "Analysis": 4,
+          "Remembering": 3,
+          "Understanding": 1,
+          "Evaluation": 3
+        },
+        "Android": {
+          "Remembering": 6
+        },
+        "C++": {
+          "Analysis": 1,
+          "Application": 2
+        },
+        "Data Structures": {
+          "Understanding": 2
+        },
+        "Database": {
+          "Evaluation": 1,
+          "Remembering": 7,
+          "Application": 1,
+          "Understanding": 5,
+          "Creation/Synthesis": 1
+        },
+        "Java / OOP": {
+          "Remembering": 3,
+          "Application": 1,
+          "Creation/Synthesis": 1,
+          "Understanding": 2
+        },
+        "Networking": {
+          "Remembering": 7,
+          "Understanding": 6,
+          "Analysis": 1,
+          "Creation/Synthesis": 2,
+          "Application": 2
+        },
+        "Operating Systems": {
+          "Remembering": 4,
+          "Creation/Synthesis": 1,
+          "Understanding": 1
+        },
+        "Project Management": {
+          "Remembering": 1,
+          "Understanding": 3
+        },
+        "Security": {
+          "Understanding": 2,
+          "Remembering": 3
+        },
+        "Software Architecture": {
+          "Creation/Synthesis": 5
+        },
+        "Software Engineering": {
+          "Understanding": 3,
+          "Analysis": 1
+        },
+        "Software Testing": {
+          "Analysis": 1,
+          "Remembering": 3,
+          "Understanding": 3,
+          "Evaluation": 1
+        },
+        "Web Development": {
+          "Application": 2,
+          "Understanding": 2,
+          "Creation/Synthesis": 1,
+          "Remembering": 1
+        }
+      }
+    },
+    {
+      "examId": "astu",
+      "path": "data/exams/astu/questions.json",
+      "total": 60,
+      "changed": 60,
+      "levels": {
+        "Remembering": 22,
+        "Understanding": 13,
+        "Creation/Synthesis": 19,
+        "Evaluation": 4,
+        "Application": 1,
+        "Analysis": 1
+      },
+      "byTopic": {
+        "Project Management": {
+          "Understanding": 4,
+          "Evaluation": 2,
+          "Remembering": 6,
+          "Creation/Synthesis": 2
+        },
+        "Software Architecture": {
+          "Creation/Synthesis": 9
+        },
+        "Software Engineering": {
+          "Remembering": 14,
+          "Understanding": 9,
+          "Creation/Synthesis": 8,
+          "Evaluation": 2,
+          "Application": 1,
+          "Analysis": 1
+        },
+        "Software Testing": {
+          "Remembering": 2
+        }
+      }
+    },
+    {
+      "examId": "astu2026r1",
+      "path": "data/exams/astu2026r1/questions.json",
+      "total": 100,
+      "changed": 100,
+      "levels": {
+        "Remembering": 43,
+        "Application": 9,
+        "Understanding": 21,
+        "Analysis": 4,
+        "Evaluation": 11,
+        "Creation/Synthesis": 12
+      },
+      "byTopic": {
+        "AI / ML": {
+          "Evaluation": 1,
+          "Understanding": 5,
+          "Remembering": 4
+        },
+        "Android": {
+          "Remembering": 3,
+          "Analysis": 1,
+          "Evaluation": 1
+        },
+        "C++": {
+          "Remembering": 4,
+          "Application": 4,
+          "Understanding": 2,
+          "Analysis": 1
+        },
+        "Data Structures": {
+          "Remembering": 3,
+          "Analysis": 1,
+          "Evaluation": 1,
+          "Understanding": 1
+        },
+        "Database": {
+          "Creation/Synthesis": 3,
+          "Application": 1,
+          "Remembering": 1,
+          "Understanding": 1
+        },
+        "Java / OOP": {
+          "Understanding": 2,
+          "Evaluation": 1,
+          "Creation/Synthesis": 1,
+          "Remembering": 1
+        },
+        "Networking": {
+          "Remembering": 6
+        },
+        "Operating Systems": {
+          "Understanding": 2,
+          "Remembering": 3,
+          "Application": 1
+        },
+        "Project Management": {
+          "Evaluation": 1,
+          "Analysis": 1,
+          "Remembering": 3
+        },
+        "Security": {
+          "Remembering": 3,
+          "Understanding": 1,
+          "Creation/Synthesis": 1
+        },
+        "Software Architecture": {
+          "Creation/Synthesis": 5
+        },
+        "Software Engineering": {
+          "Remembering": 3,
+          "Understanding": 1,
+          "Creation/Synthesis": 2
+        },
+        "Software Engineering (Requirements)": {
+          "Evaluation": 1,
+          "Understanding": 3,
+          "Application": 1
+        },
+        "Software Maintenance": {
+          "Evaluation": 1,
+          "Understanding": 2,
+          "Remembering": 1,
+          "Application": 1
+        },
+        "Software Testing": {
+          "Evaluation": 3,
+          "Remembering": 1,
+          "Understanding": 1
+        },
+        "Web Development": {
+          "Remembering": 7,
+          "Evaluation": 1,
+          "Application": 1
+        }
+      }
+    },
+    {
+      "examId": "astu2026r2",
+      "path": "data/exams/astu2026r2/questions.json",
+      "total": 100,
+      "changed": 100,
+      "levels": {
+        "Remembering": 39,
+        "Understanding": 21,
+        "Application": 9,
+        "Evaluation": 17,
+        "Creation/Synthesis": 13,
+        "Analysis": 1
+      },
+      "byTopic": {
+        "AI / ML": {
+          "Understanding": 6,
+          "Remembering": 3,
+          "Evaluation": 1
+        },
+        "Android": {
+          "Evaluation": 2,
+          "Understanding": 2,
+          "Application": 1
+        },
+        "C++": {
+          "Remembering": 5,
+          "Understanding": 2,
+          "Application": 4
+        },
+        "Data Structures": {
+          "Application": 1,
+          "Remembering": 3,
+          "Understanding": 1,
+          "Evaluation": 1
+        },
+        "Database": {
+          "Application": 1,
+          "Remembering": 4,
+          "Evaluation": 1
+        },
+        "Java / OOP": {
+          "Evaluation": 1,
+          "Understanding": 2,
+          "Creation/Synthesis": 2
+        },
+        "Networking": {
+          "Remembering": 7,
+          "Evaluation": 2,
+          "Understanding": 2
+        },
+        "Operating Systems": {
+          "Remembering": 3,
+          "Understanding": 2,
+          "Evaluation": 1
+        },
+        "Project Management": {
+          "Evaluation": 1,
+          "Remembering": 2,
+          "Understanding": 2
+        },
+        "Requirements Engineering": {
+          "Understanding": 2,
+          "Remembering": 2,
+          "Creation/Synthesis": 1
+        },
+        "Software Architecture": {
+          "Creation/Synthesis": 5
+        },
+        "Software Engineering": {
+          "Remembering": 2,
+          "Evaluation": 1,
+          "Creation/Synthesis": 3
+        },
+        "Software Maintenance": {
+          "Evaluation": 4,
+          "Creation/Synthesis": 1
+        },
+        "Software Testing": {
+          "Analysis": 1,
+          "Evaluation": 1,
+          "Creation/Synthesis": 1,
+          "Remembering": 2
+        },
+        "Web Development": {
+          "Remembering": 6,
+          "Evaluation": 1,
+          "Application": 2
+        }
+      }
+    },
+    {
+      "examId": "astu2026r3",
+      "path": "data/exams/astu2026r3/questions.json",
+      "total": 100,
+      "changed": 100,
+      "levels": {
+        "Understanding": 30,
+        "Application": 6,
+        "Evaluation": 12,
+        "Analysis": 3,
+        "Remembering": 39,
+        "Creation/Synthesis": 10
+      },
+      "byTopic": {
+        "AI / ML": {
+          "Remembering": 7,
+          "Evaluation": 1,
+          "Understanding": 1
+        },
+        "Android": {
+          "Evaluation": 4,
+          "Remembering": 1
+        },
+        "Data Structures": {
+          "Application": 1,
+          "Remembering": 2,
+          "Understanding": 2,
+          "Evaluation": 1
+        },
+        "Database": {
+          "Understanding": 2,
+          "Remembering": 2,
+          "Analysis": 1,
+          "Evaluation": 1
+        },
+        "Fundamentals of Programming": {
+          "Understanding": 6,
+          "Application": 3,
+          "Evaluation": 1,
+          "Analysis": 1
+        },
+        "Java / OOP": {
+          "Analysis": 1,
+          "Understanding": 2,
+          "Application": 2
+        },
+        "Networking": {
+          "Remembering": 6,
+          "Evaluation": 2,
+          "Understanding": 1
+        },
+        "Operating Systems": {
+          "Remembering": 3,
+          "Understanding": 3
+        },
+        "Project Management": {
+          "Creation/Synthesis": 1,
+          "Remembering": 1,
+          "Understanding": 3
+        },
+        "Security": {
+          "Remembering": 3
+        },
+        "Software Architecture": {
+          "Creation/Synthesis": 5
+        },
+        "Software Engineering": {
+          "Remembering": 4,
+          "Understanding": 6,
+          "Creation/Synthesis": 1
+        },
+        "Software Maintenance": {
+          "Understanding": 3,
+          "Remembering": 2
+        },
+        "Software Testing": {
+          "Remembering": 2,
+          "Creation/Synthesis": 1,
+          "Evaluation": 1,
+          "Understanding": 1
+        },
+        "Web Development": {
+          "Remembering": 6,
+          "Evaluation": 1,
+          "Creation/Synthesis": 2
+        }
+      }
+    },
+    {
+      "examId": "bdu",
+      "path": "data/exams/bdu/questions.json",
+      "total": 99,
+      "changed": 99,
+      "levels": {
+        "Analysis": 9,
+        "Remembering": 23,
+        "Understanding": 49,
+        "Application": 6,
+        "Creation/Synthesis": 10,
+        "Evaluation": 2
+      },
+      "byTopic": {
+        "AI / ML": {
+          "Analysis": 1,
+          "Understanding": 7,
+          "Remembering": 2,
+          "Evaluation": 1
+        },
+        "Android": {
+          "Understanding": 9,
+          "Creation/Synthesis": 1,
+          "Remembering": 1
+        },
+        "C++": {
+          "Understanding": 2,
+          "Remembering": 1,
+          "Application": 1,
+          "Analysis": 1
+        },
+        "Data Structures": {
+          "Analysis": 4,
+          "Remembering": 3,
+          "Application": 1
+        },
+        "Database": {
+          "Analysis": 1,
+          "Understanding": 6,
+          "Remembering": 3,
+          "Application": 1,
+          "Creation/Synthesis": 1
+        },
+        "Java / OOP": {
+          "Application": 1,
+          "Remembering": 1,
+          "Understanding": 5,
+          "Creation/Synthesis": 1
+        },
+        "Networking": {
+          "Understanding": 4,
+          "Remembering": 2,
+          "Evaluation": 1,
+          "Analysis": 1
+        },
+        "Operating Systems": {
+          "Understanding": 1,
+          "Remembering": 1,
+          "Application": 1,
+          "Analysis": 1
+        },
+        "Project Management": {
+          "Understanding": 2
+        },
+        "Security": {
+          "Understanding": 4
+        },
+        "Software Architecture": {
+          "Creation/Synthesis": 3
+        },
+        "Software Engineering": {
+          "Understanding": 2,
+          "Remembering": 4
+        },
+        "Software Testing": {
+          "Understanding": 3,
+          "Application": 1,
+          "Creation/Synthesis": 3,
+          "Remembering": 1
+        },
+        "Web Development": {
+          "Creation/Synthesis": 1,
+          "Understanding": 4,
+          "Remembering": 4
+        }
+      }
+    },
+    {
+      "examId": "model1",
+      "path": "data/exams/model1/questions.json",
+      "total": 100,
+      "changed": 100,
+      "levels": {
+        "Remembering": 44,
+        "Understanding": 34,
+        "Application": 7,
+        "Creation/Synthesis": 12,
+        "Evaluation": 2,
+        "Analysis": 1
+      },
+      "byTopic": {
+        "AI / ML": {
+          "Remembering": 5,
+          "Understanding": 4
+        },
+        "Android": {
+          "Remembering": 4
+        },
+        "C++": {
+          "Application": 1,
+          "Remembering": 1
+        },
+        "Data Structures": {
+          "Understanding": 3,
+          "Remembering": 2,
+          "Evaluation": 1,
+          "Analysis": 1
+        },
+        "Database": {
+          "Remembering": 3,
+          "Application": 1,
+          "Creation/Synthesis": 2,
+          "Understanding": 1
+        },
+        "Java / OOP": {
+          "Remembering": 6,
+          "Application": 3,
+          "Understanding": 10
+        },
+        "Networking": {
+          "Remembering": 7,
+          "Creation/Synthesis": 2,
+          "Understanding": 1
+        },
+        "Operating Systems": {
+          "Remembering": 4,
+          "Understanding": 3
+        },
+        "Project Management": {
+          "Understanding": 3,
+          "Creation/Synthesis": 2,
+          "Remembering": 2
+        },
+        "Security": {
+          "Understanding": 1,
+          "Remembering": 2,
+          "Evaluation": 1
+        },
+        "Software Architecture": {
+          "Creation/Synthesis": 4
+        },
+        "Software Engineering": {
+          "Understanding": 4,
+          "Remembering": 2,
+          "Application": 1
+        },
+        "Software Testing": {
+          "Remembering": 3,
+          "Understanding": 3,
+          "Application": 1,
+          "Creation/Synthesis": 2
+        },
+        "Web Development": {
+          "Remembering": 3,
+          "Understanding": 1
+        }
+      }
+    },
+    {
+      "examId": "moe2025",
+      "path": "data/exams/moe2025/questions.json",
+      "total": 100,
+      "changed": 100,
+      "levels": {
+        "Evaluation": 5,
+        "Application": 8,
+        "Understanding": 19,
+        "Analysis": 5,
+        "Creation/Synthesis": 11,
+        "Remembering": 52
+      },
+      "byTopic": {
+        "AI / ML": {
+          "Remembering": 6,
+          "Understanding": 2,
+          "Evaluation": 1,
+          "Analysis": 1
+        },
+        "Android": {
+          "Remembering": 4,
+          "Understanding": 1
+        },
+        "Data Structures": {
+          "Evaluation": 1,
+          "Remembering": 2,
+          "Analysis": 2,
+          "Application": 1
+        },
+        "Database": {
+          "Understanding": 1,
+          "Remembering": 3,
+          "Application": 1,
+          "Creation/Synthesis": 1
+        },
+        "Fundamentals of Programming": {
+          "Evaluation": 1,
+          "Application": 2,
+          "Understanding": 6,
+          "Analysis": 1,
+          "Creation/Synthesis": 1
+        },
+        "Java / OOP": {
+          "Remembering": 3,
+          "Understanding": 1,
+          "Application": 1
+        },
+        "Networking": {
+          "Understanding": 1,
+          "Remembering": 5
+        },
+        "Operating Systems": {
+          "Remembering": 4,
+          "Understanding": 1,
+          "Application": 1
+        },
+        "Project Management": {
+          "Understanding": 1,
+          "Remembering": 3,
+          "Creation/Synthesis": 1
+        },
+        "Security": {
+          "Understanding": 1,
+          "Remembering": 3,
+          "Application": 1
+        },
+        "Software Architecture": {
+          "Creation/Synthesis": 5
+        },
+        "Software Engineering": {
+          "Creation/Synthesis": 1,
+          "Remembering": 7,
+          "Understanding": 2,
+          "Evaluation": 1
+        },
+        "Software Maintenance": {
+          "Remembering": 3,
+          "Analysis": 1,
+          "Evaluation": 1
+        },
+        "Software Testing": {
+          "Understanding": 1,
+          "Remembering": 4
+        },
+        "Web Development": {
+          "Creation/Synthesis": 2,
+          "Understanding": 1,
+          "Remembering": 5,
+          "Application": 1
+        }
+      }
+    }
+  ]
+}

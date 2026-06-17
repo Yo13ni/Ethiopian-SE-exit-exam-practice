@@ -12,10 +12,12 @@ NOISE_PATTERNS = [
     r"matted out of",
     r"maned out of",
     r"marted out of",
+    r"ma[åa]?\.?ed out of",
     r"flag question",
     r"flag quest'?on",
     r"previous page",
     r"next page",
+    r"next pag\b",
     r"finish attempt",
     r"time left",
     r"exam navigation",
@@ -25,16 +27,34 @@ NOISE_PATTERNS = [
     r"^\s*o\s*$",
     r"moeep",
     r"mod/quiz",
+    r"question yet\b",
+    r"revtous page",
 ]
 
 _NOISE = [re.compile(p, re.I) for p in NOISE_PATTERNS]
 
 FOOTER = re.compile(
-    r"(?i)\b(previous page|next page|finish attempt|hide|time left|exam navigation|quiz navigation)\b.*"
+    r"(?i)\b(previous page|next page|next pag|finish attempt|hide|time left|exam navigation|quiz navigation)\b.*"
+)
+
+# Moodle exam-navigation grid at bottom/right (e.g. "1 10 19 28 37 46 55")
+NAV_GRID = re.compile(
+    r"(?:\b(?:next page|hide)\b\s*)?"
+    r"(?:\b\d{1,2}\s+){2,}\d{1,2}\s*$",
+    re.I,
+)
+
+# Timer remnant after "time left" is stripped (e.g. "2:54:28 ot Scheduling...")
+TIMER_REMNANT = re.compile(r"^\d{1,2}:\d{2}:\d{2}\s*(?:ot\s+)?", re.I)
+
+QUESTION_NUM = re.compile(
+    r"(?i)\b(?:back\s+)?question\s+(\d{1,3})\b"
+    r"(?:\s+(?:not\s+yet|answer\s+saved|marked|matted|maned|flag))?",
 )
 
 
 def clean_text(text: str) -> str:
+    text = NAV_GRID.sub("", text)
     for pat in _NOISE:
         text = pat.sub(" ", text)
     text = re.sub(r"\bO\b(?=\s|$)", " ", text)
@@ -42,20 +62,45 @@ def clean_text(text: str) -> str:
     return text
 
 
+def strip_sidebar(raw: str) -> str:
+    """Remove Moodle chrome before parsing stem/options."""
+    text = raw
+    # Drop right-side exam navigation block when OCR merges it into one line.
+    text = NAV_GRID.sub("", text)
+    text = re.sub(
+        r"(?i)\b(?:exam|quiz)\s+navigation\b.*$",
+        "",
+        text,
+    )
+    return text.strip()
+
+
 def extract_exam_number(raw: str, file_index: int) -> int:
+    # Left sidebar "Question 73" is authoritative — never use page/file index or nav grid.
+    for m in QUESTION_NUM.finditer(raw):
+        n = int(m.group(1))
+        if 1 <= n <= 100:
+            return n
+
     for pat in [
-        r"Question\s+(\d{1,3})",
         r"Quetion\s+(\d{1,3})",
-        r"(\d{1,3})\s+out\s+of",
+        r"(?:^|\s)(\d{1,3})\s+out\s+of\s+(?:1\.00|1,00|\d)",
         r"Hide\s+i\s+(\d{1,3})\b",
         r"\bi\s+(\d{1,3})\s+xxs\b",
-        r"(?:^|\s)(\d{1,3})\s+(?:yet|ned)\b",
     ]:
         m = re.search(pat, raw, re.I)
         if m:
             n = int(m.group(1))
             if 1 <= n <= 100:
                 return n
+
+    # Standalone leading number before stem (e.g. "26 Which software...")
+    m = re.match(r"^\s*(\d{1,3})\s+(?=[A-Z])", raw.strip())
+    if m:
+        n = int(m.group(1))
+        if 1 <= n <= 100:
+            return n
+
     return file_index
 
 
@@ -227,12 +272,15 @@ def extract_stem(body: str, options: list[dict]) -> str:
     stem = re.sub(r"^\d{1,3}\s+(?:yet|ned)\s+\w*\s*", "", stem, flags=re.I)
     stem = re.sub(r"^\d{1,3}\s+out\s+of\s+[^?]*", "", stem, flags=re.I)
     stem = re.sub(r"^[A-Za-z]+\s+out\s+of\s+[^?]*", "", stem, flags=re.I)
+    stem = TIMER_REMNANT.sub("", stem)
+    stem = re.sub(r"^(?:ot|hide|hic)\s+", "", stem, flags=re.I)
+    stem = re.sub(r"^\d{1,3}\s+(?=\d{1,2}:\d{2})[^?]*", "", stem)
     return stem.strip()
 
 
 def parse_2017_page(raw: str, file_index: int) -> dict:
     exam_number = extract_exam_number(raw, file_index)
-    body = clean_text(raw)
+    body = clean_text(strip_sidebar(raw))
     options = parse_options(body)
     text = extract_stem(body, options)
 

@@ -249,7 +249,7 @@
       "C": "✗ Not the answer. Device and Network describe hardware and connectivity infrastructure. While AI systems run on devices and may communicate over networks, the conceptual composition of an AI system is the agent acting within its environment.",
       "D": "✗ Not the answer. Technology and Evolution describe the tools used to build AI and how AI improves over time. They are meta-level concepts about AI development, not the compositional model of what an AI system is made of."
     },
-    "studyTip": "HTML=structure, CSS=presentation, JS=behavior.",
+    "studyTip": "Agent + Environment. Ensemble ≠ Lasso. Overfitting = memorizes training data.",
     "source": "offline-deep"
   },
   "24": {
@@ -260,7 +260,7 @@
       "C": "✓ CORRECT. Integration testing verifies that separately developed components function correctly when brought together. It specifically targets interface defects, data flow issues, and interaction bugs that unit tests cannot detect because they only emerge when components communicate with each other.",
       "D": "✗ Not the answer. Integration testing is performed BEFORE system testing, not after it. The testing sequence is: unit testing first, then integration testing, then system testing, then acceptance testing. Performing integration only after system testing would leave interface defects undiscovered far too late."
     },
-    "studyTip": "HTML=structure, CSS=presentation, JS=behavior.",
+    "studyTip": "Unit → Integration → System. Decision coverage = every branch T and F.",
     "source": "offline-deep"
   },
   "25": {
@@ -315,7 +315,7 @@
       "C": "✗ Not the answer. Consistency (monotonicity) is another heuristic property: h(n) <= cost(n, n') + h(n') for every successor n'. Like admissibility, it is a heuristic quality, not a defining property of informed algorithms generally.",
       "D": "✓ CORRECT. Informed search algorithms are complete when the search space is finite and the heuristic is admissible—they are guaranteed to find a solution if one exists. Completeness is the general property that distinguishes well-designed search algorithms, including informed ones that can find paths where uninformed methods would be impractical."
     },
-    "studyTip": "HTML=structure, CSS=presentation, JS=behavior.",
+    "studyTip": "Agent + Environment. Ensemble ≠ Lasso. Overfitting = memorizes training data.",
     "source": "offline-deep"
   },
   "30": {
@@ -524,7 +524,7 @@
       "C": "✗ Not the answer. Authentication is the process of verifying the identity of a user, device, or process—confirming that someone is who they claim to be. It is a prerequisite for authorization but does not itself describe unauthorized disclosure.",
       "D": "✗ Not the answer. Authorization determines what an authenticated entity is permitted to do or access. A failure of authorization can lead to unauthorized disclosure, but authorization itself refers to access rights management, not to the disclosure event itself."
     },
-    "studyTip": "HTML=structure, CSS=presentation, JS=behavior.",
+    "studyTip": "CIA: Confidentiality, Integrity, Availability.",
     "source": "offline-deep"
   },
   "49": {
@@ -733,7 +733,7 @@
       "C": "✗ Not the answer. Android Page Kit is a fabricated expansion. APK describes a package (the installable bundle), not a page or webpage-related concept.",
       "D": "✗ Not the answer. Android Platform Kit is another incorrect expansion. While APK files are designed to run on the Android platform, the P stands for Package, not Platform."
     },
-    "studyTip": "HTML=structure, CSS=presentation, JS=behavior.",
+    "studyTip": "Lifecycle: onCreate first. APK = Android Package Kit.",
     "source": "offline-deep"
   },
   "68": {
@@ -854,7 +854,7 @@
       "C": "✓ CORRECT. The way data is stored (relational database, NoSQL, flat files) is a data management implementation detail that follows from architectural decisions rather than driving them. Architecture defines what components exist and how they interact; storage is an implementation choice within that architecture.",
       "D": "✗ Not the answer. Expected performance requirements (response time, throughput, scalability targets) are non-functional requirements that heavily influence architectural decisions such as caching strategies, load balancing, asynchronous processing, and component distribution."
     },
-    "studyTip": "HTML=structure, CSS=presentation, JS=behavior.",
+    "studyTip": "Review core definitions and redo this question in Review mode.",
     "source": "offline-deep"
   },
   "79": {
@@ -865,7 +865,7 @@
       "C": "✗ Not the answer. Under performing is a generic informal term, not a defined machine learning concept. The question asks for the specific technical term for a model that does well on training but poorly on new data.",
       "D": "✗ Not the answer. Underfitting is when a model is too simple to capture the underlying pattern in the data—it performs poorly on both training and test data. This is the opposite of the described scenario, where training performance is good but test performance is poor."
     },
-    "studyTip": "HTML=structure, CSS=presentation, JS=behavior.",
+    "studyTip": "Agent + Environment. Ensemble ≠ Lasso. Overfitting = memorizes training data.",
     "source": "offline-deep"
   },
   "80": {
@@ -898,7 +898,7 @@
       "C": "✓ CORRECT. Localizing critical operations means keeping computationally intensive, frequently called, or latency-sensitive logic within a single process or component to minimize inter-component communication. When critical operations are collocated, they avoid network latency and context-switching overhead.",
       "D": "✗ Not the answer. Distributing operations across a network introduces network latency, serialization overhead, and potential for partial failures. Unless distribution is specifically needed for scalability or redundancy, it degrades performance of critical operations."
     },
-    "studyTip": "HTML=structure, CSS=presentation, JS=behavior.",
+    "studyTip": "Review core definitions and redo this question in Review mode.",
     "source": "offline-deep"
   },
   "83": {
@@ -997,7 +997,7 @@
       "C": "✓ CORRECT. Data optimization is not a recognized step in the ML data preprocessing pipeline. The standard steps are cleaning, transformation, integration, and reduction. Optimization is a term from databases (query optimization) or algorithms (parameter tuning) and does not describe a preprocessing activity.",
       "D": "✗ Not the answer. Data reduction decreases the volume of data while preserving important information. Techniques include dimensionality reduction (PCA, feature selection) and instance selection (sampling). Reducing data size speeds up training and can improve model generalization."
     },
-    "studyTip": "HTML=structure, CSS=presentation, JS=behavior.",
+    "studyTip": "Agent + Environment. Ensemble ≠ Lasso. Overfitting = memorizes training data.",
     "source": "offline-deep"
   },
   "92": {

@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/styles.css?v=32" />
+  <link rel="stylesheet" href="css/styles.css?v=34" />
 </head>
 <body class="on-home">
   <div id="app">
@@ -19,18 +19,10 @@
         </div>
       </header>
 
-      <div class="home-layout">
-        <aside class="subject-sidebar">
-          <div class="subject-sidebar-head">
-            <h2>Subjects</h2>
-            <span id="subject-source-label" class="sidebar-total">Loading…</span>
-          </div>
-          <nav id="subject-nav" class="subject-nav" aria-label="Study by subject"></nav>
-        </aside>
-
+      <div class="home-layout home-layout-single">
         <main class="studio-main home-main">
           <h1 class="studio-page-title">Exams</h1>
-          <p class="studio-page-lead" id="home-lead">Study by subject in the sidebar, or choose a timed exam below.</p>
+          <p class="studio-page-lead" id="home-lead">Choose a timed exam, or practice by MoEE cognitive level in feedback mode.</p>
 
           <div class="studio-toolbar">
             <p id="exam-count-label" class="studio-count">Loading exams…</p>
@@ -41,6 +33,17 @@
           </div>
 
           <div id="exam-list" class="exam-grid" aria-label="Available exams"></div>
+
+          <section class="cognitive-section" id="cognitive-section" aria-labelledby="cognitive-heading">
+            <div class="cognitive-section-head">
+              <h2 id="cognitive-heading" class="cognitive-section-title">Practice by Cognitive Level</h2>
+              <p class="cognitive-section-lead">MoEE Feb 2024 blueprint — feedback mode only, with instant explanations after each answer.</p>
+            </div>
+            <div id="cognitive-grid" class="cognitive-grid" aria-label="Cognitive level categories">
+              <p class="cognitive-loading">Loading categories…</p>
+            </div>
+          </section>
+
           <p id="explain-status" class="studio-status">Checking…</p>
         </main>
       </div>
@@ -53,6 +56,7 @@
     <section id="screen-exam" class="screen exam-screen">
       <header class="national-header">
         <div class="national-header-left">
+          <button type="button" class="btn ghost btn-header-home" id="btn-exam-home">Home</button>
           <button type="button" class="btn-icon-nav" id="btn-toggle-exam-nav" aria-label="Toggle question panel">☰</button>
           <div class="national-brand">
             <span class="national-brand-title" id="exam-title-bar">Exit Exam</span>
@@ -104,6 +108,7 @@
     <section id="screen-review" class="screen exam-screen review-screen">
       <header class="national-header review-header">
         <div class="national-header-left">
+          <button type="button" class="btn ghost btn-header-home" id="btn-review-home">Home</button>
           <button type="button" class="btn-icon-nav" id="btn-toggle-review-nav" aria-label="Toggle question panel">☰</button>
           <div class="national-brand">
             <span class="national-brand-title">Feedback Mode</span>
@@ -160,33 +165,6 @@
       </div>
     </section>
 
-    <section id="screen-subject" class="screen studio-screen">
-      <header class="studio-topbar">
-        <div class="studio-brand">
-          <button type="button" class="btn ghost subject-back-btn" id="btn-subject-home">← Home</button>
-        </div>
-        <div class="studio-brand">
-          <span class="studio-logo" aria-hidden="true"></span>
-          <span class="studio-brand-text">Study by Subject</span>
-        </div>
-      </header>
-
-      <div class="home-layout subject-page-layout">
-        <aside class="subject-sidebar">
-          <div class="subject-sidebar-head">
-            <h2>Subjects</h2>
-            <span id="subject-source-label-page" class="sidebar-total"></span>
-          </div>
-          <nav id="subject-nav-page" class="subject-nav" aria-label="Study by subject"></nav>
-        </aside>
-
-        <main class="subject-scroll" id="subject-scroll">
-          <div id="subject-page-head" class="subject-page-head"></div>
-          <div id="subject-questions-list" class="subject-questions-list"></div>
-        </main>
-      </div>
-    </section>
-
     <section id="screen-summary" class="screen studio-screen">
       <header class="studio-topbar">
         <div class="studio-brand">
@@ -235,15 +213,6 @@
         </div>
 
         <div class="card">
-          <h2 class="summary-card-title">Score by Topic</h2>
-          <div id="topic-breakdown"></div>
-        </div>
-        <div class="card">
-          <h2 class="summary-card-title">Focus Here Next</h2>
-          <p class="card-hint">Weakest topics first — study the guides below before retaking.</p>
-          <div id="focus-areas"></div>
-        </div>
-        <div class="card">
           <h2 class="summary-card-title">Questions You Missed</h2>
           <div id="review-list"></div>
         </div>
@@ -251,7 +220,7 @@
         <div class="summary-actions">
           <button class="btn primary" id="btn-review-answers">Review All Answers with Explanations</button>
           <button class="btn ghost" id="btn-review-missed-only">Review Missed Only</button>
-          <button class="btn ghost" id="btn-back-home">Back to Home</button>
+          <button class="btn ghost" id="btn-back-home">Home</button>
         </div>
       </main>
 
@@ -261,6 +230,6 @@
     </section>
   </div>
 
-  <script src="js/app.js?v=40"></script>
+  <script src="js/app.js?v=42"></script>
 </body>
 </html>

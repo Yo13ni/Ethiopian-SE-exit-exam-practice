@@ -187,12 +187,12 @@
     "source": "offline-deep"
   },
   "19": {
-    "overview": "This C++ question tests tracing code execution to determine printed output. The correct choice is A — int day switch (day) { case 1: cout \"'•bnday\".\n\n✅ Answer: A — int day switch (day) { case 1: cout \"'•bnday\"",
+    "overview": "This C++ question tests tracing code execution to determine printed output. The correct choice is A — Monday.\n\n✅ Answer: A — Monday",
     "options": {
-      "A": "✓ CORRECT. 'int day switch (day) { case 1: cout \"'•bnday\"' is the correct answer — it directly addresses tracing code execution to determine printed output in C++.",
-      "B": "✗ Not the answer. If the program printed break, a different branch or calculation would execute. Trace the code line-by-line with the given inputs to verify the output is int day switch (day) { case 1: cout \"'•bnday\".",
-      "C": "✗ Not the answer. If the program printed case 2: cout \"Tuesday\", a different branch or calculation would execute. Trace the code line-by-line with the given inputs to verify the output is int day switch (day) { case 1: cout \"'•bnday\".",
-      "D": "✗ Not the answer. If the program printed break, a different branch or calculation would execute. Trace the code line-by-line with the given inputs to verify the output is int day switch (day) { case 1: cout \"'•bnday\"."
+      "A": "✓ CORRECT. 'Monday' is the correct answer — it directly addresses tracing code execution to determine printed output in C++.",
+      "B": "✗ Not the answer. If the program printed Tuesday, a different branch or calculation would execute. Trace the code line-by-line with the given inputs to verify the output is Monday.",
+      "C": "✗ Not the answer. If the program printed Wednesday, a different branch or calculation would execute. Trace the code line-by-line with the given inputs to verify the output is Monday.",
+      "D": "✗ Not the answer. If the program printed Invalid day, a different branch or calculation would execute. Trace the code line-by-line with the given inputs to verify the output is Monday."
     },
     "studyTip": "Trace small code fragments and validate syntax against C++ compilation rules.",
     "source": "offline-deep"
@@ -242,47 +242,47 @@
     "source": "offline-deep"
   },
   "26": {
-    "overview": "26 3:17:07 Which software engtneenng practice focuses on identifying and mitigating potential risks during the development process? Eliminate distractors that confuse related Java / OOP terms before picking B.\n\n✅ Answer: B — Risk management",
+    "overview": "Which software engineering practice focuses on identifying and mitigating potential risks during the development process? Eliminate distractors that confuse related Software Engineering terms before picking B.\n\n✅ Answer: B — Risk management",
     "options": {
-      "A": "✗ Not the answer. 'Deployment planning' does not fit the scenario: 26 3:17:07 Which software engtneenng practice focuses on identifying and mitigating potential risks during the developme… The keyed answer is B — Risk management.",
-      "B": "✓ CORRECT. 'Risk management' is the correct answer — it directly addresses the specific concept tested in this question in Java / OOP.",
-      "C": "✗ Not the answer. 'Version control' does not fit the scenario: 26 3:17:07 Which software engtneenng practice focuses on identifying and mitigating potential risks during the developme… The keyed answer is B — Risk management.",
-      "D": "✗ Not the answer. 'User interface design Next p' means Java contract of abstract methods — implemented by classes. That answers a different kind of question. Here, the stem points to 'Risk management' instead."
+      "A": "✗ Not the answer. 'Deployment planning' does not fit the scenario: Which software engineering practice focuses on identifying and mitigating potential risks during the development process… The keyed answer is B — Risk management.",
+      "B": "✓ CORRECT. 'Risk management' is the correct answer — it directly addresses the specific concept tested in this question in Software Engineering.",
+      "C": "✗ Not the answer. 'Version control' does not fit the scenario: Which software engineering practice focuses on identifying and mitigating potential risks during the development process… The keyed answer is B — Risk management.",
+      "D": "✗ Not the answer. 'User interface design' means Java contract of abstract methods — implemented by classes. That answers a different kind of question. Here, the stem points to 'Risk management' instead."
     },
-    "studyTip": "Trace code on paper. Interfaces cannot be instantiated; constructors match class name and types.",
+    "studyTip": "SRS, requirements, maintenance types, and SDLC phases — match exact definitions.",
     "source": "offline-deep"
   },
   "27": {
-    "overview": "2:54:14 H ide of touomng Software Architectural Styles is typically used in systems where high responsiveness and real- tme procesqr•.g are needed? Eliminate distractors that confuse related Software Architecture terms before picking C.\n\n✅ Answer: C — Archltecture d. Serv«tess",
+    "overview": "H ide of touomng Software Architectural Styles is typically used in systems where high responsiveness and real- tme procesqr•.g are needed? Eliminate distractors that confuse related Software Architecture terms before picking C.\n\n✅ Answer: C — Archltecture d. Serv«tess",
     "options": {
-      "A": "✗ Not the answer. 'Monolithic Architectute ) b. Microservsces' does not fit the scenario: 2:54:14 H ide of touomng Software Architectural Styles is typically used in systems where high responsiveness and real- … The keyed answer is C — Archltecture d. Serv«tess.",
-      "B": "✗ Not the answer. 'Architecture Event-Dnven' does not fit the scenario: 2:54:14 H ide of touomng Software Architectural Styles is typically used in systems where high responsiveness and real- … The keyed answer is C — Archltecture d. Serv«tess.",
+      "A": "✗ Not the answer. 'Monolithic Architectute ) b. Microservsces' does not fit the scenario: H ide of touomng Software Architectural Styles is typically used in systems where high responsiveness and real- tme proc… The keyed answer is C — Archltecture d. Serv«tess.",
+      "B": "✗ Not the answer. 'Architecture Event-Dnven' does not fit the scenario: H ide of touomng Software Architectural Styles is typically used in systems where high responsiveness and real- tme proc… The keyed answer is C — Archltecture d. Serv«tess.",
       "C": "✓ CORRECT. 'Archltecture d. Serv«tess' is the correct answer — it directly addresses the specific concept tested in this question in Software Architecture.",
-      "D": "✗ Not the answer. 'Agchttecture Next 10 19 28 37' does not fit the scenario: 2:54:14 H ide of touomng Software Architectural Styles is typically used in systems where high responsiveness and real- … The keyed answer is C — Archltecture d. Serv«tess."
+      "D": "✗ Not the answer. 'Agchttecture Next' does not fit the scenario: H ide of touomng Software Architectural Styles is typically used in systems where high responsiveness and real- tme proc… The keyed answer is C — Archltecture d. Serv«tess."
     },
     "studyTip": "Think quality attributes and ATAM scenarios — not team size or log files.",
     "source": "offline-deep"
   },
   "28": {
-    "overview": "Which one of the following Process Scheduling Algorithms executes processes in order of arrival? The answer hinges on: First-Come First-Served scheduling in arrival order Eliminate distractors that confuse related Operating Systems terms before picking B.\n\n✅ Answer: B — First-Come, First-Served (FCFS)",
+    "overview": "This Software Architecture question tests which non-functional requirement handles growing load. The correct choice is C — Horizontal scaling through independent services.\n\n✅ Answer: C — Horizontal scaling through independent services",
     "options": {
-      "A": "✗ Not the answer. 'Round Robin (RR)' does not fit the scenario: Which one of the following Process Scheduling Algorithms executes processes in order of arrival? The keyed answer is B — First-Come, First-Served (FCFS).",
-      "B": "✓ CORRECT. FCFS (First-Come, First-Served) schedules processes in arrival order — non-preemptive and simple.",
-      "C": "✗ Not the answer. 'Priority Scheduling' does not fit the scenario: Which one of the following Process Scheduling Algorithms executes processes in order of arrival? The keyed answer is B — First-Come, First-Served (FCFS).",
-      "D": "✗ Not the answer. 'Shortest Job Next (SJN)' does not fit the scenario: Which one of the following Process Scheduling Algorithms executes processes in order of arrival? The keyed answer is B — First-Come, First-Served (FCFS)."
+      "A": "✗ Not the answer. 'Using a monolithic codebase for simplicity' does not fit the scenario: Which one of the following is a critical feature when designing for system scalability in a large-scale software system? The keyed answer is C — Horizontal scaling through independent services.",
+      "B": "✗ Not the answer. 'Limiting API access to avoid traffic' does not fit the scenario: Which one of the following is a critical feature when designing for system scalability in a large-scale software system? The keyed answer is C — Horizontal scaling through independent services.",
+      "C": "✓ CORRECT. 'Horizontal scaling through independent services' is the correct answer — it directly addresses which non-functional requirement handles growing load in Software Architecture.",
+      "D": "✗ Not the answer. 'Using a single database for all services' does not fit the scenario: Which one of the following is a critical feature when designing for system scalability in a large-scale software system? The keyed answer is C — Horizontal scaling through independent services."
     },
-    "studyTip": "Relate to process states, scheduling, memory policies, or deadlock conditions.",
+    "studyTip": "Think quality attributes and ATAM scenarios — not team size or log files.",
     "source": "offline-deep"
   },
   "29": {
-    "overview": "Time lett 2:54:59 you are developing an appbcanon that •nvolves real-ume data analysis and requires efficvent Insertion and O&mn ot data Which of tollow•ng data structures would be suited tor this application?\n\n✅ Answer: D — Hash table",
+    "overview": "Suppose you are developing an application that involves real-time data analysis and requires efficient insertion and deletion of data. Which of the following data structures would be best suited for this application?\n\n✅ Answer: D — Hash table",
     "options": {
-      "A": "✗ Not the answer. 'Stn' does not fit the scenario: Time lett 2:54:59 you are developing an appbcanon that •nvolves real-ume data analysis and requires efficvent Insertion … The keyed answer is D — Hash table.",
-      "B": "✗ Not the answer. 'O*ue' does not fit the scenario: Time lett 2:54:59 you are developing an appbcanon that •nvolves real-ume data analysis and requires efficvent Insertion … The keyed answer is D — Hash table.",
-      "C": "✗ Not the answer. 'Onyy tree' means a hierarchical structure with parent-child nodes and one root. That answers a different kind of question. Here, the stem points to 'Hash table' instead.",
+      "A": "✗ Not the answer. A stack is a linear LIFO structure — last in, first out; not hierarchical like a tree.",
+      "B": "✗ Not the answer. A queue is a linear FIFO structure — elements enter at rear and leave at front; not hierarchical like a tree.",
+      "C": "✗ Not the answer. 'Binary tree' means a hierarchical structure with parent-child nodes and one root. That answers a different kind of question. Here, the stem points to 'Hash table' instead.",
       "D": "✓ CORRECT. Hash tables offer O(1) average lookup/insert/delete — ideal for real-time data with frequent updates."
     },
-    "studyTip": "Trace small code fragments and validate syntax against C++ compilation rules.",
+    "studyTip": "Write the algorithm on paper and count dominant terms or trace one small example.",
     "source": "offline-deep"
   },
   "30": {
@@ -319,12 +319,12 @@
     "source": "offline-deep"
   },
   "33": {
-    "overview": "68 Prev@us page Which one of the followtng tYJrs of firewall Tracks active connections and allows only legitimate traffic? Eliminate distractors that confuse related Security terms before picking C.\n\n✅ Answer: C — Firewall Packet",
+    "overview": "Which one of the following Malware Type Encrypts user files and demands payment 33 Jt of s page Eliminate distractors that confuse related Security terms before picking C.\n\n✅ Answer: C — Rootkits",
     "options": {
-      "A": "✗ Not the answer. 'Proxy firewall Cloud-Based' does not fit the scenario: 68 Prev@us page Which one of the followtng tYJrs of firewall Tracks active connections and allows only legitimate traffi… The keyed answer is C — Firewall Packet.",
-      "B": "✗ Not the answer. Stateful inspection tracks connection state and allows only packets belonging to legitimate established sessions.",
-      "C": "✓ CORRECT. 'Firewall Packet' is the correct answer — it directly addresses the specific concept tested in this question in Security.",
-      "D": "✗ Not the answer. 'Filtenng firewall' does not fit the scenario: 68 Prev@us page Which one of the followtng tYJrs of firewall Tracks active connections and allows only legitimate traffi… The keyed answer is C — Firewall Packet."
+      "A": "✗ Not the answer. 'Viruses' does not fit the scenario: Which one of the following Malware Type Encrypts user files and demands payment 33 Jt of s page The keyed answer is C — Rootkits.",
+      "B": "✗ Not the answer. 'Ransomware' does not fit the scenario: Which one of the following Malware Type Encrypts user files and demands payment 33 Jt of s page The keyed answer is C — Rootkits.",
+      "C": "✓ CORRECT. 'Rootkits' is the correct answer — it directly addresses the specific concept tested in this question in Security.",
+      "D": "✗ Not the answer. 'Worms' does not fit the scenario: Which one of the following Malware Type Encrypts user files and demands payment 33 Jt of s page The keyed answer is C — Rootkits."
     },
     "studyTip": "Use Saltzer-Schroeder principles and CIA triad vocabulary to eliminate distractors.",
     "source": "offline-deep"
@@ -352,12 +352,12 @@
     "source": "offline-deep"
   },
   "36": {
-    "overview": "2:57:18 Which one of the following obJect oriented feature restricts direct access to certain details, ensuring data security and integnty? Eliminate distractors that confuse related Java / OOP terms before picking B.\n\n✅ Answer: B — Encapsulation",
+    "overview": "Which one of the following obJect oriented feature restricts direct access to certain details, ensuring data security and integnty? Eliminate distractors that confuse related Java / OOP terms before picking B.\n\n✅ Answer: B — Encapsulation",
     "options": {
-      "A": "✗ Not the answer. 'Polymorphism' does not fit the scenario: 2:57:18 Which one of the following obJect oriented feature restricts direct access to certain details, ensuring data sec… The keyed answer is B — Encapsulation.",
+      "A": "✗ Not the answer. 'Polymorphism' does not fit the scenario: Which one of the following obJect oriented feature restricts direct access to certain details, ensuring data security an… The keyed answer is B — Encapsulation.",
       "B": "✓ CORRECT. 'Encapsulation' is the correct answer — it directly addresses the specific concept tested in this question in Java / OOP.",
       "C": "✗ Not the answer. 'Inheritance' means subclass inherits fields and methods from superclass. That answers a different kind of question. Here, the stem points to 'Encapsulation' instead.",
-      "D": "✗ Not the answer. 'Abstraction' does not fit the scenario: 2:57:18 Which one of the following obJect oriented feature restricts direct access to certain details, ensuring data sec… The keyed answer is B — Encapsulation."
+      "D": "✗ Not the answer. 'Abstraction' does not fit the scenario: Which one of the following obJect oriented feature restricts direct access to certain details, ensuring data security an… The keyed answer is B — Encapsulation."
     },
     "studyTip": "Trace code on paper. Interfaces cannot be instantiated; constructors match class name and types.",
     "source": "offline-deep"
@@ -605,23 +605,23 @@
     "source": "offline-deep"
   },
   "59": {
-    "overview": "What is the research-oriented software development The correct choice is D — Technology-related problems.\n\n✅ Answer: D — Improving internal code structure without changing external behavior",
+    "overview": "What is the research-oriented software development Eliminate distractors that confuse related Software Engineering terms before picking D.\n\n✅ Answer: D — Improving internal code structure without changing external behavior",
     "options": {
       "A": "✗ Not the answer. 'Process-related problems' means program in execution with its own address space. That answers a different kind of question. Here, the stem points to 'Technology-related problems' instead.",
-      "B": "✗ Not the answer. 'Enhancing the external user interface' means Java contract of abstract methods — implemented by classes. That answers a different kind of question. Here, the stem points to 'Improving internal code structure without changing external behavior' instead.",
-      "C": "✗ Not the answer. 'Adding new functionalities' means C++ operator that allocates memory on the heap. That answers a different kind of question. Here, the stem points to 'Improving internal code structure without changing external behavior' instead.",
+      "B": "✗ Not the answer. 'Product-related problems' does not fit the scenario: What is the research-oriented software development The keyed answer is D — Technology-related problems.",
+      "C": "✗ Not the answer. 'People-related problems' does not fit the scenario: What is the research-oriented software development The keyed answer is D — Technology-related problems.",
       "D": "✓ CORRECT. Refactoring improves internal structure without changing external behavior — not adding features or rewriting for performance alone."
     },
     "studyTip": "SRS, requirements, maintenance types, and SDLC phases — match exact definitions.",
     "source": "offline-deep"
   },
   "60": {
-    "overview": "Which of the following statement is false Key concept: program in execution with its own address space.\n\n✅ Answer: B — Private methods cannot be overridden in subclasses",
+    "overview": "Which of the following statement is false The answer hinges on: program in execution with its own address space Eliminate distractors that confuse related AI / ML terms before picking C.\n\n✅ Answer: B — Private methods cannot be overridden in subclasses",
     "options": {
       "A": "✗ Not the answer. 'An overriding method can declare checked exceptions not thrown by the method it is overriding' does not fit the scenario: Which one of the following statements is TRUE? The keyed answer is B — Private methods cannot be overridden in subclasses.",
       "B": "✓ CORRECT. 'All of the above' is only correct when EVERY other option is true. Verify each choice A, B, C individually — if any is false, 'All' is wrong. Here, 'Disjunctive selection conditions are much harder to process and optimize than conjunctive selection conditions' is the specific correct answer.",
       "C": "✗ Not the answer. 'The parameter list of an overriding method can be a subset of the overridden method' does not fit the scenario: Which one of the following statements is TRUE? The keyed answer is B — Private methods cannot be overridden in subclasses.",
-      "D": "✗ Not the answer. 'A subclass can override any method in a superclass' does not fit the scenario: Which one of the following statements is TRUE? The keyed answer is B — Private methods cannot be overridden in subclasses."
+      "D": "✗ Not the answer. 'Join operation is one of the most time consuming operations in query processing' does not fit the scenario: Which of the following statement is false The keyed answer is C — Disjunctive selection conditions are much harder to process and optimize than conjunctive selection conditions."
     },
     "studyTip": "Classify learning type or search strategy (informed vs uninformed, optimal vs greedy).",
     "source": "offline-deep"
@@ -748,17 +748,6 @@
     "source": "offline-deep"
   },
   "72": {
-    "overview": "Suppose you are developing an application that involves real-time data analysis and requires efficient insertion and deletion of data. Which of the following data structures would be best suited for this application?\n\n✅ Answer: D — Hash table",
-    "options": {
-      "A": "✗ Not the answer. A stack is a linear LIFO structure — last in, first out; not hierarchical like a tree.",
-      "B": "✗ Not the answer. A queue is a linear FIFO structure — elements enter at rear and leave at front; not hierarchical like a tree.",
-      "C": "✗ Not the answer. 'Binary tree' means a hierarchical structure with parent-child nodes and one root. That answers a different kind of question. Here, the stem points to 'Hash table' instead.",
-      "D": "✓ CORRECT. Hash tables offer O(1) average lookup/insert/delete — ideal for real-time data with frequent updates."
-    },
-    "studyTip": "Write the algorithm on paper and count dominant terms or trace one small example.",
-    "source": "offline-deep"
-  },
-  "73": {
     "overview": "Ethiopian Airlines wants to optimize flight scheduling to minimize delays. Which algorithm design approach is BEST suited for this task? The answer hinges on: nodes with arbitrary connections, may contain cycles Eliminate distractors that confuse related AI / ML terms before picking C.\n\n✅ Answer: C — Designing a graph-based algorithm to model flight connections and dependencies",
     "options": {
       "A": "✗ Not the answer. 'Sorting flight data by departure time' does not fit the scenario: Ethiopian Airlines wants to optimize flight scheduling to minimize delays. Which algorithm design approach is BEST suite… The keyed answer is C — Designing a graph-based algorithm to model flight connections and dependencies.",
@@ -767,6 +756,17 @@
       "D": "✗ Not the answer. 'Randomly assigning flight departure times' does not fit the scenario: Ethiopian Airlines wants to optimize flight scheduling to minimize delays. Which algorithm design approach is BEST suite… The keyed answer is C — Designing a graph-based algorithm to model flight connections and dependencies."
     },
     "studyTip": "Classify learning type or search strategy (informed vs uninformed, optimal vs greedy).",
+    "source": "offline-deep"
+  },
+  "73": {
+    "overview": "Which one of the following Process Scheduling Algorithms executes processes in order of arrival? The answer hinges on: First-Come First-Served scheduling in arrival order Eliminate distractors that confuse related Operating Systems terms before picking B.\n\n✅ Answer: B — First-Come, First-Served (FCFS)",
+    "options": {
+      "A": "✗ Not the answer. 'Round Robin (RR)' does not fit the scenario: Which one of the following Process Scheduling Algorithms executes processes in order of arrival? The keyed answer is B — First-Come, First-Served (FCFS).",
+      "B": "✓ CORRECT. FCFS (First-Come, First-Served) schedules processes in arrival order — non-preemptive and simple.",
+      "C": "✗ Not the answer. 'Priority Scheduling' does not fit the scenario: Which one of the following Process Scheduling Algorithms executes processes in order of arrival? The keyed answer is B — First-Come, First-Served (FCFS).",
+      "D": "✗ Not the answer. 'Shortest Job Next (SJN)' does not fit the scenario: Which one of the following Process Scheduling Algorithms executes processes in order of arrival? The keyed answer is B — First-Come, First-Served (FCFS)."
+    },
+    "studyTip": "Relate to process states, scheduling, memory policies, or deadlock conditions.",
     "source": "offline-deep"
   },
   "74": {
@@ -803,14 +803,14 @@
     "source": "offline-deep"
   },
   "77": {
-    "overview": "Software defect (bug) is behavior deviating from specified requirements — causes incorrect results or crashes. Features meeting requirements are not defects.\n\n✅ Answer: B — Null reference error in a function",
+    "overview": "Which one of the following is a type of software defect? Eliminate distractors that confuse related Software Testing terms before picking B.\n\n✅ Answer: B — Null reference error in a function",
     "options": {
       "A": "✗ Not the answer. 'Repeated code segments in the program' does not fit the scenario: Which one of the following is a type of software defect? The keyed answer is B — Null reference error in a function.",
-      "B": "✓ CORRECT. \"A bug that causes incorrect behavior\" is correct because failure to meet specification — defect.",
+      "B": "✓ CORRECT. 'Null reference error in a function' is the correct answer — it directly addresses the specific concept tested in this question in Software Testing.",
       "C": "✗ Not the answer. 'An unhandled exception in the code' does not fit the scenario: Which one of the following is a type of software defect? The keyed answer is B — Null reference error in a function.",
       "D": "✗ Not the answer. 'Performance degradation due to excessive memory usage' does not fit the scenario: Which one of the following is a type of software defect? The keyed answer is B — Null reference error in a function."
     },
-    "studyTip": "Defect = gap between expected (spec) and actual (behavior).",
+    "studyTip": "Match the question to test levels, coverage types, or traceability definitions.",
     "source": "offline-deep"
   },
   "78": {

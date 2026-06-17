@@ -16,6 +16,7 @@ from exam2017_data import (
 
 ROOT = Path(__file__).resolve().parent.parent
 RAW_PATH = ROOT / "data" / "exams" / "2017" / "raw_ocr.json"
+MAP_PATH = ROOT / "data" / "exams" / "2017" / "number_map.json"
 MATCHED_PATH = ROOT / "data" / "exams" / "2017" / "matched_answers.json"
 CURATED_PATH = ROOT / "data" / "exams" / "2017" / "curated_questions.json"
 OUT_PATH = ROOT / "data" / "exams" / "2017" / "questions.json"
@@ -57,6 +58,13 @@ def load_curated() -> dict[int, dict]:
         if n:
             out[int(n)] = row
     return out
+
+
+def load_number_map() -> dict[int, int]:
+    if not MAP_PATH.exists():
+        return {}
+    rows = json.loads(MAP_PATH.read_text(encoding="utf-8"))
+    return {int(r["page"]): int(r["examNumber"]) for r in rows if r.get("examNumber")}
 
 
 def load_matched() -> dict[int, str]:
@@ -111,8 +119,21 @@ def build_questions() -> tuple[list[dict], list[str]]:
         raise SystemExit(f"Missing {RAW_PATH}. Run: python scripts/extract_2017_ocr.py")
 
     pages = json.loads(RAW_PATH.read_text(encoding="utf-8"))
+    num_map = load_number_map()
     matched = load_matched()
     curated = load_curated()
+
+    # Apply page→question overrides and improved parser to stored OCR
+    from exam2017_parser import parse_2017_page  # noqa: WPS433
+
+    for page in pages:
+        raw = page.get("raw", "")
+        parsed = parse_2017_page(raw, page.get("page", 0))
+        mapped = num_map.get(page.get("page"))
+        if mapped:
+            parsed["examNumber"] = mapped
+        page["parsed"] = parsed
+
     by_num = collect_by_exam_number(pages)
 
     # Curated vision transcriptions override OCR

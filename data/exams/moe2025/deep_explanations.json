@@ -225,7 +225,7 @@
       "A": "✗ Not the answer. would be result if sound() were not overridden or reference called static binding on non-virtual method.",
       "B": "✓ CORRECT. method overriding + dynamic dispatch → Dog.sound() runs.",
       "C": "✗ Not the answer. valid Java — subclass IS-A superclass; assignment legal.",
-      "D": "✗ Not the answer. sound() explicitly prints Bark."
+      "D": "✗ Not the answer. If the program printed No output, a different branch or calculation would execute. Trace the code line-by-line with the given inputs to verify the output is Bark."
     },
     "studyTip": "Override + parent reference to child object → child method runs (dynamic binding).",
     "source": "offline-deep"
@@ -247,7 +247,7 @@
       "A": "✗ Not the answer. link associates document with stylesheet/icon — not inline hyperlinks.",
       "B": "✓ CORRECT. anchor tag with href attribute defines hyperlinks.",
       "C": "✗ Not the answer. not an HTML element — href is an attribute name.",
-      "D": "✗ Not the answer. not standard HTML tag."
+      "D": "✗ Not the answer. '<url>' does not fit the scenario: Which HTML tag is used to create a hyperlink? The keyed answer is B — <a>."
     },
     "studyTip": "Hyperlink = <a href=\"...\">text</a>; stylesheet = <link rel=\"stylesheet\">.",
     "source": "offline-deep"
@@ -268,7 +268,7 @@
     "options": {
       "A": "✓ CORRECT. arr.push(item) appends to end, returns new length.",
       "B": "✗ Not the answer. removes and returns LAST element — opposite of add.",
-      "C": "✗ Not the answer. removes FIRST element.",
+      "C": "✗ Not the answer. 'shift()' does not fit the scenario: Which JavaScript method is used to add an element to the end of an array? The keyed answer is A — push().",
       "D": "✗ Not the answer. adds to beginning, not end."
     },
     "studyTip": "push/pop = end; shift/unshift = front.",
@@ -290,8 +290,8 @@
     "options": {
       "A": "✗ Not the answer. POST submits entity body — typically create or non-idempotent actions.",
       "B": "✓ CORRECT. retrieve data from server — read operation.",
-      "C": "✗ Not the answer. replace/update resource at URI.",
-      "D": "✗ Not the answer. remove resource."
+      "C": "✗ Not the answer. 'PUT' does not fit the scenario: Which HTTP method is used to retrieve data from a server? The keyed answer is B — GET.",
+      "D": "✗ Not the answer. 'DELETE' means C++ operator that frees heap memory allocated by new. That answers a different kind of question. Here, the stem points to 'GET' instead."
     },
     "studyTip": "GET=read, POST=create/submit, PUT=update, DELETE=remove.",
     "source": "offline-deep"
@@ -313,7 +313,7 @@
       "A": "✗ Not the answer. would be 5+5 without prefix increment on second operand.",
       "B": "✗ Not the answer. common miscalculation ignoring that ++x increments before use.",
       "C": "✓ CORRECT. x++ yields 5; ++x yields 7; sum = 12.",
-      "D": "✗ Not the answer. over-counts increment steps."
+      "D": "✗ Not the answer. If the program printed 13, a different branch or calculation would execute. Trace the code line-by-line with the given inputs to verify the output is 12."
     },
     "studyTip": "Trace increment operators left-to-right: postfix returns old, prefix returns new.",
     "source": "offline-deep"
@@ -333,7 +333,7 @@
     "overview": "Django is Python web framework providing MVC/MVT structure, ORM, routing, templates, admin — full scaffolding for web apps, not just database or styling.\n\n✅ Answer: B — To provide a structure for developing web applications",
     "options": {
       "A": "✗ Not the answer. ORM is part of Django but framework scope is broader.",
-      "B": "✓ CORRECT. routing, views, templates, models.",
+      "B": "✓ CORRECT. 'To provide a structure for developing web applications' is the correct answer — it directly addresses the specific concept tested in this question in Web Development.",
       "C": "✗ Not the answer. CSS handles styling; Django is server-side.",
       "D": "✗ Not the answer. ORM abstracts SQL; not raw query executor only."
     },
@@ -356,7 +356,7 @@
     "options": {
       "A": "✓ CORRECT. screen + user interaction — defines UI for one focused task.",
       "B": "✗ Not the answer. long-running background work without UI.",
-      "C": "✗ Not the answer. responds to system/app broadcasts.",
+      "C": "✗ Not the answer. BroadcastReceivers listen for system-wide Intents (e.g., connectivity changes) — not reusable UI inside an Activity.",
       "D": "✗ Not the answer. structured data sharing between apps."
     },
     "studyTip": "Activity = screen; Service = background; Intent = messaging.",
@@ -421,7 +421,7 @@
     "overview": "WHERE Age > 20 filters rows strictly greater than 20 — relational comparison on Age column.\n\n✅ Answer: B — Records from Students where Age is greater than 20",
     "options": {
       "A": "✗ Not the answer. no filter would need SELECT * FROM Students without WHERE.",
-      "B": "✓ CORRECT. matches SQL predicate exactly.",
+      "B": "✓ CORRECT. 'Records from Students where Age is greater than 20' is the correct answer — it directly addresses the specific concept tested in this question in Database.",
       "C": "✗ Not the answer. would be Age < 20 — wrong operator.",
       "D": "✗ Not the answer. returns empty only if no rows satisfy condition — not definition."
     },
@@ -445,7 +445,7 @@
       "A": "✗ Not the answer. each parent maps to exactly one child — stricter than PK-FK typical pattern.",
       "B": "✓ CORRECT. classic PK in parent, FK in child referencing it.",
       "C": "✗ Not the answer. requires associative/junction table with two FKs.",
-      "D": "✗ Not the answer. FK explicitly defines relationship."
+      "D": "✗ Not the answer. 'No relationship' does not fit the scenario: Which type of relationship exists between two tables when a primary key in one table is linked to a foreign key in anoth… The keyed answer is B — One-to-Many."
     },
     "studyTip": "PK→FK pattern usually One-to-Many (one customer, many orders).",
     "source": "offline-deep"
@@ -453,7 +453,7 @@
   "42": {
     "overview": "ACID transaction properties: Atomicity (all or nothing), Consistency (valid state), Isolation (concurrent transactions don't interfere), Durability (committed survives crash).\n\n✅ Answer: A — Atomicity, Consistency, Isolation, Durability",
     "options": {
-      "A": "✓ CORRECT. canonical database transaction acronym.",
+      "A": "✓ CORRECT. 'Atomicity, Consistency, Isolation, Durability' is the correct answer — it directly addresses the specific concept tested in this question in Database.",
       "B": "✗ Not the answer. plausible words but not ACID expansion.",
       "C": "✗ Not the answer. wrong first letters — not ACID.",
       "D": "✗ Not the answer. Integration is wrong third word."
@@ -487,7 +487,7 @@
     "overview": "Deadlock: circular wait — each process holds resource another needs, none can proceed. Requires mutual exclusion, hold-and-wait, no preemption, circular wait (Coffman conditions).\n\n✅ Answer: B — A situation where processes are unable to proceed due to resource conflicts",
     "options": {
       "A": "✗ Not the answer. infinite loop — not deadlock (no resource circular wait).",
-      "B": "✓ CORRECT. classic deadlock definition.",
+      "B": "✓ CORRECT. 'A situation where processes are unable to proceed due to resource conflicts' is the correct answer — it directly addresses the specific concept tested in this question in Operating Systems.",
       "C": "✗ Not the answer. may kill process but not mutual blocking deadlock.",
       "D": "✗ Not the answer. physical fault — unrelated to resource deadlock."
     },
@@ -531,7 +531,7 @@
     "overview": "Software engineering applies systematic, disciplined, quantifiable approaches to develop reliable, efficient, maintainable software — not increasing complexity or skipping testing.\n\n✅ Answer: B — To develop reliable and efficient software systems",
     "options": {
       "A": "✗ Not the answer. goal is manage complexity, not increase it.",
-      "B": "✓ CORRECT. IEEE/SWEBOK aligned primary goal.",
+      "B": "✓ CORRECT. 'To develop reliable and efficient software systems' is the correct answer — it directly addresses the specific concept tested in this question in Software Engineering.",
       "C": "✗ Not the answer. appropriate documentation is essential deliverable.",
       "D": "✗ Not the answer. testing is integral to quality assurance."
     },
@@ -542,7 +542,7 @@
     "overview": "Waterfall model: requirements → design → implementation → testing → maintenance in strict sequential phases with phase gates. Agile/Scrum are iterative; Spiral is risk-driven cycles.\n\n✅ Answer: B — Waterfall",
     "options": {
       "A": "✗ Not the answer. iterative, adaptive — opposite of strict linear sequence.",
-      "B": "✓ CORRECT. linear sequential SDLC model.",
+      "B": "✓ CORRECT. 'Waterfall' is the correct answer — it directly addresses the specific concept tested in this question in Software Engineering.",
       "C": "✗ Not the answer. iterative with explicit risk analysis loops.",
       "D": "✗ Not the answer. agile framework with sprints — not linear waterfall."
     },
@@ -552,7 +552,7 @@
   "51": {
     "overview": "Agile emphasizes iterative/incremental delivery, customer collaboration, responding to change. Fixed requirements and no user involvement contradict Agile Manifesto values.\n\n✅ Answer: B — Iterative and incremental development",
     "options": {
-      "A": "✗ Not the answer. Agile expects evolving requirements.",
+      "A": "✗ Not the answer. 'Fixed requirements throughout the project' does not fit the scenario: What is a key characteristic of the Agile methodology? The keyed answer is B — Iterative and incremental development.",
       "B": "✓ CORRECT. short cycles delivering working software.",
       "C": "✗ Not the answer. Agile requires continuous stakeholder/customer feedback.",
       "D": "✗ Not the answer. multiple iterations/sprints — not one phase."
@@ -574,10 +574,10 @@
   "53": {
     "overview": "Feasibility study evaluates technical, economic, operational, schedule viability before committing resources — answers 'should we proceed?' not how to code.\n\n✅ Answer: B — To assess the viability of a project",
     "options": {
-      "A": "✗ Not the answer. implementation phase activity.",
+      "A": "✗ Not the answer. 'To write code for the project' does not fit the scenario: What is the purpose of a feasibility study in software engineering? The keyed answer is B — To assess the viability of a project.",
       "B": "✓ CORRECT. technical/economic/operational feasibility analysis.",
       "C": "✗ Not the answer. deployment is late SDLC stage.",
-      "D": "✗ Not the answer. verification/validation — separate phase."
+      "D": "✗ Not the answer. 'To test the software' does not fit the scenario: What is the purpose of a feasibility study in software engineering? The keyed answer is B — To assess the viability of a project."
     },
     "studyTip": "Feasibility = can/should we build it? (TEOS: Technical, Economic, Operational, Schedule).",
     "source": "offline-deep"
@@ -587,8 +587,8 @@
     "options": {
       "A": "✗ Not the answer. functional — describes a system capability.",
       "B": "✓ CORRECT. performance NFR — measurable quality constraint.",
-      "C": "✗ Not the answer. functional data storage requirement.",
-      "D": "✗ Not the answer. functional feature requirement."
+      "C": "✗ Not the answer. 'The system must store user data' does not fit the scenario: Which of the following is a non-functional requirement? The keyed answer is B — The system must respond within 2 seconds.",
+      "D": "✗ Not the answer. 'The system must generate reports' does not fit the scenario: Which of the following is a non-functional requirement? The keyed answer is B — The system must respond within 2 seconds."
     },
     "studyTip": "Functional = what system does; Non-functional = how well (quality attributes).",
     "source": "offline-deep"
@@ -621,7 +621,7 @@
       "A": "✗ Not the answer. vague requirements are NOT testable.",
       "B": "✓ CORRECT. can write test cases with pass/fail criteria.",
       "C": "✗ Not the answer. lack of clarity prevents testing.",
-      "D": "✗ Not the answer. incomplete requirements hinder verification."
+      "D": "✗ Not the answer. 'It is incomplete' is a plausible Software Engineering term but not what this stem requires. Compare carefully with B: It is measurable and verifiable."
     },
     "studyTip": "SMART requirements: Specific, Measurable, Achievable, Relevant, Time-bound.",
     "source": "offline-deep"
@@ -651,10 +651,10 @@
   "60": {
     "overview": "Software architecture defines high-level structure (components, connectors), behavior, and quality attribute tradeoffs — blueprint before detailed coding.\n\n✅ Answer: B — To define the system's structure and behavior",
     "options": {
-      "A": "✗ Not the answer. implementation follows architecture.",
-      "B": "✓ CORRECT. components, interactions, constraints.",
+      "A": "✗ Not the answer. 'To write detailed code' does not fit the scenario: What is the role of software architecture in a system? The keyed answer is B — To define the system's structure and behavior.",
+      "B": "✓ CORRECT. 'To define the system's structure and behavior' is the correct answer — it directly addresses the specific concept tested in this question in Software Architecture.",
       "C": "✗ Not the answer. QA activity — separate from architectural definition.",
-      "D": "✗ Not the answer. operations/release management."
+      "D": "✗ Not the answer. 'To deploy the application' does not fit the scenario: What is the role of software architecture in a system? The keyed answer is B — To define the system's structure and behavior."
     },
     "studyTip": "Architecture = structures + behaviors + quality attribute rationale.",
     "source": "offline-deep"
@@ -685,7 +685,7 @@
     "overview": "Quality attributes (non-functional): performance, scalability, availability, security, modifiability. Programming language and team size are project context, not architecture quality attributes.\n\n✅ Answer: B — The system's performance or scalability",
     "options": {
       "A": "✗ Not the answer. technology choice — not ISO 25010 quality attribute.",
-      "B": "✓ CORRECT. classic architectural quality attribute.",
+      "B": "✓ CORRECT. 'The system's performance or scalability' is correct because it matches the specific concept tested in this question. Definition: ability to handle growing load (users, queries, data).",
       "C": "✗ Not the answer. project staffing — not system quality attribute.",
       "D": "✗ Not the answer. management constraint — not architecture quality attribute."
     },
@@ -697,7 +697,7 @@
     "options": {
       "A": "✗ Not the answer. message passing over time — dynamic behavior.",
       "B": "✓ CORRECT. structural view of system classes and relationships.",
-      "C": "✗ Not the answer. workflow/process flow — behavioral.",
+      "C": "✗ Not the answer. 'Activity Diagram' refers to Android screen component with lifecycle callbacks (onCreate, onPause, etc.). The question asks about the specific concept tested in this question. That requires 'Class Diagram' — UML structural diagram showing classes and relationships. These are different concepts; do not confuse them on the exam.",
       "D": "✗ Not the answer. actors and use cases — functional scope, not class structure."
     },
     "studyTip": "Structure → Class/Component; Behavior → Sequence/Activity/State.",
@@ -708,8 +708,8 @@
     "options": {
       "A": "✗ Not the answer. development task — not WBS purpose.",
       "B": "✓ CORRECT. decomposition of scope into work packages.",
-      "C": "✗ Not the answer. QA activity.",
-      "D": "✗ Not the answer. release/operations activity."
+      "C": "✗ Not the answer. 'To test the software' does not fit the scenario: What is the purpose of a Work Breakdown Structure (WBS)? The keyed answer is B — To divide a project into manageable tasks.",
+      "D": "✗ Not the answer. 'To deploy the system' does not fit the scenario: What is the purpose of a Work Breakdown Structure (WBS)? The keyed answer is B — To divide a project into manageable tasks."
     },
     "studyTip": "WBS: 100% rule — sum of work packages equals total project scope.",
     "source": "offline-deep"
@@ -729,9 +729,9 @@
     "overview": "Risk management: identify, analyze, prioritize, plan responses (mitigate, transfer, avoid, accept), monitor throughout project lifecycle.\n\n✅ Answer: B — Identifying and mitigating potential risks",
     "options": {
       "A": "✗ Not the answer. implementation — not risk management.",
-      "B": "✓ CORRECT. core risk management cycle.",
-      "C": "✗ Not the answer. UX design activity.",
-      "D": "✗ Not the answer. QA/data validation activity."
+      "B": "✓ CORRECT. 'Identifying and mitigating potential risks' is the correct answer — it directly addresses the specific concept tested in this question in Project Management.",
+      "C": "✗ Not the answer. 'Designing the user interface' means Java contract of abstract methods — implemented by classes. That answers a different kind of question. Here, the stem points to 'Identifying and mitigating potential risks' instead.",
+      "D": "✗ Not the answer. 'Testing the database' does not fit the scenario: What is a key activity in risk management? The keyed answer is B — Identifying and mitigating potential risks."
     },
     "studyTip": "Risk response: avoid, mitigate, transfer, accept (AMTA mnemonic).",
     "source": "offline-deep"
@@ -751,7 +751,7 @@
     "overview": "Project schedule plans task start/finish dates, milestones, critical path — tracks progress against baseline timeline.\n\n✅ Answer: B — To plan and track project timelines",
     "options": {
       "A": "✗ Not the answer. code documentation — developer activity.",
-      "B": "✓ CORRECT. schedule management purpose.",
+      "B": "✓ CORRECT. 'To plan and track project timelines' is the correct answer — it directly addresses the specific concept tested in this question in Project Management.",
       "C": "✗ Not the answer. QA — separate from scheduling.",
       "D": "✗ Not the answer. infrastructure — not schedule primary focus."
     },
@@ -762,9 +762,9 @@
     "overview": "Unit testing verifies smallest testable units (functions, methods, classes) in isolation, often with mocks/stubs. Integration/system/UI tests cover broader scope.\n\n✅ Answer: B — To test individual components or functions",
     "options": {
       "A": "✗ Not the answer. system testing — whole integrated product.",
-      "B": "✓ CORRECT. unit test definition.",
-      "C": "✗ Not the answer. UI/acceptance testing domain.",
-      "D": "✗ Not the answer. database testing specific layer."
+      "B": "✓ CORRECT. 'To test individual components or functions' is the correct answer — it directly addresses the specific concept tested in this question in Software Testing.",
+      "C": "✗ Not the answer. 'To test the user interface' means Java contract of abstract methods — implemented by classes. That answers a different kind of question. Here, the stem points to 'To test individual components or functions' instead.",
+      "D": "✗ Not the answer. 'To test the database' is a plausible Software Testing term but not what this stem requires. Compare carefully with B: To test individual components or functions."
     },
     "studyTip": "Test pyramid: many unit tests, fewer integration, fewest E2E/system.",
     "source": "offline-deep"
@@ -783,7 +783,7 @@
   "72": {
     "overview": "Test case specifies inputs, execution conditions, expected results to verify specific requirement or behavior — fundamental QA artifact.\n\n✅ Answer: A — A set of conditions to verify a system's functionality",
     "options": {
-      "A": "✓ CORRECT. test case definition.",
+      "A": "✓ CORRECT. 'A set of conditions to verify a system's functionality' is the correct answer — it directly addresses the specific concept tested in this question in Software Testing.",
       "B": "✗ Not the answer. test script automates cases but case is logical specification.",
       "C": "✗ Not the answer. PM document — different purpose.",
       "D": "✗ Not the answer. data model — not test case."
@@ -817,7 +817,7 @@
     "overview": "Software maintenance modifies deployed software after delivery — corrective, adaptive, perfective, preventive — not greenfield development.\n\n✅ Answer: B — Updating and fixing existing software",
     "options": {
       "A": "✗ Not the answer. new development — not maintenance.",
-      "B": "✓ CORRECT. maintenance definition per IEEE.",
+      "B": "✓ CORRECT. 'Updating and fixing existing software' is the correct answer — it directly addresses the specific concept tested in this question in Software Maintenance.",
       "C": "✗ Not the answer. could be part of perfective maintenance but too narrow.",
       "D": "✗ Not the answer. release activity — maintenance follows deployment."
     },
@@ -829,7 +829,7 @@
     "options": {
       "A": "✓ CORRECT. fixes user-reported faults — answer.",
       "B": "✗ Not the answer. adjusts to OS/hardware/regulatory environment changes.",
-      "C": "✗ Not the answer. enhancements and performance improvements.",
+      "C": "✗ Not the answer. 'Perfective maintenance' refers to improves performance or maintainability without fixing a specific fault. The question asks about the specific concept tested in this question. That requires 'Corrective maintenance' — fixes faults/defects discovered after deployment. These are different concepts; do not confuse them on the exam.",
       "D": "✗ Not the answer. refactoring to reduce future failure risk."
     },
     "studyTip": "User bug report → Corrective; OS upgrade compatibility → Adaptive.",
@@ -839,7 +839,7 @@
     "overview": "Refactoring improves internal code structure (readability, design patterns) without changing external observable behavior — key maintenance discipline.\n\n✅ Answer: B — Improving code structure without changing functionality",
     "options": {
       "A": "✗ Not the answer. perfective enhancement — changes functionality.",
-      "B": "✓ CORRECT. refactoring definition (Fowler).",
+      "B": "✓ CORRECT. Refactoring improves internal structure without changing external behavior — not adding features or rewriting for performance alone.",
       "C": "✗ Not the answer. may happen during refactor but not the definition.",
       "D": "✗ Not the answer. verification activity — not refactoring."
     },
@@ -884,7 +884,7 @@
     "options": {
       "A": "✗ Not the answer. MAC addresses, switches, frames — local segment.",
       "B": "✓ CORRECT. IP routing between networks — routers operate here.",
-      "C": "✗ Not the answer. end-to-end segments, TCP/UDP ports.",
+      "C": "✗ Not the answer. Transport layer (L4) provides end-to-end delivery, segmentation, and flow control — not transparency/resource allocation at the application level.",
       "D": "✗ Not the answer. user-facing protocols HTTP, FTP, SMTP."
     },
     "studyTip": "Router = Layer 3; Switch = Layer 2; HTTP = Layer 7.",
@@ -971,7 +971,7 @@
     "overview": "Multi-Factor Authentication (MFA) requires two or more factors: something you know (password), have (token/phone), are (biometric). SSO is single login for multiple apps — different concept.\n\n✅ Answer: B — Multi-Factor Authentication",
     "options": {
       "A": "✗ Not the answer. one login accesses multiple services — convenience, not multi-factor.",
-      "B": "✓ CORRECT. combines independent authentication factors.",
+      "B": "✓ CORRECT. 'Multi-Factor Authentication' is the correct answer — it directly addresses the specific concept tested in this question in Security.",
       "C": "✗ Not the answer. single factor only — something you know.",
       "D": "✗ Not the answer. one factor (something you have) unless combined with password."
     },
@@ -993,7 +993,7 @@
     "overview": "Intelligent agent (Russell & Norvig): entity that perceives environment through sensors and acts through actuators to achieve goals — foundational AI concept.\n\n✅ Answer: B — A system that perceives and acts in an environment",
     "options": {
       "A": "✗ Not the answer. code generation tool — not agent definition.",
-      "B": "✓ CORRECT. canonical agent definition.",
+      "B": "✓ CORRECT. 'A system that perceives and acts in an environment' is the correct answer — it directly addresses the specific concept tested in this question in AI / ML.",
       "C": "✗ Not the answer. stores data — no perception/action loop.",
       "D": "✗ Not the answer. UI presents information — agent includes reasoning/action."
     },
@@ -1047,8 +1047,8 @@
   "96": {
     "overview": "Supervised learning trains on labeled examples (input-output pairs). Unsupervised finds structure in unlabeled data (clustering, dimensionality reduction).\n\n✅ Answer: A — Supervised learning uses labeled data, unsupervised does not",
     "options": {
-      "A": "✓ CORRECT. fundamental ML taxonomy.",
-      "B": "✗ Not the answer. reversed — incorrect.",
+      "A": "✓ CORRECT. Supervised learning trains on labeled input–output pairs — classification and regression are supervised tasks.",
+      "B": "✗ Not the answer. Supervised learning trains on labeled input–output pairs — classification and regression are supervised tasks.",
       "C": "✗ Not the answer. speed depends on algorithm/data — not defining difference.",
       "D": "✗ Not the answer. data requirements vary — not the core distinction."
     },
@@ -1070,7 +1070,7 @@
     "overview": "Overfitting: model learns training data too closely including noise — high training accuracy but poor generalization on new test data. Underfitting is too simple; good generalization is goal.\n\n✅ Answer: B — When a model is too complex and fits noise in the training data",
     "options": {
       "A": "✗ Not the answer. that describes good generalization — opposite of overfitting.",
-      "B": "✓ CORRECT. overfitting definition.",
+      "B": "✓ CORRECT. 'When a model is too complex and fits noise in the training data' is the correct answer — it directly addresses the specific concept tested in this question in AI / ML.",
       "C": "✗ Not the answer. underfitting — high bias, can't capture pattern.",
       "D": "✗ Not the answer. training failure/error — different from overfitting."
     },
@@ -1083,7 +1083,7 @@
       "A": "✗ Not the answer. unsupervised grouping without predefined labels.",
       "B": "✓ CORRECT. supervised learning with labeled price targets.",
       "C": "✗ Not the answer. unsupervised (PCA) or feature engineering — not supervised task label.",
-      "D": "✗ Not the answer. unsupervised learning definition."
+      "D": "✗ Not the answer. 'Finding patterns in unlabeled data' does not fit the scenario: Which of the following is a supervised learning task? The keyed answer is B — Predicting house prices based on features."
     },
     "studyTip": "Supervised = labeled targets; Unsupervised = no labels.",
     "source": "offline-deep"

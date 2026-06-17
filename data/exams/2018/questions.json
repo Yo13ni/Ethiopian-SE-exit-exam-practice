@@ -3,7 +3,7 @@
   "source": "Pattern-based prediction from 2015–2017 exams + MoEE blueprint / Exit Notes",
   "total": 100,
   "timeLimitHours": 3,
-  "dataRevision": 1,
+  "dataRevision": 2,
   "predicted": true,
   "focusGuide": {
     "Fundamentals of Programming": "Loops, operators, debugging, paradigms, and basic programming concepts.",
@@ -47,7 +47,8 @@
       "answer": "C",
       "concept": "Key idea (Fundamentals of Programming): Valid identifiers start with letter or underscore",
       "examNumber": 1,
-      "id": 1
+      "id": 1,
+      "cognitiveLevel": "Understanding"
     },
     {
       "topic": "Fundamentals of Programming",
@@ -73,7 +74,8 @@
       "answer": "B",
       "concept": "Key idea (Fundamentals of Programming): Breakpoint pauses execution for inspection",
       "examNumber": 2,
-      "id": 2
+      "id": 2,
+      "cognitiveLevel": "Evaluation"
     },
     {
       "topic": "Fundamentals of Programming",
@@ -99,7 +101,8 @@
       "answer": "B",
       "concept": "Key idea (Fundamentals of Programming): Procedural paradigm",
       "examNumber": 3,
-      "id": 3
+      "id": 3,
+      "cognitiveLevel": "Understanding"
     },
     {
       "topic": "Fundamentals of Programming",
@@ -125,7 +128,8 @@
       "answer": "B",
       "concept": "Key idea (Fundamentals of Programming): Compiler translates whole program first",
       "examNumber": 4,
-      "id": 4
+      "id": 4,
+      "cognitiveLevel": "Understanding"
     },
     {
       "topic": "Fundamentals of Programming",
@@ -151,7 +155,8 @@
       "answer": "C",
       "concept": "Key idea (Fundamentals of Programming): Syntax errors caught at compile time",
       "examNumber": 5,
-      "id": 5
+      "id": 5,
+      "cognitiveLevel": "Understanding"
     },
     {
       "topic": "C++",
@@ -177,7 +182,8 @@
       "answer": "A",
       "concept": "Key idea (C++): Loop prints 0, 1, 2",
       "examNumber": 6,
-      "id": 6
+      "id": 6,
+      "cognitiveLevel": "Application"
     },
     {
       "topic": "C++",
@@ -203,7 +209,8 @@
       "answer": "C",
       "concept": "Key idea (C++): Identifiers cannot start with a digit",
       "examNumber": 7,
-      "id": 7
+      "id": 7,
+      "cognitiveLevel": "Remembering"
     },
     {
       "topic": "C++",
@@ -229,7 +236,8 @@
       "answer": "B",
       "concept": "Key idea (C++): new operator in C++",
       "examNumber": 8,
-      "id": 8
+      "id": 8,
+      "cognitiveLevel": "Remembering"
     },
     {
       "topic": "C++",
@@ -255,7 +263,8 @@
       "answer": "B",
       "concept": "Key idea (C++): iostream for cout",
       "examNumber": 9,
-      "id": 9
+      "id": 9,
+      "cognitiveLevel": "Remembering"
     },
     {
       "topic": "Data Structures",
@@ -281,7 +290,8 @@
       "answer": "B",
       "concept": "Key idea (Data Structures): Stack is LIFO",
       "examNumber": 10,
-      "id": 10
+      "id": 10,
+      "cognitiveLevel": "Remembering"
     },
     {
       "topic": "Data Structures",
@@ -307,7 +317,8 @@
       "answer": "A",
       "concept": "Key idea (Data Structures): Hash table average O(1) lookup",
       "examNumber": 11,
-      "id": 11
+      "id": 11,
+      "cognitiveLevel": "Analysis"
     },
     {
       "topic": "Data Structures",
@@ -333,7 +344,8 @@
       "answer": "C",
       "concept": "Key idea (Data Structures): Hash table for insert/delete/lookup",
       "examNumber": 12,
-      "id": 12
+      "id": 12,
+      "cognitiveLevel": "Remembering"
     },
     {
       "topic": "Data Structures",
@@ -359,7 +371,8 @@
       "answer": "B",
       "concept": "Key idea (Data Structures): BFS uses a queue",
       "examNumber": 13,
-      "id": 13
+      "id": 13,
+      "cognitiveLevel": "Remembering"
     },
     {
       "topic": "Data Structures",
@@ -385,7 +398,8 @@
       "answer": "B",
       "concept": "Key idea (Data Structures): Binary search O(log n)",
       "examNumber": 14,
-      "id": 14
+      "id": 14,
+      "cognitiveLevel": "Analysis"
     },
     {
       "topic": "Data Structures",
@@ -411,7 +425,8 @@
       "answer": "C",
       "concept": "Key idea (Data Structures): Bubble sort O(n²)",
       "examNumber": 15,
-      "id": 15
+      "id": 15,
+      "cognitiveLevel": "Application"
     },
     {
       "topic": "Java / OOP",
@@ -437,7 +452,8 @@
       "answer": "B",
       "concept": "Key idea (Java / OOP): Encapsulation hides state",
       "examNumber": 16,
-      "id": 16
+      "id": 16,
+      "cognitiveLevel": "Remembering"
     },
     {
       "topic": "Java / OOP",
@@ -463,7 +479,8 @@
       "answer": "B",
       "concept": "Key idea (Java / OOP): Abstract class",
       "examNumber": 17,
-      "id": 17
+      "id": 17,
+      "cognitiveLevel": "Understanding"
     },
     {
       "topic": "Java / OOP",
@@ -489,7 +506,8 @@
       "answer": "B",
       "concept": "Key idea (Java / OOP): final methods cannot be overridden",
       "examNumber": 18,
-      "id": 18
+      "id": 18,
+      "cognitiveLevel": "Remembering"
     },
     {
       "topic": "Java / OOP",
@@ -515,7 +533,8 @@
       "answer": "A",
       "concept": "Key idea (Java / OOP): Polymorphism — one interface many forms",
       "examNumber": 19,
-      "id": 19
+      "id": 19,
+      "cognitiveLevel": "Understanding"
     },
     {
       "topic": "Java / OOP",
@@ -541,7 +560,8 @@
       "answer": "B",
       "concept": "Key idea (Java / OOP): Single catch execution per try",
       "examNumber": 20,
-      "id": 20
+      "id": 20,
+      "cognitiveLevel": "Remembering"
     },
     {
       "topic": "Java / OOP",
@@ -567,7 +587,8 @@
       "answer": "A",
       "concept": "Key idea (Java / OOP): Multiple interface implementation",
       "examNumber": 21,
-      "id": 21
+      "id": 21,
+      "cognitiveLevel": "Remembering"
     },
     {
       "topic": "Web Development",
@@ -593,7 +614,8 @@
       "answer": "B",
       "concept": "Key idea (Web Development): POST for form/credential submission",
       "examNumber": 22,
-      "id": 22
+      "id": 22,
+      "cognitiveLevel": "Evaluation"
     },
     {
       "topic": "Web Development",
@@ -619,7 +641,8 @@
       "answer": "B",
       "concept": "Key idea (Web Development): 404 Not Found",
       "examNumber": 23,
-      "id": 23
+      "id": 23,
+      "cognitiveLevel": "Remembering"
     },
     {
       "topic": "Web Development",
@@ -645,7 +668,8 @@
       "answer": "C",
       "concept": "Key idea (Web Development): JavaScript for interactivity",
       "examNumber": 24,
-      "id": 24
+      "id": 24,
+      "cognitiveLevel": "Remembering"
     },
     {
       "topic": "Web Development",
@@ -671,7 +695,8 @@
       "answer": "B",
       "concept": "Key idea (Web Development): AJAX asynchronous partial updates",
       "examNumber": 25,
-      "id": 25
+      "id": 25,
+      "cognitiveLevel": "Understanding"
     },
     {
       "topic": "Web Development",
@@ -697,7 +722,8 @@
       "answer": "B",
       "concept": "Key idea (Web Development): # for id selector",
       "examNumber": 26,
-      "id": 26
+      "id": 26,
+      "cognitiveLevel": "Remembering"
     },
     {
       "topic": "Web Development",
@@ -723,7 +749,8 @@
       "answer": "B",
       "concept": "Key idea (Web Development): HTTPS adds TLS encryption",
       "examNumber": 27,
-      "id": 27
+      "id": 27,
+      "cognitiveLevel": "Understanding"
     },
     {
       "topic": "Web Development",
@@ -749,7 +776,8 @@
       "answer": "B",
       "concept": "Key idea (Web Development): h1 is largest heading",
       "examNumber": 28,
-      "id": 28
+      "id": 28,
+      "cognitiveLevel": "Remembering"
     },
     {
       "topic": "Android",
@@ -775,7 +803,8 @@
       "answer": "B",
       "concept": "Key idea (Android): Activity = screen UI",
       "examNumber": 29,
-      "id": 29
+      "id": 29,
+      "cognitiveLevel": "Remembering"
     },
     {
       "topic": "Android",
@@ -801,7 +830,8 @@
       "answer": "B",
       "concept": "Key idea (Android): Intent requests actions",
       "examNumber": 30,
-      "id": 30
+      "id": 30,
+      "cognitiveLevel": "Remembering"
     },
     {
       "topic": "Android",
@@ -827,7 +857,8 @@
       "answer": "B",
       "concept": "Key idea (Android): AndroidManifest.xml",
       "examNumber": 31,
-      "id": 31
+      "id": 31,
+      "cognitiveLevel": "Remembering"
     },
     {
       "topic": "Android",
@@ -853,7 +884,8 @@
       "answer": "A",
       "concept": "Key idea (Android): Android Package Kit",
       "examNumber": 32,
-      "id": 32
+      "id": 32,
+      "cognitiveLevel": "Remembering"
     },
     {
       "topic": "Android",
@@ -879,7 +911,8 @@
       "answer": "B",
       "concept": "Key idea (Android): ViewGroup for layouts",
       "examNumber": 33,
-      "id": 33
+      "id": 33,
+      "cognitiveLevel": "Remembering"
     },
     {
       "topic": "Database",
@@ -905,7 +938,8 @@
       "answer": "B",
       "concept": "Key idea (Database): 2NF removes partial dependencies",
       "examNumber": 34,
-      "id": 34
+      "id": 34,
+      "cognitiveLevel": "Remembering"
     },
     {
       "topic": "Database",
@@ -931,7 +965,8 @@
       "answer": "B",
       "concept": "Key idea (Database): HAVING filters groups",
       "examNumber": 35,
-      "id": 35
+      "id": 35,
+      "cognitiveLevel": "Remembering"
     },
     {
       "topic": "Database",
@@ -957,7 +992,8 @@
       "answer": "B",
       "concept": "Key idea (Database): Primary key unique and NOT NULL",
       "examNumber": 36,
-      "id": 36
+      "id": 36,
+      "cognitiveLevel": "Understanding"
     },
     {
       "topic": "Database",
@@ -983,7 +1019,8 @@
       "answer": "A",
       "concept": "Key idea (Database): Atomicity all-or-nothing",
       "examNumber": 37,
-      "id": 37
+      "id": 37,
+      "cognitiveLevel": "Remembering"
     },
     {
       "topic": "Database",
@@ -1009,7 +1046,8 @@
       "answer": "C",
       "concept": "Key idea (Database): SELECT * FROM Students",
       "examNumber": 38,
-      "id": 38
+      "id": 38,
+      "cognitiveLevel": "Remembering"
     },
     {
       "topic": "Database",
@@ -1035,7 +1073,8 @@
       "answer": "B",
       "concept": "Key idea (Database): Relationship models association",
       "examNumber": 39,
-      "id": 39
+      "id": 39,
+      "cognitiveLevel": "Analysis"
     },
     {
       "topic": "Operating Systems",
@@ -1061,7 +1100,8 @@
       "answer": "B",
       "concept": "Key idea (Operating Systems): Ready state waits for CPU",
       "examNumber": 40,
-      "id": 40
+      "id": 40,
+      "cognitiveLevel": "Remembering"
     },
     {
       "topic": "Operating Systems",
@@ -1087,7 +1127,8 @@
       "answer": "B",
       "concept": "Key idea (Operating Systems): Mutual exclusion",
       "examNumber": 41,
-      "id": 41
+      "id": 41,
+      "cognitiveLevel": "Remembering"
     },
     {
       "topic": "Operating Systems",
@@ -1113,7 +1154,8 @@
       "answer": "A",
       "concept": "Key idea (Operating Systems): FIFO Belady anomaly",
       "examNumber": 42,
-      "id": 42
+      "id": 42,
+      "cognitiveLevel": "Remembering"
     },
     {
       "topic": "Operating Systems",
@@ -1139,7 +1181,8 @@
       "answer": "B",
       "concept": "Key idea (Operating Systems): Virtual memory extends address space",
       "examNumber": 43,
-      "id": 43
+      "id": 43,
+      "cognitiveLevel": "Understanding"
     },
     {
       "topic": "Operating Systems",
@@ -1165,7 +1208,8 @@
       "answer": "C",
       "concept": "Key idea (Operating Systems): Priority scheduling starvation",
       "examNumber": 44,
-      "id": 44
+      "id": 44,
+      "cognitiveLevel": "Remembering"
     },
     {
       "topic": "Operating Systems",
@@ -1191,7 +1235,8 @@
       "answer": "A",
       "concept": "Key idea (Operating Systems): Break any deadlock condition",
       "examNumber": 45,
-      "id": 45
+      "id": 45,
+      "cognitiveLevel": "Remembering"
     },
     {
       "topic": "Software Engineering",
@@ -1217,7 +1262,8 @@
       "answer": "B",
       "concept": "Key idea (Software Engineering): Agile iterative delivery",
       "examNumber": 46,
-      "id": 46
+      "id": 46,
+      "cognitiveLevel": "Remembering"
     },
     {
       "topic": "Software Engineering",
@@ -1243,7 +1289,8 @@
       "answer": "B",
       "concept": "Key idea (Software Engineering): Non-functional requirements",
       "examNumber": 47,
-      "id": 47
+      "id": 47,
+      "cognitiveLevel": "Understanding"
     },
     {
       "topic": "Software Engineering",
@@ -1269,7 +1316,8 @@
       "answer": "C",
       "concept": "Key idea (Software Engineering): Corrective maintenance",
       "examNumber": 48,
-      "id": 48
+      "id": 48,
+      "cognitiveLevel": "Remembering"
     },
     {
       "topic": "Software Engineering",
@@ -1295,7 +1343,8 @@
       "answer": "B",
       "concept": "Key idea (Software Engineering): Code smell signals design issue",
       "examNumber": 49,
-      "id": 49
+      "id": 49,
+      "cognitiveLevel": "Creation/Synthesis"
     },
     {
       "topic": "Software Engineering",
@@ -1321,7 +1370,8 @@
       "answer": "A",
       "concept": "Key idea (Software Engineering): Refactoring preserves behavior",
       "examNumber": 50,
-      "id": 50
+      "id": 50,
+      "cognitiveLevel": "Understanding"
     },
     {
       "topic": "Software Engineering",
@@ -1347,7 +1397,8 @@
       "answer": "B",
       "concept": "Key idea (Software Engineering): Testable requirement",
       "examNumber": 51,
-      "id": 51
+      "id": 51,
+      "cognitiveLevel": "Remembering"
     },
     {
       "topic": "Software Engineering",
@@ -1373,7 +1424,8 @@
       "answer": "B",
       "concept": "Key idea (Software Engineering): Spiral model risk-driven",
       "examNumber": 52,
-      "id": 52
+      "id": 52,
+      "cognitiveLevel": "Understanding"
     },
     {
       "topic": "Software Engineering",
@@ -1399,7 +1451,8 @@
       "answer": "B",
       "concept": "Key idea (Software Engineering): Elicitation discovers needs",
       "examNumber": 53,
-      "id": 53
+      "id": 53,
+      "cognitiveLevel": "Remembering"
     },
     {
       "topic": "Software Engineering",
@@ -1425,7 +1478,8 @@
       "answer": "B",
       "concept": "Key idea (Software Engineering): Controlled change management",
       "examNumber": 54,
-      "id": 54
+      "id": 54,
+      "cognitiveLevel": "Understanding"
     },
     {
       "topic": "Software Engineering",
@@ -1451,7 +1505,8 @@
       "answer": "B",
       "concept": "Key idea (Software Engineering): Technical debt future rework cost",
       "examNumber": 55,
-      "id": 55
+      "id": 55,
+      "cognitiveLevel": "Remembering"
     },
     {
       "topic": "Software Engineering",
@@ -1477,7 +1532,8 @@
       "answer": "B",
       "concept": "Key idea (Software Engineering): Requirements specify what",
       "examNumber": 56,
-      "id": 56
+      "id": 56,
+      "cognitiveLevel": "Understanding"
     },
     {
       "topic": "Software Engineering",
@@ -1503,7 +1559,8 @@
       "answer": "B",
       "concept": "Key idea (Software Engineering): Preventive maintenance proactive",
       "examNumber": 57,
-      "id": 57
+      "id": 57,
+      "cognitiveLevel": "Understanding"
     },
     {
       "topic": "Software Engineering",
@@ -1529,7 +1586,8 @@
       "answer": "A",
       "concept": "Key idea (Software Engineering): Coupling inter-module dependency",
       "examNumber": 58,
-      "id": 58
+      "id": 58,
+      "cognitiveLevel": "Understanding"
     },
     {
       "topic": "Software Engineering",
@@ -1555,7 +1613,8 @@
       "answer": "A",
       "concept": "Key idea (Software Engineering): Cohesion intra-module unity",
       "examNumber": 59,
-      "id": 59
+      "id": 59,
+      "cognitiveLevel": "Understanding"
     },
     {
       "topic": "Software Engineering",
@@ -1581,7 +1640,8 @@
       "answer": "B",
       "concept": "Key idea (Software Engineering): Password reset is functional",
       "examNumber": 60,
-      "id": 60
+      "id": 60,
+      "cognitiveLevel": "Remembering"
     },
     {
       "topic": "Software Engineering",
@@ -1607,7 +1667,8 @@
       "answer": "B",
       "concept": "Key idea (Software Engineering): Reengineering improves existing system",
       "examNumber": 61,
-      "id": 61
+      "id": 61,
+      "cognitiveLevel": "Understanding"
     },
     {
       "topic": "Software Architecture",
@@ -1633,7 +1694,8 @@
       "answer": "B",
       "concept": "Key idea (Software Architecture): Microservices architecture",
       "examNumber": 62,
-      "id": 62
+      "id": 62,
+      "cognitiveLevel": "Creation/Synthesis"
     },
     {
       "topic": "Software Architecture",
@@ -1659,7 +1721,8 @@
       "answer": "B",
       "concept": "Key idea (Software Architecture): API gateway routes requests",
       "examNumber": 63,
-      "id": 63
+      "id": 63,
+      "cognitiveLevel": "Creation/Synthesis"
     },
     {
       "topic": "Software Architecture",
@@ -1685,7 +1748,8 @@
       "answer": "A",
       "concept": "Key idea (Software Architecture): Scalability under load",
       "examNumber": 64,
-      "id": 64
+      "id": 64,
+      "cognitiveLevel": "Creation/Synthesis"
     },
     {
       "topic": "Software Architecture",
@@ -1711,7 +1775,8 @@
       "answer": "B",
       "concept": "Key idea (Software Architecture): Layered hierarchical structure",
       "examNumber": 65,
-      "id": 65
+      "id": 65,
+      "cognitiveLevel": "Creation/Synthesis"
     },
     {
       "topic": "Software Architecture",
@@ -1737,7 +1802,8 @@
       "answer": "B",
       "concept": "Key idea (Software Architecture): Singleton one instance",
       "examNumber": 66,
-      "id": 66
+      "id": 66,
+      "cognitiveLevel": "Creation/Synthesis"
     },
     {
       "topic": "Project Management",
@@ -1763,7 +1829,8 @@
       "answer": "A",
       "concept": "Key idea (Project Management): WBS decomposes work",
       "examNumber": 67,
-      "id": 67
+      "id": 67,
+      "cognitiveLevel": "Understanding"
     },
     {
       "topic": "Project Management",
@@ -1789,7 +1856,8 @@
       "answer": "A",
       "concept": "Key idea (Project Management): Critical path minimum duration",
       "examNumber": 68,
-      "id": 68
+      "id": 68,
+      "cognitiveLevel": "Understanding"
     },
     {
       "topic": "Project Management",
@@ -1815,7 +1883,8 @@
       "answer": "B",
       "concept": "Key idea (Project Management): Agile values responding to change",
       "examNumber": 69,
-      "id": 69
+      "id": 69,
+      "cognitiveLevel": "Creation/Synthesis"
     },
     {
       "topic": "Project Management",
@@ -1841,7 +1910,8 @@
       "answer": "B",
       "concept": "Key idea (Project Management): Resource leveling resolves over-allocation",
       "examNumber": 70,
-      "id": 70
+      "id": 70,
+      "cognitiveLevel": "Understanding"
     },
     {
       "topic": "Project Management",
@@ -1867,7 +1937,8 @@
       "answer": "B",
       "concept": "Key idea (Project Management): ROI financial return vs cost",
       "examNumber": 71,
-      "id": 71
+      "id": 71,
+      "cognitiveLevel": "Understanding"
     },
     {
       "topic": "Project Management",
@@ -1893,7 +1964,8 @@
       "answer": "B",
       "concept": "Key idea (Project Management): Tuckman team stages",
       "examNumber": 72,
-      "id": 72
+      "id": 72,
+      "cognitiveLevel": "Understanding"
     },
     {
       "topic": "Software Testing",
@@ -1919,7 +1991,8 @@
       "answer": "B",
       "concept": "Key idea (Software Testing): Integration testing module interactions",
       "examNumber": 73,
-      "id": 73
+      "id": 73,
+      "cognitiveLevel": "Remembering"
     },
     {
       "topic": "Software Testing",
@@ -1945,7 +2018,8 @@
       "answer": "B",
       "concept": "Key idea (Software Testing): Black-box I/O behavior",
       "examNumber": 74,
-      "id": 74
+      "id": 74,
+      "cognitiveLevel": "Understanding"
     },
     {
       "topic": "Software Testing",
@@ -1971,7 +2045,8 @@
       "answer": "B",
       "concept": "Key idea (Software Testing): Equivalence partitioning input classes",
       "examNumber": 75,
-      "id": 75
+      "id": 75,
+      "cognitiveLevel": "Understanding"
     },
     {
       "topic": "Software Testing",
@@ -1997,7 +2072,8 @@
       "answer": "A",
       "concept": "Key idea (Software Testing): Validation — right product",
       "examNumber": 76,
-      "id": 76
+      "id": 76,
+      "cognitiveLevel": "Remembering"
     },
     {
       "topic": "Software Testing",
@@ -2023,7 +2099,8 @@
       "answer": "B",
       "concept": "Key idea (Software Testing): Regression detects new breakage",
       "examNumber": 77,
-      "id": 77
+      "id": 77,
+      "cognitiveLevel": "Understanding"
     },
     {
       "topic": "Networking",
@@ -2049,7 +2126,8 @@
       "answer": "C",
       "concept": "Key idea (Networking): Network layer routing",
       "examNumber": 78,
-      "id": 78
+      "id": 78,
+      "cognitiveLevel": "Remembering"
     },
     {
       "topic": "Networking",
@@ -2075,7 +2153,8 @@
       "answer": "B",
       "concept": "Key idea (Networking): Switch at Layer 2",
       "examNumber": 79,
-      "id": 79
+      "id": 79,
+      "cognitiveLevel": "Remembering"
     },
     {
       "topic": "Networking",
@@ -2101,7 +2180,8 @@
       "answer": "C",
       "concept": "Key idea (Networking): Mesh high redundancy",
       "examNumber": 80,
-      "id": 80
+      "id": 80,
+      "cognitiveLevel": "Remembering"
     },
     {
       "topic": "Networking",
@@ -2127,7 +2207,8 @@
       "answer": "A",
       "concept": "Key idea (Networking): UDP connectionless best-effort",
       "examNumber": 81,
-      "id": 81
+      "id": 81,
+      "cognitiveLevel": "Understanding"
     },
     {
       "topic": "Networking",
@@ -2153,7 +2234,8 @@
       "answer": "B",
       "concept": "Key idea (Networking): TCP three-way handshake",
       "examNumber": 82,
-      "id": 82
+      "id": 82,
+      "cognitiveLevel": "Understanding"
     },
     {
       "topic": "Networking",
@@ -2179,7 +2261,8 @@
       "answer": "B",
       "concept": "Key idea (Networking): DNS name to IP",
       "examNumber": 83,
-      "id": 83
+      "id": 83,
+      "cognitiveLevel": "Remembering"
     },
     {
       "topic": "Networking",
@@ -2205,7 +2288,8 @@
       "answer": "C",
       "concept": "Key idea (Networking): Router connects networks",
       "examNumber": 84,
-      "id": 84
+      "id": 84,
+      "cognitiveLevel": "Remembering"
     },
     {
       "topic": "Security",
@@ -2231,7 +2315,8 @@
       "answer": "A",
       "concept": "Key idea (Security): CIA — Availability",
       "examNumber": 85,
-      "id": 85
+      "id": 85,
+      "cognitiveLevel": "Remembering"
     },
     {
       "topic": "Security",
@@ -2257,7 +2342,8 @@
       "answer": "A",
       "concept": "Key idea (Security): AES for data at rest",
       "examNumber": 86,
-      "id": 86
+      "id": 86,
+      "cognitiveLevel": "Remembering"
     },
     {
       "topic": "Security",
@@ -2283,7 +2369,8 @@
       "answer": "A",
       "concept": "Key idea (Security): XSS injects scripts",
       "examNumber": 87,
-      "id": 87
+      "id": 87,
+      "cognitiveLevel": "Understanding"
     },
     {
       "topic": "Security",
@@ -2309,7 +2396,8 @@
       "answer": "B",
       "concept": "Key idea (Security): Firewall filters traffic",
       "examNumber": 88,
-      "id": 88
+      "id": 88,
+      "cognitiveLevel": "Understanding"
     },
     {
       "topic": "Security",
@@ -2335,7 +2423,8 @@
       "answer": "B",
       "concept": "Key idea (Security): MFA multiple factors",
       "examNumber": 89,
-      "id": 89
+      "id": 89,
+      "cognitiveLevel": "Understanding"
     },
     {
       "topic": "Security",
@@ -2361,7 +2450,8 @@
       "answer": "A",
       "concept": "Key idea (Security): Ransomware encryption extortion",
       "examNumber": 90,
-      "id": 90
+      "id": 90,
+      "cognitiveLevel": "Understanding"
     },
     {
       "topic": "Security",
@@ -2387,7 +2477,8 @@
       "answer": "B",
       "concept": "Key idea (Security): Hashing for integrity",
       "examNumber": 91,
-      "id": 91
+      "id": 91,
+      "cognitiveLevel": "Understanding"
     },
     {
       "topic": "AI / ML",
@@ -2413,7 +2504,8 @@
       "answer": "B",
       "concept": "Key idea (AI / ML): Supervised learning labeled data",
       "examNumber": 92,
-      "id": 92
+      "id": 92,
+      "cognitiveLevel": "Remembering"
     },
     {
       "topic": "AI / ML",
@@ -2439,7 +2531,8 @@
       "answer": "B",
       "concept": "Key idea (AI / ML): A* uses heuristic",
       "examNumber": 93,
-      "id": 93
+      "id": 93,
+      "cognitiveLevel": "Understanding"
     },
     {
       "topic": "AI / ML",
@@ -2465,7 +2558,8 @@
       "answer": "B",
       "concept": "Key idea (AI / ML): K-means clustering",
       "examNumber": 94,
-      "id": 94
+      "id": 94,
+      "cognitiveLevel": "Understanding"
     },
     {
       "topic": "AI / ML",
@@ -2491,7 +2585,8 @@
       "answer": "B",
       "concept": "Key idea (AI / ML): BFS shallowest first",
       "examNumber": 95,
-      "id": 95
+      "id": 95,
+      "cognitiveLevel": "Remembering"
     },
     {
       "topic": "AI / ML",
@@ -2517,7 +2612,8 @@
       "answer": "A",
       "concept": "Key idea (AI / ML): Agent sensors and actuators",
       "examNumber": 96,
-      "id": 96
+      "id": 96,
+      "cognitiveLevel": "Understanding"
     },
     {
       "topic": "AI / ML",
@@ -2543,7 +2639,8 @@
       "answer": "A",
       "concept": "Key idea (AI / ML): Decision trees classification/regression",
       "examNumber": 97,
-      "id": 97
+      "id": 97,
+      "cognitiveLevel": "Understanding"
     },
     {
       "topic": "AI / ML",
@@ -2569,7 +2666,8 @@
       "answer": "A",
       "concept": "Key idea (AI / ML): Overfitting poor generalization",
       "examNumber": 98,
-      "id": 98
+      "id": 98,
+      "cognitiveLevel": "Understanding"
     },
     {
       "topic": "AI / ML",
@@ -2595,7 +2693,8 @@
       "answer": "A",
       "concept": "Key idea (AI / ML): Expert systems rule bases",
       "examNumber": 99,
-      "id": 99
+      "id": 99,
+      "cognitiveLevel": "Understanding"
     },
     {
       "topic": "AI / ML",
@@ -2621,7 +2720,8 @@
       "answer": "B",
       "concept": "Key idea (AI / ML): UCS by path cost",
       "examNumber": 100,
-      "id": 100
+      "id": 100,
+      "cognitiveLevel": "Understanding"
     }
   ]
 }

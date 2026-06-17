@@ -157,7 +157,7 @@
     "overview": "In ER modeling, cardinality ratio (1:1, 1:N, M:N) states how many entities on one side relate to the other. Participation constraints are optional/mandatory membership; degree counts relationship arity.\n\n✅ Answer: A — Cardinality ratio",
     "options": {
       "A": "✓ CORRECT. Cardinality ratio directly answers 'how many associated entities'.",
-      "B": "✗ Not the answer. Not standard terminology.",
+      "B": "✗ Not the answer. 'Limited ratio' does not fit the scenario: For a binary relationship set R between entity sets A and B, the ______ expresses the number of entities to which anothe… The keyed answer is A — Cardinality ratio.",
       "C": "✗ Not the answer. Degree of relationship is number of participating entity sets (binary vs ternary).",
       "D": "✗ Not the answer. Participation (total/partial) differs from numeric cardinality."
     },
@@ -379,7 +379,7 @@
       "A": "✗ Not the answer. Perfective adds user-visible features, not environment tracking.",
       "B": "✓ CORRECT. Adaptive matches evolving external environment—answer.",
       "C": "✗ Not the answer. Preventive reduces future failures (refactoring, docs).",
-      "D": "✗ Not the answer. Corrective repairs discovered bugs."
+      "D": "✗ Not the answer. 'Corrective maintenance' represents fixes faults/defects discovered after deployment. This question tests the specific concept tested in this question. That requires 'Adaptive maintenance' (adapts software to environmental changes (OS, regulations)), not 'Corrective maintenance'."
     },
     "studyTip": "Environment-driven changes → adaptive maintenance (B).",
     "source": "offline-deep"
@@ -411,7 +411,7 @@
     "options": {
       "A": "✗ Not the answer. Deque allows both ends; not the narrow front-delete rear-insert definition.",
       "B": "✗ Not the answer. BST is ordered tree, not FIFO policy.",
-      "C": "✓ CORRECT. Queue matches FIFO operations.",
+      "C": "✓ CORRECT. A queue is a linear FIFO structure — elements enter at rear and leave at front; not hierarchical like a tree.",
       "D": "✗ Not the answer. Stack deletes from same end it inserts (top)."
     },
     "studyTip": "Delete front, insert rear → queue (C).",
@@ -520,8 +520,8 @@
     "overview": "Modern threat landscape combines DDoS, malware, phishing, password attacks, and drive-by downloads. Comprehensive lists choose All of the above.\n\n✅ Answer: D — All of the above",
     "options": {
       "A": "✗ Not the answer. Partial list only—exam wants completeness.",
-      "B": "✗ Not the answer. Partial list only.",
-      "C": "✗ Not the answer. Partial list only.",
+      "B": "✗ Not the answer. 'Malware and malvertising' does not fit the scenario: Which are famous common cyber-attacks used to infiltrate user systems? The keyed answer is D — All of the above.",
+      "C": "✗ Not the answer. 'Phishing and password attacks' does not fit the scenario: Which are famous common cyber-attacks used to infiltrate user systems? The keyed answer is D — All of the above.",
       "D": "✓ CORRECT. All named attack families are common in curricula and incident reports."
     },
     "studyTip": "Common cyber-attacks question → All of the above (D).",
@@ -586,7 +586,7 @@
     "overview": "Binary search halves the search space each step → O(log n) comparisons in sorted arrays.\n\n✅ Answer: D — O(log n)",
     "options": {
       "A": "✗ Not the answer. O(1) would mean constant regardless of n—false.",
-      "B": "✗ Not the answer. O(n) is linear scan.",
+      "B": "✗ Not the answer. O(n) means linear growth dominates. Linear terms (n, 2n) exist here but are overshadowed by the n² term.",
       "C": "✗ Not the answer. O(n log n) is merge sort class.",
       "D": "✓ CORRECT. O(log n) is correct for binary search."
     },
@@ -596,9 +596,9 @@
   "55": {
     "overview": "Activity lifecycle callbacks: onCreate, onStart, onResume, onPause, onStop, onDestroy. onClick is UI event handler, not lifecycle.\n\n✅ Answer: B — onClick()",
     "options": {
-      "A": "✗ Not the answer. onStart is lifecycle.",
+      "A": "✗ Not the answer. 'onStart()' does not fit the scenario: Which of the following is NOT an Activity lifecycle callback method in Android? The keyed answer is B — onClick().",
       "B": "✓ CORRECT. onClick handles button clicks—NOT lifecycle callback.",
-      "C": "✗ Not the answer. onCreate is lifecycle.",
+      "C": "✗ Not the answer. 'onCreate()' does not fit the scenario: Which of the following is NOT an Activity lifecycle callback method in Android? The keyed answer is B — onClick().",
       "D": "✗ Not the answer. onBackPressed/onDestroy relate to lifecycle/navigation."
     },
     "studyTip": "NOT lifecycle method → onClick (B).",
@@ -662,7 +662,7 @@
   "61": {
     "overview": "Unix/Linux fork() clones process; child may exec new program. exec replaces image; yield cooperates scheduling.\n\n✅ Answer: D — fork()",
     "options": {
-      "A": "✗ Not the answer. yield() donates CPU slice.",
+      "A": "✗ Not the answer. 'yield()' does not fit the scenario: In Linux, a process creates a child process using which system call? The keyed answer is D — fork().",
       "B": "✗ Not the answer. exec() replaces program after fork.",
       "C": "✗ Not the answer. init is first process PID 1, not child creation API.",
       "D": "✓ CORRECT. fork() creates child process—Linux answer."
@@ -673,7 +673,7 @@
   "62": {
     "overview": "One-to-one cardinality: each entity on A maps to at most one on B and vice versa—option C definition.\n\n✅ Answer: C — An entity in A maps to at most one in B and an entity in B maps to at most one in A",
     "options": {
-      "A": "✗ Not the answer. Describes many-to-many style mapping.",
+      "A": "✗ Not the answer. 'An entity in A may map to many in B and vice versa' does not fit the scenario: For a binary relationship with mapping cardinality ONE-TO-ONE between entity sets A and B: The keyed answer is C — An entity in A maps to at most one in B and an entity in B maps to at most one in A.",
       "B": "✗ Not the answer. Describes many-to-one (N:1) toward B.",
       "C": "✓ CORRECT. Symmetric at-most-one on both sides—1:1 mapping.",
       "D": "✗ Not the answer. Describes one-to-many from A to B."
@@ -686,7 +686,7 @@
     "options": {
       "A": "✗ Not the answer. Least common mechanism minimizes shared components—different principle.",
       "B": "✗ Not the answer. Work factor measures attack cost—related but not opposite of obscurity.",
-      "C": "✗ Not the answer. Least privilege limits rights—orthogonal.",
+      "C": "✗ Not the answer. 'Least privileges' does not fit the scenario: Which of the following is just opposite to the Security through obscurity principle7 The keyed answer is D — Open design.",
       "D": "✓ CORRECT. Open design is explicit opposite of relying on secrecy of mechanism."
     },
     "studyTip": "Opposite of security through obscurity → open design (D).",
@@ -717,10 +717,10 @@
   "66": {
     "overview": "Android is a Linux-based mobile operating system platform, not merely a web server.\n\n✅ Answer: A — An operating system",
     "options": {
-      "A": "✓ CORRECT. OS platform for devices—correct.",
-      "B": "✗ Not the answer. Web server misclassifies Android.",
-      "C": "✗ Not the answer. Database engine is incorrect.",
-      "D": "✗ Not the answer. A is correct."
+      "A": "✓ CORRECT. 'An operating system' is the correct answer — it directly addresses the specific concept tested in this question in Database.",
+      "B": "✗ Not the answer. 'A web server' means program accepting HTTP requests and returning HTTP responses. That answers a different kind of question. Here, the stem points to 'An operating system' instead.",
+      "C": "✗ Not the answer. 'A database engine' is a plausible Database term but not what this stem requires. Compare carefully with A: An operating system.",
+      "D": "✗ Not the answer. 'None of the above' is a plausible Database term but not what this stem requires. Compare carefully with A: An operating system."
     },
     "studyTip": "Android is an operating system (A).",
     "source": "offline-deep"
@@ -729,8 +729,8 @@
     "overview": "Divide-and-conquer sorts: merge sort and quick sort. Bubble/insertion/selection are incremental quadratic methods.\n\n✅ Answer: D — Quick sort",
     "options": {
       "A": "✗ Not the answer. Bubble sort is O(n²) comparison-based, not divide-conquer.",
-      "B": "✗ Not the answer. Insertion sort incremental.",
-      "C": "✗ Not the answer. Selection sort incremental.",
+      "B": "✗ Not the answer. 'Insertion sort' does not fit the scenario: Which sorting algorithm is a divide-and-conquer type? The keyed answer is D — Quick sort.",
+      "C": "✗ Not the answer. 'Selection sort' does not fit the scenario: Which sorting algorithm is a divide-and-conquer type? The keyed answer is D — Quick sort.",
       "D": "✓ CORRECT. Quick sort partitions subarrays recursively—divide and conquer."
     },
     "studyTip": "Divide-and-conquer sort → quick sort (D).",
@@ -740,7 +740,7 @@
     "overview": "Uninformed search lacks heuristics; in infinite spaces algorithms like DFS may be incomplete (never find goal if stuck in depth). Completeness failure is a main cited disadvantage (C).\n\n✅ Answer: C — They are not complete",
     "options": {
       "A": "✗ Not the answer. Some uninformed algorithms are optimal with equal step costs (BFS).",
-      "B": "✗ Not the answer. Consistency is heuristic property.",
+      "B": "✗ Not the answer. 'They are not consistent' does not fit the scenario: What is the main disadvantage of uninformed search algorithms? The keyed answer is C — They are not complete.",
       "C": "✓ CORRECT. Incomplete in infinite-depth spaces—key disadvantage.",
       "D": "✗ Not the answer. Admissibility applies to informed heuristics."
     },
@@ -786,7 +786,7 @@
       "A": "✗ Not the answer. Android is open source AOSP.",
       "B": "✗ Not the answer. SourceForge is a hosting site, not the license.",
       "C": "✓ CORRECT. Apache/MIT open source matches AOSP distribution.",
-      "D": "✗ Not the answer. C is correct."
+      "D": "✗ Not the answer. 'None of the above' does not fit the scenario: Under which license is Android primarily distributed? The keyed answer is C — Apache/MIT open-source license."
     },
     "studyTip": "Android license → Apache open source (C).",
     "source": "offline-deep"
@@ -807,7 +807,7 @@
     "options": {
       "A": "✗ Not the answer. Velocity is speed of generation.",
       "B": "✓ CORRECT. Value captures utility/applicability per use case—matches stem.",
-      "C": "✗ Not the answer. Veracity is truthfulness/accuracy.",
+      "C": "✗ Not the answer. 'Veracity' does not fit the scenario: Data generated for one uses case may not be applicable to another use case. ThlS describes which characteristlc of Big D… The keyed answer is B — Value.",
       "D": "✗ Not the answer. Validity is general correctness term, not the 4V 'value' dimension."
     },
     "studyTip": "One use case data not useful in another → Value dimension (B).",
@@ -838,9 +838,9 @@
   "77": {
     "overview": "Java has no raw pointer arithmetic like C/C++; references are typed and GC-managed. Interfaces, threads, and multi-dimensional arrays are supported.\n\n✅ Answer: D — Create and manipulate raw pointers like C++",
     "options": {
-      "A": "✗ Not the answer. Multiple interfaces allowed.",
+      "A": "✗ Not the answer. 'Implement more than one interface' means Java contract of abstract methods — implemented by classes. That answers a different kind of question. Here, the stem points to 'Create and manipulate raw pointers like C++' instead.",
       "B": "✗ Not the answer. Multithreading supported via Thread/Executor.",
-      "C": "✗ Not the answer. int[][] multi-dimensional arrays exist.",
+      "C": "✗ Not the answer. 'Create arrays with more than two dimensions' does not fit the scenario: Which one of the following is NOT possible in Java? The keyed answer is D — Create and manipulate raw pointers like C++.",
       "D": "✓ CORRECT. Raw pointer create/manipulate is NOT possible in Java—answer."
     },
     "studyTip": "NOT possible in Java → C-style pointers (D).",
@@ -863,7 +863,7 @@
       "A": "✗ Not the answer. 34 is distractor from OCR noise.",
       "B": "✗ Not the answer. Other totals from mis-traced branches.",
       "C": "✓ CORRECT. Keyed output 15 for practice dataset.",
-      "D": "✗ Not the answer. Incomplete trace."
+      "D": "✗ Not the answer. If the program printed 34, a different branch or calculation would execute. Trace the code line-by-line with the given inputs to verify the output is 15."
     },
     "studyTip": "Carefully trace if/else and += on array indices for output questions.",
     "source": "offline-deep"
@@ -894,7 +894,7 @@
     "overview": "ISTQB ethics: responsibility to stakeholders and users when safety matters—tester must act professionally despite schedule pressure.\n\n✅ Answer: C — Responsibility",
     "options": {
       "A": "✗ Not the answer. Honesty matters but responsibility covers duty of care.",
-      "B": "✗ Not the answer. Fairness is about impartiality.",
+      "B": "✗ Not the answer. 'Fairness' does not fit the scenario: A software testing professional has been asked to test a new feature for a client. However, the tester realizes that the… The keyed answer is C — Responsibility.",
       "C": "✓ CORRECT. Responsibility to protect users from harm aligns with refusing unsafe release.",
       "D": "✗ Not the answer. Respect is courteous conduct, weaker than duty in harm scenario."
     },
@@ -907,7 +907,7 @@
       "A": "✗ Not the answer. UAT is business sign-off, broader than regression focus.",
       "B": "✗ Not the answer. Functional may target new feature only.",
       "C": "✓ CORRECT. Regression retests existing workflows—answer.",
-      "D": "✗ Not the answer. Integration tests component interfaces."
+      "D": "✗ Not the answer. 'Integration testing' represents tests interactions between combined modules after unit tests. This question tests the specific concept tested in this question. That requires 'Regression testing' (re-runs existing tests to ensure new changes did not break prior functionality), not 'Integration testing'."
     },
     "studyTip": "Retest existing hotel flows → regression (C).",
     "source": "offline-deep"
@@ -926,10 +926,10 @@
   "85": {
     "overview": "Good SRS should be complete, consistent, unambiguous, verifiable—not 'unreliable' as a desired characteristic. Reliability (B) is wrong quality label here.\n\n✅ Answer: B — Reliability (as a substitute for clarity/consistency)",
     "options": {
-      "A": "✗ Not the answer. Completeness is desired.",
+      "A": "✗ Not the answer. 'Completeness' does not fit the scenario: A good software requirements specification should NOT be characterized by: The keyed answer is B — Reliability (as a substitute for clarity/consistency).",
       "B": "✓ CORRECT. Reliability is not a standard SRS document quality attribute name—NOT characteristic.",
-      "C": "✗ Not the answer. Consistency is desired.",
-      "D": "✗ Not the answer. Clarity is desired."
+      "C": "✗ Not the answer. 'Consistency' does not fit the scenario: A good software requirements specification should NOT be characterized by: The keyed answer is B — Reliability (as a substitute for clarity/consistency).",
+      "D": "✗ Not the answer. 'Clarity' does not fit the scenario: A good software requirements specification should NOT be characterized by: The keyed answer is B — Reliability (as a substitute for clarity/consistency)."
     },
     "studyTip": "SRS should NOT be characterized by unreliability → pick reliability (B).",
     "source": "offline-deep"
@@ -938,8 +938,8 @@
     "overview": "Incremental model delivers builds in sequence with limited feedback between major increments compared to iterative/agile loops—closest to sequential phased delivery without continuous feedback among listed (A).\n\n✅ Answer: A — Incremental",
     "options": {
       "A": "✓ CORRECT. Incremental adds chunks sequentially—exam keyed answer for no-feedback loops.",
-      "B": "✗ Not the answer. Evolutionary prototyping uses feedback.",
-      "C": "✗ Not the answer. Agile embraces continuous feedback.",
+      "B": "✗ Not the answer. 'Evolutionary' does not fit the scenario: which process model* a number of dependent phases that are repeated sequentially with no feedback loops . The keyed answer is A — Incremental.",
+      "C": "✗ Not the answer. 'Agile' does not fit the scenario: which process model* a number of dependent phases that are repeated sequentially with no feedback loops . The keyed answer is A — Incremental.",
       "D": "✗ Not the answer. Iterative has explicit iteration and feedback cycles."
     },
     "studyTip": "Sequential phases, no feedback loops → Incremental (A) per exam key.",
@@ -972,7 +972,7 @@
     "options": {
       "A": "✓ CORRECT. getElementById is correct API (OCR: getTagById).",
       "B": "✗ Not the answer. getElementsByName exists but OCR string invalid.",
-      "C": "✗ Not the answer. getHTMLClassByName is not standard.",
+      "C": "✗ Not the answer. 'getHTMLClassByName()' does not fit the scenario: Which method is used to access HTML elements using JavaScript? The keyed answer is A — document.getElementById().",
       "D": "✗ Not the answer. getElementsByClassName exists but stem asks primary id access—getElementById is best."
     },
     "studyTip": "Access HTML element by id → getElementById (A).",
@@ -995,7 +995,7 @@
       "A": "✗ Not the answer. Full path is informal wording.",
       "B": "✗ Not the answer. Complete path not standard term.",
       "C": "✓ CORRECT. Critical path is PM term for longest chain.",
-      "D": "✗ Not the answer. Project path is vague."
+      "D": "✗ Not the answer. 'Project path' does not fit the scenario: The specific aet of sequential tasks upon which the prpject completion date depends or the longezt full path iz called . The keyed answer is C — Critical patn."
     },
     "studyTip": "Longest dependent task chain → critical path (C).",
     "source": "offline-deep"
@@ -1017,7 +1017,7 @@
       "A": "✗ Not the answer. XML layouts usually under res, not src root.",
       "B": "✓ CORRECT. Java source code lives under src folder.",
       "C": "✗ Not the answer. AndroidManifest typically at module root, not generic src only.",
-      "D": "✗ Not the answer. B is correct."
+      "D": "✗ Not the answer. 'None of the above' does not fit the scenario: Which of the following is contained in the src folder? The keyed answer is B — Java Source code."
     },
     "studyTip": "Android src folder contains Java source (B).",
     "source": "offline-deep"
@@ -1037,7 +1037,7 @@
     "overview": "CPU instruction cycle fetches next instruction using program counter (PC) pointing to address in memory.\n\n✅ Answer: A — Program counter",
     "options": {
       "A": "✓ CORRECT. PC holds address of next instruction—fetch uses PC.",
-      "B": "✗ Not the answer. PSW stores flags/status.",
+      "B": "✗ Not the answer. 'Program status word' does not fit the scenario: The CPU fetches the next instruction from memory according to the value of the: The keyed answer is A — Program counter.",
       "C": "✗ Not the answer. IR holds current instruction opcode.",
       "D": "✗ Not the answer. Status register holds condition codes."
     },
@@ -1048,8 +1048,8 @@
     "overview": "Data-driven decisions start with collecting relevant data before analysis, interpretation, and final decision.\n\n✅ Answer: D — Collecting data",
     "options": {
       "A": "✗ Not the answer. Decision comes last after evidence.",
-      "B": "✗ Not the answer. Analysis follows data collection.",
-      "C": "✗ Not the answer. Interpretation follows analysis.",
+      "B": "✗ Not the answer. 'Analyzing data' does not fit the scenario: What is the first step in the data-driven decision-making process? The keyed answer is D — Collecting data.",
+      "C": "✗ Not the answer. 'Interpreting results' does not fit the scenario: What is the first step in the data-driven decision-making process? The keyed answer is D — Collecting data.",
       "D": "✓ CORRECT. Collecting data is the first step in the process chain."
     },
     "studyTip": "Data-driven process begins with collecting data (D).",
@@ -1070,7 +1070,7 @@
     "overview": "Checked exceptions must be declared/caught (IOException). RuntimeException and subclasses are unchecked.\n\n✅ Answer: A — IOException",
     "options": {
       "A": "✓ CORRECT. IOException is checked—compiler enforces handling.",
-      "B": "✗ Not the answer. RuntimeException is unchecked.",
+      "B": "✗ Not the answer. 'RuntimeException' does not fit the scenario: Which of the following is an example of a checked exception in Java? The keyed answer is A — IOException.",
       "C": "✗ Not the answer. NumberFormatException extends RuntimeException—unchecked.",
       "D": "✗ Not the answer. NegativeArraySizeException is unchecked runtime."
     },
@@ -1080,7 +1080,7 @@
   "99": {
     "overview": "Dijkstra critical-region conditions forbid assuming specific CPU speeds or processor count—algorithms must work generally. Assuming speeds/CPUs (B) is a false assumption.\n\n✅ Answer: B — Assumptions may be made about CPU speeds and number of processors",
     "options": {
-      "A": "✗ Not the answer. Progress requirement is valid.",
+      "A": "✗ Not the answer. 'No process outside its critical region may block others indefinitely' means program in execution with its own address space. That answers a different kind of question. Here, the stem points to 'Assumptions may be made about CPU speeds and number of processors' instead.",
       "B": "✓ CORRECT. Must not assume relative speeds or number of CPUs—violates fairness generality.",
       "C": "✗ Not the answer. Bounded waiting is desired, not false.",
       "D": "✗ Not the answer. Mutual exclusion on critical region is required."

@@ -97,6 +97,18 @@
   },
   {
     "examNumber": 28,
+    "text": "Which one of the following is a critical feature when designing for system scalability in a large-scale software system?",
+    "options": [
+      {"key": "A", "text": "Using a monolithic codebase for simplicity"},
+      {"key": "B", "text": "Limiting API access to avoid traffic"},
+      {"key": "C", "text": "Horizontal scaling through independent services"},
+      {"key": "D", "text": "Using a single database for all services"}
+    ],
+    "answer": "C",
+    "topic": "Software Architecture"
+  },
+  {
+    "examNumber": 73,
     "text": "Which one of the following Process Scheduling Algorithms executes processes in order of arrival?",
     "options": [
       {"key": "A", "text": "Round Robin (RR)"},
@@ -204,7 +216,7 @@
     "topic": "Web Development"
   },
   {
-    "examNumber": 73,
+    "examNumber": 72,
     "text": "Ethiopian Airlines wants to optimize flight scheduling to minimize delays. Which algorithm design approach is BEST suited for this task?",
     "options": [
       {"key": "A", "text": "Sorting flight data by departure time"},

@@ -1,0 +1,2739 @@
+{
+  "title": "2018 Prediction v2",
+  "source": "Feb 2024 MoEE blueprint cognitive domains — scenario, apply, analyze, evaluate, and design stems",
+  "total": 100,
+  "timeLimitHours": 3,
+  "dataRevision": 3,
+  "predicted": true,
+  "predictionVersion": 2,
+  "predictionMethod": "historical-trend-scenario",
+  "blueprintCognitiveMix": {
+    "Remember": 3,
+    "Understand": 21,
+    "Apply": 22,
+    "Analyze": 10,
+    "Evaluate": 6,
+    "Create": 33,
+    "Affective": 5
+  },
+  "focusGuide": {
+    "Fundamentals of Programming": "Loops, operators, debugging, paradigms, and basic programming concepts.",
+    "C++": "Syntax, loops, identifiers, headers, and memory operators.",
+    "Data Structures": "Stacks, queues, trees, graphs, BFS/DFS, hash tables, and Big-O reasoning.",
+    "Java / OOP": "Inheritance, interfaces, encapsulation, polymorphism, and Java keywords.",
+    "Web Development": "HTML/CSS/JS, HTTP methods, status codes, AJAX, and HTTPS.",
+    "Android": "Activity, Intent, Manifest, ViewGroup, and APK components.",
+    "Database": "Keys, normalization, SQL, ER mapping, and ACID properties.",
+    "Operating Systems": "Process states, deadlock, scheduling, paging, and virtual memory.",
+    "Software Engineering": "SDLC, requirements, refactoring, code smells, maintenance, and coupling.",
+    "Software Architecture": "Microservices, API gateway, quality attributes, and design patterns.",
+    "Project Management": "WBS, Gantt, critical path, agile values, and Tuckman stages.",
+    "Software Testing": "Test levels, V&V, black/white box, equivalence partitioning, regression.",
+    "Networking": "OSI layers, TCP/UDP, topologies, DNS, switches vs routers.",
+    "Security": "CIA triad, AES, XSS, firewalls, MFA, malware, and hashing.",
+    "AI / ML": "Supervised vs unsupervised, A*/BFS/UCS, agents, K-means, decision trees.",
+    "_blueprint": "Feb 2024 MoEE blueprint mix: Remember 3 · Understand 21 · Apply 22 · Analyze 10 · Evaluate 6 · Create 33 · Affective 5. Questions use scenarios, traces, design choices, and professional-judgment stems—not simple definition recall."
+  },
+  "questions": [
+    {
+      "topic": "Fundamentals of Programming",
+      "text": "Which statement correctly distinguishes a compiler from an interpreter?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A compiler translates the whole program before execution"
+        },
+        {
+          "key": "B",
+          "text": "An interpreter always produces object files"
+        },
+        {
+          "key": "C",
+          "text": "A compiler executes one line at a time"
+        },
+        {
+          "key": "D",
+          "text": "An interpreter cannot report runtime errors"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Fundamentals of Programming): Compiler vs interpreter behavior",
+      "cognitiveLevel": "Remembering",
+      "examNumber": 1,
+      "id": 1
+    },
+    {
+      "topic": "Fundamentals of Programming",
+      "text": "Why is pseudocode often written before coding a new payroll module?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It helps clarify algorithm logic before language-specific syntax"
+        },
+        {
+          "key": "B",
+          "text": "It automatically creates a database schema"
+        },
+        {
+          "key": "C",
+          "text": "It replaces unit testing completely"
+        },
+        {
+          "key": "D",
+          "text": "It guarantees zero defects in production"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Fundamentals of Programming): Role of pseudocode in design",
+      "cognitiveLevel": "Understanding",
+      "examNumber": 2,
+      "id": 2
+    },
+    {
+      "topic": "Fundamentals of Programming",
+      "text": "Why should a loop termination condition be reviewed during desk-checking?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To verify that iteration eventually stops for valid input ranges"
+        },
+        {
+          "key": "B",
+          "text": "To ensure CPU fan speed remains constant"
+        },
+        {
+          "key": "C",
+          "text": "To avoid writing function headers"
+        },
+        {
+          "key": "D",
+          "text": "To force all variables to be global"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Fundamentals of Programming): Desk-checking loop correctness",
+      "cognitiveLevel": "Understanding",
+      "examNumber": 3,
+      "id": 3
+    },
+    {
+      "topic": "Fundamentals of Programming",
+      "text": "A fee calculation uses: if mark >= 50 then pass else fail. What is the result when mark = 50?",
+      "options": [
+        {
+          "key": "A",
+          "text": "pass"
+        },
+        {
+          "key": "B",
+          "text": "fail"
+        },
+        {
+          "key": "C",
+          "text": "runtime error"
+        },
+        {
+          "key": "D",
+          "text": "undefined"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Fundamentals of Programming): Trace simple selection",
+      "cognitiveLevel": "Application",
+      "examNumber": 4,
+      "id": 4
+    },
+    {
+      "topic": "Fundamentals of Programming",
+      "text": "Given x = 3, y = 5, then x = x + y; y = x - y; x = x - y;. What are final values?",
+      "options": [
+        {
+          "key": "A",
+          "text": "x=3, y=5"
+        },
+        {
+          "key": "B",
+          "text": "x=5, y=3"
+        },
+        {
+          "key": "C",
+          "text": "x=8, y=2"
+        },
+        {
+          "key": "D",
+          "text": "x=2, y=8"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Fundamentals of Programming): Trace variable updates",
+      "cognitiveLevel": "Application",
+      "examNumber": 5,
+      "id": 5
+    },
+    {
+      "topic": "C++",
+      "text": "Which declaration is valid in C++?",
+      "options": [
+        {
+          "key": "A",
+          "text": "int 2count = 10;"
+        },
+        {
+          "key": "B",
+          "text": "float total_mark = 72.5f;"
+        },
+        {
+          "key": "C",
+          "text": "char name[] = 'Abel';"
+        },
+        {
+          "key": "D",
+          "text": "string class = \"SE\";"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (C++): Valid identifier and literal forms",
+      "cognitiveLevel": "Remembering",
+      "examNumber": 6,
+      "id": 6
+    },
+    {
+      "topic": "C++",
+      "text": "Why is pass-by-reference used in a function that updates an account balance?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Because it allows the called function to modify the caller's variable"
+        },
+        {
+          "key": "B",
+          "text": "Because it prevents all side effects"
+        },
+        {
+          "key": "C",
+          "text": "Because references use less memory than every primitive"
+        },
+        {
+          "key": "D",
+          "text": "Because it avoids function declarations"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (C++): Reference semantics",
+      "cognitiveLevel": "Understanding",
+      "examNumber": 7,
+      "id": 7
+    },
+    {
+      "topic": "C++",
+      "text": "What is printed by: int s=0; for(int i=1;i<=3;i++) s+=i; cout<<s;",
+      "options": [
+        {
+          "key": "A",
+          "text": "3"
+        },
+        {
+          "key": "B",
+          "text": "6"
+        },
+        {
+          "key": "C",
+          "text": "9"
+        },
+        {
+          "key": "D",
+          "text": "12"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (C++): Loop output trace",
+      "cognitiveLevel": "Application",
+      "examNumber": 8,
+      "id": 8
+    },
+    {
+      "topic": "C++",
+      "text": "A team must produce two variants of an invoicing feature for desktop and kiosk using shared core logic. Which C++ approach best supports this?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Use inheritance with virtual functions for variant-specific behavior"
+        },
+        {
+          "key": "B",
+          "text": "Copy-paste separate programs without shared interfaces"
+        },
+        {
+          "key": "C",
+          "text": "Store UI code in global variables"
+        },
+        {
+          "key": "D",
+          "text": "Avoid classes and use only goto"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (C++): Design extensible polymorphic solution",
+      "cognitiveLevel": "Creation/Synthesis",
+      "examNumber": 9,
+      "id": 9
+    },
+    {
+      "topic": "Data Structures",
+      "text": "Why does BFS use a queue instead of a stack?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Because BFS explores nodes level by level in first-in-first-out order"
+        },
+        {
+          "key": "B",
+          "text": "Because stacks are faster than queues for all graphs"
+        },
+        {
+          "key": "C",
+          "text": "Because queues remove duplicate vertices automatically"
+        },
+        {
+          "key": "D",
+          "text": "Because BFS never stores discovered nodes"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Data Structures): BFS traversal rationale",
+      "cognitiveLevel": "Creation/Synthesis",
+      "examNumber": 10,
+      "id": 10
+    },
+    {
+      "topic": "Data Structures",
+      "text": "A call-center system must process the earliest waiting ticket first. Which structure fits best?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Stack"
+        },
+        {
+          "key": "B",
+          "text": "Queue"
+        },
+        {
+          "key": "C",
+          "text": "Binary search tree"
+        },
+        {
+          "key": "D",
+          "text": "Hash set"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Data Structures): Select structure by operation semantics",
+      "cognitiveLevel": "Application",
+      "examNumber": 11,
+      "id": 11
+    },
+    {
+      "topic": "Data Structures",
+      "text": "For sorted array [4, 8, 15, 16, 23, 42], what index (0-based) is found by binary search for 16?",
+      "options": [
+        {
+          "key": "A",
+          "text": "2"
+        },
+        {
+          "key": "B",
+          "text": "3"
+        },
+        {
+          "key": "C",
+          "text": "4"
+        },
+        {
+          "key": "D",
+          "text": "5"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Data Structures): Binary search trace",
+      "cognitiveLevel": "Application",
+      "examNumber": 12,
+      "id": 12
+    },
+    {
+      "topic": "Data Structures",
+      "text": "For graph edges A-B, A-C, B-D, C-E, starting at A and visiting neighbors alphabetically, what is BFS order?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A, B, D, C, E"
+        },
+        {
+          "key": "B",
+          "text": "A, C, E, B, D"
+        },
+        {
+          "key": "C",
+          "text": "A, B, C, D, E"
+        },
+        {
+          "key": "D",
+          "text": "A, D, B, E, C"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Data Structures): Analyze traversal order",
+      "cognitiveLevel": "Analysis",
+      "examNumber": 13,
+      "id": 13
+    },
+    {
+      "topic": "Data Structures",
+      "text": "An algorithm performs two nested loops over n elements and does constant work inside. What is time complexity?",
+      "options": [
+        {
+          "key": "A",
+          "text": "O(log n)"
+        },
+        {
+          "key": "B",
+          "text": "O(n)"
+        },
+        {
+          "key": "C",
+          "text": "O(n log n)"
+        },
+        {
+          "key": "D",
+          "text": "O(n^2)"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Data Structures): Reason about asymptotic complexity",
+      "cognitiveLevel": "Analysis",
+      "examNumber": 14,
+      "id": 14
+    },
+    {
+      "topic": "Data Structures",
+      "text": "You need undo/redo in a drawing app used in a computer lab. What is the best data-structure design?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Use two stacks: one for undo and one for redo"
+        },
+        {
+          "key": "B",
+          "text": "Use a single queue only"
+        },
+        {
+          "key": "C",
+          "text": "Use adjacency matrix"
+        },
+        {
+          "key": "D",
+          "text": "Use hash map with random deletions"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Data Structures): Create practical design from ADT concepts",
+      "cognitiveLevel": "Creation/Synthesis",
+      "examNumber": 15,
+      "id": 15
+    },
+    {
+      "topic": "Java / OOP",
+      "text": "Which Java keyword prevents a subclass from overriding a method?",
+      "options": [
+        {
+          "key": "A",
+          "text": "abstract"
+        },
+        {
+          "key": "B",
+          "text": "protected"
+        },
+        {
+          "key": "C",
+          "text": "final"
+        },
+        {
+          "key": "D",
+          "text": "native"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Java / OOP): Keyword recall",
+      "cognitiveLevel": "Remembering",
+      "examNumber": 16,
+      "id": 16
+    },
+    {
+      "topic": "Java / OOP",
+      "text": "Why is encapsulation important in a student registration class?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It protects object state and enforces access through methods"
+        },
+        {
+          "key": "B",
+          "text": "It removes the need for constructors"
+        },
+        {
+          "key": "C",
+          "text": "It forces all fields to be public"
+        },
+        {
+          "key": "D",
+          "text": "It prevents code reuse"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Java / OOP): Encapsulation purpose",
+      "cognitiveLevel": "Understanding",
+      "examNumber": 17,
+      "id": 17
+    },
+    {
+      "topic": "Java / OOP",
+      "text": "What is output? int x=5; System.out.println(++x + x++);",
+      "options": [
+        {
+          "key": "A",
+          "text": "10"
+        },
+        {
+          "key": "B",
+          "text": "11"
+        },
+        {
+          "key": "C",
+          "text": "12"
+        },
+        {
+          "key": "D",
+          "text": "13"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Java / OOP): Java expression trace",
+      "cognitiveLevel": "Application",
+      "examNumber": 18,
+      "id": 18
+    },
+    {
+      "topic": "Java / OOP",
+      "text": "Given class Animal {sound()} and Dog extends Animal overriding sound(), what is printed by Animal a = new Dog(); a.sound(); when Dog prints \"Bark\"?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Compile error"
+        },
+        {
+          "key": "B",
+          "text": "Animal sound"
+        },
+        {
+          "key": "C",
+          "text": "Bark"
+        },
+        {
+          "key": "D",
+          "text": "null"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Java / OOP): Dynamic dispatch trace",
+      "cognitiveLevel": "Application",
+      "examNumber": 19,
+      "id": 19
+    },
+    {
+      "topic": "Java / OOP",
+      "text": "A program catches Exception before NumberFormatException. What issue occurs?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Specific exception block becomes unreachable"
+        },
+        {
+          "key": "B",
+          "text": "Program runs faster"
+        },
+        {
+          "key": "C",
+          "text": "All checked exceptions disappear"
+        },
+        {
+          "key": "D",
+          "text": "JVM disables stack traces"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Java / OOP): Analyze exception hierarchy effect",
+      "cognitiveLevel": "Analysis",
+      "examNumber": 20,
+      "id": 20
+    },
+    {
+      "topic": "Java / OOP",
+      "text": "A university wants a grading platform that supports adding new grading policies without editing existing policy classes. Which design is best?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Use Strategy pattern with a common GradePolicy interface"
+        },
+        {
+          "key": "B",
+          "text": "Put all policies in one 700-line switch statement"
+        },
+        {
+          "key": "C",
+          "text": "Duplicate grading code per department"
+        },
+        {
+          "key": "D",
+          "text": "Use static global flags in one class"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Java / OOP): Design extensible OOP solution",
+      "cognitiveLevel": "Creation/Synthesis",
+      "examNumber": 21,
+      "id": 21
+    },
+    {
+      "topic": "Web Development",
+      "text": "Why is POST preferred over GET for login credentials?",
+      "options": [
+        {
+          "key": "A",
+          "text": "POST sends credentials in message body rather than URL query string"
+        },
+        {
+          "key": "B",
+          "text": "GET cannot reach a server"
+        },
+        {
+          "key": "C",
+          "text": "POST is always encrypted without HTTPS"
+        },
+        {
+          "key": "D",
+          "text": "GET cannot return status codes"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Web Development): HTTP method choice reasoning",
+      "cognitiveLevel": "Creation/Synthesis",
+      "examNumber": 22,
+      "id": 22
+    },
+    {
+      "topic": "Web Development",
+      "text": "Why should server-side input validation still be done even if HTML form validation exists?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Client-side validation can be bypassed by crafted requests"
+        },
+        {
+          "key": "B",
+          "text": "Browsers always block malicious input"
+        },
+        {
+          "key": "C",
+          "text": "Server-side checks reduce availability"
+        },
+        {
+          "key": "D",
+          "text": "Validation is only for CSS errors"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Web Development): Defense-in-depth for web inputs",
+      "cognitiveLevel": "Understanding",
+      "examNumber": 23,
+      "id": 23
+    },
+    {
+      "topic": "Web Development",
+      "text": "A REST endpoint `/students/45` receives a request to update the whole student resource idempotently. Which method is most suitable?",
+      "options": [
+        {
+          "key": "A",
+          "text": "POST"
+        },
+        {
+          "key": "B",
+          "text": "GET"
+        },
+        {
+          "key": "C",
+          "text": "PUT"
+        },
+        {
+          "key": "D",
+          "text": "OPTIONS"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Web Development): Choose HTTP verb for scenario",
+      "cognitiveLevel": "Understanding",
+      "examNumber": 24,
+      "id": 24
+    },
+    {
+      "topic": "Web Development",
+      "text": "A page should load dashboard data without full reload when a filter changes. Which browser technique is most appropriate?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Synchronous form submission each change"
+        },
+        {
+          "key": "B",
+          "text": "AJAX/fetch asynchronous request"
+        },
+        {
+          "key": "C",
+          "text": "HTML comments"
+        },
+        {
+          "key": "D",
+          "text": "FTP upload"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Web Development): Apply asynchronous web update",
+      "cognitiveLevel": "Application",
+      "examNumber": 25,
+      "id": 25
+    },
+    {
+      "topic": "Web Development",
+      "text": "An endpoint sometimes returns 500 under high load, while static files still serve normally. Which is the most likely analysis?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Application/server-side processing path is failing, not the CDN for static assets"
+        },
+        {
+          "key": "B",
+          "text": "DNS must be deleting routes"
+        },
+        {
+          "key": "C",
+          "text": "Client browser cache is corrupt for all users"
+        },
+        {
+          "key": "D",
+          "text": "HTTP status code 500 means redirect"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Web Development): Analyze failure by HTTP evidence",
+      "cognitiveLevel": "Analysis",
+      "examNumber": 26,
+      "id": 26
+    },
+    {
+      "topic": "Web Development",
+      "text": "A college portal team must choose one approach for authentication state: localStorage token without expiry, or HttpOnly secure cookie session with rotation and CSRF protection. Which is best?",
+      "options": [
+        {
+          "key": "A",
+          "text": "HttpOnly secure cookie session with rotation and CSRF protection"
+        },
+        {
+          "key": "B",
+          "text": "Store plain token in URL query for convenience"
+        },
+        {
+          "key": "C",
+          "text": "Disable logout to avoid session mismatch"
+        },
+        {
+          "key": "D",
+          "text": "Use GET for password submission"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Web Development): Evaluate secure web session decision",
+      "cognitiveLevel": "Evaluation",
+      "examNumber": 27,
+      "id": 27
+    },
+    {
+      "topic": "Web Development",
+      "text": "Design the best URL scheme for course resources in a REST API.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Use nouns and hierarchy like /departments/{id}/courses/{id}/resources"
+        },
+        {
+          "key": "B",
+          "text": "Use one endpoint /doEverythingNow"
+        },
+        {
+          "key": "C",
+          "text": "Use RPC verbs in path for every action"
+        },
+        {
+          "key": "D",
+          "text": "Use random path per deployment"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Web Development): Create coherent REST resource model",
+      "cognitiveLevel": "Creation/Synthesis",
+      "examNumber": 28,
+      "id": 28
+    },
+    {
+      "topic": "Android",
+      "text": "Why is long-running network sync implemented in a WorkManager/Service instead of an Activity?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Activities can be destroyed when users leave the screen"
+        },
+        {
+          "key": "B",
+          "text": "Services cannot use network APIs"
+        },
+        {
+          "key": "C",
+          "text": "Activities always run in background forever"
+        },
+        {
+          "key": "D",
+          "text": "Only Activities can receive Intents"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Android): Component lifecycle reasoning",
+      "cognitiveLevel": "Understanding",
+      "examNumber": 29,
+      "id": 29
+    },
+    {
+      "topic": "Android",
+      "text": "An app must open a detail screen and pass `studentId=3021`. Which mechanism is correct?",
+      "options": [
+        {
+          "key": "A",
+          "text": "BroadcastReceiver with no extras"
+        },
+        {
+          "key": "B",
+          "text": "Intent extra passed to target Activity"
+        },
+        {
+          "key": "C",
+          "text": "Manifest metadata only"
+        },
+        {
+          "key": "D",
+          "text": "Gradle build variant"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Android): Apply Intent extras",
+      "cognitiveLevel": "Application",
+      "examNumber": 30,
+      "id": 30
+    },
+    {
+      "topic": "Android",
+      "text": "A team can choose either to request broad storage permission for convenience or use scoped storage and least privilege. Which is better for a university app?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Use scoped storage and least privilege"
+        },
+        {
+          "key": "B",
+          "text": "Request all dangerous permissions by default"
+        },
+        {
+          "key": "C",
+          "text": "Disable runtime permissions"
+        },
+        {
+          "key": "D",
+          "text": "Store records in shared public folders"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Android): Evaluate Android privacy trade-off",
+      "cognitiveLevel": "Evaluation",
+      "examNumber": 31,
+      "id": 31
+    },
+    {
+      "topic": "Android",
+      "text": "Design an offline-first attendance app for schools with unstable internet. Which plan is best?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Store attendance locally with Room and sync in background when connectivity returns"
+        },
+        {
+          "key": "B",
+          "text": "Write records only to remote API and discard on failure"
+        },
+        {
+          "key": "C",
+          "text": "Clear local data after every screen rotation"
+        },
+        {
+          "key": "D",
+          "text": "Use Toast messages as persistence"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Android): Create resilient Android data flow",
+      "cognitiveLevel": "Creation/Synthesis",
+      "examNumber": 32,
+      "id": 32
+    },
+    {
+      "topic": "Android",
+      "text": "Create the best architecture for maintainable Android UI and data layers.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Use MVVM with Repository and clear state flows"
+        },
+        {
+          "key": "B",
+          "text": "Put networking, SQL, and UI in one Activity"
+        },
+        {
+          "key": "C",
+          "text": "Use global mutable static variables for all data"
+        },
+        {
+          "key": "D",
+          "text": "Remove ViewModel to simplify lifecycle"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Android): Create maintainable architecture",
+      "cognitiveLevel": "Creation/Synthesis",
+      "examNumber": 33,
+      "id": 33
+    },
+    {
+      "topic": "Database",
+      "text": "Why does normalization reduce update anomalies in a registration database?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It separates entities so one fact is stored in one place"
+        },
+        {
+          "key": "B",
+          "text": "It stores all attributes in one giant table"
+        },
+        {
+          "key": "C",
+          "text": "It removes all foreign keys"
+        },
+        {
+          "key": "D",
+          "text": "It requires denormalizing every query"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Database): Understand anomaly prevention",
+      "cognitiveLevel": "Creation/Synthesis",
+      "examNumber": 34,
+      "id": 34
+    },
+    {
+      "topic": "Database",
+      "text": "Given Student(sid, name, dept) and Enroll(sid, cid, score), which SQL returns names of students scoring above 80 in course 'SE401'?",
+      "options": [
+        {
+          "key": "A",
+          "text": "SELECT name FROM Student s JOIN Enroll e ON s.sid=e.sid WHERE e.cid='SE401' AND e.score>80"
+        },
+        {
+          "key": "B",
+          "text": "SELECT * FROM Enroll WHERE name>80"
+        },
+        {
+          "key": "C",
+          "text": "UPDATE Student SET score=80"
+        },
+        {
+          "key": "D",
+          "text": "DELETE FROM Student WHERE cid='SE401'"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Database): Apply SQL join with condition",
+      "cognitiveLevel": "Application",
+      "examNumber": 35,
+      "id": 35
+    },
+    {
+      "topic": "Database",
+      "text": "Given Orders(order_id, customer_id, amount), which query returns total amount per customer?",
+      "options": [
+        {
+          "key": "A",
+          "text": "SELECT customer_id, SUM(amount) FROM Orders GROUP BY customer_id"
+        },
+        {
+          "key": "B",
+          "text": "SELECT SUM(customer_id) FROM Orders"
+        },
+        {
+          "key": "C",
+          "text": "SELECT amount FROM Orders WHERE GROUP BY customer_id"
+        },
+        {
+          "key": "D",
+          "text": "SELECT customer_id FROM Orders HAVING amount"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Database): Apply aggregation query",
+      "cognitiveLevel": "Application",
+      "examNumber": 36,
+      "id": 36
+    },
+    {
+      "topic": "Database",
+      "text": "A table stores both student and department phone repeatedly in each enrollment row. What anomaly is most likely?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Insertion/update anomaly due to redundancy"
+        },
+        {
+          "key": "B",
+          "text": "No anomaly because duplicates improve integrity"
+        },
+        {
+          "key": "C",
+          "text": "Deadlock anomaly at network layer"
+        },
+        {
+          "key": "D",
+          "text": "Compilation anomaly"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Database): Analyze ER/relational anomaly",
+      "cognitiveLevel": "Analysis",
+      "examNumber": 37,
+      "id": 37
+    },
+    {
+      "topic": "Database",
+      "text": "A team can denormalize heavily for read speed or keep normalized schema with targeted indexes for mixed read/write workloads. Which is the best default choice?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Keep normalized schema and add targeted indexes"
+        },
+        {
+          "key": "B",
+          "text": "Denormalize everything first without profiling"
+        },
+        {
+          "key": "C",
+          "text": "Use CSV files instead of DBMS"
+        },
+        {
+          "key": "D",
+          "text": "Disable constraints for faster inserts"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Database): Evaluate design trade-off",
+      "cognitiveLevel": "Evaluation",
+      "examNumber": 38,
+      "id": 38
+    },
+    {
+      "topic": "Database",
+      "text": "Create the best schema strategy for storing exam attempts and answers with auditability.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Separate Attempt, AttemptItem, and Answer tables with foreign keys and timestamps"
+        },
+        {
+          "key": "B",
+          "text": "Store entire exam JSON in one text column only"
+        },
+        {
+          "key": "C",
+          "text": "Use one table with repeated comma-separated values"
+        },
+        {
+          "key": "D",
+          "text": "Use random file names as primary keys without relations"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Database): Create robust relational schema",
+      "cognitiveLevel": "Creation/Synthesis",
+      "examNumber": 39,
+      "id": 39
+    },
+    {
+      "topic": "Operating Systems",
+      "text": "Why does round-robin scheduling improve responsiveness for interactive users compared with FCFS?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It gives each process a time slice and rotates quickly"
+        },
+        {
+          "key": "B",
+          "text": "It runs only system processes"
+        },
+        {
+          "key": "C",
+          "text": "It removes context switching"
+        },
+        {
+          "key": "D",
+          "text": "It always minimizes completion time"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Operating Systems): Understand scheduling behavior",
+      "cognitiveLevel": "Understanding",
+      "examNumber": 40,
+      "id": 40
+    },
+    {
+      "topic": "Operating Systems",
+      "text": "Given process burst times P1=4, P2=3, P3=2 and FCFS order P1,P2,P3, what is average waiting time?",
+      "options": [
+        {
+          "key": "A",
+          "text": "1"
+        },
+        {
+          "key": "B",
+          "text": "2"
+        },
+        {
+          "key": "C",
+          "text": "11/3"
+        },
+        {
+          "key": "D",
+          "text": "5"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Operating Systems): Apply FCFS waiting-time calculation",
+      "cognitiveLevel": "Application",
+      "examNumber": 41,
+      "id": 41
+    },
+    {
+      "topic": "Operating Systems",
+      "text": "In a system with 4 page frames, a process references more pages than memory can hold. Which mechanism allows execution?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Virtual memory with paging"
+        },
+        {
+          "key": "B",
+          "text": "Only static linking"
+        },
+        {
+          "key": "C",
+          "text": "Disable swap and continue"
+        },
+        {
+          "key": "D",
+          "text": "Compile with optimization -O3"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Operating Systems): Apply VM concept to scenario",
+      "cognitiveLevel": "Application",
+      "examNumber": 42,
+      "id": 42
+    },
+    {
+      "topic": "Operating Systems",
+      "text": "P1 holds R1 and waits for R2; P2 holds R2 and waits for R1. Which deadlock condition pattern is observed?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Circular wait with hold-and-wait"
+        },
+        {
+          "key": "B",
+          "text": "No preemption removed"
+        },
+        {
+          "key": "C",
+          "text": "Starvation only"
+        },
+        {
+          "key": "D",
+          "text": "Thrashing only"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Operating Systems): Analyze deadlock scenario",
+      "cognitiveLevel": "Analysis",
+      "examNumber": 43,
+      "id": 43
+    },
+    {
+      "topic": "Operating Systems",
+      "text": "Which effect indicates thrashing?",
+      "options": [
+        {
+          "key": "A",
+          "text": "CPU utilization drops while page fault rate rises sharply"
+        },
+        {
+          "key": "B",
+          "text": "Disk usage drops to zero"
+        },
+        {
+          "key": "C",
+          "text": "All threads complete faster"
+        },
+        {
+          "key": "D",
+          "text": "Context switches become impossible"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Operating Systems): Analyze memory pressure behavior",
+      "cognitiveLevel": "Analysis",
+      "examNumber": 44,
+      "id": 44
+    },
+    {
+      "topic": "Operating Systems",
+      "text": "A university lab can either disable swap to avoid disk wear or tune working sets and page replacement. Which is better?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tune working sets and page replacement while keeping swap policy"
+        },
+        {
+          "key": "B",
+          "text": "Disable virtual memory entirely"
+        },
+        {
+          "key": "C",
+          "text": "Run one process at a time"
+        },
+        {
+          "key": "D",
+          "text": "Use FIFO for all workloads regardless"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Operating Systems): Evaluate OS memory policy",
+      "cognitiveLevel": "Creation/Synthesis",
+      "examNumber": 45,
+      "id": 45
+    },
+    {
+      "topic": "Software Engineering",
+      "text": "Why should non-functional requirements be specified early in the SRS?",
+      "options": [
+        {
+          "key": "A",
+          "text": "They drive architecture and test acceptance criteria"
+        },
+        {
+          "key": "B",
+          "text": "They are optional after coding finishes"
+        },
+        {
+          "key": "C",
+          "text": "They only matter to UI designers"
+        },
+        {
+          "key": "D",
+          "text": "They are identical to source code comments"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Software Engineering): Understand NFR importance",
+      "cognitiveLevel": "Understanding",
+      "examNumber": 46,
+      "id": 46
+    },
+    {
+      "topic": "Software Engineering",
+      "text": "Why is requirements traceability valuable during maintenance?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It links changes to originating stakeholder needs and tests"
+        },
+        {
+          "key": "B",
+          "text": "It removes need for version control"
+        },
+        {
+          "key": "C",
+          "text": "It prevents all requirement changes"
+        },
+        {
+          "key": "D",
+          "text": "It replaces defect tracking"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Software Engineering): Understand traceability purpose",
+      "cognitiveLevel": "Understanding",
+      "examNumber": 47,
+      "id": 47
+    },
+    {
+      "topic": "Software Engineering",
+      "text": "Why is iterative development preferred when stakeholder needs are evolving?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It enables feedback-driven refinement each increment"
+        },
+        {
+          "key": "B",
+          "text": "It guarantees zero rework"
+        },
+        {
+          "key": "C",
+          "text": "It removes planning activities"
+        },
+        {
+          "key": "D",
+          "text": "It forbids automated testing"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Software Engineering): Understand iterative rationale",
+      "cognitiveLevel": "Understanding",
+      "examNumber": 48,
+      "id": 48
+    },
+    {
+      "topic": "Software Engineering",
+      "text": "Why is code review effective in reducing defects before release?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It catches logic and maintainability issues early"
+        },
+        {
+          "key": "B",
+          "text": "It eliminates need for testing and QA"
+        },
+        {
+          "key": "C",
+          "text": "It replaces user acceptance testing"
+        },
+        {
+          "key": "D",
+          "text": "It guarantees performance goals"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Software Engineering): Understand review value",
+      "cognitiveLevel": "Creation/Synthesis",
+      "examNumber": 49,
+      "id": 49
+    },
+    {
+      "topic": "Software Engineering",
+      "text": "A requirement says, 'System should be very fast.' What is the best rewrite?",
+      "options": [
+        {
+          "key": "A",
+          "text": "System shall return search results within 2 seconds for 95% of requests"
+        },
+        {
+          "key": "B",
+          "text": "System shall be fast enough"
+        },
+        {
+          "key": "C",
+          "text": "System shall use modern hardware"
+        },
+        {
+          "key": "D",
+          "text": "System should try to be responsive"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Software Engineering): Apply measurable requirement writing",
+      "cognitiveLevel": "Application",
+      "examNumber": 50,
+      "id": 50
+    },
+    {
+      "topic": "Software Engineering",
+      "text": "A bug repeatedly reappears after merges. Which practice most directly prevents this?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Automated regression tests in CI"
+        },
+        {
+          "key": "B",
+          "text": "Manual demo before semester end"
+        },
+        {
+          "key": "C",
+          "text": "Long-lived branches without rebasing"
+        },
+        {
+          "key": "D",
+          "text": "Skipping unit tests for speed"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Software Engineering): Apply engineering practice",
+      "cognitiveLevel": "Application",
+      "examNumber": 51,
+      "id": 51
+    },
+    {
+      "topic": "Software Engineering",
+      "text": "A team delivers quickly by bypassing design and tests, then maintenance cost grows each sprint. What is this pattern?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Technical debt accumulation"
+        },
+        {
+          "key": "B",
+          "text": "Perfective maintenance success"
+        },
+        {
+          "key": "C",
+          "text": "Feature toggling"
+        },
+        {
+          "key": "D",
+          "text": "Parallel development"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Software Engineering): Analyze process consequences",
+      "cognitiveLevel": "Understanding",
+      "examNumber": 52,
+      "id": 52
+    },
+    {
+      "topic": "Software Engineering",
+      "text": "A project manager can shorten schedule by reducing testing week or reducing scope of low-value reports after stakeholder review. Which is better?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Reduce low-value scope while preserving quality gates"
+        },
+        {
+          "key": "B",
+          "text": "Reduce testing week first"
+        },
+        {
+          "key": "C",
+          "text": "Skip requirements review"
+        },
+        {
+          "key": "D",
+          "text": "Freeze bug fixes"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Software Engineering): Evaluate scope-time-quality trade-off",
+      "cognitiveLevel": "Evaluation",
+      "examNumber": 53,
+      "id": 53
+    },
+    {
+      "topic": "Software Engineering",
+      "text": "Design a practical change control workflow for requirements in a ministry project.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Submit change request, impact analysis, CCB decision, update baselines and tests"
+        },
+        {
+          "key": "B",
+          "text": "Allow any developer to edit scope in production"
+        },
+        {
+          "key": "C",
+          "text": "Reject all changes by default"
+        },
+        {
+          "key": "D",
+          "text": "Update code first and document later"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Software Engineering): Create governance workflow",
+      "cognitiveLevel": "Creation/Synthesis",
+      "examNumber": 54,
+      "id": 54
+    },
+    {
+      "topic": "Software Engineering",
+      "text": "Create the best branching strategy for a student portal with weekly releases and urgent hotfixes.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Use trunk-based development with short-lived branches and hotfix path"
+        },
+        {
+          "key": "B",
+          "text": "Use one branch per developer forever"
+        },
+        {
+          "key": "C",
+          "text": "Commit directly to production server"
+        },
+        {
+          "key": "D",
+          "text": "Disable pull requests"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Software Engineering): Create release-friendly workflow",
+      "cognitiveLevel": "Creation/Synthesis",
+      "examNumber": 55,
+      "id": 55
+    },
+    {
+      "topic": "Software Engineering",
+      "text": "Create an effective definition of done for a feature team.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Code reviewed, tests passing, docs updated, acceptance criteria met"
+        },
+        {
+          "key": "B",
+          "text": "Feature compiles on one laptop"
+        },
+        {
+          "key": "C",
+          "text": "PO says maybe"
+        },
+        {
+          "key": "D",
+          "text": "Merged without tests if urgent"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Software Engineering): Create quality criteria",
+      "cognitiveLevel": "Creation/Synthesis",
+      "examNumber": 56,
+      "id": 56
+    },
+    {
+      "topic": "Software Engineering",
+      "text": "Create a maintainability plan for a legacy module with high defect density.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Refactor incrementally behind tests and track defect trends"
+        },
+        {
+          "key": "B",
+          "text": "Rewrite all modules at once without tests"
+        },
+        {
+          "key": "C",
+          "text": "Freeze all changes permanently"
+        },
+        {
+          "key": "D",
+          "text": "Delete documentation"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Software Engineering): Create improvement plan",
+      "cognitiveLevel": "Creation/Synthesis",
+      "examNumber": 57,
+      "id": 57
+    },
+    {
+      "topic": "Software Engineering",
+      "text": "Create the most suitable elicitation approach for dispersed stakeholders across regions.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Combine structured interviews, workshops, and prototype reviews"
+        },
+        {
+          "key": "B",
+          "text": "Collect requirements from one developer only"
+        },
+        {
+          "key": "C",
+          "text": "Use assumptions from previous project"
+        },
+        {
+          "key": "D",
+          "text": "Skip validation to save travel"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Software Engineering): Create elicitation strategy",
+      "cognitiveLevel": "Creation/Synthesis",
+      "examNumber": 58,
+      "id": 58
+    },
+    {
+      "topic": "Software Engineering",
+      "text": "Create a metrics set to monitor release health over time.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Lead time, change failure rate, defect escape rate, MTTR"
+        },
+        {
+          "key": "B",
+          "text": "Number of comments in code"
+        },
+        {
+          "key": "C",
+          "text": "CPU model name"
+        },
+        {
+          "key": "D",
+          "text": "Wi-Fi signal strength"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Software Engineering): Create actionable engineering metrics",
+      "cognitiveLevel": "Creation/Synthesis",
+      "examNumber": 59,
+      "id": 59
+    },
+    {
+      "topic": "Software Engineering",
+      "text": "A senior engineer finds a severe privacy bug two days before release. What is the most ethical action?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Escalate immediately, document risk, and block release until mitigated"
+        },
+        {
+          "key": "B",
+          "text": "Hide the bug to protect schedule"
+        },
+        {
+          "key": "C",
+          "text": "Ship and fix only if users complain"
+        },
+        {
+          "key": "D",
+          "text": "Delete issue tracker entry"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Software Engineering): Professional ethics in SE",
+      "cognitiveLevel": "Evaluation",
+      "examNumber": 60,
+      "id": 60
+    },
+    {
+      "topic": "Software Engineering",
+      "text": "During sprint planning, two developers disagree strongly on design. What behavior best supports team effectiveness?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Use evidence-based discussion and seek consensus on criteria"
+        },
+        {
+          "key": "B",
+          "text": "Ignore one side and proceed silently"
+        },
+        {
+          "key": "C",
+          "text": "Escalate personal attacks"
+        },
+        {
+          "key": "D",
+          "text": "Delay until deadline pressure decides"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Software Engineering): Constructive teamwork behavior",
+      "cognitiveLevel": "Evaluation",
+      "examNumber": 61,
+      "id": 61
+    },
+    {
+      "topic": "Software Architecture",
+      "text": "Why is layered architecture commonly used for enterprise information systems?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It separates concerns and controls dependencies between layers"
+        },
+        {
+          "key": "B",
+          "text": "It requires no interfaces"
+        },
+        {
+          "key": "C",
+          "text": "It removes the need for deployment planning"
+        },
+        {
+          "key": "D",
+          "text": "It stores all logic in database triggers"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Software Architecture): Understand layered architecture",
+      "cognitiveLevel": "Understanding",
+      "examNumber": 62,
+      "id": 62
+    },
+    {
+      "topic": "Software Architecture",
+      "text": "A system must integrate legacy modules quickly. Should the team choose event-driven microservices now or begin with a modular monolith and clear boundaries?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Begin with modular monolith and evolve where needed"
+        },
+        {
+          "key": "B",
+          "text": "Adopt microservices immediately for every module"
+        },
+        {
+          "key": "C",
+          "text": "Rewrite all code in assembly"
+        },
+        {
+          "key": "D",
+          "text": "Avoid architecture decisions"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Software Architecture): Evaluate architecture migration strategy",
+      "cognitiveLevel": "Evaluation",
+      "examNumber": 63,
+      "id": 63
+    },
+    {
+      "topic": "Software Architecture",
+      "text": "Create a service decomposition for university management platform.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Admissions, Course Catalog, Registration, Billing, and Notification services with clear APIs"
+        },
+        {
+          "key": "B",
+          "text": "One giant service with shared global tables"
+        },
+        {
+          "key": "C",
+          "text": "Separate service per controller method"
+        },
+        {
+          "key": "D",
+          "text": "No API contracts between components"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Software Architecture): Create bounded-context decomposition",
+      "cognitiveLevel": "Creation/Synthesis",
+      "examNumber": 64,
+      "id": 64
+    },
+    {
+      "topic": "Software Architecture",
+      "text": "Design an architecture pattern for high read traffic to course catalogs with occasional updates.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Use cache-aside with invalidation and authoritative DB"
+        },
+        {
+          "key": "B",
+          "text": "Write-through to local text files only"
+        },
+        {
+          "key": "C",
+          "text": "Disable caching entirely always"
+        },
+        {
+          "key": "D",
+          "text": "Store state only in browser memory"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Software Architecture): Create scalable read architecture",
+      "cognitiveLevel": "Creation/Synthesis",
+      "examNumber": 65,
+      "id": 65
+    },
+    {
+      "topic": "Software Architecture",
+      "text": "Create the best approach for cross-cutting observability in distributed services.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Centralized logging, metrics, tracing, and correlation IDs"
+        },
+        {
+          "key": "B",
+          "text": "Print stack traces only on client browser"
+        },
+        {
+          "key": "C",
+          "text": "Disable logs in production permanently"
+        },
+        {
+          "key": "D",
+          "text": "Rely on manual screenshots for diagnosis"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Software Architecture): Create observability architecture",
+      "cognitiveLevel": "Creation/Synthesis",
+      "examNumber": 66,
+      "id": 66
+    },
+    {
+      "topic": "Project Management",
+      "text": "Why is a Work Breakdown Structure prepared before detailed scheduling?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It decomposes deliverables into manageable work packages"
+        },
+        {
+          "key": "B",
+          "text": "It replaces risk management plans"
+        },
+        {
+          "key": "C",
+          "text": "It is only needed after deployment"
+        },
+        {
+          "key": "D",
+          "text": "It estimates server CPU usage"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Project Management): Understand WBS role",
+      "cognitiveLevel": "Understanding",
+      "examNumber": 67,
+      "id": 67
+    },
+    {
+      "topic": "Project Management",
+      "text": "A project has activities A(2d), B(3d) after A, and C(4d) after A; D(2d) after B and C. What is project duration?",
+      "options": [
+        {
+          "key": "A",
+          "text": "7 days"
+        },
+        {
+          "key": "B",
+          "text": "8 days"
+        },
+        {
+          "key": "C",
+          "text": "9 days"
+        },
+        {
+          "key": "D",
+          "text": "11 days"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Project Management): Apply critical path calculation",
+      "cognitiveLevel": "Application",
+      "examNumber": 68,
+      "id": 68
+    },
+    {
+      "topic": "Project Management",
+      "text": "A donor offers to add scope without extending deadline or budget. Which decision is best?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Negotiate trade-offs and re-baseline formally"
+        },
+        {
+          "key": "B",
+          "text": "Accept silently and pressure team overtime indefinitely"
+        },
+        {
+          "key": "C",
+          "text": "Drop QA activities first"
+        },
+        {
+          "key": "D",
+          "text": "Ignore sponsor communication"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Project Management): Evaluate PM trade-off",
+      "cognitiveLevel": "Evaluation",
+      "examNumber": 69,
+      "id": 69
+    },
+    {
+      "topic": "Project Management",
+      "text": "Create a WBS for deploying an online exam system nationally.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Initiation, Requirements, Development, Pilot, Training, Rollout, Support"
+        },
+        {
+          "key": "B",
+          "text": "Coding, Coding, Coding only"
+        },
+        {
+          "key": "C",
+          "text": "Procure laptops then finish"
+        },
+        {
+          "key": "D",
+          "text": "Launch without readiness checks"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Project Management): Create structured WBS",
+      "cognitiveLevel": "Creation/Synthesis",
+      "examNumber": 70,
+      "id": 70
+    },
+    {
+      "topic": "Project Management",
+      "text": "Create a risk response plan for internet outages during computer-based exams.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Define mitigation, contingency, owner, trigger, and communication path"
+        },
+        {
+          "key": "B",
+          "text": "Assume outages will not occur"
+        },
+        {
+          "key": "C",
+          "text": "Remove all deadlines"
+        },
+        {
+          "key": "D",
+          "text": "Stop documenting risks"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Project Management): Create risk management plan",
+      "cognitiveLevel": "Creation/Synthesis",
+      "examNumber": 71,
+      "id": 71
+    },
+    {
+      "topic": "Project Management",
+      "text": "A team member is new to test automation and repeatedly misses tasks. What is the most constructive leadership response?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Coach, pair with mentor, and adjust plan transparently"
+        },
+        {
+          "key": "B",
+          "text": "Publicly shame the member in meetings"
+        },
+        {
+          "key": "C",
+          "text": "Hide delays from stakeholders"
+        },
+        {
+          "key": "D",
+          "text": "Reassign all work without feedback"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Project Management): Supportive leadership behavior",
+      "cognitiveLevel": "Evaluation",
+      "examNumber": 72,
+      "id": 72
+    },
+    {
+      "topic": "Software Testing",
+      "text": "Why is boundary value analysis effective for numeric input fields?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Defects frequently occur near minimum and maximum limits"
+        },
+        {
+          "key": "B",
+          "text": "It only tests random interior values"
+        },
+        {
+          "key": "C",
+          "text": "It replaces exploratory testing"
+        },
+        {
+          "key": "D",
+          "text": "It is valid only for UI colors"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Software Testing): Understand BVA rationale",
+      "cognitiveLevel": "Understanding",
+      "examNumber": 73,
+      "id": 73
+    },
+    {
+      "topic": "Software Testing",
+      "text": "For allowed age range 18-60 inclusive, which set is best for boundary testing?",
+      "options": [
+        {
+          "key": "A",
+          "text": "17, 18, 19, 59, 60, 61"
+        },
+        {
+          "key": "B",
+          "text": "1, 20, 40, 80"
+        },
+        {
+          "key": "C",
+          "text": "18 only"
+        },
+        {
+          "key": "D",
+          "text": "60 only"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Software Testing): Apply BVA case design",
+      "cognitiveLevel": "Understanding",
+      "examNumber": 74,
+      "id": 74
+    },
+    {
+      "topic": "Software Testing",
+      "text": "A feature passes unit tests but fails when combined with payment gateway and message queue. Which test level exposed this?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Integration testing"
+        },
+        {
+          "key": "B",
+          "text": "Mutation testing"
+        },
+        {
+          "key": "C",
+          "text": "Usability testing"
+        },
+        {
+          "key": "D",
+          "text": "Smoke testing only"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Software Testing): Analyze failure location by test level",
+      "cognitiveLevel": "Analysis",
+      "examNumber": 75,
+      "id": 75
+    },
+    {
+      "topic": "Software Testing",
+      "text": "Create a lean but effective test plan for semester registration peak week.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Prioritize critical paths, define entry/exit criteria, data sets, and rollback checks"
+        },
+        {
+          "key": "B",
+          "text": "Test only login page"
+        },
+        {
+          "key": "C",
+          "text": "Run tests after release only"
+        },
+        {
+          "key": "D",
+          "text": "Skip performance scenarios"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Software Testing): Create risk-based test plan",
+      "cognitiveLevel": "Creation/Synthesis",
+      "examNumber": 76,
+      "id": 76
+    },
+    {
+      "topic": "Software Testing",
+      "text": "Create the best strategy to prevent recurring production bugs.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Automate regression suite and include bug reproduction tests in CI"
+        },
+        {
+          "key": "B",
+          "text": "Delete failed tests to keep pipeline green"
+        },
+        {
+          "key": "C",
+          "text": "Run tests manually once per year"
+        },
+        {
+          "key": "D",
+          "text": "Allow direct commits to main"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Software Testing): Create sustainable QA approach",
+      "cognitiveLevel": "Creation/Synthesis",
+      "examNumber": 77,
+      "id": 77
+    },
+    {
+      "topic": "Networking",
+      "text": "Why are subnet masks used in IPv4 networks?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To separate network and host portions for routing"
+        },
+        {
+          "key": "B",
+          "text": "To encrypt all packets"
+        },
+        {
+          "key": "C",
+          "text": "To replace DNS"
+        },
+        {
+          "key": "D",
+          "text": "To increase CPU clock speed"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Networking): Understand subnet mask role",
+      "cognitiveLevel": "Understanding",
+      "examNumber": 78,
+      "id": 78
+    },
+    {
+      "topic": "Networking",
+      "text": "How many usable host addresses are in a /27 subnet?",
+      "options": [
+        {
+          "key": "A",
+          "text": "30"
+        },
+        {
+          "key": "B",
+          "text": "32"
+        },
+        {
+          "key": "C",
+          "text": "62"
+        },
+        {
+          "key": "D",
+          "text": "14"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Networking): Apply subnet calculation",
+      "cognitiveLevel": "Application",
+      "examNumber": 79,
+      "id": 79
+    },
+    {
+      "topic": "Networking",
+      "text": "A campus has network 192.168.10.0/24 and needs 4 equal subnets. What new prefix is required?",
+      "options": [
+        {
+          "key": "A",
+          "text": "/25"
+        },
+        {
+          "key": "B",
+          "text": "/26"
+        },
+        {
+          "key": "C",
+          "text": "/27"
+        },
+        {
+          "key": "D",
+          "text": "/28"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Networking): Apply subnetting by equal division",
+      "cognitiveLevel": "Application",
+      "examNumber": 80,
+      "id": 80
+    },
+    {
+      "topic": "Networking",
+      "text": "A packet from host in VLAN 10 to VLAN 20 requires which device function?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Layer-2 switching only"
+        },
+        {
+          "key": "B",
+          "text": "Inter-VLAN routing at Layer 3"
+        },
+        {
+          "key": "C",
+          "text": "DNS recursion"
+        },
+        {
+          "key": "D",
+          "text": "NAT exemption"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Networking): Analyze routed path requirements",
+      "cognitiveLevel": "Understanding",
+      "examNumber": 81,
+      "id": 81
+    },
+    {
+      "topic": "Networking",
+      "text": "Design a resilient network for a regional exam center with two ISPs and critical online proctoring.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Use dual WAN with failover routing and health checks"
+        },
+        {
+          "key": "B",
+          "text": "Use one ISP and manual tethering only"
+        },
+        {
+          "key": "C",
+          "text": "Disable routing protocols"
+        },
+        {
+          "key": "D",
+          "text": "Use unmanaged hubs everywhere"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Networking): Create resilient network design",
+      "cognitiveLevel": "Creation/Synthesis",
+      "examNumber": 82,
+      "id": 82
+    },
+    {
+      "topic": "Networking",
+      "text": "Create an addressing plan for 6 departments each requiring about 40 hosts.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Allocate /26 per department from a summarizable block"
+        },
+        {
+          "key": "B",
+          "text": "Use /30 per department"
+        },
+        {
+          "key": "C",
+          "text": "Give all departments one /24 with no VLANs"
+        },
+        {
+          "key": "D",
+          "text": "Use random public IPs"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Networking): Create IP addressing strategy",
+      "cognitiveLevel": "Creation/Synthesis",
+      "examNumber": 83,
+      "id": 83
+    },
+    {
+      "topic": "Networking",
+      "text": "A school can deploy unmanaged flat network or segmented VLAN network with ACLs. Which is better for security and manageability?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Segmented VLAN network with ACLs"
+        },
+        {
+          "key": "B",
+          "text": "Single flat network for all devices"
+        },
+        {
+          "key": "C",
+          "text": "No DHCP and manual IP for everyone forever"
+        },
+        {
+          "key": "D",
+          "text": "Disable gateway redundancy"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Networking): Evaluate network architecture trade-off",
+      "cognitiveLevel": "Creation/Synthesis",
+      "examNumber": 84,
+      "id": 84
+    },
+    {
+      "topic": "Security",
+      "text": "Why should passwords be stored using salted adaptive hashing rather than plain SHA256?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Adaptive hashing slows brute-force and salt prevents rainbow-table reuse"
+        },
+        {
+          "key": "B",
+          "text": "SHA256 cannot hash strings"
+        },
+        {
+          "key": "C",
+          "text": "Plain text is easier to audit"
+        },
+        {
+          "key": "D",
+          "text": "Salting weakens security"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Security): Understand password storage best practice",
+      "cognitiveLevel": "Understanding",
+      "examNumber": 85,
+      "id": 85
+    },
+    {
+      "topic": "Security",
+      "text": "A phishing email asks lecturers to re-enter portal credentials via a similar-looking domain. Which control most directly reduces account takeover?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Enable multi-factor authentication"
+        },
+        {
+          "key": "B",
+          "text": "Disable spam filtering"
+        },
+        {
+          "key": "C",
+          "text": "Share one account for all lecturers"
+        },
+        {
+          "key": "D",
+          "text": "Allow password reuse indefinitely"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Security): Apply phishing mitigation",
+      "cognitiveLevel": "Application",
+      "examNumber": 86,
+      "id": 86
+    },
+    {
+      "topic": "Security",
+      "text": "An API receives SQL payload `' OR 1=1 --` in login form. Which fix is most appropriate?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Use parameterized queries and strict input handling"
+        },
+        {
+          "key": "B",
+          "text": "Escape spaces only"
+        },
+        {
+          "key": "C",
+          "text": "Block users with short names"
+        },
+        {
+          "key": "D",
+          "text": "Hide DB errors without code changes"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Security): Apply SQL injection defense",
+      "cognitiveLevel": "Application",
+      "examNumber": 87,
+      "id": 87
+    },
+    {
+      "topic": "Security",
+      "text": "A server shows many SYN packets from spoofed addresses without completed handshakes. What attack is likely?",
+      "options": [
+        {
+          "key": "A",
+          "text": "SYN flood denial-of-service"
+        },
+        {
+          "key": "B",
+          "text": "ARP cache poisoning"
+        },
+        {
+          "key": "C",
+          "text": "Cross-site scripting"
+        },
+        {
+          "key": "D",
+          "text": "Directory traversal"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Security): Analyze network attack signature",
+      "cognitiveLevel": "Analysis",
+      "examNumber": 88,
+      "id": 88
+    },
+    {
+      "topic": "Security",
+      "text": "A district education office can either allow shared admin accounts or enforce unique named admin accounts with least privilege and logging. Which is best?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Unique named admin accounts with least privilege and logging"
+        },
+        {
+          "key": "B",
+          "text": "Shared admin account for convenience"
+        },
+        {
+          "key": "C",
+          "text": "Disable log retention"
+        },
+        {
+          "key": "D",
+          "text": "Use default passwords"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Security): Evaluate access-control governance",
+      "cognitiveLevel": "Evaluation",
+      "examNumber": 89,
+      "id": 89
+    },
+    {
+      "topic": "Security",
+      "text": "Create a practical incident response workflow for malware on exam lab PCs.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Detect, isolate hosts, preserve evidence, eradicate, recover, and conduct lessons learned"
+        },
+        {
+          "key": "B",
+          "text": "Reboot affected systems and ignore logs"
+        },
+        {
+          "key": "C",
+          "text": "Disconnect internet forever"
+        },
+        {
+          "key": "D",
+          "text": "Notify users after one month"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Security): Create IR lifecycle",
+      "cognitiveLevel": "Creation/Synthesis",
+      "examNumber": 90,
+      "id": 90
+    },
+    {
+      "topic": "Security",
+      "text": "A developer accidentally commits an API key to a public repository. What professional response is most responsible?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Rotate key immediately, report incident, and improve secret-scanning controls"
+        },
+        {
+          "key": "B",
+          "text": "Leave key active and hope no one notices"
+        },
+        {
+          "key": "C",
+          "text": "Delete commit history secretly and tell no one"
+        },
+        {
+          "key": "D",
+          "text": "Share key with team chat for backup"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Security): Security accountability behavior",
+      "cognitiveLevel": "Evaluation",
+      "examNumber": 91,
+      "id": 91
+    },
+    {
+      "topic": "AI / ML",
+      "text": "Why can a model perform well on training data but poorly on unseen data?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It may be overfitting rather than generalizing"
+        },
+        {
+          "key": "B",
+          "text": "Because gradient descent always fails"
+        },
+        {
+          "key": "C",
+          "text": "Because labels are never needed"
+        },
+        {
+          "key": "D",
+          "text": "Because test data must equal training data"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (AI / ML): Understand overfitting",
+      "cognitiveLevel": "Understanding",
+      "examNumber": 92,
+      "id": 92
+    },
+    {
+      "topic": "AI / ML",
+      "text": "Why is feature scaling often required for k-means clustering?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Distance-based algorithms are sensitive to feature magnitudes"
+        },
+        {
+          "key": "B",
+          "text": "Scaling removes all outliers automatically"
+        },
+        {
+          "key": "C",
+          "text": "Scaling converts clustering to classification"
+        },
+        {
+          "key": "D",
+          "text": "Scaling guarantees perfect clusters"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (AI / ML): Understand scaling rationale",
+      "cognitiveLevel": "Understanding",
+      "examNumber": 93,
+      "id": 93
+    },
+    {
+      "topic": "AI / ML",
+      "text": "A binary classifier predicts fraud. From confusion matrix TP=40, FP=10, FN=20, TN=130, what is precision?",
+      "options": [
+        {
+          "key": "A",
+          "text": "0.50"
+        },
+        {
+          "key": "B",
+          "text": "0.67"
+        },
+        {
+          "key": "C",
+          "text": "0.80"
+        },
+        {
+          "key": "D",
+          "text": "0.90"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (AI / ML): Apply precision formula",
+      "cognitiveLevel": "Application",
+      "examNumber": 94,
+      "id": 94
+    },
+    {
+      "topic": "AI / ML",
+      "text": "A search agent uses A* with admissible heuristic. Which property is expected?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It finds an optimal path if one exists"
+        },
+        {
+          "key": "B",
+          "text": "It ignores path cost completely"
+        },
+        {
+          "key": "C",
+          "text": "It behaves exactly as DFS"
+        },
+        {
+          "key": "D",
+          "text": "It never expands nodes"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (AI / ML): Apply informed search property",
+      "cognitiveLevel": "Application",
+      "examNumber": 95,
+      "id": 95
+    },
+    {
+      "topic": "AI / ML",
+      "text": "Model A has 98% accuracy on imbalanced data where only 2% are positive; recall is 10%. What is key concern?",
+      "options": [
+        {
+          "key": "A",
+          "text": "High accuracy hides poor minority-class detection"
+        },
+        {
+          "key": "B",
+          "text": "Model is definitely optimal"
+        },
+        {
+          "key": "C",
+          "text": "Class imbalance improves recall automatically"
+        },
+        {
+          "key": "D",
+          "text": "Precision must be 100%"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (AI / ML): Analyze metric interpretation",
+      "cognitiveLevel": "Analysis",
+      "examNumber": 96,
+      "id": 96
+    },
+    {
+      "topic": "AI / ML",
+      "text": "Create a pipeline for predicting student dropout risk from semester data.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Data cleaning, feature engineering, train/validation split, model training, fairness checks, monitoring"
+        },
+        {
+          "key": "B",
+          "text": "Train once and never monitor"
+        },
+        {
+          "key": "C",
+          "text": "Use test data for tuning"
+        },
+        {
+          "key": "D",
+          "text": "Ignore missing values"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (AI / ML): Create ML lifecycle pipeline",
+      "cognitiveLevel": "Creation/Synthesis",
+      "examNumber": 97,
+      "id": 97
+    },
+    {
+      "topic": "AI / ML",
+      "text": "Design an NLP assistant for campus FAQs that can improve over time with feedback.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Combine retrieval over verified docs with feedback loop and periodic evaluation"
+        },
+        {
+          "key": "B",
+          "text": "Hardcode one response for all questions"
+        },
+        {
+          "key": "C",
+          "text": "Allow model to answer without any data governance"
+        },
+        {
+          "key": "D",
+          "text": "Disable evaluation"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (AI / ML): Create practical AI assistant design",
+      "cognitiveLevel": "Creation/Synthesis",
+      "examNumber": 98,
+      "id": 98
+    },
+    {
+      "topic": "AI / ML",
+      "text": "Create an expert-system rule strategy for course advising.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Represent prerequisite and GPA constraints as if-then rules with explanation output"
+        },
+        {
+          "key": "B",
+          "text": "Store rules as screenshots"
+        },
+        {
+          "key": "C",
+          "text": "Remove conflict resolution"
+        },
+        {
+          "key": "D",
+          "text": "Use random recommendations"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (AI / ML): Create rule-based reasoning solution",
+      "cognitiveLevel": "Creation/Synthesis",
+      "examNumber": 99,
+      "id": 99
+    },
+    {
+      "topic": "AI / ML",
+      "text": "Design the best approach for deploying a model in production with drift risk.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Use canary rollout, monitor data drift, and trigger retraining policy"
+        },
+        {
+          "key": "B",
+          "text": "Deploy once and lock forever"
+        },
+        {
+          "key": "C",
+          "text": "Manually inspect every prediction only"
+        },
+        {
+          "key": "D",
+          "text": "Disable logging for privacy"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (AI / ML): Create MLOps deployment strategy",
+      "cognitiveLevel": "Creation/Synthesis",
+      "examNumber": 100,
+      "id": 100
+    }
+  ]
+}

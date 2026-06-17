@@ -513,6 +513,143 @@ body.on-subject {
   color: #fff;
 }
 
+/* ── Cognitive level practice (MoEE blueprint) ── */
+
+.cognitive-section {
+  margin-top: 3rem;
+  padding-top: 2.25rem;
+  border-top: 1px solid var(--studio-border);
+}
+
+.cognitive-section-head {
+  margin-bottom: 1.25rem;
+}
+
+.cognitive-section-title {
+  font-family: var(--font-serif);
+  font-size: clamp(1.65rem, 4vw, 2.15rem);
+  font-weight: 400;
+  line-height: 1.1;
+  margin-bottom: 0.4rem;
+}
+
+.cognitive-section-lead {
+  font-size: 0.92rem;
+  color: var(--studio-muted);
+  max-width: 52ch;
+  line-height: 1.5;
+}
+
+.cognitive-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.cognitive-card {
+  background: var(--studio-card);
+  border: 1px solid transparent;
+  border-radius: 18px;
+  padding: 1.15rem 1.2rem 1.1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  min-height: 156px;
+  text-align: left;
+  font-family: var(--font);
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s, transform 0.12s ease, box-shadow 0.15s;
+}
+
+.cognitive-card:hover {
+  background: var(--studio-card-hover);
+  border-color: var(--studio-border);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+}
+
+.cognitive-card:active { transform: translateY(0); }
+
+.cognitive-card-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.65rem;
+}
+
+.cognitive-card-title {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.3;
+  color: var(--studio-text);
+}
+
+.cognitive-card-count {
+  flex-shrink: 0;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--studio-muted);
+  background: var(--studio-bg);
+  border: 1px solid var(--studio-border);
+  padding: 0.2rem 0.5rem;
+  border-radius: 999px;
+  font-variant-numeric: tabular-nums;
+}
+
+.cognitive-card-desc {
+  font-size: 0.84rem;
+  color: var(--studio-muted);
+  line-height: 1.45;
+  flex: 1;
+}
+
+.cognitive-card-action {
+  margin-top: auto;
+  padding-top: 0.65rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--studio-text);
+}
+
+.cognitive-card-action::after {
+  content: " →";
+}
+
+.cognitive-loading {
+  grid-column: 1 / -1;
+  font-size: 0.88rem;
+  color: var(--studio-muted);
+}
+
+.badge-cognitive {
+  background: #eef2ff;
+  color: #3730a3;
+  border: 1px solid #c7d2fe;
+}
+
+.cognitive-level-remembering { --cog-accent: #6366f1; }
+.cognitive-level-understanding { --cog-accent: #0ea5e9; }
+.cognitive-level-application { --cog-accent: #10b981; }
+.cognitive-level-analysis { --cog-accent: #f59e0b; }
+.cognitive-level-evaluation { --cog-accent: #ef4444; }
+.cognitive-level-creation-synthesis { --cog-accent: #8b5cf6; }
+
+.cognitive-card[data-level="remembering"] .cognitive-card-title { color: #4338ca; }
+.cognitive-card[data-level="understanding"] .cognitive-card-title { color: #0369a1; }
+.cognitive-card[data-level="application"] .cognitive-card-title { color: #047857; }
+.cognitive-card[data-level="analysis"] .cognitive-card-title { color: #b45309; }
+.cognitive-card[data-level="evaluation"] .cognitive-card-title { color: #b91c1c; }
+.cognitive-card[data-level="creation-synthesis"] .cognitive-card-title { color: #6d28d9; }
+
+@media (max-width: 900px) {
+  .cognitive-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 560px) {
+  .cognitive-grid { grid-template-columns: 1fr; }
+  .cognitive-section { margin-top: 2.25rem; padding-top: 1.75rem; }
+}
+
 .studio-status {
   margin-top: 1.75rem;
   font-size: 0.84rem;
@@ -1262,6 +1399,17 @@ h2 {
   border-bottom: 1px solid var(--studio-border);
   flex-shrink: 0;
   z-index: 20;
+}
+
+.home-layout-single {
+  display: block;
+  max-width: 1120px;
+}
+
+.btn-header-home {
+  padding: 0.35rem 0.75rem;
+  font-size: 0.82rem;
+  flex-shrink: 0;
 }
 
 .national-header-left,

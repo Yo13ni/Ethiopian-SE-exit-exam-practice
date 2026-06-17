@@ -1,0 +1,1298 @@
+{
+  "total": 69,
+  "by_exam": {
+    "2015": 9,
+    "2016": 9,
+    "2017": 10,
+    "aau": 9,
+    "astu": 12,
+    "bdu": 8,
+    "model1": 7,
+    "moe2025": 5
+  },
+  "themes": {
+    "Architecture Definition & Structures": 51,
+    "Architectural Styles": 11,
+    "Design Patterns": 11,
+    "Other Architecture": 5,
+    "Quality Attributes": 11,
+    "SOLID & Design Principles": 3,
+    "Coupling & Cohesion": 1,
+    "ATAM & Documentation": 1
+  },
+  "patterns": {
+    "definition/identification": 46,
+    "steps/sequence/order": 3,
+    "negation (NOT/EXCEPT/FALSE)": 10,
+    "best/most/primary": 8,
+    "pros/cons/limitations": 1,
+    "example/scenario": 1
+  },
+  "questions": [
+    {
+      "exam": "2015",
+      "id": 1,
+      "examNumber": 1,
+      "topic": "Software Architecture",
+      "text": "Which parameter is used to assess and evaluate software architectures?",
+      "answer": "C",
+      "concept": "Key idea (Software Architecture): Architectural quality in attribute",
+      "themes": [
+        "Architecture Definition & Structures"
+      ],
+      "options": [
+        "Responsiveness of Architectures",
+        "Durability of Architectures",
+        "Architectural quality in attribute",
+        "Number of components in the Architecture’s"
+      ]
+    },
+    {
+      "exam": "2015",
+      "id": 13,
+      "examNumber": 19,
+      "topic": "Networking",
+      "text": "Which of the following is the correct order of packet data unit as data moved in the OSI reference model from bottom to top?",
+      "answer": "C",
+      "concept": "Key idea (Networking): Bit, Frame, Packet, Segment",
+      "themes": [
+        "Architecture Definition & Structures"
+      ],
+      "options": [
+        "Segment, Packet, Frame, Bit",
+        "Segment, Frame, Packet, Bit",
+        "Bit, Frame, Packet, Segment",
+        "Bit, Packet, Frame, Segment"
+      ]
+    },
+    {
+      "exam": "2015",
+      "id": 32,
+      "examNumber": 39,
+      "topic": "Software Architecture",
+      "text": "“The system architecture should be designed using fine-grain, self- contained components. Producers of data should be separated from consumers and shared data structures should be avoided.” For which requirement this architecture description applies?",
+      "answer": "B",
+      "concept": "Key idea (Software Architecture): maintainability",
+      "themes": [
+        "Architecture Definition & Structures"
+      ],
+      "options": [
+        "Availability",
+        "maintainability",
+        "performance",
+        "security"
+      ]
+    },
+    {
+      "exam": "2015",
+      "id": 44,
+      "examNumber": 51,
+      "topic": "Database",
+      "text": "Identify the lowest layer of android architecture",
+      "answer": "A",
+      "concept": "Key idea (Software Architecture): Linux kernel",
+      "themes": [
+        "Architecture Definition & Structures"
+      ],
+      "options": [
+        "Linux kernel",
+        "Database",
+        "Application Framework",
+        "Application"
+      ]
+    },
+    {
+      "exam": "2015",
+      "id": 52,
+      "examNumber": 59,
+      "topic": "Software Architecture",
+      "text": "Given the following layered architecture which ordering relation is correct and didn’t encountered any architectural erosion? Assume there are four layers: A,B,C and D A B C D",
+      "answer": "D",
+      "concept": "Key idea (Software Architecture): (C,B)",
+      "themes": [
+        "Architectural Styles",
+        "Architecture Definition & Structures"
+      ],
+      "options": [
+        "(A,B)",
+        "(D,A)",
+        "(A,C)",
+        "(C,B)"
+      ]
+    },
+    {
+      "exam": "2015",
+      "id": 65,
+      "examNumber": 72,
+      "topic": "Networking",
+      "text": "Which design pattern is used to restore the state of an object to its previous state?",
+      "answer": "B",
+      "concept": "Key idea (Software Architecture): Momento pattern",
+      "themes": [
+        "Architecture Definition & Structures",
+        "Design Patterns"
+      ],
+      "options": [
+        "Visitor pattern",
+        "Momento pattern",
+        "Observer pattern",
+        "Iterator pattern"
+      ]
+    },
+    {
+      "exam": "2015",
+      "id": 67,
+      "examNumber": 74,
+      "topic": "Software Architecture",
+      "text": "What components hides the distinctions or boundaries between various micro services from end client application?",
+      "answer": "B",
+      "concept": "Key idea (Software Architecture): API gateway",
+      "themes": [
+        "Architecture Definition & Structures"
+      ],
+      "options": [
+        "A Layered system",
+        "API gateway",
+        "API proxy",
+        "API logging"
+      ]
+    },
+    {
+      "exam": "2015",
+      "id": 68,
+      "examNumber": 75,
+      "topic": "Networking",
+      "text": "Select a fundamental issue that may not be considered by the software architects during the architectural design process?",
+      "answer": "A",
+      "concept": "Key idea (Networking): Which architectural organization is best for delivering the functional requirements",
+      "themes": [
+        "Other Architecture"
+      ],
+      "options": [
+        "Which architectural organization is best for delivering the functional requirements",
+        "How to decompose structural components in to sub components",
+        "How the system will be distributed across a number of cores or processes",
+        "Which architectural patterns or styles to use"
+      ]
+    },
+    {
+      "exam": "2015",
+      "id": 80,
+      "examNumber": 87,
+      "topic": "Software Architecture",
+      "text": "Select the one that is not related with the purpose of properly documenting software architecture",
+      "answer": "B",
+      "concept": "Key idea (Software Architecture): To easily figure out the source code flow",
+      "themes": [
+        "Architecture Definition & Structures"
+      ],
+      "options": [
+        "For Stakeholder communication",
+        "To easily figure out the source code flow",
+        "For critical system design decisions",
+        "To know how the system is organized and interoperate"
+      ]
+    },
+    {
+      "exam": "2016",
+      "id": 21,
+      "examNumber": 21,
+      "topic": "Software Engineering",
+      "text": "Given the following layered architecture, which ordering relation is correct and does not encounter architectural erosion? Assume there are four layers: A, B, C, and D.",
+      "answer": "A",
+      "concept": "Key idea (Software Engineering): Layer A may call layer B; layer B may call layer C; layer C may call layer D",
+      "themes": [
+        "Architectural Styles"
+      ],
+      "options": [
+        "Layer A may call layer B; layer B may call layer C; layer C may call layer D",
+        "Layer A may call layer C directly; layer B may call layer D",
+        "Layer D may call layer A; layer C may call layer B",
+        "Layer A may call any lower layer without restriction"
+      ]
+    },
+    {
+      "exam": "2016",
+      "id": 44,
+      "examNumber": 44,
+      "topic": "Software Architecture",
+      "text": "What component hides the distinction or boundaries between various microservices from end-client application?",
+      "answer": "B",
+      "concept": "Key idea (Software Architecture): API gateway",
+      "themes": [
+        "Architectural Styles",
+        "Architecture Definition & Structures"
+      ],
+      "options": [
+        "A layered system",
+        "API gateway",
+        "API logging",
+        "API proxy"
+      ]
+    },
+    {
+      "exam": "2016",
+      "id": 46,
+      "examNumber": 46,
+      "topic": "Software Architecture",
+      "text": "Select the fundamental issue that may not be considered by software architects during the architectural design process:",
+      "answer": "B",
+      "concept": "Key idea (Software Architecture): How the system will be distributed across a number of cores or processors",
+      "themes": [
+        "Architecture Definition & Structures"
+      ],
+      "options": [
+        "Which architectural organization is best for delivering the functional requirements?",
+        "How the system will be distributed across a number of cores or processors",
+        "How to decompose structural components into sub-components",
+        "Which architectural patterns or styles to use"
+      ]
+    },
+    {
+      "exam": "2016",
+      "id": 51,
+      "examNumber": 51,
+      "topic": "Software Architecture",
+      "text": "Select the one that is not related with the purpose of properly documenting software architectures:",
+      "answer": "D",
+      "concept": "Key idea (Software Architecture): To easily figure out the source code flow",
+      "themes": [
+        "Architecture Definition & Structures"
+      ],
+      "options": [
+        "To know how the system is organized and interoperates",
+        "For stakeholder communication",
+        "For critical system design decisions",
+        "To easily figure out the source code flow"
+      ]
+    },
+    {
+      "exam": "2016",
+      "id": 58,
+      "examNumber": 58,
+      "topic": "Software Engineering",
+      "text": "Which design pattern is used to restore the state of an object to its previous state?",
+      "answer": "C",
+      "concept": "Key idea (Software Engineering): Memento pattern",
+      "themes": [
+        "Design Patterns"
+      ],
+      "options": [
+        "Iterator pattern",
+        "Observer pattern",
+        "Memento pattern",
+        "Visitor pattern"
+      ]
+    },
+    {
+      "exam": "2016",
+      "id": 59,
+      "examNumber": 59,
+      "topic": "Security",
+      "text": "Which of the following is among benefits provided with access control lists (ACLs) implementation for software security based applications?",
+      "answer": "C",
+      "concept": "Key idea (Security): ACLs provide high network availability",
+      "themes": [
+        "Quality Attributes"
+      ],
+      "options": [
+        "Virus detection",
+        "ACLs classify and organize network traffic",
+        "ACLs provide high network availability",
+        "ACLs monitor the number of bytes and packets"
+      ]
+    },
+    {
+      "exam": "2016",
+      "id": 63,
+      "examNumber": 63,
+      "topic": "Software Engineering",
+      "text": "\"The system architecture should be designed using fine-grain, self-contained components. Producers of data should be separated from consumers and shared data structures should be avoided.\" For which requirement does this architecture description apply?",
+      "answer": "C",
+      "concept": "Key idea (Software Engineering): Maintainability",
+      "themes": [
+        "Other Architecture"
+      ],
+      "options": [
+        "Performance",
+        "Availability",
+        "Maintainability",
+        "Security"
+      ]
+    },
+    {
+      "exam": "2016",
+      "id": 81,
+      "examNumber": 81,
+      "topic": "Software Architecture",
+      "text": "Which parameter is used to assess and evaluate software architectures?",
+      "answer": "D",
+      "concept": "Key idea (Software Architecture): Architectural quality attributes",
+      "themes": [
+        "Quality Attributes",
+        "Architecture Definition & Structures"
+      ],
+      "options": [
+        "Number of components in the architecture",
+        "Durability of the architecture",
+        "Responsiveness of the architecture",
+        "Architectural quality attributes"
+      ]
+    },
+    {
+      "exam": "2016",
+      "id": 90,
+      "examNumber": 90,
+      "topic": "Android",
+      "text": "Identify the lowest layer of Android architecture.",
+      "answer": "D",
+      "concept": "Key idea (Android): Linux Kernel",
+      "themes": [
+        "Other Architecture"
+      ],
+      "options": [
+        "Application",
+        "Application Framework",
+        "Database",
+        "Linux Kernel"
+      ]
+    },
+    {
+      "exam": "2017",
+      "id": 7,
+      "examNumber": 7,
+      "topic": "Networking",
+      "text": "Which of the following OSI model layers handles issues such as network transparency and resource allocation?",
+      "answer": "C",
+      "concept": "Key idea (Networking): Application",
+      "themes": [
+        "Architecture Definition & Structures"
+      ],
+      "options": [
+        "Transport",
+        "Network",
+        "Application",
+        "Data link"
+      ]
+    },
+    {
+      "exam": "2017",
+      "id": 24,
+      "examNumber": 27,
+      "topic": "Software Architecture",
+      "text": "H ide of touomng Software Architectural Styles is typically used in systems where high responsiveness and real- tme procesqr•.g are needed?",
+      "answer": "C",
+      "concept": "Key idea (Software Architecture): Archltecture d. Serv«tess",
+      "themes": [
+        "Architectural Styles",
+        "Architecture Definition & Structures"
+      ],
+      "options": [
+        "Monolithic Architectute ) b. Microservsces",
+        "Architecture Event-Dnven",
+        "Archltecture d. Serv«tess",
+        "Agchttecture Next"
+      ]
+    },
+    {
+      "exam": "2017",
+      "id": 25,
+      "examNumber": 28,
+      "topic": "Software Architecture",
+      "text": "Which one of the following is a critical feature when designing for system scalability in a large-scale software system?",
+      "answer": "C",
+      "concept": "Key idea (Software Architecture): Horizontal scaling through independent services",
+      "themes": [
+        "Quality Attributes",
+        "Architecture Definition & Structures"
+      ],
+      "options": [
+        "Using a monolithic codebase for simplicity",
+        "Limiting API access to avoid traffic",
+        "Horizontal scaling through independent services",
+        "Using a single database for all services"
+      ]
+    },
+    {
+      "exam": "2017",
+      "id": 62,
+      "examNumber": 65,
+      "topic": "Project Management",
+      "text": "Given a complex software development project, how would you design a Work Breakdown Structure (WBS) to ensure efficient task allocation?",
+      "answer": "B",
+      "concept": "Key idea (Project Management): Create a hierarchical breakdown of tasks based on project deliverables",
+      "themes": [
+        "Architecture Definition & Structures"
+      ],
+      "options": [
+        "Focus only on the coding phase while ignoring testing and deployment",
+        "Create a hierarchical breakdown of tasks based on project deliverables",
+        "Assign all tasks to a single team to ensure consistency",
+        "Divide the work into as many random tasks as possible"
+      ]
+    },
+    {
+      "exam": "2017",
+      "id": 67,
+      "examNumber": 70,
+      "topic": "Software Engineering",
+      "text": "What is the first step in developing a medium-scale application that solves real-world problems?",
+      "answer": "D",
+      "concept": "Key idea (Software Engineering): Analyzing requirements and designing system architecture",
+      "themes": [
+        "Other Architecture"
+      ],
+      "options": [
+        "Writing code immediately",
+        "Choosing a programming language randomly",
+        "Copying code from online sources",
+        "Analyzing requirements and designing system architecture"
+      ]
+    },
+    {
+      "exam": "2017",
+      "id": 71,
+      "examNumber": 74,
+      "topic": "Software Architecture",
+      "text": "Which of the following software architectural styles is typically used in systems where high responsiveness and real-time processing are needed?",
+      "answer": "C",
+      "concept": "Key idea (Software Architecture): Event-Driven Architecture",
+      "themes": [
+        "Architectural Styles",
+        "Architecture Definition & Structures"
+      ],
+      "options": [
+        "Monolithic Architecture",
+        "Microservices Architecture",
+        "Event-Driven Architecture",
+        "Serverless Architecture"
+      ]
+    },
+    {
+      "exam": "2017",
+      "id": 76,
+      "examNumber": 79,
+      "topic": "Software Architecture",
+      "text": "Which design pattern is used when the algorithm for creating a complex object should be independent of the parts that make up the object and how they are assembled?",
+      "answer": "B",
+      "concept": "Key idea (Software Architecture): Builder pattern",
+      "themes": [
+        "Architecture Definition & Structures",
+        "Design Patterns"
+      ],
+      "options": [
+        "Singleton pattern",
+        "Builder pattern",
+        "Factory Method pattern",
+        "Prototype pattern"
+      ]
+    },
+    {
+      "exam": "2017",
+      "id": 77,
+      "examNumber": 80,
+      "topic": "Software Architecture",
+      "text": "Which architectural style is most suitable for a large-scale software system with independent, scalable components?",
+      "answer": "A",
+      "concept": "Key idea (Software Architecture): Microservices Architecture",
+      "themes": [
+        "Architectural Styles",
+        "Architecture Definition & Structures"
+      ],
+      "options": [
+        "Microservices Architecture",
+        "Layered Architecture",
+        "Client-Server Architecture",
+        "Monolithic Architecture"
+      ]
+    },
+    {
+      "exam": "2017",
+      "id": 93,
+      "examNumber": 97,
+      "topic": "Java / OOP",
+      "text": "Fig quest'on 2:45:43 What is the pnmary goal of requirement engineering in software development?",
+      "answer": "D",
+      "concept": "Key idea (Java / OOP): To design the software architecture",
+      "themes": [
+        "Architecture Definition & Structures"
+      ],
+      "options": [
+        "To wnte the",
+        "To create the user interface",
+        "To define and manage stakeholder requirements",
+        "To design the software architecture"
+      ]
+    },
+    {
+      "exam": "2017",
+      "id": 95,
+      "examNumber": 99,
+      "topic": "Software Engineering",
+      "text": "Which one of the following Object-Oriented Software Design Principles states that software entities should be open for extension but closed for modification?",
+      "answer": "D",
+      "concept": "Key idea (Software Engineering): Open/Closed Principle (OCP)",
+      "themes": [
+        "Design Patterns",
+        "SOLID & Design Principles"
+      ],
+      "options": [
+        "Interface Segregation Principle (ISP)",
+        "Single Responsibility Principle (SRP)",
+        "Liskov Substitution Principle (LSP)",
+        "Open/Closed Principle (OCP)"
+      ]
+    },
+    {
+      "exam": "aau",
+      "id": 3,
+      "examNumber": 3,
+      "topic": "Software Architecture",
+      "text": "Which of the following alternatives is most suitable for supporting a qualitative analysis of your software architecture?",
+      "answer": "C",
+      "concept": "Key idea (Networking): Quality scenarios",
+      "themes": [
+        "Architecture Definition & Structures"
+      ],
+      "options": [
+        "Team size",
+        "Organizational structures",
+        "Quality scenarios",
+        "Log files"
+      ]
+    },
+    {
+      "exam": "aau",
+      "id": 8,
+      "examNumber": 8,
+      "topic": "Software Architecture",
+      "text": "Which of the following qualities can most likely be improved by using a layered architecture?",
+      "answer": "A",
+      "concept": "Key idea (Networking): Flexibility in modifying or changing the system",
+      "themes": [
+        "Architectural Styles",
+        "Architecture Definition & Structures"
+      ],
+      "options": [
+        "Flexibility in modifying or changing the system",
+        "Runtime efficiency (performance)",
+        "Flexibility at runtime (configurability)",
+        "Non-repudiability"
+      ]
+    },
+    {
+      "exam": "aau",
+      "id": 10,
+      "examNumber": 10,
+      "topic": "Software Architecture",
+      "text": "Why is software architecture so important?",
+      "answer": "D",
+      "concept": "Key idea (Networking): All of the above",
+      "themes": [
+        "Architecture Definition & Structures"
+      ],
+      "options": [
+        "Communication among stakeholders",
+        "Early design decisions",
+        "Transferable abstraction of a system",
+        "All of the above"
+      ]
+    },
+    {
+      "exam": "aau",
+      "id": 12,
+      "examNumber": 12,
+      "topic": "Software Architecture",
+      "text": "You try to analyze your architecture quantitatively. Which is the most appropriate indicator for architectural problem areas?",
+      "answer": "D",
+      "concept": "Key idea (SE): High coupling of components",
+      "themes": [
+        "Architecture Definition & Structures",
+        "SOLID & Design Principles",
+        "Coupling & Cohesion"
+      ],
+      "options": [
+        "Missing comments",
+        "Names of public methods do not reflect their purpose",
+        "Number of test cases per component",
+        "High coupling of components"
+      ]
+    },
+    {
+      "exam": "aau",
+      "id": 28,
+      "examNumber": 28,
+      "topic": "Database",
+      "text": "Several architecture development methods suggest a view-based approach. Which of the following views are most often used?",
+      "answer": "A",
+      "concept": "Key idea (SE): Context view",
+      "themes": [
+        "Other Architecture"
+      ],
+      "options": [
+        "Context view",
+        "Configuration view",
+        "Building Block/Component view",
+        "Physical database view"
+      ]
+    },
+    {
+      "exam": "aau",
+      "id": 39,
+      "examNumber": 39,
+      "topic": "Database",
+      "text": "What effect does achievement of quality attribute will have on softwsare product?",
+      "answer": "D",
+      "concept": "Key idea (Database): The achievement of quality attribute will have a positive as well as negative effect",
+      "themes": [
+        "Quality Attributes"
+      ],
+      "options": [
+        "The achievement of quality attribute will always have a negative effect",
+        "It is non deterministic",
+        "The achievement of quality attribute will always have a positive effect",
+        "The achievement of quality attribute will have a positive as well as negative effect"
+      ]
+    },
+    {
+      "exam": "aau",
+      "id": 75,
+      "examNumber": 75,
+      "topic": "Software Testing",
+      "text": "A software system that manages a hotel booking system has been updated wm a new feature that allows users to view room availability in real-time. A tester has been assigned to verify that existing functionality, such as the ability to book rooms and make payments, has not been adversely affected by the new feature. What type of testing is the tester performing? . . Integration testing",
+      "answer": "D",
+      "concept": "Key idea (SE): Regression testing",
+      "themes": [
+        "Quality Attributes"
+      ],
+      "options": [
+        "(option unclear in OCR)",
+        "user acceptance testing",
+        "Functional testing",
+        "Regression testing"
+      ]
+    },
+    {
+      "exam": "aau",
+      "id": 83,
+      "examNumber": 83,
+      "topic": "Software Testing",
+      "text": "A hotel booking system was updated with real-time room availability. A tester verifies that booking and payment still work. What testing is this?",
+      "answer": "C",
+      "concept": "Key idea (SE): Regression testing",
+      "themes": [
+        "Quality Attributes"
+      ],
+      "options": [
+        "User acceptance testing",
+        "Functional testing",
+        "Regression testing",
+        "Integration testing"
+      ]
+    },
+    {
+      "exam": "aau",
+      "id": 92,
+      "examNumber": 92,
+      "topic": "Software Architecture",
+      "text": "What are the most important goals of software architecture? o",
+      "answer": "C",
+      "concept": "Key idea (Networking): Enable a basic understanding ot structures and concepts tor the development team and other stakeholders.",
+      "themes": [
+        "Architecture Definition & Structures"
+      ],
+      "options": [
+        "Enable cost-effective integration and acceptance tests of the system.",
+        "Improve accuracy of patterns in structure and implementation",
+        "Enable a basic understanding ot structures and concepts tor the development team and other stakeholders.",
+        "To help understand the completeness of requirement"
+      ]
+    },
+    {
+      "exam": "astu",
+      "id": 7,
+      "examNumber": 7,
+      "topic": "Software Architecture",
+      "text": "Which of the following does not relate to Evolutionary Process Model?",
+      "answer": "D",
+      "concept": "Key idea (Software Architecture): All of the above",
+      "themes": [
+        "Architecture Definition & Structures"
+      ],
+      "options": [
+        "Incremental Model",
+        "Concurrent Development Model",
+        "WINWIN Spiral Model",
+        "All of the above"
+      ]
+    },
+    {
+      "exam": "astu",
+      "id": 8,
+      "examNumber": 8,
+      "topic": "Software Architecture",
+      "text": "What is the major drawback of the Spiral Model?",
+      "answer": "B",
+      "concept": "Key idea (Software Architecture): Doesn't work well for smaller projects",
+      "themes": [
+        "Architecture Definition & Structures"
+      ],
+      "options": [
+        "Higher amount of risk analysis",
+        "Doesn't work well for smaller projects",
+        "Additional functionalities are added later on",
+        "Strong approval and documentation control"
+      ]
+    },
+    {
+      "exam": "astu",
+      "id": 15,
+      "examNumber": 15,
+      "topic": "Software Testing",
+      "text": "Which of the following is an example of Black Box and Functional Processing?",
+      "answer": "D",
+      "concept": "Key idea (Software Testing): Fourth Generation Language",
+      "themes": [
+        "Architecture Definition & Structures"
+      ],
+      "options": [
+        "First Generation Language",
+        "Second Generation Language",
+        "Third Generation Language",
+        "Fourth Generation Language"
+      ]
+    },
+    {
+      "exam": "astu",
+      "id": 19,
+      "examNumber": 19,
+      "topic": "Software Architecture",
+      "text": "Which of the following model has a major downfall to a software development life cycle in terms of the coding phase?",
+      "answer": "A",
+      "concept": "Key idea (Software Architecture): 4GT Model",
+      "themes": [
+        "Architecture Definition & Structures"
+      ],
+      "options": [
+        "4GT Model",
+        "Waterfall Model",
+        "RAD Model",
+        "Spiral Model"
+      ]
+    },
+    {
+      "exam": "astu",
+      "id": 24,
+      "examNumber": 24,
+      "topic": "Software Architecture",
+      "text": "RUP is abbreviated as __________, invented by a division of __________.",
+      "answer": "A",
+      "concept": "Key idea (Software Architecture): Rational Unified Process, IBM",
+      "themes": [
+        "Architecture Definition & Structures"
+      ],
+      "options": [
+        "Rational Unified Process, IBM",
+        "Rational Unified Program, IBM",
+        "Rational Unified Process, Infosys",
+        "Rational Unified Program, Infosys"
+      ]
+    },
+    {
+      "exam": "astu",
+      "id": 25,
+      "examNumber": 25,
+      "topic": "Software Architecture",
+      "text": "The RUP can be defined based on three main perspectives, i.e., static, dynamic & practice. What is the purpose of static perspective?",
+      "answer": "B",
+      "concept": "Key idea (Software Architecture): It displays all the enacted process activities.",
+      "themes": [
+        "Architecture Definition & Structures"
+      ],
+      "options": [
+        "It recommends some good practices that be included while carrying out the process.",
+        "It displays all the enacted process activities.",
+        "It portrays the phases that the model has entered over a specific time.",
+        "All of the above."
+      ]
+    },
+    {
+      "exam": "astu",
+      "id": 32,
+      "examNumber": 32,
+      "topic": "Software Architecture",
+      "text": "The __________ model helps in representing the system's dynamic behavior.",
+      "answer": "C",
+      "concept": "Key idea (Software Architecture): Behavioral Model",
+      "themes": [
+        "Architecture Definition & Structures",
+        "Design Patterns"
+      ],
+      "options": [
+        "Object Model",
+        "Context Model",
+        "Behavioral Model",
+        "Data Model"
+      ]
+    },
+    {
+      "exam": "astu",
+      "id": 33,
+      "examNumber": 33,
+      "topic": "Software Architecture",
+      "text": "Model-driven engineering is nothing but a theoretical concept. It can never be transmuted into a working/executable code.",
+      "answer": "B",
+      "concept": "Key idea (Software Architecture): False",
+      "themes": [
+        "Architecture Definition & Structures"
+      ],
+      "options": [
+        "True",
+        "False"
+      ]
+    },
+    {
+      "exam": "astu",
+      "id": 34,
+      "examNumber": 34,
+      "topic": "Software Architecture",
+      "text": "The __________ and __________ are the two major dimensions encompassed in the Spiral model.",
+      "answer": "D",
+      "concept": "Key idea (Software Architecture): Radial, Angular",
+      "themes": [
+        "Architecture Definition & Structures"
+      ],
+      "options": [
+        "Diagonal, Perpendicular",
+        "Perpendicular, Radial",
+        "Angular, diagonal",
+        "Radial, Angular"
+      ]
+    },
+    {
+      "exam": "astu",
+      "id": 35,
+      "examNumber": 35,
+      "topic": "Software Architecture",
+      "text": "Which of the following technique is involved in certifying the sustained development of legacy systems?",
+      "answer": "D",
+      "concept": "Key idea (Software Architecture): Reverse engineering and Reengineering",
+      "themes": [
+        "Architecture Definition & Structures"
+      ],
+      "options": [
+        "Reengineering",
+        "Forward engineering",
+        "Reverse engineering",
+        "Reverse engineering and Reengineering"
+      ]
+    },
+    {
+      "exam": "astu",
+      "id": 40,
+      "examNumber": 40,
+      "topic": "Project Management",
+      "text": "__________ is not considered as an activity of Structured Analysis (SA).",
+      "answer": "C",
+      "concept": "Key idea (Project Management): All the functions represented in the DFD are mapped to a module structure",
+      "themes": [
+        "Architecture Definition & Structures"
+      ],
+      "options": [
+        "Transformation of a textual problem description into a graphic model",
+        "Functional decomposition",
+        "All the functions represented in the DFD are mapped to a module structure",
+        "All of the mentioned"
+      ]
+    },
+    {
+      "exam": "astu",
+      "id": 56,
+      "examNumber": 56,
+      "topic": "Project Management",
+      "text": "Once the requirements are stabilized, the basic architecture of the software can be established. Which of the following version of the COCOMO model conforms to the given statement?",
+      "answer": "A",
+      "concept": "Key idea (Project Management): Application composition model",
+      "themes": [
+        "Design Patterns"
+      ],
+      "options": [
+        "Application composition model",
+        "Post-architecture-stage model",
+        "Early design stage model",
+        "All of the above"
+      ]
+    },
+    {
+      "exam": "bdu",
+      "id": 44,
+      "examNumber": 44,
+      "topic": "Software Architecture",
+      "text": "Which of the following describes a set of elements and relationships among them for a domain?",
+      "answer": "D",
+      "concept": "Key idea (Software Architecture): Reference model",
+      "themes": [
+        "Architecture Definition & Structures"
+      ],
+      "options": [
+        "Reference Architecture",
+        "Software architecture",
+        "Architectural pattern",
+        "Reference model"
+      ]
+    },
+    {
+      "exam": "bdu",
+      "id": 47,
+      "examNumber": 47,
+      "topic": "Software Testing",
+      "text": "Boundary value analysis belong to",
+      "answer": "C",
+      "concept": "Key idea (Software Testing): Black Box Testing",
+      "themes": [
+        "Architecture Definition & Structures"
+      ],
+      "options": [
+        "(option unclear in OCR)",
+        "White dox Testing",
+        "Black Box Testing",
+        "Nane of the mentioned"
+      ]
+    },
+    {
+      "exam": "bdu",
+      "id": 50,
+      "examNumber": 50,
+      "topic": "Android",
+      "text": "Denial of Service attacks affects which af the following factors",
+      "answer": "D",
+      "concept": "Key idea (Android): Availability",
+      "themes": [
+        "Quality Attributes"
+      ],
+      "options": [
+        "All of the above",
+        "Integrity",
+        "Confidentiality",
+        "Availability"
+      ]
+    },
+    {
+      "exam": "bdu",
+      "id": 55,
+      "examNumber": 55,
+      "topic": "Database",
+      "text": "magne a you re crea Inga e or app, In addition to simple text editing, your editor can format text, insert inline imagese etc. At some point, you decided to let users undo any operations carried out on the text. This feature has become so common over the years that nowadays people expect every app to have it. For the implementation, you chose to take the direct approach. Before performing any operation, the app records the state of all objects and saves it in some storage. Later, when a user decides to revert an action, the app fetches the latest snapshot from the history and uses it to restore the state of all objects. Choose the best design pattern that best suits for the problem mentioned",
+      "answer": "A",
+      "concept": "Key idea (Networking): Mediator . Memento",
+      "themes": [
+        "Design Patterns"
+      ],
+      "options": [
+        "Mediator . Memento",
+        "(option unclear in OCR)",
+        "Observer d Iterator eeeæ eeeee eeeeg sofeng-2015: Modem 7",
+        "(option unclear in OCR)"
+      ]
+    },
+    {
+      "exam": "bdu",
+      "id": 57,
+      "examNumber": 57,
+      "topic": "Software Architecture",
+      "text": "In the model-view-controller architectural style, the jab of a model component is to",
+      "answer": "B",
+      "concept": "Key idea (General): Store information about the state of the program o",
+      "themes": [
+        "Architectural Styles",
+        "Architecture Definition & Structures",
+        "Design Patterns"
+      ],
+      "options": [
+        "Change the way a view responds to user input",
+        "Store information about the state of the program o",
+        "Present information to the user",
+        "Make requests of the server"
+      ]
+    },
+    {
+      "exam": "bdu",
+      "id": 60,
+      "examNumber": 60,
+      "topic": "Software Architecture",
+      "text": "Predicts future trends & behaviors, allowing business managers to make proactive,knowledge-driven decisions",
+      "answer": "C",
+      "concept": "Key idea (Software Architecture): Data mining d Datamarts PR EVIOUS PAGE",
+      "themes": [
+        "Architecture Definition & Structures",
+        "ATAM & Documentation"
+      ],
+      "options": [
+        "Metadata",
+        "Data warehouse",
+        "Data mining d Datamarts PR EVIOUS PAGE",
+        "(option unclear in OCR)"
+      ]
+    },
+    {
+      "exam": "bdu",
+      "id": 76,
+      "examNumber": 76,
+      "topic": "Software Testing",
+      "text": "Which of the below statement is true about the Equivalence Partitioning technique",
+      "answer": "B",
+      "concept": "Key idea (Software Testing): A black box testing technique appropriate to all levels of testing.",
+      "themes": [
+        "Architecture Definition & Structures",
+        "Design Patterns"
+      ],
+      "options": [
+        "A black box testing technique that can only be used during system testing.",
+        "A black box testing technique appropriate to all levels of testing.",
+        "The black box testing technique is used only by developers.",
+        "A white box testing technique appropriate far component testingr"
+      ]
+    },
+    {
+      "exam": "bdu",
+      "id": 89,
+      "examNumber": 89,
+      "topic": "Software Engineering",
+      "text": "Which one of the following structures is odd",
+      "answer": "C",
+      "concept": "Key idea (Software Engineering): Client server",
+      "themes": [
+        "Architectural Styles"
+      ],
+      "options": [
+        "Shared data",
+        "Work assignment",
+        "Client server",
+        "Concurrency"
+      ]
+    },
+    {
+      "exam": "model1",
+      "id": 18,
+      "examNumber": 18,
+      "topic": "Project Management",
+      "text": "One of the following statements addresses the characteristics of functional organization structure?",
+      "answer": "B",
+      "concept": "Key idea (Project Management): Little or no project manager authority, little or no resource availability, and the functional manager control the proje…",
+      "themes": [
+        "Quality Attributes",
+        "Design Patterns"
+      ],
+      "options": [
+        "Low to moderate project manager authority, low to moderate resource availability, and a full-time project manager's role",
+        "Little or no project manager authority, little or no resource availability, and the functional manager control the project budget",
+        "High to almost total project manager authority, high to almost total resource availability, and full-time project management administrative staff",
+        "Limited project manager authority, limited resource availability, and a part-time project manager's role"
+      ]
+    },
+    {
+      "exam": "model1",
+      "id": 30,
+      "examNumber": 30,
+      "topic": "Networking",
+      "text": "Which one is not an architectural style?",
+      "answer": "C",
+      "concept": "Key idea (Networking): UML",
+      "themes": [
+        "Architectural Styles"
+      ],
+      "options": [
+        "MVC",
+        "Client server",
+        "UML",
+        "OSI layer"
+      ]
+    },
+    {
+      "exam": "model1",
+      "id": 55,
+      "examNumber": 55,
+      "topic": "Software Architecture",
+      "text": "If your software system can continue in spite of unexpected problems from internal and external environment, we say your system has good:",
+      "answer": "B",
+      "concept": "Key idea (Software Architecture): Robustness",
+      "themes": [
+        "Architecture Definition & Structures"
+      ],
+      "options": [
+        "Integrity",
+        "Robustness",
+        "Maintainability",
+        "Reliability"
+      ]
+    },
+    {
+      "exam": "model1",
+      "id": 74,
+      "examNumber": 74,
+      "topic": "Software Testing",
+      "text": "The incredible change in business and society as emerging economies develop and new technologies become available mainly:",
+      "answer": "B",
+      "concept": "Key idea (Software Testing): Leads to demand for new software architecture",
+      "themes": [
+        "Architecture Definition & Structures"
+      ],
+      "options": [
+        "Makes obsolete the already existing software systems",
+        "Leads to demand for new software architecture",
+        "Requires new testing on the existing software systems",
+        "Leads to Privacy and security breaches"
+      ]
+    },
+    {
+      "exam": "model1",
+      "id": 78,
+      "examNumber": 78,
+      "topic": "Software Architecture",
+      "text": "Identify the one that does not affect architectural decision",
+      "answer": "C",
+      "concept": "Key idea (Software Architecture): The way the data is stored",
+      "themes": [
+        "Architecture Definition & Structures"
+      ],
+      "options": [
+        "Architectural style to be used",
+        "Type of the application to be developed",
+        "The way the data is stored",
+        "Expected performance of the system"
+      ]
+    },
+    {
+      "exam": "model1",
+      "id": 80,
+      "examNumber": 80,
+      "topic": "Software Architecture",
+      "text": "For the software architecture to be easily understood by other design experts for later maintenance and scalability, there should be",
+      "answer": "B",
+      "concept": "Key idea (Software Architecture): Architectural notation and semantic description",
+      "themes": [
+        "Quality Attributes",
+        "Architecture Definition & Structures"
+      ],
+      "options": [
+        "Architectural optimization techniques",
+        "Architectural notation and semantic description",
+        "Architectural refactoring",
+        "Architectural reverse engineering"
+      ]
+    },
+    {
+      "exam": "model1",
+      "id": 82,
+      "examNumber": 82,
+      "topic": "Software Architecture",
+      "text": "If performance is the critical requirement of your architecture, which architectural approach you apply while architecting your system?",
+      "answer": "C",
+      "concept": "Key idea (Software Architecture): Localize critical operations",
+      "themes": [
+        "Quality Attributes",
+        "Architecture Definition & Structures"
+      ],
+      "options": [
+        "Increase number of component communication",
+        "Increase number of components",
+        "Localize critical operations",
+        "Distribute operations across network"
+      ]
+    },
+    {
+      "exam": "moe2025",
+      "id": 60,
+      "examNumber": 60,
+      "topic": "Software Architecture",
+      "text": "What is the role of software architecture in a system?",
+      "answer": "B",
+      "concept": "Key idea (Software Architecture): To define the system's structure and behavior",
+      "themes": [
+        "Architecture Definition & Structures"
+      ],
+      "options": [
+        "To write detailed code",
+        "To define the system's structure and behavior",
+        "To test the software",
+        "To deploy the application"
+      ]
+    },
+    {
+      "exam": "moe2025",
+      "id": 61,
+      "examNumber": 61,
+      "topic": "Software Architecture",
+      "text": "Which design pattern separates an object's abstraction from its implementation?",
+      "answer": "C",
+      "concept": "Key idea (Software Architecture): Bridge",
+      "themes": [
+        "Architecture Definition & Structures",
+        "Design Patterns",
+        "SOLID & Design Principles"
+      ],
+      "options": [
+        "Singleton",
+        "Factory",
+        "Bridge",
+        "Observer"
+      ]
+    },
+    {
+      "exam": "moe2025",
+      "id": 62,
+      "examNumber": 62,
+      "topic": "Software Architecture",
+      "text": "Which architectural style is suitable for web-based applications?",
+      "answer": "B",
+      "concept": "Key idea (Software Architecture): Client-Server",
+      "themes": [
+        "Architectural Styles",
+        "Architecture Definition & Structures"
+      ],
+      "options": [
+        "Monolithic",
+        "Client-Server",
+        "Pipe-and-Filter",
+        "Layered"
+      ]
+    },
+    {
+      "exam": "moe2025",
+      "id": 63,
+      "examNumber": 63,
+      "topic": "Software Architecture",
+      "text": "What is a quality attribute in software architecture?",
+      "answer": "B",
+      "concept": "Key idea (Software Architecture): The system's performance or scalability",
+      "themes": [
+        "Quality Attributes",
+        "Architecture Definition & Structures"
+      ],
+      "options": [
+        "The programming language used",
+        "The system's performance or scalability",
+        "The number of developers",
+        "The project budget"
+      ]
+    },
+    {
+      "exam": "moe2025",
+      "id": 64,
+      "examNumber": 64,
+      "topic": "Software Architecture",
+      "text": "Which UML diagram is used to represent the structure of a system?",
+      "answer": "B",
+      "concept": "Key idea (Software Architecture): Class Diagram",
+      "themes": [
+        "Architecture Definition & Structures"
+      ],
+      "options": [
+        "Sequence Diagram",
+        "Class Diagram",
+        "Activity Diagram",
+        "Use Case Diagram"
+      ]
+    }
+  ]
+}

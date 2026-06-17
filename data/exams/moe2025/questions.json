@@ -44,7 +44,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Fundamentals of Programming): To execute a block of code repeatedly"
+      "concept": "Key idea (Fundamentals of Programming): To execute a block of code repeatedly",
+      "cognitiveLevel": "Evaluation"
     },
     {
       "examNumber": 2,
@@ -70,7 +71,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Fundamentals of Programming): 2"
+      "concept": "Key idea (Fundamentals of Programming): 2",
+      "cognitiveLevel": "Application"
     },
     {
       "examNumber": 3,
@@ -96,7 +98,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Fundamentals of Programming): variable_1"
+      "concept": "Key idea (Fundamentals of Programming): variable_1",
+      "cognitiveLevel": "Understanding"
     },
     {
       "examNumber": 4,
@@ -122,7 +125,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Fundamentals of Programming): Exits the loop entirely"
+      "concept": "Key idea (Fundamentals of Programming): Exits the loop entirely",
+      "cognitiveLevel": "Understanding"
     },
     {
       "examNumber": 5,
@@ -148,7 +152,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Fundamentals of Programming): final"
+      "concept": "Key idea (Fundamentals of Programming): final",
+      "cognitiveLevel": "Understanding"
     },
     {
       "examNumber": 6,
@@ -174,7 +179,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Fundamentals of Programming): O(n)"
+      "concept": "Key idea (Fundamentals of Programming): O(n)",
+      "cognitiveLevel": "Analysis"
     },
     {
       "examNumber": 7,
@@ -200,7 +206,8 @@
         }
       ],
       "answer": "C",
-      "concept": "Key idea (Fundamentals of Programming): If-else statement"
+      "concept": "Key idea (Fundamentals of Programming): If-else statement",
+      "cognitiveLevel": "Creation/Synthesis"
     },
     {
       "examNumber": 8,
@@ -226,7 +233,8 @@
         }
       ],
       "answer": "A",
-      "concept": "Key idea (Fundamentals of Programming): True"
+      "concept": "Key idea (Fundamentals of Programming): True",
+      "cognitiveLevel": "Application"
     },
     {
       "examNumber": 9,
@@ -252,7 +260,8 @@
         }
       ],
       "answer": "C",
-      "concept": "Key idea (Fundamentals of Programming): string"
+      "concept": "Key idea (Fundamentals of Programming): string",
+      "cognitiveLevel": "Understanding"
     },
     {
       "examNumber": 10,
@@ -278,7 +287,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Fundamentals of Programming): To break a program into smaller, manageable functions"
+      "concept": "Key idea (Fundamentals of Programming): To break a program into smaller, manageable functions",
+      "cognitiveLevel": "Understanding"
     },
     {
       "examNumber": 11,
@@ -304,7 +314,8 @@
         }
       ],
       "answer": "C",
-      "concept": "Key idea (Fundamentals of Programming): a, b = b, a"
+      "concept": "Key idea (Fundamentals of Programming): a, b = b, a",
+      "cognitiveLevel": "Understanding"
     },
     {
       "examNumber": 12,
@@ -330,7 +341,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Data Structures): Dynamic size adjustment"
+      "concept": "Key idea (Data Structures): Dynamic size adjustment",
+      "cognitiveLevel": "Evaluation"
     },
     {
       "examNumber": 13,
@@ -356,7 +368,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Data Structures): Stack"
+      "concept": "Key idea (Data Structures): Stack",
+      "cognitiveLevel": "Remembering"
     },
     {
       "examNumber": 14,
@@ -382,7 +395,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Data Structures): O(n²)"
+      "concept": "Key idea (Data Structures): O(n²)",
+      "cognitiveLevel": "Analysis"
     },
     {
       "examNumber": 15,
@@ -408,7 +422,8 @@
         }
       ],
       "answer": "C",
-      "concept": "Key idea (Data Structures): Dijkstra's Algorithm"
+      "concept": "Key idea (Data Structures): Dijkstra's Algorithm",
+      "cognitiveLevel": "Application"
     },
     {
       "examNumber": 16,
@@ -434,7 +449,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Data Structures): Left subtree"
+      "concept": "Key idea (Data Structures): Left subtree",
+      "cognitiveLevel": "Remembering"
     },
     {
       "examNumber": 17,
@@ -460,7 +476,8 @@
         }
       ],
       "answer": "C",
-      "concept": "Key idea (Data Structures): O(log n)"
+      "concept": "Key idea (Data Structures): O(log n)",
+      "cognitiveLevel": "Analysis"
     },
     {
       "examNumber": 18,
@@ -486,7 +503,8 @@
         }
       ],
       "answer": "C",
-      "concept": "Key idea (Java / OOP): Inheritance"
+      "concept": "Key idea (Java / OOP): Inheritance",
+      "cognitiveLevel": "Remembering"
     },
     {
       "examNumber": 19,
@@ -512,7 +530,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Java / OOP): To hide data and restrict direct access"
+      "concept": "Key idea (Java / OOP): To hide data and restrict direct access",
+      "cognitiveLevel": "Understanding"
     },
     {
       "examNumber": 20,
@@ -538,7 +557,8 @@
         }
       ],
       "answer": "A",
-      "concept": "Key idea (Java / OOP): this"
+      "concept": "Key idea (Java / OOP): this",
+      "cognitiveLevel": "Remembering"
     },
     {
       "examNumber": 21,
@@ -564,7 +584,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Java / OOP): Bark"
+      "concept": "Key idea (Java / OOP): Bark",
+      "cognitiveLevel": "Application"
     },
     {
       "examNumber": 22,
@@ -590,7 +611,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Java / OOP): Overriding a method in a subclass"
+      "concept": "Key idea (Java / OOP): Overriding a method in a subclass",
+      "cognitiveLevel": "Remembering"
     },
     {
       "examNumber": 23,
@@ -616,7 +638,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Web Development): <a>"
+      "concept": "Key idea (Web Development): <a>",
+      "cognitiveLevel": "Creation/Synthesis"
     },
     {
       "examNumber": 24,
@@ -642,7 +665,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Web Development): To style and format web pages"
+      "concept": "Key idea (Web Development): To style and format web pages",
+      "cognitiveLevel": "Understanding"
     },
     {
       "examNumber": 25,
@@ -668,7 +692,8 @@
         }
       ],
       "answer": "A",
-      "concept": "Key idea (Web Development): push()"
+      "concept": "Key idea (Web Development): push()",
+      "cognitiveLevel": "Remembering"
     },
     {
       "examNumber": 26,
@@ -694,7 +719,8 @@
         }
       ],
       "answer": "A",
-      "concept": "Key idea (Web Development): Asynchronous JavaScript and XML"
+      "concept": "Key idea (Web Development): Asynchronous JavaScript and XML",
+      "cognitiveLevel": "Remembering"
     },
     {
       "examNumber": 27,
@@ -720,7 +746,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Web Development): GET"
+      "concept": "Key idea (Web Development): GET",
+      "cognitiveLevel": "Remembering"
     },
     {
       "examNumber": 28,
@@ -746,7 +773,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Web Development): Client-side"
+      "concept": "Key idea (Web Development): Client-side",
+      "cognitiveLevel": "Remembering"
     },
     {
       "examNumber": 29,
@@ -772,7 +800,8 @@
         }
       ],
       "answer": "C",
-      "concept": "Key idea (Web Development): 12"
+      "concept": "Key idea (Web Development): 12",
+      "cognitiveLevel": "Application"
     },
     {
       "examNumber": 30,
@@ -798,7 +827,8 @@
         }
       ],
       "answer": "C",
-      "concept": "Key idea (Web Development): PHP"
+      "concept": "Key idea (Web Development): PHP",
+      "cognitiveLevel": "Remembering"
     },
     {
       "examNumber": 31,
@@ -824,7 +854,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Web Development): To provide a structure for developing web applications"
+      "concept": "Key idea (Web Development): To provide a structure for developing web applications",
+      "cognitiveLevel": "Creation/Synthesis"
     },
     {
       "examNumber": 32,
@@ -850,7 +881,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Android): Java"
+      "concept": "Key idea (Android): Java",
+      "cognitiveLevel": "Remembering"
     },
     {
       "examNumber": 33,
@@ -876,7 +908,8 @@
         }
       ],
       "answer": "A",
-      "concept": "Key idea (Android): Activity"
+      "concept": "Key idea (Android): Activity",
+      "cognitiveLevel": "Remembering"
     },
     {
       "examNumber": 34,
@@ -902,7 +935,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Android): To facilitate communication between components"
+      "concept": "Key idea (Android): To facilitate communication between components",
+      "cognitiveLevel": "Understanding"
     },
     {
       "examNumber": 35,
@@ -928,7 +962,8 @@
         }
       ],
       "answer": "A",
-      "concept": "Key idea (Android): AndroidManifest.xml"
+      "concept": "Key idea (Android): AndroidManifest.xml",
+      "cognitiveLevel": "Remembering"
     },
     {
       "examNumber": 36,
@@ -954,7 +989,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Android): Storing sensitive data unencrypted"
+      "concept": "Key idea (Android): Storing sensitive data unencrypted",
+      "cognitiveLevel": "Remembering"
     },
     {
       "examNumber": 37,
@@ -980,7 +1016,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Database): To uniquely identify each record"
+      "concept": "Key idea (Database): To uniquely identify each record",
+      "cognitiveLevel": "Understanding"
     },
     {
       "examNumber": 38,
@@ -1006,7 +1043,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Database): UPDATE"
+      "concept": "Key idea (Database): UPDATE",
+      "cognitiveLevel": "Remembering"
     },
     {
       "examNumber": 39,
@@ -1032,7 +1070,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Database): Records from Students where Age is greater than 20"
+      "concept": "Key idea (Database): Records from Students where Age is greater than 20",
+      "cognitiveLevel": "Application"
     },
     {
       "examNumber": 40,
@@ -1058,7 +1097,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Database): Organizing data to eliminate redundancy"
+      "concept": "Key idea (Database): Organizing data to eliminate redundancy",
+      "cognitiveLevel": "Creation/Synthesis"
     },
     {
       "examNumber": 41,
@@ -1084,7 +1124,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Database): One-to-Many"
+      "concept": "Key idea (Database): One-to-Many",
+      "cognitiveLevel": "Remembering"
     },
     {
       "examNumber": 42,
@@ -1110,7 +1151,8 @@
         }
       ],
       "answer": "A",
-      "concept": "Key idea (Database): Atomicity, Consistency, Isolation, Durability"
+      "concept": "Key idea (Database): Atomicity, Consistency, Isolation, Durability",
+      "cognitiveLevel": "Remembering"
     },
     {
       "examNumber": 43,
@@ -1136,7 +1178,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Operating Systems): To manage hardware and software resources"
+      "concept": "Key idea (Operating Systems): To manage hardware and software resources",
+      "cognitiveLevel": "Remembering"
     },
     {
       "examNumber": 44,
@@ -1162,7 +1205,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Operating Systems): Shortest Job Next"
+      "concept": "Key idea (Operating Systems): Shortest Job Next",
+      "cognitiveLevel": "Remembering"
     },
     {
       "examNumber": 45,
@@ -1188,7 +1232,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Operating Systems): A situation where processes are unable to proceed due to resource conflicts"
+      "concept": "Key idea (Operating Systems): A situation where processes are unable to proceed due to resource conflicts",
+      "cognitiveLevel": "Remembering"
     },
     {
       "examNumber": 46,
@@ -1214,7 +1259,8 @@
         }
       ],
       "answer": "A",
-      "concept": "Key idea (Operating Systems): Paging"
+      "concept": "Key idea (Operating Systems): Paging",
+      "cognitiveLevel": "Remembering"
     },
     {
       "examNumber": 47,
@@ -1240,7 +1286,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Operating Systems): To ensure mutual exclusion"
+      "concept": "Key idea (Operating Systems): To ensure mutual exclusion",
+      "cognitiveLevel": "Understanding"
     },
     {
       "examNumber": 48,
@@ -1266,7 +1313,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Operating Systems): Implementing user authentication"
+      "concept": "Key idea (Operating Systems): Implementing user authentication",
+      "cognitiveLevel": "Application"
     },
     {
       "examNumber": 49,
@@ -1292,7 +1340,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Software Engineering): To develop reliable and efficient software systems"
+      "concept": "Key idea (Software Engineering): To develop reliable and efficient software systems",
+      "cognitiveLevel": "Creation/Synthesis"
     },
     {
       "examNumber": 50,
@@ -1318,7 +1367,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Software Engineering): Waterfall"
+      "concept": "Key idea (Software Engineering): Waterfall",
+      "cognitiveLevel": "Remembering"
     },
     {
       "examNumber": 51,
@@ -1344,7 +1394,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Software Engineering): Iterative and incremental development"
+      "concept": "Key idea (Software Engineering): Iterative and incremental development",
+      "cognitiveLevel": "Understanding"
     },
     {
       "examNumber": 52,
@@ -1370,7 +1421,8 @@
         }
       ],
       "answer": "C",
-      "concept": "Key idea (Software Engineering): Sequence Diagram"
+      "concept": "Key idea (Software Engineering): Sequence Diagram",
+      "cognitiveLevel": "Remembering"
     },
     {
       "examNumber": 53,
@@ -1396,7 +1448,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Software Engineering): To assess the viability of a project"
+      "concept": "Key idea (Software Engineering): To assess the viability of a project",
+      "cognitiveLevel": "Evaluation"
     },
     {
       "examNumber": 54,
@@ -1422,7 +1475,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Software Engineering): The system must respond within 2 seconds"
+      "concept": "Key idea (Software Engineering): The system must respond within 2 seconds",
+      "cognitiveLevel": "Remembering"
     },
     {
       "examNumber": 55,
@@ -1448,7 +1502,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Software Engineering): To gather and document user needs"
+      "concept": "Key idea (Software Engineering): To gather and document user needs",
+      "cognitiveLevel": "Understanding"
     },
     {
       "examNumber": 56,
@@ -1474,7 +1529,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Software Engineering): Conducting interviews"
+      "concept": "Key idea (Software Engineering): Conducting interviews",
+      "cognitiveLevel": "Remembering"
     },
     {
       "examNumber": 57,
@@ -1500,7 +1556,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Software Engineering): It is measurable and verifiable"
+      "concept": "Key idea (Software Engineering): It is measurable and verifiable",
+      "cognitiveLevel": "Remembering"
     },
     {
       "examNumber": 58,
@@ -1526,7 +1583,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Software Engineering): Software Requirements Specification (SRS)"
+      "concept": "Key idea (Software Engineering): Software Requirements Specification (SRS)",
+      "cognitiveLevel": "Remembering"
     },
     {
       "examNumber": 59,
@@ -1552,7 +1610,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Software Engineering): Handling requirement changes during development"
+      "concept": "Key idea (Software Engineering): Handling requirement changes during development",
+      "cognitiveLevel": "Remembering"
     },
     {
       "examNumber": 60,
@@ -1578,7 +1637,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Software Architecture): To define the system's structure and behavior"
+      "concept": "Key idea (Software Architecture): To define the system's structure and behavior",
+      "cognitiveLevel": "Creation/Synthesis"
     },
     {
       "examNumber": 61,
@@ -1604,7 +1664,8 @@
         }
       ],
       "answer": "C",
-      "concept": "Key idea (Software Architecture): Bridge"
+      "concept": "Key idea (Software Architecture): Bridge",
+      "cognitiveLevel": "Creation/Synthesis"
     },
     {
       "examNumber": 62,
@@ -1630,7 +1691,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Software Architecture): Client-Server"
+      "concept": "Key idea (Software Architecture): Client-Server",
+      "cognitiveLevel": "Creation/Synthesis"
     },
     {
       "examNumber": 63,
@@ -1656,7 +1718,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Software Architecture): The system's performance or scalability"
+      "concept": "Key idea (Software Architecture): The system's performance or scalability",
+      "cognitiveLevel": "Creation/Synthesis"
     },
     {
       "examNumber": 64,
@@ -1682,7 +1745,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Software Architecture): Class Diagram"
+      "concept": "Key idea (Software Architecture): Class Diagram",
+      "cognitiveLevel": "Creation/Synthesis"
     },
     {
       "examNumber": 65,
@@ -1708,7 +1772,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Project Management): To divide a project into manageable tasks"
+      "concept": "Key idea (Project Management): To divide a project into manageable tasks",
+      "cognitiveLevel": "Understanding"
     },
     {
       "examNumber": 66,
@@ -1734,7 +1799,8 @@
         }
       ],
       "answer": "A",
-      "concept": "Key idea (Project Management): Gantt Chart"
+      "concept": "Key idea (Project Management): Gantt Chart",
+      "cognitiveLevel": "Remembering"
     },
     {
       "examNumber": 67,
@@ -1760,7 +1826,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Project Management): Identifying and mitigating potential risks"
+      "concept": "Key idea (Project Management): Identifying and mitigating potential risks",
+      "cognitiveLevel": "Remembering"
     },
     {
       "examNumber": 68,
@@ -1786,7 +1853,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Project Management): Product Owner"
+      "concept": "Key idea (Project Management): Product Owner",
+      "cognitiveLevel": "Remembering"
     },
     {
       "examNumber": 69,
@@ -1812,7 +1880,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Project Management): To plan and track project timelines"
+      "concept": "Key idea (Project Management): To plan and track project timelines",
+      "cognitiveLevel": "Creation/Synthesis"
     },
     {
       "examNumber": 70,
@@ -1838,7 +1907,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Software Testing): To test individual components or functions"
+      "concept": "Key idea (Software Testing): To test individual components or functions",
+      "cognitiveLevel": "Understanding"
     },
     {
       "examNumber": 71,
@@ -1864,7 +1934,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Software Testing): White-box testing"
+      "concept": "Key idea (Software Testing): White-box testing",
+      "cognitiveLevel": "Remembering"
     },
     {
       "examNumber": 72,
@@ -1890,7 +1961,8 @@
         }
       ],
       "answer": "A",
-      "concept": "Key idea (Software Testing): A set of conditions to verify a system's functionality"
+      "concept": "Key idea (Software Testing): A set of conditions to verify a system's functionality",
+      "cognitiveLevel": "Remembering"
     },
     {
       "examNumber": 73,
@@ -1916,7 +1988,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Software Testing): To ensure the software meets specified requirements"
+      "concept": "Key idea (Software Testing): To ensure the software meets specified requirements",
+      "cognitiveLevel": "Remembering"
     },
     {
       "examNumber": 74,
@@ -1942,7 +2015,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Software Testing): A bug that causes incorrect behavior"
+      "concept": "Key idea (Software Testing): A bug that causes incorrect behavior",
+      "cognitiveLevel": "Remembering"
     },
     {
       "examNumber": 75,
@@ -1968,7 +2042,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Software Maintenance): Updating and fixing existing software"
+      "concept": "Key idea (Software Maintenance): Updating and fixing existing software",
+      "cognitiveLevel": "Remembering"
     },
     {
       "examNumber": 76,
@@ -1994,7 +2069,8 @@
         }
       ],
       "answer": "A",
-      "concept": "Key idea (Software Maintenance): Corrective maintenance"
+      "concept": "Key idea (Software Maintenance): Corrective maintenance",
+      "cognitiveLevel": "Remembering"
     },
     {
       "examNumber": 77,
@@ -2020,7 +2096,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Software Maintenance): Improving code structure without changing functionality"
+      "concept": "Key idea (Software Maintenance): Improving code structure without changing functionality",
+      "cognitiveLevel": "Remembering"
     },
     {
       "examNumber": 78,
@@ -2046,7 +2123,8 @@
         }
       ],
       "answer": "C",
-      "concept": "Key idea (Software Maintenance): The complexity of the software"
+      "concept": "Key idea (Software Maintenance): The complexity of the software",
+      "cognitiveLevel": "Analysis"
     },
     {
       "examNumber": 79,
@@ -2072,7 +2150,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Software Maintenance): Improved software reliability"
+      "concept": "Key idea (Software Maintenance): Improved software reliability",
+      "cognitiveLevel": "Evaluation"
     },
     {
       "examNumber": 80,
@@ -2098,7 +2177,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Networking): To standardize network communication layers"
+      "concept": "Key idea (Networking): To standardize network communication layers",
+      "cognitiveLevel": "Understanding"
     },
     {
       "examNumber": 81,
@@ -2124,7 +2204,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Networking): Network Layer"
+      "concept": "Key idea (Networking): Network Layer",
+      "cognitiveLevel": "Remembering"
     },
     {
       "examNumber": 82,
@@ -2150,7 +2231,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Networking): To forward data packets between networks"
+      "concept": "Key idea (Networking): To forward data packets between networks",
+      "cognitiveLevel": "Remembering"
     },
     {
       "examNumber": 83,
@@ -2176,7 +2258,8 @@
         }
       ],
       "answer": "C",
-      "concept": "Key idea (Networking): HTTPS"
+      "concept": "Key idea (Networking): HTTPS",
+      "cognitiveLevel": "Remembering"
     },
     {
       "examNumber": 84,
@@ -2202,7 +2285,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Networking): To divide a network into smaller subnetworks"
+      "concept": "Key idea (Networking): To divide a network into smaller subnetworks",
+      "cognitiveLevel": "Remembering"
     },
     {
       "examNumber": 85,
@@ -2228,7 +2312,8 @@
         }
       ],
       "answer": "C",
-      "concept": "Key idea (Networking): Gateway"
+      "concept": "Key idea (Networking): Gateway",
+      "cognitiveLevel": "Remembering"
     },
     {
       "examNumber": 86,
@@ -2254,7 +2339,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Security): To protect data confidentiality"
+      "concept": "Key idea (Security): To protect data confidentiality",
+      "cognitiveLevel": "Understanding"
     },
     {
       "examNumber": 87,
@@ -2280,7 +2366,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Security): SQL Injection"
+      "concept": "Key idea (Security): SQL Injection",
+      "cognitiveLevel": "Remembering"
     },
     {
       "examNumber": 88,
@@ -2306,7 +2393,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Security): To monitor and control network traffic"
+      "concept": "Key idea (Security): To monitor and control network traffic",
+      "cognitiveLevel": "Remembering"
     },
     {
       "examNumber": 89,
@@ -2332,7 +2420,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Security): Multi-Factor Authentication"
+      "concept": "Key idea (Security): Multi-Factor Authentication",
+      "cognitiveLevel": "Remembering"
     },
     {
       "examNumber": 90,
@@ -2358,7 +2447,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (Security): Applying regular security patches"
+      "concept": "Key idea (Security): Applying regular security patches",
+      "cognitiveLevel": "Application"
     },
     {
       "examNumber": 91,
@@ -2384,7 +2474,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (AI / ML): A system that perceives and acts in an environment"
+      "concept": "Key idea (AI / ML): A system that perceives and acts in an environment",
+      "cognitiveLevel": "Remembering"
     },
     {
       "examNumber": 92,
@@ -2410,7 +2501,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (AI / ML): Breadth-First Search"
+      "concept": "Key idea (AI / ML): Breadth-First Search",
+      "cognitiveLevel": "Remembering"
     },
     {
       "examNumber": 93,
@@ -2436,7 +2528,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (AI / ML): To store rules and facts for decision-making"
+      "concept": "Key idea (AI / ML): To store rules and facts for decision-making",
+      "cognitiveLevel": "Understanding"
     },
     {
       "examNumber": 94,
@@ -2462,7 +2555,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (AI / ML): Expert Systems"
+      "concept": "Key idea (AI / ML): Expert Systems",
+      "cognitiveLevel": "Remembering"
     },
     {
       "examNumber": 95,
@@ -2488,7 +2582,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (AI / ML): Continuous adaptation to new data"
+      "concept": "Key idea (AI / ML): Continuous adaptation to new data",
+      "cognitiveLevel": "Evaluation"
     },
     {
       "examNumber": 96,
@@ -2514,7 +2609,8 @@
         }
       ],
       "answer": "A",
-      "concept": "Key idea (AI / ML): Supervised learning uses labeled data, unsupervised does not"
+      "concept": "Key idea (AI / ML): Supervised learning uses labeled data, unsupervised does not",
+      "cognitiveLevel": "Analysis"
     },
     {
       "examNumber": 97,
@@ -2540,7 +2636,8 @@
         }
       ],
       "answer": "C",
-      "concept": "Key idea (AI / ML): Decision Trees"
+      "concept": "Key idea (AI / ML): Decision Trees",
+      "cognitiveLevel": "Remembering"
     },
     {
       "examNumber": 98,
@@ -2566,7 +2663,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (AI / ML): When a model is too complex and fits noise in the training data"
+      "concept": "Key idea (AI / ML): When a model is too complex and fits noise in the training data",
+      "cognitiveLevel": "Remembering"
     },
     {
       "examNumber": 99,
@@ -2592,7 +2690,8 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (AI / ML): Predicting house prices based on features"
+      "concept": "Key idea (AI / ML): Predicting house prices based on features",
+      "cognitiveLevel": "Remembering"
     },
     {
       "examNumber": 100,
@@ -2618,7 +2717,9 @@
         }
       ],
       "answer": "B",
-      "concept": "Key idea (AI / ML): To train the model to learn patterns"
+      "concept": "Key idea (AI / ML): To train the model to learn patterns",
+      "cognitiveLevel": "Understanding"
     }
-  ]
+  ],
+  "dataRevision": 1
 }

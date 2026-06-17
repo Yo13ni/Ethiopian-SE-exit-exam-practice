@@ -81,6 +81,31 @@ MANUAL_ANSWERS: dict[int, str] = {
 }
 
 QUESTION_FIXES: dict[int, dict] = {
+    19: {
+        "text": (
+            "What will the output of the following code?\n\n"
+            "#include <iostream>\n"
+            "using namespace std;\n"
+            "int main() {\n"
+            "    int day = 1;\n"
+            "    switch (day) {\n"
+            "        case 1: cout << \"Monday\"; break;\n"
+            "        case 2: cout << \"Tuesday\"; break;\n"
+            "        case 3: cout << \"Wednesday\"; break;\n"
+            "        default: cout << \"Invalid day\"; break;\n"
+            "    }\n"
+            "    return 0;\n"
+            "}"
+        ),
+        "options": [
+            {"key": "A", "text": "Monday"},
+            {"key": "B", "text": "Tuesday"},
+            {"key": "C", "text": "Wednesday"},
+            {"key": "D", "text": "Invalid day"},
+        ],
+        "answer": "A",
+        "topic": "C++",
+    },
     52: {
         "text": "Which one of the following deadlock condition occurs when a process holding at least one resource is waiting to acquire additional resources held by other processes?",
         "options": [
@@ -235,7 +260,40 @@ QUESTION_FIXES: dict[int, dict] = {
         "answer": "B",
         "topic": "Security",
     },
-    72: {
+    26: {
+        "text": "Which software engineering practice focuses on identifying and mitigating potential risks during the development process?",
+        "options": [
+            {"key": "A", "text": "Deployment planning"},
+            {"key": "B", "text": "Risk management"},
+            {"key": "C", "text": "Version control"},
+            {"key": "D", "text": "User interface design"},
+        ],
+        "answer": "B",
+        "topic": "Software Engineering",
+    },
+    28: {
+        "text": "Which one of the following is a critical feature when designing for system scalability in a large-scale software system?",
+        "options": [
+            {"key": "A", "text": "Using a monolithic codebase for simplicity"},
+            {"key": "B", "text": "Limiting API access to avoid traffic"},
+            {"key": "C", "text": "Horizontal scaling through independent services"},
+            {"key": "D", "text": "Using a single database for all services"},
+        ],
+        "answer": "C",
+        "topic": "Software Architecture",
+    },
+    73: {
+        "text": "Which one of the following Process Scheduling Algorithms executes processes in order of arrival?",
+        "options": [
+            {"key": "A", "text": "Round Robin (RR)"},
+            {"key": "B", "text": "First-Come, First-Served (FCFS)"},
+            {"key": "C", "text": "Priority Scheduling"},
+            {"key": "D", "text": "Shortest Job Next (SJN)"},
+        ],
+        "answer": "B",
+        "topic": "Operating Systems",
+    },
+    29: {
         "text": "Suppose you are developing an application that involves real-time data analysis and requires efficient insertion and deletion of data. Which of the following data structures would be best suited for this application?",
         "options": [
             {"key": "A", "text": "Stack"},

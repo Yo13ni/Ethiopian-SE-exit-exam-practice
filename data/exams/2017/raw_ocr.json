@@ -250,7 +250,7 @@
         },
         {
           "key": "D",
-          "text": "Technical for hardware 10 19 28 37 21 73"
+          "text": "Technical for hardware"
         }
       ]
     }
@@ -536,7 +536,7 @@
       "fileIndex": 21,
       "examNumber": 21,
       "raw": "Exam navigation Time left 2:52:09 Hide p.' have SarruRl. Samuel ts a player. ts 25, tus hetqht ts 1.98. his club ts Manchester, and he Marv-Feste VVtuch of the knowledge representation ts t2-st to represent it? be,ed Next page",
-      "text": "2:52:09 p.' have SarruRl. Samuel ts a player. ts 25, tus hetqht ts 1.98. his club ts Manchester, and he Marv-Feste VVtuch of the knowledge representation ts t2-st to represent it?",
+      "text": "",
       "options": []
     }
   },
@@ -548,7 +548,7 @@
       "fileIndex": 22,
       "examNumber": 22,
       "raw": "Time left 2:52:28 WWCh o' tobmng des•gn pattern ts used when the algonthm for creating a complex obJect should be of the parts that make up the ot»ect and how they are assembled? a. pattern ' pattem Methad pattern d. Prototyc* pattern Hide Next page",
-      "text": "2:52:28 WWCh o' tobmng des•gn pattern ts used when the algonthm for creating a complex obJect should be of the parts that make up the ot»ect and how they are assembled?",
+      "text": "WWCh o' tobmng des•gn pattern ts used when the algonthm for creating a complex obJect should be of the parts that make up the ot»ect and how they are assembled?",
       "options": []
     }
   },
@@ -560,7 +560,7 @@
       "fileIndex": 23,
       "examNumber": 23,
       "raw": "Time left 2:52:47 Which one ot the following Core Objectives of Cryptography Verifies the identity of communicating parties. ' a. Integrity ) b. Authentication c Confidentiality d. Non-repudiation",
-      "text": "2:52:47 Which one ot the following Core Objectives of Cryptography Verifies the identity of communicating parties. '",
+      "text": "Which one ot the following Core Objectives of Cryptography Verifies the identity of communicating parties. '",
       "options": []
     }
   },
@@ -642,7 +642,7 @@
       "fileIndex": 27,
       "examNumber": 27,
       "raw": "Time left 2:54:14 H ide of touomng Software Architectural Styles is typically used in systems where high responsiveness and real- tme procesqr•.g are needed? Monolithic Architectute ) b. Microservsces Architecture Event-Dnven Archltecture d. Serv«tess Agchttecture Next 10 19 28 37",
-      "text": "2:54:14 H ide of touomng Software Architectural Styles is typically used in systems where high responsiveness and real- tme procesqr•.g are needed?",
+      "text": "H ide of touomng Software Architectural Styles is typically used in systems where high responsiveness and real- tme procesqr•.g are needed?",
       "options": [
         {
           "key": "A",
@@ -658,7 +658,7 @@
         },
         {
           "key": "D",
-          "text": "Agchttecture Next 10 19 28 37"
+          "text": "Agchttecture Next"
         }
       ]
     }
@@ -669,9 +669,9 @@
     "raw": "Time left 2:54:28 ot Scheduling Algonthms Executes processes In order of amval? Conr. (FCFS) Sche•dubng Next (SIN) Hide 1 10 II 19 28 1 46 1",
     "parsed": {
       "fileIndex": 28,
-      "examNumber": 28,
+      "examNumber": 73,
       "raw": "Time left 2:54:28 ot Scheduling Algonthms Executes processes In order of amval? Conr. (FCFS) Sche•dubng Next (SIN) Hide 1 10 II 19 28 1 46 1",
-      "text": "2:54:28 ot Scheduling Algonthms Executes processes In order of amval?",
+      "text": "Scheduling Algonthms Executes processes In order of amval?",
       "options": []
     }
   },
@@ -712,7 +712,7 @@
       "fileIndex": 30,
       "examNumber": 30,
       "raw": "Time left 2:55:14 Wtv€h one ot the followjng Vulnerability Injects JavaScnpt to steal user data. ) a. Insecure b, Cross-Site Scnpunq (XSS) d- Buttet Overfbw Next Hide",
-      "text": "2:55:14 Wtv€h one ot the followjng Vulnerability Injects JavaScnpt to steal user data. )",
+      "text": "Wtv€h one ot the followjng Vulnerability Injects JavaScnpt to steal user data. )",
       "options": []
     }
   },
@@ -763,7 +763,7 @@
     "raw": "68 Prev@us page Which one of the followtng tYJrs of firewall Tracks active connections and allows only legitimate traffic? Proxy firewall Cloud-Based Firewall Stateful Firewall Packet Filtenng firewall Next page",
     "parsed": {
       "fileIndex": 33,
-      "examNumber": 33,
+      "examNumber": 68,
       "raw": "68 Prev@us page Which one of the followtng tYJrs of firewall Tracks active connections and allows only legitimate traffic? Proxy firewall Cloud-Based Firewall Stateful Firewall Packet Filtenng firewall Next page",
       "text": "68 Prev@us page Which one of the followtng tYJrs of firewall Tracks active connections and allows only legitimate traffic?",
       "options": [
@@ -852,7 +852,7 @@
       "fileIndex": 36,
       "examNumber": 36,
       "raw": "Time left 2:57:18 Hide Which one of the following obJect oriented feature restricts direct access to certain details, ensuring data security and integnty? Polymorphism Encapsulation Inheritance Abstraction Next page",
-      "text": "2:57:18 Which one of the following obJect oriented feature restricts direct access to certain details, ensuring data security and integnty?",
+      "text": "Which one of the following obJect oriented feature restricts direct access to certain details, ensuring data security and integnty?",
       "options": [
         {
           "key": "A",
@@ -939,7 +939,7 @@
       "fileIndex": 39,
       "examNumber": 62,
       "raw": "MoEEP Question 62 yet MAed Out of Prev•ous page Time left Which of the following is NOT considered as the state-of-the-art software prcxess model? Extreme Programmvng (XP) Waterfall Agile Model Sptral model Hide Next page 19 28 37",
-      "text": "yet MAed Out of Prev•ous page Which of the following is NOT considered as the state-of-the-art software prcxess model?",
+      "text": "yet Prev•ous page Which of the following is NOT considered as the state-of-the-art software prcxess model?",
       "options": [
         {
           "key": "A",
@@ -955,7 +955,7 @@
         },
         {
           "key": "D",
-          "text": "Sptral model 19 28 37"
+          "text": "Sptral model"
         }
       ]
     }
@@ -968,7 +968,7 @@
       "fileIndex": 40,
       "examNumber": 40,
       "raw": "Time left 2:59:00 Hide WI-uch ore of the following process Synchronization Mechanism Ensures only one process accesses a shared resource at a time? Mutex (Mutual Exclusion Locks) Semaphores Read-Write Locks Monrtors and Condition Variables Next page",
-      "text": "2:59:00 WI-uch ore of the following process Synchronization Mechanism Ensures only one process accesses a shared resource at a time?",
+      "text": "WI-uch ore of the following process Synchronization Mechanism Ensures only one process accesses a shared resource at a time?",
       "options": [
         {
           "key": "A",
@@ -1103,7 +1103,7 @@
       "fileIndex": 47,
       "examNumber": 47,
       "raw": "Time left 3:01:25 Hide Among the listed component of Android Application which one is helps to declare permissions such as accessing sensitive data (GPS. Camera, and Storage)? Views and ViewGroups Content Provider Intents AndroidMamfest.xml Next page 10 19 28 37 46 55",
-      "text": "3:01:25 Among the listed component of Android Application which one is helps to declare permissions such as accessing sensitive data (GPS. Camera, and Storage)?",
+      "text": "Among the listed component of Android Application which one is helps to declare permissions such as accessing sensitive data (GPS. Camera, and Storage)?",
       "options": [
         {
           "key": "A",
@@ -1119,7 +1119,7 @@
         },
         {
           "key": "D",
-          "text": "AndroidMamfest.xml 10 19 28 37 46 55"
+          "text": "AndroidMamfest.xml"
         }
       ]
     }
@@ -1330,7 +1330,7 @@
       "fileIndex": 56,
       "examNumber": 56,
       "raw": "Time left 3:04:32 Which of the following layer tn the TCP/IP model provides a logical connection between a source host and a destination host? Data link Network Transport Application Hi",
-      "text": "3:04:32 Which of the following layer tn the TCP/IP model provides a logical connection between a source host and a destination host?",
+      "text": "Which of the following layer tn the TCP/IP model provides a logical connection between a source host and a destination host?",
       "options": [
         {
           "key": "A",
@@ -1627,7 +1627,7 @@
       "fileIndex": 68,
       "examNumber": 32,
       "raw": "Time left 3:08:58 Hide .32 Which one of the following deadlock condition occurs when a resource can only be used by one process at a time? Circular Wait Hold and Walt Mutual Excluston No Preemption Next page",
-      "text": "3:08:58 .32 Which one of the following deadlock condition occurs when a resource can only be used by one process at a time?",
+      "text": ".32 Which one of the following deadlock condition occurs when a resource can only be used by one process at a time?",
       "options": [
         {
           "key": "A",
@@ -1685,7 +1685,7 @@
       "fileIndex": 70,
       "examNumber": 70,
       "raw": "Time left 3:10:53 Hide Given a complex software development project, how would you design a Work Breakdown Structure (WBS) to ensure efficient task allocation? Focus only on the coding phase while ignoring testing and deployment. Create a hierarchical breakdown of tasks based on project deliverables. Assign all tasks to a single team to ensure consistency. Divide the work into as many random tasks as possible. Next page",
-      "text": "3:10:53 Given a complex software development project, how would you design a Work Breakdown Structure (WBS) to ensure efficient task allocation?",
+      "text": "Given a complex software development project, how would you design a Work Breakdown Structure (WBS) to ensure efficient task allocation?",
       "options": []
     }
   },
@@ -1697,7 +1697,7 @@
       "fileIndex": 71,
       "examNumber": 71,
       "raw": "Time left 3:14:05 Hide Imagtne you have been assigned to schedule a software development project with multiple dependencies. What approach would you take to create an effective timeline? Use a Gantt chart and critical path method to plan dependencies Ignore dependencies and focus only on coding speed Allow developers to choose their own timelines without oversight Assign equal deadlines to all tasks regardless of complexity",
-      "text": "3:14:05 Imagtne you have been assigned to schedule a software development project with multiple dependencies. What approach would you take to create an effective timeline?",
+      "text": "Imagtne you have been assigned to schedule a software development project with multiple dependencies. What approach would you take to create an effective timeline?",
       "options": [
         {
           "key": "A",
@@ -1726,7 +1726,7 @@
       "fileIndex": 72,
       "examNumber": 28,
       "raw": "Question yet Mad.ed out Of Previous page Time left Hic Which one of the following is a critical feature when designing for system scalability in a large-scale software system? Using a monolithic codebase for simplicity Limiting API access to avoid traffic Honzontal scaling through independent semces Using a single database for all services Next pag",
-      "text": "Question yet Mad.ed out Of Hic Which one of the following is a critical feature when designing for system scalability in a large-scale software system?",
+      "text": "Mad.ed out Of Hic Which one of the following is a critical feature when designing for system scalability in a large-scale software system?",
       "options": [
         {
           "key": "A",
@@ -1742,7 +1742,7 @@
         },
         {
           "key": "D",
-          "text": "Using a single database for all services Next pag"
+          "text": "Using a single database for all services"
         }
       ]
     }
@@ -1755,7 +1755,7 @@
       "fileIndex": 73,
       "examNumber": 73,
       "raw": "Time left 3:16:54 Hide Ethiopian airline wants to optimize flight scheduling to minimize delays. Which algorithm design approach is BEST suited With this task? Sorting flight data by departure time. Implementing a simple linear search for flight numbers. Designing a graph-based algorithm to model flight connections and Randomly assigning flight departure times. Next page",
-      "text": "3:16:54 Ethiopian airline wants to optimize flight scheduling to minimize delays. Which algorithm design approach is BEST suited With this task?",
+      "text": "Ethiopian airline wants to optimize flight scheduling to minimize delays. Which algorithm design approach is BEST suited With this task?",
       "options": []
     }
   },
@@ -1767,7 +1767,7 @@
       "fileIndex": 74,
       "examNumber": 26,
       "raw": "26 Time left 3:17:07 Which software engtneenng practice focuses on identifying and mitigating potential risks during the development process? Deployment planning Risk management Version control User interface design Next p",
-      "text": "26 3:17:07 Which software engtneenng practice focuses on identifying and mitigating potential risks during the development process?",
+      "text": "?",
       "options": [
         {
           "key": "A",
@@ -1796,7 +1796,7 @@
       "fileIndex": 75,
       "examNumber": 26,
       "raw": "26 Time left 3:17:07 Which software engtneenng practice focuses on identifying and mitigating potential risks during the development process? Deployment planning Risk management Version control User interface design Next p",
-      "text": "26 3:17:07 Which software engtneenng practice focuses on identifying and mitigating potential risks during the development process?",
+      "text": "?",
       "options": [
         {
           "key": "A",
@@ -1853,7 +1853,7 @@
         },
         {
           "key": "D",
-          "text": "Users must provide anonymous data for app functionality Hit Next pag"
+          "text": "Users must provide anonymous data for app functionality Hit"
         }
       ]
     }
@@ -2018,7 +2018,7 @@
       "fileIndex": 85,
       "examNumber": 17,
       "raw": "Time left Hic 17 Which one of the following Performance Optimization Techniques helps to Distributes content across global servers to reduce latency? O a. Load Balancing O b. Content Delivery Network O c. Lazy Loading Caching Clear my choice",
-      "text": "Hic 17 Which one of the following Performance Optimization Techniques helps to Distributes content across global servers to reduce latency?",
+      "text": "17 Which one of the following Performance Optimization Techniques helps to Distributes content across global servers to reduce latency?",
       "options": [
         {
           "key": "A",
@@ -2092,7 +2092,7 @@
         },
         {
           "key": "D",
-          "text": "Risk Avoidance Next pag"
+          "text": "Risk Avoidance"
         }
       ]
     }

@@ -2,9 +2,21 @@ const EXAM_HOURS_DEFAULT = 3;
 const EXPLAIN_CACHE_VERSION = 11;
 const EXPLAIN_CACHE_VERSION_KEY = "practice_explain_cache_version";
 const CATALOG_VERSION = 28;
-const SUBJECTS_VERSION = 9;
+const COGNITIVE_VERSION = 1;
+
+const COGNITIVE_LEVEL_ORDER = [
+  "Remembering",
+  "Understanding",
+  "Application",
+  "Analysis",
+  "Evaluation",
+  "Creation/Synthesis",
+];
 
 let catalog = null;
+let cognitivePractice = null;
+let practiceMode = null; // null | "cognitive"
+let cognitiveLevelSlug = null;
 let currentExam = null;
 let data = null;
 let questions = [];
@@ -29,11 +41,6 @@ let reviewQuestions = [];
 let reviewAnswers = {}; // question id -> picked key
 let reviewAnswered = false;
 let lastResult = null;
-
-let subjectData = null;
-let currentSubjectSlug = null;
-let currentSubjectQuestions = [];
-let subjectAnswers = {};
 
 function sessionStorageId(id = currentExam?.id) {
   return id || "default";
@@ -127,13 +134,9 @@ function getSessionMeta(sessionId) {
   return catalog?.exams?.find((e) => e.id === sessionId) || null;
 }
 
-function isExamOnly(exam) {
-  return Boolean(exam?.examOnly);
-}
-
-function questionLabel(exam, q, qIndex) {
+function questionLabel(q, qIndex) {
   const num = q.examNumber ?? qIndex + 1;
-  return isExamOnly(exam) ? `Question ${num}` : `Question ${num} · ${q.topic}`;
+  return `Question ${num}`;
 }
 
 function isStaleExamState(sessionId, state) {
@@ -156,8 +159,10 @@ let routeSyncing = false;
 function parseRoute() {
   const parts = (location.hash || "#/").replace(/^#/, "").split("/").filter(Boolean);
   if (!parts.length) return { screen: "home" };
-  if (parts[0] === "subject" && parts[1]) {
-    return { screen: "subject", slug: decodeURIComponent(parts[1]) };
+  if (parts[0] === "subject") return { screen: "home" };
+  if (parts[0] === "cognitive") {
+    if (!parts[1]) return { screen: "cognitive-home" };
+    return { screen: "cognitive-review", slug: decodeURIComponent(parts[1]) };
   }
   if (parts[0] !== "exam" || !parts[1]) return { screen: "home" };
   const id = decodeURIComponent(parts[1]);
@@ -173,8 +178,10 @@ function hashForDest(dest) {
   switch (dest.type) {
     case "home":
       return "#/";
-    case "subject":
-      return `#/subject/${encodeURIComponent(dest.slug)}`;
+    case "cognitive":
+      return dest.slug
+        ? `#/cognitive/${encodeURIComponent(dest.slug)}`
+        : "#/cognitive";
     case "exam":
       return `#/exam/${encodeURIComponent(dest.id)}`;
     case "review":
@@ -189,8 +196,10 @@ function hashForDest(dest) {
 }
 
 function destFromRoute(route) {
-  if (route.screen === "home") return { type: "home" };
-  if (route.screen === "subject") return { type: "subject", slug: route.slug };
+  if (route.screen === "home" || route.screen === "cognitive-home") return { type: "home" };
+  if (route.screen === "cognitive-review") {
+    return { type: "cognitive", slug: route.slug };
+  }
   if (route.screen === "exam") {
     return { type: "exam", id: route.id, resume: true, confirmNew: false };
   }
@@ -203,7 +212,6 @@ function destFromRoute(route) {
 
 function setRouteHash(hash, replace = false) {
   const path = hash || "#/";
-  if (location.hash === path) return;
   routeSyncing = true;
   if (replace) {
     history.replaceState({ route: path }, "", path);
@@ -213,14 +221,28 @@ function setRouteHash(hash, replace = false) {
   routeSyncing = false;
 }
 
+function goHome() {
+  stopTimer();
+  practiceMode = null;
+  cognitiveLevelSlug = null;
+  document.body.classList.remove("in-exam");
+  closeSidebar("exam");
+  closeSidebar("review");
+  setRouteHash("#/", true);
+  showScreen("screen-home");
+  window.scrollTo(0, 0);
+}
+
 async function navigate(dest, { replace = false, skipHash = false } = {}) {
+  if (dest.type === "home") {
+    goHome();
+    return true;
+  }
+
   if (!skipHash) setRouteHash(hashForDest(dest), replace);
 
-  if (dest.type === "home") {
-    stopTimer();
-    document.body.classList.remove("in-exam");
-    showScreen("screen-home");
-    return true;
+  if (dest.type === "cognitive") {
+    return startCognitiveReview(dest.slug);
   }
 
   if (dest.type === "exam") {
@@ -248,10 +270,6 @@ async function navigate(dest, { replace = false, skipHash = false } = {}) {
     return openExamResults(dest.id);
   }
 
-  if (dest.type === "subject") {
-    return openSubject(dest.slug);
-  }
-
   return false;
 }
 
@@ -272,15 +290,119 @@ async function init() {
   const catRes = await fetch(cacheBust("data/catalog.json", CATALOG_VERSION), { cache: "no-store" });
   catalog = await catRes.json();
   bindExamListEvents();
+  bindCognitiveEvents();
   bindSummaryEvents();
-  bindSubjectNav();
   bindRouting();
-  await ensureSubjectData();
-  renderSubjectNav();
-  if (!location.hash) setRouteHash("#/", true);
+  updateHomeLead();
+  await loadCognitivePractice();
+  if (!location.hash || location.hash === "#") setRouteHash("#/", true);
   await handleRouteChange();
   document.getElementById("exam-search")?.addEventListener("input", filterExamGrid);
   await checkExplainStatus();
+}
+
+function updateHomeLead() {
+  const lead = document.getElementById("home-lead");
+  if (!lead || !catalog?.exams?.length) return;
+  const totalQuestions = catalog.exams.reduce((sum, e) => sum + (e.questionCount ?? 0), 0);
+  const cogTotal = cognitivePractice?.totalQuestions;
+  const cogPart = cogTotal ? ` · ${cogTotal} questions by cognitive level` : "";
+  lead.textContent = `${catalog.exams.length} exams · ${totalQuestions} questions — pick an exam or practice by cognitive level.${cogPart}`;
+}
+
+async function loadCognitivePractice() {
+  try {
+    const res = await fetch(cacheBust("data/cognitive_practice.json", COGNITIVE_VERSION), {
+      cache: "no-store",
+    });
+    if (!res.ok) throw new Error(res.statusText);
+    cognitivePractice = await res.json();
+  } catch (e) {
+    console.warn("Could not load cognitive practice data:", e);
+    cognitivePractice = null;
+  }
+  renderCognitiveGrid();
+}
+
+function findCognitiveLevel(slug) {
+  return cognitivePractice?.levels?.find((lv) => lv.slug === slug) || null;
+}
+
+function renderCognitiveGrid() {
+  const el = document.getElementById("cognitive-grid");
+  if (!el) return;
+
+  const levels = cognitivePractice?.levels || [];
+  if (!levels.length) {
+    el.innerHTML = `<p class="cognitive-loading">Cognitive categories unavailable — run scripts/build_cognitive_practice.py</p>`;
+    return;
+  }
+
+  const ordered = COGNITIVE_LEVEL_ORDER.map((name) => levels.find((lv) => lv.name === name)).filter(Boolean);
+
+  el.innerHTML = ordered
+    .map(
+      (lv) => `
+      <button type="button" class="cognitive-card" data-slug="${escAttr(lv.slug)}" data-level="${escAttr(lv.slug)}">
+        <div class="cognitive-card-head">
+          <span class="cognitive-card-title">${esc(lv.name)}</span>
+          <span class="cognitive-card-count">${lv.count} Q</span>
+        </div>
+        <p class="cognitive-card-desc">${esc(lv.description || "")}</p>
+        <span class="cognitive-card-action">Start feedback mode</span>
+      </button>`
+    )
+    .join("");
+}
+
+function bindCognitiveEvents() {
+  const el = document.getElementById("cognitive-grid");
+  if (!el || el.dataset.bound === "1") return;
+  el.dataset.bound = "1";
+  el.addEventListener("click", (e) => {
+    const card = e.target.closest(".cognitive-card[data-slug]");
+    if (!card) return;
+    e.preventDefault();
+    navigate({ type: "cognitive", slug: card.dataset.slug });
+  });
+}
+
+async function startCognitiveReview(slug) {
+  if (!cognitivePractice) await loadCognitivePractice();
+  const level = findCognitiveLevel(slug);
+  if (!level?.questions?.length) {
+    alert("No questions found for this cognitive level.");
+    goHome();
+    return false;
+  }
+
+  practiceMode = "cognitive";
+  cognitiveLevelSlug = slug;
+  currentExam = {
+    id: `cognitive-${slug}`,
+    title: `${level.name} — Cognitive Practice`,
+  };
+  data = {
+    title: `${level.name} · Feedback Mode`,
+    focusGuide: {},
+  };
+  questions = level.questions;
+  reviewFilter = null;
+  reviewQuestions = [...level.questions];
+  reviewIndex = 0;
+  reviewAnswers = {};
+  stopTimer();
+  document.body.classList.add("in-exam");
+
+  const reviewTitle = document.getElementById("review-exam-title");
+  if (reviewTitle) {
+    reviewTitle.textContent = `${level.name} — ${level.count} questions · feedback only`;
+  }
+
+  showScreen("screen-review");
+  updateReviewNav();
+  renderReviewQuestion();
+  return true;
 }
 
 function examSearchText(exam) {
@@ -308,271 +430,6 @@ function examStatusLine(exam) {
     return `Last score: ${last.pct}% (${last.correct}/${last.total})`;
   }
   return "Not started yet";
-}
-
-function topicToSlug(topic) {
-  return topic
-    .toLowerCase()
-    .replace(/\s*\/\s*/g, "-")
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-|-$/g, "");
-}
-
-function setSubjectLoading(loading) {
-  const html = loading
-    ? '<p class="subject-loading">Loading subjects…</p>'
-    : "";
-  if (loading) {
-    for (const id of ["subject-nav", "subject-nav-page"]) {
-      const el = document.getElementById(id);
-      if (el) el.innerHTML = html;
-    }
-  }
-}
-
-async function ensureSubjectData() {
-  if (subjectData) return subjectData;
-  if (!catalog?.exams?.length) return null;
-
-  setSubjectLoading(true);
-  try {
-    const subRes = await fetch(cacheBust("data/subjects.json", SUBJECTS_VERSION), { cache: "no-store" });
-    if (!subRes.ok) throw new Error("subjects.json not found — run scripts/build_subjects.py");
-    const bundle = await subRes.json();
-
-    const deepByExam = new Map();
-    await Promise.all(
-      catalog.exams.map(async (exam) => {
-        const res = await fetch(cacheBust(exam.deepPath, examDataRevision(exam)), { cache: "no-store" });
-        if (res.ok) deepByExam.set(exam.id, await res.json());
-      })
-    );
-
-    const topics = (bundle.subjects || []).map((s) => ({
-      name: s.name,
-      slug: s.slug,
-      count: s.count,
-      guide: s.guide || "",
-      questions: s.questions || [],
-    }));
-    const slugToTopic = new Map(topics.map((t) => [t.slug, t.name]));
-    const questionsByTopic = new Map(topics.map((t) => [t.name, t.questions]));
-
-    subjectData = {
-      totalQuestions: bundle.totalQuestions ?? 0,
-      examCount: bundle.examCount ?? catalog.exams.length,
-      focusGuide: bundle.focusGuide || {},
-      deepByExam,
-      topics,
-      slugToTopic,
-      questionsByTopic,
-    };
-
-    const label = `${subjectData.totalQuestions} questions · ${subjectData.examCount} exams`;
-    document.getElementById("subject-source-label")?.replaceChildren(document.createTextNode(label));
-    document.getElementById("subject-source-label-page")?.replaceChildren(document.createTextNode(label));
-    const lead = document.getElementById("home-lead");
-    if (lead) {
-      lead.textContent = `Study all ${subjectData.totalQuestions} questions by subject in the sidebar, or take a timed exam below.`;
-    }
-    return subjectData;
-  } finally {
-    setSubjectLoading(false);
-  }
-}
-
-function renderSubjectNav(activeSlug = currentSubjectSlug) {
-  if (!subjectData) return;
-  for (const id of ["subject-nav", "subject-nav-page"]) {
-    const el = document.getElementById(id);
-    if (!el) continue;
-    el.innerHTML = subjectData.topics
-      .map((t) => {
-        const active = t.slug === activeSlug;
-        return `<button type="button" class="subject-nav-btn${active ? " is-active" : ""}" data-slug="${escAttr(t.slug)}">
-          <span class="subject-nav-label">${esc(t.name)}</span>
-          <span class="subject-nav-count">${t.count}</span>
-        </button>`;
-      })
-      .join("");
-  }
-}
-
-function bindSubjectNav() {
-  document.addEventListener("click", (e) => {
-    const btn = e.target.closest(".subject-nav-btn");
-    if (!btn) return;
-    e.preventDefault();
-    navigate({ type: "subject", slug: btn.dataset.slug });
-  });
-}
-
-function deepEntryForQuestion(q) {
-  const num = String(q.examNumber ?? q.id ?? "");
-  const deep = subjectData?.deepByExam?.get(q.examId);
-  const entry = deep?.[num];
-  if (entry) return entry;
-  return {
-    overview: q.concept || "No detailed explanation available for this question.",
-    options: Object.fromEntries((q.options || []).map((o) => [o.key, o.text])),
-    studyTip:
-      subjectData?.focusGuide?.[q.topic] || subjectData?.focusGuide?.General || "",
-  };
-}
-
-function subjectQuestionKey(q) {
-  return `${q.examId}-${q.examNumber ?? q.id}`;
-}
-
-function buildExplanationHtml(q, correct, exp, picked = null) {
-  const optionsHtml = (q.options || [])
-    .map((opt) => {
-      const text = (exp.options && exp.options[opt.key]) || opt.text;
-      let itemCls = "exp-item";
-      let label = `Option ${opt.key}`;
-      let labelCls = "neutral";
-      if (opt.key === correct) {
-        itemCls += " is-answer";
-        label = `Option ${opt.key} — Correct`;
-        labelCls = "ok";
-      } else if (picked && opt.key === picked) {
-        itemCls += " is-wrong-pick";
-        label = `Option ${opt.key} — Your choice`;
-        labelCls = "bad";
-      }
-      return `<div class="${itemCls}"><div class="exp-label ${labelCls}">${label}</div><div class="exp-text">${formatText(text)}</div></div>`;
-    })
-    .join("");
-
-  const tip = exp.studyTip || "";
-  const tipHtml = tip ? `<p class="study-tip"><strong>Study tip:</strong> ${formatText(tip)}</p>` : "";
-
-  return `<div class="concept">${formatText(exp.overview || q.concept || "")}</div>
-    <div class="explanations">${optionsHtml}</div>
-    ${tipHtml}`;
-}
-
-function renderSubjectChoicesHtml(q, cardId) {
-  const picked = subjectAnswers[cardId];
-  const correct = q.answer;
-  return (q.options || [])
-    .map((opt) => {
-      if (!picked) {
-        return `<button type="button" class="choice" data-card="${escAttr(cardId)}" data-key="${opt.key}">
-          <span class="key">${opt.key}</span><span>${esc(opt.text)}</span>
-        </button>`;
-      }
-      let cls = "choice";
-      if (opt.key === correct) cls += " correct";
-      else if (opt.key === picked) cls += " wrong selected";
-      else cls += " dim";
-      return `<div class="${cls}"><span class="key">${opt.key}</span><span>${esc(opt.text)}</span></div>`;
-    })
-    .join("");
-}
-
-function renderSubjectQuestionCard(q) {
-  const cardId = subjectQuestionKey(q);
-  const picked = subjectAnswers[cardId];
-  const num = q.examNumber ?? q.id;
-  const answered = Boolean(picked);
-  const correct = q.answer;
-  const isCorrect = picked === correct;
-  const exp = answered ? deepEntryForQuestion(q) : null;
-
-  let feedbackInner = "";
-  if (answered && exp) {
-    feedbackInner = `
-      <div class="result-banner ${isCorrect ? "ok" : "no"}">${isCorrect ? "Correct" : `Incorrect — answer is ${correct}`}</div>
-      ${buildExplanationHtml(q, correct, exp, picked)}`;
-  }
-
-  return `<article class="subject-q-card" id="subject-q-${escAttr(cardId)}">
-    <div class="subject-q-head">
-      <span class="badge">Q${num}</span>
-      <span class="subject-q-meta">${esc(q.examTitle || q.examId)}</span>
-    </div>
-    <p class="q-text exam-q-text">${esc(q.text)}</p>
-    <div class="choices" data-choices="${escAttr(cardId)}">${renderSubjectChoicesHtml(q, cardId)}</div>
-    <div class="feedback subject-q-feedback${answered ? "" : " hidden"}" data-feedback="${escAttr(cardId)}">
-      ${feedbackInner}
-    </div>
-  </article>`;
-}
-
-function pickSubjectAnswer(cardId, key) {
-  if (subjectAnswers[cardId]) return;
-  const q = currentSubjectQuestions.find((item) => subjectQuestionKey(item) === cardId);
-  if (!q) return;
-
-  subjectAnswers[cardId] = key;
-  const correct = q.answer;
-  const isCorrect = key === correct;
-  const card = document.getElementById(`subject-q-${cardId}`);
-  if (!card) return;
-
-  const choicesEl = card.querySelector(`[data-choices="${cardId}"]`);
-  if (choicesEl) choicesEl.innerHTML = renderSubjectChoicesHtml(q, cardId);
-
-  const exp = deepEntryForQuestion(q);
-  const feedbackEl = card.querySelector(`[data-feedback="${cardId}"]`);
-  if (feedbackEl) {
-    feedbackEl.classList.remove("hidden");
-    feedbackEl.innerHTML = `
-      <div class="result-banner ${isCorrect ? "ok" : "no"}">${isCorrect ? "Correct" : `Incorrect — answer is ${correct}`}</div>
-      ${buildExplanationHtml(q, correct, exp, key)}`;
-  }
-}
-
-function bindSubjectQuestionEvents() {
-  const list = document.getElementById("subject-questions-list");
-  if (!list || list.dataset.bound === "1") return;
-  list.dataset.bound = "1";
-  list.addEventListener("click", (e) => {
-    const btn = e.target.closest(".choice[data-card][data-key]");
-    if (!btn || btn.disabled) return;
-    pickSubjectAnswer(btn.dataset.card, btn.dataset.key);
-  });
-}
-
-function renderSubjectScrollPage(topic) {
-  const qs = subjectData.questionsByTopic.get(topic) || [];
-  currentSubjectQuestions = qs;
-  subjectAnswers = {};
-
-  const topicMeta = subjectData.topics.find((t) => t.name === topic);
-  const guideText =
-    topicMeta?.guide ||
-    subjectData.focusGuide[topic] ||
-    subjectData.focusGuide.General ||
-    "";
-
-  document.getElementById("subject-page-head").innerHTML = `
-    <h1 class="studio-page-title subject-page-title">${esc(topic)}</h1>
-    <p class="studio-page-lead">${qs.length} question${qs.length === 1 ? "" : "s"} · ${subjectData.examCount} exams · pick an answer to see the explanation</p>
-    ${guideText ? `<p class="subject-guide">${esc(guideText)}</p>` : ""}`;
-
-  document.getElementById("subject-questions-list").innerHTML = qs.map(renderSubjectQuestionCard).join("");
-  bindSubjectQuestionEvents();
-  const scrollEl = document.getElementById("subject-scroll");
-  if (scrollEl) scrollEl.scrollTop = 0;
-}
-
-async function openSubject(slug) {
-  if (!(await ensureSubjectData())) return false;
-  const topic = subjectData.slugToTopic.get(slug);
-  if (!topic) {
-    navigate({ type: "home" }, { replace: true });
-    return false;
-  }
-
-  currentSubjectSlug = slug;
-  stopTimer();
-  document.body.classList.remove("in-exam");
-  showScreen("screen-subject");
-  renderSubjectNav(slug);
-  renderSubjectScrollPage(topic);
-  return true;
 }
 
 function renderExamList() {
@@ -701,6 +558,8 @@ async function loadSessionData(sessionId) {
 
 async function startExam(examId, resume, { confirmNew = true } = {}) {
   if (!(await loadSessionData(examId))) return false;
+  practiceMode = null;
+  cognitiveLevelSlug = null;
 
   if (resume) {
     const state = getExamState(examId);
@@ -788,6 +647,8 @@ function updateTimerDisplay() {
 }
 
 function questionKey(q) {
+  if (q.practiceKey) return String(q.practiceKey);
+  if (q.examId != null && q.examNumber != null) return `${q.examId}:${q.examNumber}`;
   return String(q.id ?? q.examNumber);
 }
 
@@ -1033,16 +894,7 @@ function renderExamQuestion() {
   const pct = ((examIndex + 1) / questions.length) * 100;
   document.getElementById("bar").style.width = `${pct}%`;
   document.getElementById("counter").textContent = `Q ${examIndex + 1} / ${questions.length}`;
-  const topicBadge = document.getElementById("topic-badge");
-  if (topicBadge) {
-    if (isExamOnly(currentExam)) {
-      topicBadge.textContent = "";
-      topicBadge.classList.add("hidden");
-    } else {
-      topicBadge.textContent = q.topic;
-      topicBadge.classList.remove("hidden");
-    }
-  }
+  document.getElementById("topic-badge")?.classList.add("hidden");
   document.getElementById("q-text").textContent = q.text;
 
   const selected = getExamAnswer(q);
@@ -1189,6 +1041,8 @@ function submitExam(auto = false) {
 
 async function startReviewMode(sessionId, filterIds) {
   if (!(await loadSessionData(sessionId))) return false;
+  practiceMode = null;
+  cognitiveLevelSlug = null;
   reviewFilter = filterIds;
   if (filterIds) {
     reviewQuestions = questions.filter((q) => filterIds.includes(q.id));
@@ -1223,12 +1077,13 @@ function renderReviewQuestion() {
   document.getElementById("review-counter").textContent = `Q ${reviewIndex + 1} / ${reviewQuestions.length}`;
   const reviewTopicBadge = document.getElementById("review-topic-badge");
   if (reviewTopicBadge) {
-    if (isExamOnly(currentExam)) {
-      reviewTopicBadge.textContent = currentExam.title;
-      reviewTopicBadge.classList.remove("hidden");
+    if (practiceMode === "cognitive") {
+      const src = q.examTitle || q.examId || "";
+      reviewTopicBadge.textContent = `${q.cognitiveLevel || "Cognitive"} · ${q.topic}${src ? ` · ${src}` : ""}`;
+      reviewTopicBadge.className = "badge badge-cognitive";
     } else {
-      reviewTopicBadge.textContent = `${currentExam.title} · ${q.topic}`;
-      reviewTopicBadge.classList.remove("hidden");
+      reviewTopicBadge.textContent = currentExam?.title || "Feedback Mode";
+      reviewTopicBadge.className = "badge";
     }
   }
   document.getElementById("review-q-text").textContent = q.text;
@@ -1525,7 +1380,7 @@ async function openSummaryMissedQuestion(qIndex) {
   const label = document.getElementById("summary-missed-label");
   const qText = document.getElementById("summary-missed-q-text");
 
-  if (label) label.textContent = questionLabel(currentExam, q, qIndex);
+  if (label) label.textContent = questionLabel(q, qIndex);
   if (qText) qText.textContent = q.text;
 
   renderSummaryMissedChoices(q, picked);
@@ -1602,62 +1457,6 @@ function renderSummary(result) {
     ? `Completed: ${new Date(result.date).toLocaleString()} · Time used: ${formatTime(result.timeUsedMs || 0)}`
     : "";
 
-  const guides = result.focusGuide || {};
-  const examOnly = isExamOnly(currentExam);
-  const topicCard = document.getElementById("topic-breakdown")?.closest(".card");
-  const focusCard = document.getElementById("focus-areas")?.closest(".card");
-  if (topicCard) topicCard.classList.toggle("hidden", examOnly);
-  if (focusCard) focusCard.classList.toggle("hidden", examOnly);
-
-  let breakdown = examOnly ? [] : result.topicBreakdown;
-  if (!breakdown?.length && result.weakTopics?.length) {
-    breakdown = result.weakTopics.map((t) => ({
-      topic: t.topic,
-      pct: t.pct ?? 0,
-      correct: Math.max(0, (t.total ?? t.missed ?? 0) - (t.missed ?? 0)),
-      wrong: t.missed ?? 0,
-      unanswered: 0,
-      total: t.total ?? t.missed ?? 0,
-      missed: t.missed ?? 0,
-    }));
-  }
-  breakdown = breakdown || [];
-  const weak = breakdown.filter((t) => (t.missed ?? t.total - t.correct) > 0);
-
-  document.getElementById("topic-breakdown").innerHTML = !breakdown.length
-    ? '<p class="empty">No topic data.</p>'
-    : breakdown
-        .map((t) => {
-          const missed = t.missed ?? (t.wrong || 0) + (t.unanswered || 0);
-          const barClass = t.pct >= 70 ? "bar-ok" : t.pct >= 50 ? "bar-mid" : "bar-low";
-          const parts = [];
-          if (t.wrong) parts.push(`${t.wrong} wrong`);
-          if (t.unanswered) parts.push(`${t.unanswered} skipped`);
-          return `<div class="topic-row">
-            <div class="topic-row-head">
-              <span class="topic-name">${esc(t.topic)}</span>
-              <span class="topic-pct ${barClass}">${t.pct}%</span>
-            </div>
-            <div class="topic-bar-track"><div class="topic-bar-fill ${barClass}" style="width:${t.pct}%"></div></div>
-            <div class="topic-meta">${t.correct}/${t.total} correct${parts.length ? " · " + parts.join(" · ") : ""}</div>
-          </div>`;
-        })
-        .join("");
-
-  document.getElementById("focus-areas").innerHTML = !weak.length
-    ? `<p class="empty">${result.pct === 100 ? "Perfect score — no weak areas!" : "Review skipped questions below."}</p>`
-    : weak
-        .slice(0, 8)
-        .map((t) => {
-          const missed = t.missed ?? (t.wrong || 0) + (t.unanswered || 0);
-          const guide = guides[t.topic] || guides.General || "Review lecture notes and practice similar MCQs for this topic.";
-          return `<div class="focus-row">
-            <div class="focus-name">${esc(t.topic)} — ${t.pct}% (${missed} to improve)</div>
-            <div class="focus-detail">${esc(guide)}</div>
-          </div>`;
-        })
-        .join("");
-
   closeSummaryMissedDetail();
 
   const missed = result.sessionMissed || [];
@@ -1671,10 +1470,9 @@ function renderSummary(result) {
               ? "Skipped"
               : `You: ${m.picked} → Correct: ${m.answer}`;
           const qNum = m.examNumber ?? i + 1;
-          const meta = examOnly ? label : `${label} · ${esc(m.topic)}`;
           return `<button type="button" class="review-item review-item-clickable" data-missed-qidx="${qIdx}" title="View explanation">
             <strong>Q${qNum}.</strong> ${esc(String(m.text || "").slice(0, 120))}${String(m.text || "").length > 120 ? "…" : ""}
-            <br><small>${meta}</small>
+            <br><small>${label}</small>
           </button>`;
         })
         .join("");
@@ -1707,12 +1505,11 @@ function showScreen(id) {
   document.getElementById(id).classList.add("active");
   document.body.classList.toggle("in-exam", id === "screen-exam" || id === "screen-review");
   document.body.classList.toggle("on-home", id === "screen-home");
-  document.body.classList.toggle("on-subject", id === "screen-subject");
   document.body.classList.toggle("on-summary", id === "screen-summary");
   if (id === "screen-home") {
-    currentSubjectSlug = null;
-    renderSubjectNav();
     renderExamList();
+    renderCognitiveGrid();
+    updateHomeLead();
   }
 }
 
@@ -1721,7 +1518,7 @@ async function checkExplainStatus() {
   try {
     const h = await (await fetch("/api/health")).json();
     const total = Object.values(h.deepCounts || {}).reduce((a, b) => a + b, 0);
-    el.textContent = `${total} offline explanations · study by subject (sidebar) or timed exams`;
+    el.textContent = `${total} offline explanations · timed exams, feedback mode, and cognitive practice`;
   } catch {
     el.textContent = "Run server/server.py to enable explanations";
   }
@@ -1767,8 +1564,9 @@ document.getElementById("btn-review-missed-only").addEventListener("click", () =
     navigate({ type: "review", id: currentExam.id, missed: true });
   }
 });
-document.getElementById("btn-back-home").addEventListener("click", () => navigate({ type: "home" }));
-document.getElementById("btn-subject-home")?.addEventListener("click", () => navigate({ type: "home" }));
+document.getElementById("btn-back-home").addEventListener("click", () => goHome());
+document.getElementById("btn-exam-home")?.addEventListener("click", () => goHome());
+document.getElementById("btn-review-home")?.addEventListener("click", () => goHome());
 
 document.getElementById("btn-toggle-exam-nav")?.addEventListener("click", () => toggleSidebar("exam"));
 document.getElementById("btn-toggle-review-nav")?.addEventListener("click", () => toggleSidebar("review"));

@@ -254,9 +254,10 @@
   {
     "page": 28,
     "file": "photo_1749729011242-04b343bc-70bd-4912-bccb-d047daae3a8e.png",
-    "examNumber": null,
+    "examNumber": 73,
     "ocrHints": {
-      "full": "Time left 2:54:28 ot Scheduling Algonthms Executes processes In order of amval? "
+      "left_panel": "Question 73 Not yet answered",
+      "full": "Time left 2:54:28 Which one of the following Process Scheduling Algorithms Executes processes in order of arrival?"
     }
   },
   {

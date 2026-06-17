@@ -90,6 +90,7 @@ def main() -> None:
                 "options": q.get("options", []),
                 "answer": q.get("answer", ""),
                 "concept": q.get("concept", ""),
+                "cognitiveLevel": q.get("cognitiveLevel", ""),
             })
             total += 1
 

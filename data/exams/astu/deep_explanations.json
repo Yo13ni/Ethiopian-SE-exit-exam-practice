@@ -1,6 +1,6 @@
 {
   "1": {
-    "overview": "What is the first step in the software development lifecycle? The correct choice is D — Preliminary Investigation and Analysis.\n\n✅ Answer: D — Preliminary Investigation and Analysis",
+    "overview": "What is the first step in the software development lifecycle? Eliminate distractors that confuse related Software Engineering terms before picking D.\n\n✅ Answer: D — Preliminary Investigation and Analysis",
     "options": {
       "A": "✗ Not the answer. System design follows requirements analysis — it is not the first SDLC step.",
       "B": "✗ Not the answer. Coding is an implementation activity that happens after analysis and design.",
@@ -11,111 +11,111 @@
     "source": "offline-deep"
   },
   "2": {
-    "overview": "What does the study of an existing system refer to? The correct choice is C — System Analysis.\n\n✅ Answer: C — System Analysis",
+    "overview": "What does the study of an existing system refer to? Eliminate distractors that confuse related Software Engineering terms before picking C.\n\n✅ Answer: C — System Analysis",
     "options": {
-      "A": "✗ Not the answer. 'Details of DFD' is related to General vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with C: System Analysis.",
+      "A": "✗ Not the answer. 'Details of DFD' does not fit the scenario: What does the study of an existing system refer to? The keyed answer is C — System Analysis.",
       "B": "✗ Not the answer. Feasibility study decides whether a project is viable — broader than studying the current system alone.",
       "C": "✓ CORRECT. Studying an existing system to understand how it works is system analysis.",
       "D": "✗ Not the answer. System planning schedules work; analysis focuses on understanding the current system."
     },
-    "studyTip": "DFD symbols, structured analysis steps, and certification standards (DO-178B, UL 1998).",
+    "studyTip": "Map each question to SDLC phase, process model, or 4GT/RAD/Agile definition before choosing.",
     "source": "offline-deep"
   },
   "3": {
-    "overview": "Which of the following is involved in the system planning and designing phase of the Software Development Life Cycle (SDLC)? The correct choice is D — All of the above.\n\n✅ Answer: D — All of the above",
+    "overview": "Which of the following is involved in the system planning and designing phase of the Software Development Life Cycle (SDLC)? Eliminate distractors that confuse related Software Engineering terms before picking D.\n\n✅ Answer: D — All of the above",
     "options": {
-      "A": "✗ Not the answer. 'Sizing' is not the standard term for the specific concept tested in this question. The curriculum answer is 'All of the above'.",
-      "B": "✗ Not the answer. 'Parallel run' is not the standard term for the specific concept tested in this question. The curriculum answer is 'All of the above'.",
-      "C": "✗ Not the answer. 'Specification freeze' is not the standard term for the specific concept tested in this question. The curriculum answer is 'All of the above'.",
+      "A": "✗ Not the answer. 'Sizing' does not fit the scenario: Which of the following is involved in the system planning and designing phase of the Software Development Life Cycle (SD… The keyed answer is D — All of the above.",
+      "B": "✗ Not the answer. 'Parallel run' does not fit the scenario: Which of the following is involved in the system planning and designing phase of the Software Development Life Cycle (SD… The keyed answer is D — All of the above.",
+      "C": "✗ Not the answer. 'Specification freeze' does not fit the scenario: Which of the following is involved in the system planning and designing phase of the Software Development Life Cycle (SD… The keyed answer is D — All of the above.",
       "D": "✓ CORRECT. 'All of the above' is the correct answer — it directly addresses the specific concept tested in this question in Software Engineering."
     },
     "studyTip": "Map each question to SDLC phase, process model, or 4GT/RAD/Agile definition before choosing.",
     "source": "offline-deep"
   },
   "4": {
-    "overview": "What does RAD stand for? Key concept: RAD — iterative prototyping with fast user feedback.\n\n✅ Answer: B — Rapid Application Development",
+    "overview": "What does RAD stand for? The answer hinges on: RAD — iterative prototyping with fast user feedback Eliminate distractors that confuse related Software Engineering terms before picking B.\n\n✅ Answer: B — Rapid Application Development",
     "options": {
       "A": "✗ Not the answer. RAD is about development speed and prototyping, not a 'document' acronym.",
       "B": "✓ CORRECT. RAD = Rapid Application Development — iterative prototyping with heavy user involvement.",
-      "C": "✗ Not the answer. 'Relative Application Development' is related to Software Engineering vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with B: Rapid Application Development.",
-      "D": "✗ Not the answer. 'None of the above' is related to Software Engineering vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with B: Rapid Application Development."
+      "C": "✗ Not the answer. 'Relative Application Development' is a plausible Software Engineering term but not what this stem requires. Compare carefully with B: Rapid Application Development.",
+      "D": "✗ Not the answer. 'None of the above' is a plausible Software Engineering term but not what this stem requires. Compare carefully with B: Rapid Application Development."
     },
     "studyTip": "Map each question to SDLC phase, process model, or 4GT/RAD/Agile definition before choosing.",
     "source": "offline-deep"
   },
   "5": {
-    "overview": "Which of the following prototypes does not associated with Prototyping Model? The correct choice is D — Diagonal Prototype.\n\n✅ Answer: D — Diagonal Prototype",
+    "overview": "Which of the following prototypes does not associated with Prototyping Model? Eliminate distractors that confuse related Software Engineering terms before picking D.\n\n✅ Answer: D — Diagonal Prototype",
     "options": {
-      "A": "✗ Not the answer. 'Domain Prototype' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Diagonal Prototype'.",
-      "B": "✗ Not the answer. 'Vertical Prototype' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Diagonal Prototype'.",
-      "C": "✗ Not the answer. 'Horizontal Prototype' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Diagonal Prototype'.",
+      "A": "✗ Not the answer. 'Domain Prototype' does not fit the scenario: Which of the following prototypes does not associated with Prototyping Model? The keyed answer is D — Diagonal Prototype.",
+      "B": "✗ Not the answer. 'Vertical Prototype' does not fit the scenario: Which of the following prototypes does not associated with Prototyping Model? The keyed answer is D — Diagonal Prototype.",
+      "C": "✗ Not the answer. 'Horizontal Prototype' does not fit the scenario: Which of the following prototypes does not associated with Prototyping Model? The keyed answer is D — Diagonal Prototype.",
       "D": "✓ CORRECT. Common prototype types are horizontal (UI layer), vertical (full stack slice), and domain — not 'diagonal'."
     },
     "studyTip": "Map each question to SDLC phase, process model, or 4GT/RAD/Agile definition before choosing.",
     "source": "offline-deep"
   },
   "6": {
-    "overview": "The major drawback of RAD model is __________. The correct choice is D — Both (a) & (c).\n\n✅ Answer: D — Both (a) & (c)",
+    "overview": "The major drawback of RAD model is __________. Eliminate distractors that confuse related Software Engineering terms before picking D.\n\n✅ Answer: D — Both (a) & (c)",
     "options": {
-      "A": "✗ Not the answer. 'It requires highly skilled developers/designers.' is related to Software Engineering vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with D: Both (a) & (c).",
-      "B": "✗ Not the answer. 'It necessitates customer feedbacks.' is related to Software Engineering vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with D: Both (a) & (c).",
-      "C": "✗ Not the answer. 'It increases the component reusability.' is related to Software Engineering vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with D: Both (a) & (c).",
+      "A": "✗ Not the answer. 'It requires highly skilled developers/designers.' does not fit the scenario: The major drawback of RAD model is __________. The keyed answer is D — Both (a) & (c).",
+      "B": "✗ Not the answer. 'It necessitates customer feedbacks.' does not fit the scenario: The major drawback of RAD model is __________. The keyed answer is D — Both (a) & (c).",
+      "C": "✗ Not the answer. 'It increases the component reusability.' does not fit the scenario: The major drawback of RAD model is __________. The keyed answer is D — Both (a) & (c).",
       "D": "✓ CORRECT. RAD drawbacks include needing skilled developers AND tight user feedback — not increased reusability as a drawback."
     },
     "studyTip": "Map each question to SDLC phase, process model, or 4GT/RAD/Agile definition before choosing.",
     "source": "offline-deep"
   },
   "7": {
-    "overview": "Which of the following does not relate to Evolutionary Process Model? The correct choice is D — All of the above.\n\n✅ Answer: D — All of the above",
+    "overview": "Which of the following does not relate to Evolutionary Process Model? Eliminate distractors that confuse related Software Architecture terms before picking D.\n\n✅ Answer: D — All of the above",
     "options": {
-      "A": "✗ Not the answer. 'Incremental Model' is not the standard term for the specific concept tested in this question. The curriculum answer is 'All of the above'.",
-      "B": "✗ Not the answer. 'Concurrent Development Model' is not the standard term for the specific concept tested in this question. The curriculum answer is 'All of the above'.",
-      "C": "✗ Not the answer. 'WINWIN Spiral Model' is not the standard term for the specific concept tested in this question. The curriculum answer is 'All of the above'.",
+      "A": "✗ Not the answer. 'Incremental Model' does not fit the scenario: Which of the following does not relate to Evolutionary Process Model? The keyed answer is D — All of the above.",
+      "B": "✗ Not the answer. 'Concurrent Development Model' does not fit the scenario: Which of the following does not relate to Evolutionary Process Model? The keyed answer is D — All of the above.",
+      "C": "✗ Not the answer. 'WINWIN Spiral Model' does not fit the scenario: Which of the following does not relate to Evolutionary Process Model? The keyed answer is D — All of the above.",
       "D": "✓ CORRECT. 'All of the above' is the correct answer — it directly addresses the specific concept tested in this question in Software Architecture."
     },
     "studyTip": "RUP perspectives, behavioral vs data models, reengineering vs forward engineering.",
     "source": "offline-deep"
   },
   "8": {
-    "overview": "What is the major drawback of the Spiral Model? The correct choice is B — Doesn't work well for smaller projects.\n\n✅ Answer: B — Doesn't work well for smaller projects",
+    "overview": "What is the major drawback of the Spiral Model? Eliminate distractors that confuse related Software Architecture terms before picking B.\n\n✅ Answer: B — Doesn't work well for smaller projects",
     "options": {
       "A": "✗ Not the answer. More risk analysis is a feature of Spiral, not its major drawback.",
       "B": "✓ CORRECT. Spiral's overhead (risk analysis, iterations) makes it heavy for small projects.",
-      "C": "✗ Not the answer. 'Additional functionalities are added later on' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Doesn't work well for smaller projects'.",
-      "D": "✗ Not the answer. 'Strong approval and documentation control' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Doesn't work well for smaller projects'."
+      "C": "✗ Not the answer. 'Additional functionalities are added later on' does not fit the scenario: What is the major drawback of the Spiral Model? The keyed answer is B — Doesn't work well for smaller projects.",
+      "D": "✗ Not the answer. 'Strong approval and documentation control' does not fit the scenario: What is the major drawback of the Spiral Model? The keyed answer is B — Doesn't work well for smaller projects."
     },
     "studyTip": "RUP perspectives, behavioral vs data models, reengineering vs forward engineering.",
     "source": "offline-deep"
   },
   "9": {
-    "overview": "Model selection is based on __________. The correct choice is D — All of the above.\n\n✅ Answer: D — All of the above",
+    "overview": "Model selection is based on __________. Eliminate distractors that confuse related Software Engineering terms before picking D.\n\n✅ Answer: D — All of the above",
     "options": {
-      "A": "✗ Not the answer. 'Requirements' is related to Software Engineering vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with D: All of the above.",
-      "B": "✗ Not the answer. 'Development team & users' is related to Software Engineering vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with D: All of the above.",
-      "C": "✗ Not the answer. 'Project type & associated risk' is related to Software Engineering vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with D: All of the above.",
+      "A": "✗ Not the answer. 'Requirements' is a plausible Software Engineering term but not what this stem requires. Compare carefully with D: All of the above.",
+      "B": "✗ Not the answer. 'Development team & users' is a plausible Software Engineering term but not what this stem requires. Compare carefully with D: All of the above.",
+      "C": "✗ Not the answer. 'Project type & associated risk' is a plausible Software Engineering term but not what this stem requires. Compare carefully with D: All of the above.",
       "D": "✓ CORRECT. 'All of the above' is the correct answer — it directly addresses the specific concept tested in this question in Software Engineering."
     },
     "studyTip": "Map each question to SDLC phase, process model, or 4GT/RAD/Agile definition before choosing.",
     "source": "offline-deep"
   },
   "10": {
-    "overview": "Which of the following option is correct? The correct choice is C — Both RAD & Prototyping Model facilitates reusability of components.\n\n✅ Answer: C — Both RAD & Prototyping Model facilitates reusability of components",
+    "overview": "Which of the following option is correct? Eliminate distractors that confuse related Software Engineering terms before picking C.\n\n✅ Answer: C — Both RAD & Prototyping Model facilitates reusability of components",
     "options": {
-      "A": "✗ Not the answer. 'The prototyping model facilitates the reusability of components.' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Both RAD & Prototyping Model facilitates reusability of components'.",
-      "B": "✗ Not the answer. 'RAD Model facilitates reusability of components' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Both RAD & Prototyping Model facilitates reusability of components'.",
+      "A": "✗ Not the answer. 'The prototyping model facilitates the reusability of components.' does not fit the scenario: Which of the following option is correct? The keyed answer is C — Both RAD & Prototyping Model facilitates reusability of components.",
+      "B": "✗ Not the answer. 'RAD Model facilitates reusability of components' does not fit the scenario: Which of the following option is correct? The keyed answer is C — Both RAD & Prototyping Model facilitates reusability of components.",
       "C": "✓ CORRECT. 'Both RAD & Prototyping Model facilitates reusability of components' is the correct answer — it directly addresses the specific concept tested in this question in Software Engineering.",
-      "D": "✗ Not the answer. 'None' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Both RAD & Prototyping Model facilitates reusability of components'."
+      "D": "✗ Not the answer. 'None' does not fit the scenario: Which of the following option is correct? The keyed answer is C — Both RAD & Prototyping Model facilitates reusability of components."
     },
     "studyTip": "Map each question to SDLC phase, process model, or 4GT/RAD/Agile definition before choosing.",
     "source": "offline-deep"
   },
   "11": {
-    "overview": "Which of the following models doesn't necessitate defining requirements at the earliest in the lifecycle? The correct choice is C — Spiral & Prototyping.\n\n✅ Answer: C — Spiral & Prototyping",
+    "overview": "Which of the following models doesn't necessitate defining requirements at the earliest in the lifecycle? Eliminate distractors that confuse related Software Engineering terms before picking C.\n\n✅ Answer: C — Spiral & Prototyping",
     "options": {
-      "A": "✗ Not the answer. 'RAD & Waterfall' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Spiral & Prototyping'.",
-      "B": "✗ Not the answer. 'Prototyping & Waterfall' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Spiral & Prototyping'.",
+      "A": "✗ Not the answer. 'RAD & Waterfall' does not fit the scenario: Which of the following models doesn't necessitate defining requirements at the earliest in the lifecycle? The keyed answer is C — Spiral & Prototyping.",
+      "B": "✗ Not the answer. 'Prototyping & Waterfall' does not fit the scenario: Which of the following models doesn't necessitate defining requirements at the earliest in the lifecycle? The keyed answer is C — Spiral & Prototyping.",
       "C": "✓ CORRECT. 'Spiral & Prototyping' is the correct answer — it directly addresses the specific concept tested in this question in Software Engineering.",
-      "D": "✗ Not the answer. 'Spiral & RAD' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Spiral & Prototyping'."
+      "D": "✗ Not the answer. 'Spiral & RAD' does not fit the scenario: Which of the following models doesn't necessitate defining requirements at the earliest in the lifecycle? The keyed answer is C — Spiral & Prototyping."
     },
     "studyTip": "Map each question to SDLC phase, process model, or 4GT/RAD/Agile definition before choosing.",
     "source": "offline-deep"
@@ -132,193 +132,193 @@
     "source": "offline-deep"
   },
   "13": {
-    "overview": "Which of the following model will be preferred by a company that is planning to deploy an advanced version of the existing software in the market? The correct choice is D — Both (b) and (c).\n\n✅ Answer: D — Both (b) and (c)",
+    "overview": "Which of the following model will be preferred by a company that is planning to deploy an advanced version of the existing software in the market? Eliminate distractors that confuse related Software Engineering terms before picking D.\n\n✅ Answer: D — Both (b) and (c)",
     "options": {
-      "A": "✗ Not the answer. 'Spiral' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Both (b) and (c)'.",
-      "B": "✗ Not the answer. 'Iterative Enhancement' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Both (b) and (c)'.",
-      "C": "✗ Not the answer. 'RAD' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Both (b) and (c)'.",
+      "A": "✗ Not the answer. 'Spiral' does not fit the scenario: Which of the following model will be preferred by a company that is planning to deploy an advanced version of the existi… The keyed answer is D — Both (b) and (c).",
+      "B": "✗ Not the answer. 'Iterative Enhancement' does not fit the scenario: Which of the following model will be preferred by a company that is planning to deploy an advanced version of the existi… The keyed answer is D — Both (b) and (c).",
+      "C": "✗ Not the answer. 'RAD' does not fit the scenario: Which of the following model will be preferred by a company that is planning to deploy an advanced version of the existi… The keyed answer is D — Both (b) and (c).",
       "D": "✓ CORRECT. 'Both (b) and (c)' is the correct answer — it directly addresses the specific concept tested in this question in Software Engineering."
     },
     "studyTip": "Map each question to SDLC phase, process model, or 4GT/RAD/Agile definition before choosing.",
     "source": "offline-deep"
   },
   "14": {
-    "overview": "Arrange the following activities for making a software product by utilizing 4GT. I. Design strategy II. Transformation into product III. Implementation IV. Requirement gathering The correct choice is A — 4, 1, 3, 2.\n\n✅ Answer: A — 4, 1, 3, 2",
+    "overview": "Arrange the following activities for making a software product by utilizing 4GT. I. Design strategy II. Transformation into product III. Implementation IV. Requirement gathering Eliminate distractors that confuse related Software Engineering terms before picking A.\n\n✅ Answer: A — 4, 1, 3, 2",
     "options": {
       "A": "✓ CORRECT. '4, 1, 3, 2' is the correct answer — it directly addresses the specific concept tested in this question in Software Engineering.",
-      "B": "✗ Not the answer. '4, 3, 2, 1' is related to Software Engineering vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with A: 4, 1, 3, 2.",
-      "C": "✗ Not the answer. '1, 2, 3, 4' is related to Software Engineering vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with A: 4, 1, 3, 2.",
-      "D": "✗ Not the answer. '1, 4, 2, 3' is related to Software Engineering vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with A: 4, 1, 3, 2."
+      "B": "✗ Not the answer. '4, 3, 2, 1' does not fit the scenario: Arrange the following activities for making a software product by utilizing 4GT. I. Design strategy II. Transformation i… The keyed answer is A — 4, 1, 3, 2.",
+      "C": "✗ Not the answer. '1, 2, 3, 4' does not fit the scenario: Arrange the following activities for making a software product by utilizing 4GT. I. Design strategy II. Transformation i… The keyed answer is A — 4, 1, 3, 2.",
+      "D": "✗ Not the answer. '1, 4, 2, 3' does not fit the scenario: Arrange the following activities for making a software product by utilizing 4GT. I. Design strategy II. Transformation i… The keyed answer is A — 4, 1, 3, 2."
     },
     "studyTip": "Map each question to SDLC phase, process model, or 4GT/RAD/Agile definition before choosing.",
     "source": "offline-deep"
   },
   "15": {
-    "overview": "Which of the following is an example of Black Box and Functional Processing? The correct choice is D — Fourth Generation Language.\n\n✅ Answer: D — Fourth Generation Language",
+    "overview": "Which of the following is an example of Black Box and Functional Processing? Eliminate distractors that confuse related Software Testing terms before picking D.\n\n✅ Answer: D — Fourth Generation Language",
     "options": {
-      "A": "✗ Not the answer. 'First Generation Language' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Fourth Generation Language'.",
-      "B": "✗ Not the answer. 'Second Generation Language' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Fourth Generation Language'.",
-      "C": "✗ Not the answer. 'Third Generation Language' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Fourth Generation Language'.",
+      "A": "✗ Not the answer. 'First Generation Language' does not fit the scenario: Which of the following is an example of Black Box and Functional Processing? The keyed answer is D — Fourth Generation Language.",
+      "B": "✗ Not the answer. 'Second Generation Language' does not fit the scenario: Which of the following is an example of Black Box and Functional Processing? The keyed answer is D — Fourth Generation Language.",
+      "C": "✗ Not the answer. 'Third Generation Language' does not fit the scenario: Which of the following is an example of Black Box and Functional Processing? The keyed answer is D — Fourth Generation Language.",
       "D": "✓ CORRECT. 'Fourth Generation Language' is the correct answer — it directly addresses the specific concept tested in this question in Software Testing."
     },
     "studyTip": "Distinguish black-box vs white-box, maintenance retesting, and ISO quality models.",
     "source": "offline-deep"
   },
   "16": {
-    "overview": "__________ is identified as fourth generation language. The correct choice is A — Unix shell.\n\n✅ Answer: A — Unix shell",
+    "overview": "__________ is identified as fourth generation language. Eliminate distractors that confuse related Software Engineering terms before picking A.\n\n✅ Answer: A — Unix shell",
     "options": {
       "A": "✓ CORRECT. 4GL examples include Unix shell, SQL, and report generators — high-level, problem-oriented languages.",
-      "B": "✗ Not the answer. 'C++' is related to Software Engineering vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with A: Unix shell.",
-      "C": "✗ Not the answer. 'COBOL' is related to Software Engineering vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with A: Unix shell.",
-      "D": "✗ Not the answer. 'FORTRAN' is related to Software Engineering vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with A: Unix shell."
+      "B": "✗ Not the answer. 'C++' does not fit the scenario: __________ is identified as fourth generation language. The keyed answer is A — Unix shell.",
+      "C": "✗ Not the answer. 'COBOL' does not fit the scenario: __________ is identified as fourth generation language. The keyed answer is A — Unix shell.",
+      "D": "✗ Not the answer. 'FORTRAN' does not fit the scenario: __________ is identified as fourth generation language. The keyed answer is A — Unix shell."
     },
     "studyTip": "Map each question to SDLC phase, process model, or 4GT/RAD/Agile definition before choosing.",
     "source": "offline-deep"
   },
   "17": {
-    "overview": "The productivity of a software engineer can be reduced by using a 4GT. The correct choice is B — False.\n\n✅ Answer: B — False",
+    "overview": "The productivity of a software engineer can be reduced by using a 4GT. Eliminate distractors that confuse related Software Engineering terms before picking B.\n\n✅ Answer: B — False",
     "options": {
-      "A": "✗ Not the answer. 'True' is related to Software Engineering vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with B: False.",
+      "A": "✗ Not the answer. 'True' does not fit the scenario: The productivity of a software engineer can be reduced by using a 4GT. The keyed answer is B — False.",
       "B": "✓ CORRECT. 'False' is the correct answer — it directly addresses the specific concept tested in this question in Software Engineering."
     },
     "studyTip": "Map each question to SDLC phase, process model, or 4GT/RAD/Agile definition before choosing.",
     "source": "offline-deep"
   },
   "18": {
-    "overview": "Which of the following is the main advantage of deploying a 4GT model for producing small-scale products, programs, and applications? The correct choice is B — The time required for developing software is reduced..\n\n✅ Answer: B — The time required for developing software is reduced.",
+    "overview": "Which of the following is the main advantage of deploying a 4GT model for producing small-scale products, programs, and applications? Eliminate distractors that confuse related Software Engineering terms before picking B.\n\n✅ Answer: B — The time required for developing software is reduced.",
     "options": {
-      "A": "✗ Not the answer. 'The productivity of software engineers is improved.' is not the standard term for the specific concept tested in this question. The curriculum answer is 'The time required for developing software is reduced.'.",
+      "A": "✗ Not the answer. 'The productivity of software engineers is improved.' does not fit the scenario: Which of the following is the main advantage of deploying a 4GT model for producing small-scale products, programs, and … The keyed answer is B — The time required for developing software is reduced..",
       "B": "✓ CORRECT. 'The time required for developing software is reduced.' is the correct answer — it directly addresses the specific concept tested in this question in Software Engineering.",
-      "C": "✗ Not the answer. 'CASE tools and code generators help the 4GT model by providing a credible solution to their problems.' is not the standard term for the specific concept tested in this question. The curriculum answer is 'The time required for developing software is reduced.'.",
-      "D": "✗ Not the answer. 'None of the above.' is not the standard term for the specific concept tested in this question. The curriculum answer is 'The time required for developing software is reduced.'."
+      "C": "✗ Not the answer. 'CASE tools and code generators help the 4GT model by providing a credible solution to their problems.' does not fit the scenario: Which of the following is the main advantage of deploying a 4GT model for producing small-scale products, programs, and … The keyed answer is B — The time required for developing software is reduced..",
+      "D": "✗ Not the answer. 'None of the above.' does not fit the scenario: Which of the following is the main advantage of deploying a 4GT model for producing small-scale products, programs, and … The keyed answer is B — The time required for developing software is reduced.."
     },
     "studyTip": "Map each question to SDLC phase, process model, or 4GT/RAD/Agile definition before choosing.",
     "source": "offline-deep"
   },
   "19": {
-    "overview": "Which of the following model has a major downfall to a software development life cycle in terms of the coding phase? The correct choice is A — 4GT Model.\n\n✅ Answer: A — 4GT Model",
+    "overview": "Which of the following model has a major downfall to a software development life cycle in terms of the coding phase? Eliminate distractors that confuse related Software Architecture terms before picking A.\n\n✅ Answer: A — 4GT Model",
     "options": {
       "A": "✓ CORRECT. '4GT Model' is the correct answer — it directly addresses the specific concept tested in this question in Software Architecture.",
-      "B": "✗ Not the answer. 'Waterfall Model' is not the standard term for the specific concept tested in this question. The curriculum answer is '4GT Model'.",
-      "C": "✗ Not the answer. 'RAD Model' is not the standard term for the specific concept tested in this question. The curriculum answer is '4GT Model'.",
-      "D": "✗ Not the answer. 'Spiral Model' is not the standard term for the specific concept tested in this question. The curriculum answer is '4GT Model'."
+      "B": "✗ Not the answer. 'Waterfall Model' does not fit the scenario: Which of the following model has a major downfall to a software development life cycle in terms of the coding phase? The keyed answer is A — 4GT Model.",
+      "C": "✗ Not the answer. 'RAD Model' does not fit the scenario: Which of the following model has a major downfall to a software development life cycle in terms of the coding phase? The keyed answer is A — 4GT Model.",
+      "D": "✗ Not the answer. 'Spiral Model' does not fit the scenario: Which of the following model has a major downfall to a software development life cycle in terms of the coding phase? The keyed answer is A — 4GT Model."
     },
     "studyTip": "RUP perspectives, behavioral vs data models, reengineering vs forward engineering.",
     "source": "offline-deep"
   },
   "20": {
-    "overview": "Which of the following falls under the category of software products? The correct choice is C — Customized, Generic.\n\n✅ Answer: C — Customized, Generic",
+    "overview": "Which of the following falls under the category of software products? Eliminate distractors that confuse related Software Engineering terms before picking C.\n\n✅ Answer: C — Customized, Generic",
     "options": {
-      "A": "✗ Not the answer. 'Firmware, CAD' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Customized, Generic'.",
-      "B": "✗ Not the answer. 'Embedded, CAM' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Customized, Generic'.",
+      "A": "✗ Not the answer. 'Firmware, CAD' does not fit the scenario: Which of the following falls under the category of software products? The keyed answer is C — Customized, Generic.",
+      "B": "✗ Not the answer. 'Embedded, CAM' does not fit the scenario: Which of the following falls under the category of software products? The keyed answer is C — Customized, Generic.",
       "C": "✓ CORRECT. 'Customized, Generic' is the correct answer — it directly addresses the specific concept tested in this question in Software Engineering.",
-      "D": "✗ Not the answer. 'CAD, Embedded' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Customized, Generic'."
+      "D": "✗ Not the answer. 'CAD, Embedded' does not fit the scenario: Which of the following falls under the category of software products? The keyed answer is C — Customized, Generic."
     },
     "studyTip": "Map each question to SDLC phase, process model, or 4GT/RAD/Agile definition before choosing.",
     "source": "offline-deep"
   },
   "21": {
-    "overview": "Software maintenance costs are expensive in contrast to software development. The correct choice is A — True.\n\n✅ Answer: A — True",
+    "overview": "Software maintenance costs are expensive in contrast to software development. Eliminate distractors that confuse related Software Engineering terms before picking A.\n\n✅ Answer: A — True",
     "options": {
       "A": "✓ CORRECT. 'True' is the correct answer — it directly addresses the specific concept tested in this question in Software Engineering.",
-      "B": "✗ Not the answer. 'False' is related to Software Engineering vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with A: True."
+      "B": "✗ Not the answer. 'False' does not fit the scenario: Software maintenance costs are expensive in contrast to software development. The keyed answer is A — True."
     },
     "studyTip": "Map each question to SDLC phase, process model, or 4GT/RAD/Agile definition before choosing.",
     "source": "offline-deep"
   },
   "22": {
-    "overview": "Which of the following activities of the generic process framework delivers a feedback report? The correct choice is A — Deployment.\n\n✅ Answer: A — Deployment",
+    "overview": "Which of the following activities of the generic process framework delivers a feedback report? Eliminate distractors that confuse related Software Engineering terms before picking A.\n\n✅ Answer: A — Deployment",
     "options": {
       "A": "✓ CORRECT. 'Deployment' is the correct answer — it directly addresses the specific concept tested in this question in Software Engineering.",
-      "B": "✗ Not the answer. 'Planning' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Deployment'.",
-      "C": "✗ Not the answer. 'Modeling' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Deployment'.",
-      "D": "✗ Not the answer. 'Construction' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Deployment'."
+      "B": "✗ Not the answer. 'Planning' does not fit the scenario: Which of the following activities of the generic process framework delivers a feedback report? The keyed answer is A — Deployment.",
+      "C": "✗ Not the answer. 'Modeling' does not fit the scenario: Which of the following activities of the generic process framework delivers a feedback report? The keyed answer is A — Deployment.",
+      "D": "✗ Not the answer. 'Construction' does not fit the scenario: Which of the following activities of the generic process framework delivers a feedback report? The keyed answer is A — Deployment."
     },
     "studyTip": "Map each question to SDLC phase, process model, or 4GT/RAD/Agile definition before choosing.",
     "source": "offline-deep"
   },
   "23": {
-    "overview": "Which of the following refers to internal software equality? The correct choice is B — Reusability.\n\n✅ Answer: B — Reusability",
+    "overview": "Which of the following refers to internal software equality? Eliminate distractors that confuse related Software Engineering terms before picking B.\n\n✅ Answer: B — Reusability",
     "options": {
       "A": "✗ Not the answer. 'Scalability' means ability to handle growing load (users, queries, data). That answers a different kind of question. Here, the stem points to 'Reusability' instead.",
       "B": "✓ CORRECT. 'Reusability' is the correct answer — it directly addresses the specific concept tested in this question in Software Engineering.",
-      "C": "✗ Not the answer. 'Reliability' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Reusability'.",
-      "D": "✗ Not the answer. 'Usability' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Reusability'."
+      "C": "✗ Not the answer. 'Reliability' does not fit the scenario: Which of the following refers to internal software equality? The keyed answer is B — Reusability.",
+      "D": "✗ Not the answer. 'Usability' does not fit the scenario: Which of the following refers to internal software equality? The keyed answer is B — Reusability."
     },
     "studyTip": "Map each question to SDLC phase, process model, or 4GT/RAD/Agile definition before choosing.",
     "source": "offline-deep"
   },
   "24": {
-    "overview": "RUP is abbreviated as __________, invented by a division of __________. Key concept: program in execution with its own address space.\n\n✅ Answer: A — Rational Unified Process, IBM",
+    "overview": "RUP is abbreviated as __________, invented by a division of __________. The answer hinges on: program in execution with its own address space Eliminate distractors that confuse related Software Architecture terms before picking A.\n\n✅ Answer: A — Rational Unified Process, IBM",
     "options": {
       "A": "✓ CORRECT. 'Rational Unified Process, IBM' is correct because it matches the specific concept tested in this question. Definition: program in execution with its own address space.",
-      "B": "✗ Not the answer. 'Rational Unified Program, IBM' is related to Software Architecture vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with A: Rational Unified Process, IBM.",
+      "B": "✗ Not the answer. 'Rational Unified Program, IBM' does not fit the scenario: RUP is abbreviated as __________, invented by a division of __________. The keyed answer is A — Rational Unified Process, IBM.",
       "C": "✗ Not the answer. 'Rational Unified Process, Infosys' represents program in execution with its own address space. This question tests the specific concept tested in this question. That requires 'Rational Unified Process, IBM' (program in execution with its own address space), not 'Rational Unified Process, Infosys'.",
-      "D": "✗ Not the answer. 'Rational Unified Program, Infosys' is related to Software Architecture vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with A: Rational Unified Process, IBM."
+      "D": "✗ Not the answer. 'Rational Unified Program, Infosys' does not fit the scenario: RUP is abbreviated as __________, invented by a division of __________. The keyed answer is A — Rational Unified Process, IBM."
     },
     "studyTip": "RUP perspectives, behavioral vs data models, reengineering vs forward engineering.",
     "source": "offline-deep"
   },
   "25": {
-    "overview": "The RUP can be defined based on three main perspectives, i.e., static, dynamic & practice. What is the purpose of static perspective? Key concept: program in execution with its own address space.\n\n✅ Answer: B — It displays all the enacted process activities.",
+    "overview": "The RUP can be defined based on three main perspectives, i.e., static, dynamic & practice. What is the purpose of static perspective? The answer hinges on: Android screen components — one focused user task per Activity Eliminate distractors that confuse related Software Architecture terms before picking B.\n\n✅ Answer: B — It displays all the enacted process activities.",
     "options": {
-      "A": "✗ Not the answer. 'It recommends some good practices that be included while carrying out the process.' refers to program in execution with its own address space. The question asks about the specific concept tested in this question. That requires 'It displays all the enacted process activities.' — program in execution with its own address space. These are different concepts; do not confuse them on the exam.",
-      "B": "✓ CORRECT. 'It displays all the enacted process activities.' is correct because it matches the specific concept tested in this question. Definition: program in execution with its own address space.",
-      "C": "✗ Not the answer. 'It portrays the phases that the model has entered over a specific time.' is not the standard term for the specific concept tested in this question. The curriculum answer is 'It displays all the enacted process activities.'.",
-      "D": "✗ Not the answer. 'All of the above.' is not the standard term for the specific concept tested in this question. The curriculum answer is 'It displays all the enacted process activities.'."
+      "A": "✗ Not the answer. 'It recommends some good practices that be included while carrying out the process.' refers to program in execution with its own address space. The question asks about the specific concept tested in this question. That requires 'It displays all the enacted process activities.' — Android screen components — one focused user task per Activity. These are different concepts; do not confuse them on the exam.",
+      "B": "✓ CORRECT. 'It displays all the enacted process activities.' is correct because it matches the specific concept tested in this question. Definition: Android screen components — one focused user task per Activity.",
+      "C": "✗ Not the answer. 'It portrays the phases that the model has entered over a specific time.' does not fit the scenario: The RUP can be defined based on three main perspectives, i.e., static, dynamic & practice. What is the purpose of static… The keyed answer is B — It displays all the enacted process activities..",
+      "D": "✗ Not the answer. 'All of the above.' does not fit the scenario: The RUP can be defined based on three main perspectives, i.e., static, dynamic & practice. What is the purpose of static… The keyed answer is B — It displays all the enacted process activities.."
     },
     "studyTip": "RUP perspectives, behavioral vs data models, reengineering vs forward engineering.",
     "source": "offline-deep"
   },
   "26": {
-    "overview": "Which one of the following activities is not recommended for software processes in software engineering? The correct choice is B — Software Verification.\n\n✅ Answer: B — Software Verification",
+    "overview": "Which one of the following activities is not recommended for software processes in software engineering? Eliminate distractors that confuse related Software Engineering terms before picking B.\n\n✅ Answer: B — Software Verification",
     "options": {
-      "A": "✗ Not the answer. 'Software Evolution' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Software Verification'.",
-      "B": "✓ CORRECT. 'Software Verification' is the correct answer — it directly addresses the specific concept tested in this question in General.",
-      "C": "✗ Not the answer. 'Software Testing & Validation' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Software Verification'.",
-      "D": "✗ Not the answer. 'Software designing' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Software Verification'."
+      "A": "✗ Not the answer. 'Software Evolution' does not fit the scenario: Which one of the following activities is not recommended for software processes in software engineering? The keyed answer is B — Software Verification.",
+      "B": "✓ CORRECT. 'Software Verification' is the correct answer — it directly addresses the specific concept tested in this question in Software Engineering.",
+      "C": "✗ Not the answer. 'Software Testing & Validation' does not fit the scenario: Which one of the following activities is not recommended for software processes in software engineering? The keyed answer is B — Software Verification.",
+      "D": "✗ Not the answer. 'Software designing' does not fit the scenario: Which one of the following activities is not recommended for software processes in software engineering? The keyed answer is B — Software Verification."
     },
-    "studyTip": "DFD symbols, structured analysis steps, and certification standards (DO-178B, UL 1998).",
+    "studyTip": "Map each question to SDLC phase, process model, or 4GT/RAD/Agile definition before choosing.",
     "source": "offline-deep"
   },
   "27": {
-    "overview": "Arrange the following activities to form a general software engineering process model. I. Manufacture II. Maintain III. Test IV. Install V. Design VI. Specification The correct choice is A — 6, 5, 1, 3, 4, 2.\n\n✅ Answer: A — 6, 5, 1, 3, 4, 2",
+    "overview": "Arrange the following activities to form a general software engineering process model. I. Manufacture II. Maintain III. Test IV. Install V. Design VI. Specification Eliminate distractors that confuse related Software Engineering terms before picking A.\n\n✅ Answer: A — 6, 5, 1, 3, 4, 2",
     "options": {
       "A": "✓ CORRECT. '6, 5, 1, 3, 4, 2' is the correct answer — it directly addresses the specific concept tested in this question in Software Engineering.",
-      "B": "✗ Not the answer. '1, 2, 4, 3, 6, 5' is related to Software Engineering vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with A: 6, 5, 1, 3, 4, 2.",
-      "C": "✗ Not the answer. '6, 1, 4, 2, 3, 5' is related to Software Engineering vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with A: 6, 5, 1, 3, 4, 2.",
-      "D": "✗ Not the answer. '1, 6, 5, 2, 3, 4' is related to Software Engineering vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with A: 6, 5, 1, 3, 4, 2."
+      "B": "✗ Not the answer. '1, 2, 4, 3, 6, 5' does not fit the scenario: Arrange the following activities to form a general software engineering process model. I. Manufacture II. Maintain III. … The keyed answer is A — 6, 5, 1, 3, 4, 2.",
+      "C": "✗ Not the answer. '6, 1, 4, 2, 3, 5' does not fit the scenario: Arrange the following activities to form a general software engineering process model. I. Manufacture II. Maintain III. … The keyed answer is A — 6, 5, 1, 3, 4, 2.",
+      "D": "✗ Not the answer. '1, 6, 5, 2, 3, 4' does not fit the scenario: Arrange the following activities to form a general software engineering process model. I. Manufacture II. Maintain III. … The keyed answer is A — 6, 5, 1, 3, 4, 2."
     },
     "studyTip": "Map each question to SDLC phase, process model, or 4GT/RAD/Agile definition before choosing.",
     "source": "offline-deep"
   },
   "28": {
-    "overview": "The agile software development model is built based on __________. The correct choice is D — Both Incremental and Iterative Development.\n\n✅ Answer: D — Both Incremental and Iterative Development",
+    "overview": "The agile software development model is built based on __________. Eliminate distractors that confuse related Software Engineering terms before picking D.\n\n✅ Answer: D — Both Incremental and Iterative Development",
     "options": {
-      "A": "✗ Not the answer. 'Linear Development' is related to Software Engineering vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with D: Both Incremental and Iterative Development.",
-      "B": "✗ Not the answer. 'Incremental Development' is related to Software Engineering vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with D: Both Incremental and Iterative Development.",
-      "C": "✗ Not the answer. 'Iterative Development' is related to Software Engineering vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with D: Both Incremental and Iterative Development.",
+      "A": "✗ Not the answer. 'Linear Development' does not fit the scenario: The agile software development model is built based on __________. The keyed answer is D — Both Incremental and Iterative Development.",
+      "B": "✗ Not the answer. 'Incremental Development' does not fit the scenario: The agile software development model is built based on __________. The keyed answer is D — Both Incremental and Iterative Development.",
+      "C": "✗ Not the answer. 'Iterative Development' does not fit the scenario: The agile software development model is built based on __________. The keyed answer is D — Both Incremental and Iterative Development.",
       "D": "✓ CORRECT. 'Both Incremental and Iterative Development' is the correct answer — it directly addresses the specific concept tested in this question in Software Engineering."
     },
     "studyTip": "Map each question to SDLC phase, process model, or 4GT/RAD/Agile definition before choosing.",
     "source": "offline-deep"
   },
   "29": {
-    "overview": "On what basis is plan-driven development different from that of the software development process? The correct choice is A — Based on the iterations that occurred within the activities..\n\n✅ Answer: A — Based on the iterations that occurred within the activities.",
+    "overview": "On what basis is plan-driven development different from that of the software development process? The answer hinges on: Android screen components — one focused user task per Activity Eliminate distractors that confuse related Software Engineering terms before picking A.\n\n✅ Answer: A — Based on the iterations that occurred within the activities.",
     "options": {
-      "A": "✓ CORRECT. 'Based on the iterations that occurred within the activities.' is the correct answer — it directly addresses the specific concept tested in this question in Software Engineering.",
-      "B": "✗ Not the answer. 'Based on the output, which is derived after negotiating in the software development process.' represents program in execution with its own address space. This question tests the specific concept tested in this question. That requires 'Based on the iterations that occurred within the activities.', not 'Based on the output, which is derived after negotiating in the software development process.'.",
-      "C": "✗ Not the answer. 'Based on the interleaved specification, design, testing, and implementation activities.' is related to Software Engineering vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with A: Based on the iterations that occurred within the activities..",
+      "A": "✓ CORRECT. 'Based on the iterations that occurred within the activities.' is correct because it matches the specific concept tested in this question. Definition: Android screen components — one focused user task per Activity.",
+      "B": "✗ Not the answer. 'Based on the output, which is derived after negotiating in the software development process.' represents program in execution with its own address space. This question tests the specific concept tested in this question. That requires 'Based on the iterations that occurred within the activities.' (Android screen components — one focused user task per Activity), not 'Based on the output, which is derived after negotiating in the software development process.'.",
+      "C": "✗ Not the answer. 'Based on the interleaved specification, design, testing, and implementation activities.' represents Android screen components — one focused user task per Activity. This question tests the specific concept tested in this question. That requires 'Based on the iterations that occurred within the activities.' (Android screen components — one focused user task per Activity), not 'Based on the interleaved specification, design, testing, and implementation activities.'.",
       "D": "✗ Not the answer. 'All of the above' is only correct when EVERY other option is true. Verify each choice A, B, C individually — if any is false, 'All' is wrong. Here, 'Based on the iterations that occurred within the activities.' is the specific correct answer."
     },
     "studyTip": "Map each question to SDLC phase, process model, or 4GT/RAD/Agile definition before choosing.",
     "source": "offline-deep"
   },
   "30": {
-    "overview": "Which of the following activities is not applicable to agile software development? The correct choice is C — Abolishing the project planning and testing..\n\n✅ Answer: C — Abolishing the project planning and testing.",
+    "overview": "Which of the following activities is not applicable to agile software development? Eliminate distractors that confuse related Software Engineering terms before picking C.\n\n✅ Answer: C — Abolishing the project planning and testing.",
     "options": {
-      "A": "✗ Not the answer. 'Producing only the essential work products.' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Abolishing the project planning and testing.'.",
-      "B": "✗ Not the answer. 'Utilizing the strategy of incremental product delivery.' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Abolishing the project planning and testing.'.",
+      "A": "✗ Not the answer. 'Producing only the essential work products.' does not fit the scenario: Which of the following activities is not applicable to agile software development? The keyed answer is C — Abolishing the project planning and testing..",
+      "B": "✗ Not the answer. 'Utilizing the strategy of incremental product delivery.' does not fit the scenario: Which of the following activities is not applicable to agile software development? The keyed answer is C — Abolishing the project planning and testing..",
       "C": "✓ CORRECT. Planning produces WBS, schedule, and cost estimates — the outputs asked for in planning-phase questions.",
       "D": "✗ Not the answer. 'All of the above' is only correct when EVERY other option is true. Verify each choice A, B, C individually — if any is false, 'All' is wrong. Here, 'Abolishing the project planning and testing.' is the specific correct answer."
     },
@@ -326,107 +326,107 @@
     "source": "offline-deep"
   },
   "31": {
-    "overview": "Which of the following framework activities are carried out in Adaptive Software Development (ASD)? The correct choice is A — Assumption, Association, Learning.\n\n✅ Answer: A — Assumption, Association, Learning",
+    "overview": "Which of the following framework activities are carried out in Adaptive Software Development (ASD)? Eliminate distractors that confuse related Software Engineering terms before picking A.\n\n✅ Answer: A — Assumption, Association, Learning",
     "options": {
       "A": "✓ CORRECT. 'Assumption, Association, Learning' is the correct answer — it directly addresses the specific concept tested in this question in Software Engineering.",
-      "B": "✗ Not the answer. 'The investigation, Strategy, Coding' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Assumption, Association, Learning'.",
-      "C": "✗ Not the answer. 'Requirements gathering, Adaptive cycle planning, Iterative development' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Assumption, Association, Learning'.",
+      "B": "✗ Not the answer. 'The investigation, Strategy, Coding' does not fit the scenario: Which of the following framework activities are carried out in Adaptive Software Development (ASD)? The keyed answer is A — Assumption, Association, Learning.",
+      "C": "✗ Not the answer. 'Requirements gathering, Adaptive cycle planning, Iterative development' does not fit the scenario: Which of the following framework activities are carried out in Adaptive Software Development (ASD)? The keyed answer is A — Assumption, Association, Learning.",
       "D": "✗ Not the answer. 'All of the above' is only correct when EVERY other option is true. Verify each choice A, B, C individually — if any is false, 'All' is wrong. Here, 'Assumption, Association, Learning' is the specific correct answer."
     },
     "studyTip": "Map each question to SDLC phase, process model, or 4GT/RAD/Agile definition before choosing.",
     "source": "offline-deep"
   },
   "32": {
-    "overview": "The __________ model helps in representing the system's dynamic behavior. The correct choice is C — Behavioral Model.\n\n✅ Answer: C — Behavioral Model",
+    "overview": "The __________ model helps in representing the system's dynamic behavior. Eliminate distractors that confuse related Software Architecture terms before picking C.\n\n✅ Answer: C — Behavioral Model",
     "options": {
-      "A": "✗ Not the answer. 'Object Model' is related to Software Architecture vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with C: Behavioral Model.",
-      "B": "✗ Not the answer. 'Context Model' is related to Software Architecture vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with C: Behavioral Model.",
+      "A": "✗ Not the answer. 'Object Model' does not fit the scenario: The __________ model helps in representing the system's dynamic behavior. The keyed answer is C — Behavioral Model.",
+      "B": "✗ Not the answer. 'Context Model' does not fit the scenario: The __________ model helps in representing the system's dynamic behavior. The keyed answer is C — Behavioral Model.",
       "C": "✓ CORRECT. 'Behavioral Model' is the correct answer — it directly addresses the specific concept tested in this question in Software Architecture.",
-      "D": "✗ Not the answer. 'Data Model' is related to Software Architecture vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with C: Behavioral Model."
+      "D": "✗ Not the answer. 'Data Model' does not fit the scenario: The __________ model helps in representing the system's dynamic behavior. The keyed answer is C — Behavioral Model."
     },
     "studyTip": "RUP perspectives, behavioral vs data models, reengineering vs forward engineering.",
     "source": "offline-deep"
   },
   "33": {
-    "overview": "Model-driven engineering is nothing but a theoretical concept. It can never be transmuted into a working/executable code. The correct choice is B — False.\n\n✅ Answer: B — False",
+    "overview": "Model-driven engineering is nothing but a theoretical concept. It can never be transmuted into a working/executable code. Eliminate distractors that confuse related Software Architecture terms before picking B.\n\n✅ Answer: B — False",
     "options": {
-      "A": "✗ Not the answer. 'True' is related to Software Architecture vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with B: False.",
+      "A": "✗ Not the answer. 'True' does not fit the scenario: Model-driven engineering is nothing but a theoretical concept. It can never be transmuted into a working/executable code… The keyed answer is B — False.",
       "B": "✓ CORRECT. 'False' is the correct answer — it directly addresses the specific concept tested in this question in Software Architecture."
     },
     "studyTip": "RUP perspectives, behavioral vs data models, reengineering vs forward engineering.",
     "source": "offline-deep"
   },
   "34": {
-    "overview": "The __________ and __________ are the two major dimensions encompassed in the Spiral model. The correct choice is D — Radial, Angular.\n\n✅ Answer: D — Radial, Angular",
+    "overview": "The __________ and __________ are the two major dimensions encompassed in the Spiral model. Eliminate distractors that confuse related Software Architecture terms before picking D.\n\n✅ Answer: D — Radial, Angular",
     "options": {
-      "A": "✗ Not the answer. 'Diagonal, Perpendicular' is related to Software Architecture vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with D: Radial, Angular.",
-      "B": "✗ Not the answer. 'Perpendicular, Radial' is related to Software Architecture vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with D: Radial, Angular.",
-      "C": "✗ Not the answer. 'Angular, diagonal' is related to Software Architecture vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with D: Radial, Angular.",
+      "A": "✗ Not the answer. 'Diagonal, Perpendicular' does not fit the scenario: The __________ and __________ are the two major dimensions encompassed in the Spiral model. The keyed answer is D — Radial, Angular.",
+      "B": "✗ Not the answer. 'Perpendicular, Radial' does not fit the scenario: The __________ and __________ are the two major dimensions encompassed in the Spiral model. The keyed answer is D — Radial, Angular.",
+      "C": "✗ Not the answer. 'Angular, diagonal' does not fit the scenario: The __________ and __________ are the two major dimensions encompassed in the Spiral model. The keyed answer is D — Radial, Angular.",
       "D": "✓ CORRECT. 'Radial, Angular' is the correct answer — it directly addresses the specific concept tested in this question in Software Architecture."
     },
     "studyTip": "RUP perspectives, behavioral vs data models, reengineering vs forward engineering.",
     "source": "offline-deep"
   },
   "35": {
-    "overview": "Which of the following technique is involved in certifying the sustained development of legacy systems? The correct choice is D — Reverse engineering and Reengineering.\n\n✅ Answer: D — Reverse engineering and Reengineering",
+    "overview": "Which of the following technique is involved in certifying the sustained development of legacy systems? Eliminate distractors that confuse related Software Architecture terms before picking D.\n\n✅ Answer: D — Reverse engineering and Reengineering",
     "options": {
-      "A": "✗ Not the answer. 'Reengineering' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Reverse engineering and Reengineering'.",
-      "B": "✗ Not the answer. 'Forward engineering' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Reverse engineering and Reengineering'.",
-      "C": "✗ Not the answer. 'Reverse engineering' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Reverse engineering and Reengineering'.",
+      "A": "✗ Not the answer. 'Reengineering' does not fit the scenario: Which of the following technique is involved in certifying the sustained development of legacy systems? The keyed answer is D — Reverse engineering and Reengineering.",
+      "B": "✗ Not the answer. 'Forward engineering' does not fit the scenario: Which of the following technique is involved in certifying the sustained development of legacy systems? The keyed answer is D — Reverse engineering and Reengineering.",
+      "C": "✗ Not the answer. 'Reverse engineering' does not fit the scenario: Which of the following technique is involved in certifying the sustained development of legacy systems? The keyed answer is D — Reverse engineering and Reengineering.",
       "D": "✓ CORRECT. 'Reverse engineering and Reengineering' is the correct answer — it directly addresses the specific concept tested in this question in Software Architecture."
     },
     "studyTip": "RUP perspectives, behavioral vs data models, reengineering vs forward engineering.",
     "source": "offline-deep"
   },
   "36": {
-    "overview": "An erroneous system state that results in an unexpected system behavior is acknowledged as? The correct choice is C — System error.\n\n✅ Answer: C — System error",
+    "overview": "An erroneous system state that results in an unexpected system behavior is acknowledged as? Eliminate distractors that confuse related Software Engineering terms before picking C.\n\n✅ Answer: C — System error",
     "options": {
-      "A": "✗ Not the answer. 'System failure' is related to Software Engineering vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with C: System error.",
-      "B": "✗ Not the answer. 'Human error or mistake' is related to Software Engineering vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with C: System error.",
+      "A": "✗ Not the answer. 'System failure' does not fit the scenario: An erroneous system state that results in an unexpected system behavior is acknowledged as? The keyed answer is C — System error.",
+      "B": "✗ Not the answer. 'Human error or mistake' does not fit the scenario: An erroneous system state that results in an unexpected system behavior is acknowledged as? The keyed answer is C — System error.",
       "C": "✓ CORRECT. 'System error' is the correct answer — it directly addresses the specific concept tested in this question in Software Engineering.",
-      "D": "✗ Not the answer. 'System fault' is related to Software Engineering vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with C: System error."
+      "D": "✗ Not the answer. 'System fault' does not fit the scenario: An erroneous system state that results in an unexpected system behavior is acknowledged as? The keyed answer is C — System error."
     },
     "studyTip": "Map each question to SDLC phase, process model, or 4GT/RAD/Agile definition before choosing.",
     "source": "offline-deep"
   },
   "37": {
-    "overview": "What is the name of the approach that follows step-by-step instructions for solving a problem? The correct choice is A — An Algorithm.\n\n✅ Answer: A — An Algorithm",
+    "overview": "What is the name of the approach that follows step-by-step instructions for solving a problem? Eliminate distractors that confuse related Software Engineering terms before picking A.\n\n✅ Answer: A — An Algorithm",
     "options": {
-      "A": "✓ CORRECT. 'An Algorithm' is the correct answer — it directly addresses the specific concept tested in this question in General.",
-      "B": "✗ Not the answer. 'A Plan' is not the standard term for the specific concept tested in this question. The curriculum answer is 'An Algorithm'.",
-      "C": "✗ Not the answer. 'A List' is not the standard term for the specific concept tested in this question. The curriculum answer is 'An Algorithm'.",
-      "D": "✗ Not the answer. 'Sequential Structure' is not the standard term for the specific concept tested in this question. The curriculum answer is 'An Algorithm'."
+      "A": "✓ CORRECT. 'An Algorithm' is the correct answer — it directly addresses the specific concept tested in this question in Software Engineering.",
+      "B": "✗ Not the answer. 'A Plan' does not fit the scenario: What is the name of the approach that follows step-by-step instructions for solving a problem? The keyed answer is A — An Algorithm.",
+      "C": "✗ Not the answer. 'A List' does not fit the scenario: What is the name of the approach that follows step-by-step instructions for solving a problem? The keyed answer is A — An Algorithm.",
+      "D": "✗ Not the answer. 'Sequential Structure' does not fit the scenario: What is the name of the approach that follows step-by-step instructions for solving a problem? The keyed answer is A — An Algorithm."
     },
-    "studyTip": "DFD symbols, structured analysis steps, and certification standards (DO-178B, UL 1998).",
+    "studyTip": "Map each question to SDLC phase, process model, or 4GT/RAD/Agile definition before choosing.",
     "source": "offline-deep"
   },
   "38": {
-    "overview": "Which of the following word correctly summarized the importance of software design? Key concept: stimulus–response pair used in ATAM architecture evaluation.\n\n✅ Answer: A — Quality",
+    "overview": "Which of the following word correctly summarized the importance of software design? Eliminate distractors that confuse related Software Engineering terms before picking A.\n\n✅ Answer: A — Quality",
     "options": {
-      "A": "✓ CORRECT. 'Quality' is correct because it matches the specific concept tested in this question. Definition: stimulus–response pair used in ATAM architecture evaluation.",
+      "A": "✓ CORRECT. 'Quality' is the correct answer — it directly addresses the specific concept tested in this question in Software Engineering.",
       "B": "✗ Not the answer. Complexity does not match the dominant growth rate of the given expression.",
-      "C": "✗ Not the answer. 'Efficiency' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Quality'.",
-      "D": "✗ Not the answer. 'Accuracy' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Quality'."
+      "C": "✗ Not the answer. 'Efficiency' does not fit the scenario: Which of the following word correctly summarized the importance of software design? The keyed answer is A — Quality.",
+      "D": "✗ Not the answer. 'Accuracy' does not fit the scenario: Which of the following word correctly summarized the importance of software design? The keyed answer is A — Quality."
     },
-    "studyTip": "DFD symbols, structured analysis steps, and certification standards (DO-178B, UL 1998).",
+    "studyTip": "Map each question to SDLC phase, process model, or 4GT/RAD/Agile definition before choosing.",
     "source": "offline-deep"
   },
   "39": {
-    "overview": "Which of the following methodology results in SA/SD features? The correct choice is D — All of the above.\n\n✅ Answer: D — All of the above",
+    "overview": "Which of the following methodology results in SA/SD features? Eliminate distractors that confuse related Software Engineering terms before picking D.\n\n✅ Answer: D — All of the above",
     "options": {
-      "A": "✗ Not the answer. 'Gane and Sarson methodology' is not the standard term for the specific concept tested in this question. The curriculum answer is 'All of the above'.",
-      "B": "✗ Not the answer. 'DeMarco and Yourdon methodology' is not the standard term for the specific concept tested in this question. The curriculum answer is 'All of the above'.",
-      "C": "✗ Not the answer. 'Constantine and Yourdon methodology' is not the standard term for the specific concept tested in this question. The curriculum answer is 'All of the above'.",
+      "A": "✗ Not the answer. 'Gane and Sarson methodology' does not fit the scenario: Which of the following methodology results in SA/SD features? The keyed answer is D — All of the above.",
+      "B": "✗ Not the answer. 'DeMarco and Yourdon methodology' does not fit the scenario: Which of the following methodology results in SA/SD features? The keyed answer is D — All of the above.",
+      "C": "✗ Not the answer. 'Constantine and Yourdon methodology' does not fit the scenario: Which of the following methodology results in SA/SD features? The keyed answer is D — All of the above.",
       "D": "✓ CORRECT. 'All of the above' is the correct answer — it directly addresses the specific concept tested in this question in Software Engineering."
     },
     "studyTip": "Map each question to SDLC phase, process model, or 4GT/RAD/Agile definition before choosing.",
     "source": "offline-deep"
   },
   "40": {
-    "overview": "__________ is not considered as an activity of Structured Analysis (SA). The correct choice is C — All the functions represented in the DFD are mapped to a module structure.\n\n✅ Answer: C — All the functions represented in the DFD are mapped to a module structure",
+    "overview": "__________ is not considered as an activity of Structured Analysis (SA). Eliminate distractors that confuse related Project Management terms before picking C.\n\n✅ Answer: C — All the functions represented in the DFD are mapped to a module structure",
     "options": {
-      "A": "✗ Not the answer. 'Transformation of a textual problem description into a graphic model' represents nodes with arbitrary connections, may contain cycles. This question tests the specific concept tested in this question. That requires 'All the functions represented in the DFD are mapped to a module structure', not 'Transformation of a textual problem description into a graphic model'.",
-      "B": "✗ Not the answer. 'Functional decomposition' is related to Project Management vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with C: All the functions represented in the DFD are mapped to a module structure.",
+      "A": "✗ Not the answer. 'Transformation of a textual problem description into a graphic model' does not fit the scenario: __________ is not considered as an activity of Structured Analysis (SA). The keyed answer is C — All the functions represented in the DFD are mapped to a module structure.",
+      "B": "✗ Not the answer. 'Functional decomposition' does not fit the scenario: __________ is not considered as an activity of Structured Analysis (SA). The keyed answer is C — All the functions represented in the DFD are mapped to a module structure.",
       "C": "✓ CORRECT. 'All the functions represented in the DFD are mapped to a module structure' is the correct answer — it directly addresses the specific concept tested in this question in Project Management.",
       "D": "✗ Not the answer. 'All of the above' is only correct when EVERY other option is true. Verify each choice A, B, C individually — if any is false, 'All' is wrong. Here, 'All the functions represented in the DFD are mapped to a module structure' is the specific correct answer."
     },
@@ -434,32 +434,32 @@
     "source": "offline-deep"
   },
   "41": {
-    "overview": "What does a directed arc or line signify? The correct choice is A — Data Flow.\n\n✅ Answer: A — Data Flow",
+    "overview": "What does a directed arc or line signify? Eliminate distractors that confuse related Software Engineering terms before picking A.\n\n✅ Answer: A — Data Flow",
     "options": {
-      "A": "✓ CORRECT. 'Data Flow' is the correct answer — it directly addresses the specific concept tested in this question in General.",
+      "A": "✓ CORRECT. 'Data Flow' is the correct answer — it directly addresses the specific concept tested in this question in Software Engineering.",
       "B": "✗ Not the answer. 'Data Process' represents program in execution with its own address space. This question tests the specific concept tested in this question. That requires 'Data Flow', not 'Data Process'.",
-      "C": "✗ Not the answer. 'Data Stores' is related to General vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with A: Data Flow.",
-      "D": "✗ Not the answer. 'None of the above' is related to General vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with A: Data Flow."
+      "C": "✗ Not the answer. 'Data Stores' does not fit the scenario: What does a directed arc or line signify? The keyed answer is A — Data Flow.",
+      "D": "✗ Not the answer. 'None of the above' does not fit the scenario: What does a directed arc or line signify? The keyed answer is A — Data Flow."
     },
-    "studyTip": "DFD symbols, structured analysis steps, and certification standards (DO-178B, UL 1998).",
+    "studyTip": "Map each question to SDLC phase, process model, or 4GT/RAD/Agile definition before choosing.",
     "source": "offline-deep"
   },
   "42": {
-    "overview": "What does a data store symbol in the Data Flow Diagram signify? The correct choice is D — All of the above.\n\n✅ Answer: D — All of the above",
+    "overview": "What does a data store symbol in the Data Flow Diagram signify? Eliminate distractors that confuse related Software Engineering terms before picking D.\n\n✅ Answer: D — All of the above",
     "options": {
-      "A": "✗ Not the answer. 'Logical File' is related to General vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with D: All of the above.",
-      "B": "✗ Not the answer. 'Physical File' is related to General vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with D: All of the above.",
-      "C": "✗ Not the answer. 'Data Structure' is related to General vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with D: All of the above.",
-      "D": "✓ CORRECT. 'All of the above' is the correct answer — it directly addresses the specific concept tested in this question in General."
+      "A": "✗ Not the answer. 'Logical File' does not fit the scenario: What does a data store symbol in the Data Flow Diagram signify? The keyed answer is D — All of the above.",
+      "B": "✗ Not the answer. 'Physical File' does not fit the scenario: What does a data store symbol in the Data Flow Diagram signify? The keyed answer is D — All of the above.",
+      "C": "✗ Not the answer. 'Data Structure' does not fit the scenario: What does a data store symbol in the Data Flow Diagram signify? The keyed answer is D — All of the above.",
+      "D": "✓ CORRECT. 'All of the above' is the correct answer — it directly addresses the specific concept tested in this question in Software Engineering."
     },
-    "studyTip": "DFD symbols, structured analysis steps, and certification standards (DO-178B, UL 1998).",
+    "studyTip": "Map each question to SDLC phase, process model, or 4GT/RAD/Agile definition before choosing.",
     "source": "offline-deep"
   },
   "43": {
-    "overview": "__________ is not a direct measure of SE process. The correct choice is C — Efficiency.\n\n✅ Answer: C — Efficiency",
+    "overview": "__________ is not a direct measure of SE process. Eliminate distractors that confuse related Project Management terms before picking C.\n\n✅ Answer: C — Efficiency",
     "options": {
-      "A": "✗ Not the answer. 'Effort' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Efficiency'.",
-      "B": "✗ Not the answer. 'Cost' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Efficiency'.",
+      "A": "✗ Not the answer. 'Effort' does not fit the scenario: __________ is not a direct measure of SE process. The keyed answer is C — Efficiency.",
+      "B": "✗ Not the answer. 'Cost' does not fit the scenario: __________ is not a direct measure of SE process. The keyed answer is C — Efficiency.",
       "C": "✓ CORRECT. 'Efficiency' is the correct answer — it directly addresses the specific concept tested in this question in Project Management.",
       "D": "✗ Not the answer. 'All of the above' is only correct when EVERY other option is true. Verify each choice A, B, C individually — if any is false, 'All' is wrong. Here, 'Efficiency' is the specific correct answer."
     },
@@ -467,131 +467,131 @@
     "source": "offline-deep"
   },
   "44": {
-    "overview": "What is the main task of project indicators? The correct choice is A — To evaluate the ongoing project's status and track possible risks..\n\n✅ Answer: A — To evaluate the ongoing project's status and track possible risks.",
+    "overview": "What is the main task of project indicators? Eliminate distractors that confuse related Project Management terms before picking A.\n\n✅ Answer: A — To evaluate the ongoing project's status and track possible risks.",
     "options": {
       "A": "✓ CORRECT. 'To evaluate the ongoing project's status and track possible risks.' is the correct answer — it directly addresses the specific concept tested in this question in Project Management.",
-      "B": "✗ Not the answer. 'To evaluate the ongoing project's status.' is not the standard term for the specific concept tested in this question. The curriculum answer is 'To evaluate the ongoing project's status and track possible risks.'.",
-      "C": "✗ Not the answer. 'To track potential risks.' is not the standard term for the specific concept tested in this question. The curriculum answer is 'To evaluate the ongoing project's status and track possible risks.'.",
-      "D": "✗ Not the answer. 'None of the above' is not the standard term for the specific concept tested in this question. The curriculum answer is 'To evaluate the ongoing project's status and track possible risks.'."
+      "B": "✗ Not the answer. 'To evaluate the ongoing project's status.' does not fit the scenario: What is the main task of project indicators? The keyed answer is A — To evaluate the ongoing project's status and track possible risks..",
+      "C": "✗ Not the answer. 'To track potential risks.' does not fit the scenario: What is the main task of project indicators? The keyed answer is A — To evaluate the ongoing project's status and track possible risks..",
+      "D": "✗ Not the answer. 'None of the above' does not fit the scenario: What is the main task of project indicators? The keyed answer is A — To evaluate the ongoing project's status and track possible risks.."
     },
     "studyTip": "COCOMO stages, estimation techniques, and risk terms (identification vs projection) are high yield.",
     "source": "offline-deep"
   },
   "45": {
-    "overview": "What is the main intent of project metrics? The correct choice is D — To minimize the development schedule and evaluate the ongoing project's quality on a daily basis.\n\n✅ Answer: D — To minimize the development schedule and evaluate the ongoing project's quality on a daily basis",
+    "overview": "What is the main intent of project metrics? Eliminate distractors that confuse related Project Management terms before picking D.\n\n✅ Answer: D — To minimize the development schedule and evaluate the ongoing project's quality on a daily basis",
     "options": {
-      "A": "✗ Not the answer. 'For strategic purposes' is not the standard term for the specific concept tested in this question. The curriculum answer is 'To minimize the development schedule and evaluate the ongoing project's quality on a daily basis'.",
-      "B": "✗ Not the answer. 'To minimize the development schedule.' is not the standard term for the specific concept tested in this question. The curriculum answer is 'To minimize the development schedule and evaluate the ongoing project's quality on a daily basis'.",
-      "C": "✗ Not the answer. 'To evaluate the ongoing project's quality on a daily basis' is not the standard term for the specific concept tested in this question. The curriculum answer is 'To minimize the development schedule and evaluate the ongoing project's quality on a daily basis'.",
+      "A": "✗ Not the answer. 'For strategic purposes' does not fit the scenario: What is the main intent of project metrics? The keyed answer is D — To minimize the development schedule and evaluate the ongoing project's quality on a daily basis.",
+      "B": "✗ Not the answer. 'To minimize the development schedule.' does not fit the scenario: What is the main intent of project metrics? The keyed answer is D — To minimize the development schedule and evaluate the ongoing project's quality on a daily basis.",
+      "C": "✗ Not the answer. 'To evaluate the ongoing project's quality on a daily basis' does not fit the scenario: What is the main intent of project metrics? The keyed answer is D — To minimize the development schedule and evaluate the ongoing project's quality on a daily basis.",
       "D": "✓ CORRECT. 'To minimize the development schedule and evaluate the ongoing project's quality on a daily basis' is the correct answer — it directly addresses the specific concept tested in this question in Project Management."
     },
     "studyTip": "COCOMO stages, estimation techniques, and risk terms (identification vs projection) are high yield.",
     "source": "offline-deep"
   },
   "46": {
-    "overview": "Name the graphical practice that depicts the meaningful changes that occurred in metrics data. The correct choice is C — DRE (Defect Removal Efficiency).\n\n✅ Answer: C — DRE (Defect Removal Efficiency)",
+    "overview": "Name the graphical practice that depicts the meaningful changes that occurred in metrics data. Eliminate distractors that confuse related Software Testing terms before picking C.\n\n✅ Answer: C — DRE (Defect Removal Efficiency)",
     "options": {
-      "A": "✗ Not the answer. 'Function point analysis' is related to Software Testing vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with C: DRE (Defect Removal Efficiency).",
-      "B": "✗ Not the answer. 'Control Chart' is related to Software Testing vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with C: DRE (Defect Removal Efficiency).",
+      "A": "✗ Not the answer. Function Points measure software size for estimation — not a type of software maintenance.",
+      "B": "✗ Not the answer. 'Control Chart' does not fit the scenario: Name the graphical practice that depicts the meaningful changes that occurred in metrics data. The keyed answer is C — DRE (Defect Removal Efficiency).",
       "C": "✓ CORRECT. 'DRE (Defect Removal Efficiency)' is the correct answer — it directly addresses the specific concept tested in this question in Software Testing.",
-      "D": "✗ Not the answer. 'None of the above' is related to Software Testing vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with C: DRE (Defect Removal Efficiency)."
+      "D": "✗ Not the answer. 'None of the above' does not fit the scenario: Name the graphical practice that depicts the meaningful changes that occurred in metrics data. The keyed answer is C — DRE (Defect Removal Efficiency)."
     },
     "studyTip": "Distinguish black-box vs white-box, maintenance retesting, and ISO quality models.",
     "source": "offline-deep"
   },
   "47": {
-    "overview": "Which parameters are essentially used while computing the software development cost? The correct choice is D — All of the above.\n\n✅ Answer: D — All of the above",
+    "overview": "Which parameters are essentially used while computing the software development cost? Eliminate distractors that confuse related Project Management terms before picking D.\n\n✅ Answer: D — All of the above",
     "options": {
-      "A": "✗ Not the answer. 'Hardware and Software Costs' is not the standard term for the specific concept tested in this question. The curriculum answer is 'All of the above'.",
-      "B": "✗ Not the answer. 'Effort Costs' is not the standard term for the specific concept tested in this question. The curriculum answer is 'All of the above'.",
-      "C": "✗ Not the answer. 'Travel and Training Costs' is not the standard term for the specific concept tested in this question. The curriculum answer is 'All of the above'.",
+      "A": "✗ Not the answer. 'Hardware and Software Costs' does not fit the scenario: Which parameters are essentially used while computing the software development cost? The keyed answer is D — All of the above.",
+      "B": "✗ Not the answer. 'Effort Costs' does not fit the scenario: Which parameters are essentially used while computing the software development cost? The keyed answer is D — All of the above.",
+      "C": "✗ Not the answer. 'Travel and Training Costs' does not fit the scenario: Which parameters are essentially used while computing the software development cost? The keyed answer is D — All of the above.",
       "D": "✓ CORRECT. 'All of the above' is the correct answer — it directly addresses the specific concept tested in this question in Project Management."
     },
     "studyTip": "COCOMO stages, estimation techniques, and risk terms (identification vs projection) are high yield.",
     "source": "offline-deep"
   },
   "48": {
-    "overview": "Which of the following is an incorrect activity for the configuration management of a software system? The correct choice is C — Internship management.\n\n✅ Answer: C — Internship management",
+    "overview": "Which of the following is an incorrect activity for the configuration management of a software system? Eliminate distractors that confuse related Software Engineering terms before picking C.\n\n✅ Answer: C — Internship management",
     "options": {
-      "A": "✗ Not the answer. 'Change management' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Internship management'.",
-      "B": "✗ Not the answer. 'System management' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Internship management'.",
+      "A": "✗ Not the answer. 'Change management' does not fit the scenario: Which of the following is an incorrect activity for the configuration management of a software system? The keyed answer is C — Internship management.",
+      "B": "✗ Not the answer. 'System management' does not fit the scenario: Which of the following is an incorrect activity for the configuration management of a software system? The keyed answer is C — Internship management.",
       "C": "✓ CORRECT. 'Internship management' is the correct answer — it directly addresses the specific concept tested in this question in Software Engineering.",
-      "D": "✗ Not the answer. 'Version management' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Internship management'."
+      "D": "✗ Not the answer. 'Version management' does not fit the scenario: Which of the following is an incorrect activity for the configuration management of a software system? The keyed answer is C — Internship management."
     },
     "studyTip": "Map each question to SDLC phase, process model, or 4GT/RAD/Agile definition before choosing.",
     "source": "offline-deep"
   },
   "49": {
-    "overview": "The project planner examines the statement of scope and extracts all-important software functions, which is known as The correct choice is B — Decomposition.\n\n✅ Answer: B — Decomposition",
+    "overview": "The project planner examines the statement of scope and extracts all-important software functions, which is known as Eliminate distractors that confuse related Project Management terms before picking B.\n\n✅ Answer: B — Decomposition",
     "options": {
       "A": "✗ Not the answer. 'Planning process' means program in execution with its own address space. That answers a different kind of question. Here, the stem points to 'Decomposition' instead.",
       "B": "✓ CORRECT. 'Decomposition' is the correct answer — it directly addresses the specific concept tested in this question in Project Management.",
-      "C": "✗ Not the answer. 'Association' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Decomposition'.",
+      "C": "✗ Not the answer. 'Association' does not fit the scenario: The project planner examines the statement of scope and extracts all-important software functions, which is known as The keyed answer is B — Decomposition.",
       "D": "✗ Not the answer. 'All of the above' is only correct when EVERY other option is true. Verify each choice A, B, C individually — if any is false, 'All' is wrong. Here, 'Decomposition' is the specific correct answer."
     },
     "studyTip": "COCOMO stages, estimation techniques, and risk terms (identification vs projection) are high yield.",
     "source": "offline-deep"
   },
   "50": {
-    "overview": "Which of the following Is not considered as an option for achieving reliable cost and effort estimation? The correct choice is A — The ability to translate the size estimate into human effort, calendar time, and dollars.\n\n✅ Answer: A — The ability to translate the size estimate into human effort, calendar time, and dollars",
+    "overview": "Which of the following Is not considered as an option for achieving reliable cost and effort estimation? Eliminate distractors that confuse related Project Management terms before picking A.\n\n✅ Answer: A — The ability to translate the size estimate into human effort, calendar time, and dollars",
     "options": {
       "A": "✓ CORRECT. 'The ability to translate the size estimate into human effort, calendar time, and dollars' is the correct answer — it directly addresses the specific concept tested in this question in Project Management.",
-      "B": "✗ Not the answer. 'Use relatively simple decomposition techniques to generate project cost and effort estimates.' is not the standard term for the specific concept tested in this question. The curriculum answer is 'The ability to translate the size estimate into human effort, calendar time, and dollars'.",
-      "C": "✗ Not the answer. 'Base estimates on similar projects that have already been completed' is not the standard term for the specific concept tested in this question. The curriculum answer is 'The ability to translate the size estimate into human effort, calendar time, and dollars'.",
-      "D": "✗ Not the answer. 'Use one or more empirical models for software cost and effort estimation' is not the standard term for the specific concept tested in this question. The curriculum answer is 'The ability to translate the size estimate into human effort, calendar time, and dollars'."
+      "B": "✗ Not the answer. 'Use relatively simple decomposition techniques to generate project cost and effort estimates.' does not fit the scenario: Which of the following Is not considered as an option for achieving reliable cost and effort estimation? The keyed answer is A — The ability to translate the size estimate into human effort, calendar time, and dollars.",
+      "C": "✗ Not the answer. 'Base estimates on similar projects that have already been completed' does not fit the scenario: Which of the following Is not considered as an option for achieving reliable cost and effort estimation? The keyed answer is A — The ability to translate the size estimate into human effort, calendar time, and dollars.",
+      "D": "✗ Not the answer. 'Use one or more empirical models for software cost and effort estimation' does not fit the scenario: Which of the following Is not considered as an option for achieving reliable cost and effort estimation? The keyed answer is A — The ability to translate the size estimate into human effort, calendar time, and dollars."
     },
     "studyTip": "COCOMO stages, estimation techniques, and risk terms (identification vs projection) are high yield.",
     "source": "offline-deep"
   },
   "51": {
-    "overview": "Which of the following does not complement the decomposition techniques but offers a potential estimation approach for their impersonal growth? The correct choice is A — Empirical estimation models.\n\n✅ Answer: A — Empirical estimation models",
+    "overview": "Which of the following does not complement the decomposition techniques but offers a potential estimation approach for their impersonal growth? Eliminate distractors that confuse related Project Management terms before picking A.\n\n✅ Answer: A — Empirical estimation models",
     "options": {
       "A": "✓ CORRECT. 'Empirical estimation models' is the correct answer — it directly addresses the specific concept tested in this question in Project Management.",
-      "B": "✗ Not the answer. 'Decomposition techniques' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Empirical estimation models'.",
-      "C": "✗ Not the answer. 'Automated estimation tools' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Empirical estimation models'.",
-      "D": "✗ Not the answer. 'Both empirical estimation models and automated estimation tools' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Empirical estimation models'."
+      "B": "✗ Not the answer. 'Decomposition techniques' does not fit the scenario: Which of the following does not complement the decomposition techniques but offers a potential estimation approach for t… The keyed answer is A — Empirical estimation models.",
+      "C": "✗ Not the answer. 'Automated estimation tools' does not fit the scenario: Which of the following does not complement the decomposition techniques but offers a potential estimation approach for t… The keyed answer is A — Empirical estimation models.",
+      "D": "✗ Not the answer. 'Both empirical estimation models and automated estimation tools' does not fit the scenario: Which of the following does not complement the decomposition techniques but offers a potential estimation approach for t… The keyed answer is A — Empirical estimation models."
     },
     "studyTip": "COCOMO stages, estimation techniques, and risk terms (identification vs projection) are high yield.",
     "source": "offline-deep"
   },
   "52": {
-    "overview": "Which of the following is not included in the total effort cost? The correct choice is A — Costs of lunch time food.\n\n✅ Answer: A — Costs of lunch time food",
+    "overview": "Which of the following is not included in the total effort cost? Eliminate distractors that confuse related Project Management terms before picking A.\n\n✅ Answer: A — Costs of lunch time food",
     "options": {
       "A": "✓ CORRECT. 'Costs of lunch time food' is the correct answer — it directly addresses the specific concept tested in this question in Project Management.",
-      "B": "✗ Not the answer. 'Costs of support staff' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Costs of lunch time food'.",
-      "C": "✗ Not the answer. 'Costs of networking and communications' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Costs of lunch time food'.",
-      "D": "✗ Not the answer. 'Costs of air conditioning and lighting in the office space' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Costs of lunch time food'."
+      "B": "✗ Not the answer. 'Costs of support staff' does not fit the scenario: Which of the following is not included in the total effort cost? The keyed answer is A — Costs of lunch time food.",
+      "C": "✗ Not the answer. 'Costs of networking and communications' does not fit the scenario: Which of the following is not included in the total effort cost? The keyed answer is A — Costs of lunch time food.",
+      "D": "✗ Not the answer. 'Costs of air conditioning and lighting in the office space' does not fit the scenario: Which of the following is not included in the total effort cost? The keyed answer is A — Costs of lunch time food."
     },
     "studyTip": "COCOMO stages, estimation techniques, and risk terms (identification vs projection) are high yield.",
     "source": "offline-deep"
   },
   "53": {
-    "overview": "What is developed by utilizing the historical cost function? The correct choice is C — Algorithmic cost modeling.\n\n✅ Answer: C — Algorithmic cost modeling",
+    "overview": "What is developed by utilizing the historical cost function? Eliminate distractors that confuse related Project Management terms before picking C.\n\n✅ Answer: C — Algorithmic cost modeling",
     "options": {
-      "A": "✗ Not the answer. 'Parkinson's Law' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Algorithmic cost modeling'.",
-      "B": "✗ Not the answer. 'Expert judgment' means Program Evaluation and Review Technique for project scheduling. That answers a different kind of question. Here, the stem points to 'Algorithmic cost modeling' instead.",
+      "A": "✗ Not the answer. 'Parkinson's Law' does not fit the scenario: What is developed by utilizing the historical cost function? The keyed answer is C — Algorithmic cost modeling.",
+      "B": "✗ Not the answer. 'Expert judgment' does not fit the scenario: What is developed by utilizing the historical cost function? The keyed answer is C — Algorithmic cost modeling.",
       "C": "✓ CORRECT. 'Algorithmic cost modeling' is the correct answer — it directly addresses the specific concept tested in this question in Project Management.",
-      "D": "✗ Not the answer. 'Estimation by analogy' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Algorithmic cost modeling'."
+      "D": "✗ Not the answer. 'Estimation by analogy' does not fit the scenario: What is developed by utilizing the historical cost function? The keyed answer is C — Algorithmic cost modeling."
     },
     "studyTip": "COCOMO stages, estimation techniques, and risk terms (identification vs projection) are high yield.",
     "source": "offline-deep"
   },
   "54": {
-    "overview": "Which of the following model has a misconception that systems are built by utilizing reusable components, scripts, and database programs? The correct choice is C — An application-composition model.\n\n✅ Answer: C — An application-composition model",
+    "overview": "Which of the following model has a misconception that systems are built by utilizing reusable components, scripts, and database programs? Eliminate distractors that confuse related Software Engineering terms before picking C.\n\n✅ Answer: C — An application-composition model",
     "options": {
-      "A": "✗ Not the answer. 'The reuse model' is not the standard term for the specific concept tested in this question. The curriculum answer is 'An application-composition model'.",
-      "B": "✗ Not the answer. 'An early designed model' is not the standard term for the specific concept tested in this question. The curriculum answer is 'An application-composition model'.",
+      "A": "✗ Not the answer. 'The reuse model' does not fit the scenario: Which of the following model has a misconception that systems are built by utilizing reusable components, scripts, and d… The keyed answer is C — An application-composition model.",
+      "B": "✗ Not the answer. 'An early designed model' does not fit the scenario: Which of the following model has a misconception that systems are built by utilizing reusable components, scripts, and d… The keyed answer is C — An application-composition model.",
       "C": "✓ CORRECT. 'An application-composition model' is the correct answer — it directly addresses the specific concept tested in this question in Software Engineering.",
-      "D": "✗ Not the answer. 'A post architecture model' is not the standard term for the specific concept tested in this question. The curriculum answer is 'An application-composition model'."
+      "D": "✗ Not the answer. 'A post architecture model' does not fit the scenario: Which of the following model has a misconception that systems are built by utilizing reusable components, scripts, and d… The keyed answer is C — An application-composition model."
     },
     "studyTip": "Map each question to SDLC phase, process model, or 4GT/RAD/Agile definition before choosing.",
     "source": "offline-deep"
   },
   "55": {
-    "overview": "Which of the following is used to predict the effort as a function of LOC or FP? The correct choice is C — Both COCOMO and FP-based estimation.\n\n✅ Answer: C — Both COCOMO and FP-based estimation",
+    "overview": "Which of the following is used to predict the effort as a function of LOC or FP? Eliminate distractors that confuse related Project Management terms before picking C.\n\n✅ Answer: C — Both COCOMO and FP-based estimation",
     "options": {
-      "A": "✗ Not the answer. 'COCOMO' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Both COCOMO and FP-based estimation'.",
-      "B": "✗ Not the answer. 'FP-based estimation' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Both COCOMO and FP-based estimation'.",
+      "A": "✗ Not the answer. 'COCOMO' does not fit the scenario: Which of the following is used to predict the effort as a function of LOC or FP? The keyed answer is C — Both COCOMO and FP-based estimation.",
+      "B": "✗ Not the answer. 'FP-based estimation' does not fit the scenario: Which of the following is used to predict the effort as a function of LOC or FP? The keyed answer is C — Both COCOMO and FP-based estimation.",
       "C": "✓ CORRECT. 'Both COCOMO and FP-based estimation' is the correct answer — it directly addresses the specific concept tested in this question in Project Management.",
       "D": "✗ Not the answer. 'Process-based estimation' means program in execution with its own address space. That answers a different kind of question. Here, the stem points to 'Both COCOMO and FP-based estimation' instead."
     },
@@ -599,58 +599,58 @@
     "source": "offline-deep"
   },
   "56": {
-    "overview": "Once the requirements are stabilized, the basic architecture of the software can be established. Which of the following version of the COCOMO model conforms to the given statement? The correct choice is A — Application composition model.\n\n✅ Answer: A — Application composition model",
+    "overview": "Once the requirements are stabilized, the basic architecture of the software can be established. Which of the following version of the COCOMO model conforms to the given statement? Eliminate distractors that confuse related Project Management terms before picking A.\n\n✅ Answer: A — Application composition model",
     "options": {
       "A": "✓ CORRECT. After requirements stabilize and architecture is set, COCOMO uses the post-architecture/application composition stage.",
-      "B": "✗ Not the answer. 'Post-architecture-stage model' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Application composition model'.",
-      "C": "✗ Not the answer. 'Early design stage model' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Application composition model'.",
+      "B": "✗ Not the answer. 'Post-architecture-stage model' does not fit the scenario: Once the requirements are stabilized, the basic architecture of the software can be established. Which of the following … The keyed answer is A — Application composition model.",
+      "C": "✗ Not the answer. 'Early design stage model' does not fit the scenario: Once the requirements are stabilized, the basic architecture of the software can be established. Which of the following … The keyed answer is A — Application composition model.",
       "D": "✗ Not the answer. 'All of the above' is only correct when EVERY other option is true. Verify each choice A, B, C individually — if any is false, 'All' is wrong. Here, 'Application composition model' is the specific correct answer."
     },
     "studyTip": "COCOMO stages, estimation techniques, and risk terms (identification vs projection) are high yield.",
     "source": "offline-deep"
   },
   "57": {
-    "overview": "Which of the following threatens the quality and timeliness of the produced software? The correct choice is C — Technical risks.\n\n✅ Answer: C — Technical risks",
+    "overview": "Which of the following threatens the quality and timeliness of the produced software? Eliminate distractors that confuse related Project Management terms before picking C.\n\n✅ Answer: C — Technical risks",
     "options": {
-      "A": "✗ Not the answer. 'Business risks' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Technical risks'.",
-      "B": "✗ Not the answer. 'Potential risks' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Technical risks'.",
+      "A": "✗ Not the answer. 'Business risks' does not fit the scenario: Which of the following threatens the quality and timeliness of the produced software? The keyed answer is C — Technical risks.",
+      "B": "✗ Not the answer. 'Potential risks' does not fit the scenario: Which of the following threatens the quality and timeliness of the produced software? The keyed answer is C — Technical risks.",
       "C": "✓ CORRECT. 'Technical risks' is the correct answer — it directly addresses the specific concept tested in this question in Project Management.",
-      "D": "✗ Not the answer. 'Known risks' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Technical risks'."
+      "D": "✗ Not the answer. 'Known risks' does not fit the scenario: Which of the following threatens the quality and timeliness of the produced software? The keyed answer is C — Technical risks."
     },
     "studyTip": "COCOMO stages, estimation techniques, and risk terms (identification vs projection) are high yield.",
     "source": "offline-deep"
   },
   "58": {
-    "overview": "Which of the following refers to the systematic attempt, which is implemented to ascertain the threats to any project plan? The correct choice is C — Risk projection.\n\n✅ Answer: C — Risk projection",
+    "overview": "Which of the following refers to the systematic attempt, which is implemented to ascertain the threats to any project plan? Eliminate distractors that confuse related Project Management terms before picking C.\n\n✅ Answer: C — Risk projection",
     "options": {
-      "A": "✗ Not the answer. 'Performance risk' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Risk projection'.",
-      "B": "✗ Not the answer. 'Risk identification' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Risk projection'.",
+      "A": "✗ Not the answer. 'Performance risk' does not fit the scenario: Which of the following refers to the systematic attempt, which is implemented to ascertain the threats to any project pl… The keyed answer is C — Risk projection.",
+      "B": "✗ Not the answer. 'Risk identification' does not fit the scenario: Which of the following refers to the systematic attempt, which is implemented to ascertain the threats to any project pl… The keyed answer is C — Risk projection.",
       "C": "✓ CORRECT. 'Risk projection' is the correct answer — it directly addresses the specific concept tested in this question in Project Management.",
-      "D": "✗ Not the answer. 'Support risk' is not the standard term for the specific concept tested in this question. The curriculum answer is 'Risk projection'."
+      "D": "✗ Not the answer. 'Support risk' does not fit the scenario: Which of the following refers to the systematic attempt, which is implemented to ascertain the threats to any project pl… The keyed answer is C — Risk projection."
     },
     "studyTip": "COCOMO stages, estimation techniques, and risk terms (identification vs projection) are high yield.",
     "source": "offline-deep"
   },
   "59": {
-    "overview": "Which of the following standards is used by the aviation industry? The correct choice is B — RTCADO-178B.\n\n✅ Answer: B — RTCADO-178B",
+    "overview": "Which of the following standards is used by the aviation industry? Eliminate distractors that confuse related Software Engineering terms before picking B.\n\n✅ Answer: B — RTCADO-178B",
     "options": {
-      "A": "✗ Not the answer. 'CTRADO-172B' is not the standard term for the specific concept tested in this question. The curriculum answer is 'RTCADO-178B'.",
+      "A": "✗ Not the answer. 'CTRADO-172B' does not fit the scenario: Which of the following standards is used by the aviation industry? The keyed answer is B — RTCADO-178B.",
       "B": "✓ CORRECT. DO-178B (RTCADO-178B in OCR) is the aviation software standard.",
-      "C": "✗ Not the answer. 'RTRADO-178B' is not the standard term for the specific concept tested in this question. The curriculum answer is 'RTCADO-178B'.",
-      "D": "✗ Not the answer. 'CTCADO-178B' is not the standard term for the specific concept tested in this question. The curriculum answer is 'RTCADO-178B'."
+      "C": "✗ Not the answer. 'RTRADO-178B' does not fit the scenario: Which of the following standards is used by the aviation industry? The keyed answer is B — RTCADO-178B.",
+      "D": "✗ Not the answer. 'CTCADO-178B' does not fit the scenario: Which of the following standards is used by the aviation industry? The keyed answer is B — RTCADO-178B."
     },
     "studyTip": "Map each question to SDLC phase, process model, or 4GT/RAD/Agile definition before choosing.",
     "source": "offline-deep"
   },
   "60": {
-    "overview": "Third-Party Certification for software standards is based on __________. The correct choice is B — Ul 1998, Second Edition.\n\n✅ Answer: B — Ul 1998, Second Edition",
+    "overview": "Third-Party Certification for software standards is based on __________. Eliminate distractors that confuse related Software Engineering terms before picking B.\n\n✅ Answer: B — Ul 1998, Second Edition",
     "options": {
-      "A": "✗ Not the answer. 'Ul 1996, Second Edition' is related to General vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with B: Ul 1998, Second Edition.",
+      "A": "✗ Not the answer. 'Ul 1996, Second Edition' does not fit the scenario: Third-Party Certification for software standards is based on __________. The keyed answer is B — Ul 1998, Second Edition.",
       "B": "✓ CORRECT. UL 1998 Second Edition is referenced for third-party software safety certification.",
-      "C": "✗ Not the answer. 'Ul 1992, Second Edition' is related to General vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with B: Ul 1998, Second Edition.",
-      "D": "✗ Not the answer. 'UT 1998, Second Edition' is related to General vocabulary but does not satisfy what this question asks. Re-read the stem for the exact concept, then compare with B: Ul 1998, Second Edition."
+      "C": "✗ Not the answer. 'Ul 1992, Second Edition' does not fit the scenario: Third-Party Certification for software standards is based on __________. The keyed answer is B — Ul 1998, Second Edition.",
+      "D": "✗ Not the answer. 'UT 1998, Second Edition' does not fit the scenario: Third-Party Certification for software standards is based on __________. The keyed answer is B — Ul 1998, Second Edition."
     },
-    "studyTip": "DFD symbols, structured analysis steps, and certification standards (DO-178B, UL 1998).",
+    "studyTip": "Map each question to SDLC phase, process model, or 4GT/RAD/Agile definition before choosing.",
     "source": "offline-deep"
   }
 }

@@ -10,7 +10,10 @@ ROOT = Path(__file__).resolve().parent.parent
 CATALOG = ROOT / "data" / "catalog.json"
 OUT = ROOT / "data" / "subjects.json"
 
-EXAM_ORDER = ["2015", "2016", "2017", "2018", "aau", "bdu", "astu", "model1", "moe2025"]
+EXAM_ORDER = [
+    "2015", "2016", "2017", "2018", "2018v2", "2018v3",
+    "aau", "bdu", "astu", "model1", "moe2025",
+]
 
 SUBJECT_ORDER = [
     "Operating Systems",
@@ -53,19 +56,22 @@ def exam_sort_key(exam_id: str) -> int:
 
 def main() -> None:
     catalog = json.loads(CATALOG.read_text(encoding="utf-8"))
-    exams_by_id = {e["id"]: e for e in catalog.get("exams", [])}
 
     focus_guide: dict[str, str] = {}
     groups: dict[str, list[dict]] = defaultdict(list)
     total = 0
+    subject_exam_count = 0
 
-    for exam_id in EXAM_ORDER:
-        exam = exams_by_id.get(exam_id)
-        if not exam:
+    for exam in catalog.get("exams", []):
+        if exam.get("examOnly"):
+            continue
+        exam_id = exam["id"]
+        if exam_id not in EXAM_ORDER:
             continue
         q_path = ROOT / exam["questionsPath"]
         if not q_path.exists():
             continue
+        subject_exam_count += 1
         q_data = json.loads(q_path.read_text(encoding="utf-8"))
         exam_title = q_data.get("title") or exam.get("title") or exam_id
 
@@ -123,7 +129,7 @@ def main() -> None:
     bundle = {
         "version": 1,
         "totalQuestions": total,
-        "examCount": len(EXAM_ORDER),
+        "examCount": subject_exam_count,
         "focusGuide": focus_guide,
         "subjects": subjects,
     }

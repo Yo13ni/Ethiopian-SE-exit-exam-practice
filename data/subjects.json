@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "totalQuestions": 845,
-  "examCount": 9,
+  "totalQuestions": 1045,
+  "examCount": 11,
   "focusGuide": {
     "Software Architecture": "Study quality attributes, architectural patterns, and documentation purposes.",
     "Android": "Review Activity lifecycle, Intent, Manifest, layout hierarchy, and APK.",
@@ -22,6 +22,7 @@
     "AI / ML": "Study search algorithms (A*, UCS), agent types, and data mining CRISP-DM phases.",
     "Fundamentals of Programming": "Loops, operators, formulas, variable rules, and basic C/C++/Python syntax.",
     "Software Engineering": "SDLC, requirements, refactoring, code smells, and maintenance.",
+    "_blueprint": "Feb 2024 MoEE blueprint mix: Remember 3 · Understand 21 · Apply 22 · Analyze 10 · Evaluate 6 · Create 33 · Affective 5. Questions use scenarios, traces, design choices, and professional-judgment stems—not simple definition recall.",
     "Java/OOP": "OOP concepts, package scope, exceptions, GC, and what Java cannot do (pointers).",
     "PM": "Spiral model, risk retention, WBS tasks, critical path, and communication management.",
     "AI/ML": "Supervised learning, search algorithms (UCS, BFS, A*), and local search.",
@@ -34,7 +35,7 @@
     {
       "name": "Operating Systems",
       "slug": "operating-systems",
-      "count": 44,
+      "count": 56,
       "guide": "Study process states, deadlock, paging policies, and queue types.",
       "questions": [
         {
@@ -619,6 +620,330 @@
           ],
           "answer": "A",
           "concept": "Key idea (Operating Systems): Break any deadlock condition"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 40,
+          "topic": "Operating Systems",
+          "text": "Why does round-robin scheduling improve responsiveness for interactive users compared with FCFS?",
+          "options": [
+            {
+              "key": "A",
+              "text": "It gives each process a time slice and rotates quickly"
+            },
+            {
+              "key": "B",
+              "text": "It runs only system processes"
+            },
+            {
+              "key": "C",
+              "text": "It removes context switching"
+            },
+            {
+              "key": "D",
+              "text": "It always minimizes completion time"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Operating Systems): Understand scheduling behavior"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 41,
+          "topic": "Operating Systems",
+          "text": "Given process burst times P1=4, P2=3, P3=2 and FCFS order P1,P2,P3, what is average waiting time?",
+          "options": [
+            {
+              "key": "A",
+              "text": "1"
+            },
+            {
+              "key": "B",
+              "text": "2"
+            },
+            {
+              "key": "C",
+              "text": "11/3"
+            },
+            {
+              "key": "D",
+              "text": "5"
+            }
+          ],
+          "answer": "C",
+          "concept": "Key idea (Operating Systems): Apply FCFS waiting-time calculation"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 42,
+          "topic": "Operating Systems",
+          "text": "In a system with 4 page frames, a process references more pages than memory can hold. Which mechanism allows execution?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Virtual memory with paging"
+            },
+            {
+              "key": "B",
+              "text": "Only static linking"
+            },
+            {
+              "key": "C",
+              "text": "Disable swap and continue"
+            },
+            {
+              "key": "D",
+              "text": "Compile with optimization -O3"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Operating Systems): Apply VM concept to scenario"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 43,
+          "topic": "Operating Systems",
+          "text": "P1 holds R1 and waits for R2; P2 holds R2 and waits for R1. Which deadlock condition pattern is observed?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Circular wait with hold-and-wait"
+            },
+            {
+              "key": "B",
+              "text": "No preemption removed"
+            },
+            {
+              "key": "C",
+              "text": "Starvation only"
+            },
+            {
+              "key": "D",
+              "text": "Thrashing only"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Operating Systems): Analyze deadlock scenario"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 44,
+          "topic": "Operating Systems",
+          "text": "Which effect indicates thrashing?",
+          "options": [
+            {
+              "key": "A",
+              "text": "CPU utilization drops while page fault rate rises sharply"
+            },
+            {
+              "key": "B",
+              "text": "Disk usage drops to zero"
+            },
+            {
+              "key": "C",
+              "text": "All threads complete faster"
+            },
+            {
+              "key": "D",
+              "text": "Context switches become impossible"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Operating Systems): Analyze memory pressure behavior"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 45,
+          "topic": "Operating Systems",
+          "text": "A university lab can either disable swap to avoid disk wear or tune working sets and page replacement. Which is better?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Tune working sets and page replacement while keeping swap policy"
+            },
+            {
+              "key": "B",
+              "text": "Disable virtual memory entirely"
+            },
+            {
+              "key": "C",
+              "text": "Run one process at a time"
+            },
+            {
+              "key": "D",
+              "text": "Use FIFO for all workloads regardless"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Operating Systems): Evaluate OS memory policy"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 43,
+          "topic": "Operating Systems",
+          "text": "Why does mutual exclusion matter when multiple threads update shared counters?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Without it, race conditions can produce incorrect values"
+            },
+            {
+              "key": "B",
+              "text": "It makes threads run in parallel faster always"
+            },
+            {
+              "key": "C",
+              "text": "It avoids deadlock by itself"
+            },
+            {
+              "key": "D",
+              "text": "It removes need for atomic operations"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Operating Systems): Understand critical-section control"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 44,
+          "topic": "Operating Systems",
+          "text": "A process has arrival 0 and burst 5; another arrival 1 burst 2. Under preemptive SJF (SRTF), which runs at time 1?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Process with remaining 4"
+            },
+            {
+              "key": "B",
+              "text": "Process with burst 2"
+            },
+            {
+              "key": "C",
+              "text": "Both simultaneously"
+            },
+            {
+              "key": "D",
+              "text": "Idle"
+            }
+          ],
+          "answer": "B",
+          "concept": "Key idea (Operating Systems): Apply SRTF scheduling"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 45,
+          "topic": "Operating Systems",
+          "text": "A /26 subnet has 64 addresses. In OS network stack configuration, how many are typically usable for hosts?",
+          "options": [
+            {
+              "key": "A",
+              "text": "62"
+            },
+            {
+              "key": "B",
+              "text": "64"
+            },
+            {
+              "key": "C",
+              "text": "60"
+            },
+            {
+              "key": "D",
+              "text": "30"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Operating Systems): Apply addressing in host config context"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 46,
+          "topic": "Operating Systems",
+          "text": "Four processes each hold one resource and request the next in a cycle. Which deadlock prevention action directly breaks this pattern?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Impose global resource ordering"
+            },
+            {
+              "key": "B",
+              "text": "Increase CPU frequency"
+            },
+            {
+              "key": "C",
+              "text": "Use shorter variable names"
+            },
+            {
+              "key": "D",
+              "text": "Disable interrupts permanently"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Operating Systems): Analyze deadlock prevention"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 47,
+          "topic": "Operating Systems",
+          "text": "A machine spends most time swapping pages in/out and little time executing user code. What diagnosis fits?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Thrashing due to insufficient resident working set"
+            },
+            {
+              "key": "B",
+              "text": "CPU starvation from priority inversion only"
+            },
+            {
+              "key": "C",
+              "text": "Kernel panic"
+            },
+            {
+              "key": "D",
+              "text": "Disk defragmentation"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Operating Systems): Analyze paging behavior"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 48,
+          "topic": "Operating Systems",
+          "text": "A lab can either run one huge process per student session or use process pool with controlled concurrency. Which is better?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Use process/thread pool with controlled concurrency"
+            },
+            {
+              "key": "B",
+              "text": "Launch unbounded processes"
+            },
+            {
+              "key": "C",
+              "text": "Disable scheduler timeslicing"
+            },
+            {
+              "key": "D",
+              "text": "Use busy waiting for I/O"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Operating Systems): Evaluate resource-management choice"
         },
         {
           "examId": "aau",
@@ -1246,7 +1571,7 @@
     {
       "name": "Java / OOP",
       "slug": "java-oop",
-      "count": 68,
+      "count": 79,
       "guide": "Practice interfaces, abstract classes, constructors, UML, and exception handling.",
       "questions": [
         {
@@ -2063,6 +2388,303 @@
           ],
           "answer": "A",
           "concept": "Key idea (Java / OOP): Multiple interface implementation"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 16,
+          "topic": "Java / OOP",
+          "text": "Which Java keyword prevents a subclass from overriding a method?",
+          "options": [
+            {
+              "key": "A",
+              "text": "abstract"
+            },
+            {
+              "key": "B",
+              "text": "protected"
+            },
+            {
+              "key": "C",
+              "text": "final"
+            },
+            {
+              "key": "D",
+              "text": "native"
+            }
+          ],
+          "answer": "C",
+          "concept": "Key idea (Java / OOP): Keyword recall"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 17,
+          "topic": "Java / OOP",
+          "text": "Why is encapsulation important in a student registration class?",
+          "options": [
+            {
+              "key": "A",
+              "text": "It protects object state and enforces access through methods"
+            },
+            {
+              "key": "B",
+              "text": "It removes the need for constructors"
+            },
+            {
+              "key": "C",
+              "text": "It forces all fields to be public"
+            },
+            {
+              "key": "D",
+              "text": "It prevents code reuse"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Java / OOP): Encapsulation purpose"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 18,
+          "topic": "Java / OOP",
+          "text": "What is output? int x=5; System.out.println(++x + x++);",
+          "options": [
+            {
+              "key": "A",
+              "text": "10"
+            },
+            {
+              "key": "B",
+              "text": "11"
+            },
+            {
+              "key": "C",
+              "text": "12"
+            },
+            {
+              "key": "D",
+              "text": "13"
+            }
+          ],
+          "answer": "C",
+          "concept": "Key idea (Java / OOP): Java expression trace"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 19,
+          "topic": "Java / OOP",
+          "text": "Given class Animal {sound()} and Dog extends Animal overriding sound(), what is printed by Animal a = new Dog(); a.sound(); when Dog prints \"Bark\"?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Compile error"
+            },
+            {
+              "key": "B",
+              "text": "Animal sound"
+            },
+            {
+              "key": "C",
+              "text": "Bark"
+            },
+            {
+              "key": "D",
+              "text": "null"
+            }
+          ],
+          "answer": "C",
+          "concept": "Key idea (Java / OOP): Dynamic dispatch trace"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 20,
+          "topic": "Java / OOP",
+          "text": "A program catches Exception before NumberFormatException. What issue occurs?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Specific exception block becomes unreachable"
+            },
+            {
+              "key": "B",
+              "text": "Program runs faster"
+            },
+            {
+              "key": "C",
+              "text": "All checked exceptions disappear"
+            },
+            {
+              "key": "D",
+              "text": "JVM disables stack traces"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Java / OOP): Analyze exception hierarchy effect"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 21,
+          "topic": "Java / OOP",
+          "text": "A university wants a grading platform that supports adding new grading policies without editing existing policy classes. Which design is best?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Use Strategy pattern with a common GradePolicy interface"
+            },
+            {
+              "key": "B",
+              "text": "Put all policies in one 700-line switch statement"
+            },
+            {
+              "key": "C",
+              "text": "Duplicate grading code per department"
+            },
+            {
+              "key": "D",
+              "text": "Use static global flags in one class"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Java / OOP): Design extensible OOP solution"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 18,
+          "topic": "Java / OOP",
+          "text": "Why is interface-based design preferred in large Java systems?",
+          "options": [
+            {
+              "key": "A",
+              "text": "It decouples clients from implementations and eases testing"
+            },
+            {
+              "key": "B",
+              "text": "It prevents polymorphism"
+            },
+            {
+              "key": "C",
+              "text": "It requires concrete class references everywhere"
+            },
+            {
+              "key": "D",
+              "text": "It disables dependency injection"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Java / OOP): Understand abstraction benefit"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 19,
+          "topic": "Java / OOP",
+          "text": "A method throws IOException. Which handling is valid in caller?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Catch IOException or declare throws IOException"
+            },
+            {
+              "key": "B",
+              "text": "Ignore it because JVM handles all checked exceptions"
+            },
+            {
+              "key": "C",
+              "text": "Catch only Error"
+            },
+            {
+              "key": "D",
+              "text": "Replace with finally only"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Java / OOP): Apply checked exception handling"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 20,
+          "topic": "Java / OOP",
+          "text": "What prints? String s=\"ab\"; s += \"cd\"; System.out.println(s.length());",
+          "options": [
+            {
+              "key": "A",
+              "text": "2"
+            },
+            {
+              "key": "B",
+              "text": "3"
+            },
+            {
+              "key": "C",
+              "text": "4"
+            },
+            {
+              "key": "D",
+              "text": "5"
+            }
+          ],
+          "answer": "C",
+          "concept": "Key idea (Java / OOP): Apply Java output trace"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 21,
+          "topic": "Java / OOP",
+          "text": "A subclass field hides a superclass field with same name. Access through superclass reference gives unexpected value. Why?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Field access is resolved by reference type, not runtime object type"
+            },
+            {
+              "key": "B",
+              "text": "JVM forbids inheritance"
+            },
+            {
+              "key": "C",
+              "text": "Method overloading controls field access"
+            },
+            {
+              "key": "D",
+              "text": "Constructors are skipped"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Java / OOP): Analyze Java binding rule"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 22,
+          "topic": "Java / OOP",
+          "text": "Create a maintainable architecture for a Java admissions system integrating payment, notifications, and reporting.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Use layered architecture with service interfaces and dependency injection"
+            },
+            {
+              "key": "B",
+              "text": "Put everything in one main class"
+            },
+            {
+              "key": "C",
+              "text": "Use static global state for all modules"
+            },
+            {
+              "key": "D",
+              "text": "Implement each feature as copy-paste package"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Java / OOP): Create enterprise Java structure"
         },
         {
           "examId": "aau",
@@ -3122,7 +3744,7 @@
     {
       "name": "C++",
       "slug": "c",
-      "count": 25,
+      "count": 33,
       "guide": "Practice loop syntax, identifiers, and compilation stages.",
       "questions": [
         {
@@ -3539,6 +4161,222 @@
           "concept": "Key idea (C++): iostream for cout"
         },
         {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 6,
+          "topic": "C++",
+          "text": "Which declaration is valid in C++?",
+          "options": [
+            {
+              "key": "A",
+              "text": "int 2count = 10;"
+            },
+            {
+              "key": "B",
+              "text": "float total_mark = 72.5f;"
+            },
+            {
+              "key": "C",
+              "text": "char name[] = 'Abel';"
+            },
+            {
+              "key": "D",
+              "text": "string class = \"SE\";"
+            }
+          ],
+          "answer": "B",
+          "concept": "Key idea (C++): Valid identifier and literal forms"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 7,
+          "topic": "C++",
+          "text": "Why is pass-by-reference used in a function that updates an account balance?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Because it allows the called function to modify the caller's variable"
+            },
+            {
+              "key": "B",
+              "text": "Because it prevents all side effects"
+            },
+            {
+              "key": "C",
+              "text": "Because references use less memory than every primitive"
+            },
+            {
+              "key": "D",
+              "text": "Because it avoids function declarations"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (C++): Reference semantics"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 8,
+          "topic": "C++",
+          "text": "What is printed by: int s=0; for(int i=1;i<=3;i++) s+=i; cout<<s;",
+          "options": [
+            {
+              "key": "A",
+              "text": "3"
+            },
+            {
+              "key": "B",
+              "text": "6"
+            },
+            {
+              "key": "C",
+              "text": "9"
+            },
+            {
+              "key": "D",
+              "text": "12"
+            }
+          ],
+          "answer": "B",
+          "concept": "Key idea (C++): Loop output trace"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 9,
+          "topic": "C++",
+          "text": "A team must produce two variants of an invoicing feature for desktop and kiosk using shared core logic. Which C++ approach best supports this?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Use inheritance with virtual functions for variant-specific behavior"
+            },
+            {
+              "key": "B",
+              "text": "Copy-paste separate programs without shared interfaces"
+            },
+            {
+              "key": "C",
+              "text": "Store UI code in global variables"
+            },
+            {
+              "key": "D",
+              "text": "Avoid classes and use only goto"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (C++): Design extensible polymorphic solution"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 8,
+          "topic": "C++",
+          "text": "Which header is needed for `std::vector`?",
+          "options": [
+            {
+              "key": "A",
+              "text": "<map>"
+            },
+            {
+              "key": "B",
+              "text": "<vector>"
+            },
+            {
+              "key": "C",
+              "text": "<array>"
+            },
+            {
+              "key": "D",
+              "text": "<cstring>"
+            }
+          ],
+          "answer": "B",
+          "concept": "Key idea (C++): C++ standard library recall"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 9,
+          "topic": "C++",
+          "text": "Why does RAII reduce memory leaks in C++ applications?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Resources are tied to object lifetime and released automatically"
+            },
+            {
+              "key": "B",
+              "text": "It disables destructors"
+            },
+            {
+              "key": "C",
+              "text": "It requires manual free() everywhere"
+            },
+            {
+              "key": "D",
+              "text": "It avoids constructors"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (C++): Understand RAII"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 10,
+          "topic": "C++",
+          "text": "What is output? int a=2; int b=3; cout << a*b + b;",
+          "options": [
+            {
+              "key": "A",
+              "text": "5"
+            },
+            {
+              "key": "B",
+              "text": "6"
+            },
+            {
+              "key": "C",
+              "text": "9"
+            },
+            {
+              "key": "D",
+              "text": "12"
+            }
+          ],
+          "answer": "C",
+          "concept": "Key idea (C++): Apply expression evaluation"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 11,
+          "topic": "C++",
+          "text": "A codebase has many if/else branches to choose payment processor and grows every semester. What redesign is best?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Use polymorphic strategy classes selected at runtime"
+            },
+            {
+              "key": "B",
+              "text": "Keep adding nested if/else blocks"
+            },
+            {
+              "key": "C",
+              "text": "Use macros for all business logic"
+            },
+            {
+              "key": "D",
+              "text": "Duplicate function for every campus"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (C++): Create maintainable C++ design"
+        },
+        {
           "examId": "aau",
           "examTitle": "AAU Model Exit Exam",
           "examNumber": 51,
@@ -3813,7 +4651,7 @@
     {
       "name": "Data Structures",
       "slug": "data-structures",
-      "count": 44,
+      "count": 56,
       "guide": "Analyze time complexity and linear vs non-linear structures.",
       "questions": [
         {
@@ -4398,6 +5236,330 @@
           ],
           "answer": "C",
           "concept": "Key idea (Data Structures): Bubble sort O(n²)"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 10,
+          "topic": "Data Structures",
+          "text": "Why does BFS use a queue instead of a stack?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Because BFS explores nodes level by level in first-in-first-out order"
+            },
+            {
+              "key": "B",
+              "text": "Because stacks are faster than queues for all graphs"
+            },
+            {
+              "key": "C",
+              "text": "Because queues remove duplicate vertices automatically"
+            },
+            {
+              "key": "D",
+              "text": "Because BFS never stores discovered nodes"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Data Structures): BFS traversal rationale"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 11,
+          "topic": "Data Structures",
+          "text": "A call-center system must process the earliest waiting ticket first. Which structure fits best?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Stack"
+            },
+            {
+              "key": "B",
+              "text": "Queue"
+            },
+            {
+              "key": "C",
+              "text": "Binary search tree"
+            },
+            {
+              "key": "D",
+              "text": "Hash set"
+            }
+          ],
+          "answer": "B",
+          "concept": "Key idea (Data Structures): Select structure by operation semantics"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 12,
+          "topic": "Data Structures",
+          "text": "For sorted array [4, 8, 15, 16, 23, 42], what index (0-based) is found by binary search for 16?",
+          "options": [
+            {
+              "key": "A",
+              "text": "2"
+            },
+            {
+              "key": "B",
+              "text": "3"
+            },
+            {
+              "key": "C",
+              "text": "4"
+            },
+            {
+              "key": "D",
+              "text": "5"
+            }
+          ],
+          "answer": "B",
+          "concept": "Key idea (Data Structures): Binary search trace"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 13,
+          "topic": "Data Structures",
+          "text": "For graph edges A-B, A-C, B-D, C-E, starting at A and visiting neighbors alphabetically, what is BFS order?",
+          "options": [
+            {
+              "key": "A",
+              "text": "A, B, D, C, E"
+            },
+            {
+              "key": "B",
+              "text": "A, C, E, B, D"
+            },
+            {
+              "key": "C",
+              "text": "A, B, C, D, E"
+            },
+            {
+              "key": "D",
+              "text": "A, D, B, E, C"
+            }
+          ],
+          "answer": "C",
+          "concept": "Key idea (Data Structures): Analyze traversal order"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 14,
+          "topic": "Data Structures",
+          "text": "An algorithm performs two nested loops over n elements and does constant work inside. What is time complexity?",
+          "options": [
+            {
+              "key": "A",
+              "text": "O(log n)"
+            },
+            {
+              "key": "B",
+              "text": "O(n)"
+            },
+            {
+              "key": "C",
+              "text": "O(n log n)"
+            },
+            {
+              "key": "D",
+              "text": "O(n^2)"
+            }
+          ],
+          "answer": "D",
+          "concept": "Key idea (Data Structures): Reason about asymptotic complexity"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 15,
+          "topic": "Data Structures",
+          "text": "You need undo/redo in a drawing app used in a computer lab. What is the best data-structure design?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Use two stacks: one for undo and one for redo"
+            },
+            {
+              "key": "B",
+              "text": "Use a single queue only"
+            },
+            {
+              "key": "C",
+              "text": "Use adjacency matrix"
+            },
+            {
+              "key": "D",
+              "text": "Use hash map with random deletions"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Data Structures): Create practical design from ADT concepts"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 12,
+          "topic": "Data Structures",
+          "text": "Why is a hash table preferred for checking whether a student ID already exists during batch import?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Average-case lookup is near O(1)"
+            },
+            {
+              "key": "B",
+              "text": "It guarantees sorted traversal"
+            },
+            {
+              "key": "C",
+              "text": "It stores duplicate keys better than sets"
+            },
+            {
+              "key": "D",
+              "text": "It avoids collisions completely"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Data Structures): Understand hash lookup benefit"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 13,
+          "topic": "Data Structures",
+          "text": "A scheduler must always execute the highest-priority task first. Which structure fits?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Array list"
+            },
+            {
+              "key": "B",
+              "text": "Priority queue (heap)"
+            },
+            {
+              "key": "C",
+              "text": "Stack"
+            },
+            {
+              "key": "D",
+              "text": "Singly linked list"
+            }
+          ],
+          "answer": "B",
+          "concept": "Key idea (Data Structures): Apply ADT selection"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 14,
+          "topic": "Data Structures",
+          "text": "For an undirected graph with edges A-B, B-C, C-D, starting at A, what is DFS order with alphabetical neighbors?",
+          "options": [
+            {
+              "key": "A",
+              "text": "A, B, C, D"
+            },
+            {
+              "key": "B",
+              "text": "A, C, B, D"
+            },
+            {
+              "key": "C",
+              "text": "A, B, D, C"
+            },
+            {
+              "key": "D",
+              "text": "A, D, C, B"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Data Structures): Apply DFS trace"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 15,
+          "topic": "Data Structures",
+          "text": "A BFS over a sparse graph is implemented with adjacency matrix and is slower than expected. Why?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Matrix representation causes O(V^2) neighbor scanning"
+            },
+            {
+              "key": "B",
+              "text": "BFS cannot run on sparse graphs"
+            },
+            {
+              "key": "C",
+              "text": "Queue operations are exponential"
+            },
+            {
+              "key": "D",
+              "text": "Visited flags are unnecessary"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Data Structures): Analyze representation impact"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 16,
+          "topic": "Data Structures",
+          "text": "Which algorithm is more suitable for finding shortest paths in weighted graphs with non-negative weights?",
+          "options": [
+            {
+              "key": "A",
+              "text": "DFS"
+            },
+            {
+              "key": "B",
+              "text": "BFS"
+            },
+            {
+              "key": "C",
+              "text": "Dijkstra"
+            },
+            {
+              "key": "D",
+              "text": "Topological sort"
+            }
+          ],
+          "answer": "C",
+          "concept": "Key idea (Data Structures): Analyze algorithm suitability"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 17,
+          "topic": "Data Structures",
+          "text": "Create a design for plagiarism detection requiring quick similarity lookup among many fingerprints.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Use inverted index plus hash-based candidate retrieval"
+            },
+            {
+              "key": "B",
+              "text": "Use stack-only storage"
+            },
+            {
+              "key": "C",
+              "text": "Sort files once and never update index"
+            },
+            {
+              "key": "D",
+              "text": "Use random sampling only"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Data Structures): Create data-structure-based solution"
         },
         {
           "examId": "aau",
@@ -5025,7 +6187,7 @@
     {
       "name": "Database",
       "slug": "database",
-      "count": 70,
+      "count": 82,
       "guide": "Practice normalization (1NF–3NF), SQL INSERT/FOREIGN KEY, and ER-to-relational mapping.",
       "questions": [
         {
@@ -5885,6 +7047,330 @@
           ],
           "answer": "B",
           "concept": "Key idea (Database): Relationship models association"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 34,
+          "topic": "Database",
+          "text": "Why does normalization reduce update anomalies in a registration database?",
+          "options": [
+            {
+              "key": "A",
+              "text": "It separates entities so one fact is stored in one place"
+            },
+            {
+              "key": "B",
+              "text": "It stores all attributes in one giant table"
+            },
+            {
+              "key": "C",
+              "text": "It removes all foreign keys"
+            },
+            {
+              "key": "D",
+              "text": "It requires denormalizing every query"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Database): Understand anomaly prevention"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 35,
+          "topic": "Database",
+          "text": "Given Student(sid, name, dept) and Enroll(sid, cid, score), which SQL returns names of students scoring above 80 in course 'SE401'?",
+          "options": [
+            {
+              "key": "A",
+              "text": "SELECT name FROM Student s JOIN Enroll e ON s.sid=e.sid WHERE e.cid='SE401' AND e.score>80"
+            },
+            {
+              "key": "B",
+              "text": "SELECT * FROM Enroll WHERE name>80"
+            },
+            {
+              "key": "C",
+              "text": "UPDATE Student SET score=80"
+            },
+            {
+              "key": "D",
+              "text": "DELETE FROM Student WHERE cid='SE401'"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Database): Apply SQL join with condition"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 36,
+          "topic": "Database",
+          "text": "Given Orders(order_id, customer_id, amount), which query returns total amount per customer?",
+          "options": [
+            {
+              "key": "A",
+              "text": "SELECT customer_id, SUM(amount) FROM Orders GROUP BY customer_id"
+            },
+            {
+              "key": "B",
+              "text": "SELECT SUM(customer_id) FROM Orders"
+            },
+            {
+              "key": "C",
+              "text": "SELECT amount FROM Orders WHERE GROUP BY customer_id"
+            },
+            {
+              "key": "D",
+              "text": "SELECT customer_id FROM Orders HAVING amount"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Database): Apply aggregation query"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 37,
+          "topic": "Database",
+          "text": "A table stores both student and department phone repeatedly in each enrollment row. What anomaly is most likely?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Insertion/update anomaly due to redundancy"
+            },
+            {
+              "key": "B",
+              "text": "No anomaly because duplicates improve integrity"
+            },
+            {
+              "key": "C",
+              "text": "Deadlock anomaly at network layer"
+            },
+            {
+              "key": "D",
+              "text": "Compilation anomaly"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Database): Analyze ER/relational anomaly"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 38,
+          "topic": "Database",
+          "text": "A team can denormalize heavily for read speed or keep normalized schema with targeted indexes for mixed read/write workloads. Which is the best default choice?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Keep normalized schema and add targeted indexes"
+            },
+            {
+              "key": "B",
+              "text": "Denormalize everything first without profiling"
+            },
+            {
+              "key": "C",
+              "text": "Use CSV files instead of DBMS"
+            },
+            {
+              "key": "D",
+              "text": "Disable constraints for faster inserts"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Database): Evaluate design trade-off"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 39,
+          "topic": "Database",
+          "text": "Create the best schema strategy for storing exam attempts and answers with auditability.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Separate Attempt, AttemptItem, and Answer tables with foreign keys and timestamps"
+            },
+            {
+              "key": "B",
+              "text": "Store entire exam JSON in one text column only"
+            },
+            {
+              "key": "C",
+              "text": "Use one table with repeated comma-separated values"
+            },
+            {
+              "key": "D",
+              "text": "Use random file names as primary keys without relations"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Database): Create robust relational schema"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 37,
+          "topic": "Database",
+          "text": "Why are foreign keys important in student-course enrollment tables?",
+          "options": [
+            {
+              "key": "A",
+              "text": "They enforce referential integrity between related records"
+            },
+            {
+              "key": "B",
+              "text": "They improve UI color themes"
+            },
+            {
+              "key": "C",
+              "text": "They replace indexes"
+            },
+            {
+              "key": "D",
+              "text": "They remove need for transactions"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Database): Understand FK integrity"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 38,
+          "topic": "Database",
+          "text": "Given Employee(emp_id, dept_id, salary), which query returns each department's highest salary?",
+          "options": [
+            {
+              "key": "A",
+              "text": "SELECT dept_id, MAX(salary) FROM Employee GROUP BY dept_id"
+            },
+            {
+              "key": "B",
+              "text": "SELECT MAX(dept_id) FROM Employee"
+            },
+            {
+              "key": "C",
+              "text": "SELECT salary FROM Employee WHERE MAX(salary)"
+            },
+            {
+              "key": "D",
+              "text": "UPDATE Employee SET salary=MAX(salary)"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Database): Apply aggregate SQL"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 39,
+          "topic": "Database",
+          "text": "In table ExamResult(student_id, course_id, grade), which SQL finds students who failed at least one course (grade < 50)?",
+          "options": [
+            {
+              "key": "A",
+              "text": "SELECT DISTINCT student_id FROM ExamResult WHERE grade < 50"
+            },
+            {
+              "key": "B",
+              "text": "SELECT student_id FROM ExamResult GROUP BY grade"
+            },
+            {
+              "key": "C",
+              "text": "DELETE FROM ExamResult WHERE grade < 50"
+            },
+            {
+              "key": "D",
+              "text": "SELECT * FROM ExamResult ORDER BY grade"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Database): Apply filtering query"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 40,
+          "topic": "Database",
+          "text": "A relation stores advisor_name repeatedly for each student and advisor phone update needs many row changes. What issue is this?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Update anomaly due to redundancy"
+            },
+            {
+              "key": "B",
+              "text": "Index fragmentation only"
+            },
+            {
+              "key": "C",
+              "text": "Deadlock from two-phase locking"
+            },
+            {
+              "key": "D",
+              "text": "Foreign key cascade"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Database): Analyze normalization issue"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 41,
+          "topic": "Database",
+          "text": "A team debates UUID primary keys everywhere vs numeric surrogate keys with unique business constraints. For high-write transactional tables, what is usually better default?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Numeric surrogate keys plus business unique constraints"
+            },
+            {
+              "key": "B",
+              "text": "Random text keys without indexes"
+            },
+            {
+              "key": "C",
+              "text": "No primary keys"
+            },
+            {
+              "key": "D",
+              "text": "Composite keys with 10+ columns always"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Database): Evaluate key strategy"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 42,
+          "topic": "Database",
+          "text": "Create a schema and retention model for security audit logs that must be queryable and tamper-evident.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Append-only audit table, partitioning, signed hash chain, retention policy"
+            },
+            {
+              "key": "B",
+              "text": "Overwrite latest log row each day"
+            },
+            {
+              "key": "C",
+              "text": "Store logs in client browser"
+            },
+            {
+              "key": "D",
+              "text": "Disable timestamp fields"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Database): Create secure data model"
         },
         {
           "examId": "aau",
@@ -6971,7 +8457,7 @@
     {
       "name": "Networking",
       "slug": "networking",
-      "count": 86,
+      "count": 99,
       "guide": "Review OSI model, subnetting, switches vs hubs, and security protocols.",
       "questions": [
         {
@@ -8243,6 +9729,357 @@
           "concept": "Key idea (Networking): Router connects networks"
         },
         {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 78,
+          "topic": "Networking",
+          "text": "Why are subnet masks used in IPv4 networks?",
+          "options": [
+            {
+              "key": "A",
+              "text": "To separate network and host portions for routing"
+            },
+            {
+              "key": "B",
+              "text": "To encrypt all packets"
+            },
+            {
+              "key": "C",
+              "text": "To replace DNS"
+            },
+            {
+              "key": "D",
+              "text": "To increase CPU clock speed"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Networking): Understand subnet mask role"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 79,
+          "topic": "Networking",
+          "text": "How many usable host addresses are in a /27 subnet?",
+          "options": [
+            {
+              "key": "A",
+              "text": "30"
+            },
+            {
+              "key": "B",
+              "text": "32"
+            },
+            {
+              "key": "C",
+              "text": "62"
+            },
+            {
+              "key": "D",
+              "text": "14"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Networking): Apply subnet calculation"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 80,
+          "topic": "Networking",
+          "text": "A campus has network 192.168.10.0/24 and needs 4 equal subnets. What new prefix is required?",
+          "options": [
+            {
+              "key": "A",
+              "text": "/25"
+            },
+            {
+              "key": "B",
+              "text": "/26"
+            },
+            {
+              "key": "C",
+              "text": "/27"
+            },
+            {
+              "key": "D",
+              "text": "/28"
+            }
+          ],
+          "answer": "B",
+          "concept": "Key idea (Networking): Apply subnetting by equal division"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 81,
+          "topic": "Networking",
+          "text": "A packet from host in VLAN 10 to VLAN 20 requires which device function?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Layer-2 switching only"
+            },
+            {
+              "key": "B",
+              "text": "Inter-VLAN routing at Layer 3"
+            },
+            {
+              "key": "C",
+              "text": "DNS recursion"
+            },
+            {
+              "key": "D",
+              "text": "NAT exemption"
+            }
+          ],
+          "answer": "B",
+          "concept": "Key idea (Networking): Analyze routed path requirements"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 82,
+          "topic": "Networking",
+          "text": "Design a resilient network for a regional exam center with two ISPs and critical online proctoring.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Use dual WAN with failover routing and health checks"
+            },
+            {
+              "key": "B",
+              "text": "Use one ISP and manual tethering only"
+            },
+            {
+              "key": "C",
+              "text": "Disable routing protocols"
+            },
+            {
+              "key": "D",
+              "text": "Use unmanaged hubs everywhere"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Networking): Create resilient network design"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 83,
+          "topic": "Networking",
+          "text": "Create an addressing plan for 6 departments each requiring about 40 hosts.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Allocate /26 per department from a summarizable block"
+            },
+            {
+              "key": "B",
+              "text": "Use /30 per department"
+            },
+            {
+              "key": "C",
+              "text": "Give all departments one /24 with no VLANs"
+            },
+            {
+              "key": "D",
+              "text": "Use random public IPs"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Networking): Create IP addressing strategy"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 84,
+          "topic": "Networking",
+          "text": "A school can deploy unmanaged flat network or segmented VLAN network with ACLs. Which is better for security and manageability?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Segmented VLAN network with ACLs"
+            },
+            {
+              "key": "B",
+              "text": "Single flat network for all devices"
+            },
+            {
+              "key": "C",
+              "text": "No DHCP and manual IP for everyone forever"
+            },
+            {
+              "key": "D",
+              "text": "Disable gateway redundancy"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Networking): Evaluate network architecture trade-off"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 80,
+          "topic": "Networking",
+          "text": "Why is CIDR used instead of old classful addressing?",
+          "options": [
+            {
+              "key": "A",
+              "text": "It allows flexible allocation and efficient route aggregation"
+            },
+            {
+              "key": "B",
+              "text": "It disables subnetting"
+            },
+            {
+              "key": "C",
+              "text": "It guarantees no routing loops"
+            },
+            {
+              "key": "D",
+              "text": "It removes need for gateways"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Networking): Understand CIDR purpose"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 81,
+          "topic": "Networking",
+          "text": "A /24 network is split into 4 equal subnets. What is each new prefix?",
+          "options": [
+            {
+              "key": "A",
+              "text": "/25"
+            },
+            {
+              "key": "B",
+              "text": "/26"
+            },
+            {
+              "key": "C",
+              "text": "/27"
+            },
+            {
+              "key": "D",
+              "text": "/28"
+            }
+          ],
+          "answer": "B",
+          "concept": "Key idea (Networking): Apply subnet split math"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 82,
+          "topic": "Networking",
+          "text": "A /26 subnet has how many usable host addresses?",
+          "options": [
+            {
+              "key": "A",
+              "text": "62"
+            },
+            {
+              "key": "B",
+              "text": "64"
+            },
+            {
+              "key": "C",
+              "text": "30"
+            },
+            {
+              "key": "D",
+              "text": "126"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Networking): Apply host-count formula"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 83,
+          "topic": "Networking",
+          "text": "Traffic captures show repeated ARP replies mapping gateway IP to attacker MAC. What is this?",
+          "options": [
+            {
+              "key": "A",
+              "text": "ARP spoofing/poisoning"
+            },
+            {
+              "key": "B",
+              "text": "DNS amplification"
+            },
+            {
+              "key": "C",
+              "text": "BGP hijack"
+            },
+            {
+              "key": "D",
+              "text": "Port mirroring"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Networking): Analyze LAN attack behavior"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 84,
+          "topic": "Networking",
+          "text": "Create a campus network design that isolates lab, admin, and guest traffic while allowing controlled access.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Use VLAN segmentation, inter-VLAN firewall rules, and NAC"
+            },
+            {
+              "key": "B",
+              "text": "Use one flat subnet for all users"
+            },
+            {
+              "key": "C",
+              "text": "Disable ACLs to simplify routing"
+            },
+            {
+              "key": "D",
+              "text": "Allow guest access to admin DB"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Networking): Create segmented network architecture"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 85,
+          "topic": "Networking",
+          "text": "A regional office can choose static routes everywhere or dynamic routing with OSPF for expanding branches. Which is better?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Dynamic routing with OSPF for scalability and resilience"
+            },
+            {
+              "key": "B",
+              "text": "Static routes only forever"
+            },
+            {
+              "key": "C",
+              "text": "No routing protocol plus NAT only"
+            },
+            {
+              "key": "D",
+              "text": "Use hubs to avoid L3"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Networking): Evaluate routing strategy"
+        },
+        {
           "examId": "aau",
           "examTitle": "AAU Model Exit Exam",
           "examNumber": 2,
@@ -9381,7 +11218,7 @@
     {
       "name": "Web Development",
       "slug": "web-development",
-      "count": 49,
+      "count": 65,
       "guide": "Review HTML/CSS selectors, HTTP methods (GET/POST), and JavaScript fundamentals.",
       "questions": [
         {
@@ -9970,6 +11807,438 @@
           ],
           "answer": "B",
           "concept": "Key idea (Web Development): h1 is largest heading"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 22,
+          "topic": "Web Development",
+          "text": "Why is POST preferred over GET for login credentials?",
+          "options": [
+            {
+              "key": "A",
+              "text": "POST sends credentials in message body rather than URL query string"
+            },
+            {
+              "key": "B",
+              "text": "GET cannot reach a server"
+            },
+            {
+              "key": "C",
+              "text": "POST is always encrypted without HTTPS"
+            },
+            {
+              "key": "D",
+              "text": "GET cannot return status codes"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Web Development): HTTP method choice reasoning"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 23,
+          "topic": "Web Development",
+          "text": "Why should server-side input validation still be done even if HTML form validation exists?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Client-side validation can be bypassed by crafted requests"
+            },
+            {
+              "key": "B",
+              "text": "Browsers always block malicious input"
+            },
+            {
+              "key": "C",
+              "text": "Server-side checks reduce availability"
+            },
+            {
+              "key": "D",
+              "text": "Validation is only for CSS errors"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Web Development): Defense-in-depth for web inputs"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 24,
+          "topic": "Web Development",
+          "text": "A REST endpoint `/students/45` receives a request to update the whole student resource idempotently. Which method is most suitable?",
+          "options": [
+            {
+              "key": "A",
+              "text": "POST"
+            },
+            {
+              "key": "B",
+              "text": "GET"
+            },
+            {
+              "key": "C",
+              "text": "PUT"
+            },
+            {
+              "key": "D",
+              "text": "OPTIONS"
+            }
+          ],
+          "answer": "C",
+          "concept": "Key idea (Web Development): Choose HTTP verb for scenario"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 25,
+          "topic": "Web Development",
+          "text": "A page should load dashboard data without full reload when a filter changes. Which browser technique is most appropriate?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Synchronous form submission each change"
+            },
+            {
+              "key": "B",
+              "text": "AJAX/fetch asynchronous request"
+            },
+            {
+              "key": "C",
+              "text": "HTML comments"
+            },
+            {
+              "key": "D",
+              "text": "FTP upload"
+            }
+          ],
+          "answer": "B",
+          "concept": "Key idea (Web Development): Apply asynchronous web update"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 26,
+          "topic": "Web Development",
+          "text": "An endpoint sometimes returns 500 under high load, while static files still serve normally. Which is the most likely analysis?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Application/server-side processing path is failing, not the CDN for static assets"
+            },
+            {
+              "key": "B",
+              "text": "DNS must be deleting routes"
+            },
+            {
+              "key": "C",
+              "text": "Client browser cache is corrupt for all users"
+            },
+            {
+              "key": "D",
+              "text": "HTTP status code 500 means redirect"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Web Development): Analyze failure by HTTP evidence"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 27,
+          "topic": "Web Development",
+          "text": "A college portal team must choose one approach for authentication state: localStorage token without expiry, or HttpOnly secure cookie session with rotation and CSRF protection. Which is best?",
+          "options": [
+            {
+              "key": "A",
+              "text": "HttpOnly secure cookie session with rotation and CSRF protection"
+            },
+            {
+              "key": "B",
+              "text": "Store plain token in URL query for convenience"
+            },
+            {
+              "key": "C",
+              "text": "Disable logout to avoid session mismatch"
+            },
+            {
+              "key": "D",
+              "text": "Use GET for password submission"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Web Development): Evaluate secure web session decision"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 28,
+          "topic": "Web Development",
+          "text": "Design the best URL scheme for course resources in a REST API.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Use nouns and hierarchy like /departments/{id}/courses/{id}/resources"
+            },
+            {
+              "key": "B",
+              "text": "Use one endpoint /doEverythingNow"
+            },
+            {
+              "key": "C",
+              "text": "Use RPC verbs in path for every action"
+            },
+            {
+              "key": "D",
+              "text": "Use random path per deployment"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Web Development): Create coherent REST resource model"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 23,
+          "topic": "Web Development",
+          "text": "Why are semantic HTML tags (header, nav, main) recommended?",
+          "options": [
+            {
+              "key": "A",
+              "text": "They improve accessibility and document structure meaning"
+            },
+            {
+              "key": "B",
+              "text": "They reduce need for CSS files"
+            },
+            {
+              "key": "C",
+              "text": "They replace backend APIs"
+            },
+            {
+              "key": "D",
+              "text": "They encrypt content"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Web Development): Understand semantic HTML"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 24,
+          "topic": "Web Development",
+          "text": "Why should CSRF tokens be used for state-changing requests in web apps?",
+          "options": [
+            {
+              "key": "A",
+              "text": "They help verify the request came from the trusted user session context"
+            },
+            {
+              "key": "B",
+              "text": "They compress payload size"
+            },
+            {
+              "key": "C",
+              "text": "They replace authentication completely"
+            },
+            {
+              "key": "D",
+              "text": "They prevent all XSS automatically"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Web Development): Understand CSRF defense"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 25,
+          "topic": "Web Development",
+          "text": "A browser requests an API from another origin and receives blocked response. Which header is usually required?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Content-Type"
+            },
+            {
+              "key": "B",
+              "text": "Access-Control-Allow-Origin"
+            },
+            {
+              "key": "C",
+              "text": "Cache-Control"
+            },
+            {
+              "key": "D",
+              "text": "User-Agent"
+            }
+          ],
+          "answer": "B",
+          "concept": "Key idea (Web Development): Apply CORS configuration"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 26,
+          "topic": "Web Development",
+          "text": "A page must cache static assets for one month but always fetch latest exam schedule JSON. Which approach fits?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Long cache for static files, no-cache/etag strategy for schedule endpoint"
+            },
+            {
+              "key": "B",
+              "text": "Disable all caching globally"
+            },
+            {
+              "key": "C",
+              "text": "Store schedule only in localStorage forever"
+            },
+            {
+              "key": "D",
+              "text": "Use FTP refresh"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Web Development): Apply caching policy"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 27,
+          "topic": "Web Development",
+          "text": "A REST API returns 409 on duplicate registration attempts. What does this indicate?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Conflict with current resource state"
+            },
+            {
+              "key": "B",
+              "text": "Authentication success"
+            },
+            {
+              "key": "C",
+              "text": "Server crash"
+            },
+            {
+              "key": "D",
+              "text": "Permanent redirect"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Web Development): Analyze HTTP status meaning"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 28,
+          "topic": "Web Development",
+          "text": "Choose the best architecture for a school portal expecting seasonal traffic spikes and limited ops staff.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Stateless backend behind load balancer with managed database and autoscaling"
+            },
+            {
+              "key": "B",
+              "text": "Single server with manual restart plan"
+            },
+            {
+              "key": "C",
+              "text": "Browser-only app with no backend"
+            },
+            {
+              "key": "D",
+              "text": "One process per student session"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Web Development): Evaluate scalable web architecture"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 29,
+          "topic": "Web Development",
+          "text": "Create URL and error-response standards for a public education API.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Consistent resource paths, versioning, and structured JSON errors"
+            },
+            {
+              "key": "B",
+              "text": "Different format per endpoint"
+            },
+            {
+              "key": "C",
+              "text": "Return plain text stack trace to users"
+            },
+            {
+              "key": "D",
+              "text": "Hide all error codes"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Web Development): Create API standards"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 30,
+          "topic": "Web Development",
+          "text": "Design the best approach to protect uploaded assignment files from malware.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Virus-scan uploads asynchronously and quarantine suspicious files"
+            },
+            {
+              "key": "B",
+              "text": "Trust file extension only"
+            },
+            {
+              "key": "C",
+              "text": "Execute uploaded files to test safety"
+            },
+            {
+              "key": "D",
+              "text": "Store files in public web root directly"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Web Development): Create secure file handling flow"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 31,
+          "topic": "Web Development",
+          "text": "Create a frontend performance plan for low-bandwidth users in regional campuses.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Code-split bundles, optimize images, lazy-load noncritical components"
+            },
+            {
+              "key": "B",
+              "text": "Embed all media at full resolution"
+            },
+            {
+              "key": "C",
+              "text": "Disable compression"
+            },
+            {
+              "key": "D",
+              "text": "Load every script synchronously"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Web Development): Create web optimization strategy"
         },
         {
           "examId": "aau",
@@ -10732,7 +13001,7 @@
     {
       "name": "Android",
       "slug": "android",
-      "count": 47,
+      "count": 57,
       "guide": "Review Activity lifecycle, Intent, Manifest, layout hierarchy, and APK.",
       "questions": [
         {
@@ -11329,6 +13598,276 @@
           ],
           "answer": "B",
           "concept": "Key idea (Android): ViewGroup for layouts"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 29,
+          "topic": "Android",
+          "text": "Why is long-running network sync implemented in a WorkManager/Service instead of an Activity?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Activities can be destroyed when users leave the screen"
+            },
+            {
+              "key": "B",
+              "text": "Services cannot use network APIs"
+            },
+            {
+              "key": "C",
+              "text": "Activities always run in background forever"
+            },
+            {
+              "key": "D",
+              "text": "Only Activities can receive Intents"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Android): Component lifecycle reasoning"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 30,
+          "topic": "Android",
+          "text": "An app must open a detail screen and pass `studentId=3021`. Which mechanism is correct?",
+          "options": [
+            {
+              "key": "A",
+              "text": "BroadcastReceiver with no extras"
+            },
+            {
+              "key": "B",
+              "text": "Intent extra passed to target Activity"
+            },
+            {
+              "key": "C",
+              "text": "Manifest metadata only"
+            },
+            {
+              "key": "D",
+              "text": "Gradle build variant"
+            }
+          ],
+          "answer": "B",
+          "concept": "Key idea (Android): Apply Intent extras"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 31,
+          "topic": "Android",
+          "text": "A team can choose either to request broad storage permission for convenience or use scoped storage and least privilege. Which is better for a university app?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Use scoped storage and least privilege"
+            },
+            {
+              "key": "B",
+              "text": "Request all dangerous permissions by default"
+            },
+            {
+              "key": "C",
+              "text": "Disable runtime permissions"
+            },
+            {
+              "key": "D",
+              "text": "Store records in shared public folders"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Android): Evaluate Android privacy trade-off"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 32,
+          "topic": "Android",
+          "text": "Design an offline-first attendance app for schools with unstable internet. Which plan is best?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Store attendance locally with Room and sync in background when connectivity returns"
+            },
+            {
+              "key": "B",
+              "text": "Write records only to remote API and discard on failure"
+            },
+            {
+              "key": "C",
+              "text": "Clear local data after every screen rotation"
+            },
+            {
+              "key": "D",
+              "text": "Use Toast messages as persistence"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Android): Create resilient Android data flow"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 33,
+          "topic": "Android",
+          "text": "Create the best architecture for maintainable Android UI and data layers.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Use MVVM with Repository and clear state flows"
+            },
+            {
+              "key": "B",
+              "text": "Put networking, SQL, and UI in one Activity"
+            },
+            {
+              "key": "C",
+              "text": "Use global mutable static variables for all data"
+            },
+            {
+              "key": "D",
+              "text": "Remove ViewModel to simplify lifecycle"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Android): Create maintainable architecture"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 32,
+          "topic": "Android",
+          "text": "Why should ViewModel be used with configuration changes like screen rotation?",
+          "options": [
+            {
+              "key": "A",
+              "text": "It preserves UI-related state outside Activity recreation"
+            },
+            {
+              "key": "B",
+              "text": "It replaces repositories"
+            },
+            {
+              "key": "C",
+              "text": "It removes lifecycle awareness"
+            },
+            {
+              "key": "D",
+              "text": "It stores data in manifest"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Android): Understand ViewModel role"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 33,
+          "topic": "Android",
+          "text": "A feature must trigger local notification at 7:00 AM daily even after reboot. Which approach is appropriate?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Schedule with WorkManager/AlarmManager and reschedule on boot"
+            },
+            {
+              "key": "B",
+              "text": "Run a busy loop in Activity"
+            },
+            {
+              "key": "C",
+              "text": "Use Toast in onCreate only"
+            },
+            {
+              "key": "D",
+              "text": "Depend on user opening app at 7:00"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Android): Apply Android background scheduling"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 34,
+          "topic": "Android",
+          "text": "A team can collect precise location continuously for analytics or request coarse location only when feature is active. Which is the better privacy decision?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Request coarse/on-demand location with clear consent"
+            },
+            {
+              "key": "B",
+              "text": "Track precise location all day by default"
+            },
+            {
+              "key": "C",
+              "text": "Bypass permission prompts"
+            },
+            {
+              "key": "D",
+              "text": "Store location forever without retention policy"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Android): Evaluate privacy-conscious design"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 35,
+          "topic": "Android",
+          "text": "Create an Android architecture for exam proctoring app with camera checks and intermittent connectivity.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Use modular features, local queue, and secure sync retries"
+            },
+            {
+              "key": "B",
+              "text": "Upload only in real time and drop failures"
+            },
+            {
+              "key": "C",
+              "text": "Keep camera stream in plain logs"
+            },
+            {
+              "key": "D",
+              "text": "Use one singleton Activity"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Android): Create robust app architecture"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 36,
+          "topic": "Android",
+          "text": "Design the best release strategy for an app used by 200+ schools.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Staged rollout with crash monitoring and rollback readiness"
+            },
+            {
+              "key": "B",
+              "text": "Release to all users at once without telemetry"
+            },
+            {
+              "key": "C",
+              "text": "Skip QA after beta"
+            },
+            {
+              "key": "D",
+              "text": "Disable update mechanism"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Android): Create deployment strategy"
         },
         {
           "examId": "aau",
@@ -12037,7 +14576,7 @@
     {
       "name": "Software Testing",
       "slug": "software-testing",
-      "count": 54,
+      "count": 64,
       "guide": "Review test process, coverage criteria, and traceability rules.",
       "questions": [
         {
@@ -12665,6 +15204,276 @@
           ],
           "answer": "B",
           "concept": "Key idea (Software Testing): Regression detects new breakage"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 73,
+          "topic": "Software Testing",
+          "text": "Why is boundary value analysis effective for numeric input fields?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Defects frequently occur near minimum and maximum limits"
+            },
+            {
+              "key": "B",
+              "text": "It only tests random interior values"
+            },
+            {
+              "key": "C",
+              "text": "It replaces exploratory testing"
+            },
+            {
+              "key": "D",
+              "text": "It is valid only for UI colors"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Software Testing): Understand BVA rationale"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 74,
+          "topic": "Software Testing",
+          "text": "For allowed age range 18-60 inclusive, which set is best for boundary testing?",
+          "options": [
+            {
+              "key": "A",
+              "text": "17, 18, 19, 59, 60, 61"
+            },
+            {
+              "key": "B",
+              "text": "1, 20, 40, 80"
+            },
+            {
+              "key": "C",
+              "text": "18 only"
+            },
+            {
+              "key": "D",
+              "text": "60 only"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Software Testing): Apply BVA case design"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 75,
+          "topic": "Software Testing",
+          "text": "A feature passes unit tests but fails when combined with payment gateway and message queue. Which test level exposed this?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Integration testing"
+            },
+            {
+              "key": "B",
+              "text": "Mutation testing"
+            },
+            {
+              "key": "C",
+              "text": "Usability testing"
+            },
+            {
+              "key": "D",
+              "text": "Smoke testing only"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Software Testing): Analyze failure location by test level"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 76,
+          "topic": "Software Testing",
+          "text": "Create a lean but effective test plan for semester registration peak week.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Prioritize critical paths, define entry/exit criteria, data sets, and rollback checks"
+            },
+            {
+              "key": "B",
+              "text": "Test only login page"
+            },
+            {
+              "key": "C",
+              "text": "Run tests after release only"
+            },
+            {
+              "key": "D",
+              "text": "Skip performance scenarios"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Software Testing): Create risk-based test plan"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 77,
+          "topic": "Software Testing",
+          "text": "Create the best strategy to prevent recurring production bugs.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Automate regression suite and include bug reproduction tests in CI"
+            },
+            {
+              "key": "B",
+              "text": "Delete failed tests to keep pipeline green"
+            },
+            {
+              "key": "C",
+              "text": "Run tests manually once per year"
+            },
+            {
+              "key": "D",
+              "text": "Allow direct commits to main"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Software Testing): Create sustainable QA approach"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 75,
+          "topic": "Software Testing",
+          "text": "Why is test data management important in integration testing?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Realistic and controlled data improves defect detection reliability"
+            },
+            {
+              "key": "B",
+              "text": "Any random data is always sufficient"
+            },
+            {
+              "key": "C",
+              "text": "It only affects UI color testing"
+            },
+            {
+              "key": "D",
+              "text": "It replaces environment setup"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Software Testing): Understand data strategy in testing"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 76,
+          "topic": "Software Testing",
+          "text": "A login allows 5 attempts before lockout. Which test is most relevant?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Attempt 5 success then 6th fails/locks"
+            },
+            {
+              "key": "B",
+              "text": "Only valid username once"
+            },
+            {
+              "key": "C",
+              "text": "Check homepage title"
+            },
+            {
+              "key": "D",
+              "text": "Delete user table"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Software Testing): Apply security test case design"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 77,
+          "topic": "Software Testing",
+          "text": "Production issue occurs only when two services update same record concurrently. Which missing test type is indicated?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Concurrency/integration scenario testing"
+            },
+            {
+              "key": "B",
+              "text": "Spelling test"
+            },
+            {
+              "key": "C",
+              "text": "Screenshot testing only"
+            },
+            {
+              "key": "D",
+              "text": "Static code formatting"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Software Testing): Analyze missing coverage"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 78,
+          "topic": "Software Testing",
+          "text": "Create a regression selection strategy for daily CI runs.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Run risk-based core suite daily and full suite nightly"
+            },
+            {
+              "key": "B",
+              "text": "Run full manual suite after each commit"
+            },
+            {
+              "key": "C",
+              "text": "Skip regression unless users complain"
+            },
+            {
+              "key": "D",
+              "text": "Run only newly written tests"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Software Testing): Create scalable test strategy"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 79,
+          "topic": "Software Testing",
+          "text": "Create a quality dashboard for release decision meetings.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Track pass rate, defect severity trend, escaped defects, and coverage"
+            },
+            {
+              "key": "B",
+              "text": "Count only test cases written"
+            },
+            {
+              "key": "C",
+              "text": "Use build duration only"
+            },
+            {
+              "key": "D",
+              "text": "Display random KPI each week"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Software Testing): Create decision-support QA metrics"
         },
         {
           "examId": "aau",
@@ -13535,7 +16344,7 @@
     {
       "name": "Software Engineering",
       "slug": "software-engineering",
-      "count": 108,
+      "count": 140,
       "guide": "SDLC, requirements, refactoring, code smells, and maintenance.",
       "questions": [
         {
@@ -14752,6 +17561,870 @@
           ],
           "answer": "B",
           "concept": "Key idea (Software Engineering): Reengineering improves existing system"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 46,
+          "topic": "Software Engineering",
+          "text": "Why should non-functional requirements be specified early in the SRS?",
+          "options": [
+            {
+              "key": "A",
+              "text": "They drive architecture and test acceptance criteria"
+            },
+            {
+              "key": "B",
+              "text": "They are optional after coding finishes"
+            },
+            {
+              "key": "C",
+              "text": "They only matter to UI designers"
+            },
+            {
+              "key": "D",
+              "text": "They are identical to source code comments"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Software Engineering): Understand NFR importance"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 47,
+          "topic": "Software Engineering",
+          "text": "Why is requirements traceability valuable during maintenance?",
+          "options": [
+            {
+              "key": "A",
+              "text": "It links changes to originating stakeholder needs and tests"
+            },
+            {
+              "key": "B",
+              "text": "It removes need for version control"
+            },
+            {
+              "key": "C",
+              "text": "It prevents all requirement changes"
+            },
+            {
+              "key": "D",
+              "text": "It replaces defect tracking"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Software Engineering): Understand traceability purpose"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 48,
+          "topic": "Software Engineering",
+          "text": "Why is iterative development preferred when stakeholder needs are evolving?",
+          "options": [
+            {
+              "key": "A",
+              "text": "It enables feedback-driven refinement each increment"
+            },
+            {
+              "key": "B",
+              "text": "It guarantees zero rework"
+            },
+            {
+              "key": "C",
+              "text": "It removes planning activities"
+            },
+            {
+              "key": "D",
+              "text": "It forbids automated testing"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Software Engineering): Understand iterative rationale"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 49,
+          "topic": "Software Engineering",
+          "text": "Why is code review effective in reducing defects before release?",
+          "options": [
+            {
+              "key": "A",
+              "text": "It catches logic and maintainability issues early"
+            },
+            {
+              "key": "B",
+              "text": "It eliminates need for testing and QA"
+            },
+            {
+              "key": "C",
+              "text": "It replaces user acceptance testing"
+            },
+            {
+              "key": "D",
+              "text": "It guarantees performance goals"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Software Engineering): Understand review value"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 50,
+          "topic": "Software Engineering",
+          "text": "A requirement says, 'System should be very fast.' What is the best rewrite?",
+          "options": [
+            {
+              "key": "A",
+              "text": "System shall return search results within 2 seconds for 95% of requests"
+            },
+            {
+              "key": "B",
+              "text": "System shall be fast enough"
+            },
+            {
+              "key": "C",
+              "text": "System shall use modern hardware"
+            },
+            {
+              "key": "D",
+              "text": "System should try to be responsive"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Software Engineering): Apply measurable requirement writing"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 51,
+          "topic": "Software Engineering",
+          "text": "A bug repeatedly reappears after merges. Which practice most directly prevents this?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Automated regression tests in CI"
+            },
+            {
+              "key": "B",
+              "text": "Manual demo before semester end"
+            },
+            {
+              "key": "C",
+              "text": "Long-lived branches without rebasing"
+            },
+            {
+              "key": "D",
+              "text": "Skipping unit tests for speed"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Software Engineering): Apply engineering practice"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 52,
+          "topic": "Software Engineering",
+          "text": "A team delivers quickly by bypassing design and tests, then maintenance cost grows each sprint. What is this pattern?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Technical debt accumulation"
+            },
+            {
+              "key": "B",
+              "text": "Perfective maintenance success"
+            },
+            {
+              "key": "C",
+              "text": "Feature toggling"
+            },
+            {
+              "key": "D",
+              "text": "Parallel development"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Software Engineering): Analyze process consequences"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 53,
+          "topic": "Software Engineering",
+          "text": "A project manager can shorten schedule by reducing testing week or reducing scope of low-value reports after stakeholder review. Which is better?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Reduce low-value scope while preserving quality gates"
+            },
+            {
+              "key": "B",
+              "text": "Reduce testing week first"
+            },
+            {
+              "key": "C",
+              "text": "Skip requirements review"
+            },
+            {
+              "key": "D",
+              "text": "Freeze bug fixes"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Software Engineering): Evaluate scope-time-quality trade-off"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 54,
+          "topic": "Software Engineering",
+          "text": "Design a practical change control workflow for requirements in a ministry project.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Submit change request, impact analysis, CCB decision, update baselines and tests"
+            },
+            {
+              "key": "B",
+              "text": "Allow any developer to edit scope in production"
+            },
+            {
+              "key": "C",
+              "text": "Reject all changes by default"
+            },
+            {
+              "key": "D",
+              "text": "Update code first and document later"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Software Engineering): Create governance workflow"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 55,
+          "topic": "Software Engineering",
+          "text": "Create the best branching strategy for a student portal with weekly releases and urgent hotfixes.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Use trunk-based development with short-lived branches and hotfix path"
+            },
+            {
+              "key": "B",
+              "text": "Use one branch per developer forever"
+            },
+            {
+              "key": "C",
+              "text": "Commit directly to production server"
+            },
+            {
+              "key": "D",
+              "text": "Disable pull requests"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Software Engineering): Create release-friendly workflow"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 56,
+          "topic": "Software Engineering",
+          "text": "Create an effective definition of done for a feature team.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Code reviewed, tests passing, docs updated, acceptance criteria met"
+            },
+            {
+              "key": "B",
+              "text": "Feature compiles on one laptop"
+            },
+            {
+              "key": "C",
+              "text": "PO says maybe"
+            },
+            {
+              "key": "D",
+              "text": "Merged without tests if urgent"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Software Engineering): Create quality criteria"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 57,
+          "topic": "Software Engineering",
+          "text": "Create a maintainability plan for a legacy module with high defect density.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Refactor incrementally behind tests and track defect trends"
+            },
+            {
+              "key": "B",
+              "text": "Rewrite all modules at once without tests"
+            },
+            {
+              "key": "C",
+              "text": "Freeze all changes permanently"
+            },
+            {
+              "key": "D",
+              "text": "Delete documentation"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Software Engineering): Create improvement plan"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 58,
+          "topic": "Software Engineering",
+          "text": "Create the most suitable elicitation approach for dispersed stakeholders across regions.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Combine structured interviews, workshops, and prototype reviews"
+            },
+            {
+              "key": "B",
+              "text": "Collect requirements from one developer only"
+            },
+            {
+              "key": "C",
+              "text": "Use assumptions from previous project"
+            },
+            {
+              "key": "D",
+              "text": "Skip validation to save travel"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Software Engineering): Create elicitation strategy"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 59,
+          "topic": "Software Engineering",
+          "text": "Create a metrics set to monitor release health over time.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Lead time, change failure rate, defect escape rate, MTTR"
+            },
+            {
+              "key": "B",
+              "text": "Number of comments in code"
+            },
+            {
+              "key": "C",
+              "text": "CPU model name"
+            },
+            {
+              "key": "D",
+              "text": "Wi-Fi signal strength"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Software Engineering): Create actionable engineering metrics"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 60,
+          "topic": "Software Engineering",
+          "text": "A senior engineer finds a severe privacy bug two days before release. What is the most ethical action?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Escalate immediately, document risk, and block release until mitigated"
+            },
+            {
+              "key": "B",
+              "text": "Hide the bug to protect schedule"
+            },
+            {
+              "key": "C",
+              "text": "Ship and fix only if users complain"
+            },
+            {
+              "key": "D",
+              "text": "Delete issue tracker entry"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Software Engineering): Professional ethics in SE"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 61,
+          "topic": "Software Engineering",
+          "text": "During sprint planning, two developers disagree strongly on design. What behavior best supports team effectiveness?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Use evidence-based discussion and seek consensus on criteria"
+            },
+            {
+              "key": "B",
+              "text": "Ignore one side and proceed silently"
+            },
+            {
+              "key": "C",
+              "text": "Escalate personal attacks"
+            },
+            {
+              "key": "D",
+              "text": "Delay until deadline pressure decides"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Software Engineering): Constructive teamwork behavior"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 49,
+          "topic": "Software Engineering",
+          "text": "Why should acceptance criteria be written per user story before implementation starts?",
+          "options": [
+            {
+              "key": "A",
+              "text": "They align expectations and provide testable completion conditions"
+            },
+            {
+              "key": "B",
+              "text": "They replace backlog prioritization"
+            },
+            {
+              "key": "C",
+              "text": "They are only for auditors after release"
+            },
+            {
+              "key": "D",
+              "text": "They prevent requirement changes forever"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Software Engineering): Understand acceptance criteria"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 50,
+          "topic": "Software Engineering",
+          "text": "Why is backlog refinement important in agile projects?",
+          "options": [
+            {
+              "key": "A",
+              "text": "It keeps work items clear, sized, and prioritized"
+            },
+            {
+              "key": "B",
+              "text": "It removes sprint planning need"
+            },
+            {
+              "key": "C",
+              "text": "It eliminates stakeholder feedback"
+            },
+            {
+              "key": "D",
+              "text": "It prevents technical debt by definition"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Software Engineering): Understand refinement purpose"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 51,
+          "topic": "Software Engineering",
+          "text": "Why is root-cause analysis done after repeated production incidents?",
+          "options": [
+            {
+              "key": "A",
+              "text": "To identify systemic causes and prevent recurrence"
+            },
+            {
+              "key": "B",
+              "text": "To assign blame quickly"
+            },
+            {
+              "key": "C",
+              "text": "To avoid creating action items"
+            },
+            {
+              "key": "D",
+              "text": "To increase ticket volume"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Software Engineering): Understand RCA goal"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 52,
+          "topic": "Software Engineering",
+          "text": "Why should architecture decisions be documented as ADRs?",
+          "options": [
+            {
+              "key": "A",
+              "text": "They capture context, options, and consequences for future teams"
+            },
+            {
+              "key": "B",
+              "text": "They replace all code comments"
+            },
+            {
+              "key": "C",
+              "text": "They are required only for AI projects"
+            },
+            {
+              "key": "D",
+              "text": "They prevent refactoring"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Software Engineering): Understand ADR value"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 53,
+          "topic": "Software Engineering",
+          "text": "A requirement says, 'Portal uptime must be 99.5% monthly.' This is an example of:",
+          "options": [
+            {
+              "key": "A",
+              "text": "Functional requirement"
+            },
+            {
+              "key": "B",
+              "text": "Non-functional reliability requirement"
+            },
+            {
+              "key": "C",
+              "text": "User story estimate"
+            },
+            {
+              "key": "D",
+              "text": "Implementation detail"
+            }
+          ],
+          "answer": "B",
+          "concept": "Key idea (Software Engineering): Apply requirement classification"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 54,
+          "topic": "Software Engineering",
+          "text": "A release introduces bug in payment feature. Which metric best reflects customer-facing quality impact?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Defect escape rate"
+            },
+            {
+              "key": "B",
+              "text": "Lines of code changed"
+            },
+            {
+              "key": "C",
+              "text": "Number of standups"
+            },
+            {
+              "key": "D",
+              "text": "Repository size"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Software Engineering): Apply quality metric selection"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 55,
+          "topic": "Software Engineering",
+          "text": "A team closes many tickets but lead time keeps increasing and rework grows. What is likely happening?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Work-in-progress is too high causing flow inefficiency"
+            },
+            {
+              "key": "B",
+              "text": "Automation coverage is too high"
+            },
+            {
+              "key": "C",
+              "text": "Requirements are too stable"
+            },
+            {
+              "key": "D",
+              "text": "Team has too few meetings"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Software Engineering): Analyze delivery flow symptom"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 56,
+          "topic": "Software Engineering",
+          "text": "A project can meet deadline by skipping penetration testing or by reducing low-value analytics scope. Which choice is better?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Reduce low-value scope and keep security testing"
+            },
+            {
+              "key": "B",
+              "text": "Skip security testing"
+            },
+            {
+              "key": "C",
+              "text": "Delay all bug fixes"
+            },
+            {
+              "key": "D",
+              "text": "Freeze stakeholder communication"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Software Engineering): Evaluate release decision"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 57,
+          "topic": "Software Engineering",
+          "text": "Create a release readiness checklist for a government-facing education service.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Security scan, test pass, rollback plan, data migration check, approvals"
+            },
+            {
+              "key": "B",
+              "text": "Only ensure app starts once"
+            },
+            {
+              "key": "C",
+              "text": "Release when one developer says done"
+            },
+            {
+              "key": "D",
+              "text": "Skip backup verification"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Software Engineering): Create release governance artifact"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 58,
+          "topic": "Software Engineering",
+          "text": "Create a dependency-management policy for third-party libraries.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Track versions, vulnerability scans, update cadence, and approval gates"
+            },
+            {
+              "key": "B",
+              "text": "Install latest packages directly in production"
+            },
+            {
+              "key": "C",
+              "text": "Ignore CVE reports"
+            },
+            {
+              "key": "D",
+              "text": "Use unpinned transitive dependencies blindly"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Software Engineering): Create supply-chain control"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 59,
+          "topic": "Software Engineering",
+          "text": "Create a practical onboarding plan for new graduate developers joining the team.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Structured ramp-up with mentor, starter tasks, coding standards, and feedback checkpoints"
+            },
+            {
+              "key": "B",
+              "text": "Assign critical production ownership on day one"
+            },
+            {
+              "key": "C",
+              "text": "No documentation access"
+            },
+            {
+              "key": "D",
+              "text": "Skip code review for newcomers"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Software Engineering): Create people/process plan"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 60,
+          "topic": "Software Engineering",
+          "text": "Create a rollback strategy for schema changes during high-stakes exam season.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Use backward-compatible migrations, backups, and tested rollback scripts"
+            },
+            {
+              "key": "B",
+              "text": "Apply destructive migration directly in production"
+            },
+            {
+              "key": "C",
+              "text": "Disable transactions for speed"
+            },
+            {
+              "key": "D",
+              "text": "Drop old columns before app update"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Software Engineering): Create safe deployment plan"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 61,
+          "topic": "Software Engineering",
+          "text": "Design a cross-team incident communication protocol.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Define severity levels, single incident commander, update cadence, and postmortem"
+            },
+            {
+              "key": "B",
+              "text": "Allow everyone to post conflicting updates"
+            },
+            {
+              "key": "C",
+              "text": "Hide outages until resolved"
+            },
+            {
+              "key": "D",
+              "text": "Use private messages only"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Software Engineering): Create incident process"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 62,
+          "topic": "Software Engineering",
+          "text": "Create a quality gate for merge requests in CI.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Require passing tests, lint checks, and code review approval"
+            },
+            {
+              "key": "B",
+              "text": "Allow direct merges during busy weeks"
+            },
+            {
+              "key": "C",
+              "text": "Run checks monthly only"
+            },
+            {
+              "key": "D",
+              "text": "Ignore flaky tests permanently"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Software Engineering): Create CI quality policy"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 63,
+          "topic": "Software Engineering",
+          "text": "A stakeholder asks to hide a known fairness issue in automated scholarship ranking. What is the best professional response?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Refuse concealment, escalate concern, and address fairness transparently"
+            },
+            {
+              "key": "B",
+              "text": "Comply silently to avoid conflict"
+            },
+            {
+              "key": "C",
+              "text": "Delete evidence from reports"
+            },
+            {
+              "key": "D",
+              "text": "Disable audit logs"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Software Engineering): Ethical responsibility in software decisions"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 64,
+          "topic": "Software Engineering",
+          "text": "A teammate from another region struggles with communication due to language nuance. What behavior best supports collaboration?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Use clear written summaries, confirm understanding, and invite questions"
+            },
+            {
+              "key": "B",
+              "text": "Avoid including them in design discussions"
+            },
+            {
+              "key": "C",
+              "text": "Assume misunderstanding is incompetence"
+            },
+            {
+              "key": "D",
+              "text": "Force only verbal updates"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Software Engineering): Inclusive teamwork behavior"
         },
         {
           "examId": "aau",
@@ -16586,7 +20259,7 @@
     {
       "name": "Software Architecture",
       "slug": "software-architecture",
-      "count": 45,
+      "count": 55,
       "guide": "Study quality attributes, architectural patterns, and documentation purposes.",
       "questions": [
         {
@@ -17121,6 +20794,276 @@
           ],
           "answer": "B",
           "concept": "Key idea (Software Architecture): Singleton one instance"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 62,
+          "topic": "Software Architecture",
+          "text": "Why is layered architecture commonly used for enterprise information systems?",
+          "options": [
+            {
+              "key": "A",
+              "text": "It separates concerns and controls dependencies between layers"
+            },
+            {
+              "key": "B",
+              "text": "It requires no interfaces"
+            },
+            {
+              "key": "C",
+              "text": "It removes the need for deployment planning"
+            },
+            {
+              "key": "D",
+              "text": "It stores all logic in database triggers"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Software Architecture): Understand layered architecture"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 63,
+          "topic": "Software Architecture",
+          "text": "A system must integrate legacy modules quickly. Should the team choose event-driven microservices now or begin with a modular monolith and clear boundaries?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Begin with modular monolith and evolve where needed"
+            },
+            {
+              "key": "B",
+              "text": "Adopt microservices immediately for every module"
+            },
+            {
+              "key": "C",
+              "text": "Rewrite all code in assembly"
+            },
+            {
+              "key": "D",
+              "text": "Avoid architecture decisions"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Software Architecture): Evaluate architecture migration strategy"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 64,
+          "topic": "Software Architecture",
+          "text": "Create a service decomposition for university management platform.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Admissions, Course Catalog, Registration, Billing, and Notification services with clear APIs"
+            },
+            {
+              "key": "B",
+              "text": "One giant service with shared global tables"
+            },
+            {
+              "key": "C",
+              "text": "Separate service per controller method"
+            },
+            {
+              "key": "D",
+              "text": "No API contracts between components"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Software Architecture): Create bounded-context decomposition"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 65,
+          "topic": "Software Architecture",
+          "text": "Design an architecture pattern for high read traffic to course catalogs with occasional updates.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Use cache-aside with invalidation and authoritative DB"
+            },
+            {
+              "key": "B",
+              "text": "Write-through to local text files only"
+            },
+            {
+              "key": "C",
+              "text": "Disable caching entirely always"
+            },
+            {
+              "key": "D",
+              "text": "Store state only in browser memory"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Software Architecture): Create scalable read architecture"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 66,
+          "topic": "Software Architecture",
+          "text": "Create the best approach for cross-cutting observability in distributed services.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Centralized logging, metrics, tracing, and correlation IDs"
+            },
+            {
+              "key": "B",
+              "text": "Print stack traces only on client browser"
+            },
+            {
+              "key": "C",
+              "text": "Disable logs in production permanently"
+            },
+            {
+              "key": "D",
+              "text": "Rely on manual screenshots for diagnosis"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Software Architecture): Create observability architecture"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 65,
+          "topic": "Software Architecture",
+          "text": "Why is explicit API contract versioning useful in distributed systems?",
+          "options": [
+            {
+              "key": "A",
+              "text": "It enables backward compatibility and controlled evolution"
+            },
+            {
+              "key": "B",
+              "text": "It removes need for testing"
+            },
+            {
+              "key": "C",
+              "text": "It prevents deployment automation"
+            },
+            {
+              "key": "D",
+              "text": "It replaces authentication"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Software Architecture): Understand API evolution"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 66,
+          "topic": "Software Architecture",
+          "text": "An exam platform needs strict consistency for scores and eventual consistency for analytics. Which architecture decision is best?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Use transactional core services and asynchronous analytics pipeline"
+            },
+            {
+              "key": "B",
+              "text": "Use eventual consistency for score submission and ranking"
+            },
+            {
+              "key": "C",
+              "text": "Store all data in browser cache"
+            },
+            {
+              "key": "D",
+              "text": "Avoid message queues"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Software Architecture): Evaluate consistency trade-off"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 67,
+          "topic": "Software Architecture",
+          "text": "Create a microservices decomposition for digital library platform.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Catalog, Borrowing, Identity, Recommendation, and Notification services"
+            },
+            {
+              "key": "B",
+              "text": "Single service with shared mutable globals"
+            },
+            {
+              "key": "C",
+              "text": "Service per database table"
+            },
+            {
+              "key": "D",
+              "text": "No service boundaries"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Software Architecture): Create service boundaries"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 68,
+          "topic": "Software Architecture",
+          "text": "Design architecture for multi-tenant schools with isolated data and shared operations.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Tenant-aware service layer with row-level isolation and per-tenant controls"
+            },
+            {
+              "key": "B",
+              "text": "One shared admin account and shared schema without tenant keys"
+            },
+            {
+              "key": "C",
+              "text": "Separate codebase per student"
+            },
+            {
+              "key": "D",
+              "text": "Local file storage only"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Software Architecture): Create multi-tenant architecture"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 69,
+          "topic": "Software Architecture",
+          "text": "Create resilience strategy for downstream payment outages.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Circuit breakers, retries with backoff, idempotency keys, and fallback queue"
+            },
+            {
+              "key": "B",
+              "text": "Infinite tight-loop retries"
+            },
+            {
+              "key": "C",
+              "text": "Synchronous blocking calls everywhere"
+            },
+            {
+              "key": "D",
+              "text": "Manual restart as only control"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Software Architecture): Create fault-tolerant architecture"
         },
         {
           "examId": "aau",
@@ -17821,7 +21764,7 @@
     {
       "name": "Project Management",
       "slug": "project-management",
-      "count": 57,
+      "count": 68,
       "guide": "Learn agile principles, Tuckman stages, ROI, and lifecycle models.",
       "questions": [
         {
@@ -18518,6 +22461,303 @@
           ],
           "answer": "B",
           "concept": "Key idea (Project Management): Tuckman team stages"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 67,
+          "topic": "Project Management",
+          "text": "Why is a Work Breakdown Structure prepared before detailed scheduling?",
+          "options": [
+            {
+              "key": "A",
+              "text": "It decomposes deliverables into manageable work packages"
+            },
+            {
+              "key": "B",
+              "text": "It replaces risk management plans"
+            },
+            {
+              "key": "C",
+              "text": "It is only needed after deployment"
+            },
+            {
+              "key": "D",
+              "text": "It estimates server CPU usage"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Project Management): Understand WBS role"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 68,
+          "topic": "Project Management",
+          "text": "A project has activities A(2d), B(3d) after A, and C(4d) after A; D(2d) after B and C. What is project duration?",
+          "options": [
+            {
+              "key": "A",
+              "text": "7 days"
+            },
+            {
+              "key": "B",
+              "text": "8 days"
+            },
+            {
+              "key": "C",
+              "text": "9 days"
+            },
+            {
+              "key": "D",
+              "text": "11 days"
+            }
+          ],
+          "answer": "B",
+          "concept": "Key idea (Project Management): Apply critical path calculation"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 69,
+          "topic": "Project Management",
+          "text": "A donor offers to add scope without extending deadline or budget. Which decision is best?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Negotiate trade-offs and re-baseline formally"
+            },
+            {
+              "key": "B",
+              "text": "Accept silently and pressure team overtime indefinitely"
+            },
+            {
+              "key": "C",
+              "text": "Drop QA activities first"
+            },
+            {
+              "key": "D",
+              "text": "Ignore sponsor communication"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Project Management): Evaluate PM trade-off"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 70,
+          "topic": "Project Management",
+          "text": "Create a WBS for deploying an online exam system nationally.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Initiation, Requirements, Development, Pilot, Training, Rollout, Support"
+            },
+            {
+              "key": "B",
+              "text": "Coding, Coding, Coding only"
+            },
+            {
+              "key": "C",
+              "text": "Procure laptops then finish"
+            },
+            {
+              "key": "D",
+              "text": "Launch without readiness checks"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Project Management): Create structured WBS"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 71,
+          "topic": "Project Management",
+          "text": "Create a risk response plan for internet outages during computer-based exams.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Define mitigation, contingency, owner, trigger, and communication path"
+            },
+            {
+              "key": "B",
+              "text": "Assume outages will not occur"
+            },
+            {
+              "key": "C",
+              "text": "Remove all deadlines"
+            },
+            {
+              "key": "D",
+              "text": "Stop documenting risks"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Project Management): Create risk management plan"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 72,
+          "topic": "Project Management",
+          "text": "A team member is new to test automation and repeatedly misses tasks. What is the most constructive leadership response?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Coach, pair with mentor, and adjust plan transparently"
+            },
+            {
+              "key": "B",
+              "text": "Publicly shame the member in meetings"
+            },
+            {
+              "key": "C",
+              "text": "Hide delays from stakeholders"
+            },
+            {
+              "key": "D",
+              "text": "Reassign all work without feedback"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Project Management): Supportive leadership behavior"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 70,
+          "topic": "Project Management",
+          "text": "Why are stakeholder influence and interest mapped at project start?",
+          "options": [
+            {
+              "key": "A",
+              "text": "To tailor communication and decision engagement plans"
+            },
+            {
+              "key": "B",
+              "text": "To avoid documenting requirements"
+            },
+            {
+              "key": "C",
+              "text": "To replace schedule baselines"
+            },
+            {
+              "key": "D",
+              "text": "To estimate CPU usage"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Project Management): Understand stakeholder mapping"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 71,
+          "topic": "Project Management",
+          "text": "A project has tasks: A(3d) then B(2d) and C(4d) in parallel, then D(2d) after both. What is total duration?",
+          "options": [
+            {
+              "key": "A",
+              "text": "7 days"
+            },
+            {
+              "key": "B",
+              "text": "8 days"
+            },
+            {
+              "key": "C",
+              "text": "9 days"
+            },
+            {
+              "key": "D",
+              "text": "11 days"
+            }
+          ],
+          "answer": "C",
+          "concept": "Key idea (Project Management): Apply simple CPM"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 72,
+          "topic": "Project Management",
+          "text": "A sponsor requests a major scope addition mid-sprint with fixed deadline. What is the best PM response?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Assess impact and negotiate scope/time/cost trade-off formally"
+            },
+            {
+              "key": "B",
+              "text": "Accept immediately and hide risk"
+            },
+            {
+              "key": "C",
+              "text": "Cut testing silently"
+            },
+            {
+              "key": "D",
+              "text": "Ignore sponsor request"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Project Management): Evaluate change-control response"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 73,
+          "topic": "Project Management",
+          "text": "Create a communication plan for a project spanning universities in multiple time zones.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Define cadence, channels, escalation paths, and artifact owners"
+            },
+            {
+              "key": "B",
+              "text": "Hold ad-hoc meetings only"
+            },
+            {
+              "key": "C",
+              "text": "Send updates only at project end"
+            },
+            {
+              "key": "D",
+              "text": "Avoid written records"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Project Management): Create PM communication framework"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 74,
+          "topic": "Project Management",
+          "text": "Create the best sprint planning structure for teams with mixed seniority.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Set sprint goal, estimate collaboratively, identify risks, and pair juniors with mentors"
+            },
+            {
+              "key": "B",
+              "text": "Assign tasks unilaterally without discussion"
+            },
+            {
+              "key": "C",
+              "text": "Skip retrospectives always"
+            },
+            {
+              "key": "D",
+              "text": "Plan by intuition only"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Project Management): Create team-aware planning process"
         },
         {
           "examId": "aau",
@@ -19388,7 +23628,7 @@
     {
       "name": "AI / ML",
       "slug": "ai-ml",
-      "count": 74,
+      "count": 93,
       "guide": "Study search algorithms (A*, UCS), agent types, and data mining CRISP-DM phases.",
       "questions": [
         {
@@ -20317,6 +24557,519 @@
           ],
           "answer": "B",
           "concept": "Key idea (AI / ML): UCS by path cost"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 92,
+          "topic": "AI / ML",
+          "text": "Why can a model perform well on training data but poorly on unseen data?",
+          "options": [
+            {
+              "key": "A",
+              "text": "It may be overfitting rather than generalizing"
+            },
+            {
+              "key": "B",
+              "text": "Because gradient descent always fails"
+            },
+            {
+              "key": "C",
+              "text": "Because labels are never needed"
+            },
+            {
+              "key": "D",
+              "text": "Because test data must equal training data"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (AI / ML): Understand overfitting"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 93,
+          "topic": "AI / ML",
+          "text": "Why is feature scaling often required for k-means clustering?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Distance-based algorithms are sensitive to feature magnitudes"
+            },
+            {
+              "key": "B",
+              "text": "Scaling removes all outliers automatically"
+            },
+            {
+              "key": "C",
+              "text": "Scaling converts clustering to classification"
+            },
+            {
+              "key": "D",
+              "text": "Scaling guarantees perfect clusters"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (AI / ML): Understand scaling rationale"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 94,
+          "topic": "AI / ML",
+          "text": "A binary classifier predicts fraud. From confusion matrix TP=40, FP=10, FN=20, TN=130, what is precision?",
+          "options": [
+            {
+              "key": "A",
+              "text": "0.50"
+            },
+            {
+              "key": "B",
+              "text": "0.67"
+            },
+            {
+              "key": "C",
+              "text": "0.80"
+            },
+            {
+              "key": "D",
+              "text": "0.90"
+            }
+          ],
+          "answer": "C",
+          "concept": "Key idea (AI / ML): Apply precision formula"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 95,
+          "topic": "AI / ML",
+          "text": "A search agent uses A* with admissible heuristic. Which property is expected?",
+          "options": [
+            {
+              "key": "A",
+              "text": "It finds an optimal path if one exists"
+            },
+            {
+              "key": "B",
+              "text": "It ignores path cost completely"
+            },
+            {
+              "key": "C",
+              "text": "It behaves exactly as DFS"
+            },
+            {
+              "key": "D",
+              "text": "It never expands nodes"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (AI / ML): Apply informed search property"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 96,
+          "topic": "AI / ML",
+          "text": "Model A has 98% accuracy on imbalanced data where only 2% are positive; recall is 10%. What is key concern?",
+          "options": [
+            {
+              "key": "A",
+              "text": "High accuracy hides poor minority-class detection"
+            },
+            {
+              "key": "B",
+              "text": "Model is definitely optimal"
+            },
+            {
+              "key": "C",
+              "text": "Class imbalance improves recall automatically"
+            },
+            {
+              "key": "D",
+              "text": "Precision must be 100%"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (AI / ML): Analyze metric interpretation"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 97,
+          "topic": "AI / ML",
+          "text": "Create a pipeline for predicting student dropout risk from semester data.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Data cleaning, feature engineering, train/validation split, model training, fairness checks, monitoring"
+            },
+            {
+              "key": "B",
+              "text": "Train once and never monitor"
+            },
+            {
+              "key": "C",
+              "text": "Use test data for tuning"
+            },
+            {
+              "key": "D",
+              "text": "Ignore missing values"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (AI / ML): Create ML lifecycle pipeline"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 98,
+          "topic": "AI / ML",
+          "text": "Design an NLP assistant for campus FAQs that can improve over time with feedback.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Combine retrieval over verified docs with feedback loop and periodic evaluation"
+            },
+            {
+              "key": "B",
+              "text": "Hardcode one response for all questions"
+            },
+            {
+              "key": "C",
+              "text": "Allow model to answer without any data governance"
+            },
+            {
+              "key": "D",
+              "text": "Disable evaluation"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (AI / ML): Create practical AI assistant design"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 99,
+          "topic": "AI / ML",
+          "text": "Create an expert-system rule strategy for course advising.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Represent prerequisite and GPA constraints as if-then rules with explanation output"
+            },
+            {
+              "key": "B",
+              "text": "Store rules as screenshots"
+            },
+            {
+              "key": "C",
+              "text": "Remove conflict resolution"
+            },
+            {
+              "key": "D",
+              "text": "Use random recommendations"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (AI / ML): Create rule-based reasoning solution"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 100,
+          "topic": "AI / ML",
+          "text": "Design the best approach for deploying a model in production with drift risk.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Use canary rollout, monitor data drift, and trigger retraining policy"
+            },
+            {
+              "key": "B",
+              "text": "Deploy once and lock forever"
+            },
+            {
+              "key": "C",
+              "text": "Manually inspect every prediction only"
+            },
+            {
+              "key": "D",
+              "text": "Disable logging for privacy"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (AI / ML): Create MLOps deployment strategy"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 91,
+          "topic": "AI / ML",
+          "text": "Why is cross-validation useful when dataset size is limited?",
+          "options": [
+            {
+              "key": "A",
+              "text": "It estimates model generalization more reliably across folds"
+            },
+            {
+              "key": "B",
+              "text": "It guarantees best hyperparameters always"
+            },
+            {
+              "key": "C",
+              "text": "It removes need for holdout data"
+            },
+            {
+              "key": "D",
+              "text": "It works only for deep learning"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (AI / ML): Understand cross-validation"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 92,
+          "topic": "AI / ML",
+          "text": "Why should fairness metrics be monitored for scholarship ranking models?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Model performance can differ across demographic groups"
+            },
+            {
+              "key": "B",
+              "text": "Fairness checks reduce all accuracy to zero"
+            },
+            {
+              "key": "C",
+              "text": "Fairness is only legal issue, not technical"
+            },
+            {
+              "key": "D",
+              "text": "Bias disappears after normalization"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (AI / ML): Understand fairness monitoring"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 93,
+          "topic": "AI / ML",
+          "text": "A binary classifier has TP=90, FP=30, FN=10, TN=70. What is recall?",
+          "options": [
+            {
+              "key": "A",
+              "text": "0.75"
+            },
+            {
+              "key": "B",
+              "text": "0.80"
+            },
+            {
+              "key": "C",
+              "text": "0.90"
+            },
+            {
+              "key": "D",
+              "text": "0.97"
+            }
+          ],
+          "answer": "C",
+          "concept": "Key idea (AI / ML): Apply recall formula"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 94,
+          "topic": "AI / ML",
+          "text": "For multiclass image classification, which evaluation summary handles class imbalance better than plain accuracy?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Macro-averaged F1 score"
+            },
+            {
+              "key": "B",
+              "text": "Training loss after first epoch"
+            },
+            {
+              "key": "C",
+              "text": "Model file size"
+            },
+            {
+              "key": "D",
+              "text": "GPU temperature"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (AI / ML): Apply metric choice"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 95,
+          "topic": "AI / ML",
+          "text": "A model's training loss decreases steadily but validation loss increases after epoch 12. What does this indicate?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Overfitting after epoch 12"
+            },
+            {
+              "key": "B",
+              "text": "Underfitting improving"
+            },
+            {
+              "key": "C",
+              "text": "Data leakage resolved"
+            },
+            {
+              "key": "D",
+              "text": "Optimizer failure to update"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (AI / ML): Analyze learning curves"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 96,
+          "topic": "AI / ML",
+          "text": "Create a human-in-the-loop review workflow for high-stakes automated decisions.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Route low-confidence cases to human reviewers with rationale logs"
+            },
+            {
+              "key": "B",
+              "text": "Auto-approve all low-confidence outputs"
+            },
+            {
+              "key": "C",
+              "text": "Hide confidence scores from operators"
+            },
+            {
+              "key": "D",
+              "text": "Disable audit trail"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (AI / ML): Create governance-aware AI workflow"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 97,
+          "topic": "AI / ML",
+          "text": "Create a deployment architecture for low-latency speech scoring in exam centers with unstable connectivity.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Edge inference with periodic cloud sync and fallback queue"
+            },
+            {
+              "key": "B",
+              "text": "Cloud-only inference with no retry"
+            },
+            {
+              "key": "C",
+              "text": "Manual scoring from raw waveform dumps"
+            },
+            {
+              "key": "D",
+              "text": "Single-threaded batch mode only"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (AI / ML): Create edge-cloud AI design"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 98,
+          "topic": "AI / ML",
+          "text": "Create a data labeling quality plan for large Amharic text corpus.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Guidelines, overlap labeling, adjudication, and inter-annotator agreement tracking"
+            },
+            {
+              "key": "B",
+              "text": "One annotator with no review"
+            },
+            {
+              "key": "C",
+              "text": "Accept labels without consistency checks"
+            },
+            {
+              "key": "D",
+              "text": "Skip documentation"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (AI / ML): Create labeling QA process"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 99,
+          "topic": "AI / ML",
+          "text": "Design the best monitoring set for a production recommendation model.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Latency, error rate, drift metrics, CTR, and fairness slices"
+            },
+            {
+              "key": "B",
+              "text": "Only model file timestamp"
+            },
+            {
+              "key": "C",
+              "text": "GPU fan speed only"
+            },
+            {
+              "key": "D",
+              "text": "Random KPI rotation"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (AI / ML): Create comprehensive model monitoring"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 100,
+          "topic": "AI / ML",
+          "text": "Create an experimentation protocol for comparing two ranking models online safely.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Use A/B test with guardrail metrics and rollback criteria"
+            },
+            {
+              "key": "B",
+              "text": "Deploy both globally without measurement"
+            },
+            {
+              "key": "C",
+              "text": "Pick model by intuition"
+            },
+            {
+              "key": "D",
+              "text": "Run experiment without ethics review"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (AI / ML): Create controlled experimentation plan"
         },
         {
           "examId": "aau",
@@ -21430,7 +26183,7 @@
     {
       "name": "Security",
       "slug": "security",
-      "count": 47,
+      "count": 59,
       "guide": "Focus on CIA triad, risk strategies, and network security controls.",
       "questions": [
         {
@@ -22233,6 +26986,330 @@
           "concept": "Key idea (Security): Hashing for integrity"
         },
         {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 85,
+          "topic": "Security",
+          "text": "Why should passwords be stored using salted adaptive hashing rather than plain SHA256?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Adaptive hashing slows brute-force and salt prevents rainbow-table reuse"
+            },
+            {
+              "key": "B",
+              "text": "SHA256 cannot hash strings"
+            },
+            {
+              "key": "C",
+              "text": "Plain text is easier to audit"
+            },
+            {
+              "key": "D",
+              "text": "Salting weakens security"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Security): Understand password storage best practice"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 86,
+          "topic": "Security",
+          "text": "A phishing email asks lecturers to re-enter portal credentials via a similar-looking domain. Which control most directly reduces account takeover?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Enable multi-factor authentication"
+            },
+            {
+              "key": "B",
+              "text": "Disable spam filtering"
+            },
+            {
+              "key": "C",
+              "text": "Share one account for all lecturers"
+            },
+            {
+              "key": "D",
+              "text": "Allow password reuse indefinitely"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Security): Apply phishing mitigation"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 87,
+          "topic": "Security",
+          "text": "An API receives SQL payload `' OR 1=1 --` in login form. Which fix is most appropriate?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Use parameterized queries and strict input handling"
+            },
+            {
+              "key": "B",
+              "text": "Escape spaces only"
+            },
+            {
+              "key": "C",
+              "text": "Block users with short names"
+            },
+            {
+              "key": "D",
+              "text": "Hide DB errors without code changes"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Security): Apply SQL injection defense"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 88,
+          "topic": "Security",
+          "text": "A server shows many SYN packets from spoofed addresses without completed handshakes. What attack is likely?",
+          "options": [
+            {
+              "key": "A",
+              "text": "SYN flood denial-of-service"
+            },
+            {
+              "key": "B",
+              "text": "ARP cache poisoning"
+            },
+            {
+              "key": "C",
+              "text": "Cross-site scripting"
+            },
+            {
+              "key": "D",
+              "text": "Directory traversal"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Security): Analyze network attack signature"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 89,
+          "topic": "Security",
+          "text": "A district education office can either allow shared admin accounts or enforce unique named admin accounts with least privilege and logging. Which is best?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Unique named admin accounts with least privilege and logging"
+            },
+            {
+              "key": "B",
+              "text": "Shared admin account for convenience"
+            },
+            {
+              "key": "C",
+              "text": "Disable log retention"
+            },
+            {
+              "key": "D",
+              "text": "Use default passwords"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Security): Evaluate access-control governance"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 90,
+          "topic": "Security",
+          "text": "Create a practical incident response workflow for malware on exam lab PCs.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Detect, isolate hosts, preserve evidence, eradicate, recover, and conduct lessons learned"
+            },
+            {
+              "key": "B",
+              "text": "Reboot affected systems and ignore logs"
+            },
+            {
+              "key": "C",
+              "text": "Disconnect internet forever"
+            },
+            {
+              "key": "D",
+              "text": "Notify users after one month"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Security): Create IR lifecycle"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 91,
+          "topic": "Security",
+          "text": "A developer accidentally commits an API key to a public repository. What professional response is most responsible?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Rotate key immediately, report incident, and improve secret-scanning controls"
+            },
+            {
+              "key": "B",
+              "text": "Leave key active and hope no one notices"
+            },
+            {
+              "key": "C",
+              "text": "Delete commit history secretly and tell no one"
+            },
+            {
+              "key": "D",
+              "text": "Share key with team chat for backup"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Security): Security accountability behavior"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 86,
+          "topic": "Security",
+          "text": "Why is principle of least privilege central to secure system design?",
+          "options": [
+            {
+              "key": "A",
+              "text": "It limits damage if an account is compromised"
+            },
+            {
+              "key": "B",
+              "text": "It grants faster admin access to all users"
+            },
+            {
+              "key": "C",
+              "text": "It removes need for authentication"
+            },
+            {
+              "key": "D",
+              "text": "It requires shared root accounts"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Security): Understand least privilege"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 87,
+          "topic": "Security",
+          "text": "A web app stores session ID in URL and logs it in proxies. Which secure fix is best?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Use secure HttpOnly cookies and rotate session IDs"
+            },
+            {
+              "key": "B",
+              "text": "Keep URL session and hide logs"
+            },
+            {
+              "key": "C",
+              "text": "Disable logout endpoints"
+            },
+            {
+              "key": "D",
+              "text": "Store passwords in cookies"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Security): Apply session security controls"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 88,
+          "topic": "Security",
+          "text": "A server certificate expires during exam week. Which immediate action is best?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Renew certificate and automate renewal monitoring"
+            },
+            {
+              "key": "B",
+              "text": "Switch to HTTP temporarily"
+            },
+            {
+              "key": "C",
+              "text": "Ignore warning dialogs"
+            },
+            {
+              "key": "D",
+              "text": "Disable browser certificate checks"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Security): Apply operational security practice"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 89,
+          "topic": "Security",
+          "text": "A municipality must choose between SMS OTP only and phishing-resistant MFA using authenticator app or FIDO key for admin accounts. Which is best?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Phishing-resistant MFA for admin accounts"
+            },
+            {
+              "key": "B",
+              "text": "SMS OTP only for all high-risk accounts"
+            },
+            {
+              "key": "C",
+              "text": "No MFA for internal users"
+            },
+            {
+              "key": "D",
+              "text": "Shared password vault login"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Security): Evaluate MFA strength"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 90,
+          "topic": "Security",
+          "text": "A penetration tester discovers exposed student data API in staging. What team behavior is most appropriate?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Coordinate responsible disclosure, fix quickly, and share lessons learned"
+            },
+            {
+              "key": "B",
+              "text": "Publish exploit publicly before notifying team"
+            },
+            {
+              "key": "C",
+              "text": "Ignore because environment is staging"
+            },
+            {
+              "key": "D",
+              "text": "Delete test report"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Security): Security-minded professional conduct"
+        },
+        {
           "examId": "aau",
           "examTitle": "AAU Model Exit Exam",
           "examNumber": 29,
@@ -22723,7 +27800,7 @@
     {
       "name": "Fundamentals of Programming",
       "slug": "fundamentals-of-programming",
-      "count": 20,
+      "count": 32,
       "guide": "Loops, operators, formulas, variable rules, and basic C/C++/Python syntax.",
       "questions": [
         {
@@ -22968,6 +28045,330 @@
           ],
           "answer": "C",
           "concept": "Key idea (Fundamentals of Programming): Syntax errors caught at compile time"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 1,
+          "topic": "Fundamentals of Programming",
+          "text": "Which statement correctly distinguishes a compiler from an interpreter?",
+          "options": [
+            {
+              "key": "A",
+              "text": "A compiler translates the whole program before execution"
+            },
+            {
+              "key": "B",
+              "text": "An interpreter always produces object files"
+            },
+            {
+              "key": "C",
+              "text": "A compiler executes one line at a time"
+            },
+            {
+              "key": "D",
+              "text": "An interpreter cannot report runtime errors"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Fundamentals of Programming): Compiler vs interpreter behavior"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 2,
+          "topic": "Fundamentals of Programming",
+          "text": "Why is pseudocode often written before coding a new payroll module?",
+          "options": [
+            {
+              "key": "A",
+              "text": "It helps clarify algorithm logic before language-specific syntax"
+            },
+            {
+              "key": "B",
+              "text": "It automatically creates a database schema"
+            },
+            {
+              "key": "C",
+              "text": "It replaces unit testing completely"
+            },
+            {
+              "key": "D",
+              "text": "It guarantees zero defects in production"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Fundamentals of Programming): Role of pseudocode in design"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 3,
+          "topic": "Fundamentals of Programming",
+          "text": "Why should a loop termination condition be reviewed during desk-checking?",
+          "options": [
+            {
+              "key": "A",
+              "text": "To verify that iteration eventually stops for valid input ranges"
+            },
+            {
+              "key": "B",
+              "text": "To ensure CPU fan speed remains constant"
+            },
+            {
+              "key": "C",
+              "text": "To avoid writing function headers"
+            },
+            {
+              "key": "D",
+              "text": "To force all variables to be global"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Fundamentals of Programming): Desk-checking loop correctness"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 4,
+          "topic": "Fundamentals of Programming",
+          "text": "A fee calculation uses: if mark >= 50 then pass else fail. What is the result when mark = 50?",
+          "options": [
+            {
+              "key": "A",
+              "text": "pass"
+            },
+            {
+              "key": "B",
+              "text": "fail"
+            },
+            {
+              "key": "C",
+              "text": "runtime error"
+            },
+            {
+              "key": "D",
+              "text": "undefined"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Fundamentals of Programming): Trace simple selection"
+        },
+        {
+          "examId": "2018v2",
+          "examTitle": "2018 Prediction v2",
+          "examNumber": 5,
+          "topic": "Fundamentals of Programming",
+          "text": "Given x = 3, y = 5, then x = x + y; y = x - y; x = x - y;. What are final values?",
+          "options": [
+            {
+              "key": "A",
+              "text": "x=3, y=5"
+            },
+            {
+              "key": "B",
+              "text": "x=5, y=3"
+            },
+            {
+              "key": "C",
+              "text": "x=8, y=2"
+            },
+            {
+              "key": "D",
+              "text": "x=2, y=8"
+            }
+          ],
+          "answer": "B",
+          "concept": "Key idea (Fundamentals of Programming): Trace variable updates"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 1,
+          "topic": "Fundamentals of Programming",
+          "text": "Which concept means solving a problem by breaking it into smaller subproblems with clear steps?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Algorithmic decomposition"
+            },
+            {
+              "key": "B",
+              "text": "Memory paging"
+            },
+            {
+              "key": "C",
+              "text": "Socket tunneling"
+            },
+            {
+              "key": "D",
+              "text": "UI theming"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Fundamentals of Programming): Core problem-solving concept"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 2,
+          "topic": "Fundamentals of Programming",
+          "text": "Why does modular programming improve teamwork in large projects?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Different members can own and test independent modules"
+            },
+            {
+              "key": "B",
+              "text": "It removes need for interfaces"
+            },
+            {
+              "key": "C",
+              "text": "It forces one person to edit all files"
+            },
+            {
+              "key": "D",
+              "text": "It prevents integration"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Fundamentals of Programming): Understand modularity benefit"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 3,
+          "topic": "Fundamentals of Programming",
+          "text": "Why should sentinel values be chosen carefully in input loops?",
+          "options": [
+            {
+              "key": "A",
+              "text": "A sentinel conflicting with valid data can terminate processing incorrectly"
+            },
+            {
+              "key": "B",
+              "text": "Sentinels speed CPU clock"
+            },
+            {
+              "key": "C",
+              "text": "Sentinels replace error handling"
+            },
+            {
+              "key": "D",
+              "text": "Sentinels are required only in recursion"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Fundamentals of Programming): Understand loop-control pitfalls"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 4,
+          "topic": "Fundamentals of Programming",
+          "text": "Given n=4 and loop for(i=1;i<=n;i++) sum+=i*i, what is final sum?",
+          "options": [
+            {
+              "key": "A",
+              "text": "16"
+            },
+            {
+              "key": "B",
+              "text": "20"
+            },
+            {
+              "key": "C",
+              "text": "30"
+            },
+            {
+              "key": "D",
+              "text": "40"
+            }
+          ],
+          "answer": "C",
+          "concept": "Key idea (Fundamentals of Programming): Apply loop computation"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 5,
+          "topic": "Fundamentals of Programming",
+          "text": "An algorithm needs to process each student's mark once and compute average. Which complexity target is most appropriate?",
+          "options": [
+            {
+              "key": "A",
+              "text": "O(1)"
+            },
+            {
+              "key": "B",
+              "text": "O(log n)"
+            },
+            {
+              "key": "C",
+              "text": "O(n)"
+            },
+            {
+              "key": "D",
+              "text": "O(n^2)"
+            }
+          ],
+          "answer": "C",
+          "concept": "Key idea (Fundamentals of Programming): Apply complexity to scenario"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 6,
+          "topic": "Fundamentals of Programming",
+          "text": "A town internet bill formula changed often due to policy updates. Which program structure best supports this?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Externalize rules into configurable policy module"
+            },
+            {
+              "key": "B",
+              "text": "Hardcode values in multiple functions"
+            },
+            {
+              "key": "C",
+              "text": "Use only global variables"
+            },
+            {
+              "key": "D",
+              "text": "Duplicate billing logic per screen"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Fundamentals of Programming): Create adaptable program design"
+        },
+        {
+          "examId": "2018v3",
+          "examTitle": "2018 Prediction v3",
+          "examNumber": 7,
+          "topic": "Fundamentals of Programming",
+          "text": "Create the best input-validation flow for exam marks entered by operators.",
+          "options": [
+            {
+              "key": "A",
+              "text": "Validate range/type, show specific errors, and reject invalid submissions"
+            },
+            {
+              "key": "B",
+              "text": "Accept all values including text and negatives"
+            },
+            {
+              "key": "C",
+              "text": "Crash on first invalid record"
+            },
+            {
+              "key": "D",
+              "text": "Silently round all marks to nearest pass"
+            }
+          ],
+          "answer": "A",
+          "concept": "Key idea (Fundamentals of Programming): Create robust validation flow"
         },
         {
           "examId": "moe2025",

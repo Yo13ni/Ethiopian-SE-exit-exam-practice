@@ -410,6 +410,26 @@ def _raw_from_moe2025(q: dict) -> dict[str, Any]:
     return raw
 
 
+def _raw_from_cross_match_default(q: dict) -> dict[str, Any]:
+    raw = _raw_from_cross_match(q, threshold=0.58)
+    if raw:
+        return _upgrade_shallow_raw(raw, q, curated=True)
+    engine = _raw_bodies_from_engine(q)
+    return _upgrade_shallow_raw(engine, q, curated=False)
+
+
+def _raw_from_astu2026(q: dict) -> dict[str, Any]:
+    from astu2026_deep_builder import build_deep_entry as astu_build
+
+    entry = astu_build(q)
+    return {
+        "overview": entry["overview"],
+        "options": dict(entry["options"]),
+        "studyTip": entry.get("studyTip", ""),
+        "_curated": True,
+    }
+
+
 RAW_BUILDERS = {
     "2015": _raw_from_2015,
     "2016": _raw_from_2016,
@@ -419,6 +439,9 @@ RAW_BUILDERS = {
     "astu": _raw_from_astu,
     "model1": _raw_from_model1,
     "moe2025": _raw_from_moe2025,
+    "astu2026r1": _raw_from_astu2026,
+    "astu2026r2": _raw_from_astu2026,
+    "astu2026r3": _raw_from_astu2026,
 }
 
 

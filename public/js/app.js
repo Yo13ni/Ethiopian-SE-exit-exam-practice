@@ -1,8 +1,8 @@
 const EXAM_HOURS_DEFAULT = 3;
 const EXPLAIN_CACHE_VERSION = 11;
 const EXPLAIN_CACHE_VERSION_KEY = "practice_explain_cache_version";
-const CATALOG_VERSION = 24;
-const SUBJECTS_VERSION = 5;
+const CATALOG_VERSION = 28;
+const SUBJECTS_VERSION = 9;
 
 let catalog = null;
 let currentExam = null;
@@ -125,6 +125,15 @@ function examDataRevision(exam) {
 
 function getSessionMeta(sessionId) {
   return catalog?.exams?.find((e) => e.id === sessionId) || null;
+}
+
+function isExamOnly(exam) {
+  return Boolean(exam?.examOnly);
+}
+
+function questionLabel(exam, q, qIndex) {
+  const num = q.examNumber ?? qIndex + 1;
+  return isExamOnly(exam) ? `Question ${num}` : `Question ${num} · ${q.topic}`;
 }
 
 function isStaleExamState(sessionId, state) {
@@ -1024,7 +1033,16 @@ function renderExamQuestion() {
   const pct = ((examIndex + 1) / questions.length) * 100;
   document.getElementById("bar").style.width = `${pct}%`;
   document.getElementById("counter").textContent = `Q ${examIndex + 1} / ${questions.length}`;
-  document.getElementById("topic-badge").textContent = q.topic;
+  const topicBadge = document.getElementById("topic-badge");
+  if (topicBadge) {
+    if (isExamOnly(currentExam)) {
+      topicBadge.textContent = "";
+      topicBadge.classList.add("hidden");
+    } else {
+      topicBadge.textContent = q.topic;
+      topicBadge.classList.remove("hidden");
+    }
+  }
   document.getElementById("q-text").textContent = q.text;
 
   const selected = getExamAnswer(q);
@@ -1203,8 +1221,16 @@ function renderReviewQuestion() {
 
   document.getElementById("review-bar").style.width = `${pct}%`;
   document.getElementById("review-counter").textContent = `Q ${reviewIndex + 1} / ${reviewQuestions.length}`;
-  const topicLabel = `${currentExam.title} · ${q.topic}`;
-  document.getElementById("review-topic-badge").textContent = topicLabel;
+  const reviewTopicBadge = document.getElementById("review-topic-badge");
+  if (reviewTopicBadge) {
+    if (isExamOnly(currentExam)) {
+      reviewTopicBadge.textContent = currentExam.title;
+      reviewTopicBadge.classList.remove("hidden");
+    } else {
+      reviewTopicBadge.textContent = `${currentExam.title} · ${q.topic}`;
+      reviewTopicBadge.classList.remove("hidden");
+    }
+  }
   document.getElementById("review-q-text").textContent = q.text;
 
   document.getElementById("feedback").classList.add("hidden");
@@ -1499,7 +1525,7 @@ async function openSummaryMissedQuestion(qIndex) {
   const label = document.getElementById("summary-missed-label");
   const qText = document.getElementById("summary-missed-q-text");
 
-  if (label) label.textContent = `Question ${q.examNumber ?? qIndex + 1} · ${q.topic}`;
+  if (label) label.textContent = questionLabel(currentExam, q, qIndex);
   if (qText) qText.textContent = q.text;
 
   renderSummaryMissedChoices(q, picked);
@@ -1577,7 +1603,13 @@ function renderSummary(result) {
     : "";
 
   const guides = result.focusGuide || {};
-  let breakdown = result.topicBreakdown;
+  const examOnly = isExamOnly(currentExam);
+  const topicCard = document.getElementById("topic-breakdown")?.closest(".card");
+  const focusCard = document.getElementById("focus-areas")?.closest(".card");
+  if (topicCard) topicCard.classList.toggle("hidden", examOnly);
+  if (focusCard) focusCard.classList.toggle("hidden", examOnly);
+
+  let breakdown = examOnly ? [] : result.topicBreakdown;
   if (!breakdown?.length && result.weakTopics?.length) {
     breakdown = result.weakTopics.map((t) => ({
       topic: t.topic,
@@ -1639,9 +1671,10 @@ function renderSummary(result) {
               ? "Skipped"
               : `You: ${m.picked} → Correct: ${m.answer}`;
           const qNum = m.examNumber ?? i + 1;
+          const meta = examOnly ? label : `${label} · ${esc(m.topic)}`;
           return `<button type="button" class="review-item review-item-clickable" data-missed-qidx="${qIdx}" title="View explanation">
             <strong>Q${qNum}.</strong> ${esc(String(m.text || "").slice(0, 120))}${String(m.text || "").length > 120 ? "…" : ""}
-            <br><small>${label} · ${esc(m.topic)}</small>
+            <br><small>${meta}</small>
           </button>`;
         })
         .join("");

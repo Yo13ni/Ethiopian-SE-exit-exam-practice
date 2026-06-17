@@ -1,0 +1,1102 @@
+{
+  "1": {
+    "overview": "This C++ question tests C++ identifier rules — letters, digits, underscore; cannot start with digit; not a keyword. The keyed answer is A — __account. Eliminate options that confuse adjacent C++ terms before confirming A.\n\n✅ Answer: A — __account",
+    "options": {
+      "A": "✓ CORRECT. '__account' is the correct answer — it directly addresses C++ identifier rules — letters, digits, underscore; cannot start with digit; not a keyword in C++.",
+      "B": "✗ Not the answer. 'Total salary' does not fit the scenario: Which one of the following is a valid identifier name in C++? The keyed answer is A — __account.",
+      "C": "✗ Not the answer. 'Tax-rate' does not fit the scenario: Which one of the following is a valid identifier name in C++? The keyed answer is A — __account.",
+      "D": "✗ Not the answer. 'Pay_rate' does not fit the scenario: Which one of the following is a valid identifier name in C++? The keyed answer is A — __account."
+    },
+    "studyTip": "Trace code on paper; remember #include \"file\" for user headers and arrays decay to pointers.",
+    "source": "offline-deep"
+  },
+  "2": {
+    "overview": "Identify the correct C++ control statement used to test more than one condition from the given alternatives. The keyed answer is C — switch. Eliminate options that confuse adjacent C++ terms before confirming C.\n\n✅ Answer: C — switch",
+    "options": {
+      "A": "✗ Not the answer. 'if' does not fit the scenario: Identify the correct C++ control statement used to test more than one condition from the given alternatives. The keyed answer is C — switch.",
+      "B": "✗ Not the answer. 'if-else' does not fit the scenario: Identify the correct C++ control statement used to test more than one condition from the given alternatives. The keyed answer is C — switch.",
+      "C": "✓ CORRECT. \"switch\" is correct because it matches the standard C++ definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "D": "✗ Not the answer. '?: (conditional operator)' does not fit the scenario: Identify the correct C++ control statement used to test more than one condition from the given alternatives. The keyed answer is C — switch."
+    },
+    "studyTip": "Trace code on paper; remember #include \"file\" for user headers and arrays decay to pointers.",
+    "source": "offline-deep"
+  },
+  "3": {
+    "overview": "Which one of the following is the correct syntax for defining a reference variable y to a variable x assuming that x is declared as int (that is, int x;)? The keyed answer is B — int &y=x;. Eliminate options that confuse adjacent C++ terms before confirming B.\n\n✅ Answer: B — int &y=x;",
+    "options": {
+      "A": "✗ Not the answer. 'int  *y= x;' does not fit the scenario: Which one of the following is the correct syntax for defining a reference variable y to a variable x assuming that x is … The keyed answer is B — int &y=x;.",
+      "B": "✓ CORRECT. \"int &y=x;\" is correct because it matches the standard C++ definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "C": "✗ Not the answer. 'int &y=&x;' does not fit the scenario: Which one of the following is the correct syntax for defining a reference variable y to a variable x assuming that x is … The keyed answer is B — int &y=x;.",
+      "D": "✗ Not the answer. 'int  *y=&x;' does not fit the scenario: Which one of the following is the correct syntax for defining a reference variable y to a variable x assuming that x is … The keyed answer is B — int &y=x;."
+    },
+    "studyTip": "Trace code on paper; remember #include \"file\" for user headers and arrays decay to pointers.",
+    "source": "offline-deep"
+  },
+  "4": {
+    "overview": "This C++ question tests which C++ operator performs dynamic heap allocation. Core concept: C++ operator that allocates memory on the heap. Eliminate options that confuse adjacent C++ terms before confirming C.\n\n✅ Answer: C — new",
+    "options": {
+      "A": "✗ Not the answer. '?:' does not fit the scenario: One of the following operators is used to dynamically allocate memory in C++. The keyed answer is C — new.",
+      "B": "✗ Not the answer. '::' does not fit the scenario: One of the following operators is used to dynamically allocate memory in C++. The keyed answer is C — new.",
+      "C": "✓ CORRECT. 'new' correctly answers which C++ operator performs dynamic heap allocation. Concept: C++ operator that allocates memory on the heap.",
+      "D": "✗ Not the answer. '&' does not fit the scenario: One of the following operators is used to dynamically allocate memory in C++. The keyed answer is C — new."
+    },
+    "studyTip": "Trace code on paper; remember #include \"file\" for user headers and arrays decay to pointers.",
+    "source": "offline-deep"
+  },
+  "5": {
+    "overview": "One of the following is a scope resolution operator in C++> The keyed answer is A — ::. Eliminate options that confuse adjacent C++ terms before confirming A.\n\n✅ Answer: A — ::",
+    "options": {
+      "A": "✓ CORRECT. \"::\" is correct because it matches the standard C++ definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "B": "✗ Not the answer. '|' does not fit the scenario: One of the following is a scope resolution operator in C++> The keyed answer is A — ::.",
+      "C": "✗ Not the answer. 'new' represents C++ operator that allocates memory on the heap. This question tests the specific concept tested in this question. That requires '::', not 'new'.",
+      "D": "✗ Not the answer. '&&' does not fit the scenario: One of the following is a scope resolution operator in C++> The keyed answer is A — ::."
+    },
+    "studyTip": "Trace code on paper; remember #include \"file\" for user headers and arrays decay to pointers.",
+    "source": "offline-deep"
+  },
+  "6": {
+    "overview": "This is a code-tracing question: execute each statement in order, tracking variable values, scope rules, and side effects before comparing with the options. The keyed answer is B — Welcome. Eliminate options that confuse adjacent C++ terms before confirming B.\n\n✅ Answer: B — Welcome",
+    "options": {
+      "A": "✗ Not the answer. If the program printed Good Bye, a different branch or calculation would execute. Trace the code line-by-line with the given inputs to verify the output is Welcome.",
+      "B": "✓ CORRECT. 'Welcome' is the correct answer — it directly addresses tracing code execution to determine printed output in C++.",
+      "C": "✗ Not the answer. If the program printed WelcomeGood Bye, a different branch or calculation would execute. Trace the code line-by-line with the given inputs to verify the output is Welcome.",
+      "D": "✗ Not the answer. If the program printed Compilation error, a different branch or calculation would execute. Trace the code line-by-line with the given inputs to verify the output is Welcome."
+    },
+    "studyTip": "Trace code on paper; remember #include \"file\" for user headers and arrays decay to pointers.",
+    "source": "offline-deep"
+  },
+  "7": {
+    "overview": "This is a code-tracing question: execute each statement in order, tracking variable values, scope rules, and side effects before comparing with the options. The keyed answer is A — 15   75\n15   75. Eliminate options that confuse adjacent C++ terms before confirming A.\n\n✅ Answer: A — 15   75\n15   75",
+    "options": {
+      "A": "✓ CORRECT. '15   75\n15   75' is the correct answer — it directly addresses tracing code execution to determine printed output in C++.",
+      "B": "✗ Not the answer. If the program printed 15  75\n10    5, a different branch or calculation would execute. Trace the code line-by-line with the given inputs to verify the output is 15   75\n15   75.",
+      "C": "✗ Not the answer. If the program printed 15  75\n75   15, a different branch or calculation would execute. Trace the code line-by-line with the given inputs to verify the output is 15   75\n15   75.",
+      "D": "✗ Not the answer. If the program printed 15  15\n10  10, a different branch or calculation would execute. Trace the code line-by-line with the given inputs to verify the output is 15   75\n15   75."
+    },
+    "studyTip": "Trace code on paper; remember #include \"file\" for user headers and arrays decay to pointers.",
+    "source": "offline-deep"
+  },
+  "8": {
+    "overview": "This is a code-tracing question: execute each statement in order, tracking variable values, scope rules, and side effects before comparing with the options. The keyed answer is D — 10 21 21. Eliminate options that confuse adjacent C++ terms before confirming D.\n\n✅ Answer: D — 10 21 21",
+    "options": {
+      "A": "✗ Not the answer. If the program printed 11 21 21, a different branch or calculation would execute. Trace the code line-by-line with the given inputs to verify the output is 10 21 21.",
+      "B": "✗ Not the answer. If the program printed 1 20 20, a different branch or calculation would execute. Trace the code line-by-line with the given inputs to verify the output is 10 21 21.",
+      "C": "✗ Not the answer. If the program printed 10 21 20, a different branch or calculation would execute. Trace the code line-by-line with the given inputs to verify the output is 10 21 21.",
+      "D": "✓ CORRECT. '10 21 21' is the correct answer — it directly addresses tracing code execution to determine printed output in C++."
+    },
+    "studyTip": "Trace code on paper; remember #include \"file\" for user headers and arrays decay to pointers.",
+    "source": "offline-deep"
+  },
+  "9": {
+    "overview": "This is a code-tracing question: execute each statement in order, tracking variable values, scope rules, and side effects before comparing with the options. The keyed answer is C — 30 40. Eliminate options that confuse adjacent C++ terms before confirming C.\n\n✅ Answer: C — 30 40",
+    "options": {
+      "A": "✗ Not the answer. If the program printed 20 30, a different branch or calculation would execute. Trace the code line-by-line with the given inputs to verify the output is 30 40.",
+      "B": "✗ Not the answer. If the program printed 10 20, a different branch or calculation would execute. Trace the code line-by-line with the given inputs to verify the output is 30 40.",
+      "C": "✓ CORRECT. '30 40' is the correct answer — it directly addresses tracing code execution to determine printed output in C++.",
+      "D": "✗ Not the answer. If the program printed 40 50, a different branch or calculation would execute. Trace the code line-by-line with the given inputs to verify the output is 30 40."
+    },
+    "studyTip": "Trace code on paper; remember #include \"file\" for user headers and arrays decay to pointers.",
+    "source": "offline-deep"
+  },
+  "10": {
+    "overview": "This C++ question tests which C++ operator performs dynamic heap allocation. Core concept: C++ operator that allocates memory on the heap. Eliminate options that confuse adjacent C++ terms before confirming B.\n\n✅ Answer: B — int *arr = new int[10];",
+    "options": {
+      "A": "✗ Not the answer. 'int arr[10] = new int;' refers to C++ operator that allocates memory on the heap. The question asks about which C++ operator performs dynamic heap allocation. That requires 'int *arr = new int[10];' — C++ operator that allocates memory on the heap. These are different concepts; do not confuse them on the exam.",
+      "B": "✓ CORRECT. 'int *arr = new int[10];' correctly answers which C++ operator performs dynamic heap allocation. Concept: C++ operator that allocates memory on the heap.",
+      "C": "✗ Not the answer. 'int *arr = malloc(10 * sizeof(int));' does not fit the scenario: Which of the following correctly dynamically allocates memory for an array of 10 integers in C++? The keyed answer is B — int *arr = new int[10];.",
+      "D": "✗ Not the answer. 'int arr = new int[10];' refers to C++ operator that allocates memory on the heap. The question asks about which C++ operator performs dynamic heap allocation. That requires 'int *arr = new int[10];' — C++ operator that allocates memory on the heap. These are different concepts; do not confuse them on the exam."
+    },
+    "studyTip": "Trace code on paper; remember #include \"file\" for user headers and arrays decay to pointers.",
+    "source": "offline-deep"
+  },
+  "11": {
+    "overview": "Which mode should be used to open a file for both reading and writing in C++? The keyed answer is C — ios::in | ios::out. Eliminate options that confuse adjacent C++ terms before confirming C.\n\n✅ Answer: C — ios::in | ios::out",
+    "options": {
+      "A": "✗ Not the answer. 'ios::in' does not fit the scenario: Which mode should be used to open a file for both reading and writing in C++? The keyed answer is C — ios::in | ios::out.",
+      "B": "✗ Not the answer. 'ios::out' does not fit the scenario: Which mode should be used to open a file for both reading and writing in C++? The keyed answer is C — ios::in | ios::out.",
+      "C": "✓ CORRECT. \"ios::in | ios::out\" is correct because it matches the standard C++ definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "D": "✗ Not the answer. 'ios::app' does not fit the scenario: Which mode should be used to open a file for both reading and writing in C++? The keyed answer is C — ios::in | ios::out."
+    },
+    "studyTip": "Trace code on paper; remember #include \"file\" for user headers and arrays decay to pointers.",
+    "source": "offline-deep"
+  },
+  "12": {
+    "overview": "This Data Structures question tests which structure implements recursive call activation. Core concept: a LIFO structure used for recursion, undo operations, and DFS. Eliminate options that confuse adjacent Data Structures terms before confirming B.\n\n✅ Answer: B — Stack",
+    "options": {
+      "A": "✗ Not the answer. A queue is a linear FIFO structure — elements enter at rear and leave at front; not hierarchical like a tree.",
+      "B": "✓ CORRECT. A stack is a linear LIFO structure — last in, first out; not hierarchical like a tree.",
+      "C": "✗ Not the answer. 'Array' does not fit the scenario: Which of the following is used to implement recursion? The keyed answer is B — Stack.",
+      "D": "✗ Not the answer. A linked list is a linear sequence of nodes — each node points to the next; trees branch into children."
+    },
+    "studyTip": "Know FIFO vs LIFO, stable vs unstable sorts, and when to use stack for recursion.",
+    "source": "offline-deep"
+  },
+  "13": {
+    "overview": "Which of the following data structures allows deletion at both ends but insertion at only one end? The keyed answer is A — Dequeue. Eliminate options that confuse adjacent Data Structures terms before confirming A.\n\n✅ Answer: A — Dequeue",
+    "options": {
+      "A": "✓ CORRECT. A queue is a linear FIFO structure — elements enter at rear and leave at front; not hierarchical like a tree.",
+      "B": "✗ Not the answer. A queue is a linear FIFO structure — elements enter at rear and leave at front; not hierarchical like a tree.",
+      "C": "✗ Not the answer. A stack is a linear LIFO structure — last in, first out; not hierarchical like a tree.",
+      "D": "✗ Not the answer. 'Priority Queue' means a FIFO structure used for BFS, job scheduling, and buffering. That answers a different kind of question. Here, the stem points to 'Dequeue' instead."
+    },
+    "studyTip": "Know FIFO vs LIFO, stable vs unstable sorts, and when to use stack for recursion.",
+    "source": "offline-deep"
+  },
+  "14": {
+    "overview": "Which of the following is not a characteristic of arrays? The keyed answer is C — Dynamic resizing. Eliminate options that confuse adjacent Data Structures terms before confirming C.\n\n✅ Answer: C — Dynamic resizing",
+    "options": {
+      "A": "✗ Not the answer. 'Fixed size' does not fit the scenario: Which of the following is not a characteristic of arrays? The keyed answer is C — Dynamic resizing.",
+      "B": "✗ Not the answer. 'Random access' does not fit the scenario: Which of the following is not a characteristic of arrays? The keyed answer is C — Dynamic resizing.",
+      "C": "✓ CORRECT. \"Dynamic resizing\" is correct because it matches the standard Data Structures definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "D": "✗ Not the answer. 'Contiguous memory allocation' does not fit the scenario: Which of the following is not a characteristic of arrays? The keyed answer is C — Dynamic resizing."
+    },
+    "studyTip": "Know FIFO vs LIFO, stable vs unstable sorts, and when to use stack for recursion.",
+    "source": "offline-deep"
+  },
+  "15": {
+    "overview": "This Data Structures question tests identifying a circular linked list (last → first). Core concept: a FIFO structure used for BFS, job scheduling, and buffering. Eliminate options that confuse adjacent Data Structures terms before confirming B.\n\n✅ Answer: B — It overcomes the limitation of linear queue",
+    "options": {
+      "A": "✗ Not the answer. 'It is a linear data structure' does not fit the scenario: Which of the following is true about a circular queue? The keyed answer is B — It overcomes the limitation of linear queue.",
+      "B": "✓ CORRECT. 'It overcomes the limitation of linear queue' correctly answers identifying a circular linked list (last → first). Concept: a FIFO structure used for BFS, job scheduling, and buffering.",
+      "C": "✗ Not the answer. A linked list is a linear sequence of nodes — each node points to the next; trees branch into children.",
+      "D": "✗ Not the answer. 'It allows insertion at both ends' does not fit the scenario: Which of the following is true about a circular queue? The keyed answer is B — It overcomes the limitation of linear queue."
+    },
+    "studyTip": "Know FIFO vs LIFO, stable vs unstable sorts, and when to use stack for recursion.",
+    "source": "offline-deep"
+  },
+  "16": {
+    "overview": "Which of the following is not a type of tree traversal? The keyed answer is D — Reverseorder. Eliminate options that confuse adjacent Data Structures terms before confirming D.\n\n✅ Answer: D — Reverseorder",
+    "options": {
+      "A": "✗ Not the answer. 'Inorder' does not fit the scenario: Which of the following is not a type of tree traversal? The keyed answer is D — Reverseorder.",
+      "B": "✗ Not the answer. 'Preorder' does not fit the scenario: Which of the following is not a type of tree traversal? The keyed answer is D — Reverseorder.",
+      "C": "✗ Not the answer. 'Postorder' does not fit the scenario: Which of the following is not a type of tree traversal? The keyed answer is D — Reverseorder.",
+      "D": "✓ CORRECT. \"Reverseorder\" is correct because it matches the standard Data Structures definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous."
+    },
+    "studyTip": "Know FIFO vs LIFO, stable vs unstable sorts, and when to use stack for recursion.",
+    "source": "offline-deep"
+  },
+  "17": {
+    "overview": "Which of the following is not a linear data structure? Core concept: nodes with arbitrary connections, may contain cycles. Eliminate options that confuse adjacent Data Structures terms before confirming D.\n\n✅ Answer: D — Graph",
+    "options": {
+      "A": "✗ Not the answer. 'Array' does not fit the scenario: Which of the following is not a linear data structure? The keyed answer is D — Graph.",
+      "B": "✗ Not the answer. A stack is a linear LIFO structure — last in, first out; not hierarchical like a tree.",
+      "C": "✗ Not the answer. A queue is a linear FIFO structure — elements enter at rear and leave at front; not hierarchical like a tree.",
+      "D": "✓ CORRECT. \"Graph\" is correct because it matches the standard Data Structures definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous."
+    },
+    "studyTip": "Know FIFO vs LIFO, stable vs unstable sorts, and when to use stack for recursion.",
+    "source": "offline-deep"
+  },
+  "18": {
+    "overview": "A developer argues for using Object-Oriented Programming (OOP) over procedural programming for a national health system that will grow, integrate with other systems, and require frequent updates. Which key advantage of OOP best supports this argument? The keyed answer is C — Better modularity and maintainability.\n\n✅ Answer: C — Better modularity and maintainability",
+    "options": {
+      "A": "✗ Not the answer. 'Faster execution speed' does not fit the scenario: A developer argues for using Object-Oriented Programming (OOP) over procedural programming for a national health system … The keyed answer is C — Better modularity and maintainability.",
+      "B": "✗ Not the answer. 'Reduced memory consumption' does not fit the scenario: A developer argues for using Object-Oriented Programming (OOP) over procedural programming for a national health system … The keyed answer is C — Better modularity and maintainability.",
+      "C": "✓ CORRECT. \"Better modularity and maintainability\" is correct because it matches the standard Java / OOP definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "D": "✗ Not the answer. 'Simpler compilation process' means program in execution with its own address space. That answers a different kind of question. Here, the stem points to 'Better modularity and maintainability' instead."
+    },
+    "studyTip": "Abstract classes may have constructors; interfaces cannot. super() is inserted implicitly.",
+    "source": "offline-deep"
+  },
+  "19": {
+    "overview": "In an integrated development environment (IDE), a programmer steps through the execution of a program line by line while inspecting variable values to understand why a logical error occurs during runtime. Which IDE feature is the programmer primarily using? The keyed answer is D — Debugger.\n\n✅ Answer: D — Debugger",
+    "options": {
+      "A": "✗ Not the answer. 'Code editor' does not fit the scenario: In an integrated development environment (IDE), a programmer steps through the execution of a program line by line while… The keyed answer is D — Debugger.",
+      "B": "✗ Not the answer. 'Compiler' does not fit the scenario: In an integrated development environment (IDE), a programmer steps through the execution of a program line by line while… The keyed answer is D — Debugger.",
+      "C": "✗ Not the answer. 'Build tool' does not fit the scenario: In an integrated development environment (IDE), a programmer steps through the execution of a program line by line while… The keyed answer is D — Debugger.",
+      "D": "✓ CORRECT. \"Debugger\" is correct because it matches the standard Java / OOP definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous."
+    },
+    "studyTip": "Abstract classes may have constructors; interfaces cannot. super() is inserted implicitly.",
+    "source": "offline-deep"
+  },
+  "20": {
+    "overview": "A software architect emphasizes designing classes that represent concepts in the problem domain rather than focusing on implementation details. This allows developers to reason about the system at a higher level of understanding. Which object-oriented concept is being emphasized? The keyed answer is B — Abstraction.\n\n✅ Answer: B — Abstraction",
+    "options": {
+      "A": "✗ Not the answer. 'Encapsulation' does not fit the scenario: A software architect emphasizes designing classes that represent concepts in the problem domain rather than focusing on … The keyed answer is B — Abstraction.",
+      "B": "✓ CORRECT. \"Abstraction\" is correct because it matches the standard Java / OOP definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "C": "✗ Not the answer. 'Inheritance' means subclass inherits fields and methods from superclass. That answers a different kind of question. Here, the stem points to 'Abstraction' instead.",
+      "D": "✗ Not the answer. 'Polymorphism' does not fit the scenario: A software architect emphasizes designing classes that represent concepts in the problem domain rather than focusing on … The keyed answer is B — Abstraction."
+    },
+    "studyTip": "Abstract classes may have constructors; interfaces cannot. super() is inserted implicitly.",
+    "source": "offline-deep"
+  },
+  "21": {
+    "overview": "Consider a banking application where the account balance must not be modified directly by external classes to prevent unauthorized transactions. The developer hides the balance variable and allows access only through controlled methods. Which object-oriented concept is primarily used to achieve this… The keyed answer is A — Encapsulation.\n\n✅ Answer: A — Encapsulation",
+    "options": {
+      "A": "✓ CORRECT. \"Encapsulation\" is correct because it matches the standard Java / OOP definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "B": "✗ Not the answer. 'Polymorphism' does not fit the scenario: Consider a banking application where the account balance must not be modified directly by external classes to prevent un… The keyed answer is A — Encapsulation.",
+      "C": "✗ Not the answer. 'Inheritance' means subclass inherits fields and methods from superclass. That answers a different kind of question. Here, the stem points to 'Encapsulation' instead.",
+      "D": "✗ Not the answer. 'Abstraction' does not fit the scenario: Consider a banking application where the account balance must not be modified directly by external classes to prevent un… The keyed answer is A — Encapsulation."
+    },
+    "studyTip": "Abstract classes may have constructors; interfaces cannot. super() is inserted implicitly.",
+    "source": "offline-deep"
+  },
+  "22": {
+    "overview": "Examine the following class definition:\nclass Account {\n    private double balance;\n}\nFrom a software engineering perspective, why is declaring balance as private considered good design practice? The keyed answer is D — It prevents unauthorized direct access to sensitive data. Eliminate options that confuse adjacent Java / OOP terms before confirming D.\n\n✅ Answer: D — It prevents unauthorized direct access to sensitive data",
+    "options": {
+      "A": "✗ Not the answer. 'It reduces memory usage' does not fit the scenario: Examine the following class definition:\nclass Account {\n    private double balance;\n}\nFrom a software engineering perspe… The keyed answer is D — It prevents unauthorized direct access to sensitive data.",
+      "B": "✗ Not the answer. 'It improves execution speed' does not fit the scenario: Examine the following class definition:\nclass Account {\n    private double balance;\n}\nFrom a software engineering perspe… The keyed answer is D — It prevents unauthorized direct access to sensitive data.",
+      "C": "✗ Not the answer. 'It simplifies inheritance' represents subclass inherits fields and methods from superclass. This question tests the specific concept tested in this question. That requires 'It prevents unauthorized direct access to sensitive data', not 'It simplifies inheritance'.",
+      "D": "✓ CORRECT. \"It prevents unauthorized direct access to sensitive data\" is correct because it matches the standard Java / OOP definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous."
+    },
+    "studyTip": "Abstract classes may have constructors; interfaces cannot. super() is inserted implicitly.",
+    "source": "offline-deep"
+  },
+  "23": {
+    "overview": "Which programming language is mainly used for client-side scripting to add interactivity to web pages? Core concept: client-side scripting language for web interactivity. Eliminate options that confuse adjacent Web Development terms before confirming D.\n\n✅ Answer: D — JavaScript",
+    "options": {
+      "A": "✗ Not the answer. 'PHP' refers to server-side scripting language — runs on server, not in browser. The question asks about the specific concept tested in this question. That requires 'JavaScript' — client-side scripting language for web interactivity. These are different concepts; do not confuse them on the exam.",
+      "B": "✗ Not the answer. 'Java' does not fit the scenario: Which programming language is mainly used for client-side scripting to add interactivity to web pages? The keyed answer is D — JavaScript.",
+      "C": "✗ Not the answer. 'Python' does not fit the scenario: Which programming language is mainly used for client-side scripting to add interactivity to web pages? The keyed answer is D — JavaScript.",
+      "D": "✓ CORRECT. \"JavaScript\" is correct because it matches the standard Web Development definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous."
+    },
+    "studyTip": "HTML structure, CSS box model, JS client-side, HTTP stateless + sessions for state.",
+    "source": "offline-deep"
+  },
+  "24": {
+    "overview": "This Web Development question tests which component accepts HTTP requests and serves responses. The keyed answer is B — Stores and processes client requests and delivers web resources. Eliminate options that confuse adjacent Web Development terms before confirming B.\n\n✅ Answer: B — Stores and processes client requests and delivers web resources",
+    "options": {
+      "A": "✗ Not the answer. 'Executes client-side scripts only' does not fit the scenario: Which of the following best describes the role of a web server? The keyed answer is B — Stores and processes client requests and delivers web resources.",
+      "B": "✓ CORRECT. 'Stores and processes client requests and delivers web resources' is the correct answer — it directly addresses which component accepts HTTP requests and serves responses in Web Development.",
+      "C": "✗ Not the answer. 'Designs the user interface' means Java contract of abstract methods — implemented by classes. That answers a different kind of question. Here, the stem points to 'Stores and processes client requests and delivers web resources' instead.",
+      "D": "✗ Not the answer. 'Manages user authentication only' does not fit the scenario: Which of the following best describes the role of a web server? The keyed answer is B — Stores and processes client requests and delivers web resources."
+    },
+    "studyTip": "HTML structure, CSS box model, JS client-side, HTTP stateless + sessions for state.",
+    "source": "offline-deep"
+  },
+  "25": {
+    "overview": "Which combination correctly represents a typical web technology stack? Core concept: client-side scripting language for web interactivity. Eliminate options that confuse adjacent Web Development terms before confirming A.\n\n✅ Answer: A — HTML, CSS, JavaScript",
+    "options": {
+      "A": "✓ CORRECT. \"HTML, CSS, JavaScript\" is correct because it matches the standard Web Development definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "B": "✗ Not the answer. 'Java, C++, Assembly' does not fit the scenario: Which combination correctly represents a typical web technology stack? The keyed answer is A — HTML, CSS, JavaScript.",
+      "C": "✗ Not the answer. 'SQL, XML, JSON' does not fit the scenario: Which combination correctly represents a typical web technology stack? The keyed answer is A — HTML, CSS, JavaScript.",
+      "D": "✗ Not the answer. 'Photoshop, Illustrator, Figma' does not fit the scenario: Which combination correctly represents a typical web technology stack? The keyed answer is A — HTML, CSS, JavaScript."
+    },
+    "studyTip": "HTML structure, CSS box model, JS client-side, HTTP stateless + sessions for state.",
+    "source": "offline-deep"
+  },
+  "26": {
+    "overview": "Which shorthand property correctly sets margin-top and margin-bottom to 20px and margin-left and margin-right to 10px? The keyed answer is B — margin: 20px 10px;. Eliminate options that confuse adjacent Web Development terms before confirming B.\n\n✅ Answer: B — margin: 20px 10px;",
+    "options": {
+      "A": "✗ Not the answer. 'margin: 10px 20px;' does not fit the scenario: Which shorthand property correctly sets margin-top and margin-bottom to 20px and margin-left and margin-right to 10px? The keyed answer is B — margin: 20px 10px;.",
+      "B": "✓ CORRECT. \"margin: 20px 10px;\" is correct because it matches the standard Web Development definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "C": "✗ Not the answer. 'margin: 20px 10px 20px 10px;' does not fit the scenario: Which shorthand property correctly sets margin-top and margin-bottom to 20px and margin-left and margin-right to 10px? The keyed answer is B — margin: 20px 10px;.",
+      "D": "✗ Not the answer. 'margin: 10px 20px 10px 20px;' does not fit the scenario: Which shorthand property correctly sets margin-top and margin-bottom to 20px and margin-left and margin-right to 10px? The keyed answer is B — margin: 20px 10px;."
+    },
+    "studyTip": "HTML structure, CSS box model, JS client-side, HTTP stateless + sessions for state.",
+    "source": "offline-deep"
+  },
+  "27": {
+    "overview": "Which CSS rule ensures that padding and border are included in an element's total width and height? The keyed answer is C — box-sizing: border-box;. Eliminate options that confuse adjacent Web Development terms before confirming C.\n\n✅ Answer: C — box-sizing: border-box;",
+    "options": {
+      "A": "✗ Not the answer. 'box-sizing: content-box;' does not fit the scenario: Which CSS rule ensures that padding and border are included in an element's total width and height? The keyed answer is C — box-sizing: border-box;.",
+      "B": "✗ Not the answer. 'box-model: border-box;' does not fit the scenario: Which CSS rule ensures that padding and border are included in an element's total width and height? The keyed answer is C — box-sizing: border-box;.",
+      "C": "✓ CORRECT. \"box-sizing: border-box;\" is correct because it matches the standard Web Development definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "D": "✗ Not the answer. 'display: border-box;' does not fit the scenario: Which CSS rule ensures that padding and border are included in an element's total width and height? The keyed answer is C — box-sizing: border-box;."
+    },
+    "studyTip": "HTML structure, CSS box model, JS client-side, HTTP stateless + sessions for state.",
+    "source": "offline-deep"
+  },
+  "28": {
+    "overview": "Consider this CSS code. Relative to what is the element positioned?\ndiv {\nposition: absolute;\ntop: 50px; } The keyed answer is B — The nearest positioned ancestor. Eliminate options that confuse adjacent Web Development terms before confirming B.\n\n✅ Answer: B — The nearest positioned ancestor",
+    "options": {
+      "A": "✗ Not the answer. 'The browser window always' does not fit the scenario: Consider this CSS code. Relative to what is the element positioned?\ndiv {\nposition: absolute;\ntop: 50px; } The keyed answer is B — The nearest positioned ancestor.",
+      "B": "✓ CORRECT. \"The nearest positioned ancestor\" is correct because it matches the standard Web Development definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "C": "✗ Not the answer. 'The parent element only' does not fit the scenario: Consider this CSS code. Relative to what is the element positioned?\ndiv {\nposition: absolute;\ntop: 50px; } The keyed answer is B — The nearest positioned ancestor.",
+      "D": "✗ Not the answer. 'The document body only' does not fit the scenario: Consider this CSS code. Relative to what is the element positioned?\ndiv {\nposition: absolute;\ntop: 50px; } The keyed answer is B — The nearest positioned ancestor."
+    },
+    "studyTip": "HTML structure, CSS box model, JS client-side, HTTP stateless + sessions for state.",
+    "source": "offline-deep"
+  },
+  "29": {
+    "overview": "When implementing Progressive Web App (PWA) features, which combination provides the BEST offline experience? The keyed answer is A — Service Worker + Cache API. Eliminate options that confuse adjacent Web Development terms before confirming A.\n\n✅ Answer: A — Service Worker + Cache API",
+    "options": {
+      "A": "✓ CORRECT. \"Service Worker + Cache API\" is correct because it matches the standard Web Development definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "B": "✗ Not the answer. 'Service Worker + Web App Manifest' means AndroidManifest.xml — declares app components, permissions, and metadata. That answers a different kind of question. Here, the stem points to 'Service Worker + Cache API' instead.",
+      "C": "✗ Not the answer. 'Local Storage + Cache API' does not fit the scenario: When implementing Progressive Web App (PWA) features, which combination provides the BEST offline experience? The keyed answer is A — Service Worker + Cache API.",
+      "D": "✗ Not the answer. 'IndexedDB + Cookies' does not fit the scenario: When implementing Progressive Web App (PWA) features, which combination provides the BEST offline experience? The keyed answer is A — Service Worker + Cache API."
+    },
+    "studyTip": "HTML structure, CSS box model, JS client-side, HTTP stateless + sessions for state.",
+    "source": "offline-deep"
+  },
+  "30": {
+    "overview": "Given the following CSS:\n.box {\nwidth: 300px;\npadding: 20px;\nborder: 10px solid;\nbox-sizing: border-box;\n}\nWhat is the actual rendered width of .box? The keyed answer is A — 300px. Eliminate options that confuse adjacent Web Development terms before confirming A.\n\n✅ Answer: A — 300px",
+    "options": {
+      "A": "✓ CORRECT. \"300px\" is correct because it matches the standard Web Development definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "B": "✗ Not the answer. '340px' does not fit the scenario: Given the following CSS:\n.box {\nwidth: 300px;\npadding: 20px;\nborder: 10px solid;\nbox-sizing: border-box;\n}\nWhat is the a… The keyed answer is A — 300px.",
+      "C": "✗ Not the answer. '360px' does not fit the scenario: Given the following CSS:\n.box {\nwidth: 300px;\npadding: 20px;\nborder: 10px solid;\nbox-sizing: border-box;\n}\nWhat is the a… The keyed answer is A — 300px.",
+      "D": "✗ Not the answer. '400px' does not fit the scenario: Given the following CSS:\n.box {\nwidth: 300px;\npadding: 20px;\nborder: 10px solid;\nbox-sizing: border-box;\n}\nWhat is the a… The keyed answer is A — 300px."
+    },
+    "studyTip": "HTML structure, CSS box model, JS client-side, HTTP stateless + sessions for state.",
+    "source": "offline-deep"
+  },
+  "31": {
+    "overview": "What happens when a user requests a page on a dynamic website? The keyed answer is B — The server generates the HTML on the fly using server-side scripts. Eliminate options that confuse adjacent Web Development terms before confirming B.\n\n✅ Answer: B — The server generates the HTML on the fly using server-side scripts",
+    "options": {
+      "A": "✗ Not the answer. 'The server sends a pre-built HTML file' does not fit the scenario: What happens when a user requests a page on a dynamic website? The keyed answer is B — The server generates the HTML on the fly using server-side scripts.",
+      "B": "✓ CORRECT. \"The server generates the HTML on the fly using server-side scripts\" is correct because it matches the standard Web Development definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "C": "✗ Not the answer. 'The browser automatically creates the HTML' does not fit the scenario: What happens when a user requests a page on a dynamic website? The keyed answer is B — The server generates the HTML on the fly using server-side scripts.",
+      "D": "✗ Not the answer. 'The page cannot be displayed' does not fit the scenario: What happens when a user requests a page on a dynamic website? The keyed answer is B — The server generates the HTML on the fly using server-side scripts."
+    },
+    "studyTip": "HTML structure, CSS box model, JS client-side, HTTP stateless + sessions for state.",
+    "source": "offline-deep"
+  },
+  "32": {
+    "overview": "This Android question tests purpose of AndroidManifest.xml. The keyed answer is D — To define the essential information about the app for the Android system. Eliminate options that confuse adjacent Android terms before confirming D.\n\n✅ Answer: D — To define the essential information about the app for the Android system",
+    "options": {
+      "A": "✗ Not the answer. 'To store the visual layout of the application screens' does not fit the scenario: What is the primary purpose of the AndroidManifest.xml file? The keyed answer is D — To define the essential information about the app for the Android system.",
+      "B": "✗ Not the answer. 'To contain the Java/Kotlin source code for business logic' does not fit the scenario: What is the primary purpose of the AndroidManifest.xml file? The keyed answer is D — To define the essential information about the app for the Android system.",
+      "C": "✗ Not the answer. 'To manage the local SQLite database versioning' does not fit the scenario: What is the primary purpose of the AndroidManifest.xml file? The keyed answer is D — To define the essential information about the app for the Android system.",
+      "D": "✓ CORRECT. 'To define the essential information about the app for the Android system' is the correct answer — it directly addresses purpose of AndroidManifest.xml in Android."
+    },
+    "studyTip": "Activity = screen; Fragment = reusable portion; Manifest declares app metadata.",
+    "source": "offline-deep"
+  },
+  "33": {
+    "overview": "What does the \"R\" file in Android development represent? The keyed answer is B — A dynamically generated class containing resource IDs. Eliminate options that confuse adjacent Android terms before confirming B.\n\n✅ Answer: B — A dynamically generated class containing resource IDs",
+    "options": {
+      "A": "✗ Not the answer. 'A file containing the Raw assets like MP3s' does not fit the scenario: What does the \"R\" file in Android development represent? The keyed answer is B — A dynamically generated class containing resource IDs.",
+      "B": "✓ CORRECT. \"A dynamically generated class containing resource IDs\" is correct because it matches the standard Android definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "C": "✗ Not the answer. 'The Runtime configuration for the Dalvik Virtual Machine' does not fit the scenario: What does the \"R\" file in Android development represent? The keyed answer is B — A dynamically generated class containing resource IDs.",
+      "D": "✗ Not the answer. 'The Repository link for Gradle dependencies' does not fit the scenario: What does the \"R\" file in Android development represent? The keyed answer is B — A dynamically generated class containing resource IDs."
+    },
+    "studyTip": "Activity = screen; Fragment = reusable portion; Manifest declares app metadata.",
+    "source": "offline-deep"
+  },
+  "34": {
+    "overview": "In mobile computing, what is the role of a \"Broadcast Receiver\"? The keyed answer is A — To respond to system-wide announcement notifications. Eliminate options that confuse adjacent Android terms before confirming A.\n\n✅ Answer: A — To respond to system-wide announcement notifications",
+    "options": {
+      "A": "✓ CORRECT. \"To respond to system-wide announcement notifications\" is correct because it matches the standard Android definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "B": "✗ Not the answer. 'To navigate between different app screens' does not fit the scenario: In mobile computing, what is the role of a \"Broadcast Receiver\"? The keyed answer is A — To respond to system-wide announcement notifications.",
+      "C": "✗ Not the answer. 'To play audio and video streams from a URL' does not fit the scenario: In mobile computing, what is the role of a \"Broadcast Receiver\"? The keyed answer is A — To respond to system-wide announcement notifications.",
+      "D": "✗ Not the answer. 'To manage the synchronization of data with a remote server' does not fit the scenario: In mobile computing, what is the role of a \"Broadcast Receiver\"? The keyed answer is A — To respond to system-wide announcement notifications."
+    },
+    "studyTip": "Activity = screen; Fragment = reusable portion; Manifest declares app metadata.",
+    "source": "offline-deep"
+  },
+  "35": {
+    "overview": "Which of the following best describes \"Fragments\" in Android? Core concept: Android screen component with lifecycle callbacks (onCreate, onPause, etc.). Eliminate options that confuse adjacent Android terms before confirming B.\n\n✅ Answer: B — They are modular sections of an activity with their own lifecycle",
+    "options": {
+      "A": "✗ Not the answer. 'They are small portions of the SQLite database' does not fit the scenario: Which of the following best describes \"Fragments\" in Android? The keyed answer is B — They are modular sections of an activity with their own lifecycle.",
+      "B": "✓ CORRECT. Activities represent full screens with their own lifecycle — broader than a reusable UI portion inside one screen.",
+      "C": "✗ Not the answer. 'They are external libraries used for network requests' does not fit the scenario: Which of the following best describes \"Fragments\" in Android? The keyed answer is B — They are modular sections of an activity with their own lifecycle.",
+      "D": "✗ Not the answer. 'They are error messages shown when an app crashes' does not fit the scenario: Which of the following best describes \"Fragments\" in Android? The keyed answer is B — They are modular sections of an activity with their own lifecycle."
+    },
+    "studyTip": "Activity = screen; Fragment = reusable portion; Manifest declares app metadata.",
+    "source": "offline-deep"
+  },
+  "36": {
+    "overview": "A developer wants to ensure that a long-running network task does not block the UI thread. What is the correct implementation strategy? Core concept: lightweight unit of execution within a process. Eliminate options that confuse adjacent Android terms before confirming C.\n\n✅ Answer: C — Use a background thread or Coroutines/AsyncTask",
+    "options": {
+      "A": "✗ Not the answer. 'Run the task inside the onCreate() method directly' does not fit the scenario: A developer wants to ensure that a long-running network task does not block the UI thread. What is the correct implement… The keyed answer is C — Use a background thread or Coroutines/AsyncTask.",
+      "B": "✗ Not the answer. 'Increase the CPU priority of the main thread' refers to lightweight unit of execution within a process. The question asks about the specific concept tested in this question. That requires 'Use a background thread or Coroutines/AsyncTask' — lightweight unit of execution within a process. These are different concepts; do not confuse them on the exam.",
+      "C": "✓ CORRECT. \"Use a background thread or Coroutines/AsyncTask\" is correct because it matches the standard Android definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "D": "✗ Not the answer. 'Call Thread.sleep() before the network request' refers to lightweight unit of execution within a process. The question asks about the specific concept tested in this question. That requires 'Use a background thread or Coroutines/AsyncTask' — lightweight unit of execution within a process. These are different concepts; do not confuse them on the exam."
+    },
+    "studyTip": "Activity = screen; Fragment = reusable portion; Manifest declares app metadata.",
+    "source": "offline-deep"
+  },
+  "37": {
+    "overview": "Which of the following SQL command is used to add new records in database? The keyed answer is C — Insert. Eliminate options that confuse adjacent Database terms before confirming C.\n\n✅ Answer: C — Insert",
+    "options": {
+      "A": "✗ Not the answer. 'Add' does not fit the scenario: Which of the following SQL command is used to add new records in database? The keyed answer is C — Insert.",
+      "B": "✗ Not the answer. 'Update' does not fit the scenario: Which of the following SQL command is used to add new records in database? The keyed answer is C — Insert.",
+      "C": "✓ CORRECT. \"Insert\" is correct because it matches the standard Database definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "D": "✗ Not the answer. 'Create' does not fit the scenario: Which of the following SQL command is used to add new records in database? The keyed answer is C — Insert."
+    },
+    "studyTip": "Weak entity = total participation + partial key. ACID: Atomicity, Consistency, Isolation, Durability.",
+    "source": "offline-deep"
+  },
+  "38": {
+    "overview": "What is composite attribute? The keyed answer is B — An attribute that can be split into components. Eliminate options that confuse adjacent Database terms before confirming B.\n\n✅ Answer: B — An attribute that can be split into components",
+    "options": {
+      "A": "✗ Not the answer. 'An attribute that can take more than one value for each entity instance' is a plausible Database term but not what this stem requires. Compare carefully with B: An attribute that can be split into components.",
+      "B": "✓ CORRECT. \"An attribute that can be split into components\" is correct because it matches the standard Database definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "C": "✗ Not the answer. 'An attribute that can be derived based on other attributes' is a plausible Database term but not what this stem requires. Compare carefully with B: An attribute that can be split into components.",
+      "D": "✗ Not the answer. 'An attribute that takes values from same domain' is a plausible Database term but not what this stem requires. Compare carefully with B: An attribute that can be split into components."
+    },
+    "studyTip": "Weak entity = total participation + partial key. ACID: Atomicity, Consistency, Isolation, Durability.",
+    "source": "offline-deep"
+  },
+  "39": {
+    "overview": "The cardinality of a relation in relational database refers to The keyed answer is A — The number of instances. Eliminate options that confuse adjacent Database terms before confirming A.\n\n✅ Answer: A — The number of instances",
+    "options": {
+      "A": "✓ CORRECT. \"The number of instances\" is correct because it matches the standard Database definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "B": "✗ Not the answer. 'The domain of attribute values' does not fit the scenario: The cardinality of a relation in relational database refers to The keyed answer is A — The number of instances.",
+      "C": "✗ Not the answer. 'The number of columns' does not fit the scenario: The cardinality of a relation in relational database refers to The keyed answer is A — The number of instances.",
+      "D": "✗ Not the answer. 'The order of columns' does not fit the scenario: The cardinality of a relation in relational database refers to The keyed answer is A — The number of instances."
+    },
+    "studyTip": "Weak entity = total participation + partial key. ACID: Atomicity, Consistency, Isolation, Durability.",
+    "source": "offline-deep"
+  },
+  "40": {
+    "overview": "In relational data model, a relation schema is made of The keyed answer is B — Relation name and list of attributes. Eliminate options that confuse adjacent Database terms before confirming B.\n\n✅ Answer: B — Relation name and list of attributes",
+    "options": {
+      "A": "✗ Not the answer. 'Relation name and data types' does not fit the scenario: In relational data model, a relation schema is made of The keyed answer is B — Relation name and list of attributes.",
+      "B": "✓ CORRECT. \"Relation name and list of attributes\" is correct because it matches the standard Database definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "C": "✗ Not the answer. 'List of attributes and domain values' does not fit the scenario: In relational data model, a relation schema is made of The keyed answer is B — Relation name and list of attributes.",
+      "D": "✗ Not the answer. 'Entity set and list of attributes' does not fit the scenario: In relational data model, a relation schema is made of The keyed answer is B — Relation name and list of attributes."
+    },
+    "studyTip": "Weak entity = total participation + partial key. ACID: Atomicity, Consistency, Isolation, Durability.",
+    "source": "offline-deep"
+  },
+  "41": {
+    "overview": "Which of the following is SQL Data Manipulation (DML) command? The keyed answer is D — Update. Eliminate options that confuse adjacent Database terms before confirming D.\n\n✅ Answer: D — Update",
+    "options": {
+      "A": "✗ Not the answer. 'Add' does not fit the scenario: Which of the following is SQL Data Manipulation (DML) command? The keyed answer is D — Update.",
+      "B": "✗ Not the answer. 'Drop' does not fit the scenario: Which of the following is SQL Data Manipulation (DML) command? The keyed answer is D — Update.",
+      "C": "✗ Not the answer. 'Create' does not fit the scenario: Which of the following is SQL Data Manipulation (DML) command? The keyed answer is D — Update.",
+      "D": "✓ CORRECT. \"Update\" is correct because it matches the standard Database definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous."
+    },
+    "studyTip": "Weak entity = total participation + partial key. ACID: Atomicity, Consistency, Isolation, Durability.",
+    "source": "offline-deep"
+  },
+  "42": {
+    "overview": "The primary purpose of referential integrity constraint is ------------------- The keyed answer is B — To maintain the consistency among tuples in the two relations. Eliminate options that confuse adjacent Database terms before confirming B.\n\n✅ Answer: B — To maintain the consistency among tuples in the two relations",
+    "options": {
+      "A": "✗ Not the answer. 'To uniquely identify individual record from the two relations' does not fit the scenario: The primary purpose of referential integrity constraint is ------------------- The keyed answer is B — To maintain the consistency among tuples in the two relations.",
+      "B": "✓ CORRECT. \"To maintain the consistency among tuples in the two relations\" is correct because it matches the standard Database definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "C": "✗ Not the answer. 'Ensuring within each tuple, the value of each attribute is from same domain' does not fit the scenario: The primary purpose of referential integrity constraint is ------------------- The keyed answer is B — To maintain the consistency among tuples in the two relations.",
+      "D": "✗ Not the answer. 'To prevent data redundancy and avoid insertion anomalies in a database' does not fit the scenario: The primary purpose of referential integrity constraint is ------------------- The keyed answer is B — To maintain the consistency among tuples in the two relations."
+    },
+    "studyTip": "Weak entity = total participation + partial key. ACID: Atomicity, Consistency, Isolation, Durability.",
+    "source": "offline-deep"
+  },
+  "43": {
+    "overview": "In which one of the following page replacement algorithms it is possible for the page fault rate to increase even when the number of allocated frames increases? Core concept: First In First Out — queue discipline. Eliminate options that confuse adjacent Operating Systems terms before confirming D.\n\n✅ Answer: D — FIFO (First In First Out)",
+    "options": {
+      "A": "✗ Not the answer. 'LRU (Least Recently Used)' does not fit the scenario: In which one of the following page replacement algorithms it is possible for the page fault rate to increase even when t… The keyed answer is D — FIFO (First In First Out).",
+      "B": "✗ Not the answer. 'OPT (Optimal Page Replacement)' does not fit the scenario: In which one of the following page replacement algorithms it is possible for the page fault rate to increase even when t… The keyed answer is D — FIFO (First In First Out).",
+      "C": "✗ Not the answer. 'MRU (Most Recently Used)' does not fit the scenario: In which one of the following page replacement algorithms it is possible for the page fault rate to increase even when t… The keyed answer is D — FIFO (First In First Out).",
+      "D": "✓ CORRECT. \"FIFO (First In First Out)\" is correct because it matches the standard Operating Systems definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous."
+    },
+    "studyTip": "fork() creates process; deadlock needs hold-and-wait + circular wait + no preemption + mutual exclusion.",
+    "source": "offline-deep"
+  },
+  "44": {
+    "overview": "A thread differs from a process because a thread: The keyed answer is C — Shares address space with other threads. Eliminate options that confuse adjacent Operating Systems terms before confirming C.\n\n✅ Answer: C — Shares address space with other threads",
+    "options": {
+      "A": "✗ Not the answer. 'Has its own address space' does not fit the scenario: A thread differs from a process because a thread: The keyed answer is C — Shares address space with other threads.",
+      "B": "✗ Not the answer. 'Is heavyweight' does not fit the scenario: A thread differs from a process because a thread: The keyed answer is C — Shares address space with other threads.",
+      "C": "✓ CORRECT. \"Shares address space with other threads\" is correct because it matches the standard Operating Systems definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "D": "✗ Not the answer. 'Cannot run independently' does not fit the scenario: A thread differs from a process because a thread: The keyed answer is C — Shares address space with other threads."
+    },
+    "studyTip": "fork() creates process; deadlock needs hold-and-wait + circular wait + no preemption + mutual exclusion.",
+    "source": "offline-deep"
+  },
+  "45": {
+    "overview": "Which of the following increases overhead in an OS? The keyed answer is B — Context switching. Eliminate options that confuse adjacent Operating Systems terms before confirming B.\n\n✅ Answer: B — Context switching",
+    "options": {
+      "A": "✗ Not the answer. 'Paging' does not fit the scenario: Which of the following increases overhead in an OS? The keyed answer is B — Context switching.",
+      "B": "✓ CORRECT. \"Context switching\" is correct because it matches the standard Operating Systems definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "C": "✗ Not the answer. 'Multithreading' does not fit the scenario: Which of the following increases overhead in an OS? The keyed answer is B — Context switching.",
+      "D": "✗ Not the answer. 'Virtual memory' does not fit the scenario: Which of the following increases overhead in an OS? The keyed answer is B — Context switching."
+    },
+    "studyTip": "fork() creates process; deadlock needs hold-and-wait + circular wait + no preemption + mutual exclusion.",
+    "source": "offline-deep"
+  },
+  "46": {
+    "overview": "A process moves from Running to Waiting state when: The keyed answer is B — I/O operation is requested. Eliminate options that confuse adjacent Operating Systems terms before confirming B.\n\n✅ Answer: B — I/O operation is requested",
+    "options": {
+      "A": "✗ Not the answer. 'Time quantum expires' does not fit the scenario: A process moves from Running to Waiting state when: The keyed answer is B — I/O operation is requested.",
+      "B": "✓ CORRECT. \"I/O operation is requested\" is correct because it matches the standard Operating Systems definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "C": "✗ Not the answer. 'Process terminates' represents program in execution with its own address space. This question tests the specific concept tested in this question. That requires 'I/O operation is requested', not 'Process terminates'.",
+      "D": "✗ Not the answer. 'Scheduler selects another process' represents program in execution with its own address space. This question tests the specific concept tested in this question. That requires 'I/O operation is requested', not 'Scheduler selects another process'."
+    },
+    "studyTip": "fork() creates process; deadlock needs hold-and-wait + circular wait + no preemption + mutual exclusion.",
+    "source": "offline-deep"
+  },
+  "47": {
+    "overview": "Zombie process is a process that: The keyed answer is C — Has terminated but PCB exists. Eliminate options that confuse adjacent Operating Systems terms before confirming C.\n\n✅ Answer: C — Has terminated but PCB exists",
+    "options": {
+      "A": "✗ Not the answer. 'Is running' is a plausible Operating Systems term but not what this stem requires. Compare carefully with C: Has terminated but PCB exists.",
+      "B": "✗ Not the answer. 'Is waiting for I/O' is a plausible Operating Systems term but not what this stem requires. Compare carefully with C: Has terminated but PCB exists.",
+      "C": "✓ CORRECT. \"Has terminated but PCB exists\" is correct because it matches the standard Operating Systems definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "D": "✗ Not the answer. 'Is deadlocked' is a plausible Operating Systems term but not what this stem requires. Compare carefully with C: Has terminated but PCB exists."
+    },
+    "studyTip": "fork() creates process; deadlock needs hold-and-wait + circular wait + no preemption + mutual exclusion.",
+    "source": "offline-deep"
+  },
+  "48": {
+    "overview": "The primary goal of operating system security is to ensure: The keyed answer is B — Confidentiality, Integrity, and Availability. Eliminate options that confuse adjacent Operating Systems terms before confirming B.\n\n✅ Answer: B — Confidentiality, Integrity, and Availability",
+    "options": {
+      "A": "✗ Not the answer. 'High performance' does not fit the scenario: The primary goal of operating system security is to ensure: The keyed answer is B — Confidentiality, Integrity, and Availability.",
+      "B": "✓ CORRECT. \"Confidentiality, Integrity, and Availability\" is correct because it matches the standard Operating Systems definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "C": "✗ Not the answer. 'Faster execution' does not fit the scenario: The primary goal of operating system security is to ensure: The keyed answer is B — Confidentiality, Integrity, and Availability.",
+      "D": "✗ Not the answer. 'Better user interface' represents Java contract of abstract methods — implemented by classes. This question tests the specific concept tested in this question. That requires 'Confidentiality, Integrity, and Availability', not 'Better user interface'."
+    },
+    "studyTip": "fork() creates process; deadlock needs hold-and-wait + circular wait + no preemption + mutual exclusion.",
+    "source": "offline-deep"
+  },
+  "49": {
+    "overview": "What is the primary emphasis of the spiral model? The keyed answer is C — Risk-driven development. Eliminate options that confuse adjacent Software Engineering terms before confirming C.\n\n✅ Answer: C — Risk-driven development",
+    "options": {
+      "A": "✗ Not the answer. 'Phased software development' does not fit the scenario: What is the primary emphasis of the spiral model? The keyed answer is C — Risk-driven development.",
+      "B": "✗ Not the answer. 'Throwaway prototyping' does not fit the scenario: What is the primary emphasis of the spiral model? The keyed answer is C — Risk-driven development.",
+      "C": "✓ CORRECT. \"Risk-driven development\" is correct because it matches the standard Software Engineering definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "D": "✗ Not the answer. 'Incremental development' does not fit the scenario: What is the primary emphasis of the spiral model? The keyed answer is C — Risk-driven development."
+    },
+    "studyTip": "Waterfall is sequential; Agile is iterative. RE bridges stakeholders and developers.",
+    "source": "offline-deep"
+  },
+  "50": {
+    "overview": "What best describes evolutionary prototyping? The keyed answer is D — Incremental development. Eliminate options that confuse adjacent Software Engineering terms before confirming D.\n\n✅ Answer: D — Incremental development",
+    "options": {
+      "A": "✗ Not the answer. 'Phased software development' does not fit the scenario: What best describes evolutionary prototyping? The keyed answer is D — Incremental development.",
+      "B": "✗ Not the answer. 'Throwaway prototyping' does not fit the scenario: What best describes evolutionary prototyping? The keyed answer is D — Incremental development.",
+      "C": "✗ Not the answer. 'Risk-driven development' does not fit the scenario: What best describes evolutionary prototyping? The keyed answer is D — Incremental development.",
+      "D": "✓ CORRECT. \"Incremental development\" is correct because it matches the standard Software Engineering definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous."
+    },
+    "studyTip": "Waterfall is sequential; Agile is iterative. RE bridges stakeholders and developers.",
+    "source": "offline-deep"
+  },
+  "51": {
+    "overview": "What is a software life-cycle? The keyed answer is C — A phased approach to software development. Eliminate options that confuse adjacent Software Engineering terms before confirming C.\n\n✅ Answer: C — A phased approach to software development",
+    "options": {
+      "A": "✗ Not the answer. 'The operational lifespan of software' is a plausible Software Engineering term but not what this stem requires. Compare carefully with C: A phased approach to software development.",
+      "B": "✗ Not the answer. 'A cyclic approach to software development' is a plausible Software Engineering term but not what this stem requires. Compare carefully with C: A phased approach to software development.",
+      "C": "✓ CORRECT. \"A phased approach to software development\" is correct because it matches the standard Software Engineering definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "D": "✗ Not the answer. 'The lifespan of cyclically developed software' is a plausible Software Engineering term but not what this stem requires. Compare carefully with C: A phased approach to software development."
+    },
+    "studyTip": "Waterfall is sequential; Agile is iterative. RE bridges stakeholders and developers.",
+    "source": "offline-deep"
+  },
+  "52": {
+    "overview": "What activities are performed during incremental software construction? Core concept: tests individual modules in isolation — before combining modules. Eliminate options that confuse adjacent Software Engineering terms before confirming B.\n\n✅ Answer: B — Detailed design, coding, and unit testing of classes in a system subset",
+    "options": {
+      "A": "✗ Not the answer. 'Detailed design and coding of classes in a system subset' does not fit the scenario: What activities are performed during incremental software construction? The keyed answer is B — Detailed design, coding, and unit testing of classes in a system subset.",
+      "B": "✓ CORRECT. \"Detailed design, coding, and unit testing of classes in a system subset\" is correct because it matches the standard Software Engineering definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "C": "✗ Not the answer. 'Coding and unit testing of classes in a system subset' represents tests individual modules in isolation — before combining modules. This question tests the specific concept tested in this question. That requires 'Detailed design, coding, and unit testing of classes in a system subset' (tests individual modules in isolation — before combining modules), not 'Coding and unit testing of classes in a system subset'.",
+      "D": "✗ Not the answer. 'Unit and integration testing of classes in a system subset' represents tests interactions between combined modules after unit tests. This question tests the specific concept tested in this question. That requires 'Detailed design, coding, and unit testing of classes in a system subset' (tests individual modules in isolation — before combining modules), not 'Unit and integration testing of classes in a system subset'."
+    },
+    "studyTip": "Waterfall is sequential; Agile is iterative. RE bridges stakeholders and developers.",
+    "source": "offline-deep"
+  },
+  "53": {
+    "overview": "If you need to develop software within a strict deadline with unlimited budget, which development model would you choose? Core concept: RAD — iterative prototyping with fast user feedback. Eliminate options that confuse adjacent Software Engineering terms before confirming C.\n\n✅ Answer: C — RAD (Rapid Application Development)",
+    "options": {
+      "A": "✗ Not the answer. 'Waterfall' does not fit the scenario: If you need to develop software within a strict deadline with unlimited budget, which development model would you choose… The keyed answer is C — RAD (Rapid Application Development).",
+      "B": "✗ Not the answer. 'Spiral' does not fit the scenario: If you need to develop software within a strict deadline with unlimited budget, which development model would you choose… The keyed answer is C — RAD (Rapid Application Development).",
+      "C": "✓ CORRECT. \"RAD (Rapid Application Development)\" is correct because it matches the standard Software Engineering definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "D": "✗ Not the answer. 'Incremental' does not fit the scenario: If you need to develop software within a strict deadline with unlimited budget, which development model would you choose… The keyed answer is C — RAD (Rapid Application Development)."
+    },
+    "studyTip": "Waterfall is sequential; Agile is iterative. RE bridges stakeholders and developers.",
+    "source": "offline-deep"
+  },
+  "54": {
+    "overview": "Which type of CASE tools support early process activities like requirements and design? The keyed answer is B — Upper-CASE. Eliminate options that confuse adjacent Software Engineering terms before confirming B.\n\n✅ Answer: B — Upper-CASE",
+    "options": {
+      "A": "✗ Not the answer. 'Lower-CASE' does not fit the scenario: Which type of CASE tools support early process activities like requirements and design? The keyed answer is B — Upper-CASE.",
+      "B": "✓ CORRECT. \"Upper-CASE\" is correct because it matches the standard Software Engineering definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "C": "✗ Not the answer. 'System-CASE' does not fit the scenario: Which type of CASE tools support early process activities like requirements and design? The keyed answer is B — Upper-CASE.",
+      "D": "✗ Not the answer. 'Test-CASE' does not fit the scenario: Which type of CASE tools support early process activities like requirements and design? The keyed answer is B — Upper-CASE."
+    },
+    "studyTip": "Waterfall is sequential; Agile is iterative. RE bridges stakeholders and developers.",
+    "source": "offline-deep"
+  },
+  "55": {
+    "overview": "Requirements Engineering mainly acts as a bridge between_______. The keyed answer is A — Stakeholders and developers. Eliminate options that confuse adjacent Requirements Engineering terms before confirming A.\n\n✅ Answer: A — Stakeholders and developers",
+    "options": {
+      "A": "✓ CORRECT. \"Stakeholders and developers\" is correct because it matches the standard Requirements Engineering definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "B": "✗ Not the answer. 'Hardware and software' does not fit the scenario: Requirements Engineering mainly acts as a bridge between_______. The keyed answer is A — Stakeholders and developers.",
+      "C": "✗ Not the answer. 'Developers and testers' does not fit the scenario: Requirements Engineering mainly acts as a bridge between_______. The keyed answer is A — Stakeholders and developers.",
+      "D": "✗ Not the answer. 'Users and databases' does not fit the scenario: Requirements Engineering mainly acts as a bridge between_______. The keyed answer is A — Stakeholders and developers."
+    },
+    "studyTip": "Review Requirements Engineering definitions and redo this question in Review mode.",
+    "source": "offline-deep"
+  },
+  "56": {
+    "overview": "Which phase of SDLC is most directly supported by Requirements Engineering? The keyed answer is C — Analysis. Eliminate options that confuse adjacent Requirements Engineering terms before confirming C.\n\n✅ Answer: C — Analysis",
+    "options": {
+      "A": "✗ Not the answer. 'Maintenance' does not fit the scenario: Which phase of SDLC is most directly supported by Requirements Engineering? The keyed answer is C — Analysis.",
+      "B": "✗ Not the answer. 'Deployment' does not fit the scenario: Which phase of SDLC is most directly supported by Requirements Engineering? The keyed answer is C — Analysis.",
+      "C": "✓ CORRECT. \"Analysis\" is correct because it matches the standard Requirements Engineering definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "D": "✗ Not the answer. 'Implementation' does not fit the scenario: Which phase of SDLC is most directly supported by Requirements Engineering? The keyed answer is C — Analysis."
+    },
+    "studyTip": "Review Requirements Engineering definitions and redo this question in Review mode.",
+    "source": "offline-deep"
+  },
+  "57": {
+    "overview": "Poor requirements engineering most commonly leads to_______? The keyed answer is B — Cost overruns and project failure. Eliminate options that confuse adjacent Requirements Engineering terms before confirming B.\n\n✅ Answer: B — Cost overruns and project failure",
+    "options": {
+      "A": "✗ Not the answer. 'Faster development' does not fit the scenario: Poor requirements engineering most commonly leads to_______? The keyed answer is B — Cost overruns and project failure.",
+      "B": "✓ CORRECT. \"Cost overruns and project failure\" is correct because it matches the standard Requirements Engineering definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "C": "✗ Not the answer. 'Reduced documentation' does not fit the scenario: Poor requirements engineering most commonly leads to_______? The keyed answer is B — Cost overruns and project failure.",
+      "D": "✗ Not the answer. 'Improved performance' does not fit the scenario: Poor requirements engineering most commonly leads to_______? The keyed answer is B — Cost overruns and project failure."
+    },
+    "studyTip": "Review Requirements Engineering definitions and redo this question in Review mode.",
+    "source": "offline-deep"
+  },
+  "58": {
+    "overview": "A large organization plans to implement a new enterprise resource planning system. The system definition document describes the overall system context, boundaries, and how it aligns with organizational goals. What is the primary purpose of preparing such a document before detailed design begins? The keyed answer is A — Define overall system scope and context.\n\n✅ Answer: A — Define overall system scope and context",
+    "options": {
+      "A": "✓ CORRECT. \"Define overall system scope and context\" is correct because it matches the standard Requirements Engineering definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "B": "✗ Not the answer. 'Describe algorithms' does not fit the scenario: A large organization plans to implement a new enterprise resource planning system. The system definition document descri… The keyed answer is A — Define overall system scope and context.",
+      "C": "✗ Not the answer. 'Replace the SRS' does not fit the scenario: A large organization plans to implement a new enterprise resource planning system. The system definition document descri… The keyed answer is A — Define overall system scope and context.",
+      "D": "✗ Not the answer. 'Specify user interfaces' does not fit the scenario: A large organization plans to implement a new enterprise resource planning system. The system definition document descri… The keyed answer is A — Define overall system scope and context."
+    },
+    "studyTip": "Review Requirements Engineering definitions and redo this question in Review mode.",
+    "source": "offline-deep"
+  },
+  "59": {
+    "overview": "Requirements Engineering contributes to project success mainly by: The keyed answer is B — Clarifying expectations early. Eliminate options that confuse adjacent Requirements Engineering terms before confirming B.\n\n✅ Answer: B — Clarifying expectations early",
+    "options": {
+      "A": "✗ Not the answer. 'Reducing hardware costs' does not fit the scenario: Requirements Engineering contributes to project success mainly by: The keyed answer is B — Clarifying expectations early.",
+      "B": "✓ CORRECT. \"Clarifying expectations early\" is correct because it matches the standard Requirements Engineering definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "C": "✗ Not the answer. 'Increasing programming speed' does not fit the scenario: Requirements Engineering contributes to project success mainly by: The keyed answer is B — Clarifying expectations early.",
+      "D": "✗ Not the answer. 'Eliminating documentation' does not fit the scenario: Requirements Engineering contributes to project success mainly by: The keyed answer is B — Clarifying expectations early."
+    },
+    "studyTip": "Review Requirements Engineering definitions and redo this question in Review mode.",
+    "source": "offline-deep"
+  },
+  "60": {
+    "overview": "Which artifact best represents architectural decisions? The keyed answer is C — Architecture documentation. Eliminate options that confuse adjacent Software Architecture terms before confirming C.\n\n✅ Answer: C — Architecture documentation",
+    "options": {
+      "A": "✗ Not the answer. 'Source code' does not fit the scenario: Which artifact best represents architectural decisions? The keyed answer is C — Architecture documentation.",
+      "B": "✗ Not the answer. 'UML class diagram' means UML structural diagram showing classes and relationships. That answers a different kind of question. Here, the stem points to 'Architecture documentation' instead.",
+      "C": "✓ CORRECT. \"Architecture documentation\" is correct because it matches the standard Software Architecture definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "D": "✗ Not the answer. 'Test cases' does not fit the scenario: Which artifact best represents architectural decisions? The keyed answer is C — Architecture documentation."
+    },
+    "studyTip": "High cohesion + low coupling. Patterns solve recurring design problems.",
+    "source": "offline-deep"
+  },
+  "61": {
+    "overview": "Which factor has the greatest long-term impact on system evolution? The keyed answer is C — Architectural structure. Eliminate options that confuse adjacent Software Architecture terms before confirming C.\n\n✅ Answer: C — Architectural structure",
+    "options": {
+      "A": "✗ Not the answer. 'Variable naming' does not fit the scenario: Which factor has the greatest long-term impact on system evolution? The keyed answer is C — Architectural structure.",
+      "B": "✗ Not the answer. 'UI color' does not fit the scenario: Which factor has the greatest long-term impact on system evolution? The keyed answer is C — Architectural structure.",
+      "C": "✓ CORRECT. \"Architectural structure\" is correct because it matches the standard Software Architecture definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "D": "✗ Not the answer. 'Code formatting' does not fit the scenario: Which factor has the greatest long-term impact on system evolution? The keyed answer is C — Architectural structure."
+    },
+    "studyTip": "High cohesion + low coupling. Patterns solve recurring design problems.",
+    "source": "offline-deep"
+  },
+  "62": {
+    "overview": "Architecture decisions are difficult to change because they: The keyed answer is B — Affect multiple quality attributes. Eliminate options that confuse adjacent Software Architecture terms before confirming B.\n\n✅ Answer: B — Affect multiple quality attributes",
+    "options": {
+      "A": "✗ Not the answer. 'Are undocumented' does not fit the scenario: Architecture decisions are difficult to change because they: The keyed answer is B — Affect multiple quality attributes.",
+      "B": "✓ CORRECT. \"Affect multiple quality attributes\" is correct because it matches the standard Software Architecture definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "C": "✗ Not the answer. 'Only impact performance' does not fit the scenario: Architecture decisions are difficult to change because they: The keyed answer is B — Affect multiple quality attributes.",
+      "D": "✗ Not the answer. 'Are optional' does not fit the scenario: Architecture decisions are difficult to change because they: The keyed answer is B — Affect multiple quality attributes."
+    },
+    "studyTip": "High cohesion + low coupling. Patterns solve recurring design problems.",
+    "source": "offline-deep"
+  },
+  "63": {
+    "overview": "This Software Architecture question tests which non-functional requirement handles growing load. The keyed answer is D — Architect. Eliminate options that confuse adjacent Software Architecture terms before confirming D.\n\n✅ Answer: D — Architect",
+    "options": {
+      "A": "✗ Not the answer. 'End user' does not fit the scenario: Which stakeholder is MOST concerned with scalability? The keyed answer is D — Architect.",
+      "B": "✗ Not the answer. 'Tester' does not fit the scenario: Which stakeholder is MOST concerned with scalability? The keyed answer is D — Architect.",
+      "C": "✗ Not the answer. 'UI designer' does not fit the scenario: Which stakeholder is MOST concerned with scalability? The keyed answer is D — Architect.",
+      "D": "✓ CORRECT. 'Architect' is the correct answer — it directly addresses which non-functional requirement handles growing load in Software Architecture."
+    },
+    "studyTip": "High cohesion + low coupling. Patterns solve recurring design problems.",
+    "source": "offline-deep"
+  },
+  "64": {
+    "overview": "Architecture differs from design mainly by its: The keyed answer is A — Level of abstraction. Eliminate options that confuse adjacent Software Architecture terms before confirming A.\n\n✅ Answer: A — Level of abstraction",
+    "options": {
+      "A": "✓ CORRECT. \"Level of abstraction\" is correct because it matches the standard Software Architecture definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "B": "✗ Not the answer. 'Programming language' does not fit the scenario: Architecture differs from design mainly by its: The keyed answer is A — Level of abstraction.",
+      "C": "✗ Not the answer. 'Number of classes' does not fit the scenario: Architecture differs from design mainly by its: The keyed answer is A — Level of abstraction.",
+      "D": "✗ Not the answer. 'Testing approach' does not fit the scenario: Architecture differs from design mainly by its: The keyed answer is A — Level of abstraction."
+    },
+    "studyTip": "High cohesion + low coupling. Patterns solve recurring design problems.",
+    "source": "offline-deep"
+  },
+  "65": {
+    "overview": "The PM decides to use PERT for the new feature's estimation. If the Optimistic time is 4 days, Most likely is 7 days, and Pessimistic is 16 days, what is the expected duration? The keyed answer is B — 8 days. Eliminate options that confuse adjacent Project Management terms before confirming B.\n\n✅ Answer: B — 8 days",
+    "options": {
+      "A": "✗ Not the answer. '7 days' does not fit the scenario: The PM decides to use PERT for the new feature's estimation. If the Optimistic time is 4 days, Most likely is 7 days, an… The keyed answer is B — 8 days.",
+      "B": "✓ CORRECT. \"8 days\" is correct because it matches the standard Project Management definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "C": "✗ Not the answer. '9 days' does not fit the scenario: The PM decides to use PERT for the new feature's estimation. If the Optimistic time is 4 days, Most likely is 7 days, an… The keyed answer is B — 8 days.",
+      "D": "✗ Not the answer. '10 days' does not fit the scenario: The PM decides to use PERT for the new feature's estimation. If the Optimistic time is 4 days, Most likely is 7 days, an… The keyed answer is B — 8 days."
+    },
+    "studyTip": "Triple constraint: scope, time, cost. Float = slack without delaying project end.",
+    "source": "offline-deep"
+  },
+  "66": {
+    "overview": "Which management activity is most critical when the team lead suddenly resigns during the \"Execution\" phase? Core concept: reduces probability or impact of a risk through controls. Eliminate options that confuse adjacent Project Management terms before confirming B.\n\n✅ Answer: B — Risk Mitigation",
+    "options": {
+      "A": "✗ Not the answer. 'Configuration Management' does not fit the scenario: Which management activity is most critical when the team lead suddenly resigns during the \"Execution\" phase? The keyed answer is B — Risk Mitigation.",
+      "B": "✓ CORRECT. \"Risk Mitigation\" is correct because it matches the standard Project Management definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "C": "✗ Not the answer. 'Requirement Validation' does not fit the scenario: Which management activity is most critical when the team lead suddenly resigns during the \"Execution\" phase? The keyed answer is B — Risk Mitigation.",
+      "D": "✗ Not the answer. 'Perfective Maintenance' refers to improves performance or maintainability without fixing a specific fault. The question asks about the specific concept tested in this question. That requires 'Risk Mitigation' — reduces probability or impact of a risk through controls. These are different concepts; do not confuse them on the exam."
+    },
+    "studyTip": "Triple constraint: scope, time, cost. Float = slack without delaying project end.",
+    "source": "offline-deep"
+  },
+  "67": {
+    "overview": "This Project Management question tests tracing code execution to determine printed output. The keyed answer is A — Software Requirement Specification (SRS). Eliminate options that confuse adjacent Project Management terms before confirming A.\n\n✅ Answer: A — Software Requirement Specification (SRS)",
+    "options": {
+      "A": "✓ CORRECT. 'Software Requirement Specification (SRS)' is the correct answer — it directly addresses tracing code execution to determine printed output in Project Management.",
+      "B": "✗ Not the answer. If the program printed Work Breakdown Structure (WBS), a different branch or calculation would execute. Trace the code line-by-line with the given inputs to verify the output is Software Requirement Specification (SRS).",
+      "C": "✗ Not the answer. If the program printed Project Charter, a different branch or calculation would execute. Trace the code line-by-line with the given inputs to verify the output is Software Requirement Specification (SRS).",
+      "D": "✗ Not the answer. If the program printed Risk Register, a different branch or calculation would execute. Trace the code line-by-line with the given inputs to verify the output is Software Requirement Specification (SRS)."
+    },
+    "studyTip": "Triple constraint: scope, time, cost. Float = slack without delaying project end.",
+    "source": "offline-deep"
+  },
+  "68": {
+    "overview": "Management wants to add a new \"Real-time Analytics\" dashboard to the existing system. This falls under: Core concept: improves performance or maintainability without fixing a specific fault. Eliminate options that confuse adjacent Project Management terms before confirming C.\n\n✅ Answer: C — Perfective Maintenance",
+    "options": {
+      "A": "✗ Not the answer. 'Corrective Maintenance' represents fixes faults/defects discovered after deployment. This question tests the specific concept tested in this question. That requires 'Perfective Maintenance' (improves performance or maintainability without fixing a specific fault), not 'Corrective Maintenance'.",
+      "B": "✗ Not the answer. 'Adaptive Maintenance' represents adapts software to environmental changes (OS, regulations). This question tests the specific concept tested in this question. That requires 'Perfective Maintenance' (improves performance or maintainability without fixing a specific fault), not 'Adaptive Maintenance'.",
+      "C": "✓ CORRECT. \"Perfective Maintenance\" is correct because it matches the standard Project Management definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "D": "✗ Not the answer. 'Preventive Maintenance' does not fit the scenario: Management wants to add a new \"Real-time Analytics\" dashboard to the existing system. This falls under: The keyed answer is C — Perfective Maintenance."
+    },
+    "studyTip": "Triple constraint: scope, time, cost. Float = slack without delaying project end.",
+    "source": "offline-deep"
+  },
+  "69": {
+    "overview": "Which model provides a framework for \"Continuous Process Improvement\" in software organizations? The keyed answer is B — CMMI (Capability Maturity Model Integration). Eliminate options that confuse adjacent Project Management terms before confirming B.\n\n✅ Answer: B — CMMI (Capability Maturity Model Integration)",
+    "options": {
+      "A": "✗ Not the answer. 'Waterfall' does not fit the scenario: Which model provides a framework for \"Continuous Process Improvement\" in software organizations? The keyed answer is B — CMMI (Capability Maturity Model Integration).",
+      "B": "✓ CORRECT. \"CMMI (Capability Maturity Model Integration)\" is correct because it matches the standard Project Management definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "C": "✗ Not the answer. 'V-Model' does not fit the scenario: Which model provides a framework for \"Continuous Process Improvement\" in software organizations? The keyed answer is B — CMMI (Capability Maturity Model Integration).",
+      "D": "✗ Not the answer. 'RAD Model' does not fit the scenario: Which model provides a framework for \"Continuous Process Improvement\" in software organizations? The keyed answer is B — CMMI (Capability Maturity Model Integration)."
+    },
+    "studyTip": "Triple constraint: scope, time, cost. Float = slack without delaying project end.",
+    "source": "offline-deep"
+  },
+  "70": {
+    "overview": "Why is software testing crucial in the Software Development Life Cycle (SDLC)? The keyed answer is A — It ensures that the software functions correctly and meets user expectations. Eliminate options that confuse adjacent Software Testing terms before confirming A.\n\n✅ Answer: A — It ensures that the software functions correctly and meets user expectations",
+    "options": {
+      "A": "✓ CORRECT. \"It ensures that the software functions correctly and meets user expectations\" is correct because it matches the standard Software Testing definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "B": "✗ Not the answer. 'It eliminates all defects from the software' does not fit the scenario: Why is software testing crucial in the Software Development Life Cycle (SDLC)? The keyed answer is A — It ensures that the software functions correctly and meets user expectations.",
+      "C": "✗ Not the answer. 'It speeds up the development process' represents program in execution with its own address space. This question tests the specific concept tested in this question. That requires 'It ensures that the software functions correctly and meets user expectations', not 'It speeds up the development process'.",
+      "D": "✗ Not the answer. 'It guarantees the software will never fail' does not fit the scenario: Why is software testing crucial in the Software Development Life Cycle (SDLC)? The keyed answer is A — It ensures that the software functions correctly and meets user expectations."
+    },
+    "studyTip": "Unit → Integration → System → Acceptance. Regression after every change.",
+    "source": "offline-deep"
+  },
+  "71": {
+    "overview": "A finance company needs to verify that its fraud detection algorithm correctly flags suspicious transactions. The system must detect fraudulent activity while avoiding false positives. What testing approach is most suitable? The keyed answer is C — Data-Driven Testing. Eliminate options that confuse adjacent Software Testing terms before confirming C.\n\n✅ Answer: C — Data-Driven Testing",
+    "options": {
+      "A": "✗ Not the answer. 'Regression Testing' means re-runs existing tests to ensure new changes did not break prior functionality. That answers a different kind of question. Here, the stem points to 'Data-Driven Testing' instead.",
+      "B": "✗ Not the answer. 'Exploratory Testing' does not fit the scenario: A finance company needs to verify that its fraud detection algorithm correctly flags suspicious transactions. The system… The keyed answer is C — Data-Driven Testing.",
+      "C": "✓ CORRECT. \"Data-Driven Testing\" is correct because it matches the standard Software Testing definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "D": "✗ Not the answer. 'Smoke Testing' does not fit the scenario: A finance company needs to verify that its fraud detection algorithm correctly flags suspicious transactions. The system… The keyed answer is C — Data-Driven Testing."
+    },
+    "studyTip": "Unit → Integration → System → Acceptance. Regression after every change.",
+    "source": "offline-deep"
+  },
+  "72": {
+    "overview": "In the context of test case design, what is a key measurement used to assess test coverage? The keyed answer is B — Percentage of requirements tested. Eliminate options that confuse adjacent Software Testing terms before confirming B.\n\n✅ Answer: B — Percentage of requirements tested",
+    "options": {
+      "A": "✗ Not the answer. 'Number of test cases executed' does not fit the scenario: In the context of test case design, what is a key measurement used to assess test coverage? The keyed answer is B — Percentage of requirements tested.",
+      "B": "✓ CORRECT. \"Percentage of requirements tested\" is correct because it matches the standard Software Testing definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "C": "✗ Not the answer. 'Amount of time taken for testing' does not fit the scenario: In the context of test case design, what is a key measurement used to assess test coverage? The keyed answer is B — Percentage of requirements tested.",
+      "D": "✗ Not the answer. 'Number of defects reported' does not fit the scenario: In the context of test case design, what is a key measurement used to assess test coverage? The keyed answer is B — Percentage of requirements tested."
+    },
+    "studyTip": "Unit → Integration → System → Acceptance. Regression after every change.",
+    "source": "offline-deep"
+  },
+  "73": {
+    "overview": "Which principle of software testing states that testing should start as early as possible in the SDLC? The keyed answer is C — Early testing. Eliminate options that confuse adjacent Software Testing terms before confirming C.\n\n✅ Answer: C — Early testing",
+    "options": {
+      "A": "✗ Not the answer. 'Exhaustive testing is impossible' does not fit the scenario: Which principle of software testing states that testing should start as early as possible in the SDLC? The keyed answer is C — Early testing.",
+      "B": "✗ Not the answer. 'Defect clustering' means unsupervised grouping of unlabeled data — not demand forecasting over time. That answers a different kind of question. Here, the stem points to 'Early testing' instead.",
+      "C": "✓ CORRECT. \"Early testing\" is correct because it matches the standard Software Testing definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "D": "✗ Not the answer. 'Pesticide paradox' does not fit the scenario: Which principle of software testing states that testing should start as early as possible in the SDLC? The keyed answer is C — Early testing."
+    },
+    "studyTip": "Unit → Integration → System → Acceptance. Regression after every change.",
+    "source": "offline-deep"
+  },
+  "74": {
+    "overview": "In which scenario would unit testing be most beneficial? The keyed answer is B — Ensuring that an individual function in a program behaves correctly. Eliminate options that confuse adjacent Software Testing terms before confirming B.\n\n✅ Answer: B — Ensuring that an individual function in a program behaves correctly",
+    "options": {
+      "A": "✗ Not the answer. 'Testing a complex integration between multiple services' does not fit the scenario: In which scenario would unit testing be most beneficial? The keyed answer is B — Ensuring that an individual function in a program behaves correctly.",
+      "B": "✓ CORRECT. \"Ensuring that an individual function in a program behaves correctly\" is correct because it matches the standard Software Testing definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "C": "✗ Not the answer. 'Validating security vulnerabilities in a web application' does not fit the scenario: In which scenario would unit testing be most beneficial? The keyed answer is B — Ensuring that an individual function in a program behaves correctly.",
+      "D": "✗ Not the answer. 'Measuring system performance under peak load' does not fit the scenario: In which scenario would unit testing be most beneficial? The keyed answer is B — Ensuring that an individual function in a program behaves correctly."
+    },
+    "studyTip": "Unit → Integration → System → Acceptance. Regression after every change.",
+    "source": "offline-deep"
+  },
+  "75": {
+    "overview": "In a legacy system, you find that changing a single requirement requires modifying 15 different classes. How would you evaluate this architectural state? The keyed answer is A — The system is exhibiting \"Shotgun Surgery,\" indicating poor encapsulation. Eliminate options that confuse adjacent Software Maintenance terms before confirming A.\n\n✅ Answer: A — The system is exhibiting \"Shotgun Surgery,\" indicating poor encapsulation",
+    "options": {
+      "A": "✓ CORRECT. \"The system is exhibiting \"Shotgun Surgery,\" indicating poor encapsulation\" is correct because it matches the standard Software Maintenance definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "B": "✗ Not the answer. 'The system is exhibiting \"Divergent Change,\" indicating a lack of cohesion' does not fit the scenario: In a legacy system, you find that changing a single requirement requires modifying 15 different classes. How would you e… The keyed answer is A — The system is exhibiting \"Shotgun Surgery,\" indicating poor encapsulation.",
+      "C": "✗ Not the answer. 'The system is following the Open-Closed Principle correctly' does not fit the scenario: In a legacy system, you find that changing a single requirement requires modifying 15 different classes. How would you e… The keyed answer is A — The system is exhibiting \"Shotgun Surgery,\" indicating poor encapsulation.",
+      "D": "✗ Not the answer. 'The system is optimized for high-performance execution' does not fit the scenario: In a legacy system, you find that changing a single requirement requires modifying 15 different classes. How would you e… The keyed answer is A — The system is exhibiting \"Shotgun Surgery,\" indicating poor encapsulation."
+    },
+    "studyTip": "Corrective fixes faults; perfective improves; adaptive handles environment change.",
+    "source": "offline-deep"
+  },
+  "76": {
+    "overview": "When evaluating the impact of \"Feature Envy,\" what is the primary structural concern? The keyed answer is B — The method is more interested in the data of a class other than the one it is in. Eliminate options that confuse adjacent Software Maintenance terms before confirming B.\n\n✅ Answer: B — The method is more interested in the data of a class other than the one it is in",
+    "options": {
+      "A": "✗ Not the answer. 'The method is excessively long and difficult to unit test' does not fit the scenario: When evaluating the impact of \"Feature Envy,\" what is the primary structural concern? The keyed answer is B — The method is more interested in the data of a class other than the one it is in.",
+      "B": "✓ CORRECT. \"The method is more interested in the data of a class other than the one it is in\" is correct because it matches the standard Software Maintenance definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "C": "✗ Not the answer. 'The method uses too many local variables, increasing memory consumption' does not fit the scenario: When evaluating the impact of \"Feature Envy,\" what is the primary structural concern? The keyed answer is B — The method is more interested in the data of a class other than the one it is in.",
+      "D": "✗ Not the answer. 'The method is duplicated across multiple subclasses in a hierarchy' does not fit the scenario: When evaluating the impact of \"Feature Envy,\" what is the primary structural concern? The keyed answer is B — The method is more interested in the data of a class other than the one it is in."
+    },
+    "studyTip": "Corrective fixes faults; perfective improves; adaptive handles environment change.",
+    "source": "offline-deep"
+  },
+  "77": {
+    "overview": "You are evaluating a system where \"Technical Debt\" is high. Which metric would best serve as an indicator of structural decay over time? Core concept: C++ operator that allocates memory on the heap. Eliminate options that confuse adjacent Software Maintenance terms before confirming C.\n\n✅ Answer: C — The increase in Cyclomatic Complexity relative to the number of new features added",
+    "options": {
+      "A": "✗ Not the answer. 'The total number of lines of code in the master branch' does not fit the scenario: You are evaluating a system where \"Technical Debt\" is high. Which metric would best serve as an indicator of structural … The keyed answer is C — The increase in Cyclomatic Complexity relative to the number of new features added.",
+      "B": "✗ Not the answer. 'The ratio of comment lines to executable code lines' does not fit the scenario: You are evaluating a system where \"Technical Debt\" is high. Which metric would best serve as an indicator of structural … The keyed answer is C — The increase in Cyclomatic Complexity relative to the number of new features added.",
+      "C": "✓ CORRECT. 'The increase in Cyclomatic Complexity relative to the number of new features added' matches the dominant growth rate of the expression. Identify the fastest-growing term, drop constants, and express in Big-O notation.",
+      "D": "✗ Not the answer. 'The number of developers assigned to the maintenance phase' does not fit the scenario: You are evaluating a system where \"Technical Debt\" is high. Which metric would best serve as an indicator of structural … The keyed answer is C — The increase in Cyclomatic Complexity relative to the number of new features added."
+    },
+    "studyTip": "Corrective fixes faults; perfective improves; adaptive handles environment change.",
+    "source": "offline-deep"
+  },
+  "78": {
+    "overview": "A system has a high frequency of \"Ripple Effect\" defects. What is the most likely evaluation of its design? Core concept: degree of dependency between software modules. Eliminate options that confuse adjacent Software Maintenance terms before confirming B.\n\n✅ Answer: B — High degree of global variable usage and tight coupling",
+    "options": {
+      "A": "✗ Not the answer. 'High module cohesion and low coupling' refers to degree of dependency between software modules. The question asks about the specific concept tested in this question. That requires 'High degree of global variable usage and tight coupling' — degree of dependency between software modules. These are different concepts; do not confuse them on the exam.",
+      "B": "✓ CORRECT. \"High degree of global variable usage and tight coupling\" is correct because it matches the standard Software Maintenance definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "C": "✗ Not the answer. 'Use of strict interfaces and dependency injection' does not fit the scenario: A system has a high frequency of \"Ripple Effect\" defects. What is the most likely evaluation of its design? The keyed answer is B — High degree of global variable usage and tight coupling.",
+      "D": "✗ Not the answer. 'Excessive use of inheritance rather than composition' refers to subclass inherits fields and methods from superclass. The question asks about the specific concept tested in this question. That requires 'High degree of global variable usage and tight coupling' — degree of dependency between software modules. These are different concepts; do not confuse them on the exam."
+    },
+    "studyTip": "Corrective fixes faults; perfective improves; adaptive handles environment change.",
+    "source": "offline-deep"
+  },
+  "79": {
+    "overview": "Evaluate the \"Data Clump\" smell. What is the most effective way to judge if a group of variables constitutes a clump? The keyed answer is A — They are always passed together as parameters across different methods. Eliminate options that confuse adjacent Software Maintenance terms before confirming A.\n\n✅ Answer: A — They are always passed together as parameters across different methods",
+    "options": {
+      "A": "✓ CORRECT. \"They are always passed together as parameters across different methods\" is correct because it matches the standard Software Maintenance definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "B": "✗ Not the answer. 'They are all defined as static constants in a configuration file' does not fit the scenario: Evaluate the \"Data Clump\" smell. What is the most effective way to judge if a group of variables constitutes a clump? The keyed answer is A — They are always passed together as parameters across different methods.",
+      "C": "✗ Not the answer. 'They are all of the same primitive data type' does not fit the scenario: Evaluate the \"Data Clump\" smell. What is the most effective way to judge if a group of variables constitutes a clump? The keyed answer is A — They are always passed together as parameters across different methods.",
+      "D": "✗ Not the answer. 'They are used only within a single private method' does not fit the scenario: Evaluate the \"Data Clump\" smell. What is the most effective way to judge if a group of variables constitutes a clump? The keyed answer is A — They are always passed together as parameters across different methods."
+    },
+    "studyTip": "Corrective fixes faults; perfective improves; adaptive handles environment change.",
+    "source": "offline-deep"
+  },
+  "80": {
+    "overview": "In the TCP/IP model, which layer corresponds to the Network Layer in the OSI model? The keyed answer is C — Internet Layer. Eliminate options that confuse adjacent Networking terms before confirming C.\n\n✅ Answer: C — Internet Layer",
+    "options": {
+      "A": "✗ Not the answer. Application layer (L7) handles network transparency, resource allocation, and user-facing services like HTTP and DNS.",
+      "B": "✗ Not the answer. Transport layer (L4) provides end-to-end delivery, segmentation, and flow control — not transparency/resource allocation at the application level.",
+      "C": "✓ CORRECT. \"Internet Layer\" is correct because it matches the standard Networking definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "D": "✗ Not the answer. Network layer (L3) handles routing and logical IP addressing — below the application services asked about here."
+    },
+    "studyTip": "OSI: Physical→Data Link→Network→Transport→Session→Presentation→Application.",
+    "source": "offline-deep"
+  },
+  "81": {
+    "overview": "What is the default subnet mask for a Class B IP address? The keyed answer is B — 255.255.0.0. Eliminate options that confuse adjacent Networking terms before confirming B.\n\n✅ Answer: B — 255.255.0.0",
+    "options": {
+      "A": "✗ Not the answer. '255.0.0.0' does not fit the scenario: What is the default subnet mask for a Class B IP address? The keyed answer is B — 255.255.0.0.",
+      "B": "✓ CORRECT. \"255.255.0.0\" is correct because it matches the standard Networking definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "C": "✗ Not the answer. '255.255.255.0' does not fit the scenario: What is the default subnet mask for a Class B IP address? The keyed answer is B — 255.255.0.0.",
+      "D": "✗ Not the answer. '255.255.255.255' does not fit the scenario: What is the default subnet mask for a Class B IP address? The keyed answer is B — 255.255.0.0."
+    },
+    "studyTip": "OSI: Physical→Data Link→Network→Transport→Session→Presentation→Application.",
+    "source": "offline-deep"
+  },
+  "82": {
+    "overview": "Which protocol is used for resolving IP addresses to MAC addresses? The keyed answer is C — ARP. Eliminate options that confuse adjacent Networking terms before confirming C.\n\n✅ Answer: C — ARP",
+    "options": {
+      "A": "✗ Not the answer. 'DNS' means Domain Name System — resolves names to IP addresses. That answers a different kind of question. Here, the stem points to 'ARP' instead.",
+      "B": "✗ Not the answer. 'DHCP' does not fit the scenario: Which protocol is used for resolving IP addresses to MAC addresses? The keyed answer is C — ARP.",
+      "C": "✓ CORRECT. \"ARP\" is correct because it matches the standard Networking definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "D": "✗ Not the answer. 'ICMP' does not fit the scenario: Which protocol is used for resolving IP addresses to MAC addresses? The keyed answer is C — ARP."
+    },
+    "studyTip": "OSI: Physical→Data Link→Network→Transport→Session→Presentation→Application.",
+    "source": "offline-deep"
+  },
+  "83": {
+    "overview": "What is the primary purpose of the DHCP protocol? The keyed answer is D — To assign IP addresses dynamically to devices. Eliminate options that confuse adjacent Networking terms before confirming D.\n\n✅ Answer: D — To assign IP addresses dynamically to devices",
+    "options": {
+      "A": "✗ Not the answer. 'To resolve domain names to IP addresses' does not fit the scenario: What is the primary purpose of the DHCP protocol? The keyed answer is D — To assign IP addresses dynamically to devices.",
+      "B": "✗ Not the answer. 'To route packets between networks' does not fit the scenario: What is the primary purpose of the DHCP protocol? The keyed answer is D — To assign IP addresses dynamically to devices.",
+      "C": "✗ Not the answer. 'To detect errors in data transmission' does not fit the scenario: What is the primary purpose of the DHCP protocol? The keyed answer is D — To assign IP addresses dynamically to devices.",
+      "D": "✓ CORRECT. \"To assign IP addresses dynamically to devices\" is correct because it matches the standard Networking definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous."
+    },
+    "studyTip": "OSI: Physical→Data Link→Network→Transport→Session→Presentation→Application.",
+    "source": "offline-deep"
+  },
+  "84": {
+    "overview": "Which protocol is used for sending email from a client to a server? The keyed answer is C — SMTP. Eliminate options that confuse adjacent Networking terms before confirming C.\n\n✅ Answer: C — SMTP",
+    "options": {
+      "A": "✗ Not the answer. 'POP3' does not fit the scenario: Which protocol is used for sending email from a client to a server? The keyed answer is C — SMTP.",
+      "B": "✗ Not the answer. 'IMAP' does not fit the scenario: Which protocol is used for sending email from a client to a server? The keyed answer is C — SMTP.",
+      "C": "✓ CORRECT. \"SMTP\" is correct because it matches the standard Networking definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "D": "✗ Not the answer. 'FTP' does not fit the scenario: Which protocol is used for sending email from a client to a server? The keyed answer is C — SMTP."
+    },
+    "studyTip": "OSI: Physical→Data Link→Network→Transport→Session→Presentation→Application.",
+    "source": "offline-deep"
+  },
+  "85": {
+    "overview": "Which routing protocol uses the Dijkstra algorithm to find the shortest path? The keyed answer is B — OSPF. Eliminate options that confuse adjacent Networking terms before confirming B.\n\n✅ Answer: B — OSPF",
+    "options": {
+      "A": "✗ Not the answer. 'RIP' does not fit the scenario: Which routing protocol uses the Dijkstra algorithm to find the shortest path? The keyed answer is B — OSPF.",
+      "B": "✓ CORRECT. \"OSPF\" is correct because it matches the standard Networking definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "C": "✗ Not the answer. 'BGP' does not fit the scenario: Which routing protocol uses the Dijkstra algorithm to find the shortest path? The keyed answer is B — OSPF.",
+      "D": "✗ Not the answer. 'EIGRP' does not fit the scenario: Which routing protocol uses the Dijkstra algorithm to find the shortest path? The keyed answer is B — OSPF."
+    },
+    "studyTip": "OSI: Physical→Data Link→Network→Transport→Session→Presentation→Application.",
+    "source": "offline-deep"
+  },
+  "86": {
+    "overview": "What is the purpose of a default gateway in a network? The keyed answer is B — To route traffic to devices outside the local network. Eliminate options that confuse adjacent Networking terms before confirming B.\n\n✅ Answer: B — To route traffic to devices outside the local network",
+    "options": {
+      "A": "✗ Not the answer. 'To connect devices within the same subnet' does not fit the scenario: What is the purpose of a default gateway in a network? The keyed answer is B — To route traffic to devices outside the local network.",
+      "B": "✓ CORRECT. \"To route traffic to devices outside the local network\" is correct because it matches the standard Networking definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "C": "✗ Not the answer. 'To assign IP addresses to devices' does not fit the scenario: What is the purpose of a default gateway in a network? The keyed answer is B — To route traffic to devices outside the local network.",
+      "D": "✗ Not the answer. 'To filter incoming and outgoing traffic' does not fit the scenario: What is the purpose of a default gateway in a network? The keyed answer is B — To route traffic to devices outside the local network."
+    },
+    "studyTip": "OSI: Physical→Data Link→Network→Transport→Session→Presentation→Application.",
+    "source": "offline-deep"
+  },
+  "87": {
+    "overview": "What is the purpose of a firewall in a network? The keyed answer is C — To filter incoming and outgoing traffic based on security rules. Eliminate options that confuse adjacent Networking terms before confirming C.\n\n✅ Answer: C — To filter incoming and outgoing traffic based on security rules",
+    "options": {
+      "A": "✗ Not the answer. 'To assign IP addresses to devices' does not fit the scenario: What is the purpose of a firewall in a network? The keyed answer is C — To filter incoming and outgoing traffic based on security rules.",
+      "B": "✗ Not the answer. 'To resolve domain names to IP addresses' does not fit the scenario: What is the purpose of a firewall in a network? The keyed answer is C — To filter incoming and outgoing traffic based on security rules.",
+      "C": "✓ CORRECT. \"To filter incoming and outgoing traffic based on security rules\" is correct because it matches the standard Networking definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "D": "✗ Not the answer. 'To detect physical layer errors' does not fit the scenario: What is the purpose of a firewall in a network? The keyed answer is C — To filter incoming and outgoing traffic based on security rules."
+    },
+    "studyTip": "OSI: Physical→Data Link→Network→Transport→Session→Presentation→Application.",
+    "source": "offline-deep"
+  },
+  "88": {
+    "overview": "Which device operates at the Data Link Layer of the OSI model? The keyed answer is B — Switch. Eliminate options that confuse adjacent Networking terms before confirming B.\n\n✅ Answer: B — Switch",
+    "options": {
+      "A": "✗ Not the answer. 'Router' does not fit the scenario: Which device operates at the Data Link Layer of the OSI model? The keyed answer is B — Switch.",
+      "B": "✓ CORRECT. \"Switch\" is correct because it matches the standard Networking definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "C": "✗ Not the answer. 'Hub' does not fit the scenario: Which device operates at the Data Link Layer of the OSI model? The keyed answer is B — Switch.",
+      "D": "✗ Not the answer. 'Repeater' does not fit the scenario: Which device operates at the Data Link Layer of the OSI model? The keyed answer is B — Switch."
+    },
+    "studyTip": "OSI: Physical→Data Link→Network→Transport→Session→Presentation→Application.",
+    "source": "offline-deep"
+  },
+  "89": {
+    "overview": "What is the main disadvantage of a bus topology? The keyed answer is C — Single point of failure. Eliminate options that confuse adjacent Networking terms before confirming C.\n\n✅ Answer: C — Single point of failure",
+    "options": {
+      "A": "✗ Not the answer. 'High cost of implementation' does not fit the scenario: What is the main disadvantage of a bus topology? The keyed answer is C — Single point of failure.",
+      "B": "✗ Not the answer. 'Difficulty in troubleshooting' does not fit the scenario: What is the main disadvantage of a bus topology? The keyed answer is C — Single point of failure.",
+      "C": "✓ CORRECT. \"Single point of failure\" is correct because it matches the standard Networking definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "D": "✗ Not the answer. 'Limited scalability' means ability to handle growing load (users, queries, data). That answers a different kind of question. Here, the stem points to 'Single point of failure' instead."
+    },
+    "studyTip": "OSI: Physical→Data Link→Network→Transport→Session→Presentation→Application.",
+    "source": "offline-deep"
+  },
+  "90": {
+    "overview": "What is the maximum speed of a standard Ethernet network? The keyed answer is A — 10 Mbps. Eliminate options that confuse adjacent Networking terms before confirming A.\n\n✅ Answer: A — 10 Mbps",
+    "options": {
+      "A": "✓ CORRECT. \"10 Mbps\" is correct because it matches the standard Networking definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "B": "✗ Not the answer. '100 Mbps' does not fit the scenario: What is the maximum speed of a standard Ethernet network? The keyed answer is A — 10 Mbps.",
+      "C": "✗ Not the answer. '1 Gbps' does not fit the scenario: What is the maximum speed of a standard Ethernet network? The keyed answer is A — 10 Mbps.",
+      "D": "✗ Not the answer. '10 Gbps' does not fit the scenario: What is the maximum speed of a standard Ethernet network? The keyed answer is A — 10 Mbps."
+    },
+    "studyTip": "OSI: Physical→Data Link→Network→Transport→Session→Presentation→Application.",
+    "source": "offline-deep"
+  },
+  "91": {
+    "overview": "What does the term \"deep\" specifically refer to in the context of deep learning? The keyed answer is C — The number of functions or layers in the network. Eliminate options that confuse adjacent AI / ML terms before confirming C.\n\n✅ Answer: C — The number of functions or layers in the network",
+    "options": {
+      "A": "✗ Not the answer. The complexity of the mathematical functions used does not match the dominant growth rate of the given expression.",
+      "B": "✗ Not the answer. 'The amount of training data required for accuracy' does not fit the scenario: What does the term \"deep\" specifically refer to in the context of deep learning? The keyed answer is C — The number of functions or layers in the network.",
+      "C": "✓ CORRECT. \"The number of functions or layers in the network\" is correct because it matches the standard AI / ML definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "D": "✗ Not the answer. 'The width of the hidden layers' does not fit the scenario: What does the term \"deep\" specifically refer to in the context of deep learning? The keyed answer is C — The number of functions or layers in the network."
+    },
+    "studyTip": "Supervised = labeled data. BFS shallowest first. A* uses f=g+h.",
+    "source": "offline-deep"
+  },
+  "92": {
+    "overview": "Which of the following is NOT an application of AI? The keyed answer is A — Weather prediction using fixed formulas only. Eliminate options that confuse adjacent AI / ML terms before confirming A.\n\n✅ Answer: A — Weather prediction using fixed formulas only",
+    "options": {
+      "A": "✓ CORRECT. \"Weather prediction using fixed formulas only\" is correct because it matches the standard AI / ML definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "B": "✗ Not the answer. 'Medical diagnosis' does not fit the scenario: Which of the following is NOT an application of AI? The keyed answer is A — Weather prediction using fixed formulas only.",
+      "C": "✗ Not the answer. 'Autonomous vehicles' does not fit the scenario: Which of the following is NOT an application of AI? The keyed answer is A — Weather prediction using fixed formulas only.",
+      "D": "✗ Not the answer. 'Face recognition' does not fit the scenario: Which of the following is NOT an application of AI? The keyed answer is A — Weather prediction using fixed formulas only."
+    },
+    "studyTip": "Supervised = labeled data. BFS shallowest first. A* uses f=g+h.",
+    "source": "offline-deep"
+  },
+  "93": {
+    "overview": "In gradient descent, what is the role of the momentum parameter? The keyed answer is D — It acts like a velocity of the step size to increase or decrease speed based on direction. Eliminate options that confuse adjacent AI / ML terms before confirming D.\n\n✅ Answer: D — It acts like a velocity of the step size to increase or decrease speed based on direction",
+    "options": {
+      "A": "✗ Not the answer. 'It acts as a static step size that never changes' does not fit the scenario: In gradient descent, what is the role of the momentum parameter? The keyed answer is D — It acts like a velocity of the step size to increase or decrease speed based on direction.",
+      "B": "✗ Not the answer. 'It ensures the weights are always initialized to zero' does not fit the scenario: In gradient descent, what is the role of the momentum parameter? The keyed answer is D — It acts like a velocity of the step size to increase or decrease speed based on direction.",
+      "C": "✗ Not the answer. 'It is used to randomly drop units during the training process' means program in execution with its own address space. That answers a different kind of question. Here, the stem points to 'It acts like a velocity of the step size to increase or decrease speed based on direction' instead.",
+      "D": "✓ CORRECT. \"It acts like a velocity of the step size to increase or decrease speed based on direction\" is correct because it matches the standard AI / ML definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous."
+    },
+    "studyTip": "Supervised = labeled data. BFS shallowest first. A* uses f=g+h.",
+    "source": "offline-deep"
+  },
+  "94": {
+    "overview": "Machine learning mainly focuses on: The keyed answer is B — Learning patterns from data. Eliminate options that confuse adjacent AI / ML terms before confirming B.\n\n✅ Answer: B — Learning patterns from data",
+    "options": {
+      "A": "✗ Not the answer. 'Writing rules manually' is a plausible AI / ML term but not what this stem requires. Compare carefully with B: Learning patterns from data.",
+      "B": "✓ CORRECT. \"Learning patterns from data\" is correct because it matches the standard AI / ML definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "C": "✗ Not the answer. 'Hardware design' is a plausible AI / ML term but not what this stem requires. Compare carefully with B: Learning patterns from data.",
+      "D": "✗ Not the answer. 'Internet communication' is a plausible AI / ML term but not what this stem requires. Compare carefully with B: Learning patterns from data."
+    },
+    "studyTip": "Supervised = labeled data. BFS shallowest first. A* uses f=g+h.",
+    "source": "offline-deep"
+  },
+  "95": {
+    "overview": "What is the main purpose of using Dropout during the training of a neural network? The keyed answer is D — To prevent overfitting by randomly setting some unit outputs to zero. Eliminate options that confuse adjacent AI / ML terms before confirming D.\n\n✅ Answer: D — To prevent overfitting by randomly setting some unit outputs to zero",
+    "options": {
+      "A": "✗ Not the answer. 'To increase the learning rate of the output layer' does not fit the scenario: What is the main purpose of using Dropout during the training of a neural network? The keyed answer is D — To prevent overfitting by randomly setting some unit outputs to zero.",
+      "B": "✗ Not the answer. 'To scale the prediction during training' does not fit the scenario: What is the main purpose of using Dropout during the training of a neural network? The keyed answer is D — To prevent overfitting by randomly setting some unit outputs to zero.",
+      "C": "✗ Not the answer. 'To replace missing data points in the training set' does not fit the scenario: What is the main purpose of using Dropout during the training of a neural network? The keyed answer is D — To prevent overfitting by randomly setting some unit outputs to zero.",
+      "D": "✓ CORRECT. \"To prevent overfitting by randomly setting some unit outputs to zero\" is correct because it matches the standard AI / ML definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous."
+    },
+    "studyTip": "Supervised = labeled data. BFS shallowest first. A* uses f=g+h.",
+    "source": "offline-deep"
+  },
+  "96": {
+    "overview": "Which type of learning uses labeled data? Core concept: learning from labeled training examples. Eliminate options that confuse adjacent AI / ML terms before confirming C.\n\n✅ Answer: C — Supervised learning",
+    "options": {
+      "A": "✗ Not the answer. Supervised learning trains on labeled input–output pairs — classification and regression are supervised tasks.",
+      "B": "✗ Not the answer. 'Reinforcement learning' does not fit the scenario: Which type of learning uses labeled data? The keyed answer is C — Supervised learning.",
+      "C": "✓ CORRECT. Supervised learning trains on labeled input–output pairs — classification and regression are supervised tasks.",
+      "D": "✗ Not the answer. 'Deep learning' does not fit the scenario: Which type of learning uses labeled data? The keyed answer is C — Supervised learning."
+    },
+    "studyTip": "Supervised = labeled data. BFS shallowest first. A* uses f=g+h.",
+    "source": "offline-deep"
+  },
+  "97": {
+    "overview": "Which of the following is an example of supervised learning? Core concept: supervised learning predicting discrete class labels. Eliminate options that confuse adjacent AI / ML terms before confirming B.\n\n✅ Answer: B — Spam email classification",
+    "options": {
+      "A": "✗ Not the answer. 'Clustering customers by behaviour' refers to unsupervised grouping of unlabeled data — not demand forecasting over time. The question asks about the specific concept tested in this question. That requires 'Spam email classification' — supervised learning predicting discrete class labels. These are different concepts; do not confuse them on the exam.",
+      "B": "✓ CORRECT. \"Spam email classification\" is correct because it matches the standard AI / ML definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "C": "✗ Not the answer. 'Discovering hidden patterns' does not fit the scenario: Which of the following is an example of supervised learning? The keyed answer is B — Spam email classification.",
+      "D": "✗ Not the answer. 'Dimensionality reduction' does not fit the scenario: Which of the following is an example of supervised learning? The keyed answer is B — Spam email classification."
+    },
+    "studyTip": "Supervised = labeled data. BFS shallowest first. A* uses f=g+h.",
+    "source": "offline-deep"
+  },
+  "98": {
+    "overview": "Unsupervised learning is mainly used for: The keyed answer is C — Finding patterns in unlabeled data. Eliminate options that confuse adjacent AI / ML terms before confirming C.\n\n✅ Answer: C — Finding patterns in unlabeled data",
+    "options": {
+      "A": "✗ Not the answer. 'Prediction with known outputs' does not fit the scenario: Unsupervised learning is mainly used for: The keyed answer is C — Finding patterns in unlabeled data.",
+      "B": "✗ Not the answer. 'Classification with labels' represents supervised learning predicting discrete class labels. This question tests the specific concept tested in this question. That requires 'Finding patterns in unlabeled data', not 'Classification with labels'.",
+      "C": "✓ CORRECT. \"Finding patterns in unlabeled data\" is correct because it matches the standard AI / ML definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "D": "✗ Not the answer. 'Decision making with rewards' does not fit the scenario: Unsupervised learning is mainly used for: The keyed answer is C — Finding patterns in unlabeled data."
+    },
+    "studyTip": "Supervised = labeled data. BFS shallowest first. A* uses f=g+h.",
+    "source": "offline-deep"
+  },
+  "99": {
+    "overview": "Overfitting occurs when a model: The keyed answer is C — Learns noise instead of patterns. Eliminate options that confuse adjacent AI / ML terms before confirming C.\n\n✅ Answer: C — Learns noise instead of patterns",
+    "options": {
+      "A": "✗ Not the answer. 'Performs well on new data' represents C++ operator that allocates memory on the heap. This question tests the specific concept tested in this question. That requires 'Learns noise instead of patterns', not 'Performs well on new data'.",
+      "B": "✗ Not the answer. 'Is too simple' is a plausible AI / ML term but not what this stem requires. Compare carefully with C: Learns noise instead of patterns.",
+      "C": "✓ CORRECT. \"Learns noise instead of patterns\" is correct because it matches the standard AI / ML definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "D": "✗ Not the answer. 'Has too little data' is a plausible AI / ML term but not what this stem requires. Compare carefully with C: Learns noise instead of patterns."
+    },
+    "studyTip": "Supervised = labeled data. BFS shallowest first. A* uses f=g+h.",
+    "source": "offline-deep"
+  },
+  "100": {
+    "overview": "Which metric is commonly used to evaluate classification models? The keyed answer is B — Accuracy. Eliminate options that confuse adjacent AI / ML terms before confirming B.\n\n✅ Answer: B — Accuracy",
+    "options": {
+      "A": "✗ Not the answer. 'Mean squared error' does not fit the scenario: Which metric is commonly used to evaluate classification models? The keyed answer is B — Accuracy.",
+      "B": "✓ CORRECT. \"Accuracy\" is correct because it matches the standard AI / ML definition or behavior required by this scenario — verify against lecture notes if any detail feels ambiguous.",
+      "C": "✗ Not the answer. 'Variance' does not fit the scenario: Which metric is commonly used to evaluate classification models? The keyed answer is B — Accuracy.",
+      "D": "✗ Not the answer. 'Correlation' does not fit the scenario: Which metric is commonly used to evaluate classification models? The keyed answer is B — Accuracy."
+    },
+    "studyTip": "Supervised = labeled data. BFS shallowest first. A* uses f=g+h.",
+    "source": "offline-deep"
+  }
+}

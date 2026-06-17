@@ -1,0 +1,2624 @@
+{
+  "title": "ASTU 2nd Round Model Exit Exam",
+  "source": "ASTU Software Engineering — 2nd Round Model Exit Examination (2hr, 100 MCQs)",
+  "total": 100,
+  "focusGuide": {
+    "C++": "Syntax, pointers, references, memory, file I/O, operators, control flow.",
+    "Data Structures": "Stacks, queues, trees, arrays, graphs, recursion, complexity.",
+    "Java / OOP": "Encapsulation, abstraction, inheritance, polymorphism, IDE tools.",
+    "Web Development": "HTML, CSS, JavaScript, PWA, MVC, web servers, dynamic sites.",
+    "Android": "Manifest, components, fragments, threading, resources, broadcast receivers.",
+    "Database": "SQL DML, normalization, keys, cardinality, referential integrity.",
+    "Operating Systems": "Scheduling, paging, threads, processes, security, deadlock.",
+    "Software Engineering": "SDLC models, CASE tools, incremental development, RAD.",
+    "Requirements Engineering": "Elicitation, SRS, scope, stakeholder bridge, analysis phase.",
+    "Software Architecture": "Architecture docs, quality attributes, abstraction levels, scalability.",
+    "Project Management": "PERT, Scrum, CMMI, maintenance types, risk mitigation.",
+    "Software Testing": "Unit testing, coverage, early testing, data-driven testing.",
+    "Software Maintenance": "Code smells, technical debt, ripple effect, data clumps.",
+    "Networking": "TCP/IP, subnetting, routing protocols, OSI layers, firewalls.",
+    "AI / ML": "Deep learning, gradient descent, supervised/unsupervised, overfitting, metrics."
+  },
+  "questions": [
+    {
+      "examNumber": 1,
+      "id": 1,
+      "topic": "C++",
+      "text": "Which one of the following is a valid identifier name in C++?",
+      "options": [
+        {
+          "key": "A",
+          "text": "__account"
+        },
+        {
+          "key": "B",
+          "text": "Total salary"
+        },
+        {
+          "key": "C",
+          "text": "Tax-rate"
+        },
+        {
+          "key": "D",
+          "text": "Pay_rate"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (C++): __account"
+    },
+    {
+      "examNumber": 2,
+      "id": 2,
+      "topic": "C++",
+      "text": "Identify the correct C++ control statement used to test more than one condition from the given alternatives.",
+      "options": [
+        {
+          "key": "A",
+          "text": "if"
+        },
+        {
+          "key": "B",
+          "text": "if-else"
+        },
+        {
+          "key": "C",
+          "text": "switch"
+        },
+        {
+          "key": "D",
+          "text": "?: (conditional operator)"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (C++): switch"
+    },
+    {
+      "examNumber": 3,
+      "id": 3,
+      "topic": "C++",
+      "text": "Which one of the following is the correct syntax for defining a reference variable y to a variable x assuming that x is declared as int (that is, int x;)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "int  *y= x;"
+        },
+        {
+          "key": "B",
+          "text": "int &y=x;"
+        },
+        {
+          "key": "C",
+          "text": "int &y=&x;"
+        },
+        {
+          "key": "D",
+          "text": "int  *y=&x;"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (C++): int &y=x;"
+    },
+    {
+      "examNumber": 4,
+      "id": 4,
+      "topic": "C++",
+      "text": "One of the following operators is used to dynamically allocate memory in C++.",
+      "options": [
+        {
+          "key": "A",
+          "text": "?:"
+        },
+        {
+          "key": "B",
+          "text": "::"
+        },
+        {
+          "key": "C",
+          "text": "new"
+        },
+        {
+          "key": "D",
+          "text": "&"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (C++): new"
+    },
+    {
+      "examNumber": 5,
+      "id": 5,
+      "topic": "C++",
+      "text": "One of the following is a scope resolution operator in C++>",
+      "options": [
+        {
+          "key": "A",
+          "text": "::"
+        },
+        {
+          "key": "B",
+          "text": "|"
+        },
+        {
+          "key": "C",
+          "text": "new"
+        },
+        {
+          "key": "D",
+          "text": "&&"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (C++): ::"
+    },
+    {
+      "examNumber": 6,
+      "id": 6,
+      "topic": "C++",
+      "text": "What is the output of the following C++ program?\n#include <iostream>\nusing namespace std;\n\nint main()\n{\n if(-10)\n{\n cout<<\"Welcome\";\n}\nelse\n{\n cout<<\"Good Bye\";\n}\nreturn 0;\n}",
+      "options": [
+        {
+          "key": "A",
+          "text": "Good Bye"
+        },
+        {
+          "key": "B",
+          "text": "Welcome"
+        },
+        {
+          "key": "C",
+          "text": "WelcomeGood Bye"
+        },
+        {
+          "key": "D",
+          "text": "Compilation error"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (C++): Welcome"
+    },
+    {
+      "examNumber": 7,
+      "id": 7,
+      "topic": "C++",
+      "text": "What is the output of the following code?\n#include <iostream>\nusing namespace std;\nvoid compute(int *x, int *y)\n{\n *x=*x+*y;\n *y=*x * *y;\n cout<<*x<<\" \"<<*y<<endl;\n}\n\nint main(){\n int a=10,b=5;\n compute(&a, &b);\n cout<<a<<\" \"<<b;\n}",
+      "options": [
+        {
+          "key": "A",
+          "text": "15   75\n15   75"
+        },
+        {
+          "key": "B",
+          "text": "15  75\n10    5"
+        },
+        {
+          "key": "C",
+          "text": "15  75\n75   15"
+        },
+        {
+          "key": "D",
+          "text": "15  15\n10  10"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (C++): 15   75\n15   75"
+    },
+    {
+      "examNumber": 8,
+      "id": 8,
+      "topic": "C++",
+      "text": "What is the output of the following C++ program?\n#include <iostream>\nusing namespace std;\nint main() {\nint a = 10, b = 20;\nint c = (a > b) ? a++ : ++b;\ncout << a << \" \" << b << \" \" << c;\nreturn 0;\n}",
+      "options": [
+        {
+          "key": "A",
+          "text": "11 21 21"
+        },
+        {
+          "key": "B",
+          "text": "1 20 20"
+        },
+        {
+          "key": "C",
+          "text": "10 21 20"
+        },
+        {
+          "key": "D",
+          "text": "10 21 21"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (C++): 10 21 21"
+    },
+    {
+      "examNumber": 9,
+      "id": 9,
+      "topic": "C++",
+      "text": "What will be the output of the following code?\nint arr[] = {10, 20, 30, 40, 50};\nint *ptr = arr + 2;\ncout << *ptr << \" \" << *(ptr + 1);",
+      "options": [
+        {
+          "key": "A",
+          "text": "20 30"
+        },
+        {
+          "key": "B",
+          "text": "10 20"
+        },
+        {
+          "key": "C",
+          "text": "30 40"
+        },
+        {
+          "key": "D",
+          "text": "40 50"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (C++): 30 40"
+    },
+    {
+      "examNumber": 10,
+      "id": 10,
+      "topic": "C++",
+      "text": "Which of the following correctly dynamically allocates memory for an array of 10 integers in C++?",
+      "options": [
+        {
+          "key": "A",
+          "text": "int arr[10] = new int;"
+        },
+        {
+          "key": "B",
+          "text": "int *arr = new int[10];"
+        },
+        {
+          "key": "C",
+          "text": "int *arr = malloc(10 * sizeof(int));"
+        },
+        {
+          "key": "D",
+          "text": "int arr = new int[10];"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (C++): int *arr = new int[10];"
+    },
+    {
+      "examNumber": 11,
+      "id": 11,
+      "topic": "C++",
+      "text": "Which mode should be used to open a file for both reading and writing in C++?",
+      "options": [
+        {
+          "key": "A",
+          "text": "ios::in"
+        },
+        {
+          "key": "B",
+          "text": "ios::out"
+        },
+        {
+          "key": "C",
+          "text": "ios::in | ios::out"
+        },
+        {
+          "key": "D",
+          "text": "ios::app"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (C++): ios::in | ios::out"
+    },
+    {
+      "examNumber": 12,
+      "id": 12,
+      "topic": "Data Structures",
+      "text": "Which of the following is used to implement recursion?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Queue"
+        },
+        {
+          "key": "B",
+          "text": "Stack"
+        },
+        {
+          "key": "C",
+          "text": "Array"
+        },
+        {
+          "key": "D",
+          "text": "Linked List"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Data Structures): Stack"
+    },
+    {
+      "examNumber": 13,
+      "id": 13,
+      "topic": "Data Structures",
+      "text": "Which of the following data structures allows deletion at both ends but insertion at only one end?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Dequeue"
+        },
+        {
+          "key": "B",
+          "text": "Queue"
+        },
+        {
+          "key": "C",
+          "text": "Stack"
+        },
+        {
+          "key": "D",
+          "text": "Priority Queue"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Data Structures): Dequeue"
+    },
+    {
+      "examNumber": 14,
+      "id": 14,
+      "topic": "Data Structures",
+      "text": "Which of the following is not a characteristic of arrays?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Fixed size"
+        },
+        {
+          "key": "B",
+          "text": "Random access"
+        },
+        {
+          "key": "C",
+          "text": "Dynamic resizing"
+        },
+        {
+          "key": "D",
+          "text": "Contiguous memory allocation"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Data Structures): Dynamic resizing"
+    },
+    {
+      "examNumber": 15,
+      "id": 15,
+      "topic": "Data Structures",
+      "text": "Which of the following is true about a circular queue?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It is a linear data structure"
+        },
+        {
+          "key": "B",
+          "text": "It overcomes the limitation of linear queue"
+        },
+        {
+          "key": "C",
+          "text": "It uses a linked list"
+        },
+        {
+          "key": "D",
+          "text": "It allows insertion at both ends"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Data Structures): It overcomes the limitation of linear queue"
+    },
+    {
+      "examNumber": 16,
+      "id": 16,
+      "topic": "Data Structures",
+      "text": "Which of the following is not a type of tree traversal?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Inorder"
+        },
+        {
+          "key": "B",
+          "text": "Preorder"
+        },
+        {
+          "key": "C",
+          "text": "Postorder"
+        },
+        {
+          "key": "D",
+          "text": "Reverseorder"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Data Structures): Reverseorder"
+    },
+    {
+      "examNumber": 17,
+      "id": 17,
+      "topic": "Data Structures",
+      "text": "Which of the following is not a linear data structure?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Array"
+        },
+        {
+          "key": "B",
+          "text": "Stack"
+        },
+        {
+          "key": "C",
+          "text": "Queue"
+        },
+        {
+          "key": "D",
+          "text": "Graph"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Data Structures): Graph"
+    },
+    {
+      "examNumber": 18,
+      "id": 18,
+      "topic": "Java / OOP",
+      "text": "A developer argues for using Object-Oriented Programming (OOP) over procedural programming for a national health system that will grow, integrate with other systems, and require frequent updates. Which key advantage of OOP best supports this argument?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Faster execution speed"
+        },
+        {
+          "key": "B",
+          "text": "Reduced memory consumption"
+        },
+        {
+          "key": "C",
+          "text": "Better modularity and maintainability"
+        },
+        {
+          "key": "D",
+          "text": "Simpler compilation process"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Java / OOP): Better modularity and maintainability"
+    },
+    {
+      "examNumber": 19,
+      "id": 19,
+      "topic": "Java / OOP",
+      "text": "In an integrated development environment (IDE), a programmer steps through the execution of a program line by line while inspecting variable values to understand why a logical error occurs during runtime. Which IDE feature is the programmer primarily using?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Code editor"
+        },
+        {
+          "key": "B",
+          "text": "Compiler"
+        },
+        {
+          "key": "C",
+          "text": "Build tool"
+        },
+        {
+          "key": "D",
+          "text": "Debugger"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Java / OOP): Debugger"
+    },
+    {
+      "examNumber": 20,
+      "id": 20,
+      "topic": "Java / OOP",
+      "text": "A software architect emphasizes designing classes that represent concepts in the problem domain rather than focusing on implementation details. This allows developers to reason about the system at a higher level of understanding. Which object-oriented concept is being emphasized?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Encapsulation"
+        },
+        {
+          "key": "B",
+          "text": "Abstraction"
+        },
+        {
+          "key": "C",
+          "text": "Inheritance"
+        },
+        {
+          "key": "D",
+          "text": "Polymorphism"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Java / OOP): Abstraction"
+    },
+    {
+      "examNumber": 21,
+      "id": 21,
+      "topic": "Java / OOP",
+      "text": "Consider a banking application where the account balance must not be modified directly by external classes to prevent unauthorized transactions. The developer hides the balance variable and allows access only through controlled methods. Which object-oriented concept is primarily used to achieve this protection?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Encapsulation"
+        },
+        {
+          "key": "B",
+          "text": "Polymorphism"
+        },
+        {
+          "key": "C",
+          "text": "Inheritance"
+        },
+        {
+          "key": "D",
+          "text": "Abstraction"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Java / OOP): Encapsulation"
+    },
+    {
+      "examNumber": 22,
+      "id": 22,
+      "topic": "Java / OOP",
+      "text": "Examine the following class definition:\nclass Account {\n    private double balance;\n}\nFrom a software engineering perspective, why is declaring balance as private considered good design practice?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It reduces memory usage"
+        },
+        {
+          "key": "B",
+          "text": "It improves execution speed"
+        },
+        {
+          "key": "C",
+          "text": "It simplifies inheritance"
+        },
+        {
+          "key": "D",
+          "text": "It prevents unauthorized direct access to sensitive data"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Java / OOP): It prevents unauthorized direct access to sensitive data"
+    },
+    {
+      "examNumber": 23,
+      "id": 23,
+      "topic": "Web Development",
+      "text": "Which programming language is mainly used for client-side scripting to add interactivity to web pages?",
+      "options": [
+        {
+          "key": "A",
+          "text": "PHP"
+        },
+        {
+          "key": "B",
+          "text": "Java"
+        },
+        {
+          "key": "C",
+          "text": "Python"
+        },
+        {
+          "key": "D",
+          "text": "JavaScript"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Web Development): JavaScript"
+    },
+    {
+      "examNumber": 24,
+      "id": 24,
+      "topic": "Web Development",
+      "text": "Which of the following best describes the role of a web server?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Executes client-side scripts only"
+        },
+        {
+          "key": "B",
+          "text": "Stores and processes client requests and delivers web resources"
+        },
+        {
+          "key": "C",
+          "text": "Designs the user interface"
+        },
+        {
+          "key": "D",
+          "text": "Manages user authentication only"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Web Development): Stores and processes client requests and delivers web resources"
+    },
+    {
+      "examNumber": 25,
+      "id": 25,
+      "topic": "Web Development",
+      "text": "Which combination correctly represents a typical web technology stack?",
+      "options": [
+        {
+          "key": "A",
+          "text": "HTML, CSS, JavaScript"
+        },
+        {
+          "key": "B",
+          "text": "Java, C++, Assembly"
+        },
+        {
+          "key": "C",
+          "text": "SQL, XML, JSON"
+        },
+        {
+          "key": "D",
+          "text": "Photoshop, Illustrator, Figma"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Web Development): HTML, CSS, JavaScript"
+    },
+    {
+      "examNumber": 26,
+      "id": 26,
+      "topic": "Web Development",
+      "text": "Which shorthand property correctly sets margin-top and margin-bottom to 20px and margin-left and margin-right to 10px?",
+      "options": [
+        {
+          "key": "A",
+          "text": "margin: 10px 20px;"
+        },
+        {
+          "key": "B",
+          "text": "margin: 20px 10px;"
+        },
+        {
+          "key": "C",
+          "text": "margin: 20px 10px 20px 10px;"
+        },
+        {
+          "key": "D",
+          "text": "margin: 10px 20px 10px 20px;"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Web Development): margin: 20px 10px;"
+    },
+    {
+      "examNumber": 27,
+      "id": 27,
+      "topic": "Web Development",
+      "text": "Which CSS rule ensures that padding and border are included in an element's total width and height?",
+      "options": [
+        {
+          "key": "A",
+          "text": "box-sizing: content-box;"
+        },
+        {
+          "key": "B",
+          "text": "box-model: border-box;"
+        },
+        {
+          "key": "C",
+          "text": "box-sizing: border-box;"
+        },
+        {
+          "key": "D",
+          "text": "display: border-box;"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Web Development): box-sizing: border-box;"
+    },
+    {
+      "examNumber": 28,
+      "id": 28,
+      "topic": "Web Development",
+      "text": "Consider this CSS code. Relative to what is the element positioned?\ndiv {\nposition: absolute;\ntop: 50px; }",
+      "options": [
+        {
+          "key": "A",
+          "text": "The browser window always"
+        },
+        {
+          "key": "B",
+          "text": "The nearest positioned ancestor"
+        },
+        {
+          "key": "C",
+          "text": "The parent element only"
+        },
+        {
+          "key": "D",
+          "text": "The document body only"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Web Development): The nearest positioned ancestor"
+    },
+    {
+      "examNumber": 29,
+      "id": 29,
+      "topic": "Web Development",
+      "text": "When implementing Progressive Web App (PWA) features, which combination provides the BEST offline experience?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Service Worker + Cache API"
+        },
+        {
+          "key": "B",
+          "text": "Service Worker + Web App Manifest"
+        },
+        {
+          "key": "C",
+          "text": "Local Storage + Cache API"
+        },
+        {
+          "key": "D",
+          "text": "IndexedDB + Cookies"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Web Development): Service Worker + Cache API"
+    },
+    {
+      "examNumber": 30,
+      "id": 30,
+      "topic": "Web Development",
+      "text": "Given the following CSS:\n.box {\nwidth: 300px;\npadding: 20px;\nborder: 10px solid;\nbox-sizing: border-box;\n}\nWhat is the actual rendered width of .box?",
+      "options": [
+        {
+          "key": "A",
+          "text": "300px"
+        },
+        {
+          "key": "B",
+          "text": "340px"
+        },
+        {
+          "key": "C",
+          "text": "360px"
+        },
+        {
+          "key": "D",
+          "text": "400px"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Web Development): 300px"
+    },
+    {
+      "examNumber": 31,
+      "id": 31,
+      "topic": "Web Development",
+      "text": "What happens when a user requests a page on a dynamic website?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The server sends a pre-built HTML file"
+        },
+        {
+          "key": "B",
+          "text": "The server generates the HTML on the fly using server-side scripts"
+        },
+        {
+          "key": "C",
+          "text": "The browser automatically creates the HTML"
+        },
+        {
+          "key": "D",
+          "text": "The page cannot be displayed"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Web Development): The server generates the HTML on the fly using server-side scripts"
+    },
+    {
+      "examNumber": 32,
+      "id": 32,
+      "topic": "Android",
+      "text": "What is the primary purpose of the AndroidManifest.xml file?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To store the visual layout of the application screens"
+        },
+        {
+          "key": "B",
+          "text": "To contain the Java/Kotlin source code for business logic"
+        },
+        {
+          "key": "C",
+          "text": "To manage the local SQLite database versioning"
+        },
+        {
+          "key": "D",
+          "text": "To define the essential information about the app for the Android system"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Android): To define the essential information about the app for the Android system"
+    },
+    {
+      "examNumber": 33,
+      "id": 33,
+      "topic": "Android",
+      "text": "What does the \"R\" file in Android development represent?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A file containing the Raw assets like MP3s"
+        },
+        {
+          "key": "B",
+          "text": "A dynamically generated class containing resource IDs"
+        },
+        {
+          "key": "C",
+          "text": "The Runtime configuration for the Dalvik Virtual Machine"
+        },
+        {
+          "key": "D",
+          "text": "The Repository link for Gradle dependencies"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Android): A dynamically generated class containing resource IDs"
+    },
+    {
+      "examNumber": 34,
+      "id": 34,
+      "topic": "Android",
+      "text": "In mobile computing, what is the role of a \"Broadcast Receiver\"?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To respond to system-wide announcement notifications"
+        },
+        {
+          "key": "B",
+          "text": "To navigate between different app screens"
+        },
+        {
+          "key": "C",
+          "text": "To play audio and video streams from a URL"
+        },
+        {
+          "key": "D",
+          "text": "To manage the synchronization of data with a remote server"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Android): To respond to system-wide announcement notifications"
+    },
+    {
+      "examNumber": 35,
+      "id": 35,
+      "topic": "Android",
+      "text": "Which of the following best describes \"Fragments\" in Android?",
+      "options": [
+        {
+          "key": "A",
+          "text": "They are small portions of the SQLite database"
+        },
+        {
+          "key": "B",
+          "text": "They are modular sections of an activity with their own lifecycle"
+        },
+        {
+          "key": "C",
+          "text": "They are external libraries used for network requests"
+        },
+        {
+          "key": "D",
+          "text": "They are error messages shown when an app crashes"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Android): They are modular sections of an activity with their own lifecycle"
+    },
+    {
+      "examNumber": 36,
+      "id": 36,
+      "topic": "Android",
+      "text": "A developer wants to ensure that a long-running network task does not block the UI thread. What is the correct implementation strategy?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Run the task inside the onCreate() method directly"
+        },
+        {
+          "key": "B",
+          "text": "Increase the CPU priority of the main thread"
+        },
+        {
+          "key": "C",
+          "text": "Use a background thread or Coroutines/AsyncTask"
+        },
+        {
+          "key": "D",
+          "text": "Call Thread.sleep() before the network request"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Android): Use a background thread or Coroutines/AsyncTask"
+    },
+    {
+      "examNumber": 37,
+      "id": 37,
+      "topic": "Database",
+      "text": "Which of the following SQL command is used to add new records in database?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Add"
+        },
+        {
+          "key": "B",
+          "text": "Update"
+        },
+        {
+          "key": "C",
+          "text": "Insert"
+        },
+        {
+          "key": "D",
+          "text": "Create"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Database): Insert"
+    },
+    {
+      "examNumber": 38,
+      "id": 38,
+      "topic": "Database",
+      "text": "What is composite attribute?",
+      "options": [
+        {
+          "key": "A",
+          "text": "An attribute that can take more than one value for each entity instance"
+        },
+        {
+          "key": "B",
+          "text": "An attribute that can be split into components"
+        },
+        {
+          "key": "C",
+          "text": "An attribute that can be derived based on other attributes"
+        },
+        {
+          "key": "D",
+          "text": "An attribute that takes values from same domain"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Database): An attribute that can be split into components"
+    },
+    {
+      "examNumber": 39,
+      "id": 39,
+      "topic": "Database",
+      "text": "The cardinality of a relation in relational database refers to",
+      "options": [
+        {
+          "key": "A",
+          "text": "The number of instances"
+        },
+        {
+          "key": "B",
+          "text": "The domain of attribute values"
+        },
+        {
+          "key": "C",
+          "text": "The number of columns"
+        },
+        {
+          "key": "D",
+          "text": "The order of columns"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Database): The number of instances"
+    },
+    {
+      "examNumber": 40,
+      "id": 40,
+      "topic": "Database",
+      "text": "In relational data model, a relation schema is made of",
+      "options": [
+        {
+          "key": "A",
+          "text": "Relation name and data types"
+        },
+        {
+          "key": "B",
+          "text": "Relation name and list of attributes"
+        },
+        {
+          "key": "C",
+          "text": "List of attributes and domain values"
+        },
+        {
+          "key": "D",
+          "text": "Entity set and list of attributes"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Database): Relation name and list of attributes"
+    },
+    {
+      "examNumber": 41,
+      "id": 41,
+      "topic": "Database",
+      "text": "Which of the following is SQL Data Manipulation (DML) command?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Add"
+        },
+        {
+          "key": "B",
+          "text": "Drop"
+        },
+        {
+          "key": "C",
+          "text": "Create"
+        },
+        {
+          "key": "D",
+          "text": "Update"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Database): Update"
+    },
+    {
+      "examNumber": 42,
+      "id": 42,
+      "topic": "Database",
+      "text": "The primary purpose of referential integrity constraint is -------------------",
+      "options": [
+        {
+          "key": "A",
+          "text": "To uniquely identify individual record from the two relations"
+        },
+        {
+          "key": "B",
+          "text": "To maintain the consistency among tuples in the two relations"
+        },
+        {
+          "key": "C",
+          "text": "Ensuring within each tuple, the value of each attribute is from same domain"
+        },
+        {
+          "key": "D",
+          "text": "To prevent data redundancy and avoid insertion anomalies in a database"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Database): To maintain the consistency among tuples in the two relations"
+    },
+    {
+      "examNumber": 43,
+      "id": 43,
+      "topic": "Operating Systems",
+      "text": "In which one of the following page replacement algorithms it is possible for the page fault rate to increase even when the number of allocated frames increases?",
+      "options": [
+        {
+          "key": "A",
+          "text": "LRU (Least Recently Used)"
+        },
+        {
+          "key": "B",
+          "text": "OPT (Optimal Page Replacement)"
+        },
+        {
+          "key": "C",
+          "text": "MRU (Most Recently Used)"
+        },
+        {
+          "key": "D",
+          "text": "FIFO (First In First Out)"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Operating Systems): FIFO (First In First Out)"
+    },
+    {
+      "examNumber": 44,
+      "id": 44,
+      "topic": "Operating Systems",
+      "text": "A thread differs from a process because a thread:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Has its own address space"
+        },
+        {
+          "key": "B",
+          "text": "Is heavyweight"
+        },
+        {
+          "key": "C",
+          "text": "Shares address space with other threads"
+        },
+        {
+          "key": "D",
+          "text": "Cannot run independently"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Operating Systems): Shares address space with other threads"
+    },
+    {
+      "examNumber": 45,
+      "id": 45,
+      "topic": "Operating Systems",
+      "text": "Which of the following increases overhead in an OS?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Paging"
+        },
+        {
+          "key": "B",
+          "text": "Context switching"
+        },
+        {
+          "key": "C",
+          "text": "Multithreading"
+        },
+        {
+          "key": "D",
+          "text": "Virtual memory"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Operating Systems): Context switching"
+    },
+    {
+      "examNumber": 46,
+      "id": 46,
+      "topic": "Operating Systems",
+      "text": "A process moves from Running to Waiting state when:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Time quantum expires"
+        },
+        {
+          "key": "B",
+          "text": "I/O operation is requested"
+        },
+        {
+          "key": "C",
+          "text": "Process terminates"
+        },
+        {
+          "key": "D",
+          "text": "Scheduler selects another process"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Operating Systems): I/O operation is requested"
+    },
+    {
+      "examNumber": 47,
+      "id": 47,
+      "topic": "Operating Systems",
+      "text": "Zombie process is a process that:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Is running"
+        },
+        {
+          "key": "B",
+          "text": "Is waiting for I/O"
+        },
+        {
+          "key": "C",
+          "text": "Has terminated but PCB exists"
+        },
+        {
+          "key": "D",
+          "text": "Is deadlocked"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Operating Systems): Has terminated but PCB exists"
+    },
+    {
+      "examNumber": 48,
+      "id": 48,
+      "topic": "Operating Systems",
+      "text": "The primary goal of operating system security is to ensure:",
+      "options": [
+        {
+          "key": "A",
+          "text": "High performance"
+        },
+        {
+          "key": "B",
+          "text": "Confidentiality, Integrity, and Availability"
+        },
+        {
+          "key": "C",
+          "text": "Faster execution"
+        },
+        {
+          "key": "D",
+          "text": "Better user interface"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Operating Systems): Confidentiality, Integrity, and Availability"
+    },
+    {
+      "examNumber": 49,
+      "id": 49,
+      "topic": "Software Engineering",
+      "text": "What is the primary emphasis of the spiral model?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Phased software development"
+        },
+        {
+          "key": "B",
+          "text": "Throwaway prototyping"
+        },
+        {
+          "key": "C",
+          "text": "Risk-driven development"
+        },
+        {
+          "key": "D",
+          "text": "Incremental development"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Software Engineering): Risk-driven development"
+    },
+    {
+      "examNumber": 50,
+      "id": 50,
+      "topic": "Software Engineering",
+      "text": "What best describes evolutionary prototyping?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Phased software development"
+        },
+        {
+          "key": "B",
+          "text": "Throwaway prototyping"
+        },
+        {
+          "key": "C",
+          "text": "Risk-driven development"
+        },
+        {
+          "key": "D",
+          "text": "Incremental development"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Software Engineering): Incremental development"
+    },
+    {
+      "examNumber": 51,
+      "id": 51,
+      "topic": "Software Engineering",
+      "text": "What is a software life-cycle?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The operational lifespan of software"
+        },
+        {
+          "key": "B",
+          "text": "A cyclic approach to software development"
+        },
+        {
+          "key": "C",
+          "text": "A phased approach to software development"
+        },
+        {
+          "key": "D",
+          "text": "The lifespan of cyclically developed software"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Software Engineering): A phased approach to software development"
+    },
+    {
+      "examNumber": 52,
+      "id": 52,
+      "topic": "Software Engineering",
+      "text": "What activities are performed during incremental software construction?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Detailed design and coding of classes in a system subset"
+        },
+        {
+          "key": "B",
+          "text": "Detailed design, coding, and unit testing of classes in a system subset"
+        },
+        {
+          "key": "C",
+          "text": "Coding and unit testing of classes in a system subset"
+        },
+        {
+          "key": "D",
+          "text": "Unit and integration testing of classes in a system subset"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Engineering): Detailed design, coding, and unit testing of classes in a system subset"
+    },
+    {
+      "examNumber": 53,
+      "id": 53,
+      "topic": "Software Engineering",
+      "text": "If you need to develop software within a strict deadline with unlimited budget, which development model would you choose?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Waterfall"
+        },
+        {
+          "key": "B",
+          "text": "Spiral"
+        },
+        {
+          "key": "C",
+          "text": "RAD (Rapid Application Development)"
+        },
+        {
+          "key": "D",
+          "text": "Incremental"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Software Engineering): RAD (Rapid Application Development)"
+    },
+    {
+      "examNumber": 54,
+      "id": 54,
+      "topic": "Software Engineering",
+      "text": "Which type of CASE tools support early process activities like requirements and design?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Lower-CASE"
+        },
+        {
+          "key": "B",
+          "text": "Upper-CASE"
+        },
+        {
+          "key": "C",
+          "text": "System-CASE"
+        },
+        {
+          "key": "D",
+          "text": "Test-CASE"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Engineering): Upper-CASE"
+    },
+    {
+      "examNumber": 55,
+      "id": 55,
+      "topic": "Requirements Engineering",
+      "text": "Requirements Engineering mainly acts as a bridge between_______.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Stakeholders and developers"
+        },
+        {
+          "key": "B",
+          "text": "Hardware and software"
+        },
+        {
+          "key": "C",
+          "text": "Developers and testers"
+        },
+        {
+          "key": "D",
+          "text": "Users and databases"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Requirements Engineering): Stakeholders and developers"
+    },
+    {
+      "examNumber": 56,
+      "id": 56,
+      "topic": "Requirements Engineering",
+      "text": "Which phase of SDLC is most directly supported by Requirements Engineering?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Maintenance"
+        },
+        {
+          "key": "B",
+          "text": "Deployment"
+        },
+        {
+          "key": "C",
+          "text": "Analysis"
+        },
+        {
+          "key": "D",
+          "text": "Implementation"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Requirements Engineering): Analysis"
+    },
+    {
+      "examNumber": 57,
+      "id": 57,
+      "topic": "Requirements Engineering",
+      "text": "Poor requirements engineering most commonly leads to_______?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Faster development"
+        },
+        {
+          "key": "B",
+          "text": "Cost overruns and project failure"
+        },
+        {
+          "key": "C",
+          "text": "Reduced documentation"
+        },
+        {
+          "key": "D",
+          "text": "Improved performance"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Requirements Engineering): Cost overruns and project failure"
+    },
+    {
+      "examNumber": 58,
+      "id": 58,
+      "topic": "Requirements Engineering",
+      "text": "A large organization plans to implement a new enterprise resource planning system. The system definition document describes the overall system context, boundaries, and how it aligns with organizational goals. What is the primary purpose of preparing such a document before detailed design begins?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Define overall system scope and context"
+        },
+        {
+          "key": "B",
+          "text": "Describe algorithms"
+        },
+        {
+          "key": "C",
+          "text": "Replace the SRS"
+        },
+        {
+          "key": "D",
+          "text": "Specify user interfaces"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Requirements Engineering): Define overall system scope and context"
+    },
+    {
+      "examNumber": 59,
+      "id": 59,
+      "topic": "Requirements Engineering",
+      "text": "Requirements Engineering contributes to project success mainly by:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Reducing hardware costs"
+        },
+        {
+          "key": "B",
+          "text": "Clarifying expectations early"
+        },
+        {
+          "key": "C",
+          "text": "Increasing programming speed"
+        },
+        {
+          "key": "D",
+          "text": "Eliminating documentation"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Requirements Engineering): Clarifying expectations early"
+    },
+    {
+      "examNumber": 60,
+      "id": 60,
+      "topic": "Software Architecture",
+      "text": "Which artifact best represents architectural decisions?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Source code"
+        },
+        {
+          "key": "B",
+          "text": "UML class diagram"
+        },
+        {
+          "key": "C",
+          "text": "Architecture documentation"
+        },
+        {
+          "key": "D",
+          "text": "Test cases"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Software Architecture): Architecture documentation"
+    },
+    {
+      "examNumber": 61,
+      "id": 61,
+      "topic": "Software Architecture",
+      "text": "Which factor has the greatest long-term impact on system evolution?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Variable naming"
+        },
+        {
+          "key": "B",
+          "text": "UI color"
+        },
+        {
+          "key": "C",
+          "text": "Architectural structure"
+        },
+        {
+          "key": "D",
+          "text": "Code formatting"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Software Architecture): Architectural structure"
+    },
+    {
+      "examNumber": 62,
+      "id": 62,
+      "topic": "Software Architecture",
+      "text": "Architecture decisions are difficult to change because they:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Are undocumented"
+        },
+        {
+          "key": "B",
+          "text": "Affect multiple quality attributes"
+        },
+        {
+          "key": "C",
+          "text": "Only impact performance"
+        },
+        {
+          "key": "D",
+          "text": "Are optional"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Architecture): Affect multiple quality attributes"
+    },
+    {
+      "examNumber": 63,
+      "id": 63,
+      "topic": "Software Architecture",
+      "text": "Which stakeholder is MOST concerned with scalability?",
+      "options": [
+        {
+          "key": "A",
+          "text": "End user"
+        },
+        {
+          "key": "B",
+          "text": "Tester"
+        },
+        {
+          "key": "C",
+          "text": "UI designer"
+        },
+        {
+          "key": "D",
+          "text": "Architect"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Software Architecture): Architect"
+    },
+    {
+      "examNumber": 64,
+      "id": 64,
+      "topic": "Software Architecture",
+      "text": "Architecture differs from design mainly by its:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Level of abstraction"
+        },
+        {
+          "key": "B",
+          "text": "Programming language"
+        },
+        {
+          "key": "C",
+          "text": "Number of classes"
+        },
+        {
+          "key": "D",
+          "text": "Testing approach"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Software Architecture): Level of abstraction"
+    },
+    {
+      "examNumber": 65,
+      "id": 65,
+      "topic": "Project Management",
+      "text": "The PM decides to use PERT for the new feature's estimation. If the Optimistic time is 4 days, Most likely is 7 days, and Pessimistic is 16 days, what is the expected duration?",
+      "options": [
+        {
+          "key": "A",
+          "text": "7 days"
+        },
+        {
+          "key": "B",
+          "text": "8 days"
+        },
+        {
+          "key": "C",
+          "text": "9 days"
+        },
+        {
+          "key": "D",
+          "text": "10 days"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Project Management): 8 days"
+    },
+    {
+      "examNumber": 66,
+      "id": 66,
+      "topic": "Project Management",
+      "text": "Which management activity is most critical when the team lead suddenly resigns during the \"Execution\" phase?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Configuration Management"
+        },
+        {
+          "key": "B",
+          "text": "Risk Mitigation"
+        },
+        {
+          "key": "C",
+          "text": "Requirement Validation"
+        },
+        {
+          "key": "D",
+          "text": "Perfective Maintenance"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Project Management): Risk Mitigation"
+    },
+    {
+      "examNumber": 67,
+      "id": 67,
+      "topic": "Project Management",
+      "text": "The team is using a \"Scrum\" framework. During the Sprint Review, the customer realizes the UI is not intuitive. Which SPM document was likely poorly defined at the start?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Software Requirement Specification (SRS)"
+        },
+        {
+          "key": "B",
+          "text": "Work Breakdown Structure (WBS)"
+        },
+        {
+          "key": "C",
+          "text": "Project Charter"
+        },
+        {
+          "key": "D",
+          "text": "Risk Register"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Project Management): Software Requirement Specification (SRS)"
+    },
+    {
+      "examNumber": 68,
+      "id": 68,
+      "topic": "Project Management",
+      "text": "Management wants to add a new \"Real-time Analytics\" dashboard to the existing system. This falls under:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Corrective Maintenance"
+        },
+        {
+          "key": "B",
+          "text": "Adaptive Maintenance"
+        },
+        {
+          "key": "C",
+          "text": "Perfective Maintenance"
+        },
+        {
+          "key": "D",
+          "text": "Preventive Maintenance"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Project Management): Perfective Maintenance"
+    },
+    {
+      "examNumber": 69,
+      "id": 69,
+      "topic": "Project Management",
+      "text": "Which model provides a framework for \"Continuous Process Improvement\" in software organizations?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Waterfall"
+        },
+        {
+          "key": "B",
+          "text": "CMMI (Capability Maturity Model Integration)"
+        },
+        {
+          "key": "C",
+          "text": "V-Model"
+        },
+        {
+          "key": "D",
+          "text": "RAD Model"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Project Management): CMMI (Capability Maturity Model Integration)"
+    },
+    {
+      "examNumber": 70,
+      "id": 70,
+      "topic": "Software Testing",
+      "text": "Why is software testing crucial in the Software Development Life Cycle (SDLC)?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It ensures that the software functions correctly and meets user expectations"
+        },
+        {
+          "key": "B",
+          "text": "It eliminates all defects from the software"
+        },
+        {
+          "key": "C",
+          "text": "It speeds up the development process"
+        },
+        {
+          "key": "D",
+          "text": "It guarantees the software will never fail"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Software Testing): It ensures that the software functions correctly and meets user expectations"
+    },
+    {
+      "examNumber": 71,
+      "id": 71,
+      "topic": "Software Testing",
+      "text": "A finance company needs to verify that its fraud detection algorithm correctly flags suspicious transactions. The system must detect fraudulent activity while avoiding false positives. What testing approach is most suitable?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Regression Testing"
+        },
+        {
+          "key": "B",
+          "text": "Exploratory Testing"
+        },
+        {
+          "key": "C",
+          "text": "Data-Driven Testing"
+        },
+        {
+          "key": "D",
+          "text": "Smoke Testing"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Software Testing): Data-Driven Testing"
+    },
+    {
+      "examNumber": 72,
+      "id": 72,
+      "topic": "Software Testing",
+      "text": "In the context of test case design, what is a key measurement used to assess test coverage?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Number of test cases executed"
+        },
+        {
+          "key": "B",
+          "text": "Percentage of requirements tested"
+        },
+        {
+          "key": "C",
+          "text": "Amount of time taken for testing"
+        },
+        {
+          "key": "D",
+          "text": "Number of defects reported"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Testing): Percentage of requirements tested"
+    },
+    {
+      "examNumber": 73,
+      "id": 73,
+      "topic": "Software Testing",
+      "text": "Which principle of software testing states that testing should start as early as possible in the SDLC?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Exhaustive testing is impossible"
+        },
+        {
+          "key": "B",
+          "text": "Defect clustering"
+        },
+        {
+          "key": "C",
+          "text": "Early testing"
+        },
+        {
+          "key": "D",
+          "text": "Pesticide paradox"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Software Testing): Early testing"
+    },
+    {
+      "examNumber": 74,
+      "id": 74,
+      "topic": "Software Testing",
+      "text": "In which scenario would unit testing be most beneficial?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Testing a complex integration between multiple services"
+        },
+        {
+          "key": "B",
+          "text": "Ensuring that an individual function in a program behaves correctly"
+        },
+        {
+          "key": "C",
+          "text": "Validating security vulnerabilities in a web application"
+        },
+        {
+          "key": "D",
+          "text": "Measuring system performance under peak load"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Testing): Ensuring that an individual function in a program behaves correctly"
+    },
+    {
+      "examNumber": 75,
+      "id": 75,
+      "topic": "Software Maintenance",
+      "text": "In a legacy system, you find that changing a single requirement requires modifying 15 different classes. How would you evaluate this architectural state?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The system is exhibiting \"Shotgun Surgery,\" indicating poor encapsulation"
+        },
+        {
+          "key": "B",
+          "text": "The system is exhibiting \"Divergent Change,\" indicating a lack of cohesion"
+        },
+        {
+          "key": "C",
+          "text": "The system is following the Open-Closed Principle correctly"
+        },
+        {
+          "key": "D",
+          "text": "The system is optimized for high-performance execution"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Software Maintenance): The system is exhibiting \"Shotgun Surgery,\" indicating poor encapsulation"
+    },
+    {
+      "examNumber": 76,
+      "id": 76,
+      "topic": "Software Maintenance",
+      "text": "When evaluating the impact of \"Feature Envy,\" what is the primary structural concern?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The method is excessively long and difficult to unit test"
+        },
+        {
+          "key": "B",
+          "text": "The method is more interested in the data of a class other than the one it is in"
+        },
+        {
+          "key": "C",
+          "text": "The method uses too many local variables, increasing memory consumption"
+        },
+        {
+          "key": "D",
+          "text": "The method is duplicated across multiple subclasses in a hierarchy"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Maintenance): The method is more interested in the data of a class other than the one it is in"
+    },
+    {
+      "examNumber": 77,
+      "id": 77,
+      "topic": "Software Maintenance",
+      "text": "You are evaluating a system where \"Technical Debt\" is high. Which metric would best serve as an indicator of structural decay over time?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The total number of lines of code in the master branch"
+        },
+        {
+          "key": "B",
+          "text": "The ratio of comment lines to executable code lines"
+        },
+        {
+          "key": "C",
+          "text": "The increase in Cyclomatic Complexity relative to the number of new features added"
+        },
+        {
+          "key": "D",
+          "text": "The number of developers assigned to the maintenance phase"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Software Maintenance): The increase in Cyclomatic Complexity relative to the number of new features added"
+    },
+    {
+      "examNumber": 78,
+      "id": 78,
+      "topic": "Software Maintenance",
+      "text": "A system has a high frequency of \"Ripple Effect\" defects. What is the most likely evaluation of its design?",
+      "options": [
+        {
+          "key": "A",
+          "text": "High module cohesion and low coupling"
+        },
+        {
+          "key": "B",
+          "text": "High degree of global variable usage and tight coupling"
+        },
+        {
+          "key": "C",
+          "text": "Use of strict interfaces and dependency injection"
+        },
+        {
+          "key": "D",
+          "text": "Excessive use of inheritance rather than composition"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Software Maintenance): High degree of global variable usage and tight coupling"
+    },
+    {
+      "examNumber": 79,
+      "id": 79,
+      "topic": "Software Maintenance",
+      "text": "Evaluate the \"Data Clump\" smell. What is the most effective way to judge if a group of variables constitutes a clump?",
+      "options": [
+        {
+          "key": "A",
+          "text": "They are always passed together as parameters across different methods"
+        },
+        {
+          "key": "B",
+          "text": "They are all defined as static constants in a configuration file"
+        },
+        {
+          "key": "C",
+          "text": "They are all of the same primitive data type"
+        },
+        {
+          "key": "D",
+          "text": "They are used only within a single private method"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Software Maintenance): They are always passed together as parameters across different methods"
+    },
+    {
+      "examNumber": 80,
+      "id": 80,
+      "topic": "Networking",
+      "text": "In the TCP/IP model, which layer corresponds to the Network Layer in the OSI model?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Application Layer"
+        },
+        {
+          "key": "B",
+          "text": "Transport Layer"
+        },
+        {
+          "key": "C",
+          "text": "Internet Layer"
+        },
+        {
+          "key": "D",
+          "text": "Network Access Layer"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Networking): Internet Layer"
+    },
+    {
+      "examNumber": 81,
+      "id": 81,
+      "topic": "Networking",
+      "text": "What is the default subnet mask for a Class B IP address?",
+      "options": [
+        {
+          "key": "A",
+          "text": "255.0.0.0"
+        },
+        {
+          "key": "B",
+          "text": "255.255.0.0"
+        },
+        {
+          "key": "C",
+          "text": "255.255.255.0"
+        },
+        {
+          "key": "D",
+          "text": "255.255.255.255"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Networking): 255.255.0.0"
+    },
+    {
+      "examNumber": 82,
+      "id": 82,
+      "topic": "Networking",
+      "text": "Which protocol is used for resolving IP addresses to MAC addresses?",
+      "options": [
+        {
+          "key": "A",
+          "text": "DNS"
+        },
+        {
+          "key": "B",
+          "text": "DHCP"
+        },
+        {
+          "key": "C",
+          "text": "ARP"
+        },
+        {
+          "key": "D",
+          "text": "ICMP"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Networking): ARP"
+    },
+    {
+      "examNumber": 83,
+      "id": 83,
+      "topic": "Networking",
+      "text": "What is the primary purpose of the DHCP protocol?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To resolve domain names to IP addresses"
+        },
+        {
+          "key": "B",
+          "text": "To route packets between networks"
+        },
+        {
+          "key": "C",
+          "text": "To detect errors in data transmission"
+        },
+        {
+          "key": "D",
+          "text": "To assign IP addresses dynamically to devices"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (Networking): To assign IP addresses dynamically to devices"
+    },
+    {
+      "examNumber": 84,
+      "id": 84,
+      "topic": "Networking",
+      "text": "Which protocol is used for sending email from a client to a server?",
+      "options": [
+        {
+          "key": "A",
+          "text": "POP3"
+        },
+        {
+          "key": "B",
+          "text": "IMAP"
+        },
+        {
+          "key": "C",
+          "text": "SMTP"
+        },
+        {
+          "key": "D",
+          "text": "FTP"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Networking): SMTP"
+    },
+    {
+      "examNumber": 85,
+      "id": 85,
+      "topic": "Networking",
+      "text": "Which routing protocol uses the Dijkstra algorithm to find the shortest path?",
+      "options": [
+        {
+          "key": "A",
+          "text": "RIP"
+        },
+        {
+          "key": "B",
+          "text": "OSPF"
+        },
+        {
+          "key": "C",
+          "text": "BGP"
+        },
+        {
+          "key": "D",
+          "text": "EIGRP"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Networking): OSPF"
+    },
+    {
+      "examNumber": 86,
+      "id": 86,
+      "topic": "Networking",
+      "text": "What is the purpose of a default gateway in a network?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To connect devices within the same subnet"
+        },
+        {
+          "key": "B",
+          "text": "To route traffic to devices outside the local network"
+        },
+        {
+          "key": "C",
+          "text": "To assign IP addresses to devices"
+        },
+        {
+          "key": "D",
+          "text": "To filter incoming and outgoing traffic"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Networking): To route traffic to devices outside the local network"
+    },
+    {
+      "examNumber": 87,
+      "id": 87,
+      "topic": "Networking",
+      "text": "What is the purpose of a firewall in a network?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To assign IP addresses to devices"
+        },
+        {
+          "key": "B",
+          "text": "To resolve domain names to IP addresses"
+        },
+        {
+          "key": "C",
+          "text": "To filter incoming and outgoing traffic based on security rules"
+        },
+        {
+          "key": "D",
+          "text": "To detect physical layer errors"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Networking): To filter incoming and outgoing traffic based on security rules"
+    },
+    {
+      "examNumber": 88,
+      "id": 88,
+      "topic": "Networking",
+      "text": "Which device operates at the Data Link Layer of the OSI model?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Router"
+        },
+        {
+          "key": "B",
+          "text": "Switch"
+        },
+        {
+          "key": "C",
+          "text": "Hub"
+        },
+        {
+          "key": "D",
+          "text": "Repeater"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (Networking): Switch"
+    },
+    {
+      "examNumber": 89,
+      "id": 89,
+      "topic": "Networking",
+      "text": "What is the main disadvantage of a bus topology?",
+      "options": [
+        {
+          "key": "A",
+          "text": "High cost of implementation"
+        },
+        {
+          "key": "B",
+          "text": "Difficulty in troubleshooting"
+        },
+        {
+          "key": "C",
+          "text": "Single point of failure"
+        },
+        {
+          "key": "D",
+          "text": "Limited scalability"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (Networking): Single point of failure"
+    },
+    {
+      "examNumber": 90,
+      "id": 90,
+      "topic": "Networking",
+      "text": "What is the maximum speed of a standard Ethernet network?",
+      "options": [
+        {
+          "key": "A",
+          "text": "10 Mbps"
+        },
+        {
+          "key": "B",
+          "text": "100 Mbps"
+        },
+        {
+          "key": "C",
+          "text": "1 Gbps"
+        },
+        {
+          "key": "D",
+          "text": "10 Gbps"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (Networking): 10 Mbps"
+    },
+    {
+      "examNumber": 91,
+      "id": 91,
+      "topic": "AI / ML",
+      "text": "What does the term \"deep\" specifically refer to in the context of deep learning?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The complexity of the mathematical functions used"
+        },
+        {
+          "key": "B",
+          "text": "The amount of training data required for accuracy"
+        },
+        {
+          "key": "C",
+          "text": "The number of functions or layers in the network"
+        },
+        {
+          "key": "D",
+          "text": "The width of the hidden layers"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (AI / ML): The number of functions or layers in the network"
+    },
+    {
+      "examNumber": 92,
+      "id": 92,
+      "topic": "AI / ML",
+      "text": "Which of the following is NOT an application of AI?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Weather prediction using fixed formulas only"
+        },
+        {
+          "key": "B",
+          "text": "Medical diagnosis"
+        },
+        {
+          "key": "C",
+          "text": "Autonomous vehicles"
+        },
+        {
+          "key": "D",
+          "text": "Face recognition"
+        }
+      ],
+      "answer": "A",
+      "concept": "Key idea (AI / ML): Weather prediction using fixed formulas only"
+    },
+    {
+      "examNumber": 93,
+      "id": 93,
+      "topic": "AI / ML",
+      "text": "In gradient descent, what is the role of the momentum parameter?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It acts as a static step size that never changes"
+        },
+        {
+          "key": "B",
+          "text": "It ensures the weights are always initialized to zero"
+        },
+        {
+          "key": "C",
+          "text": "It is used to randomly drop units during the training process"
+        },
+        {
+          "key": "D",
+          "text": "It acts like a velocity of the step size to increase or decrease speed based on direction"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (AI / ML): It acts like a velocity of the step size to increase or decrease speed based on direction"
+    },
+    {
+      "examNumber": 94,
+      "id": 94,
+      "topic": "AI / ML",
+      "text": "Machine learning mainly focuses on:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Writing rules manually"
+        },
+        {
+          "key": "B",
+          "text": "Learning patterns from data"
+        },
+        {
+          "key": "C",
+          "text": "Hardware design"
+        },
+        {
+          "key": "D",
+          "text": "Internet communication"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (AI / ML): Learning patterns from data"
+    },
+    {
+      "examNumber": 95,
+      "id": 95,
+      "topic": "AI / ML",
+      "text": "What is the main purpose of using Dropout during the training of a neural network?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To increase the learning rate of the output layer"
+        },
+        {
+          "key": "B",
+          "text": "To scale the prediction during training"
+        },
+        {
+          "key": "C",
+          "text": "To replace missing data points in the training set"
+        },
+        {
+          "key": "D",
+          "text": "To prevent overfitting by randomly setting some unit outputs to zero"
+        }
+      ],
+      "answer": "D",
+      "concept": "Key idea (AI / ML): To prevent overfitting by randomly setting some unit outputs to zero"
+    },
+    {
+      "examNumber": 96,
+      "id": 96,
+      "topic": "AI / ML",
+      "text": "Which type of learning uses labeled data?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Unsupervised learning"
+        },
+        {
+          "key": "B",
+          "text": "Reinforcement learning"
+        },
+        {
+          "key": "C",
+          "text": "Supervised learning"
+        },
+        {
+          "key": "D",
+          "text": "Deep learning"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (AI / ML): Supervised learning"
+    },
+    {
+      "examNumber": 97,
+      "id": 97,
+      "topic": "AI / ML",
+      "text": "Which of the following is an example of supervised learning?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Clustering customers by behaviour"
+        },
+        {
+          "key": "B",
+          "text": "Spam email classification"
+        },
+        {
+          "key": "C",
+          "text": "Discovering hidden patterns"
+        },
+        {
+          "key": "D",
+          "text": "Dimensionality reduction"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (AI / ML): Spam email classification"
+    },
+    {
+      "examNumber": 98,
+      "id": 98,
+      "topic": "AI / ML",
+      "text": "Unsupervised learning is mainly used for:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Prediction with known outputs"
+        },
+        {
+          "key": "B",
+          "text": "Classification with labels"
+        },
+        {
+          "key": "C",
+          "text": "Finding patterns in unlabeled data"
+        },
+        {
+          "key": "D",
+          "text": "Decision making with rewards"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (AI / ML): Finding patterns in unlabeled data"
+    },
+    {
+      "examNumber": 99,
+      "id": 99,
+      "topic": "AI / ML",
+      "text": "Overfitting occurs when a model:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Performs well on new data"
+        },
+        {
+          "key": "B",
+          "text": "Is too simple"
+        },
+        {
+          "key": "C",
+          "text": "Learns noise instead of patterns"
+        },
+        {
+          "key": "D",
+          "text": "Has too little data"
+        }
+      ],
+      "answer": "C",
+      "concept": "Key idea (AI / ML): Learns noise instead of patterns"
+    },
+    {
+      "examNumber": 100,
+      "id": 100,
+      "topic": "AI / ML",
+      "text": "Which metric is commonly used to evaluate classification models?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Mean squared error"
+        },
+        {
+          "key": "B",
+          "text": "Accuracy"
+        },
+        {
+          "key": "C",
+          "text": "Variance"
+        },
+        {
+          "key": "D",
+          "text": "Correlation"
+        }
+      ],
+      "answer": "B",
+      "concept": "Key idea (AI / ML): Accuracy"
+    }
+  ]
+}
